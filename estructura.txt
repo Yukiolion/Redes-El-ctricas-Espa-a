@@ -3,13 +3,10 @@ REDES-EL-ECTRICAS-ESPA-A/
 ├──app/                    # Ruta para el FrontEnd
 |   └── main.py            # Archivo para el FrontEnd con Streamlit
 │
-├── lib/                   # Código fuente para el proyecto (BackEnd)
-|   ├── external/
-|   │    └── api.py    
+├── lib/                   # Código fuente para el proyecto (BackEnd)   
 │   ├── data/                  # Datos sin procesar y procesados
 |   │    ├── sinprocesar/       # Datos originales (sin modificar) VA A SER TEMPORAL SI PASAMOS LOS DATOS EXTRAIDOS Y LIMPIADOS DIRECTAMENTE A LA BD
-|   │    ├── processed/         # Datos listos para análisis/modelado
-|   │    └── external/          # Datos externos (ej: APIs, fuentes secundarias)
+|   │    └── processed/         # Datos listos para análisis/modelado
 |   |         
 |   |
 |   ├── notebooks/         # Notebooks exploratorios o explicativos (Es un ejemplo)
@@ -20,8 +17,8 @@ REDES-EL-ECTRICAS-ESPA-A/
 |   |      
 |   |
 │   └── models/            # Entrenamiento, predicción y evaluación
-│        ├── train_model.py.ipynb
-│        └── predict_model..ipynb
+│        ├── train_model.ipynb
+│        └── predict_model.ipynb
 |
 |
 ├── models/                # Modelos entrenados (.pkl, .joblib, etc.)
