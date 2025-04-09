@@ -19,9 +19,6 @@ REDES-EL-ECTRICAS-ESPA-A/
 │   └── models/            # Entrenamiento, predicción y evaluación
 │        ├── train_model.py.ipynb
 │        └── predict_model..ipynb
-│   
-│   
-|
 |
 |
 ├── models/                # Modelos entrenados (.pkl, .joblib, etc.)
