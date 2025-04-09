@@ -1,0 +1,34 @@
+REDES-EL-ECTRICAS-ESPA-A/
+|
+├──app/                    # Ruta para el FrontEnd
+|   └── main.py            # Archivo para el FrontEnd con Streamlit
+│
+├── lib/                   # Código fuente para el proyecto (BackEnd)
+│   ├── data/                  # Datos sin procesar y procesados
+|   │    ├── sinprocesar/       # Datos originales (sin modificar) VA A SER TEMPORAL SI PASAMOS LOS DATOS EXTRAIDOS Y LIMPIADOS DIRECTAMENTE A LA BD
+|   │    ├── processed/         # Datos listos para análisis/modelado
+|   │    └── external/          # Datos externos (ej: APIs, fuentes secundarias)
+|   |
+|   ├── notebooks/         # Notebooks exploratorios o explicativos (Es un ejemplo)
+|   |    ├── 01_Extraccion.ipynb.ipynb       # Extraccion de datos
+|   |    ├── 02_Preprocesado.ipynb           # Procesamiento y limpieza de datos
+|   |    ├── 03_Visualizaciones.ipynb        # Generar graficas, etc.
+|   |    └── 04_DataBase.ipynb               # Conexiones y cargas a la base de datos
+|   |      
+|   |
+│   └── models/            # Entrenamiento, predicción y evaluación
+│        ├── train_model.py.ipynb
+│        └── predict_model..ipynb
+│   
+│   
+|
+|
+|
+├── models/                # Modelos entrenados (.pkl, .joblib, etc.)
+│
+├── reports/               # Reportes, visualizaciones, gráficas una vez generados
+│   └── figures/           # Imágenes y gráficos generados
+│
+├── requirements.txt       # Librerías necesarias para el proyecto
+├── README.md              # Descripción del proyecto -----> ESTE FALTA POR ESCRIBIRLO
+├── .gitignore             # Archivos que no se deben subir al repositorio
