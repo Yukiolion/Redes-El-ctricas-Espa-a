@@ -1,0 +1,961 @@
+fecha,valor,porcentaje,indicator,region
+2019-01-01T00:00:00.000+01:00,123.969,1,Índice general,peninsular
+2019-02-01T00:00:00.000+01:00,119.387,1,Índice general,peninsular
+2019-03-01T00:00:00.000+01:00,121.76299999999999,1,Índice general,peninsular
+2019-04-01T00:00:00.000+02:00,121.18025,1,Índice general,peninsular
+2019-05-01T00:00:00.000+02:00,123.00019999999999,1,Índice general,peninsular
+2019-06-01T00:00:00.000+02:00,123.8815,1,Índice general,peninsular
+2019-07-01T00:00:00.000+02:00,125.55071428571429,1,Índice general,peninsular
+2019-08-01T00:00:00.000+02:00,125.565375,1,Índice general,peninsular
+2019-09-01T00:00:00.000+02:00,125.79144444444445,1,Índice general,peninsular
+2019-10-01T00:00:00.000+02:00,126.16069999999999,1,Índice general,peninsular
+2019-11-01T00:00:00.000+01:00,125.69281818181817,1,Índice general,peninsular
+2019-12-01T00:00:00.000+01:00,124.40116666666665,1,Índice general,peninsular
+2019-01-01T00:00:00.000+01:00,105.072,1,Índice general corregido,peninsular
+2019-02-01T00:00:00.000+01:00,106.1875,1,Índice general corregido,peninsular
+2019-03-01T00:00:00.000+01:00,106.45,1,Índice general corregido,peninsular
+2019-04-01T00:00:00.000+02:00,106.05325,1,Índice general corregido,peninsular
+2019-05-01T00:00:00.000+02:00,105.9588,1,Índice general corregido,peninsular
+2019-06-01T00:00:00.000+02:00,105.687,1,Índice general corregido,peninsular
+2019-07-01T00:00:00.000+02:00,104.86942857142857,1,Índice general corregido,peninsular
+2019-08-01T00:00:00.000+02:00,103.380375,1,Índice general corregido,peninsular
+2019-09-01T00:00:00.000+02:00,103.48044444444446,1,Índice general corregido,peninsular
+2019-10-01T00:00:00.000+02:00,103.55790000000002,1,Índice general corregido,peninsular
+2019-11-01T00:00:00.000+01:00,103.75654545454546,1,Índice general corregido,peninsular
+2019-12-01T00:00:00.000+01:00,103.11650000000002,1,Índice general corregido,peninsular
+2019-01-01T00:00:00.000+01:00,-0.30238449475250695,1,Annual variation,peninsular
+2019-02-01T00:00:00.000+01:00,-1.0812647068571295,1,Annual variation,peninsular
+2019-03-01T00:00:00.000+01:00,-0.812423122561314,1,Annual variation,peninsular
+2019-04-01T00:00:00.000+02:00,-1.6761193061032473,1,Annual variation,peninsular
+2019-05-01T00:00:00.000+02:00,-1.6808549755002118,1,Annual variation,peninsular
+2019-06-01T00:00:00.000+02:00,-1.7857992293909744,1,Annual variation,peninsular
+2019-07-01T00:00:00.000+02:00,-1.4752010618667457,1,Annual variation,peninsular
+2019-08-01T00:00:00.000+02:00,-1.658598189854779,1,Annual variation,peninsular
+2019-09-01T00:00:00.000+02:00,-1.85629230470484,1,Annual variation,peninsular
+2019-10-01T00:00:00.000+02:00,-1.7663428566089465,1,Annual variation,peninsular
+2019-11-01T00:00:00.000+01:00,-1.7717196934551465,1,Annual variation,peninsular
+2019-12-01T00:00:00.000+01:00,-1.8762829812030097,1,Annual variation,peninsular
+2019-01-01T00:00:00.000+01:00,-0.16627552329282275,1,Corrected annual variation,peninsular
+2019-02-01T00:00:00.000+01:00,-1.0326621340130797,1,Corrected annual variation,peninsular
+2019-03-01T00:00:00.000+01:00,-1.0914474377001557,1,Corrected annual variation,peninsular
+2019-04-01T00:00:00.000+02:00,-1.6873931039597319,1,Corrected annual variation,peninsular
+2019-05-01T00:00:00.000+02:00,-2.069539178173359,1,Corrected annual variation,peninsular
+2019-06-01T00:00:00.000+02:00,-2.200074955235079,1,Corrected annual variation,peninsular
+2019-07-01T00:00:00.000+02:00,-2.2217308722025284,1,Corrected annual variation,peninsular
+2019-08-01T00:00:00.000+02:00,-2.2329217951324702,1,Corrected annual variation,peninsular
+2019-09-01T00:00:00.000+02:00,-2.199380846568387,1,Corrected annual variation,peninsular
+2019-10-01T00:00:00.000+02:00,-2.2416161234748415,1,Corrected annual variation,peninsular
+2019-11-01T00:00:00.000+01:00,-2.245743622070989,1,Corrected annual variation,peninsular
+2019-12-01T00:00:00.000+01:00,-2.3856160941719198,1,Corrected annual variation,peninsular
+2019-01-01T00:00:00.000+01:00,123.969,1,Índice general,canarias
+2019-02-01T00:00:00.000+01:00,119.387,1,Índice general,canarias
+2019-03-01T00:00:00.000+01:00,121.76299999999999,1,Índice general,canarias
+2019-04-01T00:00:00.000+02:00,121.18025,1,Índice general,canarias
+2019-05-01T00:00:00.000+02:00,123.00019999999999,1,Índice general,canarias
+2019-06-01T00:00:00.000+02:00,123.8815,1,Índice general,canarias
+2019-07-01T00:00:00.000+02:00,125.55071428571429,1,Índice general,canarias
+2019-08-01T00:00:00.000+02:00,125.565375,1,Índice general,canarias
+2019-09-01T00:00:00.000+02:00,125.79144444444445,1,Índice general,canarias
+2019-10-01T00:00:00.000+02:00,126.16069999999999,1,Índice general,canarias
+2019-11-01T00:00:00.000+01:00,125.69281818181817,1,Índice general,canarias
+2019-12-01T00:00:00.000+01:00,124.40116666666665,1,Índice general,canarias
+2019-01-01T00:00:00.000+01:00,105.072,1,Índice general corregido,canarias
+2019-02-01T00:00:00.000+01:00,106.1875,1,Índice general corregido,canarias
+2019-03-01T00:00:00.000+01:00,106.45,1,Índice general corregido,canarias
+2019-04-01T00:00:00.000+02:00,106.05325,1,Índice general corregido,canarias
+2019-05-01T00:00:00.000+02:00,105.9588,1,Índice general corregido,canarias
+2019-06-01T00:00:00.000+02:00,105.687,1,Índice general corregido,canarias
+2019-07-01T00:00:00.000+02:00,104.86942857142857,1,Índice general corregido,canarias
+2019-08-01T00:00:00.000+02:00,103.380375,1,Índice general corregido,canarias
+2019-09-01T00:00:00.000+02:00,103.48044444444446,1,Índice general corregido,canarias
+2019-10-01T00:00:00.000+02:00,103.55790000000002,1,Índice general corregido,canarias
+2019-11-01T00:00:00.000+01:00,103.75654545454546,1,Índice general corregido,canarias
+2019-12-01T00:00:00.000+01:00,103.11650000000002,1,Índice general corregido,canarias
+2019-01-01T00:00:00.000+01:00,-0.30238449475250695,1,Annual variation,canarias
+2019-02-01T00:00:00.000+01:00,-1.0812647068571295,1,Annual variation,canarias
+2019-03-01T00:00:00.000+01:00,-0.812423122561314,1,Annual variation,canarias
+2019-04-01T00:00:00.000+02:00,-1.6761193061032473,1,Annual variation,canarias
+2019-05-01T00:00:00.000+02:00,-1.6808549755002118,1,Annual variation,canarias
+2019-06-01T00:00:00.000+02:00,-1.7857992293909744,1,Annual variation,canarias
+2019-07-01T00:00:00.000+02:00,-1.4752010618667457,1,Annual variation,canarias
+2019-08-01T00:00:00.000+02:00,-1.658598189854779,1,Annual variation,canarias
+2019-09-01T00:00:00.000+02:00,-1.85629230470484,1,Annual variation,canarias
+2019-10-01T00:00:00.000+02:00,-1.7663428566089465,1,Annual variation,canarias
+2019-11-01T00:00:00.000+01:00,-1.7717196934551465,1,Annual variation,canarias
+2019-12-01T00:00:00.000+01:00,-1.8762829812030097,1,Annual variation,canarias
+2019-01-01T00:00:00.000+01:00,-0.16627552329282275,1,Corrected annual variation,canarias
+2019-02-01T00:00:00.000+01:00,-1.0326621340130797,1,Corrected annual variation,canarias
+2019-03-01T00:00:00.000+01:00,-1.0914474377001557,1,Corrected annual variation,canarias
+2019-04-01T00:00:00.000+02:00,-1.6873931039597319,1,Corrected annual variation,canarias
+2019-05-01T00:00:00.000+02:00,-2.069539178173359,1,Corrected annual variation,canarias
+2019-06-01T00:00:00.000+02:00,-2.200074955235079,1,Corrected annual variation,canarias
+2019-07-01T00:00:00.000+02:00,-2.2217308722025284,1,Corrected annual variation,canarias
+2019-08-01T00:00:00.000+02:00,-2.2329217951324702,1,Corrected annual variation,canarias
+2019-09-01T00:00:00.000+02:00,-2.199380846568387,1,Corrected annual variation,canarias
+2019-10-01T00:00:00.000+02:00,-2.2416161234748415,1,Corrected annual variation,canarias
+2019-11-01T00:00:00.000+01:00,-2.245743622070989,1,Corrected annual variation,canarias
+2019-12-01T00:00:00.000+01:00,-2.3856160941719198,1,Corrected annual variation,canarias
+2019-01-01T00:00:00.000+01:00,123.969,1,Índice general,baleares
+2019-02-01T00:00:00.000+01:00,119.387,1,Índice general,baleares
+2019-03-01T00:00:00.000+01:00,121.76299999999999,1,Índice general,baleares
+2019-04-01T00:00:00.000+02:00,121.18025,1,Índice general,baleares
+2019-05-01T00:00:00.000+02:00,123.00019999999999,1,Índice general,baleares
+2019-06-01T00:00:00.000+02:00,123.8815,1,Índice general,baleares
+2019-07-01T00:00:00.000+02:00,125.55071428571429,1,Índice general,baleares
+2019-08-01T00:00:00.000+02:00,125.565375,1,Índice general,baleares
+2019-09-01T00:00:00.000+02:00,125.79144444444445,1,Índice general,baleares
+2019-10-01T00:00:00.000+02:00,126.16069999999999,1,Índice general,baleares
+2019-11-01T00:00:00.000+01:00,125.69281818181817,1,Índice general,baleares
+2019-12-01T00:00:00.000+01:00,124.40116666666665,1,Índice general,baleares
+2019-01-01T00:00:00.000+01:00,105.072,1,Índice general corregido,baleares
+2019-02-01T00:00:00.000+01:00,106.1875,1,Índice general corregido,baleares
+2019-03-01T00:00:00.000+01:00,106.45,1,Índice general corregido,baleares
+2019-04-01T00:00:00.000+02:00,106.05325,1,Índice general corregido,baleares
+2019-05-01T00:00:00.000+02:00,105.9588,1,Índice general corregido,baleares
+2019-06-01T00:00:00.000+02:00,105.687,1,Índice general corregido,baleares
+2019-07-01T00:00:00.000+02:00,104.86942857142857,1,Índice general corregido,baleares
+2019-08-01T00:00:00.000+02:00,103.380375,1,Índice general corregido,baleares
+2019-09-01T00:00:00.000+02:00,103.48044444444446,1,Índice general corregido,baleares
+2019-10-01T00:00:00.000+02:00,103.55790000000002,1,Índice general corregido,baleares
+2019-11-01T00:00:00.000+01:00,103.75654545454546,1,Índice general corregido,baleares
+2019-12-01T00:00:00.000+01:00,103.11650000000002,1,Índice general corregido,baleares
+2019-01-01T00:00:00.000+01:00,-0.30238449475250695,1,Annual variation,baleares
+2019-02-01T00:00:00.000+01:00,-1.0812647068571295,1,Annual variation,baleares
+2019-03-01T00:00:00.000+01:00,-0.812423122561314,1,Annual variation,baleares
+2019-04-01T00:00:00.000+02:00,-1.6761193061032473,1,Annual variation,baleares
+2019-05-01T00:00:00.000+02:00,-1.6808549755002118,1,Annual variation,baleares
+2019-06-01T00:00:00.000+02:00,-1.7857992293909744,1,Annual variation,baleares
+2019-07-01T00:00:00.000+02:00,-1.4752010618667457,1,Annual variation,baleares
+2019-08-01T00:00:00.000+02:00,-1.658598189854779,1,Annual variation,baleares
+2019-09-01T00:00:00.000+02:00,-1.85629230470484,1,Annual variation,baleares
+2019-10-01T00:00:00.000+02:00,-1.7663428566089465,1,Annual variation,baleares
+2019-11-01T00:00:00.000+01:00,-1.7717196934551465,1,Annual variation,baleares
+2019-12-01T00:00:00.000+01:00,-1.8762829812030097,1,Annual variation,baleares
+2019-01-01T00:00:00.000+01:00,-0.16627552329282275,1,Corrected annual variation,baleares
+2019-02-01T00:00:00.000+01:00,-1.0326621340130797,1,Corrected annual variation,baleares
+2019-03-01T00:00:00.000+01:00,-1.0914474377001557,1,Corrected annual variation,baleares
+2019-04-01T00:00:00.000+02:00,-1.6873931039597319,1,Corrected annual variation,baleares
+2019-05-01T00:00:00.000+02:00,-2.069539178173359,1,Corrected annual variation,baleares
+2019-06-01T00:00:00.000+02:00,-2.200074955235079,1,Corrected annual variation,baleares
+2019-07-01T00:00:00.000+02:00,-2.2217308722025284,1,Corrected annual variation,baleares
+2019-08-01T00:00:00.000+02:00,-2.2329217951324702,1,Corrected annual variation,baleares
+2019-09-01T00:00:00.000+02:00,-2.199380846568387,1,Corrected annual variation,baleares
+2019-10-01T00:00:00.000+02:00,-2.2416161234748415,1,Corrected annual variation,baleares
+2019-11-01T00:00:00.000+01:00,-2.245743622070989,1,Corrected annual variation,baleares
+2019-12-01T00:00:00.000+01:00,-2.3856160941719198,1,Corrected annual variation,baleares
+2019-01-01T00:00:00.000+01:00,123.969,1,Índice general,ceuta
+2019-02-01T00:00:00.000+01:00,119.387,1,Índice general,ceuta
+2019-03-01T00:00:00.000+01:00,121.76299999999999,1,Índice general,ceuta
+2019-04-01T00:00:00.000+02:00,121.18025,1,Índice general,ceuta
+2019-05-01T00:00:00.000+02:00,123.00019999999999,1,Índice general,ceuta
+2019-06-01T00:00:00.000+02:00,123.8815,1,Índice general,ceuta
+2019-07-01T00:00:00.000+02:00,125.55071428571429,1,Índice general,ceuta
+2019-08-01T00:00:00.000+02:00,125.565375,1,Índice general,ceuta
+2019-09-01T00:00:00.000+02:00,125.79144444444445,1,Índice general,ceuta
+2019-10-01T00:00:00.000+02:00,126.16069999999999,1,Índice general,ceuta
+2019-11-01T00:00:00.000+01:00,125.69281818181817,1,Índice general,ceuta
+2019-12-01T00:00:00.000+01:00,124.40116666666665,1,Índice general,ceuta
+2019-01-01T00:00:00.000+01:00,105.072,1,Índice general corregido,ceuta
+2019-02-01T00:00:00.000+01:00,106.1875,1,Índice general corregido,ceuta
+2019-03-01T00:00:00.000+01:00,106.45,1,Índice general corregido,ceuta
+2019-04-01T00:00:00.000+02:00,106.05325,1,Índice general corregido,ceuta
+2019-05-01T00:00:00.000+02:00,105.9588,1,Índice general corregido,ceuta
+2019-06-01T00:00:00.000+02:00,105.687,1,Índice general corregido,ceuta
+2019-07-01T00:00:00.000+02:00,104.86942857142857,1,Índice general corregido,ceuta
+2019-08-01T00:00:00.000+02:00,103.380375,1,Índice general corregido,ceuta
+2019-09-01T00:00:00.000+02:00,103.48044444444446,1,Índice general corregido,ceuta
+2019-10-01T00:00:00.000+02:00,103.55790000000002,1,Índice general corregido,ceuta
+2019-11-01T00:00:00.000+01:00,103.75654545454546,1,Índice general corregido,ceuta
+2019-12-01T00:00:00.000+01:00,103.11650000000002,1,Índice general corregido,ceuta
+2019-01-01T00:00:00.000+01:00,-0.30238449475250695,1,Annual variation,ceuta
+2019-02-01T00:00:00.000+01:00,-1.0812647068571295,1,Annual variation,ceuta
+2019-03-01T00:00:00.000+01:00,-0.812423122561314,1,Annual variation,ceuta
+2019-04-01T00:00:00.000+02:00,-1.6761193061032473,1,Annual variation,ceuta
+2019-05-01T00:00:00.000+02:00,-1.6808549755002118,1,Annual variation,ceuta
+2019-06-01T00:00:00.000+02:00,-1.7857992293909744,1,Annual variation,ceuta
+2019-07-01T00:00:00.000+02:00,-1.4752010618667457,1,Annual variation,ceuta
+2019-08-01T00:00:00.000+02:00,-1.658598189854779,1,Annual variation,ceuta
+2019-09-01T00:00:00.000+02:00,-1.85629230470484,1,Annual variation,ceuta
+2019-10-01T00:00:00.000+02:00,-1.7663428566089465,1,Annual variation,ceuta
+2019-11-01T00:00:00.000+01:00,-1.7717196934551465,1,Annual variation,ceuta
+2019-12-01T00:00:00.000+01:00,-1.8762829812030097,1,Annual variation,ceuta
+2019-01-01T00:00:00.000+01:00,-0.16627552329282275,1,Corrected annual variation,ceuta
+2019-02-01T00:00:00.000+01:00,-1.0326621340130797,1,Corrected annual variation,ceuta
+2019-03-01T00:00:00.000+01:00,-1.0914474377001557,1,Corrected annual variation,ceuta
+2019-04-01T00:00:00.000+02:00,-1.6873931039597319,1,Corrected annual variation,ceuta
+2019-05-01T00:00:00.000+02:00,-2.069539178173359,1,Corrected annual variation,ceuta
+2019-06-01T00:00:00.000+02:00,-2.200074955235079,1,Corrected annual variation,ceuta
+2019-07-01T00:00:00.000+02:00,-2.2217308722025284,1,Corrected annual variation,ceuta
+2019-08-01T00:00:00.000+02:00,-2.2329217951324702,1,Corrected annual variation,ceuta
+2019-09-01T00:00:00.000+02:00,-2.199380846568387,1,Corrected annual variation,ceuta
+2019-10-01T00:00:00.000+02:00,-2.2416161234748415,1,Corrected annual variation,ceuta
+2019-11-01T00:00:00.000+01:00,-2.245743622070989,1,Corrected annual variation,ceuta
+2019-12-01T00:00:00.000+01:00,-2.3856160941719198,1,Corrected annual variation,ceuta
+2019-01-01T00:00:00.000+01:00,123.969,1,Índice general,melilla
+2019-02-01T00:00:00.000+01:00,119.387,1,Índice general,melilla
+2019-03-01T00:00:00.000+01:00,121.76299999999999,1,Índice general,melilla
+2019-04-01T00:00:00.000+02:00,121.18025,1,Índice general,melilla
+2019-05-01T00:00:00.000+02:00,123.00019999999999,1,Índice general,melilla
+2019-06-01T00:00:00.000+02:00,123.8815,1,Índice general,melilla
+2019-07-01T00:00:00.000+02:00,125.55071428571429,1,Índice general,melilla
+2019-08-01T00:00:00.000+02:00,125.565375,1,Índice general,melilla
+2019-09-01T00:00:00.000+02:00,125.79144444444445,1,Índice general,melilla
+2019-10-01T00:00:00.000+02:00,126.16069999999999,1,Índice general,melilla
+2019-11-01T00:00:00.000+01:00,125.69281818181817,1,Índice general,melilla
+2019-12-01T00:00:00.000+01:00,124.40116666666665,1,Índice general,melilla
+2019-01-01T00:00:00.000+01:00,105.072,1,Índice general corregido,melilla
+2019-02-01T00:00:00.000+01:00,106.1875,1,Índice general corregido,melilla
+2019-03-01T00:00:00.000+01:00,106.45,1,Índice general corregido,melilla
+2019-04-01T00:00:00.000+02:00,106.05325,1,Índice general corregido,melilla
+2019-05-01T00:00:00.000+02:00,105.9588,1,Índice general corregido,melilla
+2019-06-01T00:00:00.000+02:00,105.687,1,Índice general corregido,melilla
+2019-07-01T00:00:00.000+02:00,104.86942857142857,1,Índice general corregido,melilla
+2019-08-01T00:00:00.000+02:00,103.380375,1,Índice general corregido,melilla
+2019-09-01T00:00:00.000+02:00,103.48044444444446,1,Índice general corregido,melilla
+2019-10-01T00:00:00.000+02:00,103.55790000000002,1,Índice general corregido,melilla
+2019-11-01T00:00:00.000+01:00,103.75654545454546,1,Índice general corregido,melilla
+2019-12-01T00:00:00.000+01:00,103.11650000000002,1,Índice general corregido,melilla
+2019-01-01T00:00:00.000+01:00,-0.30238449475250695,1,Annual variation,melilla
+2019-02-01T00:00:00.000+01:00,-1.0812647068571295,1,Annual variation,melilla
+2019-03-01T00:00:00.000+01:00,-0.812423122561314,1,Annual variation,melilla
+2019-04-01T00:00:00.000+02:00,-1.6761193061032473,1,Annual variation,melilla
+2019-05-01T00:00:00.000+02:00,-1.6808549755002118,1,Annual variation,melilla
+2019-06-01T00:00:00.000+02:00,-1.7857992293909744,1,Annual variation,melilla
+2019-07-01T00:00:00.000+02:00,-1.4752010618667457,1,Annual variation,melilla
+2019-08-01T00:00:00.000+02:00,-1.658598189854779,1,Annual variation,melilla
+2019-09-01T00:00:00.000+02:00,-1.85629230470484,1,Annual variation,melilla
+2019-10-01T00:00:00.000+02:00,-1.7663428566089465,1,Annual variation,melilla
+2019-11-01T00:00:00.000+01:00,-1.7717196934551465,1,Annual variation,melilla
+2019-12-01T00:00:00.000+01:00,-1.8762829812030097,1,Annual variation,melilla
+2019-01-01T00:00:00.000+01:00,-0.16627552329282275,1,Corrected annual variation,melilla
+2019-02-01T00:00:00.000+01:00,-1.0326621340130797,1,Corrected annual variation,melilla
+2019-03-01T00:00:00.000+01:00,-1.0914474377001557,1,Corrected annual variation,melilla
+2019-04-01T00:00:00.000+02:00,-1.6873931039597319,1,Corrected annual variation,melilla
+2019-05-01T00:00:00.000+02:00,-2.069539178173359,1,Corrected annual variation,melilla
+2019-06-01T00:00:00.000+02:00,-2.200074955235079,1,Corrected annual variation,melilla
+2019-07-01T00:00:00.000+02:00,-2.2217308722025284,1,Corrected annual variation,melilla
+2019-08-01T00:00:00.000+02:00,-2.2329217951324702,1,Corrected annual variation,melilla
+2019-09-01T00:00:00.000+02:00,-2.199380846568387,1,Corrected annual variation,melilla
+2019-10-01T00:00:00.000+02:00,-2.2416161234748415,1,Corrected annual variation,melilla
+2019-11-01T00:00:00.000+01:00,-2.245743622070989,1,Corrected annual variation,melilla
+2019-12-01T00:00:00.000+01:00,-2.3856160941719198,1,Corrected annual variation,melilla
+2019-01-01T00:00:00.000+01:00,123.969,1,Índice general,andalucia
+2019-02-01T00:00:00.000+01:00,119.387,1,Índice general,andalucia
+2019-03-01T00:00:00.000+01:00,121.76299999999999,1,Índice general,andalucia
+2019-04-01T00:00:00.000+02:00,121.18025,1,Índice general,andalucia
+2019-05-01T00:00:00.000+02:00,123.00019999999999,1,Índice general,andalucia
+2019-06-01T00:00:00.000+02:00,123.8815,1,Índice general,andalucia
+2019-07-01T00:00:00.000+02:00,125.55071428571429,1,Índice general,andalucia
+2019-08-01T00:00:00.000+02:00,125.565375,1,Índice general,andalucia
+2019-09-01T00:00:00.000+02:00,125.79144444444445,1,Índice general,andalucia
+2019-10-01T00:00:00.000+02:00,126.16069999999999,1,Índice general,andalucia
+2019-11-01T00:00:00.000+01:00,125.69281818181817,1,Índice general,andalucia
+2019-12-01T00:00:00.000+01:00,124.40116666666665,1,Índice general,andalucia
+2019-01-01T00:00:00.000+01:00,105.072,1,Índice general corregido,andalucia
+2019-02-01T00:00:00.000+01:00,106.1875,1,Índice general corregido,andalucia
+2019-03-01T00:00:00.000+01:00,106.45,1,Índice general corregido,andalucia
+2019-04-01T00:00:00.000+02:00,106.05325,1,Índice general corregido,andalucia
+2019-05-01T00:00:00.000+02:00,105.9588,1,Índice general corregido,andalucia
+2019-06-01T00:00:00.000+02:00,105.687,1,Índice general corregido,andalucia
+2019-07-01T00:00:00.000+02:00,104.86942857142857,1,Índice general corregido,andalucia
+2019-08-01T00:00:00.000+02:00,103.380375,1,Índice general corregido,andalucia
+2019-09-01T00:00:00.000+02:00,103.48044444444446,1,Índice general corregido,andalucia
+2019-10-01T00:00:00.000+02:00,103.55790000000002,1,Índice general corregido,andalucia
+2019-11-01T00:00:00.000+01:00,103.75654545454546,1,Índice general corregido,andalucia
+2019-12-01T00:00:00.000+01:00,103.11650000000002,1,Índice general corregido,andalucia
+2019-01-01T00:00:00.000+01:00,-0.30238449475250695,1,Annual variation,andalucia
+2019-02-01T00:00:00.000+01:00,-1.0812647068571295,1,Annual variation,andalucia
+2019-03-01T00:00:00.000+01:00,-0.812423122561314,1,Annual variation,andalucia
+2019-04-01T00:00:00.000+02:00,-1.6761193061032473,1,Annual variation,andalucia
+2019-05-01T00:00:00.000+02:00,-1.6808549755002118,1,Annual variation,andalucia
+2019-06-01T00:00:00.000+02:00,-1.7857992293909744,1,Annual variation,andalucia
+2019-07-01T00:00:00.000+02:00,-1.4752010618667457,1,Annual variation,andalucia
+2019-08-01T00:00:00.000+02:00,-1.658598189854779,1,Annual variation,andalucia
+2019-09-01T00:00:00.000+02:00,-1.85629230470484,1,Annual variation,andalucia
+2019-10-01T00:00:00.000+02:00,-1.7663428566089465,1,Annual variation,andalucia
+2019-11-01T00:00:00.000+01:00,-1.7717196934551465,1,Annual variation,andalucia
+2019-12-01T00:00:00.000+01:00,-1.8762829812030097,1,Annual variation,andalucia
+2019-01-01T00:00:00.000+01:00,-0.16627552329282275,1,Corrected annual variation,andalucia
+2019-02-01T00:00:00.000+01:00,-1.0326621340130797,1,Corrected annual variation,andalucia
+2019-03-01T00:00:00.000+01:00,-1.0914474377001557,1,Corrected annual variation,andalucia
+2019-04-01T00:00:00.000+02:00,-1.6873931039597319,1,Corrected annual variation,andalucia
+2019-05-01T00:00:00.000+02:00,-2.069539178173359,1,Corrected annual variation,andalucia
+2019-06-01T00:00:00.000+02:00,-2.200074955235079,1,Corrected annual variation,andalucia
+2019-07-01T00:00:00.000+02:00,-2.2217308722025284,1,Corrected annual variation,andalucia
+2019-08-01T00:00:00.000+02:00,-2.2329217951324702,1,Corrected annual variation,andalucia
+2019-09-01T00:00:00.000+02:00,-2.199380846568387,1,Corrected annual variation,andalucia
+2019-10-01T00:00:00.000+02:00,-2.2416161234748415,1,Corrected annual variation,andalucia
+2019-11-01T00:00:00.000+01:00,-2.245743622070989,1,Corrected annual variation,andalucia
+2019-12-01T00:00:00.000+01:00,-2.3856160941719198,1,Corrected annual variation,andalucia
+2019-01-01T00:00:00.000+01:00,123.969,1,Índice general,aragon
+2019-02-01T00:00:00.000+01:00,119.387,1,Índice general,aragon
+2019-03-01T00:00:00.000+01:00,121.76299999999999,1,Índice general,aragon
+2019-04-01T00:00:00.000+02:00,121.18025,1,Índice general,aragon
+2019-05-01T00:00:00.000+02:00,123.00019999999999,1,Índice general,aragon
+2019-06-01T00:00:00.000+02:00,123.8815,1,Índice general,aragon
+2019-07-01T00:00:00.000+02:00,125.55071428571429,1,Índice general,aragon
+2019-08-01T00:00:00.000+02:00,125.565375,1,Índice general,aragon
+2019-09-01T00:00:00.000+02:00,125.79144444444445,1,Índice general,aragon
+2019-10-01T00:00:00.000+02:00,126.16069999999999,1,Índice general,aragon
+2019-11-01T00:00:00.000+01:00,125.69281818181817,1,Índice general,aragon
+2019-12-01T00:00:00.000+01:00,124.40116666666665,1,Índice general,aragon
+2019-01-01T00:00:00.000+01:00,105.072,1,Índice general corregido,aragon
+2019-02-01T00:00:00.000+01:00,106.1875,1,Índice general corregido,aragon
+2019-03-01T00:00:00.000+01:00,106.45,1,Índice general corregido,aragon
+2019-04-01T00:00:00.000+02:00,106.05325,1,Índice general corregido,aragon
+2019-05-01T00:00:00.000+02:00,105.9588,1,Índice general corregido,aragon
+2019-06-01T00:00:00.000+02:00,105.687,1,Índice general corregido,aragon
+2019-07-01T00:00:00.000+02:00,104.86942857142857,1,Índice general corregido,aragon
+2019-08-01T00:00:00.000+02:00,103.380375,1,Índice general corregido,aragon
+2019-09-01T00:00:00.000+02:00,103.48044444444446,1,Índice general corregido,aragon
+2019-10-01T00:00:00.000+02:00,103.55790000000002,1,Índice general corregido,aragon
+2019-11-01T00:00:00.000+01:00,103.75654545454546,1,Índice general corregido,aragon
+2019-12-01T00:00:00.000+01:00,103.11650000000002,1,Índice general corregido,aragon
+2019-01-01T00:00:00.000+01:00,-0.30238449475250695,1,Annual variation,aragon
+2019-02-01T00:00:00.000+01:00,-1.0812647068571295,1,Annual variation,aragon
+2019-03-01T00:00:00.000+01:00,-0.812423122561314,1,Annual variation,aragon
+2019-04-01T00:00:00.000+02:00,-1.6761193061032473,1,Annual variation,aragon
+2019-05-01T00:00:00.000+02:00,-1.6808549755002118,1,Annual variation,aragon
+2019-06-01T00:00:00.000+02:00,-1.7857992293909744,1,Annual variation,aragon
+2019-07-01T00:00:00.000+02:00,-1.4752010618667457,1,Annual variation,aragon
+2019-08-01T00:00:00.000+02:00,-1.658598189854779,1,Annual variation,aragon
+2019-09-01T00:00:00.000+02:00,-1.85629230470484,1,Annual variation,aragon
+2019-10-01T00:00:00.000+02:00,-1.7663428566089465,1,Annual variation,aragon
+2019-11-01T00:00:00.000+01:00,-1.7717196934551465,1,Annual variation,aragon
+2019-12-01T00:00:00.000+01:00,-1.8762829812030097,1,Annual variation,aragon
+2019-01-01T00:00:00.000+01:00,-0.16627552329282275,1,Corrected annual variation,aragon
+2019-02-01T00:00:00.000+01:00,-1.0326621340130797,1,Corrected annual variation,aragon
+2019-03-01T00:00:00.000+01:00,-1.0914474377001557,1,Corrected annual variation,aragon
+2019-04-01T00:00:00.000+02:00,-1.6873931039597319,1,Corrected annual variation,aragon
+2019-05-01T00:00:00.000+02:00,-2.069539178173359,1,Corrected annual variation,aragon
+2019-06-01T00:00:00.000+02:00,-2.200074955235079,1,Corrected annual variation,aragon
+2019-07-01T00:00:00.000+02:00,-2.2217308722025284,1,Corrected annual variation,aragon
+2019-08-01T00:00:00.000+02:00,-2.2329217951324702,1,Corrected annual variation,aragon
+2019-09-01T00:00:00.000+02:00,-2.199380846568387,1,Corrected annual variation,aragon
+2019-10-01T00:00:00.000+02:00,-2.2416161234748415,1,Corrected annual variation,aragon
+2019-11-01T00:00:00.000+01:00,-2.245743622070989,1,Corrected annual variation,aragon
+2019-12-01T00:00:00.000+01:00,-2.3856160941719198,1,Corrected annual variation,aragon
+2019-01-01T00:00:00.000+01:00,123.969,1,Índice general,cantabria
+2019-02-01T00:00:00.000+01:00,119.387,1,Índice general,cantabria
+2019-03-01T00:00:00.000+01:00,121.76299999999999,1,Índice general,cantabria
+2019-04-01T00:00:00.000+02:00,121.18025,1,Índice general,cantabria
+2019-05-01T00:00:00.000+02:00,123.00019999999999,1,Índice general,cantabria
+2019-06-01T00:00:00.000+02:00,123.8815,1,Índice general,cantabria
+2019-07-01T00:00:00.000+02:00,125.55071428571429,1,Índice general,cantabria
+2019-08-01T00:00:00.000+02:00,125.565375,1,Índice general,cantabria
+2019-09-01T00:00:00.000+02:00,125.79144444444445,1,Índice general,cantabria
+2019-10-01T00:00:00.000+02:00,126.16069999999999,1,Índice general,cantabria
+2019-11-01T00:00:00.000+01:00,125.69281818181817,1,Índice general,cantabria
+2019-12-01T00:00:00.000+01:00,124.40116666666665,1,Índice general,cantabria
+2019-01-01T00:00:00.000+01:00,105.072,1,Índice general corregido,cantabria
+2019-02-01T00:00:00.000+01:00,106.1875,1,Índice general corregido,cantabria
+2019-03-01T00:00:00.000+01:00,106.45,1,Índice general corregido,cantabria
+2019-04-01T00:00:00.000+02:00,106.05325,1,Índice general corregido,cantabria
+2019-05-01T00:00:00.000+02:00,105.9588,1,Índice general corregido,cantabria
+2019-06-01T00:00:00.000+02:00,105.687,1,Índice general corregido,cantabria
+2019-07-01T00:00:00.000+02:00,104.86942857142857,1,Índice general corregido,cantabria
+2019-08-01T00:00:00.000+02:00,103.380375,1,Índice general corregido,cantabria
+2019-09-01T00:00:00.000+02:00,103.48044444444446,1,Índice general corregido,cantabria
+2019-10-01T00:00:00.000+02:00,103.55790000000002,1,Índice general corregido,cantabria
+2019-11-01T00:00:00.000+01:00,103.75654545454546,1,Índice general corregido,cantabria
+2019-12-01T00:00:00.000+01:00,103.11650000000002,1,Índice general corregido,cantabria
+2019-01-01T00:00:00.000+01:00,-0.30238449475250695,1,Annual variation,cantabria
+2019-02-01T00:00:00.000+01:00,-1.0812647068571295,1,Annual variation,cantabria
+2019-03-01T00:00:00.000+01:00,-0.812423122561314,1,Annual variation,cantabria
+2019-04-01T00:00:00.000+02:00,-1.6761193061032473,1,Annual variation,cantabria
+2019-05-01T00:00:00.000+02:00,-1.6808549755002118,1,Annual variation,cantabria
+2019-06-01T00:00:00.000+02:00,-1.7857992293909744,1,Annual variation,cantabria
+2019-07-01T00:00:00.000+02:00,-1.4752010618667457,1,Annual variation,cantabria
+2019-08-01T00:00:00.000+02:00,-1.658598189854779,1,Annual variation,cantabria
+2019-09-01T00:00:00.000+02:00,-1.85629230470484,1,Annual variation,cantabria
+2019-10-01T00:00:00.000+02:00,-1.7663428566089465,1,Annual variation,cantabria
+2019-11-01T00:00:00.000+01:00,-1.7717196934551465,1,Annual variation,cantabria
+2019-12-01T00:00:00.000+01:00,-1.8762829812030097,1,Annual variation,cantabria
+2019-01-01T00:00:00.000+01:00,-0.16627552329282275,1,Corrected annual variation,cantabria
+2019-02-01T00:00:00.000+01:00,-1.0326621340130797,1,Corrected annual variation,cantabria
+2019-03-01T00:00:00.000+01:00,-1.0914474377001557,1,Corrected annual variation,cantabria
+2019-04-01T00:00:00.000+02:00,-1.6873931039597319,1,Corrected annual variation,cantabria
+2019-05-01T00:00:00.000+02:00,-2.069539178173359,1,Corrected annual variation,cantabria
+2019-06-01T00:00:00.000+02:00,-2.200074955235079,1,Corrected annual variation,cantabria
+2019-07-01T00:00:00.000+02:00,-2.2217308722025284,1,Corrected annual variation,cantabria
+2019-08-01T00:00:00.000+02:00,-2.2329217951324702,1,Corrected annual variation,cantabria
+2019-09-01T00:00:00.000+02:00,-2.199380846568387,1,Corrected annual variation,cantabria
+2019-10-01T00:00:00.000+02:00,-2.2416161234748415,1,Corrected annual variation,cantabria
+2019-11-01T00:00:00.000+01:00,-2.245743622070989,1,Corrected annual variation,cantabria
+2019-12-01T00:00:00.000+01:00,-2.3856160941719198,1,Corrected annual variation,cantabria
+2019-01-01T00:00:00.000+01:00,123.969,1,Índice general,castilla la mancha
+2019-02-01T00:00:00.000+01:00,119.387,1,Índice general,castilla la mancha
+2019-03-01T00:00:00.000+01:00,121.76299999999999,1,Índice general,castilla la mancha
+2019-04-01T00:00:00.000+02:00,121.18025,1,Índice general,castilla la mancha
+2019-05-01T00:00:00.000+02:00,123.00019999999999,1,Índice general,castilla la mancha
+2019-06-01T00:00:00.000+02:00,123.8815,1,Índice general,castilla la mancha
+2019-07-01T00:00:00.000+02:00,125.55071428571429,1,Índice general,castilla la mancha
+2019-08-01T00:00:00.000+02:00,125.565375,1,Índice general,castilla la mancha
+2019-09-01T00:00:00.000+02:00,125.79144444444445,1,Índice general,castilla la mancha
+2019-10-01T00:00:00.000+02:00,126.16069999999999,1,Índice general,castilla la mancha
+2019-11-01T00:00:00.000+01:00,125.69281818181817,1,Índice general,castilla la mancha
+2019-12-01T00:00:00.000+01:00,124.40116666666665,1,Índice general,castilla la mancha
+2019-01-01T00:00:00.000+01:00,105.072,1,Índice general corregido,castilla la mancha
+2019-02-01T00:00:00.000+01:00,106.1875,1,Índice general corregido,castilla la mancha
+2019-03-01T00:00:00.000+01:00,106.45,1,Índice general corregido,castilla la mancha
+2019-04-01T00:00:00.000+02:00,106.05325,1,Índice general corregido,castilla la mancha
+2019-05-01T00:00:00.000+02:00,105.9588,1,Índice general corregido,castilla la mancha
+2019-06-01T00:00:00.000+02:00,105.687,1,Índice general corregido,castilla la mancha
+2019-07-01T00:00:00.000+02:00,104.86942857142857,1,Índice general corregido,castilla la mancha
+2019-08-01T00:00:00.000+02:00,103.380375,1,Índice general corregido,castilla la mancha
+2019-09-01T00:00:00.000+02:00,103.48044444444446,1,Índice general corregido,castilla la mancha
+2019-10-01T00:00:00.000+02:00,103.55790000000002,1,Índice general corregido,castilla la mancha
+2019-11-01T00:00:00.000+01:00,103.75654545454546,1,Índice general corregido,castilla la mancha
+2019-12-01T00:00:00.000+01:00,103.11650000000002,1,Índice general corregido,castilla la mancha
+2019-01-01T00:00:00.000+01:00,-0.30238449475250695,1,Annual variation,castilla la mancha
+2019-02-01T00:00:00.000+01:00,-1.0812647068571295,1,Annual variation,castilla la mancha
+2019-03-01T00:00:00.000+01:00,-0.812423122561314,1,Annual variation,castilla la mancha
+2019-04-01T00:00:00.000+02:00,-1.6761193061032473,1,Annual variation,castilla la mancha
+2019-05-01T00:00:00.000+02:00,-1.6808549755002118,1,Annual variation,castilla la mancha
+2019-06-01T00:00:00.000+02:00,-1.7857992293909744,1,Annual variation,castilla la mancha
+2019-07-01T00:00:00.000+02:00,-1.4752010618667457,1,Annual variation,castilla la mancha
+2019-08-01T00:00:00.000+02:00,-1.658598189854779,1,Annual variation,castilla la mancha
+2019-09-01T00:00:00.000+02:00,-1.85629230470484,1,Annual variation,castilla la mancha
+2019-10-01T00:00:00.000+02:00,-1.7663428566089465,1,Annual variation,castilla la mancha
+2019-11-01T00:00:00.000+01:00,-1.7717196934551465,1,Annual variation,castilla la mancha
+2019-12-01T00:00:00.000+01:00,-1.8762829812030097,1,Annual variation,castilla la mancha
+2019-01-01T00:00:00.000+01:00,-0.16627552329282275,1,Corrected annual variation,castilla la mancha
+2019-02-01T00:00:00.000+01:00,-1.0326621340130797,1,Corrected annual variation,castilla la mancha
+2019-03-01T00:00:00.000+01:00,-1.0914474377001557,1,Corrected annual variation,castilla la mancha
+2019-04-01T00:00:00.000+02:00,-1.6873931039597319,1,Corrected annual variation,castilla la mancha
+2019-05-01T00:00:00.000+02:00,-2.069539178173359,1,Corrected annual variation,castilla la mancha
+2019-06-01T00:00:00.000+02:00,-2.200074955235079,1,Corrected annual variation,castilla la mancha
+2019-07-01T00:00:00.000+02:00,-2.2217308722025284,1,Corrected annual variation,castilla la mancha
+2019-08-01T00:00:00.000+02:00,-2.2329217951324702,1,Corrected annual variation,castilla la mancha
+2019-09-01T00:00:00.000+02:00,-2.199380846568387,1,Corrected annual variation,castilla la mancha
+2019-10-01T00:00:00.000+02:00,-2.2416161234748415,1,Corrected annual variation,castilla la mancha
+2019-11-01T00:00:00.000+01:00,-2.245743622070989,1,Corrected annual variation,castilla la mancha
+2019-12-01T00:00:00.000+01:00,-2.3856160941719198,1,Corrected annual variation,castilla la mancha
+2019-01-01T00:00:00.000+01:00,123.969,1,Índice general,castilla y leon
+2019-02-01T00:00:00.000+01:00,119.387,1,Índice general,castilla y leon
+2019-03-01T00:00:00.000+01:00,121.76299999999999,1,Índice general,castilla y leon
+2019-04-01T00:00:00.000+02:00,121.18025,1,Índice general,castilla y leon
+2019-05-01T00:00:00.000+02:00,123.00019999999999,1,Índice general,castilla y leon
+2019-06-01T00:00:00.000+02:00,123.8815,1,Índice general,castilla y leon
+2019-07-01T00:00:00.000+02:00,125.55071428571429,1,Índice general,castilla y leon
+2019-08-01T00:00:00.000+02:00,125.565375,1,Índice general,castilla y leon
+2019-09-01T00:00:00.000+02:00,125.79144444444445,1,Índice general,castilla y leon
+2019-10-01T00:00:00.000+02:00,126.16069999999999,1,Índice general,castilla y leon
+2019-11-01T00:00:00.000+01:00,125.69281818181817,1,Índice general,castilla y leon
+2019-12-01T00:00:00.000+01:00,124.40116666666665,1,Índice general,castilla y leon
+2019-01-01T00:00:00.000+01:00,105.072,1,Índice general corregido,castilla y leon
+2019-02-01T00:00:00.000+01:00,106.1875,1,Índice general corregido,castilla y leon
+2019-03-01T00:00:00.000+01:00,106.45,1,Índice general corregido,castilla y leon
+2019-04-01T00:00:00.000+02:00,106.05325,1,Índice general corregido,castilla y leon
+2019-05-01T00:00:00.000+02:00,105.9588,1,Índice general corregido,castilla y leon
+2019-06-01T00:00:00.000+02:00,105.687,1,Índice general corregido,castilla y leon
+2019-07-01T00:00:00.000+02:00,104.86942857142857,1,Índice general corregido,castilla y leon
+2019-08-01T00:00:00.000+02:00,103.380375,1,Índice general corregido,castilla y leon
+2019-09-01T00:00:00.000+02:00,103.48044444444446,1,Índice general corregido,castilla y leon
+2019-10-01T00:00:00.000+02:00,103.55790000000002,1,Índice general corregido,castilla y leon
+2019-11-01T00:00:00.000+01:00,103.75654545454546,1,Índice general corregido,castilla y leon
+2019-12-01T00:00:00.000+01:00,103.11650000000002,1,Índice general corregido,castilla y leon
+2019-01-01T00:00:00.000+01:00,-0.30238449475250695,1,Annual variation,castilla y leon
+2019-02-01T00:00:00.000+01:00,-1.0812647068571295,1,Annual variation,castilla y leon
+2019-03-01T00:00:00.000+01:00,-0.812423122561314,1,Annual variation,castilla y leon
+2019-04-01T00:00:00.000+02:00,-1.6761193061032473,1,Annual variation,castilla y leon
+2019-05-01T00:00:00.000+02:00,-1.6808549755002118,1,Annual variation,castilla y leon
+2019-06-01T00:00:00.000+02:00,-1.7857992293909744,1,Annual variation,castilla y leon
+2019-07-01T00:00:00.000+02:00,-1.4752010618667457,1,Annual variation,castilla y leon
+2019-08-01T00:00:00.000+02:00,-1.658598189854779,1,Annual variation,castilla y leon
+2019-09-01T00:00:00.000+02:00,-1.85629230470484,1,Annual variation,castilla y leon
+2019-10-01T00:00:00.000+02:00,-1.7663428566089465,1,Annual variation,castilla y leon
+2019-11-01T00:00:00.000+01:00,-1.7717196934551465,1,Annual variation,castilla y leon
+2019-12-01T00:00:00.000+01:00,-1.8762829812030097,1,Annual variation,castilla y leon
+2019-01-01T00:00:00.000+01:00,-0.16627552329282275,1,Corrected annual variation,castilla y leon
+2019-02-01T00:00:00.000+01:00,-1.0326621340130797,1,Corrected annual variation,castilla y leon
+2019-03-01T00:00:00.000+01:00,-1.0914474377001557,1,Corrected annual variation,castilla y leon
+2019-04-01T00:00:00.000+02:00,-1.6873931039597319,1,Corrected annual variation,castilla y leon
+2019-05-01T00:00:00.000+02:00,-2.069539178173359,1,Corrected annual variation,castilla y leon
+2019-06-01T00:00:00.000+02:00,-2.200074955235079,1,Corrected annual variation,castilla y leon
+2019-07-01T00:00:00.000+02:00,-2.2217308722025284,1,Corrected annual variation,castilla y leon
+2019-08-01T00:00:00.000+02:00,-2.2329217951324702,1,Corrected annual variation,castilla y leon
+2019-09-01T00:00:00.000+02:00,-2.199380846568387,1,Corrected annual variation,castilla y leon
+2019-10-01T00:00:00.000+02:00,-2.2416161234748415,1,Corrected annual variation,castilla y leon
+2019-11-01T00:00:00.000+01:00,-2.245743622070989,1,Corrected annual variation,castilla y leon
+2019-12-01T00:00:00.000+01:00,-2.3856160941719198,1,Corrected annual variation,castilla y leon
+2019-01-01T00:00:00.000+01:00,123.969,1,Índice general,cataluña
+2019-02-01T00:00:00.000+01:00,119.387,1,Índice general,cataluña
+2019-03-01T00:00:00.000+01:00,121.76299999999999,1,Índice general,cataluña
+2019-04-01T00:00:00.000+02:00,121.18025,1,Índice general,cataluña
+2019-05-01T00:00:00.000+02:00,123.00019999999999,1,Índice general,cataluña
+2019-06-01T00:00:00.000+02:00,123.8815,1,Índice general,cataluña
+2019-07-01T00:00:00.000+02:00,125.55071428571429,1,Índice general,cataluña
+2019-08-01T00:00:00.000+02:00,125.565375,1,Índice general,cataluña
+2019-09-01T00:00:00.000+02:00,125.79144444444445,1,Índice general,cataluña
+2019-10-01T00:00:00.000+02:00,126.16069999999999,1,Índice general,cataluña
+2019-11-01T00:00:00.000+01:00,125.69281818181817,1,Índice general,cataluña
+2019-12-01T00:00:00.000+01:00,124.40116666666665,1,Índice general,cataluña
+2019-01-01T00:00:00.000+01:00,105.072,1,Índice general corregido,cataluña
+2019-02-01T00:00:00.000+01:00,106.1875,1,Índice general corregido,cataluña
+2019-03-01T00:00:00.000+01:00,106.45,1,Índice general corregido,cataluña
+2019-04-01T00:00:00.000+02:00,106.05325,1,Índice general corregido,cataluña
+2019-05-01T00:00:00.000+02:00,105.9588,1,Índice general corregido,cataluña
+2019-06-01T00:00:00.000+02:00,105.687,1,Índice general corregido,cataluña
+2019-07-01T00:00:00.000+02:00,104.86942857142857,1,Índice general corregido,cataluña
+2019-08-01T00:00:00.000+02:00,103.380375,1,Índice general corregido,cataluña
+2019-09-01T00:00:00.000+02:00,103.48044444444446,1,Índice general corregido,cataluña
+2019-10-01T00:00:00.000+02:00,103.55790000000002,1,Índice general corregido,cataluña
+2019-11-01T00:00:00.000+01:00,103.75654545454546,1,Índice general corregido,cataluña
+2019-12-01T00:00:00.000+01:00,103.11650000000002,1,Índice general corregido,cataluña
+2019-01-01T00:00:00.000+01:00,-0.30238449475250695,1,Annual variation,cataluña
+2019-02-01T00:00:00.000+01:00,-1.0812647068571295,1,Annual variation,cataluña
+2019-03-01T00:00:00.000+01:00,-0.812423122561314,1,Annual variation,cataluña
+2019-04-01T00:00:00.000+02:00,-1.6761193061032473,1,Annual variation,cataluña
+2019-05-01T00:00:00.000+02:00,-1.6808549755002118,1,Annual variation,cataluña
+2019-06-01T00:00:00.000+02:00,-1.7857992293909744,1,Annual variation,cataluña
+2019-07-01T00:00:00.000+02:00,-1.4752010618667457,1,Annual variation,cataluña
+2019-08-01T00:00:00.000+02:00,-1.658598189854779,1,Annual variation,cataluña
+2019-09-01T00:00:00.000+02:00,-1.85629230470484,1,Annual variation,cataluña
+2019-10-01T00:00:00.000+02:00,-1.7663428566089465,1,Annual variation,cataluña
+2019-11-01T00:00:00.000+01:00,-1.7717196934551465,1,Annual variation,cataluña
+2019-12-01T00:00:00.000+01:00,-1.8762829812030097,1,Annual variation,cataluña
+2019-01-01T00:00:00.000+01:00,-0.16627552329282275,1,Corrected annual variation,cataluña
+2019-02-01T00:00:00.000+01:00,-1.0326621340130797,1,Corrected annual variation,cataluña
+2019-03-01T00:00:00.000+01:00,-1.0914474377001557,1,Corrected annual variation,cataluña
+2019-04-01T00:00:00.000+02:00,-1.6873931039597319,1,Corrected annual variation,cataluña
+2019-05-01T00:00:00.000+02:00,-2.069539178173359,1,Corrected annual variation,cataluña
+2019-06-01T00:00:00.000+02:00,-2.200074955235079,1,Corrected annual variation,cataluña
+2019-07-01T00:00:00.000+02:00,-2.2217308722025284,1,Corrected annual variation,cataluña
+2019-08-01T00:00:00.000+02:00,-2.2329217951324702,1,Corrected annual variation,cataluña
+2019-09-01T00:00:00.000+02:00,-2.199380846568387,1,Corrected annual variation,cataluña
+2019-10-01T00:00:00.000+02:00,-2.2416161234748415,1,Corrected annual variation,cataluña
+2019-11-01T00:00:00.000+01:00,-2.245743622070989,1,Corrected annual variation,cataluña
+2019-12-01T00:00:00.000+01:00,-2.3856160941719198,1,Corrected annual variation,cataluña
+2019-01-01T00:00:00.000+01:00,123.969,1,Índice general,pais vasco
+2019-02-01T00:00:00.000+01:00,119.387,1,Índice general,pais vasco
+2019-03-01T00:00:00.000+01:00,121.76299999999999,1,Índice general,pais vasco
+2019-04-01T00:00:00.000+02:00,121.18025,1,Índice general,pais vasco
+2019-05-01T00:00:00.000+02:00,123.00019999999999,1,Índice general,pais vasco
+2019-06-01T00:00:00.000+02:00,123.8815,1,Índice general,pais vasco
+2019-07-01T00:00:00.000+02:00,125.55071428571429,1,Índice general,pais vasco
+2019-08-01T00:00:00.000+02:00,125.565375,1,Índice general,pais vasco
+2019-09-01T00:00:00.000+02:00,125.79144444444445,1,Índice general,pais vasco
+2019-10-01T00:00:00.000+02:00,126.16069999999999,1,Índice general,pais vasco
+2019-11-01T00:00:00.000+01:00,125.69281818181817,1,Índice general,pais vasco
+2019-12-01T00:00:00.000+01:00,124.40116666666665,1,Índice general,pais vasco
+2019-01-01T00:00:00.000+01:00,105.072,1,Índice general corregido,pais vasco
+2019-02-01T00:00:00.000+01:00,106.1875,1,Índice general corregido,pais vasco
+2019-03-01T00:00:00.000+01:00,106.45,1,Índice general corregido,pais vasco
+2019-04-01T00:00:00.000+02:00,106.05325,1,Índice general corregido,pais vasco
+2019-05-01T00:00:00.000+02:00,105.9588,1,Índice general corregido,pais vasco
+2019-06-01T00:00:00.000+02:00,105.687,1,Índice general corregido,pais vasco
+2019-07-01T00:00:00.000+02:00,104.86942857142857,1,Índice general corregido,pais vasco
+2019-08-01T00:00:00.000+02:00,103.380375,1,Índice general corregido,pais vasco
+2019-09-01T00:00:00.000+02:00,103.48044444444446,1,Índice general corregido,pais vasco
+2019-10-01T00:00:00.000+02:00,103.55790000000002,1,Índice general corregido,pais vasco
+2019-11-01T00:00:00.000+01:00,103.75654545454546,1,Índice general corregido,pais vasco
+2019-12-01T00:00:00.000+01:00,103.11650000000002,1,Índice general corregido,pais vasco
+2019-01-01T00:00:00.000+01:00,-0.30238449475250695,1,Annual variation,pais vasco
+2019-02-01T00:00:00.000+01:00,-1.0812647068571295,1,Annual variation,pais vasco
+2019-03-01T00:00:00.000+01:00,-0.812423122561314,1,Annual variation,pais vasco
+2019-04-01T00:00:00.000+02:00,-1.6761193061032473,1,Annual variation,pais vasco
+2019-05-01T00:00:00.000+02:00,-1.6808549755002118,1,Annual variation,pais vasco
+2019-06-01T00:00:00.000+02:00,-1.7857992293909744,1,Annual variation,pais vasco
+2019-07-01T00:00:00.000+02:00,-1.4752010618667457,1,Annual variation,pais vasco
+2019-08-01T00:00:00.000+02:00,-1.658598189854779,1,Annual variation,pais vasco
+2019-09-01T00:00:00.000+02:00,-1.85629230470484,1,Annual variation,pais vasco
+2019-10-01T00:00:00.000+02:00,-1.7663428566089465,1,Annual variation,pais vasco
+2019-11-01T00:00:00.000+01:00,-1.7717196934551465,1,Annual variation,pais vasco
+2019-12-01T00:00:00.000+01:00,-1.8762829812030097,1,Annual variation,pais vasco
+2019-01-01T00:00:00.000+01:00,-0.16627552329282275,1,Corrected annual variation,pais vasco
+2019-02-01T00:00:00.000+01:00,-1.0326621340130797,1,Corrected annual variation,pais vasco
+2019-03-01T00:00:00.000+01:00,-1.0914474377001557,1,Corrected annual variation,pais vasco
+2019-04-01T00:00:00.000+02:00,-1.6873931039597319,1,Corrected annual variation,pais vasco
+2019-05-01T00:00:00.000+02:00,-2.069539178173359,1,Corrected annual variation,pais vasco
+2019-06-01T00:00:00.000+02:00,-2.200074955235079,1,Corrected annual variation,pais vasco
+2019-07-01T00:00:00.000+02:00,-2.2217308722025284,1,Corrected annual variation,pais vasco
+2019-08-01T00:00:00.000+02:00,-2.2329217951324702,1,Corrected annual variation,pais vasco
+2019-09-01T00:00:00.000+02:00,-2.199380846568387,1,Corrected annual variation,pais vasco
+2019-10-01T00:00:00.000+02:00,-2.2416161234748415,1,Corrected annual variation,pais vasco
+2019-11-01T00:00:00.000+01:00,-2.245743622070989,1,Corrected annual variation,pais vasco
+2019-12-01T00:00:00.000+01:00,-2.3856160941719198,1,Corrected annual variation,pais vasco
+2019-01-01T00:00:00.000+01:00,123.969,1,Índice general,principado de asturias
+2019-02-01T00:00:00.000+01:00,119.387,1,Índice general,principado de asturias
+2019-03-01T00:00:00.000+01:00,121.76299999999999,1,Índice general,principado de asturias
+2019-04-01T00:00:00.000+02:00,121.18025,1,Índice general,principado de asturias
+2019-05-01T00:00:00.000+02:00,123.00019999999999,1,Índice general,principado de asturias
+2019-06-01T00:00:00.000+02:00,123.8815,1,Índice general,principado de asturias
+2019-07-01T00:00:00.000+02:00,125.55071428571429,1,Índice general,principado de asturias
+2019-08-01T00:00:00.000+02:00,125.565375,1,Índice general,principado de asturias
+2019-09-01T00:00:00.000+02:00,125.79144444444445,1,Índice general,principado de asturias
+2019-10-01T00:00:00.000+02:00,126.16069999999999,1,Índice general,principado de asturias
+2019-11-01T00:00:00.000+01:00,125.69281818181817,1,Índice general,principado de asturias
+2019-12-01T00:00:00.000+01:00,124.40116666666665,1,Índice general,principado de asturias
+2019-01-01T00:00:00.000+01:00,105.072,1,Índice general corregido,principado de asturias
+2019-02-01T00:00:00.000+01:00,106.1875,1,Índice general corregido,principado de asturias
+2019-03-01T00:00:00.000+01:00,106.45,1,Índice general corregido,principado de asturias
+2019-04-01T00:00:00.000+02:00,106.05325,1,Índice general corregido,principado de asturias
+2019-05-01T00:00:00.000+02:00,105.9588,1,Índice general corregido,principado de asturias
+2019-06-01T00:00:00.000+02:00,105.687,1,Índice general corregido,principado de asturias
+2019-07-01T00:00:00.000+02:00,104.86942857142857,1,Índice general corregido,principado de asturias
+2019-08-01T00:00:00.000+02:00,103.380375,1,Índice general corregido,principado de asturias
+2019-09-01T00:00:00.000+02:00,103.48044444444446,1,Índice general corregido,principado de asturias
+2019-10-01T00:00:00.000+02:00,103.55790000000002,1,Índice general corregido,principado de asturias
+2019-11-01T00:00:00.000+01:00,103.75654545454546,1,Índice general corregido,principado de asturias
+2019-12-01T00:00:00.000+01:00,103.11650000000002,1,Índice general corregido,principado de asturias
+2019-01-01T00:00:00.000+01:00,-0.30238449475250695,1,Annual variation,principado de asturias
+2019-02-01T00:00:00.000+01:00,-1.0812647068571295,1,Annual variation,principado de asturias
+2019-03-01T00:00:00.000+01:00,-0.812423122561314,1,Annual variation,principado de asturias
+2019-04-01T00:00:00.000+02:00,-1.6761193061032473,1,Annual variation,principado de asturias
+2019-05-01T00:00:00.000+02:00,-1.6808549755002118,1,Annual variation,principado de asturias
+2019-06-01T00:00:00.000+02:00,-1.7857992293909744,1,Annual variation,principado de asturias
+2019-07-01T00:00:00.000+02:00,-1.4752010618667457,1,Annual variation,principado de asturias
+2019-08-01T00:00:00.000+02:00,-1.658598189854779,1,Annual variation,principado de asturias
+2019-09-01T00:00:00.000+02:00,-1.85629230470484,1,Annual variation,principado de asturias
+2019-10-01T00:00:00.000+02:00,-1.7663428566089465,1,Annual variation,principado de asturias
+2019-11-01T00:00:00.000+01:00,-1.7717196934551465,1,Annual variation,principado de asturias
+2019-12-01T00:00:00.000+01:00,-1.8762829812030097,1,Annual variation,principado de asturias
+2019-01-01T00:00:00.000+01:00,-0.16627552329282275,1,Corrected annual variation,principado de asturias
+2019-02-01T00:00:00.000+01:00,-1.0326621340130797,1,Corrected annual variation,principado de asturias
+2019-03-01T00:00:00.000+01:00,-1.0914474377001557,1,Corrected annual variation,principado de asturias
+2019-04-01T00:00:00.000+02:00,-1.6873931039597319,1,Corrected annual variation,principado de asturias
+2019-05-01T00:00:00.000+02:00,-2.069539178173359,1,Corrected annual variation,principado de asturias
+2019-06-01T00:00:00.000+02:00,-2.200074955235079,1,Corrected annual variation,principado de asturias
+2019-07-01T00:00:00.000+02:00,-2.2217308722025284,1,Corrected annual variation,principado de asturias
+2019-08-01T00:00:00.000+02:00,-2.2329217951324702,1,Corrected annual variation,principado de asturias
+2019-09-01T00:00:00.000+02:00,-2.199380846568387,1,Corrected annual variation,principado de asturias
+2019-10-01T00:00:00.000+02:00,-2.2416161234748415,1,Corrected annual variation,principado de asturias
+2019-11-01T00:00:00.000+01:00,-2.245743622070989,1,Corrected annual variation,principado de asturias
+2019-12-01T00:00:00.000+01:00,-2.3856160941719198,1,Corrected annual variation,principado de asturias
+2019-01-01T00:00:00.000+01:00,123.969,1,Índice general,comunidad de madrid
+2019-02-01T00:00:00.000+01:00,119.387,1,Índice general,comunidad de madrid
+2019-03-01T00:00:00.000+01:00,121.76299999999999,1,Índice general,comunidad de madrid
+2019-04-01T00:00:00.000+02:00,121.18025,1,Índice general,comunidad de madrid
+2019-05-01T00:00:00.000+02:00,123.00019999999999,1,Índice general,comunidad de madrid
+2019-06-01T00:00:00.000+02:00,123.8815,1,Índice general,comunidad de madrid
+2019-07-01T00:00:00.000+02:00,125.55071428571429,1,Índice general,comunidad de madrid
+2019-08-01T00:00:00.000+02:00,125.565375,1,Índice general,comunidad de madrid
+2019-09-01T00:00:00.000+02:00,125.79144444444445,1,Índice general,comunidad de madrid
+2019-10-01T00:00:00.000+02:00,126.16069999999999,1,Índice general,comunidad de madrid
+2019-11-01T00:00:00.000+01:00,125.69281818181817,1,Índice general,comunidad de madrid
+2019-12-01T00:00:00.000+01:00,124.40116666666665,1,Índice general,comunidad de madrid
+2019-01-01T00:00:00.000+01:00,105.072,1,Índice general corregido,comunidad de madrid
+2019-02-01T00:00:00.000+01:00,106.1875,1,Índice general corregido,comunidad de madrid
+2019-03-01T00:00:00.000+01:00,106.45,1,Índice general corregido,comunidad de madrid
+2019-04-01T00:00:00.000+02:00,106.05325,1,Índice general corregido,comunidad de madrid
+2019-05-01T00:00:00.000+02:00,105.9588,1,Índice general corregido,comunidad de madrid
+2019-06-01T00:00:00.000+02:00,105.687,1,Índice general corregido,comunidad de madrid
+2019-07-01T00:00:00.000+02:00,104.86942857142857,1,Índice general corregido,comunidad de madrid
+2019-08-01T00:00:00.000+02:00,103.380375,1,Índice general corregido,comunidad de madrid
+2019-09-01T00:00:00.000+02:00,103.48044444444446,1,Índice general corregido,comunidad de madrid
+2019-10-01T00:00:00.000+02:00,103.55790000000002,1,Índice general corregido,comunidad de madrid
+2019-11-01T00:00:00.000+01:00,103.75654545454546,1,Índice general corregido,comunidad de madrid
+2019-12-01T00:00:00.000+01:00,103.11650000000002,1,Índice general corregido,comunidad de madrid
+2019-01-01T00:00:00.000+01:00,-0.30238449475250695,1,Annual variation,comunidad de madrid
+2019-02-01T00:00:00.000+01:00,-1.0812647068571295,1,Annual variation,comunidad de madrid
+2019-03-01T00:00:00.000+01:00,-0.812423122561314,1,Annual variation,comunidad de madrid
+2019-04-01T00:00:00.000+02:00,-1.6761193061032473,1,Annual variation,comunidad de madrid
+2019-05-01T00:00:00.000+02:00,-1.6808549755002118,1,Annual variation,comunidad de madrid
+2019-06-01T00:00:00.000+02:00,-1.7857992293909744,1,Annual variation,comunidad de madrid
+2019-07-01T00:00:00.000+02:00,-1.4752010618667457,1,Annual variation,comunidad de madrid
+2019-08-01T00:00:00.000+02:00,-1.658598189854779,1,Annual variation,comunidad de madrid
+2019-09-01T00:00:00.000+02:00,-1.85629230470484,1,Annual variation,comunidad de madrid
+2019-10-01T00:00:00.000+02:00,-1.7663428566089465,1,Annual variation,comunidad de madrid
+2019-11-01T00:00:00.000+01:00,-1.7717196934551465,1,Annual variation,comunidad de madrid
+2019-12-01T00:00:00.000+01:00,-1.8762829812030097,1,Annual variation,comunidad de madrid
+2019-01-01T00:00:00.000+01:00,-0.16627552329282275,1,Corrected annual variation,comunidad de madrid
+2019-02-01T00:00:00.000+01:00,-1.0326621340130797,1,Corrected annual variation,comunidad de madrid
+2019-03-01T00:00:00.000+01:00,-1.0914474377001557,1,Corrected annual variation,comunidad de madrid
+2019-04-01T00:00:00.000+02:00,-1.6873931039597319,1,Corrected annual variation,comunidad de madrid
+2019-05-01T00:00:00.000+02:00,-2.069539178173359,1,Corrected annual variation,comunidad de madrid
+2019-06-01T00:00:00.000+02:00,-2.200074955235079,1,Corrected annual variation,comunidad de madrid
+2019-07-01T00:00:00.000+02:00,-2.2217308722025284,1,Corrected annual variation,comunidad de madrid
+2019-08-01T00:00:00.000+02:00,-2.2329217951324702,1,Corrected annual variation,comunidad de madrid
+2019-09-01T00:00:00.000+02:00,-2.199380846568387,1,Corrected annual variation,comunidad de madrid
+2019-10-01T00:00:00.000+02:00,-2.2416161234748415,1,Corrected annual variation,comunidad de madrid
+2019-11-01T00:00:00.000+01:00,-2.245743622070989,1,Corrected annual variation,comunidad de madrid
+2019-12-01T00:00:00.000+01:00,-2.3856160941719198,1,Corrected annual variation,comunidad de madrid
+2019-01-01T00:00:00.000+01:00,123.969,1,Índice general,comunidad de navarra
+2019-02-01T00:00:00.000+01:00,119.387,1,Índice general,comunidad de navarra
+2019-03-01T00:00:00.000+01:00,121.76299999999999,1,Índice general,comunidad de navarra
+2019-04-01T00:00:00.000+02:00,121.18025,1,Índice general,comunidad de navarra
+2019-05-01T00:00:00.000+02:00,123.00019999999999,1,Índice general,comunidad de navarra
+2019-06-01T00:00:00.000+02:00,123.8815,1,Índice general,comunidad de navarra
+2019-07-01T00:00:00.000+02:00,125.55071428571429,1,Índice general,comunidad de navarra
+2019-08-01T00:00:00.000+02:00,125.565375,1,Índice general,comunidad de navarra
+2019-09-01T00:00:00.000+02:00,125.79144444444445,1,Índice general,comunidad de navarra
+2019-10-01T00:00:00.000+02:00,126.16069999999999,1,Índice general,comunidad de navarra
+2019-11-01T00:00:00.000+01:00,125.69281818181817,1,Índice general,comunidad de navarra
+2019-12-01T00:00:00.000+01:00,124.40116666666665,1,Índice general,comunidad de navarra
+2019-01-01T00:00:00.000+01:00,105.072,1,Índice general corregido,comunidad de navarra
+2019-02-01T00:00:00.000+01:00,106.1875,1,Índice general corregido,comunidad de navarra
+2019-03-01T00:00:00.000+01:00,106.45,1,Índice general corregido,comunidad de navarra
+2019-04-01T00:00:00.000+02:00,106.05325,1,Índice general corregido,comunidad de navarra
+2019-05-01T00:00:00.000+02:00,105.9588,1,Índice general corregido,comunidad de navarra
+2019-06-01T00:00:00.000+02:00,105.687,1,Índice general corregido,comunidad de navarra
+2019-07-01T00:00:00.000+02:00,104.86942857142857,1,Índice general corregido,comunidad de navarra
+2019-08-01T00:00:00.000+02:00,103.380375,1,Índice general corregido,comunidad de navarra
+2019-09-01T00:00:00.000+02:00,103.48044444444446,1,Índice general corregido,comunidad de navarra
+2019-10-01T00:00:00.000+02:00,103.55790000000002,1,Índice general corregido,comunidad de navarra
+2019-11-01T00:00:00.000+01:00,103.75654545454546,1,Índice general corregido,comunidad de navarra
+2019-12-01T00:00:00.000+01:00,103.11650000000002,1,Índice general corregido,comunidad de navarra
+2019-01-01T00:00:00.000+01:00,-0.30238449475250695,1,Annual variation,comunidad de navarra
+2019-02-01T00:00:00.000+01:00,-1.0812647068571295,1,Annual variation,comunidad de navarra
+2019-03-01T00:00:00.000+01:00,-0.812423122561314,1,Annual variation,comunidad de navarra
+2019-04-01T00:00:00.000+02:00,-1.6761193061032473,1,Annual variation,comunidad de navarra
+2019-05-01T00:00:00.000+02:00,-1.6808549755002118,1,Annual variation,comunidad de navarra
+2019-06-01T00:00:00.000+02:00,-1.7857992293909744,1,Annual variation,comunidad de navarra
+2019-07-01T00:00:00.000+02:00,-1.4752010618667457,1,Annual variation,comunidad de navarra
+2019-08-01T00:00:00.000+02:00,-1.658598189854779,1,Annual variation,comunidad de navarra
+2019-09-01T00:00:00.000+02:00,-1.85629230470484,1,Annual variation,comunidad de navarra
+2019-10-01T00:00:00.000+02:00,-1.7663428566089465,1,Annual variation,comunidad de navarra
+2019-11-01T00:00:00.000+01:00,-1.7717196934551465,1,Annual variation,comunidad de navarra
+2019-12-01T00:00:00.000+01:00,-1.8762829812030097,1,Annual variation,comunidad de navarra
+2019-01-01T00:00:00.000+01:00,-0.16627552329282275,1,Corrected annual variation,comunidad de navarra
+2019-02-01T00:00:00.000+01:00,-1.0326621340130797,1,Corrected annual variation,comunidad de navarra
+2019-03-01T00:00:00.000+01:00,-1.0914474377001557,1,Corrected annual variation,comunidad de navarra
+2019-04-01T00:00:00.000+02:00,-1.6873931039597319,1,Corrected annual variation,comunidad de navarra
+2019-05-01T00:00:00.000+02:00,-2.069539178173359,1,Corrected annual variation,comunidad de navarra
+2019-06-01T00:00:00.000+02:00,-2.200074955235079,1,Corrected annual variation,comunidad de navarra
+2019-07-01T00:00:00.000+02:00,-2.2217308722025284,1,Corrected annual variation,comunidad de navarra
+2019-08-01T00:00:00.000+02:00,-2.2329217951324702,1,Corrected annual variation,comunidad de navarra
+2019-09-01T00:00:00.000+02:00,-2.199380846568387,1,Corrected annual variation,comunidad de navarra
+2019-10-01T00:00:00.000+02:00,-2.2416161234748415,1,Corrected annual variation,comunidad de navarra
+2019-11-01T00:00:00.000+01:00,-2.245743622070989,1,Corrected annual variation,comunidad de navarra
+2019-12-01T00:00:00.000+01:00,-2.3856160941719198,1,Corrected annual variation,comunidad de navarra
+2019-01-01T00:00:00.000+01:00,123.969,1,Índice general,comunidad valenciana
+2019-02-01T00:00:00.000+01:00,119.387,1,Índice general,comunidad valenciana
+2019-03-01T00:00:00.000+01:00,121.76299999999999,1,Índice general,comunidad valenciana
+2019-04-01T00:00:00.000+02:00,121.18025,1,Índice general,comunidad valenciana
+2019-05-01T00:00:00.000+02:00,123.00019999999999,1,Índice general,comunidad valenciana
+2019-06-01T00:00:00.000+02:00,123.8815,1,Índice general,comunidad valenciana
+2019-07-01T00:00:00.000+02:00,125.55071428571429,1,Índice general,comunidad valenciana
+2019-08-01T00:00:00.000+02:00,125.565375,1,Índice general,comunidad valenciana
+2019-09-01T00:00:00.000+02:00,125.79144444444445,1,Índice general,comunidad valenciana
+2019-10-01T00:00:00.000+02:00,126.16069999999999,1,Índice general,comunidad valenciana
+2019-11-01T00:00:00.000+01:00,125.69281818181817,1,Índice general,comunidad valenciana
+2019-12-01T00:00:00.000+01:00,124.40116666666665,1,Índice general,comunidad valenciana
+2019-01-01T00:00:00.000+01:00,105.072,1,Índice general corregido,comunidad valenciana
+2019-02-01T00:00:00.000+01:00,106.1875,1,Índice general corregido,comunidad valenciana
+2019-03-01T00:00:00.000+01:00,106.45,1,Índice general corregido,comunidad valenciana
+2019-04-01T00:00:00.000+02:00,106.05325,1,Índice general corregido,comunidad valenciana
+2019-05-01T00:00:00.000+02:00,105.9588,1,Índice general corregido,comunidad valenciana
+2019-06-01T00:00:00.000+02:00,105.687,1,Índice general corregido,comunidad valenciana
+2019-07-01T00:00:00.000+02:00,104.86942857142857,1,Índice general corregido,comunidad valenciana
+2019-08-01T00:00:00.000+02:00,103.380375,1,Índice general corregido,comunidad valenciana
+2019-09-01T00:00:00.000+02:00,103.48044444444446,1,Índice general corregido,comunidad valenciana
+2019-10-01T00:00:00.000+02:00,103.55790000000002,1,Índice general corregido,comunidad valenciana
+2019-11-01T00:00:00.000+01:00,103.75654545454546,1,Índice general corregido,comunidad valenciana
+2019-12-01T00:00:00.000+01:00,103.11650000000002,1,Índice general corregido,comunidad valenciana
+2019-01-01T00:00:00.000+01:00,-0.30238449475250695,1,Annual variation,comunidad valenciana
+2019-02-01T00:00:00.000+01:00,-1.0812647068571295,1,Annual variation,comunidad valenciana
+2019-03-01T00:00:00.000+01:00,-0.812423122561314,1,Annual variation,comunidad valenciana
+2019-04-01T00:00:00.000+02:00,-1.6761193061032473,1,Annual variation,comunidad valenciana
+2019-05-01T00:00:00.000+02:00,-1.6808549755002118,1,Annual variation,comunidad valenciana
+2019-06-01T00:00:00.000+02:00,-1.7857992293909744,1,Annual variation,comunidad valenciana
+2019-07-01T00:00:00.000+02:00,-1.4752010618667457,1,Annual variation,comunidad valenciana
+2019-08-01T00:00:00.000+02:00,-1.658598189854779,1,Annual variation,comunidad valenciana
+2019-09-01T00:00:00.000+02:00,-1.85629230470484,1,Annual variation,comunidad valenciana
+2019-10-01T00:00:00.000+02:00,-1.7663428566089465,1,Annual variation,comunidad valenciana
+2019-11-01T00:00:00.000+01:00,-1.7717196934551465,1,Annual variation,comunidad valenciana
+2019-12-01T00:00:00.000+01:00,-1.8762829812030097,1,Annual variation,comunidad valenciana
+2019-01-01T00:00:00.000+01:00,-0.16627552329282275,1,Corrected annual variation,comunidad valenciana
+2019-02-01T00:00:00.000+01:00,-1.0326621340130797,1,Corrected annual variation,comunidad valenciana
+2019-03-01T00:00:00.000+01:00,-1.0914474377001557,1,Corrected annual variation,comunidad valenciana
+2019-04-01T00:00:00.000+02:00,-1.6873931039597319,1,Corrected annual variation,comunidad valenciana
+2019-05-01T00:00:00.000+02:00,-2.069539178173359,1,Corrected annual variation,comunidad valenciana
+2019-06-01T00:00:00.000+02:00,-2.200074955235079,1,Corrected annual variation,comunidad valenciana
+2019-07-01T00:00:00.000+02:00,-2.2217308722025284,1,Corrected annual variation,comunidad valenciana
+2019-08-01T00:00:00.000+02:00,-2.2329217951324702,1,Corrected annual variation,comunidad valenciana
+2019-09-01T00:00:00.000+02:00,-2.199380846568387,1,Corrected annual variation,comunidad valenciana
+2019-10-01T00:00:00.000+02:00,-2.2416161234748415,1,Corrected annual variation,comunidad valenciana
+2019-11-01T00:00:00.000+01:00,-2.245743622070989,1,Corrected annual variation,comunidad valenciana
+2019-12-01T00:00:00.000+01:00,-2.3856160941719198,1,Corrected annual variation,comunidad valenciana
+2019-01-01T00:00:00.000+01:00,123.969,1,Índice general,extremadura
+2019-02-01T00:00:00.000+01:00,119.387,1,Índice general,extremadura
+2019-03-01T00:00:00.000+01:00,121.76299999999999,1,Índice general,extremadura
+2019-04-01T00:00:00.000+02:00,121.18025,1,Índice general,extremadura
+2019-05-01T00:00:00.000+02:00,123.00019999999999,1,Índice general,extremadura
+2019-06-01T00:00:00.000+02:00,123.8815,1,Índice general,extremadura
+2019-07-01T00:00:00.000+02:00,125.55071428571429,1,Índice general,extremadura
+2019-08-01T00:00:00.000+02:00,125.565375,1,Índice general,extremadura
+2019-09-01T00:00:00.000+02:00,125.79144444444445,1,Índice general,extremadura
+2019-10-01T00:00:00.000+02:00,126.16069999999999,1,Índice general,extremadura
+2019-11-01T00:00:00.000+01:00,125.69281818181817,1,Índice general,extremadura
+2019-12-01T00:00:00.000+01:00,124.40116666666665,1,Índice general,extremadura
+2019-01-01T00:00:00.000+01:00,105.072,1,Índice general corregido,extremadura
+2019-02-01T00:00:00.000+01:00,106.1875,1,Índice general corregido,extremadura
+2019-03-01T00:00:00.000+01:00,106.45,1,Índice general corregido,extremadura
+2019-04-01T00:00:00.000+02:00,106.05325,1,Índice general corregido,extremadura
+2019-05-01T00:00:00.000+02:00,105.9588,1,Índice general corregido,extremadura
+2019-06-01T00:00:00.000+02:00,105.687,1,Índice general corregido,extremadura
+2019-07-01T00:00:00.000+02:00,104.86942857142857,1,Índice general corregido,extremadura
+2019-08-01T00:00:00.000+02:00,103.380375,1,Índice general corregido,extremadura
+2019-09-01T00:00:00.000+02:00,103.48044444444446,1,Índice general corregido,extremadura
+2019-10-01T00:00:00.000+02:00,103.55790000000002,1,Índice general corregido,extremadura
+2019-11-01T00:00:00.000+01:00,103.75654545454546,1,Índice general corregido,extremadura
+2019-12-01T00:00:00.000+01:00,103.11650000000002,1,Índice general corregido,extremadura
+2019-01-01T00:00:00.000+01:00,-0.30238449475250695,1,Annual variation,extremadura
+2019-02-01T00:00:00.000+01:00,-1.0812647068571295,1,Annual variation,extremadura
+2019-03-01T00:00:00.000+01:00,-0.812423122561314,1,Annual variation,extremadura
+2019-04-01T00:00:00.000+02:00,-1.6761193061032473,1,Annual variation,extremadura
+2019-05-01T00:00:00.000+02:00,-1.6808549755002118,1,Annual variation,extremadura
+2019-06-01T00:00:00.000+02:00,-1.7857992293909744,1,Annual variation,extremadura
+2019-07-01T00:00:00.000+02:00,-1.4752010618667457,1,Annual variation,extremadura
+2019-08-01T00:00:00.000+02:00,-1.658598189854779,1,Annual variation,extremadura
+2019-09-01T00:00:00.000+02:00,-1.85629230470484,1,Annual variation,extremadura
+2019-10-01T00:00:00.000+02:00,-1.7663428566089465,1,Annual variation,extremadura
+2019-11-01T00:00:00.000+01:00,-1.7717196934551465,1,Annual variation,extremadura
+2019-12-01T00:00:00.000+01:00,-1.8762829812030097,1,Annual variation,extremadura
+2019-01-01T00:00:00.000+01:00,-0.16627552329282275,1,Corrected annual variation,extremadura
+2019-02-01T00:00:00.000+01:00,-1.0326621340130797,1,Corrected annual variation,extremadura
+2019-03-01T00:00:00.000+01:00,-1.0914474377001557,1,Corrected annual variation,extremadura
+2019-04-01T00:00:00.000+02:00,-1.6873931039597319,1,Corrected annual variation,extremadura
+2019-05-01T00:00:00.000+02:00,-2.069539178173359,1,Corrected annual variation,extremadura
+2019-06-01T00:00:00.000+02:00,-2.200074955235079,1,Corrected annual variation,extremadura
+2019-07-01T00:00:00.000+02:00,-2.2217308722025284,1,Corrected annual variation,extremadura
+2019-08-01T00:00:00.000+02:00,-2.2329217951324702,1,Corrected annual variation,extremadura
+2019-09-01T00:00:00.000+02:00,-2.199380846568387,1,Corrected annual variation,extremadura
+2019-10-01T00:00:00.000+02:00,-2.2416161234748415,1,Corrected annual variation,extremadura
+2019-11-01T00:00:00.000+01:00,-2.245743622070989,1,Corrected annual variation,extremadura
+2019-12-01T00:00:00.000+01:00,-2.3856160941719198,1,Corrected annual variation,extremadura
+2019-01-01T00:00:00.000+01:00,123.969,1,Índice general,galicia
+2019-02-01T00:00:00.000+01:00,119.387,1,Índice general,galicia
+2019-03-01T00:00:00.000+01:00,121.76299999999999,1,Índice general,galicia
+2019-04-01T00:00:00.000+02:00,121.18025,1,Índice general,galicia
+2019-05-01T00:00:00.000+02:00,123.00019999999999,1,Índice general,galicia
+2019-06-01T00:00:00.000+02:00,123.8815,1,Índice general,galicia
+2019-07-01T00:00:00.000+02:00,125.55071428571429,1,Índice general,galicia
+2019-08-01T00:00:00.000+02:00,125.565375,1,Índice general,galicia
+2019-09-01T00:00:00.000+02:00,125.79144444444445,1,Índice general,galicia
+2019-10-01T00:00:00.000+02:00,126.16069999999999,1,Índice general,galicia
+2019-11-01T00:00:00.000+01:00,125.69281818181817,1,Índice general,galicia
+2019-12-01T00:00:00.000+01:00,124.40116666666665,1,Índice general,galicia
+2019-01-01T00:00:00.000+01:00,105.072,1,Índice general corregido,galicia
+2019-02-01T00:00:00.000+01:00,106.1875,1,Índice general corregido,galicia
+2019-03-01T00:00:00.000+01:00,106.45,1,Índice general corregido,galicia
+2019-04-01T00:00:00.000+02:00,106.05325,1,Índice general corregido,galicia
+2019-05-01T00:00:00.000+02:00,105.9588,1,Índice general corregido,galicia
+2019-06-01T00:00:00.000+02:00,105.687,1,Índice general corregido,galicia
+2019-07-01T00:00:00.000+02:00,104.86942857142857,1,Índice general corregido,galicia
+2019-08-01T00:00:00.000+02:00,103.380375,1,Índice general corregido,galicia
+2019-09-01T00:00:00.000+02:00,103.48044444444446,1,Índice general corregido,galicia
+2019-10-01T00:00:00.000+02:00,103.55790000000002,1,Índice general corregido,galicia
+2019-11-01T00:00:00.000+01:00,103.75654545454546,1,Índice general corregido,galicia
+2019-12-01T00:00:00.000+01:00,103.11650000000002,1,Índice general corregido,galicia
+2019-01-01T00:00:00.000+01:00,-0.30238449475250695,1,Annual variation,galicia
+2019-02-01T00:00:00.000+01:00,-1.0812647068571295,1,Annual variation,galicia
+2019-03-01T00:00:00.000+01:00,-0.812423122561314,1,Annual variation,galicia
+2019-04-01T00:00:00.000+02:00,-1.6761193061032473,1,Annual variation,galicia
+2019-05-01T00:00:00.000+02:00,-1.6808549755002118,1,Annual variation,galicia
+2019-06-01T00:00:00.000+02:00,-1.7857992293909744,1,Annual variation,galicia
+2019-07-01T00:00:00.000+02:00,-1.4752010618667457,1,Annual variation,galicia
+2019-08-01T00:00:00.000+02:00,-1.658598189854779,1,Annual variation,galicia
+2019-09-01T00:00:00.000+02:00,-1.85629230470484,1,Annual variation,galicia
+2019-10-01T00:00:00.000+02:00,-1.7663428566089465,1,Annual variation,galicia
+2019-11-01T00:00:00.000+01:00,-1.7717196934551465,1,Annual variation,galicia
+2019-12-01T00:00:00.000+01:00,-1.8762829812030097,1,Annual variation,galicia
+2019-01-01T00:00:00.000+01:00,-0.16627552329282275,1,Corrected annual variation,galicia
+2019-02-01T00:00:00.000+01:00,-1.0326621340130797,1,Corrected annual variation,galicia
+2019-03-01T00:00:00.000+01:00,-1.0914474377001557,1,Corrected annual variation,galicia
+2019-04-01T00:00:00.000+02:00,-1.6873931039597319,1,Corrected annual variation,galicia
+2019-05-01T00:00:00.000+02:00,-2.069539178173359,1,Corrected annual variation,galicia
+2019-06-01T00:00:00.000+02:00,-2.200074955235079,1,Corrected annual variation,galicia
+2019-07-01T00:00:00.000+02:00,-2.2217308722025284,1,Corrected annual variation,galicia
+2019-08-01T00:00:00.000+02:00,-2.2329217951324702,1,Corrected annual variation,galicia
+2019-09-01T00:00:00.000+02:00,-2.199380846568387,1,Corrected annual variation,galicia
+2019-10-01T00:00:00.000+02:00,-2.2416161234748415,1,Corrected annual variation,galicia
+2019-11-01T00:00:00.000+01:00,-2.245743622070989,1,Corrected annual variation,galicia
+2019-12-01T00:00:00.000+01:00,-2.3856160941719198,1,Corrected annual variation,galicia
+2019-01-01T00:00:00.000+01:00,123.969,1,Índice general,la rioja
+2019-02-01T00:00:00.000+01:00,119.387,1,Índice general,la rioja
+2019-03-01T00:00:00.000+01:00,121.76299999999999,1,Índice general,la rioja
+2019-04-01T00:00:00.000+02:00,121.18025,1,Índice general,la rioja
+2019-05-01T00:00:00.000+02:00,123.00019999999999,1,Índice general,la rioja
+2019-06-01T00:00:00.000+02:00,123.8815,1,Índice general,la rioja
+2019-07-01T00:00:00.000+02:00,125.55071428571429,1,Índice general,la rioja
+2019-08-01T00:00:00.000+02:00,125.565375,1,Índice general,la rioja
+2019-09-01T00:00:00.000+02:00,125.79144444444445,1,Índice general,la rioja
+2019-10-01T00:00:00.000+02:00,126.16069999999999,1,Índice general,la rioja
+2019-11-01T00:00:00.000+01:00,125.69281818181817,1,Índice general,la rioja
+2019-12-01T00:00:00.000+01:00,124.40116666666665,1,Índice general,la rioja
+2019-01-01T00:00:00.000+01:00,105.072,1,Índice general corregido,la rioja
+2019-02-01T00:00:00.000+01:00,106.1875,1,Índice general corregido,la rioja
+2019-03-01T00:00:00.000+01:00,106.45,1,Índice general corregido,la rioja
+2019-04-01T00:00:00.000+02:00,106.05325,1,Índice general corregido,la rioja
+2019-05-01T00:00:00.000+02:00,105.9588,1,Índice general corregido,la rioja
+2019-06-01T00:00:00.000+02:00,105.687,1,Índice general corregido,la rioja
+2019-07-01T00:00:00.000+02:00,104.86942857142857,1,Índice general corregido,la rioja
+2019-08-01T00:00:00.000+02:00,103.380375,1,Índice general corregido,la rioja
+2019-09-01T00:00:00.000+02:00,103.48044444444446,1,Índice general corregido,la rioja
+2019-10-01T00:00:00.000+02:00,103.55790000000002,1,Índice general corregido,la rioja
+2019-11-01T00:00:00.000+01:00,103.75654545454546,1,Índice general corregido,la rioja
+2019-12-01T00:00:00.000+01:00,103.11650000000002,1,Índice general corregido,la rioja
+2019-01-01T00:00:00.000+01:00,-0.30238449475250695,1,Annual variation,la rioja
+2019-02-01T00:00:00.000+01:00,-1.0812647068571295,1,Annual variation,la rioja
+2019-03-01T00:00:00.000+01:00,-0.812423122561314,1,Annual variation,la rioja
+2019-04-01T00:00:00.000+02:00,-1.6761193061032473,1,Annual variation,la rioja
+2019-05-01T00:00:00.000+02:00,-1.6808549755002118,1,Annual variation,la rioja
+2019-06-01T00:00:00.000+02:00,-1.7857992293909744,1,Annual variation,la rioja
+2019-07-01T00:00:00.000+02:00,-1.4752010618667457,1,Annual variation,la rioja
+2019-08-01T00:00:00.000+02:00,-1.658598189854779,1,Annual variation,la rioja
+2019-09-01T00:00:00.000+02:00,-1.85629230470484,1,Annual variation,la rioja
+2019-10-01T00:00:00.000+02:00,-1.7663428566089465,1,Annual variation,la rioja
+2019-11-01T00:00:00.000+01:00,-1.7717196934551465,1,Annual variation,la rioja
+2019-12-01T00:00:00.000+01:00,-1.8762829812030097,1,Annual variation,la rioja
+2019-01-01T00:00:00.000+01:00,-0.16627552329282275,1,Corrected annual variation,la rioja
+2019-02-01T00:00:00.000+01:00,-1.0326621340130797,1,Corrected annual variation,la rioja
+2019-03-01T00:00:00.000+01:00,-1.0914474377001557,1,Corrected annual variation,la rioja
+2019-04-01T00:00:00.000+02:00,-1.6873931039597319,1,Corrected annual variation,la rioja
+2019-05-01T00:00:00.000+02:00,-2.069539178173359,1,Corrected annual variation,la rioja
+2019-06-01T00:00:00.000+02:00,-2.200074955235079,1,Corrected annual variation,la rioja
+2019-07-01T00:00:00.000+02:00,-2.2217308722025284,1,Corrected annual variation,la rioja
+2019-08-01T00:00:00.000+02:00,-2.2329217951324702,1,Corrected annual variation,la rioja
+2019-09-01T00:00:00.000+02:00,-2.199380846568387,1,Corrected annual variation,la rioja
+2019-10-01T00:00:00.000+02:00,-2.2416161234748415,1,Corrected annual variation,la rioja
+2019-11-01T00:00:00.000+01:00,-2.245743622070989,1,Corrected annual variation,la rioja
+2019-12-01T00:00:00.000+01:00,-2.3856160941719198,1,Corrected annual variation,la rioja
+2019-01-01T00:00:00.000+01:00,123.969,1,Índice general,region de murcia
+2019-02-01T00:00:00.000+01:00,119.387,1,Índice general,region de murcia
+2019-03-01T00:00:00.000+01:00,121.76299999999999,1,Índice general,region de murcia
+2019-04-01T00:00:00.000+02:00,121.18025,1,Índice general,region de murcia
+2019-05-01T00:00:00.000+02:00,123.00019999999999,1,Índice general,region de murcia
+2019-06-01T00:00:00.000+02:00,123.8815,1,Índice general,region de murcia
+2019-07-01T00:00:00.000+02:00,125.55071428571429,1,Índice general,region de murcia
+2019-08-01T00:00:00.000+02:00,125.565375,1,Índice general,region de murcia
+2019-09-01T00:00:00.000+02:00,125.79144444444445,1,Índice general,region de murcia
+2019-10-01T00:00:00.000+02:00,126.16069999999999,1,Índice general,region de murcia
+2019-11-01T00:00:00.000+01:00,125.69281818181817,1,Índice general,region de murcia
+2019-12-01T00:00:00.000+01:00,124.40116666666665,1,Índice general,region de murcia
+2019-01-01T00:00:00.000+01:00,105.072,1,Índice general corregido,region de murcia
+2019-02-01T00:00:00.000+01:00,106.1875,1,Índice general corregido,region de murcia
+2019-03-01T00:00:00.000+01:00,106.45,1,Índice general corregido,region de murcia
+2019-04-01T00:00:00.000+02:00,106.05325,1,Índice general corregido,region de murcia
+2019-05-01T00:00:00.000+02:00,105.9588,1,Índice general corregido,region de murcia
+2019-06-01T00:00:00.000+02:00,105.687,1,Índice general corregido,region de murcia
+2019-07-01T00:00:00.000+02:00,104.86942857142857,1,Índice general corregido,region de murcia
+2019-08-01T00:00:00.000+02:00,103.380375,1,Índice general corregido,region de murcia
+2019-09-01T00:00:00.000+02:00,103.48044444444446,1,Índice general corregido,region de murcia
+2019-10-01T00:00:00.000+02:00,103.55790000000002,1,Índice general corregido,region de murcia
+2019-11-01T00:00:00.000+01:00,103.75654545454546,1,Índice general corregido,region de murcia
+2019-12-01T00:00:00.000+01:00,103.11650000000002,1,Índice general corregido,region de murcia
+2019-01-01T00:00:00.000+01:00,-0.30238449475250695,1,Annual variation,region de murcia
+2019-02-01T00:00:00.000+01:00,-1.0812647068571295,1,Annual variation,region de murcia
+2019-03-01T00:00:00.000+01:00,-0.812423122561314,1,Annual variation,region de murcia
+2019-04-01T00:00:00.000+02:00,-1.6761193061032473,1,Annual variation,region de murcia
+2019-05-01T00:00:00.000+02:00,-1.6808549755002118,1,Annual variation,region de murcia
+2019-06-01T00:00:00.000+02:00,-1.7857992293909744,1,Annual variation,region de murcia
+2019-07-01T00:00:00.000+02:00,-1.4752010618667457,1,Annual variation,region de murcia
+2019-08-01T00:00:00.000+02:00,-1.658598189854779,1,Annual variation,region de murcia
+2019-09-01T00:00:00.000+02:00,-1.85629230470484,1,Annual variation,region de murcia
+2019-10-01T00:00:00.000+02:00,-1.7663428566089465,1,Annual variation,region de murcia
+2019-11-01T00:00:00.000+01:00,-1.7717196934551465,1,Annual variation,region de murcia
+2019-12-01T00:00:00.000+01:00,-1.8762829812030097,1,Annual variation,region de murcia
+2019-01-01T00:00:00.000+01:00,-0.16627552329282275,1,Corrected annual variation,region de murcia
+2019-02-01T00:00:00.000+01:00,-1.0326621340130797,1,Corrected annual variation,region de murcia
+2019-03-01T00:00:00.000+01:00,-1.0914474377001557,1,Corrected annual variation,region de murcia
+2019-04-01T00:00:00.000+02:00,-1.6873931039597319,1,Corrected annual variation,region de murcia
+2019-05-01T00:00:00.000+02:00,-2.069539178173359,1,Corrected annual variation,region de murcia
+2019-06-01T00:00:00.000+02:00,-2.200074955235079,1,Corrected annual variation,region de murcia
+2019-07-01T00:00:00.000+02:00,-2.2217308722025284,1,Corrected annual variation,region de murcia
+2019-08-01T00:00:00.000+02:00,-2.2329217951324702,1,Corrected annual variation,region de murcia
+2019-09-01T00:00:00.000+02:00,-2.199380846568387,1,Corrected annual variation,region de murcia
+2019-10-01T00:00:00.000+02:00,-2.2416161234748415,1,Corrected annual variation,region de murcia
+2019-11-01T00:00:00.000+01:00,-2.245743622070989,1,Corrected annual variation,region de murcia
+2019-12-01T00:00:00.000+01:00,-2.3856160941719198,1,Corrected annual variation,region de murcia
