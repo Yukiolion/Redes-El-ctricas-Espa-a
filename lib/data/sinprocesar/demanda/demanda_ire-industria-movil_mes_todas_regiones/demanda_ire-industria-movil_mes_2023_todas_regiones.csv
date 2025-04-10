@@ -1,0 +1,961 @@
+fecha,valor,porcentaje,indicator,region
+2023-01-01T00:00:00.000+01:00,106.2281666666667,1,Índice industria,peninsular
+2023-02-01T00:00:00.000+01:00,105.55166666666668,1,Índice industria,peninsular
+2023-03-01T00:00:00.000+01:00,105.47758333333336,1,Índice industria,peninsular
+2023-04-01T00:00:00.000+02:00,104.70524999999999,1,Índice industria,peninsular
+2023-05-01T00:00:00.000+02:00,103.72574999999999,1,Índice industria,peninsular
+2023-06-01T00:00:00.000+02:00,102.90533333333333,1,Índice industria,peninsular
+2023-07-01T00:00:00.000+02:00,102.05391666666667,1,Índice industria,peninsular
+2023-08-01T00:00:00.000+02:00,101.41433333333333,1,Índice industria,peninsular
+2023-09-01T00:00:00.000+02:00,100.88783333333335,1,Índice industria,peninsular
+2023-10-01T00:00:00.000+02:00,100.734,1,Índice industria,peninsular
+2023-11-01T00:00:00.000+01:00,100.85508333333333,1,Índice industria,peninsular
+2023-12-01T00:00:00.000+01:00,100.6975,1,Índice industria,peninsular
+2023-01-01T00:00:00.000+01:00,86.62650000000001,1,Índice industria corregido,peninsular
+2023-02-01T00:00:00.000+01:00,85.97608333333334,1,Índice industria corregido,peninsular
+2023-03-01T00:00:00.000+01:00,85.86758333333334,1,Índice industria corregido,peninsular
+2023-04-01T00:00:00.000+02:00,85.19866666666667,1,Índice industria corregido,peninsular
+2023-05-01T00:00:00.000+02:00,84.4785,1,Índice industria corregido,peninsular
+2023-06-01T00:00:00.000+02:00,83.83116666666666,1,Índice industria corregido,peninsular
+2023-07-01T00:00:00.000+02:00,83.29541666666667,1,Índice industria corregido,peninsular
+2023-08-01T00:00:00.000+02:00,82.77783333333333,1,Índice industria corregido,peninsular
+2023-09-01T00:00:00.000+02:00,82.43275,1,Índice industria corregido,peninsular
+2023-10-01T00:00:00.000+02:00,82.24633333333333,1,Índice industria corregido,peninsular
+2023-11-01T00:00:00.000+01:00,82.35291666666667,1,Índice industria corregido,peninsular
+2023-12-01T00:00:00.000+01:00,82.27708333333332,1,Índice industria corregido,peninsular
+2023-01-01T00:00:00.000+01:00,-8.626499460606325,1,Annual variation,peninsular
+2023-02-01T00:00:00.000+01:00,-8.843796891698837,1,Annual variation,peninsular
+2023-03-01T00:00:00.000+01:00,-8.057234549642555,1,Annual variation,peninsular
+2023-04-01T00:00:00.000+02:00,-8.16376202713728,1,Annual variation,peninsular
+2023-05-01T00:00:00.000+02:00,-8.733965134823016,1,Annual variation,peninsular
+2023-06-01T00:00:00.000+02:00,-8.938437078747798,1,Annual variation,peninsular
+2023-07-01T00:00:00.000+02:00,-9.0914692083853,1,Annual variation,peninsular
+2023-08-01T00:00:00.000+02:00,-8.842619190830415,1,Annual variation,peninsular
+2023-09-01T00:00:00.000+02:00,-8.445395627415227,1,Annual variation,peninsular
+2023-10-01T00:00:00.000+02:00,-7.793137011107788,1,Annual variation,peninsular
+2023-11-01T00:00:00.000+01:00,-6.727791744184098,1,Annual variation,peninsular
+2023-12-01T00:00:00.000+01:00,-5.912829389189061,1,Annual variation,peninsular
+2023-01-01T00:00:00.000+01:00,-9.103325737610026,1,Corrected annual variation,peninsular
+2023-02-01T00:00:00.000+01:00,-9.335663844042074,1,Corrected annual variation,peninsular
+2023-03-01T00:00:00.000+01:00,-8.575482094152758,1,Corrected annual variation,peninsular
+2023-04-01T00:00:00.000+02:00,-8.668743925447364,1,Corrected annual variation,peninsular
+2023-05-01T00:00:00.000+02:00,-9.134080165213701,1,Corrected annual variation,peninsular
+2023-06-01T00:00:00.000+02:00,-9.30994443062122,1,Corrected annual variation,peninsular
+2023-07-01T00:00:00.000+02:00,-9.253872538071727,1,Corrected annual variation,peninsular
+2023-08-01T00:00:00.000+02:00,-9.021517923054247,1,Corrected annual variation,peninsular
+2023-09-01T00:00:00.000+02:00,-8.55453763878232,1,Corrected annual variation,peninsular
+2023-10-01T00:00:00.000+02:00,-8.030497589303868,1,Corrected annual variation,peninsular
+2023-11-01T00:00:00.000+01:00,-6.809141848399053,1,Corrected annual variation,peninsular
+2023-12-01T00:00:00.000+01:00,-5.797868889372328,1,Corrected annual variation,peninsular
+2023-01-01T00:00:00.000+01:00,106.2281666666667,1,Índice industria,canarias
+2023-02-01T00:00:00.000+01:00,105.55166666666668,1,Índice industria,canarias
+2023-03-01T00:00:00.000+01:00,105.47758333333336,1,Índice industria,canarias
+2023-04-01T00:00:00.000+02:00,104.70524999999999,1,Índice industria,canarias
+2023-05-01T00:00:00.000+02:00,103.72574999999999,1,Índice industria,canarias
+2023-06-01T00:00:00.000+02:00,102.90533333333333,1,Índice industria,canarias
+2023-07-01T00:00:00.000+02:00,102.05391666666667,1,Índice industria,canarias
+2023-08-01T00:00:00.000+02:00,101.41433333333333,1,Índice industria,canarias
+2023-09-01T00:00:00.000+02:00,100.88783333333335,1,Índice industria,canarias
+2023-10-01T00:00:00.000+02:00,100.734,1,Índice industria,canarias
+2023-11-01T00:00:00.000+01:00,100.85508333333333,1,Índice industria,canarias
+2023-12-01T00:00:00.000+01:00,100.6975,1,Índice industria,canarias
+2023-01-01T00:00:00.000+01:00,86.62650000000001,1,Índice industria corregido,canarias
+2023-02-01T00:00:00.000+01:00,85.97608333333334,1,Índice industria corregido,canarias
+2023-03-01T00:00:00.000+01:00,85.86758333333334,1,Índice industria corregido,canarias
+2023-04-01T00:00:00.000+02:00,85.19866666666667,1,Índice industria corregido,canarias
+2023-05-01T00:00:00.000+02:00,84.4785,1,Índice industria corregido,canarias
+2023-06-01T00:00:00.000+02:00,83.83116666666666,1,Índice industria corregido,canarias
+2023-07-01T00:00:00.000+02:00,83.29541666666667,1,Índice industria corregido,canarias
+2023-08-01T00:00:00.000+02:00,82.77783333333333,1,Índice industria corregido,canarias
+2023-09-01T00:00:00.000+02:00,82.43275,1,Índice industria corregido,canarias
+2023-10-01T00:00:00.000+02:00,82.24633333333333,1,Índice industria corregido,canarias
+2023-11-01T00:00:00.000+01:00,82.35291666666667,1,Índice industria corregido,canarias
+2023-12-01T00:00:00.000+01:00,82.27708333333332,1,Índice industria corregido,canarias
+2023-01-01T00:00:00.000+01:00,-8.626499460606325,1,Annual variation,canarias
+2023-02-01T00:00:00.000+01:00,-8.843796891698837,1,Annual variation,canarias
+2023-03-01T00:00:00.000+01:00,-8.057234549642555,1,Annual variation,canarias
+2023-04-01T00:00:00.000+02:00,-8.16376202713728,1,Annual variation,canarias
+2023-05-01T00:00:00.000+02:00,-8.733965134823016,1,Annual variation,canarias
+2023-06-01T00:00:00.000+02:00,-8.938437078747798,1,Annual variation,canarias
+2023-07-01T00:00:00.000+02:00,-9.0914692083853,1,Annual variation,canarias
+2023-08-01T00:00:00.000+02:00,-8.842619190830415,1,Annual variation,canarias
+2023-09-01T00:00:00.000+02:00,-8.445395627415227,1,Annual variation,canarias
+2023-10-01T00:00:00.000+02:00,-7.793137011107788,1,Annual variation,canarias
+2023-11-01T00:00:00.000+01:00,-6.727791744184098,1,Annual variation,canarias
+2023-12-01T00:00:00.000+01:00,-5.912829389189061,1,Annual variation,canarias
+2023-01-01T00:00:00.000+01:00,-9.103325737610026,1,Corrected annual variation,canarias
+2023-02-01T00:00:00.000+01:00,-9.335663844042074,1,Corrected annual variation,canarias
+2023-03-01T00:00:00.000+01:00,-8.575482094152758,1,Corrected annual variation,canarias
+2023-04-01T00:00:00.000+02:00,-8.668743925447364,1,Corrected annual variation,canarias
+2023-05-01T00:00:00.000+02:00,-9.134080165213701,1,Corrected annual variation,canarias
+2023-06-01T00:00:00.000+02:00,-9.30994443062122,1,Corrected annual variation,canarias
+2023-07-01T00:00:00.000+02:00,-9.253872538071727,1,Corrected annual variation,canarias
+2023-08-01T00:00:00.000+02:00,-9.021517923054247,1,Corrected annual variation,canarias
+2023-09-01T00:00:00.000+02:00,-8.55453763878232,1,Corrected annual variation,canarias
+2023-10-01T00:00:00.000+02:00,-8.030497589303868,1,Corrected annual variation,canarias
+2023-11-01T00:00:00.000+01:00,-6.809141848399053,1,Corrected annual variation,canarias
+2023-12-01T00:00:00.000+01:00,-5.797868889372328,1,Corrected annual variation,canarias
+2023-01-01T00:00:00.000+01:00,106.2281666666667,1,Índice industria,baleares
+2023-02-01T00:00:00.000+01:00,105.55166666666668,1,Índice industria,baleares
+2023-03-01T00:00:00.000+01:00,105.47758333333336,1,Índice industria,baleares
+2023-04-01T00:00:00.000+02:00,104.70524999999999,1,Índice industria,baleares
+2023-05-01T00:00:00.000+02:00,103.72574999999999,1,Índice industria,baleares
+2023-06-01T00:00:00.000+02:00,102.90533333333333,1,Índice industria,baleares
+2023-07-01T00:00:00.000+02:00,102.05391666666667,1,Índice industria,baleares
+2023-08-01T00:00:00.000+02:00,101.41433333333333,1,Índice industria,baleares
+2023-09-01T00:00:00.000+02:00,100.88783333333335,1,Índice industria,baleares
+2023-10-01T00:00:00.000+02:00,100.734,1,Índice industria,baleares
+2023-11-01T00:00:00.000+01:00,100.85508333333333,1,Índice industria,baleares
+2023-12-01T00:00:00.000+01:00,100.6975,1,Índice industria,baleares
+2023-01-01T00:00:00.000+01:00,86.62650000000001,1,Índice industria corregido,baleares
+2023-02-01T00:00:00.000+01:00,85.97608333333334,1,Índice industria corregido,baleares
+2023-03-01T00:00:00.000+01:00,85.86758333333334,1,Índice industria corregido,baleares
+2023-04-01T00:00:00.000+02:00,85.19866666666667,1,Índice industria corregido,baleares
+2023-05-01T00:00:00.000+02:00,84.4785,1,Índice industria corregido,baleares
+2023-06-01T00:00:00.000+02:00,83.83116666666666,1,Índice industria corregido,baleares
+2023-07-01T00:00:00.000+02:00,83.29541666666667,1,Índice industria corregido,baleares
+2023-08-01T00:00:00.000+02:00,82.77783333333333,1,Índice industria corregido,baleares
+2023-09-01T00:00:00.000+02:00,82.43275,1,Índice industria corregido,baleares
+2023-10-01T00:00:00.000+02:00,82.24633333333333,1,Índice industria corregido,baleares
+2023-11-01T00:00:00.000+01:00,82.35291666666667,1,Índice industria corregido,baleares
+2023-12-01T00:00:00.000+01:00,82.27708333333332,1,Índice industria corregido,baleares
+2023-01-01T00:00:00.000+01:00,-8.626499460606325,1,Annual variation,baleares
+2023-02-01T00:00:00.000+01:00,-8.843796891698837,1,Annual variation,baleares
+2023-03-01T00:00:00.000+01:00,-8.057234549642555,1,Annual variation,baleares
+2023-04-01T00:00:00.000+02:00,-8.16376202713728,1,Annual variation,baleares
+2023-05-01T00:00:00.000+02:00,-8.733965134823016,1,Annual variation,baleares
+2023-06-01T00:00:00.000+02:00,-8.938437078747798,1,Annual variation,baleares
+2023-07-01T00:00:00.000+02:00,-9.0914692083853,1,Annual variation,baleares
+2023-08-01T00:00:00.000+02:00,-8.842619190830415,1,Annual variation,baleares
+2023-09-01T00:00:00.000+02:00,-8.445395627415227,1,Annual variation,baleares
+2023-10-01T00:00:00.000+02:00,-7.793137011107788,1,Annual variation,baleares
+2023-11-01T00:00:00.000+01:00,-6.727791744184098,1,Annual variation,baleares
+2023-12-01T00:00:00.000+01:00,-5.912829389189061,1,Annual variation,baleares
+2023-01-01T00:00:00.000+01:00,-9.103325737610026,1,Corrected annual variation,baleares
+2023-02-01T00:00:00.000+01:00,-9.335663844042074,1,Corrected annual variation,baleares
+2023-03-01T00:00:00.000+01:00,-8.575482094152758,1,Corrected annual variation,baleares
+2023-04-01T00:00:00.000+02:00,-8.668743925447364,1,Corrected annual variation,baleares
+2023-05-01T00:00:00.000+02:00,-9.134080165213701,1,Corrected annual variation,baleares
+2023-06-01T00:00:00.000+02:00,-9.30994443062122,1,Corrected annual variation,baleares
+2023-07-01T00:00:00.000+02:00,-9.253872538071727,1,Corrected annual variation,baleares
+2023-08-01T00:00:00.000+02:00,-9.021517923054247,1,Corrected annual variation,baleares
+2023-09-01T00:00:00.000+02:00,-8.55453763878232,1,Corrected annual variation,baleares
+2023-10-01T00:00:00.000+02:00,-8.030497589303868,1,Corrected annual variation,baleares
+2023-11-01T00:00:00.000+01:00,-6.809141848399053,1,Corrected annual variation,baleares
+2023-12-01T00:00:00.000+01:00,-5.797868889372328,1,Corrected annual variation,baleares
+2023-01-01T00:00:00.000+01:00,106.2281666666667,1,Índice industria,ceuta
+2023-02-01T00:00:00.000+01:00,105.55166666666668,1,Índice industria,ceuta
+2023-03-01T00:00:00.000+01:00,105.47758333333336,1,Índice industria,ceuta
+2023-04-01T00:00:00.000+02:00,104.70524999999999,1,Índice industria,ceuta
+2023-05-01T00:00:00.000+02:00,103.72574999999999,1,Índice industria,ceuta
+2023-06-01T00:00:00.000+02:00,102.90533333333333,1,Índice industria,ceuta
+2023-07-01T00:00:00.000+02:00,102.05391666666667,1,Índice industria,ceuta
+2023-08-01T00:00:00.000+02:00,101.41433333333333,1,Índice industria,ceuta
+2023-09-01T00:00:00.000+02:00,100.88783333333335,1,Índice industria,ceuta
+2023-10-01T00:00:00.000+02:00,100.734,1,Índice industria,ceuta
+2023-11-01T00:00:00.000+01:00,100.85508333333333,1,Índice industria,ceuta
+2023-12-01T00:00:00.000+01:00,100.6975,1,Índice industria,ceuta
+2023-01-01T00:00:00.000+01:00,86.62650000000001,1,Índice industria corregido,ceuta
+2023-02-01T00:00:00.000+01:00,85.97608333333334,1,Índice industria corregido,ceuta
+2023-03-01T00:00:00.000+01:00,85.86758333333334,1,Índice industria corregido,ceuta
+2023-04-01T00:00:00.000+02:00,85.19866666666667,1,Índice industria corregido,ceuta
+2023-05-01T00:00:00.000+02:00,84.4785,1,Índice industria corregido,ceuta
+2023-06-01T00:00:00.000+02:00,83.83116666666666,1,Índice industria corregido,ceuta
+2023-07-01T00:00:00.000+02:00,83.29541666666667,1,Índice industria corregido,ceuta
+2023-08-01T00:00:00.000+02:00,82.77783333333333,1,Índice industria corregido,ceuta
+2023-09-01T00:00:00.000+02:00,82.43275,1,Índice industria corregido,ceuta
+2023-10-01T00:00:00.000+02:00,82.24633333333333,1,Índice industria corregido,ceuta
+2023-11-01T00:00:00.000+01:00,82.35291666666667,1,Índice industria corregido,ceuta
+2023-12-01T00:00:00.000+01:00,82.27708333333332,1,Índice industria corregido,ceuta
+2023-01-01T00:00:00.000+01:00,-8.626499460606325,1,Annual variation,ceuta
+2023-02-01T00:00:00.000+01:00,-8.843796891698837,1,Annual variation,ceuta
+2023-03-01T00:00:00.000+01:00,-8.057234549642555,1,Annual variation,ceuta
+2023-04-01T00:00:00.000+02:00,-8.16376202713728,1,Annual variation,ceuta
+2023-05-01T00:00:00.000+02:00,-8.733965134823016,1,Annual variation,ceuta
+2023-06-01T00:00:00.000+02:00,-8.938437078747798,1,Annual variation,ceuta
+2023-07-01T00:00:00.000+02:00,-9.0914692083853,1,Annual variation,ceuta
+2023-08-01T00:00:00.000+02:00,-8.842619190830415,1,Annual variation,ceuta
+2023-09-01T00:00:00.000+02:00,-8.445395627415227,1,Annual variation,ceuta
+2023-10-01T00:00:00.000+02:00,-7.793137011107788,1,Annual variation,ceuta
+2023-11-01T00:00:00.000+01:00,-6.727791744184098,1,Annual variation,ceuta
+2023-12-01T00:00:00.000+01:00,-5.912829389189061,1,Annual variation,ceuta
+2023-01-01T00:00:00.000+01:00,-9.103325737610026,1,Corrected annual variation,ceuta
+2023-02-01T00:00:00.000+01:00,-9.335663844042074,1,Corrected annual variation,ceuta
+2023-03-01T00:00:00.000+01:00,-8.575482094152758,1,Corrected annual variation,ceuta
+2023-04-01T00:00:00.000+02:00,-8.668743925447364,1,Corrected annual variation,ceuta
+2023-05-01T00:00:00.000+02:00,-9.134080165213701,1,Corrected annual variation,ceuta
+2023-06-01T00:00:00.000+02:00,-9.30994443062122,1,Corrected annual variation,ceuta
+2023-07-01T00:00:00.000+02:00,-9.253872538071727,1,Corrected annual variation,ceuta
+2023-08-01T00:00:00.000+02:00,-9.021517923054247,1,Corrected annual variation,ceuta
+2023-09-01T00:00:00.000+02:00,-8.55453763878232,1,Corrected annual variation,ceuta
+2023-10-01T00:00:00.000+02:00,-8.030497589303868,1,Corrected annual variation,ceuta
+2023-11-01T00:00:00.000+01:00,-6.809141848399053,1,Corrected annual variation,ceuta
+2023-12-01T00:00:00.000+01:00,-5.797868889372328,1,Corrected annual variation,ceuta
+2023-01-01T00:00:00.000+01:00,106.2281666666667,1,Índice industria,melilla
+2023-02-01T00:00:00.000+01:00,105.55166666666668,1,Índice industria,melilla
+2023-03-01T00:00:00.000+01:00,105.47758333333336,1,Índice industria,melilla
+2023-04-01T00:00:00.000+02:00,104.70524999999999,1,Índice industria,melilla
+2023-05-01T00:00:00.000+02:00,103.72574999999999,1,Índice industria,melilla
+2023-06-01T00:00:00.000+02:00,102.90533333333333,1,Índice industria,melilla
+2023-07-01T00:00:00.000+02:00,102.05391666666667,1,Índice industria,melilla
+2023-08-01T00:00:00.000+02:00,101.41433333333333,1,Índice industria,melilla
+2023-09-01T00:00:00.000+02:00,100.88783333333335,1,Índice industria,melilla
+2023-10-01T00:00:00.000+02:00,100.734,1,Índice industria,melilla
+2023-11-01T00:00:00.000+01:00,100.85508333333333,1,Índice industria,melilla
+2023-12-01T00:00:00.000+01:00,100.6975,1,Índice industria,melilla
+2023-01-01T00:00:00.000+01:00,86.62650000000001,1,Índice industria corregido,melilla
+2023-02-01T00:00:00.000+01:00,85.97608333333334,1,Índice industria corregido,melilla
+2023-03-01T00:00:00.000+01:00,85.86758333333334,1,Índice industria corregido,melilla
+2023-04-01T00:00:00.000+02:00,85.19866666666667,1,Índice industria corregido,melilla
+2023-05-01T00:00:00.000+02:00,84.4785,1,Índice industria corregido,melilla
+2023-06-01T00:00:00.000+02:00,83.83116666666666,1,Índice industria corregido,melilla
+2023-07-01T00:00:00.000+02:00,83.29541666666667,1,Índice industria corregido,melilla
+2023-08-01T00:00:00.000+02:00,82.77783333333333,1,Índice industria corregido,melilla
+2023-09-01T00:00:00.000+02:00,82.43275,1,Índice industria corregido,melilla
+2023-10-01T00:00:00.000+02:00,82.24633333333333,1,Índice industria corregido,melilla
+2023-11-01T00:00:00.000+01:00,82.35291666666667,1,Índice industria corregido,melilla
+2023-12-01T00:00:00.000+01:00,82.27708333333332,1,Índice industria corregido,melilla
+2023-01-01T00:00:00.000+01:00,-8.626499460606325,1,Annual variation,melilla
+2023-02-01T00:00:00.000+01:00,-8.843796891698837,1,Annual variation,melilla
+2023-03-01T00:00:00.000+01:00,-8.057234549642555,1,Annual variation,melilla
+2023-04-01T00:00:00.000+02:00,-8.16376202713728,1,Annual variation,melilla
+2023-05-01T00:00:00.000+02:00,-8.733965134823016,1,Annual variation,melilla
+2023-06-01T00:00:00.000+02:00,-8.938437078747798,1,Annual variation,melilla
+2023-07-01T00:00:00.000+02:00,-9.0914692083853,1,Annual variation,melilla
+2023-08-01T00:00:00.000+02:00,-8.842619190830415,1,Annual variation,melilla
+2023-09-01T00:00:00.000+02:00,-8.445395627415227,1,Annual variation,melilla
+2023-10-01T00:00:00.000+02:00,-7.793137011107788,1,Annual variation,melilla
+2023-11-01T00:00:00.000+01:00,-6.727791744184098,1,Annual variation,melilla
+2023-12-01T00:00:00.000+01:00,-5.912829389189061,1,Annual variation,melilla
+2023-01-01T00:00:00.000+01:00,-9.103325737610026,1,Corrected annual variation,melilla
+2023-02-01T00:00:00.000+01:00,-9.335663844042074,1,Corrected annual variation,melilla
+2023-03-01T00:00:00.000+01:00,-8.575482094152758,1,Corrected annual variation,melilla
+2023-04-01T00:00:00.000+02:00,-8.668743925447364,1,Corrected annual variation,melilla
+2023-05-01T00:00:00.000+02:00,-9.134080165213701,1,Corrected annual variation,melilla
+2023-06-01T00:00:00.000+02:00,-9.30994443062122,1,Corrected annual variation,melilla
+2023-07-01T00:00:00.000+02:00,-9.253872538071727,1,Corrected annual variation,melilla
+2023-08-01T00:00:00.000+02:00,-9.021517923054247,1,Corrected annual variation,melilla
+2023-09-01T00:00:00.000+02:00,-8.55453763878232,1,Corrected annual variation,melilla
+2023-10-01T00:00:00.000+02:00,-8.030497589303868,1,Corrected annual variation,melilla
+2023-11-01T00:00:00.000+01:00,-6.809141848399053,1,Corrected annual variation,melilla
+2023-12-01T00:00:00.000+01:00,-5.797868889372328,1,Corrected annual variation,melilla
+2023-01-01T00:00:00.000+01:00,106.2281666666667,1,Índice industria,andalucia
+2023-02-01T00:00:00.000+01:00,105.55166666666668,1,Índice industria,andalucia
+2023-03-01T00:00:00.000+01:00,105.47758333333336,1,Índice industria,andalucia
+2023-04-01T00:00:00.000+02:00,104.70524999999999,1,Índice industria,andalucia
+2023-05-01T00:00:00.000+02:00,103.72574999999999,1,Índice industria,andalucia
+2023-06-01T00:00:00.000+02:00,102.90533333333333,1,Índice industria,andalucia
+2023-07-01T00:00:00.000+02:00,102.05391666666667,1,Índice industria,andalucia
+2023-08-01T00:00:00.000+02:00,101.41433333333333,1,Índice industria,andalucia
+2023-09-01T00:00:00.000+02:00,100.88783333333335,1,Índice industria,andalucia
+2023-10-01T00:00:00.000+02:00,100.734,1,Índice industria,andalucia
+2023-11-01T00:00:00.000+01:00,100.85508333333333,1,Índice industria,andalucia
+2023-12-01T00:00:00.000+01:00,100.6975,1,Índice industria,andalucia
+2023-01-01T00:00:00.000+01:00,86.62650000000001,1,Índice industria corregido,andalucia
+2023-02-01T00:00:00.000+01:00,85.97608333333334,1,Índice industria corregido,andalucia
+2023-03-01T00:00:00.000+01:00,85.86758333333334,1,Índice industria corregido,andalucia
+2023-04-01T00:00:00.000+02:00,85.19866666666667,1,Índice industria corregido,andalucia
+2023-05-01T00:00:00.000+02:00,84.4785,1,Índice industria corregido,andalucia
+2023-06-01T00:00:00.000+02:00,83.83116666666666,1,Índice industria corregido,andalucia
+2023-07-01T00:00:00.000+02:00,83.29541666666667,1,Índice industria corregido,andalucia
+2023-08-01T00:00:00.000+02:00,82.77783333333333,1,Índice industria corregido,andalucia
+2023-09-01T00:00:00.000+02:00,82.43275,1,Índice industria corregido,andalucia
+2023-10-01T00:00:00.000+02:00,82.24633333333333,1,Índice industria corregido,andalucia
+2023-11-01T00:00:00.000+01:00,82.35291666666667,1,Índice industria corregido,andalucia
+2023-12-01T00:00:00.000+01:00,82.27708333333332,1,Índice industria corregido,andalucia
+2023-01-01T00:00:00.000+01:00,-8.626499460606325,1,Annual variation,andalucia
+2023-02-01T00:00:00.000+01:00,-8.843796891698837,1,Annual variation,andalucia
+2023-03-01T00:00:00.000+01:00,-8.057234549642555,1,Annual variation,andalucia
+2023-04-01T00:00:00.000+02:00,-8.16376202713728,1,Annual variation,andalucia
+2023-05-01T00:00:00.000+02:00,-8.733965134823016,1,Annual variation,andalucia
+2023-06-01T00:00:00.000+02:00,-8.938437078747798,1,Annual variation,andalucia
+2023-07-01T00:00:00.000+02:00,-9.0914692083853,1,Annual variation,andalucia
+2023-08-01T00:00:00.000+02:00,-8.842619190830415,1,Annual variation,andalucia
+2023-09-01T00:00:00.000+02:00,-8.445395627415227,1,Annual variation,andalucia
+2023-10-01T00:00:00.000+02:00,-7.793137011107788,1,Annual variation,andalucia
+2023-11-01T00:00:00.000+01:00,-6.727791744184098,1,Annual variation,andalucia
+2023-12-01T00:00:00.000+01:00,-5.912829389189061,1,Annual variation,andalucia
+2023-01-01T00:00:00.000+01:00,-9.103325737610026,1,Corrected annual variation,andalucia
+2023-02-01T00:00:00.000+01:00,-9.335663844042074,1,Corrected annual variation,andalucia
+2023-03-01T00:00:00.000+01:00,-8.575482094152758,1,Corrected annual variation,andalucia
+2023-04-01T00:00:00.000+02:00,-8.668743925447364,1,Corrected annual variation,andalucia
+2023-05-01T00:00:00.000+02:00,-9.134080165213701,1,Corrected annual variation,andalucia
+2023-06-01T00:00:00.000+02:00,-9.30994443062122,1,Corrected annual variation,andalucia
+2023-07-01T00:00:00.000+02:00,-9.253872538071727,1,Corrected annual variation,andalucia
+2023-08-01T00:00:00.000+02:00,-9.021517923054247,1,Corrected annual variation,andalucia
+2023-09-01T00:00:00.000+02:00,-8.55453763878232,1,Corrected annual variation,andalucia
+2023-10-01T00:00:00.000+02:00,-8.030497589303868,1,Corrected annual variation,andalucia
+2023-11-01T00:00:00.000+01:00,-6.809141848399053,1,Corrected annual variation,andalucia
+2023-12-01T00:00:00.000+01:00,-5.797868889372328,1,Corrected annual variation,andalucia
+2023-01-01T00:00:00.000+01:00,106.2281666666667,1,Índice industria,aragon
+2023-02-01T00:00:00.000+01:00,105.55166666666668,1,Índice industria,aragon
+2023-03-01T00:00:00.000+01:00,105.47758333333336,1,Índice industria,aragon
+2023-04-01T00:00:00.000+02:00,104.70524999999999,1,Índice industria,aragon
+2023-05-01T00:00:00.000+02:00,103.72574999999999,1,Índice industria,aragon
+2023-06-01T00:00:00.000+02:00,102.90533333333333,1,Índice industria,aragon
+2023-07-01T00:00:00.000+02:00,102.05391666666667,1,Índice industria,aragon
+2023-08-01T00:00:00.000+02:00,101.41433333333333,1,Índice industria,aragon
+2023-09-01T00:00:00.000+02:00,100.88783333333335,1,Índice industria,aragon
+2023-10-01T00:00:00.000+02:00,100.734,1,Índice industria,aragon
+2023-11-01T00:00:00.000+01:00,100.85508333333333,1,Índice industria,aragon
+2023-12-01T00:00:00.000+01:00,100.6975,1,Índice industria,aragon
+2023-01-01T00:00:00.000+01:00,86.62650000000001,1,Índice industria corregido,aragon
+2023-02-01T00:00:00.000+01:00,85.97608333333334,1,Índice industria corregido,aragon
+2023-03-01T00:00:00.000+01:00,85.86758333333334,1,Índice industria corregido,aragon
+2023-04-01T00:00:00.000+02:00,85.19866666666667,1,Índice industria corregido,aragon
+2023-05-01T00:00:00.000+02:00,84.4785,1,Índice industria corregido,aragon
+2023-06-01T00:00:00.000+02:00,83.83116666666666,1,Índice industria corregido,aragon
+2023-07-01T00:00:00.000+02:00,83.29541666666667,1,Índice industria corregido,aragon
+2023-08-01T00:00:00.000+02:00,82.77783333333333,1,Índice industria corregido,aragon
+2023-09-01T00:00:00.000+02:00,82.43275,1,Índice industria corregido,aragon
+2023-10-01T00:00:00.000+02:00,82.24633333333333,1,Índice industria corregido,aragon
+2023-11-01T00:00:00.000+01:00,82.35291666666667,1,Índice industria corregido,aragon
+2023-12-01T00:00:00.000+01:00,82.27708333333332,1,Índice industria corregido,aragon
+2023-01-01T00:00:00.000+01:00,-8.626499460606325,1,Annual variation,aragon
+2023-02-01T00:00:00.000+01:00,-8.843796891698837,1,Annual variation,aragon
+2023-03-01T00:00:00.000+01:00,-8.057234549642555,1,Annual variation,aragon
+2023-04-01T00:00:00.000+02:00,-8.16376202713728,1,Annual variation,aragon
+2023-05-01T00:00:00.000+02:00,-8.733965134823016,1,Annual variation,aragon
+2023-06-01T00:00:00.000+02:00,-8.938437078747798,1,Annual variation,aragon
+2023-07-01T00:00:00.000+02:00,-9.0914692083853,1,Annual variation,aragon
+2023-08-01T00:00:00.000+02:00,-8.842619190830415,1,Annual variation,aragon
+2023-09-01T00:00:00.000+02:00,-8.445395627415227,1,Annual variation,aragon
+2023-10-01T00:00:00.000+02:00,-7.793137011107788,1,Annual variation,aragon
+2023-11-01T00:00:00.000+01:00,-6.727791744184098,1,Annual variation,aragon
+2023-12-01T00:00:00.000+01:00,-5.912829389189061,1,Annual variation,aragon
+2023-01-01T00:00:00.000+01:00,-9.103325737610026,1,Corrected annual variation,aragon
+2023-02-01T00:00:00.000+01:00,-9.335663844042074,1,Corrected annual variation,aragon
+2023-03-01T00:00:00.000+01:00,-8.575482094152758,1,Corrected annual variation,aragon
+2023-04-01T00:00:00.000+02:00,-8.668743925447364,1,Corrected annual variation,aragon
+2023-05-01T00:00:00.000+02:00,-9.134080165213701,1,Corrected annual variation,aragon
+2023-06-01T00:00:00.000+02:00,-9.30994443062122,1,Corrected annual variation,aragon
+2023-07-01T00:00:00.000+02:00,-9.253872538071727,1,Corrected annual variation,aragon
+2023-08-01T00:00:00.000+02:00,-9.021517923054247,1,Corrected annual variation,aragon
+2023-09-01T00:00:00.000+02:00,-8.55453763878232,1,Corrected annual variation,aragon
+2023-10-01T00:00:00.000+02:00,-8.030497589303868,1,Corrected annual variation,aragon
+2023-11-01T00:00:00.000+01:00,-6.809141848399053,1,Corrected annual variation,aragon
+2023-12-01T00:00:00.000+01:00,-5.797868889372328,1,Corrected annual variation,aragon
+2023-01-01T00:00:00.000+01:00,106.2281666666667,1,Índice industria,cantabria
+2023-02-01T00:00:00.000+01:00,105.55166666666668,1,Índice industria,cantabria
+2023-03-01T00:00:00.000+01:00,105.47758333333336,1,Índice industria,cantabria
+2023-04-01T00:00:00.000+02:00,104.70524999999999,1,Índice industria,cantabria
+2023-05-01T00:00:00.000+02:00,103.72574999999999,1,Índice industria,cantabria
+2023-06-01T00:00:00.000+02:00,102.90533333333333,1,Índice industria,cantabria
+2023-07-01T00:00:00.000+02:00,102.05391666666667,1,Índice industria,cantabria
+2023-08-01T00:00:00.000+02:00,101.41433333333333,1,Índice industria,cantabria
+2023-09-01T00:00:00.000+02:00,100.88783333333335,1,Índice industria,cantabria
+2023-10-01T00:00:00.000+02:00,100.734,1,Índice industria,cantabria
+2023-11-01T00:00:00.000+01:00,100.85508333333333,1,Índice industria,cantabria
+2023-12-01T00:00:00.000+01:00,100.6975,1,Índice industria,cantabria
+2023-01-01T00:00:00.000+01:00,86.62650000000001,1,Índice industria corregido,cantabria
+2023-02-01T00:00:00.000+01:00,85.97608333333334,1,Índice industria corregido,cantabria
+2023-03-01T00:00:00.000+01:00,85.86758333333334,1,Índice industria corregido,cantabria
+2023-04-01T00:00:00.000+02:00,85.19866666666667,1,Índice industria corregido,cantabria
+2023-05-01T00:00:00.000+02:00,84.4785,1,Índice industria corregido,cantabria
+2023-06-01T00:00:00.000+02:00,83.83116666666666,1,Índice industria corregido,cantabria
+2023-07-01T00:00:00.000+02:00,83.29541666666667,1,Índice industria corregido,cantabria
+2023-08-01T00:00:00.000+02:00,82.77783333333333,1,Índice industria corregido,cantabria
+2023-09-01T00:00:00.000+02:00,82.43275,1,Índice industria corregido,cantabria
+2023-10-01T00:00:00.000+02:00,82.24633333333333,1,Índice industria corregido,cantabria
+2023-11-01T00:00:00.000+01:00,82.35291666666667,1,Índice industria corregido,cantabria
+2023-12-01T00:00:00.000+01:00,82.27708333333332,1,Índice industria corregido,cantabria
+2023-01-01T00:00:00.000+01:00,-8.626499460606325,1,Annual variation,cantabria
+2023-02-01T00:00:00.000+01:00,-8.843796891698837,1,Annual variation,cantabria
+2023-03-01T00:00:00.000+01:00,-8.057234549642555,1,Annual variation,cantabria
+2023-04-01T00:00:00.000+02:00,-8.16376202713728,1,Annual variation,cantabria
+2023-05-01T00:00:00.000+02:00,-8.733965134823016,1,Annual variation,cantabria
+2023-06-01T00:00:00.000+02:00,-8.938437078747798,1,Annual variation,cantabria
+2023-07-01T00:00:00.000+02:00,-9.0914692083853,1,Annual variation,cantabria
+2023-08-01T00:00:00.000+02:00,-8.842619190830415,1,Annual variation,cantabria
+2023-09-01T00:00:00.000+02:00,-8.445395627415227,1,Annual variation,cantabria
+2023-10-01T00:00:00.000+02:00,-7.793137011107788,1,Annual variation,cantabria
+2023-11-01T00:00:00.000+01:00,-6.727791744184098,1,Annual variation,cantabria
+2023-12-01T00:00:00.000+01:00,-5.912829389189061,1,Annual variation,cantabria
+2023-01-01T00:00:00.000+01:00,-9.103325737610026,1,Corrected annual variation,cantabria
+2023-02-01T00:00:00.000+01:00,-9.335663844042074,1,Corrected annual variation,cantabria
+2023-03-01T00:00:00.000+01:00,-8.575482094152758,1,Corrected annual variation,cantabria
+2023-04-01T00:00:00.000+02:00,-8.668743925447364,1,Corrected annual variation,cantabria
+2023-05-01T00:00:00.000+02:00,-9.134080165213701,1,Corrected annual variation,cantabria
+2023-06-01T00:00:00.000+02:00,-9.30994443062122,1,Corrected annual variation,cantabria
+2023-07-01T00:00:00.000+02:00,-9.253872538071727,1,Corrected annual variation,cantabria
+2023-08-01T00:00:00.000+02:00,-9.021517923054247,1,Corrected annual variation,cantabria
+2023-09-01T00:00:00.000+02:00,-8.55453763878232,1,Corrected annual variation,cantabria
+2023-10-01T00:00:00.000+02:00,-8.030497589303868,1,Corrected annual variation,cantabria
+2023-11-01T00:00:00.000+01:00,-6.809141848399053,1,Corrected annual variation,cantabria
+2023-12-01T00:00:00.000+01:00,-5.797868889372328,1,Corrected annual variation,cantabria
+2023-01-01T00:00:00.000+01:00,106.2281666666667,1,Índice industria,castilla la mancha
+2023-02-01T00:00:00.000+01:00,105.55166666666668,1,Índice industria,castilla la mancha
+2023-03-01T00:00:00.000+01:00,105.47758333333336,1,Índice industria,castilla la mancha
+2023-04-01T00:00:00.000+02:00,104.70524999999999,1,Índice industria,castilla la mancha
+2023-05-01T00:00:00.000+02:00,103.72574999999999,1,Índice industria,castilla la mancha
+2023-06-01T00:00:00.000+02:00,102.90533333333333,1,Índice industria,castilla la mancha
+2023-07-01T00:00:00.000+02:00,102.05391666666667,1,Índice industria,castilla la mancha
+2023-08-01T00:00:00.000+02:00,101.41433333333333,1,Índice industria,castilla la mancha
+2023-09-01T00:00:00.000+02:00,100.88783333333335,1,Índice industria,castilla la mancha
+2023-10-01T00:00:00.000+02:00,100.734,1,Índice industria,castilla la mancha
+2023-11-01T00:00:00.000+01:00,100.85508333333333,1,Índice industria,castilla la mancha
+2023-12-01T00:00:00.000+01:00,100.6975,1,Índice industria,castilla la mancha
+2023-01-01T00:00:00.000+01:00,86.62650000000001,1,Índice industria corregido,castilla la mancha
+2023-02-01T00:00:00.000+01:00,85.97608333333334,1,Índice industria corregido,castilla la mancha
+2023-03-01T00:00:00.000+01:00,85.86758333333334,1,Índice industria corregido,castilla la mancha
+2023-04-01T00:00:00.000+02:00,85.19866666666667,1,Índice industria corregido,castilla la mancha
+2023-05-01T00:00:00.000+02:00,84.4785,1,Índice industria corregido,castilla la mancha
+2023-06-01T00:00:00.000+02:00,83.83116666666666,1,Índice industria corregido,castilla la mancha
+2023-07-01T00:00:00.000+02:00,83.29541666666667,1,Índice industria corregido,castilla la mancha
+2023-08-01T00:00:00.000+02:00,82.77783333333333,1,Índice industria corregido,castilla la mancha
+2023-09-01T00:00:00.000+02:00,82.43275,1,Índice industria corregido,castilla la mancha
+2023-10-01T00:00:00.000+02:00,82.24633333333333,1,Índice industria corregido,castilla la mancha
+2023-11-01T00:00:00.000+01:00,82.35291666666667,1,Índice industria corregido,castilla la mancha
+2023-12-01T00:00:00.000+01:00,82.27708333333332,1,Índice industria corregido,castilla la mancha
+2023-01-01T00:00:00.000+01:00,-8.626499460606325,1,Annual variation,castilla la mancha
+2023-02-01T00:00:00.000+01:00,-8.843796891698837,1,Annual variation,castilla la mancha
+2023-03-01T00:00:00.000+01:00,-8.057234549642555,1,Annual variation,castilla la mancha
+2023-04-01T00:00:00.000+02:00,-8.16376202713728,1,Annual variation,castilla la mancha
+2023-05-01T00:00:00.000+02:00,-8.733965134823016,1,Annual variation,castilla la mancha
+2023-06-01T00:00:00.000+02:00,-8.938437078747798,1,Annual variation,castilla la mancha
+2023-07-01T00:00:00.000+02:00,-9.0914692083853,1,Annual variation,castilla la mancha
+2023-08-01T00:00:00.000+02:00,-8.842619190830415,1,Annual variation,castilla la mancha
+2023-09-01T00:00:00.000+02:00,-8.445395627415227,1,Annual variation,castilla la mancha
+2023-10-01T00:00:00.000+02:00,-7.793137011107788,1,Annual variation,castilla la mancha
+2023-11-01T00:00:00.000+01:00,-6.727791744184098,1,Annual variation,castilla la mancha
+2023-12-01T00:00:00.000+01:00,-5.912829389189061,1,Annual variation,castilla la mancha
+2023-01-01T00:00:00.000+01:00,-9.103325737610026,1,Corrected annual variation,castilla la mancha
+2023-02-01T00:00:00.000+01:00,-9.335663844042074,1,Corrected annual variation,castilla la mancha
+2023-03-01T00:00:00.000+01:00,-8.575482094152758,1,Corrected annual variation,castilla la mancha
+2023-04-01T00:00:00.000+02:00,-8.668743925447364,1,Corrected annual variation,castilla la mancha
+2023-05-01T00:00:00.000+02:00,-9.134080165213701,1,Corrected annual variation,castilla la mancha
+2023-06-01T00:00:00.000+02:00,-9.30994443062122,1,Corrected annual variation,castilla la mancha
+2023-07-01T00:00:00.000+02:00,-9.253872538071727,1,Corrected annual variation,castilla la mancha
+2023-08-01T00:00:00.000+02:00,-9.021517923054247,1,Corrected annual variation,castilla la mancha
+2023-09-01T00:00:00.000+02:00,-8.55453763878232,1,Corrected annual variation,castilla la mancha
+2023-10-01T00:00:00.000+02:00,-8.030497589303868,1,Corrected annual variation,castilla la mancha
+2023-11-01T00:00:00.000+01:00,-6.809141848399053,1,Corrected annual variation,castilla la mancha
+2023-12-01T00:00:00.000+01:00,-5.797868889372328,1,Corrected annual variation,castilla la mancha
+2023-01-01T00:00:00.000+01:00,106.2281666666667,1,Índice industria,castilla y leon
+2023-02-01T00:00:00.000+01:00,105.55166666666668,1,Índice industria,castilla y leon
+2023-03-01T00:00:00.000+01:00,105.47758333333336,1,Índice industria,castilla y leon
+2023-04-01T00:00:00.000+02:00,104.70524999999999,1,Índice industria,castilla y leon
+2023-05-01T00:00:00.000+02:00,103.72574999999999,1,Índice industria,castilla y leon
+2023-06-01T00:00:00.000+02:00,102.90533333333333,1,Índice industria,castilla y leon
+2023-07-01T00:00:00.000+02:00,102.05391666666667,1,Índice industria,castilla y leon
+2023-08-01T00:00:00.000+02:00,101.41433333333333,1,Índice industria,castilla y leon
+2023-09-01T00:00:00.000+02:00,100.88783333333335,1,Índice industria,castilla y leon
+2023-10-01T00:00:00.000+02:00,100.734,1,Índice industria,castilla y leon
+2023-11-01T00:00:00.000+01:00,100.85508333333333,1,Índice industria,castilla y leon
+2023-12-01T00:00:00.000+01:00,100.6975,1,Índice industria,castilla y leon
+2023-01-01T00:00:00.000+01:00,86.62650000000001,1,Índice industria corregido,castilla y leon
+2023-02-01T00:00:00.000+01:00,85.97608333333334,1,Índice industria corregido,castilla y leon
+2023-03-01T00:00:00.000+01:00,85.86758333333334,1,Índice industria corregido,castilla y leon
+2023-04-01T00:00:00.000+02:00,85.19866666666667,1,Índice industria corregido,castilla y leon
+2023-05-01T00:00:00.000+02:00,84.4785,1,Índice industria corregido,castilla y leon
+2023-06-01T00:00:00.000+02:00,83.83116666666666,1,Índice industria corregido,castilla y leon
+2023-07-01T00:00:00.000+02:00,83.29541666666667,1,Índice industria corregido,castilla y leon
+2023-08-01T00:00:00.000+02:00,82.77783333333333,1,Índice industria corregido,castilla y leon
+2023-09-01T00:00:00.000+02:00,82.43275,1,Índice industria corregido,castilla y leon
+2023-10-01T00:00:00.000+02:00,82.24633333333333,1,Índice industria corregido,castilla y leon
+2023-11-01T00:00:00.000+01:00,82.35291666666667,1,Índice industria corregido,castilla y leon
+2023-12-01T00:00:00.000+01:00,82.27708333333332,1,Índice industria corregido,castilla y leon
+2023-01-01T00:00:00.000+01:00,-8.626499460606325,1,Annual variation,castilla y leon
+2023-02-01T00:00:00.000+01:00,-8.843796891698837,1,Annual variation,castilla y leon
+2023-03-01T00:00:00.000+01:00,-8.057234549642555,1,Annual variation,castilla y leon
+2023-04-01T00:00:00.000+02:00,-8.16376202713728,1,Annual variation,castilla y leon
+2023-05-01T00:00:00.000+02:00,-8.733965134823016,1,Annual variation,castilla y leon
+2023-06-01T00:00:00.000+02:00,-8.938437078747798,1,Annual variation,castilla y leon
+2023-07-01T00:00:00.000+02:00,-9.0914692083853,1,Annual variation,castilla y leon
+2023-08-01T00:00:00.000+02:00,-8.842619190830415,1,Annual variation,castilla y leon
+2023-09-01T00:00:00.000+02:00,-8.445395627415227,1,Annual variation,castilla y leon
+2023-10-01T00:00:00.000+02:00,-7.793137011107788,1,Annual variation,castilla y leon
+2023-11-01T00:00:00.000+01:00,-6.727791744184098,1,Annual variation,castilla y leon
+2023-12-01T00:00:00.000+01:00,-5.912829389189061,1,Annual variation,castilla y leon
+2023-01-01T00:00:00.000+01:00,-9.103325737610026,1,Corrected annual variation,castilla y leon
+2023-02-01T00:00:00.000+01:00,-9.335663844042074,1,Corrected annual variation,castilla y leon
+2023-03-01T00:00:00.000+01:00,-8.575482094152758,1,Corrected annual variation,castilla y leon
+2023-04-01T00:00:00.000+02:00,-8.668743925447364,1,Corrected annual variation,castilla y leon
+2023-05-01T00:00:00.000+02:00,-9.134080165213701,1,Corrected annual variation,castilla y leon
+2023-06-01T00:00:00.000+02:00,-9.30994443062122,1,Corrected annual variation,castilla y leon
+2023-07-01T00:00:00.000+02:00,-9.253872538071727,1,Corrected annual variation,castilla y leon
+2023-08-01T00:00:00.000+02:00,-9.021517923054247,1,Corrected annual variation,castilla y leon
+2023-09-01T00:00:00.000+02:00,-8.55453763878232,1,Corrected annual variation,castilla y leon
+2023-10-01T00:00:00.000+02:00,-8.030497589303868,1,Corrected annual variation,castilla y leon
+2023-11-01T00:00:00.000+01:00,-6.809141848399053,1,Corrected annual variation,castilla y leon
+2023-12-01T00:00:00.000+01:00,-5.797868889372328,1,Corrected annual variation,castilla y leon
+2023-01-01T00:00:00.000+01:00,106.2281666666667,1,Índice industria,cataluña
+2023-02-01T00:00:00.000+01:00,105.55166666666668,1,Índice industria,cataluña
+2023-03-01T00:00:00.000+01:00,105.47758333333336,1,Índice industria,cataluña
+2023-04-01T00:00:00.000+02:00,104.70524999999999,1,Índice industria,cataluña
+2023-05-01T00:00:00.000+02:00,103.72574999999999,1,Índice industria,cataluña
+2023-06-01T00:00:00.000+02:00,102.90533333333333,1,Índice industria,cataluña
+2023-07-01T00:00:00.000+02:00,102.05391666666667,1,Índice industria,cataluña
+2023-08-01T00:00:00.000+02:00,101.41433333333333,1,Índice industria,cataluña
+2023-09-01T00:00:00.000+02:00,100.88783333333335,1,Índice industria,cataluña
+2023-10-01T00:00:00.000+02:00,100.734,1,Índice industria,cataluña
+2023-11-01T00:00:00.000+01:00,100.85508333333333,1,Índice industria,cataluña
+2023-12-01T00:00:00.000+01:00,100.6975,1,Índice industria,cataluña
+2023-01-01T00:00:00.000+01:00,86.62650000000001,1,Índice industria corregido,cataluña
+2023-02-01T00:00:00.000+01:00,85.97608333333334,1,Índice industria corregido,cataluña
+2023-03-01T00:00:00.000+01:00,85.86758333333334,1,Índice industria corregido,cataluña
+2023-04-01T00:00:00.000+02:00,85.19866666666667,1,Índice industria corregido,cataluña
+2023-05-01T00:00:00.000+02:00,84.4785,1,Índice industria corregido,cataluña
+2023-06-01T00:00:00.000+02:00,83.83116666666666,1,Índice industria corregido,cataluña
+2023-07-01T00:00:00.000+02:00,83.29541666666667,1,Índice industria corregido,cataluña
+2023-08-01T00:00:00.000+02:00,82.77783333333333,1,Índice industria corregido,cataluña
+2023-09-01T00:00:00.000+02:00,82.43275,1,Índice industria corregido,cataluña
+2023-10-01T00:00:00.000+02:00,82.24633333333333,1,Índice industria corregido,cataluña
+2023-11-01T00:00:00.000+01:00,82.35291666666667,1,Índice industria corregido,cataluña
+2023-12-01T00:00:00.000+01:00,82.27708333333332,1,Índice industria corregido,cataluña
+2023-01-01T00:00:00.000+01:00,-8.626499460606325,1,Annual variation,cataluña
+2023-02-01T00:00:00.000+01:00,-8.843796891698837,1,Annual variation,cataluña
+2023-03-01T00:00:00.000+01:00,-8.057234549642555,1,Annual variation,cataluña
+2023-04-01T00:00:00.000+02:00,-8.16376202713728,1,Annual variation,cataluña
+2023-05-01T00:00:00.000+02:00,-8.733965134823016,1,Annual variation,cataluña
+2023-06-01T00:00:00.000+02:00,-8.938437078747798,1,Annual variation,cataluña
+2023-07-01T00:00:00.000+02:00,-9.0914692083853,1,Annual variation,cataluña
+2023-08-01T00:00:00.000+02:00,-8.842619190830415,1,Annual variation,cataluña
+2023-09-01T00:00:00.000+02:00,-8.445395627415227,1,Annual variation,cataluña
+2023-10-01T00:00:00.000+02:00,-7.793137011107788,1,Annual variation,cataluña
+2023-11-01T00:00:00.000+01:00,-6.727791744184098,1,Annual variation,cataluña
+2023-12-01T00:00:00.000+01:00,-5.912829389189061,1,Annual variation,cataluña
+2023-01-01T00:00:00.000+01:00,-9.103325737610026,1,Corrected annual variation,cataluña
+2023-02-01T00:00:00.000+01:00,-9.335663844042074,1,Corrected annual variation,cataluña
+2023-03-01T00:00:00.000+01:00,-8.575482094152758,1,Corrected annual variation,cataluña
+2023-04-01T00:00:00.000+02:00,-8.668743925447364,1,Corrected annual variation,cataluña
+2023-05-01T00:00:00.000+02:00,-9.134080165213701,1,Corrected annual variation,cataluña
+2023-06-01T00:00:00.000+02:00,-9.30994443062122,1,Corrected annual variation,cataluña
+2023-07-01T00:00:00.000+02:00,-9.253872538071727,1,Corrected annual variation,cataluña
+2023-08-01T00:00:00.000+02:00,-9.021517923054247,1,Corrected annual variation,cataluña
+2023-09-01T00:00:00.000+02:00,-8.55453763878232,1,Corrected annual variation,cataluña
+2023-10-01T00:00:00.000+02:00,-8.030497589303868,1,Corrected annual variation,cataluña
+2023-11-01T00:00:00.000+01:00,-6.809141848399053,1,Corrected annual variation,cataluña
+2023-12-01T00:00:00.000+01:00,-5.797868889372328,1,Corrected annual variation,cataluña
+2023-01-01T00:00:00.000+01:00,106.2281666666667,1,Índice industria,pais vasco
+2023-02-01T00:00:00.000+01:00,105.55166666666668,1,Índice industria,pais vasco
+2023-03-01T00:00:00.000+01:00,105.47758333333336,1,Índice industria,pais vasco
+2023-04-01T00:00:00.000+02:00,104.70524999999999,1,Índice industria,pais vasco
+2023-05-01T00:00:00.000+02:00,103.72574999999999,1,Índice industria,pais vasco
+2023-06-01T00:00:00.000+02:00,102.90533333333333,1,Índice industria,pais vasco
+2023-07-01T00:00:00.000+02:00,102.05391666666667,1,Índice industria,pais vasco
+2023-08-01T00:00:00.000+02:00,101.41433333333333,1,Índice industria,pais vasco
+2023-09-01T00:00:00.000+02:00,100.88783333333335,1,Índice industria,pais vasco
+2023-10-01T00:00:00.000+02:00,100.734,1,Índice industria,pais vasco
+2023-11-01T00:00:00.000+01:00,100.85508333333333,1,Índice industria,pais vasco
+2023-12-01T00:00:00.000+01:00,100.6975,1,Índice industria,pais vasco
+2023-01-01T00:00:00.000+01:00,86.62650000000001,1,Índice industria corregido,pais vasco
+2023-02-01T00:00:00.000+01:00,85.97608333333334,1,Índice industria corregido,pais vasco
+2023-03-01T00:00:00.000+01:00,85.86758333333334,1,Índice industria corregido,pais vasco
+2023-04-01T00:00:00.000+02:00,85.19866666666667,1,Índice industria corregido,pais vasco
+2023-05-01T00:00:00.000+02:00,84.4785,1,Índice industria corregido,pais vasco
+2023-06-01T00:00:00.000+02:00,83.83116666666666,1,Índice industria corregido,pais vasco
+2023-07-01T00:00:00.000+02:00,83.29541666666667,1,Índice industria corregido,pais vasco
+2023-08-01T00:00:00.000+02:00,82.77783333333333,1,Índice industria corregido,pais vasco
+2023-09-01T00:00:00.000+02:00,82.43275,1,Índice industria corregido,pais vasco
+2023-10-01T00:00:00.000+02:00,82.24633333333333,1,Índice industria corregido,pais vasco
+2023-11-01T00:00:00.000+01:00,82.35291666666667,1,Índice industria corregido,pais vasco
+2023-12-01T00:00:00.000+01:00,82.27708333333332,1,Índice industria corregido,pais vasco
+2023-01-01T00:00:00.000+01:00,-8.626499460606325,1,Annual variation,pais vasco
+2023-02-01T00:00:00.000+01:00,-8.843796891698837,1,Annual variation,pais vasco
+2023-03-01T00:00:00.000+01:00,-8.057234549642555,1,Annual variation,pais vasco
+2023-04-01T00:00:00.000+02:00,-8.16376202713728,1,Annual variation,pais vasco
+2023-05-01T00:00:00.000+02:00,-8.733965134823016,1,Annual variation,pais vasco
+2023-06-01T00:00:00.000+02:00,-8.938437078747798,1,Annual variation,pais vasco
+2023-07-01T00:00:00.000+02:00,-9.0914692083853,1,Annual variation,pais vasco
+2023-08-01T00:00:00.000+02:00,-8.842619190830415,1,Annual variation,pais vasco
+2023-09-01T00:00:00.000+02:00,-8.445395627415227,1,Annual variation,pais vasco
+2023-10-01T00:00:00.000+02:00,-7.793137011107788,1,Annual variation,pais vasco
+2023-11-01T00:00:00.000+01:00,-6.727791744184098,1,Annual variation,pais vasco
+2023-12-01T00:00:00.000+01:00,-5.912829389189061,1,Annual variation,pais vasco
+2023-01-01T00:00:00.000+01:00,-9.103325737610026,1,Corrected annual variation,pais vasco
+2023-02-01T00:00:00.000+01:00,-9.335663844042074,1,Corrected annual variation,pais vasco
+2023-03-01T00:00:00.000+01:00,-8.575482094152758,1,Corrected annual variation,pais vasco
+2023-04-01T00:00:00.000+02:00,-8.668743925447364,1,Corrected annual variation,pais vasco
+2023-05-01T00:00:00.000+02:00,-9.134080165213701,1,Corrected annual variation,pais vasco
+2023-06-01T00:00:00.000+02:00,-9.30994443062122,1,Corrected annual variation,pais vasco
+2023-07-01T00:00:00.000+02:00,-9.253872538071727,1,Corrected annual variation,pais vasco
+2023-08-01T00:00:00.000+02:00,-9.021517923054247,1,Corrected annual variation,pais vasco
+2023-09-01T00:00:00.000+02:00,-8.55453763878232,1,Corrected annual variation,pais vasco
+2023-10-01T00:00:00.000+02:00,-8.030497589303868,1,Corrected annual variation,pais vasco
+2023-11-01T00:00:00.000+01:00,-6.809141848399053,1,Corrected annual variation,pais vasco
+2023-12-01T00:00:00.000+01:00,-5.797868889372328,1,Corrected annual variation,pais vasco
+2023-01-01T00:00:00.000+01:00,106.2281666666667,1,Índice industria,principado de asturias
+2023-02-01T00:00:00.000+01:00,105.55166666666668,1,Índice industria,principado de asturias
+2023-03-01T00:00:00.000+01:00,105.47758333333336,1,Índice industria,principado de asturias
+2023-04-01T00:00:00.000+02:00,104.70524999999999,1,Índice industria,principado de asturias
+2023-05-01T00:00:00.000+02:00,103.72574999999999,1,Índice industria,principado de asturias
+2023-06-01T00:00:00.000+02:00,102.90533333333333,1,Índice industria,principado de asturias
+2023-07-01T00:00:00.000+02:00,102.05391666666667,1,Índice industria,principado de asturias
+2023-08-01T00:00:00.000+02:00,101.41433333333333,1,Índice industria,principado de asturias
+2023-09-01T00:00:00.000+02:00,100.88783333333335,1,Índice industria,principado de asturias
+2023-10-01T00:00:00.000+02:00,100.734,1,Índice industria,principado de asturias
+2023-11-01T00:00:00.000+01:00,100.85508333333333,1,Índice industria,principado de asturias
+2023-12-01T00:00:00.000+01:00,100.6975,1,Índice industria,principado de asturias
+2023-01-01T00:00:00.000+01:00,86.62650000000001,1,Índice industria corregido,principado de asturias
+2023-02-01T00:00:00.000+01:00,85.97608333333334,1,Índice industria corregido,principado de asturias
+2023-03-01T00:00:00.000+01:00,85.86758333333334,1,Índice industria corregido,principado de asturias
+2023-04-01T00:00:00.000+02:00,85.19866666666667,1,Índice industria corregido,principado de asturias
+2023-05-01T00:00:00.000+02:00,84.4785,1,Índice industria corregido,principado de asturias
+2023-06-01T00:00:00.000+02:00,83.83116666666666,1,Índice industria corregido,principado de asturias
+2023-07-01T00:00:00.000+02:00,83.29541666666667,1,Índice industria corregido,principado de asturias
+2023-08-01T00:00:00.000+02:00,82.77783333333333,1,Índice industria corregido,principado de asturias
+2023-09-01T00:00:00.000+02:00,82.43275,1,Índice industria corregido,principado de asturias
+2023-10-01T00:00:00.000+02:00,82.24633333333333,1,Índice industria corregido,principado de asturias
+2023-11-01T00:00:00.000+01:00,82.35291666666667,1,Índice industria corregido,principado de asturias
+2023-12-01T00:00:00.000+01:00,82.27708333333332,1,Índice industria corregido,principado de asturias
+2023-01-01T00:00:00.000+01:00,-8.626499460606325,1,Annual variation,principado de asturias
+2023-02-01T00:00:00.000+01:00,-8.843796891698837,1,Annual variation,principado de asturias
+2023-03-01T00:00:00.000+01:00,-8.057234549642555,1,Annual variation,principado de asturias
+2023-04-01T00:00:00.000+02:00,-8.16376202713728,1,Annual variation,principado de asturias
+2023-05-01T00:00:00.000+02:00,-8.733965134823016,1,Annual variation,principado de asturias
+2023-06-01T00:00:00.000+02:00,-8.938437078747798,1,Annual variation,principado de asturias
+2023-07-01T00:00:00.000+02:00,-9.0914692083853,1,Annual variation,principado de asturias
+2023-08-01T00:00:00.000+02:00,-8.842619190830415,1,Annual variation,principado de asturias
+2023-09-01T00:00:00.000+02:00,-8.445395627415227,1,Annual variation,principado de asturias
+2023-10-01T00:00:00.000+02:00,-7.793137011107788,1,Annual variation,principado de asturias
+2023-11-01T00:00:00.000+01:00,-6.727791744184098,1,Annual variation,principado de asturias
+2023-12-01T00:00:00.000+01:00,-5.912829389189061,1,Annual variation,principado de asturias
+2023-01-01T00:00:00.000+01:00,-9.103325737610026,1,Corrected annual variation,principado de asturias
+2023-02-01T00:00:00.000+01:00,-9.335663844042074,1,Corrected annual variation,principado de asturias
+2023-03-01T00:00:00.000+01:00,-8.575482094152758,1,Corrected annual variation,principado de asturias
+2023-04-01T00:00:00.000+02:00,-8.668743925447364,1,Corrected annual variation,principado de asturias
+2023-05-01T00:00:00.000+02:00,-9.134080165213701,1,Corrected annual variation,principado de asturias
+2023-06-01T00:00:00.000+02:00,-9.30994443062122,1,Corrected annual variation,principado de asturias
+2023-07-01T00:00:00.000+02:00,-9.253872538071727,1,Corrected annual variation,principado de asturias
+2023-08-01T00:00:00.000+02:00,-9.021517923054247,1,Corrected annual variation,principado de asturias
+2023-09-01T00:00:00.000+02:00,-8.55453763878232,1,Corrected annual variation,principado de asturias
+2023-10-01T00:00:00.000+02:00,-8.030497589303868,1,Corrected annual variation,principado de asturias
+2023-11-01T00:00:00.000+01:00,-6.809141848399053,1,Corrected annual variation,principado de asturias
+2023-12-01T00:00:00.000+01:00,-5.797868889372328,1,Corrected annual variation,principado de asturias
+2023-01-01T00:00:00.000+01:00,106.2281666666667,1,Índice industria,comunidad de madrid
+2023-02-01T00:00:00.000+01:00,105.55166666666668,1,Índice industria,comunidad de madrid
+2023-03-01T00:00:00.000+01:00,105.47758333333336,1,Índice industria,comunidad de madrid
+2023-04-01T00:00:00.000+02:00,104.70524999999999,1,Índice industria,comunidad de madrid
+2023-05-01T00:00:00.000+02:00,103.72574999999999,1,Índice industria,comunidad de madrid
+2023-06-01T00:00:00.000+02:00,102.90533333333333,1,Índice industria,comunidad de madrid
+2023-07-01T00:00:00.000+02:00,102.05391666666667,1,Índice industria,comunidad de madrid
+2023-08-01T00:00:00.000+02:00,101.41433333333333,1,Índice industria,comunidad de madrid
+2023-09-01T00:00:00.000+02:00,100.88783333333335,1,Índice industria,comunidad de madrid
+2023-10-01T00:00:00.000+02:00,100.734,1,Índice industria,comunidad de madrid
+2023-11-01T00:00:00.000+01:00,100.85508333333333,1,Índice industria,comunidad de madrid
+2023-12-01T00:00:00.000+01:00,100.6975,1,Índice industria,comunidad de madrid
+2023-01-01T00:00:00.000+01:00,86.62650000000001,1,Índice industria corregido,comunidad de madrid
+2023-02-01T00:00:00.000+01:00,85.97608333333334,1,Índice industria corregido,comunidad de madrid
+2023-03-01T00:00:00.000+01:00,85.86758333333334,1,Índice industria corregido,comunidad de madrid
+2023-04-01T00:00:00.000+02:00,85.19866666666667,1,Índice industria corregido,comunidad de madrid
+2023-05-01T00:00:00.000+02:00,84.4785,1,Índice industria corregido,comunidad de madrid
+2023-06-01T00:00:00.000+02:00,83.83116666666666,1,Índice industria corregido,comunidad de madrid
+2023-07-01T00:00:00.000+02:00,83.29541666666667,1,Índice industria corregido,comunidad de madrid
+2023-08-01T00:00:00.000+02:00,82.77783333333333,1,Índice industria corregido,comunidad de madrid
+2023-09-01T00:00:00.000+02:00,82.43275,1,Índice industria corregido,comunidad de madrid
+2023-10-01T00:00:00.000+02:00,82.24633333333333,1,Índice industria corregido,comunidad de madrid
+2023-11-01T00:00:00.000+01:00,82.35291666666667,1,Índice industria corregido,comunidad de madrid
+2023-12-01T00:00:00.000+01:00,82.27708333333332,1,Índice industria corregido,comunidad de madrid
+2023-01-01T00:00:00.000+01:00,-8.626499460606325,1,Annual variation,comunidad de madrid
+2023-02-01T00:00:00.000+01:00,-8.843796891698837,1,Annual variation,comunidad de madrid
+2023-03-01T00:00:00.000+01:00,-8.057234549642555,1,Annual variation,comunidad de madrid
+2023-04-01T00:00:00.000+02:00,-8.16376202713728,1,Annual variation,comunidad de madrid
+2023-05-01T00:00:00.000+02:00,-8.733965134823016,1,Annual variation,comunidad de madrid
+2023-06-01T00:00:00.000+02:00,-8.938437078747798,1,Annual variation,comunidad de madrid
+2023-07-01T00:00:00.000+02:00,-9.0914692083853,1,Annual variation,comunidad de madrid
+2023-08-01T00:00:00.000+02:00,-8.842619190830415,1,Annual variation,comunidad de madrid
+2023-09-01T00:00:00.000+02:00,-8.445395627415227,1,Annual variation,comunidad de madrid
+2023-10-01T00:00:00.000+02:00,-7.793137011107788,1,Annual variation,comunidad de madrid
+2023-11-01T00:00:00.000+01:00,-6.727791744184098,1,Annual variation,comunidad de madrid
+2023-12-01T00:00:00.000+01:00,-5.912829389189061,1,Annual variation,comunidad de madrid
+2023-01-01T00:00:00.000+01:00,-9.103325737610026,1,Corrected annual variation,comunidad de madrid
+2023-02-01T00:00:00.000+01:00,-9.335663844042074,1,Corrected annual variation,comunidad de madrid
+2023-03-01T00:00:00.000+01:00,-8.575482094152758,1,Corrected annual variation,comunidad de madrid
+2023-04-01T00:00:00.000+02:00,-8.668743925447364,1,Corrected annual variation,comunidad de madrid
+2023-05-01T00:00:00.000+02:00,-9.134080165213701,1,Corrected annual variation,comunidad de madrid
+2023-06-01T00:00:00.000+02:00,-9.30994443062122,1,Corrected annual variation,comunidad de madrid
+2023-07-01T00:00:00.000+02:00,-9.253872538071727,1,Corrected annual variation,comunidad de madrid
+2023-08-01T00:00:00.000+02:00,-9.021517923054247,1,Corrected annual variation,comunidad de madrid
+2023-09-01T00:00:00.000+02:00,-8.55453763878232,1,Corrected annual variation,comunidad de madrid
+2023-10-01T00:00:00.000+02:00,-8.030497589303868,1,Corrected annual variation,comunidad de madrid
+2023-11-01T00:00:00.000+01:00,-6.809141848399053,1,Corrected annual variation,comunidad de madrid
+2023-12-01T00:00:00.000+01:00,-5.797868889372328,1,Corrected annual variation,comunidad de madrid
+2023-01-01T00:00:00.000+01:00,106.2281666666667,1,Índice industria,comunidad de navarra
+2023-02-01T00:00:00.000+01:00,105.55166666666668,1,Índice industria,comunidad de navarra
+2023-03-01T00:00:00.000+01:00,105.47758333333336,1,Índice industria,comunidad de navarra
+2023-04-01T00:00:00.000+02:00,104.70524999999999,1,Índice industria,comunidad de navarra
+2023-05-01T00:00:00.000+02:00,103.72574999999999,1,Índice industria,comunidad de navarra
+2023-06-01T00:00:00.000+02:00,102.90533333333333,1,Índice industria,comunidad de navarra
+2023-07-01T00:00:00.000+02:00,102.05391666666667,1,Índice industria,comunidad de navarra
+2023-08-01T00:00:00.000+02:00,101.41433333333333,1,Índice industria,comunidad de navarra
+2023-09-01T00:00:00.000+02:00,100.88783333333335,1,Índice industria,comunidad de navarra
+2023-10-01T00:00:00.000+02:00,100.734,1,Índice industria,comunidad de navarra
+2023-11-01T00:00:00.000+01:00,100.85508333333333,1,Índice industria,comunidad de navarra
+2023-12-01T00:00:00.000+01:00,100.6975,1,Índice industria,comunidad de navarra
+2023-01-01T00:00:00.000+01:00,86.62650000000001,1,Índice industria corregido,comunidad de navarra
+2023-02-01T00:00:00.000+01:00,85.97608333333334,1,Índice industria corregido,comunidad de navarra
+2023-03-01T00:00:00.000+01:00,85.86758333333334,1,Índice industria corregido,comunidad de navarra
+2023-04-01T00:00:00.000+02:00,85.19866666666667,1,Índice industria corregido,comunidad de navarra
+2023-05-01T00:00:00.000+02:00,84.4785,1,Índice industria corregido,comunidad de navarra
+2023-06-01T00:00:00.000+02:00,83.83116666666666,1,Índice industria corregido,comunidad de navarra
+2023-07-01T00:00:00.000+02:00,83.29541666666667,1,Índice industria corregido,comunidad de navarra
+2023-08-01T00:00:00.000+02:00,82.77783333333333,1,Índice industria corregido,comunidad de navarra
+2023-09-01T00:00:00.000+02:00,82.43275,1,Índice industria corregido,comunidad de navarra
+2023-10-01T00:00:00.000+02:00,82.24633333333333,1,Índice industria corregido,comunidad de navarra
+2023-11-01T00:00:00.000+01:00,82.35291666666667,1,Índice industria corregido,comunidad de navarra
+2023-12-01T00:00:00.000+01:00,82.27708333333332,1,Índice industria corregido,comunidad de navarra
+2023-01-01T00:00:00.000+01:00,-8.626499460606325,1,Annual variation,comunidad de navarra
+2023-02-01T00:00:00.000+01:00,-8.843796891698837,1,Annual variation,comunidad de navarra
+2023-03-01T00:00:00.000+01:00,-8.057234549642555,1,Annual variation,comunidad de navarra
+2023-04-01T00:00:00.000+02:00,-8.16376202713728,1,Annual variation,comunidad de navarra
+2023-05-01T00:00:00.000+02:00,-8.733965134823016,1,Annual variation,comunidad de navarra
+2023-06-01T00:00:00.000+02:00,-8.938437078747798,1,Annual variation,comunidad de navarra
+2023-07-01T00:00:00.000+02:00,-9.0914692083853,1,Annual variation,comunidad de navarra
+2023-08-01T00:00:00.000+02:00,-8.842619190830415,1,Annual variation,comunidad de navarra
+2023-09-01T00:00:00.000+02:00,-8.445395627415227,1,Annual variation,comunidad de navarra
+2023-10-01T00:00:00.000+02:00,-7.793137011107788,1,Annual variation,comunidad de navarra
+2023-11-01T00:00:00.000+01:00,-6.727791744184098,1,Annual variation,comunidad de navarra
+2023-12-01T00:00:00.000+01:00,-5.912829389189061,1,Annual variation,comunidad de navarra
+2023-01-01T00:00:00.000+01:00,-9.103325737610026,1,Corrected annual variation,comunidad de navarra
+2023-02-01T00:00:00.000+01:00,-9.335663844042074,1,Corrected annual variation,comunidad de navarra
+2023-03-01T00:00:00.000+01:00,-8.575482094152758,1,Corrected annual variation,comunidad de navarra
+2023-04-01T00:00:00.000+02:00,-8.668743925447364,1,Corrected annual variation,comunidad de navarra
+2023-05-01T00:00:00.000+02:00,-9.134080165213701,1,Corrected annual variation,comunidad de navarra
+2023-06-01T00:00:00.000+02:00,-9.30994443062122,1,Corrected annual variation,comunidad de navarra
+2023-07-01T00:00:00.000+02:00,-9.253872538071727,1,Corrected annual variation,comunidad de navarra
+2023-08-01T00:00:00.000+02:00,-9.021517923054247,1,Corrected annual variation,comunidad de navarra
+2023-09-01T00:00:00.000+02:00,-8.55453763878232,1,Corrected annual variation,comunidad de navarra
+2023-10-01T00:00:00.000+02:00,-8.030497589303868,1,Corrected annual variation,comunidad de navarra
+2023-11-01T00:00:00.000+01:00,-6.809141848399053,1,Corrected annual variation,comunidad de navarra
+2023-12-01T00:00:00.000+01:00,-5.797868889372328,1,Corrected annual variation,comunidad de navarra
+2023-01-01T00:00:00.000+01:00,106.2281666666667,1,Índice industria,comunidad valenciana
+2023-02-01T00:00:00.000+01:00,105.55166666666668,1,Índice industria,comunidad valenciana
+2023-03-01T00:00:00.000+01:00,105.47758333333336,1,Índice industria,comunidad valenciana
+2023-04-01T00:00:00.000+02:00,104.70524999999999,1,Índice industria,comunidad valenciana
+2023-05-01T00:00:00.000+02:00,103.72574999999999,1,Índice industria,comunidad valenciana
+2023-06-01T00:00:00.000+02:00,102.90533333333333,1,Índice industria,comunidad valenciana
+2023-07-01T00:00:00.000+02:00,102.05391666666667,1,Índice industria,comunidad valenciana
+2023-08-01T00:00:00.000+02:00,101.41433333333333,1,Índice industria,comunidad valenciana
+2023-09-01T00:00:00.000+02:00,100.88783333333335,1,Índice industria,comunidad valenciana
+2023-10-01T00:00:00.000+02:00,100.734,1,Índice industria,comunidad valenciana
+2023-11-01T00:00:00.000+01:00,100.85508333333333,1,Índice industria,comunidad valenciana
+2023-12-01T00:00:00.000+01:00,100.6975,1,Índice industria,comunidad valenciana
+2023-01-01T00:00:00.000+01:00,86.62650000000001,1,Índice industria corregido,comunidad valenciana
+2023-02-01T00:00:00.000+01:00,85.97608333333334,1,Índice industria corregido,comunidad valenciana
+2023-03-01T00:00:00.000+01:00,85.86758333333334,1,Índice industria corregido,comunidad valenciana
+2023-04-01T00:00:00.000+02:00,85.19866666666667,1,Índice industria corregido,comunidad valenciana
+2023-05-01T00:00:00.000+02:00,84.4785,1,Índice industria corregido,comunidad valenciana
+2023-06-01T00:00:00.000+02:00,83.83116666666666,1,Índice industria corregido,comunidad valenciana
+2023-07-01T00:00:00.000+02:00,83.29541666666667,1,Índice industria corregido,comunidad valenciana
+2023-08-01T00:00:00.000+02:00,82.77783333333333,1,Índice industria corregido,comunidad valenciana
+2023-09-01T00:00:00.000+02:00,82.43275,1,Índice industria corregido,comunidad valenciana
+2023-10-01T00:00:00.000+02:00,82.24633333333333,1,Índice industria corregido,comunidad valenciana
+2023-11-01T00:00:00.000+01:00,82.35291666666667,1,Índice industria corregido,comunidad valenciana
+2023-12-01T00:00:00.000+01:00,82.27708333333332,1,Índice industria corregido,comunidad valenciana
+2023-01-01T00:00:00.000+01:00,-8.626499460606325,1,Annual variation,comunidad valenciana
+2023-02-01T00:00:00.000+01:00,-8.843796891698837,1,Annual variation,comunidad valenciana
+2023-03-01T00:00:00.000+01:00,-8.057234549642555,1,Annual variation,comunidad valenciana
+2023-04-01T00:00:00.000+02:00,-8.16376202713728,1,Annual variation,comunidad valenciana
+2023-05-01T00:00:00.000+02:00,-8.733965134823016,1,Annual variation,comunidad valenciana
+2023-06-01T00:00:00.000+02:00,-8.938437078747798,1,Annual variation,comunidad valenciana
+2023-07-01T00:00:00.000+02:00,-9.0914692083853,1,Annual variation,comunidad valenciana
+2023-08-01T00:00:00.000+02:00,-8.842619190830415,1,Annual variation,comunidad valenciana
+2023-09-01T00:00:00.000+02:00,-8.445395627415227,1,Annual variation,comunidad valenciana
+2023-10-01T00:00:00.000+02:00,-7.793137011107788,1,Annual variation,comunidad valenciana
+2023-11-01T00:00:00.000+01:00,-6.727791744184098,1,Annual variation,comunidad valenciana
+2023-12-01T00:00:00.000+01:00,-5.912829389189061,1,Annual variation,comunidad valenciana
+2023-01-01T00:00:00.000+01:00,-9.103325737610026,1,Corrected annual variation,comunidad valenciana
+2023-02-01T00:00:00.000+01:00,-9.335663844042074,1,Corrected annual variation,comunidad valenciana
+2023-03-01T00:00:00.000+01:00,-8.575482094152758,1,Corrected annual variation,comunidad valenciana
+2023-04-01T00:00:00.000+02:00,-8.668743925447364,1,Corrected annual variation,comunidad valenciana
+2023-05-01T00:00:00.000+02:00,-9.134080165213701,1,Corrected annual variation,comunidad valenciana
+2023-06-01T00:00:00.000+02:00,-9.30994443062122,1,Corrected annual variation,comunidad valenciana
+2023-07-01T00:00:00.000+02:00,-9.253872538071727,1,Corrected annual variation,comunidad valenciana
+2023-08-01T00:00:00.000+02:00,-9.021517923054247,1,Corrected annual variation,comunidad valenciana
+2023-09-01T00:00:00.000+02:00,-8.55453763878232,1,Corrected annual variation,comunidad valenciana
+2023-10-01T00:00:00.000+02:00,-8.030497589303868,1,Corrected annual variation,comunidad valenciana
+2023-11-01T00:00:00.000+01:00,-6.809141848399053,1,Corrected annual variation,comunidad valenciana
+2023-12-01T00:00:00.000+01:00,-5.797868889372328,1,Corrected annual variation,comunidad valenciana
+2023-01-01T00:00:00.000+01:00,106.2281666666667,1,Índice industria,extremadura
+2023-02-01T00:00:00.000+01:00,105.55166666666668,1,Índice industria,extremadura
+2023-03-01T00:00:00.000+01:00,105.47758333333336,1,Índice industria,extremadura
+2023-04-01T00:00:00.000+02:00,104.70524999999999,1,Índice industria,extremadura
+2023-05-01T00:00:00.000+02:00,103.72574999999999,1,Índice industria,extremadura
+2023-06-01T00:00:00.000+02:00,102.90533333333333,1,Índice industria,extremadura
+2023-07-01T00:00:00.000+02:00,102.05391666666667,1,Índice industria,extremadura
+2023-08-01T00:00:00.000+02:00,101.41433333333333,1,Índice industria,extremadura
+2023-09-01T00:00:00.000+02:00,100.88783333333335,1,Índice industria,extremadura
+2023-10-01T00:00:00.000+02:00,100.734,1,Índice industria,extremadura
+2023-11-01T00:00:00.000+01:00,100.85508333333333,1,Índice industria,extremadura
+2023-12-01T00:00:00.000+01:00,100.6975,1,Índice industria,extremadura
+2023-01-01T00:00:00.000+01:00,86.62650000000001,1,Índice industria corregido,extremadura
+2023-02-01T00:00:00.000+01:00,85.97608333333334,1,Índice industria corregido,extremadura
+2023-03-01T00:00:00.000+01:00,85.86758333333334,1,Índice industria corregido,extremadura
+2023-04-01T00:00:00.000+02:00,85.19866666666667,1,Índice industria corregido,extremadura
+2023-05-01T00:00:00.000+02:00,84.4785,1,Índice industria corregido,extremadura
+2023-06-01T00:00:00.000+02:00,83.83116666666666,1,Índice industria corregido,extremadura
+2023-07-01T00:00:00.000+02:00,83.29541666666667,1,Índice industria corregido,extremadura
+2023-08-01T00:00:00.000+02:00,82.77783333333333,1,Índice industria corregido,extremadura
+2023-09-01T00:00:00.000+02:00,82.43275,1,Índice industria corregido,extremadura
+2023-10-01T00:00:00.000+02:00,82.24633333333333,1,Índice industria corregido,extremadura
+2023-11-01T00:00:00.000+01:00,82.35291666666667,1,Índice industria corregido,extremadura
+2023-12-01T00:00:00.000+01:00,82.27708333333332,1,Índice industria corregido,extremadura
+2023-01-01T00:00:00.000+01:00,-8.626499460606325,1,Annual variation,extremadura
+2023-02-01T00:00:00.000+01:00,-8.843796891698837,1,Annual variation,extremadura
+2023-03-01T00:00:00.000+01:00,-8.057234549642555,1,Annual variation,extremadura
+2023-04-01T00:00:00.000+02:00,-8.16376202713728,1,Annual variation,extremadura
+2023-05-01T00:00:00.000+02:00,-8.733965134823016,1,Annual variation,extremadura
+2023-06-01T00:00:00.000+02:00,-8.938437078747798,1,Annual variation,extremadura
+2023-07-01T00:00:00.000+02:00,-9.0914692083853,1,Annual variation,extremadura
+2023-08-01T00:00:00.000+02:00,-8.842619190830415,1,Annual variation,extremadura
+2023-09-01T00:00:00.000+02:00,-8.445395627415227,1,Annual variation,extremadura
+2023-10-01T00:00:00.000+02:00,-7.793137011107788,1,Annual variation,extremadura
+2023-11-01T00:00:00.000+01:00,-6.727791744184098,1,Annual variation,extremadura
+2023-12-01T00:00:00.000+01:00,-5.912829389189061,1,Annual variation,extremadura
+2023-01-01T00:00:00.000+01:00,-9.103325737610026,1,Corrected annual variation,extremadura
+2023-02-01T00:00:00.000+01:00,-9.335663844042074,1,Corrected annual variation,extremadura
+2023-03-01T00:00:00.000+01:00,-8.575482094152758,1,Corrected annual variation,extremadura
+2023-04-01T00:00:00.000+02:00,-8.668743925447364,1,Corrected annual variation,extremadura
+2023-05-01T00:00:00.000+02:00,-9.134080165213701,1,Corrected annual variation,extremadura
+2023-06-01T00:00:00.000+02:00,-9.30994443062122,1,Corrected annual variation,extremadura
+2023-07-01T00:00:00.000+02:00,-9.253872538071727,1,Corrected annual variation,extremadura
+2023-08-01T00:00:00.000+02:00,-9.021517923054247,1,Corrected annual variation,extremadura
+2023-09-01T00:00:00.000+02:00,-8.55453763878232,1,Corrected annual variation,extremadura
+2023-10-01T00:00:00.000+02:00,-8.030497589303868,1,Corrected annual variation,extremadura
+2023-11-01T00:00:00.000+01:00,-6.809141848399053,1,Corrected annual variation,extremadura
+2023-12-01T00:00:00.000+01:00,-5.797868889372328,1,Corrected annual variation,extremadura
+2023-01-01T00:00:00.000+01:00,106.2281666666667,1,Índice industria,galicia
+2023-02-01T00:00:00.000+01:00,105.55166666666668,1,Índice industria,galicia
+2023-03-01T00:00:00.000+01:00,105.47758333333336,1,Índice industria,galicia
+2023-04-01T00:00:00.000+02:00,104.70524999999999,1,Índice industria,galicia
+2023-05-01T00:00:00.000+02:00,103.72574999999999,1,Índice industria,galicia
+2023-06-01T00:00:00.000+02:00,102.90533333333333,1,Índice industria,galicia
+2023-07-01T00:00:00.000+02:00,102.05391666666667,1,Índice industria,galicia
+2023-08-01T00:00:00.000+02:00,101.41433333333333,1,Índice industria,galicia
+2023-09-01T00:00:00.000+02:00,100.88783333333335,1,Índice industria,galicia
+2023-10-01T00:00:00.000+02:00,100.734,1,Índice industria,galicia
+2023-11-01T00:00:00.000+01:00,100.85508333333333,1,Índice industria,galicia
+2023-12-01T00:00:00.000+01:00,100.6975,1,Índice industria,galicia
+2023-01-01T00:00:00.000+01:00,86.62650000000001,1,Índice industria corregido,galicia
+2023-02-01T00:00:00.000+01:00,85.97608333333334,1,Índice industria corregido,galicia
+2023-03-01T00:00:00.000+01:00,85.86758333333334,1,Índice industria corregido,galicia
+2023-04-01T00:00:00.000+02:00,85.19866666666667,1,Índice industria corregido,galicia
+2023-05-01T00:00:00.000+02:00,84.4785,1,Índice industria corregido,galicia
+2023-06-01T00:00:00.000+02:00,83.83116666666666,1,Índice industria corregido,galicia
+2023-07-01T00:00:00.000+02:00,83.29541666666667,1,Índice industria corregido,galicia
+2023-08-01T00:00:00.000+02:00,82.77783333333333,1,Índice industria corregido,galicia
+2023-09-01T00:00:00.000+02:00,82.43275,1,Índice industria corregido,galicia
+2023-10-01T00:00:00.000+02:00,82.24633333333333,1,Índice industria corregido,galicia
+2023-11-01T00:00:00.000+01:00,82.35291666666667,1,Índice industria corregido,galicia
+2023-12-01T00:00:00.000+01:00,82.27708333333332,1,Índice industria corregido,galicia
+2023-01-01T00:00:00.000+01:00,-8.626499460606325,1,Annual variation,galicia
+2023-02-01T00:00:00.000+01:00,-8.843796891698837,1,Annual variation,galicia
+2023-03-01T00:00:00.000+01:00,-8.057234549642555,1,Annual variation,galicia
+2023-04-01T00:00:00.000+02:00,-8.16376202713728,1,Annual variation,galicia
+2023-05-01T00:00:00.000+02:00,-8.733965134823016,1,Annual variation,galicia
+2023-06-01T00:00:00.000+02:00,-8.938437078747798,1,Annual variation,galicia
+2023-07-01T00:00:00.000+02:00,-9.0914692083853,1,Annual variation,galicia
+2023-08-01T00:00:00.000+02:00,-8.842619190830415,1,Annual variation,galicia
+2023-09-01T00:00:00.000+02:00,-8.445395627415227,1,Annual variation,galicia
+2023-10-01T00:00:00.000+02:00,-7.793137011107788,1,Annual variation,galicia
+2023-11-01T00:00:00.000+01:00,-6.727791744184098,1,Annual variation,galicia
+2023-12-01T00:00:00.000+01:00,-5.912829389189061,1,Annual variation,galicia
+2023-01-01T00:00:00.000+01:00,-9.103325737610026,1,Corrected annual variation,galicia
+2023-02-01T00:00:00.000+01:00,-9.335663844042074,1,Corrected annual variation,galicia
+2023-03-01T00:00:00.000+01:00,-8.575482094152758,1,Corrected annual variation,galicia
+2023-04-01T00:00:00.000+02:00,-8.668743925447364,1,Corrected annual variation,galicia
+2023-05-01T00:00:00.000+02:00,-9.134080165213701,1,Corrected annual variation,galicia
+2023-06-01T00:00:00.000+02:00,-9.30994443062122,1,Corrected annual variation,galicia
+2023-07-01T00:00:00.000+02:00,-9.253872538071727,1,Corrected annual variation,galicia
+2023-08-01T00:00:00.000+02:00,-9.021517923054247,1,Corrected annual variation,galicia
+2023-09-01T00:00:00.000+02:00,-8.55453763878232,1,Corrected annual variation,galicia
+2023-10-01T00:00:00.000+02:00,-8.030497589303868,1,Corrected annual variation,galicia
+2023-11-01T00:00:00.000+01:00,-6.809141848399053,1,Corrected annual variation,galicia
+2023-12-01T00:00:00.000+01:00,-5.797868889372328,1,Corrected annual variation,galicia
+2023-01-01T00:00:00.000+01:00,106.2281666666667,1,Índice industria,la rioja
+2023-02-01T00:00:00.000+01:00,105.55166666666668,1,Índice industria,la rioja
+2023-03-01T00:00:00.000+01:00,105.47758333333336,1,Índice industria,la rioja
+2023-04-01T00:00:00.000+02:00,104.70524999999999,1,Índice industria,la rioja
+2023-05-01T00:00:00.000+02:00,103.72574999999999,1,Índice industria,la rioja
+2023-06-01T00:00:00.000+02:00,102.90533333333333,1,Índice industria,la rioja
+2023-07-01T00:00:00.000+02:00,102.05391666666667,1,Índice industria,la rioja
+2023-08-01T00:00:00.000+02:00,101.41433333333333,1,Índice industria,la rioja
+2023-09-01T00:00:00.000+02:00,100.88783333333335,1,Índice industria,la rioja
+2023-10-01T00:00:00.000+02:00,100.734,1,Índice industria,la rioja
+2023-11-01T00:00:00.000+01:00,100.85508333333333,1,Índice industria,la rioja
+2023-12-01T00:00:00.000+01:00,100.6975,1,Índice industria,la rioja
+2023-01-01T00:00:00.000+01:00,86.62650000000001,1,Índice industria corregido,la rioja
+2023-02-01T00:00:00.000+01:00,85.97608333333334,1,Índice industria corregido,la rioja
+2023-03-01T00:00:00.000+01:00,85.86758333333334,1,Índice industria corregido,la rioja
+2023-04-01T00:00:00.000+02:00,85.19866666666667,1,Índice industria corregido,la rioja
+2023-05-01T00:00:00.000+02:00,84.4785,1,Índice industria corregido,la rioja
+2023-06-01T00:00:00.000+02:00,83.83116666666666,1,Índice industria corregido,la rioja
+2023-07-01T00:00:00.000+02:00,83.29541666666667,1,Índice industria corregido,la rioja
+2023-08-01T00:00:00.000+02:00,82.77783333333333,1,Índice industria corregido,la rioja
+2023-09-01T00:00:00.000+02:00,82.43275,1,Índice industria corregido,la rioja
+2023-10-01T00:00:00.000+02:00,82.24633333333333,1,Índice industria corregido,la rioja
+2023-11-01T00:00:00.000+01:00,82.35291666666667,1,Índice industria corregido,la rioja
+2023-12-01T00:00:00.000+01:00,82.27708333333332,1,Índice industria corregido,la rioja
+2023-01-01T00:00:00.000+01:00,-8.626499460606325,1,Annual variation,la rioja
+2023-02-01T00:00:00.000+01:00,-8.843796891698837,1,Annual variation,la rioja
+2023-03-01T00:00:00.000+01:00,-8.057234549642555,1,Annual variation,la rioja
+2023-04-01T00:00:00.000+02:00,-8.16376202713728,1,Annual variation,la rioja
+2023-05-01T00:00:00.000+02:00,-8.733965134823016,1,Annual variation,la rioja
+2023-06-01T00:00:00.000+02:00,-8.938437078747798,1,Annual variation,la rioja
+2023-07-01T00:00:00.000+02:00,-9.0914692083853,1,Annual variation,la rioja
+2023-08-01T00:00:00.000+02:00,-8.842619190830415,1,Annual variation,la rioja
+2023-09-01T00:00:00.000+02:00,-8.445395627415227,1,Annual variation,la rioja
+2023-10-01T00:00:00.000+02:00,-7.793137011107788,1,Annual variation,la rioja
+2023-11-01T00:00:00.000+01:00,-6.727791744184098,1,Annual variation,la rioja
+2023-12-01T00:00:00.000+01:00,-5.912829389189061,1,Annual variation,la rioja
+2023-01-01T00:00:00.000+01:00,-9.103325737610026,1,Corrected annual variation,la rioja
+2023-02-01T00:00:00.000+01:00,-9.335663844042074,1,Corrected annual variation,la rioja
+2023-03-01T00:00:00.000+01:00,-8.575482094152758,1,Corrected annual variation,la rioja
+2023-04-01T00:00:00.000+02:00,-8.668743925447364,1,Corrected annual variation,la rioja
+2023-05-01T00:00:00.000+02:00,-9.134080165213701,1,Corrected annual variation,la rioja
+2023-06-01T00:00:00.000+02:00,-9.30994443062122,1,Corrected annual variation,la rioja
+2023-07-01T00:00:00.000+02:00,-9.253872538071727,1,Corrected annual variation,la rioja
+2023-08-01T00:00:00.000+02:00,-9.021517923054247,1,Corrected annual variation,la rioja
+2023-09-01T00:00:00.000+02:00,-8.55453763878232,1,Corrected annual variation,la rioja
+2023-10-01T00:00:00.000+02:00,-8.030497589303868,1,Corrected annual variation,la rioja
+2023-11-01T00:00:00.000+01:00,-6.809141848399053,1,Corrected annual variation,la rioja
+2023-12-01T00:00:00.000+01:00,-5.797868889372328,1,Corrected annual variation,la rioja
+2023-01-01T00:00:00.000+01:00,106.2281666666667,1,Índice industria,region de murcia
+2023-02-01T00:00:00.000+01:00,105.55166666666668,1,Índice industria,region de murcia
+2023-03-01T00:00:00.000+01:00,105.47758333333336,1,Índice industria,region de murcia
+2023-04-01T00:00:00.000+02:00,104.70524999999999,1,Índice industria,region de murcia
+2023-05-01T00:00:00.000+02:00,103.72574999999999,1,Índice industria,region de murcia
+2023-06-01T00:00:00.000+02:00,102.90533333333333,1,Índice industria,region de murcia
+2023-07-01T00:00:00.000+02:00,102.05391666666667,1,Índice industria,region de murcia
+2023-08-01T00:00:00.000+02:00,101.41433333333333,1,Índice industria,region de murcia
+2023-09-01T00:00:00.000+02:00,100.88783333333335,1,Índice industria,region de murcia
+2023-10-01T00:00:00.000+02:00,100.734,1,Índice industria,region de murcia
+2023-11-01T00:00:00.000+01:00,100.85508333333333,1,Índice industria,region de murcia
+2023-12-01T00:00:00.000+01:00,100.6975,1,Índice industria,region de murcia
+2023-01-01T00:00:00.000+01:00,86.62650000000001,1,Índice industria corregido,region de murcia
+2023-02-01T00:00:00.000+01:00,85.97608333333334,1,Índice industria corregido,region de murcia
+2023-03-01T00:00:00.000+01:00,85.86758333333334,1,Índice industria corregido,region de murcia
+2023-04-01T00:00:00.000+02:00,85.19866666666667,1,Índice industria corregido,region de murcia
+2023-05-01T00:00:00.000+02:00,84.4785,1,Índice industria corregido,region de murcia
+2023-06-01T00:00:00.000+02:00,83.83116666666666,1,Índice industria corregido,region de murcia
+2023-07-01T00:00:00.000+02:00,83.29541666666667,1,Índice industria corregido,region de murcia
+2023-08-01T00:00:00.000+02:00,82.77783333333333,1,Índice industria corregido,region de murcia
+2023-09-01T00:00:00.000+02:00,82.43275,1,Índice industria corregido,region de murcia
+2023-10-01T00:00:00.000+02:00,82.24633333333333,1,Índice industria corregido,region de murcia
+2023-11-01T00:00:00.000+01:00,82.35291666666667,1,Índice industria corregido,region de murcia
+2023-12-01T00:00:00.000+01:00,82.27708333333332,1,Índice industria corregido,region de murcia
+2023-01-01T00:00:00.000+01:00,-8.626499460606325,1,Annual variation,region de murcia
+2023-02-01T00:00:00.000+01:00,-8.843796891698837,1,Annual variation,region de murcia
+2023-03-01T00:00:00.000+01:00,-8.057234549642555,1,Annual variation,region de murcia
+2023-04-01T00:00:00.000+02:00,-8.16376202713728,1,Annual variation,region de murcia
+2023-05-01T00:00:00.000+02:00,-8.733965134823016,1,Annual variation,region de murcia
+2023-06-01T00:00:00.000+02:00,-8.938437078747798,1,Annual variation,region de murcia
+2023-07-01T00:00:00.000+02:00,-9.0914692083853,1,Annual variation,region de murcia
+2023-08-01T00:00:00.000+02:00,-8.842619190830415,1,Annual variation,region de murcia
+2023-09-01T00:00:00.000+02:00,-8.445395627415227,1,Annual variation,region de murcia
+2023-10-01T00:00:00.000+02:00,-7.793137011107788,1,Annual variation,region de murcia
+2023-11-01T00:00:00.000+01:00,-6.727791744184098,1,Annual variation,region de murcia
+2023-12-01T00:00:00.000+01:00,-5.912829389189061,1,Annual variation,region de murcia
+2023-01-01T00:00:00.000+01:00,-9.103325737610026,1,Corrected annual variation,region de murcia
+2023-02-01T00:00:00.000+01:00,-9.335663844042074,1,Corrected annual variation,region de murcia
+2023-03-01T00:00:00.000+01:00,-8.575482094152758,1,Corrected annual variation,region de murcia
+2023-04-01T00:00:00.000+02:00,-8.668743925447364,1,Corrected annual variation,region de murcia
+2023-05-01T00:00:00.000+02:00,-9.134080165213701,1,Corrected annual variation,region de murcia
+2023-06-01T00:00:00.000+02:00,-9.30994443062122,1,Corrected annual variation,region de murcia
+2023-07-01T00:00:00.000+02:00,-9.253872538071727,1,Corrected annual variation,region de murcia
+2023-08-01T00:00:00.000+02:00,-9.021517923054247,1,Corrected annual variation,region de murcia
+2023-09-01T00:00:00.000+02:00,-8.55453763878232,1,Corrected annual variation,region de murcia
+2023-10-01T00:00:00.000+02:00,-8.030497589303868,1,Corrected annual variation,region de murcia
+2023-11-01T00:00:00.000+01:00,-6.809141848399053,1,Corrected annual variation,region de murcia
+2023-12-01T00:00:00.000+01:00,-5.797868889372328,1,Corrected annual variation,region de murcia

@@ -1,0 +1,961 @@
+fecha,valor,porcentaje,indicator,region
+2023-01-01T00:00:00.000+01:00,120.47866666666668,1,Índice servicios,peninsular
+2023-02-01T00:00:00.000+01:00,119.53533333333336,1,Índice servicios,peninsular
+2023-03-01T00:00:00.000+01:00,118.48916666666668,1,Índice servicios,peninsular
+2023-04-01T00:00:00.000+02:00,117.6995,1,Índice servicios,peninsular
+2023-05-01T00:00:00.000+02:00,116.57516666666668,1,Índice servicios,peninsular
+2023-06-01T00:00:00.000+02:00,115.48541666666665,1,Índice servicios,peninsular
+2023-07-01T00:00:00.000+02:00,114.73500000000001,1,Índice servicios,peninsular
+2023-08-01T00:00:00.000+02:00,114.26474999999999,1,Índice servicios,peninsular
+2023-09-01T00:00:00.000+02:00,113.93991666666666,1,Índice servicios,peninsular
+2023-10-01T00:00:00.000+02:00,114.11641666666667,1,Índice servicios,peninsular
+2023-11-01T00:00:00.000+01:00,114.20716666666665,1,Índice servicios,peninsular
+2023-12-01T00:00:00.000+01:00,114.37850000000002,1,Índice servicios,peninsular
+2023-01-01T00:00:00.000+01:00,101.29991666666666,1,Índice servicios corregido,peninsular
+2023-02-01T00:00:00.000+01:00,100.34416666666668,1,Índice servicios corregido,peninsular
+2023-03-01T00:00:00.000+01:00,99.3045,1,Índice servicios corregido,peninsular
+2023-04-01T00:00:00.000+02:00,98.39891666666666,1,Índice servicios corregido,peninsular
+2023-05-01T00:00:00.000+02:00,97.88133333333332,1,Índice servicios corregido,peninsular
+2023-06-01T00:00:00.000+02:00,97.15458333333333,1,Índice servicios corregido,peninsular
+2023-07-01T00:00:00.000+02:00,97.05883333333333,1,Índice servicios corregido,peninsular
+2023-08-01T00:00:00.000+02:00,96.6395,1,Índice servicios corregido,peninsular
+2023-09-01T00:00:00.000+02:00,96.56783333333334,1,Índice servicios corregido,peninsular
+2023-10-01T00:00:00.000+02:00,96.58833333333332,1,Índice servicios corregido,peninsular
+2023-11-01T00:00:00.000+01:00,96.68425,1,Índice servicios corregido,peninsular
+2023-12-01T00:00:00.000+01:00,96.91541666666667,1,Índice servicios corregido,peninsular
+2023-01-01T00:00:00.000+01:00,0.3926143504919908,1,Annual variation,peninsular
+2023-02-01T00:00:00.000+01:00,-1.2140741419218024,1,Annual variation,peninsular
+2023-03-01T00:00:00.000+01:00,-2.763226641208633,1,Annual variation,peninsular
+2023-04-01T00:00:00.000+02:00,-3.882355423109318,1,Annual variation,peninsular
+2023-05-01T00:00:00.000+02:00,-5.5532375431589225,1,Annual variation,peninsular
+2023-06-01T00:00:00.000+02:00,-7.086955734685704,1,Annual variation,peninsular
+2023-07-01T00:00:00.000+02:00,-7.961040436924689,1,Annual variation,peninsular
+2023-08-01T00:00:00.000+02:00,-8.243869828844385,1,Annual variation,peninsular
+2023-09-01T00:00:00.000+02:00,-8.114081953309714,1,Annual variation,peninsular
+2023-10-01T00:00:00.000+02:00,-7.671930560293853,1,Annual variation,peninsular
+2023-11-01T00:00:00.000+01:00,-6.963264879410811,1,Annual variation,peninsular
+2023-12-01T00:00:00.000+01:00,-6.108538628398866,1,Annual variation,peninsular
+2023-01-01T00:00:00.000+01:00,-3.0919558922945467,1,Corrected annual variation,peninsular
+2023-02-01T00:00:00.000+01:00,-4.943509068862695,1,Corrected annual variation,peninsular
+2023-03-01T00:00:00.000+01:00,-6.59049595878755,1,Corrected annual variation,peninsular
+2023-04-01T00:00:00.000+02:00,-7.722683605200659,1,Corrected annual variation,peninsular
+2023-05-01T00:00:00.000+02:00,-8.340870303505152,1,Corrected annual variation,peninsular
+2023-06-01T00:00:00.000+02:00,-9.106607976224451,1,Corrected annual variation,peninsular
+2023-07-01T00:00:00.000+02:00,-8.677870630132777,1,Corrected annual variation,peninsular
+2023-08-01T00:00:00.000+02:00,-8.597483359671482,1,Corrected annual variation,peninsular
+2023-09-01T00:00:00.000+02:00,-7.93915859250619,1,Corrected annual variation,peninsular
+2023-10-01T00:00:00.000+02:00,-7.066359523120371,1,Corrected annual variation,peninsular
+2023-11-01T00:00:00.000+01:00,-6.301302821110015,1,Corrected annual variation,peninsular
+2023-12-01T00:00:00.000+01:00,-5.470738223721058,1,Corrected annual variation,peninsular
+2023-01-01T00:00:00.000+01:00,120.47866666666668,1,Índice servicios,canarias
+2023-02-01T00:00:00.000+01:00,119.53533333333336,1,Índice servicios,canarias
+2023-03-01T00:00:00.000+01:00,118.48916666666668,1,Índice servicios,canarias
+2023-04-01T00:00:00.000+02:00,117.6995,1,Índice servicios,canarias
+2023-05-01T00:00:00.000+02:00,116.57516666666668,1,Índice servicios,canarias
+2023-06-01T00:00:00.000+02:00,115.48541666666665,1,Índice servicios,canarias
+2023-07-01T00:00:00.000+02:00,114.73500000000001,1,Índice servicios,canarias
+2023-08-01T00:00:00.000+02:00,114.26474999999999,1,Índice servicios,canarias
+2023-09-01T00:00:00.000+02:00,113.93991666666666,1,Índice servicios,canarias
+2023-10-01T00:00:00.000+02:00,114.11641666666667,1,Índice servicios,canarias
+2023-11-01T00:00:00.000+01:00,114.20716666666665,1,Índice servicios,canarias
+2023-12-01T00:00:00.000+01:00,114.37850000000002,1,Índice servicios,canarias
+2023-01-01T00:00:00.000+01:00,101.29991666666666,1,Índice servicios corregido,canarias
+2023-02-01T00:00:00.000+01:00,100.34416666666668,1,Índice servicios corregido,canarias
+2023-03-01T00:00:00.000+01:00,99.3045,1,Índice servicios corregido,canarias
+2023-04-01T00:00:00.000+02:00,98.39891666666666,1,Índice servicios corregido,canarias
+2023-05-01T00:00:00.000+02:00,97.88133333333332,1,Índice servicios corregido,canarias
+2023-06-01T00:00:00.000+02:00,97.15458333333333,1,Índice servicios corregido,canarias
+2023-07-01T00:00:00.000+02:00,97.05883333333333,1,Índice servicios corregido,canarias
+2023-08-01T00:00:00.000+02:00,96.6395,1,Índice servicios corregido,canarias
+2023-09-01T00:00:00.000+02:00,96.56783333333334,1,Índice servicios corregido,canarias
+2023-10-01T00:00:00.000+02:00,96.58833333333332,1,Índice servicios corregido,canarias
+2023-11-01T00:00:00.000+01:00,96.68425,1,Índice servicios corregido,canarias
+2023-12-01T00:00:00.000+01:00,96.91541666666667,1,Índice servicios corregido,canarias
+2023-01-01T00:00:00.000+01:00,0.3926143504919908,1,Annual variation,canarias
+2023-02-01T00:00:00.000+01:00,-1.2140741419218024,1,Annual variation,canarias
+2023-03-01T00:00:00.000+01:00,-2.763226641208633,1,Annual variation,canarias
+2023-04-01T00:00:00.000+02:00,-3.882355423109318,1,Annual variation,canarias
+2023-05-01T00:00:00.000+02:00,-5.5532375431589225,1,Annual variation,canarias
+2023-06-01T00:00:00.000+02:00,-7.086955734685704,1,Annual variation,canarias
+2023-07-01T00:00:00.000+02:00,-7.961040436924689,1,Annual variation,canarias
+2023-08-01T00:00:00.000+02:00,-8.243869828844385,1,Annual variation,canarias
+2023-09-01T00:00:00.000+02:00,-8.114081953309714,1,Annual variation,canarias
+2023-10-01T00:00:00.000+02:00,-7.671930560293853,1,Annual variation,canarias
+2023-11-01T00:00:00.000+01:00,-6.963264879410811,1,Annual variation,canarias
+2023-12-01T00:00:00.000+01:00,-6.108538628398866,1,Annual variation,canarias
+2023-01-01T00:00:00.000+01:00,-3.0919558922945467,1,Corrected annual variation,canarias
+2023-02-01T00:00:00.000+01:00,-4.943509068862695,1,Corrected annual variation,canarias
+2023-03-01T00:00:00.000+01:00,-6.59049595878755,1,Corrected annual variation,canarias
+2023-04-01T00:00:00.000+02:00,-7.722683605200659,1,Corrected annual variation,canarias
+2023-05-01T00:00:00.000+02:00,-8.340870303505152,1,Corrected annual variation,canarias
+2023-06-01T00:00:00.000+02:00,-9.106607976224451,1,Corrected annual variation,canarias
+2023-07-01T00:00:00.000+02:00,-8.677870630132777,1,Corrected annual variation,canarias
+2023-08-01T00:00:00.000+02:00,-8.597483359671482,1,Corrected annual variation,canarias
+2023-09-01T00:00:00.000+02:00,-7.93915859250619,1,Corrected annual variation,canarias
+2023-10-01T00:00:00.000+02:00,-7.066359523120371,1,Corrected annual variation,canarias
+2023-11-01T00:00:00.000+01:00,-6.301302821110015,1,Corrected annual variation,canarias
+2023-12-01T00:00:00.000+01:00,-5.470738223721058,1,Corrected annual variation,canarias
+2023-01-01T00:00:00.000+01:00,120.47866666666668,1,Índice servicios,baleares
+2023-02-01T00:00:00.000+01:00,119.53533333333336,1,Índice servicios,baleares
+2023-03-01T00:00:00.000+01:00,118.48916666666668,1,Índice servicios,baleares
+2023-04-01T00:00:00.000+02:00,117.6995,1,Índice servicios,baleares
+2023-05-01T00:00:00.000+02:00,116.57516666666668,1,Índice servicios,baleares
+2023-06-01T00:00:00.000+02:00,115.48541666666665,1,Índice servicios,baleares
+2023-07-01T00:00:00.000+02:00,114.73500000000001,1,Índice servicios,baleares
+2023-08-01T00:00:00.000+02:00,114.26474999999999,1,Índice servicios,baleares
+2023-09-01T00:00:00.000+02:00,113.93991666666666,1,Índice servicios,baleares
+2023-10-01T00:00:00.000+02:00,114.11641666666667,1,Índice servicios,baleares
+2023-11-01T00:00:00.000+01:00,114.20716666666665,1,Índice servicios,baleares
+2023-12-01T00:00:00.000+01:00,114.37850000000002,1,Índice servicios,baleares
+2023-01-01T00:00:00.000+01:00,101.29991666666666,1,Índice servicios corregido,baleares
+2023-02-01T00:00:00.000+01:00,100.34416666666668,1,Índice servicios corregido,baleares
+2023-03-01T00:00:00.000+01:00,99.3045,1,Índice servicios corregido,baleares
+2023-04-01T00:00:00.000+02:00,98.39891666666666,1,Índice servicios corregido,baleares
+2023-05-01T00:00:00.000+02:00,97.88133333333332,1,Índice servicios corregido,baleares
+2023-06-01T00:00:00.000+02:00,97.15458333333333,1,Índice servicios corregido,baleares
+2023-07-01T00:00:00.000+02:00,97.05883333333333,1,Índice servicios corregido,baleares
+2023-08-01T00:00:00.000+02:00,96.6395,1,Índice servicios corregido,baleares
+2023-09-01T00:00:00.000+02:00,96.56783333333334,1,Índice servicios corregido,baleares
+2023-10-01T00:00:00.000+02:00,96.58833333333332,1,Índice servicios corregido,baleares
+2023-11-01T00:00:00.000+01:00,96.68425,1,Índice servicios corregido,baleares
+2023-12-01T00:00:00.000+01:00,96.91541666666667,1,Índice servicios corregido,baleares
+2023-01-01T00:00:00.000+01:00,0.3926143504919908,1,Annual variation,baleares
+2023-02-01T00:00:00.000+01:00,-1.2140741419218024,1,Annual variation,baleares
+2023-03-01T00:00:00.000+01:00,-2.763226641208633,1,Annual variation,baleares
+2023-04-01T00:00:00.000+02:00,-3.882355423109318,1,Annual variation,baleares
+2023-05-01T00:00:00.000+02:00,-5.5532375431589225,1,Annual variation,baleares
+2023-06-01T00:00:00.000+02:00,-7.086955734685704,1,Annual variation,baleares
+2023-07-01T00:00:00.000+02:00,-7.961040436924689,1,Annual variation,baleares
+2023-08-01T00:00:00.000+02:00,-8.243869828844385,1,Annual variation,baleares
+2023-09-01T00:00:00.000+02:00,-8.114081953309714,1,Annual variation,baleares
+2023-10-01T00:00:00.000+02:00,-7.671930560293853,1,Annual variation,baleares
+2023-11-01T00:00:00.000+01:00,-6.963264879410811,1,Annual variation,baleares
+2023-12-01T00:00:00.000+01:00,-6.108538628398866,1,Annual variation,baleares
+2023-01-01T00:00:00.000+01:00,-3.0919558922945467,1,Corrected annual variation,baleares
+2023-02-01T00:00:00.000+01:00,-4.943509068862695,1,Corrected annual variation,baleares
+2023-03-01T00:00:00.000+01:00,-6.59049595878755,1,Corrected annual variation,baleares
+2023-04-01T00:00:00.000+02:00,-7.722683605200659,1,Corrected annual variation,baleares
+2023-05-01T00:00:00.000+02:00,-8.340870303505152,1,Corrected annual variation,baleares
+2023-06-01T00:00:00.000+02:00,-9.106607976224451,1,Corrected annual variation,baleares
+2023-07-01T00:00:00.000+02:00,-8.677870630132777,1,Corrected annual variation,baleares
+2023-08-01T00:00:00.000+02:00,-8.597483359671482,1,Corrected annual variation,baleares
+2023-09-01T00:00:00.000+02:00,-7.93915859250619,1,Corrected annual variation,baleares
+2023-10-01T00:00:00.000+02:00,-7.066359523120371,1,Corrected annual variation,baleares
+2023-11-01T00:00:00.000+01:00,-6.301302821110015,1,Corrected annual variation,baleares
+2023-12-01T00:00:00.000+01:00,-5.470738223721058,1,Corrected annual variation,baleares
+2023-01-01T00:00:00.000+01:00,120.47866666666668,1,Índice servicios,ceuta
+2023-02-01T00:00:00.000+01:00,119.53533333333336,1,Índice servicios,ceuta
+2023-03-01T00:00:00.000+01:00,118.48916666666668,1,Índice servicios,ceuta
+2023-04-01T00:00:00.000+02:00,117.6995,1,Índice servicios,ceuta
+2023-05-01T00:00:00.000+02:00,116.57516666666668,1,Índice servicios,ceuta
+2023-06-01T00:00:00.000+02:00,115.48541666666665,1,Índice servicios,ceuta
+2023-07-01T00:00:00.000+02:00,114.73500000000001,1,Índice servicios,ceuta
+2023-08-01T00:00:00.000+02:00,114.26474999999999,1,Índice servicios,ceuta
+2023-09-01T00:00:00.000+02:00,113.93991666666666,1,Índice servicios,ceuta
+2023-10-01T00:00:00.000+02:00,114.11641666666667,1,Índice servicios,ceuta
+2023-11-01T00:00:00.000+01:00,114.20716666666665,1,Índice servicios,ceuta
+2023-12-01T00:00:00.000+01:00,114.37850000000002,1,Índice servicios,ceuta
+2023-01-01T00:00:00.000+01:00,101.29991666666666,1,Índice servicios corregido,ceuta
+2023-02-01T00:00:00.000+01:00,100.34416666666668,1,Índice servicios corregido,ceuta
+2023-03-01T00:00:00.000+01:00,99.3045,1,Índice servicios corregido,ceuta
+2023-04-01T00:00:00.000+02:00,98.39891666666666,1,Índice servicios corregido,ceuta
+2023-05-01T00:00:00.000+02:00,97.88133333333332,1,Índice servicios corregido,ceuta
+2023-06-01T00:00:00.000+02:00,97.15458333333333,1,Índice servicios corregido,ceuta
+2023-07-01T00:00:00.000+02:00,97.05883333333333,1,Índice servicios corregido,ceuta
+2023-08-01T00:00:00.000+02:00,96.6395,1,Índice servicios corregido,ceuta
+2023-09-01T00:00:00.000+02:00,96.56783333333334,1,Índice servicios corregido,ceuta
+2023-10-01T00:00:00.000+02:00,96.58833333333332,1,Índice servicios corregido,ceuta
+2023-11-01T00:00:00.000+01:00,96.68425,1,Índice servicios corregido,ceuta
+2023-12-01T00:00:00.000+01:00,96.91541666666667,1,Índice servicios corregido,ceuta
+2023-01-01T00:00:00.000+01:00,0.3926143504919908,1,Annual variation,ceuta
+2023-02-01T00:00:00.000+01:00,-1.2140741419218024,1,Annual variation,ceuta
+2023-03-01T00:00:00.000+01:00,-2.763226641208633,1,Annual variation,ceuta
+2023-04-01T00:00:00.000+02:00,-3.882355423109318,1,Annual variation,ceuta
+2023-05-01T00:00:00.000+02:00,-5.5532375431589225,1,Annual variation,ceuta
+2023-06-01T00:00:00.000+02:00,-7.086955734685704,1,Annual variation,ceuta
+2023-07-01T00:00:00.000+02:00,-7.961040436924689,1,Annual variation,ceuta
+2023-08-01T00:00:00.000+02:00,-8.243869828844385,1,Annual variation,ceuta
+2023-09-01T00:00:00.000+02:00,-8.114081953309714,1,Annual variation,ceuta
+2023-10-01T00:00:00.000+02:00,-7.671930560293853,1,Annual variation,ceuta
+2023-11-01T00:00:00.000+01:00,-6.963264879410811,1,Annual variation,ceuta
+2023-12-01T00:00:00.000+01:00,-6.108538628398866,1,Annual variation,ceuta
+2023-01-01T00:00:00.000+01:00,-3.0919558922945467,1,Corrected annual variation,ceuta
+2023-02-01T00:00:00.000+01:00,-4.943509068862695,1,Corrected annual variation,ceuta
+2023-03-01T00:00:00.000+01:00,-6.59049595878755,1,Corrected annual variation,ceuta
+2023-04-01T00:00:00.000+02:00,-7.722683605200659,1,Corrected annual variation,ceuta
+2023-05-01T00:00:00.000+02:00,-8.340870303505152,1,Corrected annual variation,ceuta
+2023-06-01T00:00:00.000+02:00,-9.106607976224451,1,Corrected annual variation,ceuta
+2023-07-01T00:00:00.000+02:00,-8.677870630132777,1,Corrected annual variation,ceuta
+2023-08-01T00:00:00.000+02:00,-8.597483359671482,1,Corrected annual variation,ceuta
+2023-09-01T00:00:00.000+02:00,-7.93915859250619,1,Corrected annual variation,ceuta
+2023-10-01T00:00:00.000+02:00,-7.066359523120371,1,Corrected annual variation,ceuta
+2023-11-01T00:00:00.000+01:00,-6.301302821110015,1,Corrected annual variation,ceuta
+2023-12-01T00:00:00.000+01:00,-5.470738223721058,1,Corrected annual variation,ceuta
+2023-01-01T00:00:00.000+01:00,120.47866666666668,1,Índice servicios,melilla
+2023-02-01T00:00:00.000+01:00,119.53533333333336,1,Índice servicios,melilla
+2023-03-01T00:00:00.000+01:00,118.48916666666668,1,Índice servicios,melilla
+2023-04-01T00:00:00.000+02:00,117.6995,1,Índice servicios,melilla
+2023-05-01T00:00:00.000+02:00,116.57516666666668,1,Índice servicios,melilla
+2023-06-01T00:00:00.000+02:00,115.48541666666665,1,Índice servicios,melilla
+2023-07-01T00:00:00.000+02:00,114.73500000000001,1,Índice servicios,melilla
+2023-08-01T00:00:00.000+02:00,114.26474999999999,1,Índice servicios,melilla
+2023-09-01T00:00:00.000+02:00,113.93991666666666,1,Índice servicios,melilla
+2023-10-01T00:00:00.000+02:00,114.11641666666667,1,Índice servicios,melilla
+2023-11-01T00:00:00.000+01:00,114.20716666666665,1,Índice servicios,melilla
+2023-12-01T00:00:00.000+01:00,114.37850000000002,1,Índice servicios,melilla
+2023-01-01T00:00:00.000+01:00,101.29991666666666,1,Índice servicios corregido,melilla
+2023-02-01T00:00:00.000+01:00,100.34416666666668,1,Índice servicios corregido,melilla
+2023-03-01T00:00:00.000+01:00,99.3045,1,Índice servicios corregido,melilla
+2023-04-01T00:00:00.000+02:00,98.39891666666666,1,Índice servicios corregido,melilla
+2023-05-01T00:00:00.000+02:00,97.88133333333332,1,Índice servicios corregido,melilla
+2023-06-01T00:00:00.000+02:00,97.15458333333333,1,Índice servicios corregido,melilla
+2023-07-01T00:00:00.000+02:00,97.05883333333333,1,Índice servicios corregido,melilla
+2023-08-01T00:00:00.000+02:00,96.6395,1,Índice servicios corregido,melilla
+2023-09-01T00:00:00.000+02:00,96.56783333333334,1,Índice servicios corregido,melilla
+2023-10-01T00:00:00.000+02:00,96.58833333333332,1,Índice servicios corregido,melilla
+2023-11-01T00:00:00.000+01:00,96.68425,1,Índice servicios corregido,melilla
+2023-12-01T00:00:00.000+01:00,96.91541666666667,1,Índice servicios corregido,melilla
+2023-01-01T00:00:00.000+01:00,0.3926143504919908,1,Annual variation,melilla
+2023-02-01T00:00:00.000+01:00,-1.2140741419218024,1,Annual variation,melilla
+2023-03-01T00:00:00.000+01:00,-2.763226641208633,1,Annual variation,melilla
+2023-04-01T00:00:00.000+02:00,-3.882355423109318,1,Annual variation,melilla
+2023-05-01T00:00:00.000+02:00,-5.5532375431589225,1,Annual variation,melilla
+2023-06-01T00:00:00.000+02:00,-7.086955734685704,1,Annual variation,melilla
+2023-07-01T00:00:00.000+02:00,-7.961040436924689,1,Annual variation,melilla
+2023-08-01T00:00:00.000+02:00,-8.243869828844385,1,Annual variation,melilla
+2023-09-01T00:00:00.000+02:00,-8.114081953309714,1,Annual variation,melilla
+2023-10-01T00:00:00.000+02:00,-7.671930560293853,1,Annual variation,melilla
+2023-11-01T00:00:00.000+01:00,-6.963264879410811,1,Annual variation,melilla
+2023-12-01T00:00:00.000+01:00,-6.108538628398866,1,Annual variation,melilla
+2023-01-01T00:00:00.000+01:00,-3.0919558922945467,1,Corrected annual variation,melilla
+2023-02-01T00:00:00.000+01:00,-4.943509068862695,1,Corrected annual variation,melilla
+2023-03-01T00:00:00.000+01:00,-6.59049595878755,1,Corrected annual variation,melilla
+2023-04-01T00:00:00.000+02:00,-7.722683605200659,1,Corrected annual variation,melilla
+2023-05-01T00:00:00.000+02:00,-8.340870303505152,1,Corrected annual variation,melilla
+2023-06-01T00:00:00.000+02:00,-9.106607976224451,1,Corrected annual variation,melilla
+2023-07-01T00:00:00.000+02:00,-8.677870630132777,1,Corrected annual variation,melilla
+2023-08-01T00:00:00.000+02:00,-8.597483359671482,1,Corrected annual variation,melilla
+2023-09-01T00:00:00.000+02:00,-7.93915859250619,1,Corrected annual variation,melilla
+2023-10-01T00:00:00.000+02:00,-7.066359523120371,1,Corrected annual variation,melilla
+2023-11-01T00:00:00.000+01:00,-6.301302821110015,1,Corrected annual variation,melilla
+2023-12-01T00:00:00.000+01:00,-5.470738223721058,1,Corrected annual variation,melilla
+2023-01-01T00:00:00.000+01:00,120.47866666666668,1,Índice servicios,andalucia
+2023-02-01T00:00:00.000+01:00,119.53533333333336,1,Índice servicios,andalucia
+2023-03-01T00:00:00.000+01:00,118.48916666666668,1,Índice servicios,andalucia
+2023-04-01T00:00:00.000+02:00,117.6995,1,Índice servicios,andalucia
+2023-05-01T00:00:00.000+02:00,116.57516666666668,1,Índice servicios,andalucia
+2023-06-01T00:00:00.000+02:00,115.48541666666665,1,Índice servicios,andalucia
+2023-07-01T00:00:00.000+02:00,114.73500000000001,1,Índice servicios,andalucia
+2023-08-01T00:00:00.000+02:00,114.26474999999999,1,Índice servicios,andalucia
+2023-09-01T00:00:00.000+02:00,113.93991666666666,1,Índice servicios,andalucia
+2023-10-01T00:00:00.000+02:00,114.11641666666667,1,Índice servicios,andalucia
+2023-11-01T00:00:00.000+01:00,114.20716666666665,1,Índice servicios,andalucia
+2023-12-01T00:00:00.000+01:00,114.37850000000002,1,Índice servicios,andalucia
+2023-01-01T00:00:00.000+01:00,101.29991666666666,1,Índice servicios corregido,andalucia
+2023-02-01T00:00:00.000+01:00,100.34416666666668,1,Índice servicios corregido,andalucia
+2023-03-01T00:00:00.000+01:00,99.3045,1,Índice servicios corregido,andalucia
+2023-04-01T00:00:00.000+02:00,98.39891666666666,1,Índice servicios corregido,andalucia
+2023-05-01T00:00:00.000+02:00,97.88133333333332,1,Índice servicios corregido,andalucia
+2023-06-01T00:00:00.000+02:00,97.15458333333333,1,Índice servicios corregido,andalucia
+2023-07-01T00:00:00.000+02:00,97.05883333333333,1,Índice servicios corregido,andalucia
+2023-08-01T00:00:00.000+02:00,96.6395,1,Índice servicios corregido,andalucia
+2023-09-01T00:00:00.000+02:00,96.56783333333334,1,Índice servicios corregido,andalucia
+2023-10-01T00:00:00.000+02:00,96.58833333333332,1,Índice servicios corregido,andalucia
+2023-11-01T00:00:00.000+01:00,96.68425,1,Índice servicios corregido,andalucia
+2023-12-01T00:00:00.000+01:00,96.91541666666667,1,Índice servicios corregido,andalucia
+2023-01-01T00:00:00.000+01:00,0.3926143504919908,1,Annual variation,andalucia
+2023-02-01T00:00:00.000+01:00,-1.2140741419218024,1,Annual variation,andalucia
+2023-03-01T00:00:00.000+01:00,-2.763226641208633,1,Annual variation,andalucia
+2023-04-01T00:00:00.000+02:00,-3.882355423109318,1,Annual variation,andalucia
+2023-05-01T00:00:00.000+02:00,-5.5532375431589225,1,Annual variation,andalucia
+2023-06-01T00:00:00.000+02:00,-7.086955734685704,1,Annual variation,andalucia
+2023-07-01T00:00:00.000+02:00,-7.961040436924689,1,Annual variation,andalucia
+2023-08-01T00:00:00.000+02:00,-8.243869828844385,1,Annual variation,andalucia
+2023-09-01T00:00:00.000+02:00,-8.114081953309714,1,Annual variation,andalucia
+2023-10-01T00:00:00.000+02:00,-7.671930560293853,1,Annual variation,andalucia
+2023-11-01T00:00:00.000+01:00,-6.963264879410811,1,Annual variation,andalucia
+2023-12-01T00:00:00.000+01:00,-6.108538628398866,1,Annual variation,andalucia
+2023-01-01T00:00:00.000+01:00,-3.0919558922945467,1,Corrected annual variation,andalucia
+2023-02-01T00:00:00.000+01:00,-4.943509068862695,1,Corrected annual variation,andalucia
+2023-03-01T00:00:00.000+01:00,-6.59049595878755,1,Corrected annual variation,andalucia
+2023-04-01T00:00:00.000+02:00,-7.722683605200659,1,Corrected annual variation,andalucia
+2023-05-01T00:00:00.000+02:00,-8.340870303505152,1,Corrected annual variation,andalucia
+2023-06-01T00:00:00.000+02:00,-9.106607976224451,1,Corrected annual variation,andalucia
+2023-07-01T00:00:00.000+02:00,-8.677870630132777,1,Corrected annual variation,andalucia
+2023-08-01T00:00:00.000+02:00,-8.597483359671482,1,Corrected annual variation,andalucia
+2023-09-01T00:00:00.000+02:00,-7.93915859250619,1,Corrected annual variation,andalucia
+2023-10-01T00:00:00.000+02:00,-7.066359523120371,1,Corrected annual variation,andalucia
+2023-11-01T00:00:00.000+01:00,-6.301302821110015,1,Corrected annual variation,andalucia
+2023-12-01T00:00:00.000+01:00,-5.470738223721058,1,Corrected annual variation,andalucia
+2023-01-01T00:00:00.000+01:00,120.47866666666668,1,Índice servicios,aragon
+2023-02-01T00:00:00.000+01:00,119.53533333333336,1,Índice servicios,aragon
+2023-03-01T00:00:00.000+01:00,118.48916666666668,1,Índice servicios,aragon
+2023-04-01T00:00:00.000+02:00,117.6995,1,Índice servicios,aragon
+2023-05-01T00:00:00.000+02:00,116.57516666666668,1,Índice servicios,aragon
+2023-06-01T00:00:00.000+02:00,115.48541666666665,1,Índice servicios,aragon
+2023-07-01T00:00:00.000+02:00,114.73500000000001,1,Índice servicios,aragon
+2023-08-01T00:00:00.000+02:00,114.26474999999999,1,Índice servicios,aragon
+2023-09-01T00:00:00.000+02:00,113.93991666666666,1,Índice servicios,aragon
+2023-10-01T00:00:00.000+02:00,114.11641666666667,1,Índice servicios,aragon
+2023-11-01T00:00:00.000+01:00,114.20716666666665,1,Índice servicios,aragon
+2023-12-01T00:00:00.000+01:00,114.37850000000002,1,Índice servicios,aragon
+2023-01-01T00:00:00.000+01:00,101.29991666666666,1,Índice servicios corregido,aragon
+2023-02-01T00:00:00.000+01:00,100.34416666666668,1,Índice servicios corregido,aragon
+2023-03-01T00:00:00.000+01:00,99.3045,1,Índice servicios corregido,aragon
+2023-04-01T00:00:00.000+02:00,98.39891666666666,1,Índice servicios corregido,aragon
+2023-05-01T00:00:00.000+02:00,97.88133333333332,1,Índice servicios corregido,aragon
+2023-06-01T00:00:00.000+02:00,97.15458333333333,1,Índice servicios corregido,aragon
+2023-07-01T00:00:00.000+02:00,97.05883333333333,1,Índice servicios corregido,aragon
+2023-08-01T00:00:00.000+02:00,96.6395,1,Índice servicios corregido,aragon
+2023-09-01T00:00:00.000+02:00,96.56783333333334,1,Índice servicios corregido,aragon
+2023-10-01T00:00:00.000+02:00,96.58833333333332,1,Índice servicios corregido,aragon
+2023-11-01T00:00:00.000+01:00,96.68425,1,Índice servicios corregido,aragon
+2023-12-01T00:00:00.000+01:00,96.91541666666667,1,Índice servicios corregido,aragon
+2023-01-01T00:00:00.000+01:00,0.3926143504919908,1,Annual variation,aragon
+2023-02-01T00:00:00.000+01:00,-1.2140741419218024,1,Annual variation,aragon
+2023-03-01T00:00:00.000+01:00,-2.763226641208633,1,Annual variation,aragon
+2023-04-01T00:00:00.000+02:00,-3.882355423109318,1,Annual variation,aragon
+2023-05-01T00:00:00.000+02:00,-5.5532375431589225,1,Annual variation,aragon
+2023-06-01T00:00:00.000+02:00,-7.086955734685704,1,Annual variation,aragon
+2023-07-01T00:00:00.000+02:00,-7.961040436924689,1,Annual variation,aragon
+2023-08-01T00:00:00.000+02:00,-8.243869828844385,1,Annual variation,aragon
+2023-09-01T00:00:00.000+02:00,-8.114081953309714,1,Annual variation,aragon
+2023-10-01T00:00:00.000+02:00,-7.671930560293853,1,Annual variation,aragon
+2023-11-01T00:00:00.000+01:00,-6.963264879410811,1,Annual variation,aragon
+2023-12-01T00:00:00.000+01:00,-6.108538628398866,1,Annual variation,aragon
+2023-01-01T00:00:00.000+01:00,-3.0919558922945467,1,Corrected annual variation,aragon
+2023-02-01T00:00:00.000+01:00,-4.943509068862695,1,Corrected annual variation,aragon
+2023-03-01T00:00:00.000+01:00,-6.59049595878755,1,Corrected annual variation,aragon
+2023-04-01T00:00:00.000+02:00,-7.722683605200659,1,Corrected annual variation,aragon
+2023-05-01T00:00:00.000+02:00,-8.340870303505152,1,Corrected annual variation,aragon
+2023-06-01T00:00:00.000+02:00,-9.106607976224451,1,Corrected annual variation,aragon
+2023-07-01T00:00:00.000+02:00,-8.677870630132777,1,Corrected annual variation,aragon
+2023-08-01T00:00:00.000+02:00,-8.597483359671482,1,Corrected annual variation,aragon
+2023-09-01T00:00:00.000+02:00,-7.93915859250619,1,Corrected annual variation,aragon
+2023-10-01T00:00:00.000+02:00,-7.066359523120371,1,Corrected annual variation,aragon
+2023-11-01T00:00:00.000+01:00,-6.301302821110015,1,Corrected annual variation,aragon
+2023-12-01T00:00:00.000+01:00,-5.470738223721058,1,Corrected annual variation,aragon
+2023-01-01T00:00:00.000+01:00,120.47866666666668,1,Índice servicios,cantabria
+2023-02-01T00:00:00.000+01:00,119.53533333333336,1,Índice servicios,cantabria
+2023-03-01T00:00:00.000+01:00,118.48916666666668,1,Índice servicios,cantabria
+2023-04-01T00:00:00.000+02:00,117.6995,1,Índice servicios,cantabria
+2023-05-01T00:00:00.000+02:00,116.57516666666668,1,Índice servicios,cantabria
+2023-06-01T00:00:00.000+02:00,115.48541666666665,1,Índice servicios,cantabria
+2023-07-01T00:00:00.000+02:00,114.73500000000001,1,Índice servicios,cantabria
+2023-08-01T00:00:00.000+02:00,114.26474999999999,1,Índice servicios,cantabria
+2023-09-01T00:00:00.000+02:00,113.93991666666666,1,Índice servicios,cantabria
+2023-10-01T00:00:00.000+02:00,114.11641666666667,1,Índice servicios,cantabria
+2023-11-01T00:00:00.000+01:00,114.20716666666665,1,Índice servicios,cantabria
+2023-12-01T00:00:00.000+01:00,114.37850000000002,1,Índice servicios,cantabria
+2023-01-01T00:00:00.000+01:00,101.29991666666666,1,Índice servicios corregido,cantabria
+2023-02-01T00:00:00.000+01:00,100.34416666666668,1,Índice servicios corregido,cantabria
+2023-03-01T00:00:00.000+01:00,99.3045,1,Índice servicios corregido,cantabria
+2023-04-01T00:00:00.000+02:00,98.39891666666666,1,Índice servicios corregido,cantabria
+2023-05-01T00:00:00.000+02:00,97.88133333333332,1,Índice servicios corregido,cantabria
+2023-06-01T00:00:00.000+02:00,97.15458333333333,1,Índice servicios corregido,cantabria
+2023-07-01T00:00:00.000+02:00,97.05883333333333,1,Índice servicios corregido,cantabria
+2023-08-01T00:00:00.000+02:00,96.6395,1,Índice servicios corregido,cantabria
+2023-09-01T00:00:00.000+02:00,96.56783333333334,1,Índice servicios corregido,cantabria
+2023-10-01T00:00:00.000+02:00,96.58833333333332,1,Índice servicios corregido,cantabria
+2023-11-01T00:00:00.000+01:00,96.68425,1,Índice servicios corregido,cantabria
+2023-12-01T00:00:00.000+01:00,96.91541666666667,1,Índice servicios corregido,cantabria
+2023-01-01T00:00:00.000+01:00,0.3926143504919908,1,Annual variation,cantabria
+2023-02-01T00:00:00.000+01:00,-1.2140741419218024,1,Annual variation,cantabria
+2023-03-01T00:00:00.000+01:00,-2.763226641208633,1,Annual variation,cantabria
+2023-04-01T00:00:00.000+02:00,-3.882355423109318,1,Annual variation,cantabria
+2023-05-01T00:00:00.000+02:00,-5.5532375431589225,1,Annual variation,cantabria
+2023-06-01T00:00:00.000+02:00,-7.086955734685704,1,Annual variation,cantabria
+2023-07-01T00:00:00.000+02:00,-7.961040436924689,1,Annual variation,cantabria
+2023-08-01T00:00:00.000+02:00,-8.243869828844385,1,Annual variation,cantabria
+2023-09-01T00:00:00.000+02:00,-8.114081953309714,1,Annual variation,cantabria
+2023-10-01T00:00:00.000+02:00,-7.671930560293853,1,Annual variation,cantabria
+2023-11-01T00:00:00.000+01:00,-6.963264879410811,1,Annual variation,cantabria
+2023-12-01T00:00:00.000+01:00,-6.108538628398866,1,Annual variation,cantabria
+2023-01-01T00:00:00.000+01:00,-3.0919558922945467,1,Corrected annual variation,cantabria
+2023-02-01T00:00:00.000+01:00,-4.943509068862695,1,Corrected annual variation,cantabria
+2023-03-01T00:00:00.000+01:00,-6.59049595878755,1,Corrected annual variation,cantabria
+2023-04-01T00:00:00.000+02:00,-7.722683605200659,1,Corrected annual variation,cantabria
+2023-05-01T00:00:00.000+02:00,-8.340870303505152,1,Corrected annual variation,cantabria
+2023-06-01T00:00:00.000+02:00,-9.106607976224451,1,Corrected annual variation,cantabria
+2023-07-01T00:00:00.000+02:00,-8.677870630132777,1,Corrected annual variation,cantabria
+2023-08-01T00:00:00.000+02:00,-8.597483359671482,1,Corrected annual variation,cantabria
+2023-09-01T00:00:00.000+02:00,-7.93915859250619,1,Corrected annual variation,cantabria
+2023-10-01T00:00:00.000+02:00,-7.066359523120371,1,Corrected annual variation,cantabria
+2023-11-01T00:00:00.000+01:00,-6.301302821110015,1,Corrected annual variation,cantabria
+2023-12-01T00:00:00.000+01:00,-5.470738223721058,1,Corrected annual variation,cantabria
+2023-01-01T00:00:00.000+01:00,120.47866666666668,1,Índice servicios,castilla la mancha
+2023-02-01T00:00:00.000+01:00,119.53533333333336,1,Índice servicios,castilla la mancha
+2023-03-01T00:00:00.000+01:00,118.48916666666668,1,Índice servicios,castilla la mancha
+2023-04-01T00:00:00.000+02:00,117.6995,1,Índice servicios,castilla la mancha
+2023-05-01T00:00:00.000+02:00,116.57516666666668,1,Índice servicios,castilla la mancha
+2023-06-01T00:00:00.000+02:00,115.48541666666665,1,Índice servicios,castilla la mancha
+2023-07-01T00:00:00.000+02:00,114.73500000000001,1,Índice servicios,castilla la mancha
+2023-08-01T00:00:00.000+02:00,114.26474999999999,1,Índice servicios,castilla la mancha
+2023-09-01T00:00:00.000+02:00,113.93991666666666,1,Índice servicios,castilla la mancha
+2023-10-01T00:00:00.000+02:00,114.11641666666667,1,Índice servicios,castilla la mancha
+2023-11-01T00:00:00.000+01:00,114.20716666666665,1,Índice servicios,castilla la mancha
+2023-12-01T00:00:00.000+01:00,114.37850000000002,1,Índice servicios,castilla la mancha
+2023-01-01T00:00:00.000+01:00,101.29991666666666,1,Índice servicios corregido,castilla la mancha
+2023-02-01T00:00:00.000+01:00,100.34416666666668,1,Índice servicios corregido,castilla la mancha
+2023-03-01T00:00:00.000+01:00,99.3045,1,Índice servicios corregido,castilla la mancha
+2023-04-01T00:00:00.000+02:00,98.39891666666666,1,Índice servicios corregido,castilla la mancha
+2023-05-01T00:00:00.000+02:00,97.88133333333332,1,Índice servicios corregido,castilla la mancha
+2023-06-01T00:00:00.000+02:00,97.15458333333333,1,Índice servicios corregido,castilla la mancha
+2023-07-01T00:00:00.000+02:00,97.05883333333333,1,Índice servicios corregido,castilla la mancha
+2023-08-01T00:00:00.000+02:00,96.6395,1,Índice servicios corregido,castilla la mancha
+2023-09-01T00:00:00.000+02:00,96.56783333333334,1,Índice servicios corregido,castilla la mancha
+2023-10-01T00:00:00.000+02:00,96.58833333333332,1,Índice servicios corregido,castilla la mancha
+2023-11-01T00:00:00.000+01:00,96.68425,1,Índice servicios corregido,castilla la mancha
+2023-12-01T00:00:00.000+01:00,96.91541666666667,1,Índice servicios corregido,castilla la mancha
+2023-01-01T00:00:00.000+01:00,0.3926143504919908,1,Annual variation,castilla la mancha
+2023-02-01T00:00:00.000+01:00,-1.2140741419218024,1,Annual variation,castilla la mancha
+2023-03-01T00:00:00.000+01:00,-2.763226641208633,1,Annual variation,castilla la mancha
+2023-04-01T00:00:00.000+02:00,-3.882355423109318,1,Annual variation,castilla la mancha
+2023-05-01T00:00:00.000+02:00,-5.5532375431589225,1,Annual variation,castilla la mancha
+2023-06-01T00:00:00.000+02:00,-7.086955734685704,1,Annual variation,castilla la mancha
+2023-07-01T00:00:00.000+02:00,-7.961040436924689,1,Annual variation,castilla la mancha
+2023-08-01T00:00:00.000+02:00,-8.243869828844385,1,Annual variation,castilla la mancha
+2023-09-01T00:00:00.000+02:00,-8.114081953309714,1,Annual variation,castilla la mancha
+2023-10-01T00:00:00.000+02:00,-7.671930560293853,1,Annual variation,castilla la mancha
+2023-11-01T00:00:00.000+01:00,-6.963264879410811,1,Annual variation,castilla la mancha
+2023-12-01T00:00:00.000+01:00,-6.108538628398866,1,Annual variation,castilla la mancha
+2023-01-01T00:00:00.000+01:00,-3.0919558922945467,1,Corrected annual variation,castilla la mancha
+2023-02-01T00:00:00.000+01:00,-4.943509068862695,1,Corrected annual variation,castilla la mancha
+2023-03-01T00:00:00.000+01:00,-6.59049595878755,1,Corrected annual variation,castilla la mancha
+2023-04-01T00:00:00.000+02:00,-7.722683605200659,1,Corrected annual variation,castilla la mancha
+2023-05-01T00:00:00.000+02:00,-8.340870303505152,1,Corrected annual variation,castilla la mancha
+2023-06-01T00:00:00.000+02:00,-9.106607976224451,1,Corrected annual variation,castilla la mancha
+2023-07-01T00:00:00.000+02:00,-8.677870630132777,1,Corrected annual variation,castilla la mancha
+2023-08-01T00:00:00.000+02:00,-8.597483359671482,1,Corrected annual variation,castilla la mancha
+2023-09-01T00:00:00.000+02:00,-7.93915859250619,1,Corrected annual variation,castilla la mancha
+2023-10-01T00:00:00.000+02:00,-7.066359523120371,1,Corrected annual variation,castilla la mancha
+2023-11-01T00:00:00.000+01:00,-6.301302821110015,1,Corrected annual variation,castilla la mancha
+2023-12-01T00:00:00.000+01:00,-5.470738223721058,1,Corrected annual variation,castilla la mancha
+2023-01-01T00:00:00.000+01:00,120.47866666666668,1,Índice servicios,castilla y leon
+2023-02-01T00:00:00.000+01:00,119.53533333333336,1,Índice servicios,castilla y leon
+2023-03-01T00:00:00.000+01:00,118.48916666666668,1,Índice servicios,castilla y leon
+2023-04-01T00:00:00.000+02:00,117.6995,1,Índice servicios,castilla y leon
+2023-05-01T00:00:00.000+02:00,116.57516666666668,1,Índice servicios,castilla y leon
+2023-06-01T00:00:00.000+02:00,115.48541666666665,1,Índice servicios,castilla y leon
+2023-07-01T00:00:00.000+02:00,114.73500000000001,1,Índice servicios,castilla y leon
+2023-08-01T00:00:00.000+02:00,114.26474999999999,1,Índice servicios,castilla y leon
+2023-09-01T00:00:00.000+02:00,113.93991666666666,1,Índice servicios,castilla y leon
+2023-10-01T00:00:00.000+02:00,114.11641666666667,1,Índice servicios,castilla y leon
+2023-11-01T00:00:00.000+01:00,114.20716666666665,1,Índice servicios,castilla y leon
+2023-12-01T00:00:00.000+01:00,114.37850000000002,1,Índice servicios,castilla y leon
+2023-01-01T00:00:00.000+01:00,101.29991666666666,1,Índice servicios corregido,castilla y leon
+2023-02-01T00:00:00.000+01:00,100.34416666666668,1,Índice servicios corregido,castilla y leon
+2023-03-01T00:00:00.000+01:00,99.3045,1,Índice servicios corregido,castilla y leon
+2023-04-01T00:00:00.000+02:00,98.39891666666666,1,Índice servicios corregido,castilla y leon
+2023-05-01T00:00:00.000+02:00,97.88133333333332,1,Índice servicios corregido,castilla y leon
+2023-06-01T00:00:00.000+02:00,97.15458333333333,1,Índice servicios corregido,castilla y leon
+2023-07-01T00:00:00.000+02:00,97.05883333333333,1,Índice servicios corregido,castilla y leon
+2023-08-01T00:00:00.000+02:00,96.6395,1,Índice servicios corregido,castilla y leon
+2023-09-01T00:00:00.000+02:00,96.56783333333334,1,Índice servicios corregido,castilla y leon
+2023-10-01T00:00:00.000+02:00,96.58833333333332,1,Índice servicios corregido,castilla y leon
+2023-11-01T00:00:00.000+01:00,96.68425,1,Índice servicios corregido,castilla y leon
+2023-12-01T00:00:00.000+01:00,96.91541666666667,1,Índice servicios corregido,castilla y leon
+2023-01-01T00:00:00.000+01:00,0.3926143504919908,1,Annual variation,castilla y leon
+2023-02-01T00:00:00.000+01:00,-1.2140741419218024,1,Annual variation,castilla y leon
+2023-03-01T00:00:00.000+01:00,-2.763226641208633,1,Annual variation,castilla y leon
+2023-04-01T00:00:00.000+02:00,-3.882355423109318,1,Annual variation,castilla y leon
+2023-05-01T00:00:00.000+02:00,-5.5532375431589225,1,Annual variation,castilla y leon
+2023-06-01T00:00:00.000+02:00,-7.086955734685704,1,Annual variation,castilla y leon
+2023-07-01T00:00:00.000+02:00,-7.961040436924689,1,Annual variation,castilla y leon
+2023-08-01T00:00:00.000+02:00,-8.243869828844385,1,Annual variation,castilla y leon
+2023-09-01T00:00:00.000+02:00,-8.114081953309714,1,Annual variation,castilla y leon
+2023-10-01T00:00:00.000+02:00,-7.671930560293853,1,Annual variation,castilla y leon
+2023-11-01T00:00:00.000+01:00,-6.963264879410811,1,Annual variation,castilla y leon
+2023-12-01T00:00:00.000+01:00,-6.108538628398866,1,Annual variation,castilla y leon
+2023-01-01T00:00:00.000+01:00,-3.0919558922945467,1,Corrected annual variation,castilla y leon
+2023-02-01T00:00:00.000+01:00,-4.943509068862695,1,Corrected annual variation,castilla y leon
+2023-03-01T00:00:00.000+01:00,-6.59049595878755,1,Corrected annual variation,castilla y leon
+2023-04-01T00:00:00.000+02:00,-7.722683605200659,1,Corrected annual variation,castilla y leon
+2023-05-01T00:00:00.000+02:00,-8.340870303505152,1,Corrected annual variation,castilla y leon
+2023-06-01T00:00:00.000+02:00,-9.106607976224451,1,Corrected annual variation,castilla y leon
+2023-07-01T00:00:00.000+02:00,-8.677870630132777,1,Corrected annual variation,castilla y leon
+2023-08-01T00:00:00.000+02:00,-8.597483359671482,1,Corrected annual variation,castilla y leon
+2023-09-01T00:00:00.000+02:00,-7.93915859250619,1,Corrected annual variation,castilla y leon
+2023-10-01T00:00:00.000+02:00,-7.066359523120371,1,Corrected annual variation,castilla y leon
+2023-11-01T00:00:00.000+01:00,-6.301302821110015,1,Corrected annual variation,castilla y leon
+2023-12-01T00:00:00.000+01:00,-5.470738223721058,1,Corrected annual variation,castilla y leon
+2023-01-01T00:00:00.000+01:00,120.47866666666668,1,Índice servicios,cataluña
+2023-02-01T00:00:00.000+01:00,119.53533333333336,1,Índice servicios,cataluña
+2023-03-01T00:00:00.000+01:00,118.48916666666668,1,Índice servicios,cataluña
+2023-04-01T00:00:00.000+02:00,117.6995,1,Índice servicios,cataluña
+2023-05-01T00:00:00.000+02:00,116.57516666666668,1,Índice servicios,cataluña
+2023-06-01T00:00:00.000+02:00,115.48541666666665,1,Índice servicios,cataluña
+2023-07-01T00:00:00.000+02:00,114.73500000000001,1,Índice servicios,cataluña
+2023-08-01T00:00:00.000+02:00,114.26474999999999,1,Índice servicios,cataluña
+2023-09-01T00:00:00.000+02:00,113.93991666666666,1,Índice servicios,cataluña
+2023-10-01T00:00:00.000+02:00,114.11641666666667,1,Índice servicios,cataluña
+2023-11-01T00:00:00.000+01:00,114.20716666666665,1,Índice servicios,cataluña
+2023-12-01T00:00:00.000+01:00,114.37850000000002,1,Índice servicios,cataluña
+2023-01-01T00:00:00.000+01:00,101.29991666666666,1,Índice servicios corregido,cataluña
+2023-02-01T00:00:00.000+01:00,100.34416666666668,1,Índice servicios corregido,cataluña
+2023-03-01T00:00:00.000+01:00,99.3045,1,Índice servicios corregido,cataluña
+2023-04-01T00:00:00.000+02:00,98.39891666666666,1,Índice servicios corregido,cataluña
+2023-05-01T00:00:00.000+02:00,97.88133333333332,1,Índice servicios corregido,cataluña
+2023-06-01T00:00:00.000+02:00,97.15458333333333,1,Índice servicios corregido,cataluña
+2023-07-01T00:00:00.000+02:00,97.05883333333333,1,Índice servicios corregido,cataluña
+2023-08-01T00:00:00.000+02:00,96.6395,1,Índice servicios corregido,cataluña
+2023-09-01T00:00:00.000+02:00,96.56783333333334,1,Índice servicios corregido,cataluña
+2023-10-01T00:00:00.000+02:00,96.58833333333332,1,Índice servicios corregido,cataluña
+2023-11-01T00:00:00.000+01:00,96.68425,1,Índice servicios corregido,cataluña
+2023-12-01T00:00:00.000+01:00,96.91541666666667,1,Índice servicios corregido,cataluña
+2023-01-01T00:00:00.000+01:00,0.3926143504919908,1,Annual variation,cataluña
+2023-02-01T00:00:00.000+01:00,-1.2140741419218024,1,Annual variation,cataluña
+2023-03-01T00:00:00.000+01:00,-2.763226641208633,1,Annual variation,cataluña
+2023-04-01T00:00:00.000+02:00,-3.882355423109318,1,Annual variation,cataluña
+2023-05-01T00:00:00.000+02:00,-5.5532375431589225,1,Annual variation,cataluña
+2023-06-01T00:00:00.000+02:00,-7.086955734685704,1,Annual variation,cataluña
+2023-07-01T00:00:00.000+02:00,-7.961040436924689,1,Annual variation,cataluña
+2023-08-01T00:00:00.000+02:00,-8.243869828844385,1,Annual variation,cataluña
+2023-09-01T00:00:00.000+02:00,-8.114081953309714,1,Annual variation,cataluña
+2023-10-01T00:00:00.000+02:00,-7.671930560293853,1,Annual variation,cataluña
+2023-11-01T00:00:00.000+01:00,-6.963264879410811,1,Annual variation,cataluña
+2023-12-01T00:00:00.000+01:00,-6.108538628398866,1,Annual variation,cataluña
+2023-01-01T00:00:00.000+01:00,-3.0919558922945467,1,Corrected annual variation,cataluña
+2023-02-01T00:00:00.000+01:00,-4.943509068862695,1,Corrected annual variation,cataluña
+2023-03-01T00:00:00.000+01:00,-6.59049595878755,1,Corrected annual variation,cataluña
+2023-04-01T00:00:00.000+02:00,-7.722683605200659,1,Corrected annual variation,cataluña
+2023-05-01T00:00:00.000+02:00,-8.340870303505152,1,Corrected annual variation,cataluña
+2023-06-01T00:00:00.000+02:00,-9.106607976224451,1,Corrected annual variation,cataluña
+2023-07-01T00:00:00.000+02:00,-8.677870630132777,1,Corrected annual variation,cataluña
+2023-08-01T00:00:00.000+02:00,-8.597483359671482,1,Corrected annual variation,cataluña
+2023-09-01T00:00:00.000+02:00,-7.93915859250619,1,Corrected annual variation,cataluña
+2023-10-01T00:00:00.000+02:00,-7.066359523120371,1,Corrected annual variation,cataluña
+2023-11-01T00:00:00.000+01:00,-6.301302821110015,1,Corrected annual variation,cataluña
+2023-12-01T00:00:00.000+01:00,-5.470738223721058,1,Corrected annual variation,cataluña
+2023-01-01T00:00:00.000+01:00,120.47866666666668,1,Índice servicios,pais vasco
+2023-02-01T00:00:00.000+01:00,119.53533333333336,1,Índice servicios,pais vasco
+2023-03-01T00:00:00.000+01:00,118.48916666666668,1,Índice servicios,pais vasco
+2023-04-01T00:00:00.000+02:00,117.6995,1,Índice servicios,pais vasco
+2023-05-01T00:00:00.000+02:00,116.57516666666668,1,Índice servicios,pais vasco
+2023-06-01T00:00:00.000+02:00,115.48541666666665,1,Índice servicios,pais vasco
+2023-07-01T00:00:00.000+02:00,114.73500000000001,1,Índice servicios,pais vasco
+2023-08-01T00:00:00.000+02:00,114.26474999999999,1,Índice servicios,pais vasco
+2023-09-01T00:00:00.000+02:00,113.93991666666666,1,Índice servicios,pais vasco
+2023-10-01T00:00:00.000+02:00,114.11641666666667,1,Índice servicios,pais vasco
+2023-11-01T00:00:00.000+01:00,114.20716666666665,1,Índice servicios,pais vasco
+2023-12-01T00:00:00.000+01:00,114.37850000000002,1,Índice servicios,pais vasco
+2023-01-01T00:00:00.000+01:00,101.29991666666666,1,Índice servicios corregido,pais vasco
+2023-02-01T00:00:00.000+01:00,100.34416666666668,1,Índice servicios corregido,pais vasco
+2023-03-01T00:00:00.000+01:00,99.3045,1,Índice servicios corregido,pais vasco
+2023-04-01T00:00:00.000+02:00,98.39891666666666,1,Índice servicios corregido,pais vasco
+2023-05-01T00:00:00.000+02:00,97.88133333333332,1,Índice servicios corregido,pais vasco
+2023-06-01T00:00:00.000+02:00,97.15458333333333,1,Índice servicios corregido,pais vasco
+2023-07-01T00:00:00.000+02:00,97.05883333333333,1,Índice servicios corregido,pais vasco
+2023-08-01T00:00:00.000+02:00,96.6395,1,Índice servicios corregido,pais vasco
+2023-09-01T00:00:00.000+02:00,96.56783333333334,1,Índice servicios corregido,pais vasco
+2023-10-01T00:00:00.000+02:00,96.58833333333332,1,Índice servicios corregido,pais vasco
+2023-11-01T00:00:00.000+01:00,96.68425,1,Índice servicios corregido,pais vasco
+2023-12-01T00:00:00.000+01:00,96.91541666666667,1,Índice servicios corregido,pais vasco
+2023-01-01T00:00:00.000+01:00,0.3926143504919908,1,Annual variation,pais vasco
+2023-02-01T00:00:00.000+01:00,-1.2140741419218024,1,Annual variation,pais vasco
+2023-03-01T00:00:00.000+01:00,-2.763226641208633,1,Annual variation,pais vasco
+2023-04-01T00:00:00.000+02:00,-3.882355423109318,1,Annual variation,pais vasco
+2023-05-01T00:00:00.000+02:00,-5.5532375431589225,1,Annual variation,pais vasco
+2023-06-01T00:00:00.000+02:00,-7.086955734685704,1,Annual variation,pais vasco
+2023-07-01T00:00:00.000+02:00,-7.961040436924689,1,Annual variation,pais vasco
+2023-08-01T00:00:00.000+02:00,-8.243869828844385,1,Annual variation,pais vasco
+2023-09-01T00:00:00.000+02:00,-8.114081953309714,1,Annual variation,pais vasco
+2023-10-01T00:00:00.000+02:00,-7.671930560293853,1,Annual variation,pais vasco
+2023-11-01T00:00:00.000+01:00,-6.963264879410811,1,Annual variation,pais vasco
+2023-12-01T00:00:00.000+01:00,-6.108538628398866,1,Annual variation,pais vasco
+2023-01-01T00:00:00.000+01:00,-3.0919558922945467,1,Corrected annual variation,pais vasco
+2023-02-01T00:00:00.000+01:00,-4.943509068862695,1,Corrected annual variation,pais vasco
+2023-03-01T00:00:00.000+01:00,-6.59049595878755,1,Corrected annual variation,pais vasco
+2023-04-01T00:00:00.000+02:00,-7.722683605200659,1,Corrected annual variation,pais vasco
+2023-05-01T00:00:00.000+02:00,-8.340870303505152,1,Corrected annual variation,pais vasco
+2023-06-01T00:00:00.000+02:00,-9.106607976224451,1,Corrected annual variation,pais vasco
+2023-07-01T00:00:00.000+02:00,-8.677870630132777,1,Corrected annual variation,pais vasco
+2023-08-01T00:00:00.000+02:00,-8.597483359671482,1,Corrected annual variation,pais vasco
+2023-09-01T00:00:00.000+02:00,-7.93915859250619,1,Corrected annual variation,pais vasco
+2023-10-01T00:00:00.000+02:00,-7.066359523120371,1,Corrected annual variation,pais vasco
+2023-11-01T00:00:00.000+01:00,-6.301302821110015,1,Corrected annual variation,pais vasco
+2023-12-01T00:00:00.000+01:00,-5.470738223721058,1,Corrected annual variation,pais vasco
+2023-01-01T00:00:00.000+01:00,120.47866666666668,1,Índice servicios,principado de asturias
+2023-02-01T00:00:00.000+01:00,119.53533333333336,1,Índice servicios,principado de asturias
+2023-03-01T00:00:00.000+01:00,118.48916666666668,1,Índice servicios,principado de asturias
+2023-04-01T00:00:00.000+02:00,117.6995,1,Índice servicios,principado de asturias
+2023-05-01T00:00:00.000+02:00,116.57516666666668,1,Índice servicios,principado de asturias
+2023-06-01T00:00:00.000+02:00,115.48541666666665,1,Índice servicios,principado de asturias
+2023-07-01T00:00:00.000+02:00,114.73500000000001,1,Índice servicios,principado de asturias
+2023-08-01T00:00:00.000+02:00,114.26474999999999,1,Índice servicios,principado de asturias
+2023-09-01T00:00:00.000+02:00,113.93991666666666,1,Índice servicios,principado de asturias
+2023-10-01T00:00:00.000+02:00,114.11641666666667,1,Índice servicios,principado de asturias
+2023-11-01T00:00:00.000+01:00,114.20716666666665,1,Índice servicios,principado de asturias
+2023-12-01T00:00:00.000+01:00,114.37850000000002,1,Índice servicios,principado de asturias
+2023-01-01T00:00:00.000+01:00,101.29991666666666,1,Índice servicios corregido,principado de asturias
+2023-02-01T00:00:00.000+01:00,100.34416666666668,1,Índice servicios corregido,principado de asturias
+2023-03-01T00:00:00.000+01:00,99.3045,1,Índice servicios corregido,principado de asturias
+2023-04-01T00:00:00.000+02:00,98.39891666666666,1,Índice servicios corregido,principado de asturias
+2023-05-01T00:00:00.000+02:00,97.88133333333332,1,Índice servicios corregido,principado de asturias
+2023-06-01T00:00:00.000+02:00,97.15458333333333,1,Índice servicios corregido,principado de asturias
+2023-07-01T00:00:00.000+02:00,97.05883333333333,1,Índice servicios corregido,principado de asturias
+2023-08-01T00:00:00.000+02:00,96.6395,1,Índice servicios corregido,principado de asturias
+2023-09-01T00:00:00.000+02:00,96.56783333333334,1,Índice servicios corregido,principado de asturias
+2023-10-01T00:00:00.000+02:00,96.58833333333332,1,Índice servicios corregido,principado de asturias
+2023-11-01T00:00:00.000+01:00,96.68425,1,Índice servicios corregido,principado de asturias
+2023-12-01T00:00:00.000+01:00,96.91541666666667,1,Índice servicios corregido,principado de asturias
+2023-01-01T00:00:00.000+01:00,0.3926143504919908,1,Annual variation,principado de asturias
+2023-02-01T00:00:00.000+01:00,-1.2140741419218024,1,Annual variation,principado de asturias
+2023-03-01T00:00:00.000+01:00,-2.763226641208633,1,Annual variation,principado de asturias
+2023-04-01T00:00:00.000+02:00,-3.882355423109318,1,Annual variation,principado de asturias
+2023-05-01T00:00:00.000+02:00,-5.5532375431589225,1,Annual variation,principado de asturias
+2023-06-01T00:00:00.000+02:00,-7.086955734685704,1,Annual variation,principado de asturias
+2023-07-01T00:00:00.000+02:00,-7.961040436924689,1,Annual variation,principado de asturias
+2023-08-01T00:00:00.000+02:00,-8.243869828844385,1,Annual variation,principado de asturias
+2023-09-01T00:00:00.000+02:00,-8.114081953309714,1,Annual variation,principado de asturias
+2023-10-01T00:00:00.000+02:00,-7.671930560293853,1,Annual variation,principado de asturias
+2023-11-01T00:00:00.000+01:00,-6.963264879410811,1,Annual variation,principado de asturias
+2023-12-01T00:00:00.000+01:00,-6.108538628398866,1,Annual variation,principado de asturias
+2023-01-01T00:00:00.000+01:00,-3.0919558922945467,1,Corrected annual variation,principado de asturias
+2023-02-01T00:00:00.000+01:00,-4.943509068862695,1,Corrected annual variation,principado de asturias
+2023-03-01T00:00:00.000+01:00,-6.59049595878755,1,Corrected annual variation,principado de asturias
+2023-04-01T00:00:00.000+02:00,-7.722683605200659,1,Corrected annual variation,principado de asturias
+2023-05-01T00:00:00.000+02:00,-8.340870303505152,1,Corrected annual variation,principado de asturias
+2023-06-01T00:00:00.000+02:00,-9.106607976224451,1,Corrected annual variation,principado de asturias
+2023-07-01T00:00:00.000+02:00,-8.677870630132777,1,Corrected annual variation,principado de asturias
+2023-08-01T00:00:00.000+02:00,-8.597483359671482,1,Corrected annual variation,principado de asturias
+2023-09-01T00:00:00.000+02:00,-7.93915859250619,1,Corrected annual variation,principado de asturias
+2023-10-01T00:00:00.000+02:00,-7.066359523120371,1,Corrected annual variation,principado de asturias
+2023-11-01T00:00:00.000+01:00,-6.301302821110015,1,Corrected annual variation,principado de asturias
+2023-12-01T00:00:00.000+01:00,-5.470738223721058,1,Corrected annual variation,principado de asturias
+2023-01-01T00:00:00.000+01:00,120.47866666666668,1,Índice servicios,comunidad de madrid
+2023-02-01T00:00:00.000+01:00,119.53533333333336,1,Índice servicios,comunidad de madrid
+2023-03-01T00:00:00.000+01:00,118.48916666666668,1,Índice servicios,comunidad de madrid
+2023-04-01T00:00:00.000+02:00,117.6995,1,Índice servicios,comunidad de madrid
+2023-05-01T00:00:00.000+02:00,116.57516666666668,1,Índice servicios,comunidad de madrid
+2023-06-01T00:00:00.000+02:00,115.48541666666665,1,Índice servicios,comunidad de madrid
+2023-07-01T00:00:00.000+02:00,114.73500000000001,1,Índice servicios,comunidad de madrid
+2023-08-01T00:00:00.000+02:00,114.26474999999999,1,Índice servicios,comunidad de madrid
+2023-09-01T00:00:00.000+02:00,113.93991666666666,1,Índice servicios,comunidad de madrid
+2023-10-01T00:00:00.000+02:00,114.11641666666667,1,Índice servicios,comunidad de madrid
+2023-11-01T00:00:00.000+01:00,114.20716666666665,1,Índice servicios,comunidad de madrid
+2023-12-01T00:00:00.000+01:00,114.37850000000002,1,Índice servicios,comunidad de madrid
+2023-01-01T00:00:00.000+01:00,101.29991666666666,1,Índice servicios corregido,comunidad de madrid
+2023-02-01T00:00:00.000+01:00,100.34416666666668,1,Índice servicios corregido,comunidad de madrid
+2023-03-01T00:00:00.000+01:00,99.3045,1,Índice servicios corregido,comunidad de madrid
+2023-04-01T00:00:00.000+02:00,98.39891666666666,1,Índice servicios corregido,comunidad de madrid
+2023-05-01T00:00:00.000+02:00,97.88133333333332,1,Índice servicios corregido,comunidad de madrid
+2023-06-01T00:00:00.000+02:00,97.15458333333333,1,Índice servicios corregido,comunidad de madrid
+2023-07-01T00:00:00.000+02:00,97.05883333333333,1,Índice servicios corregido,comunidad de madrid
+2023-08-01T00:00:00.000+02:00,96.6395,1,Índice servicios corregido,comunidad de madrid
+2023-09-01T00:00:00.000+02:00,96.56783333333334,1,Índice servicios corregido,comunidad de madrid
+2023-10-01T00:00:00.000+02:00,96.58833333333332,1,Índice servicios corregido,comunidad de madrid
+2023-11-01T00:00:00.000+01:00,96.68425,1,Índice servicios corregido,comunidad de madrid
+2023-12-01T00:00:00.000+01:00,96.91541666666667,1,Índice servicios corregido,comunidad de madrid
+2023-01-01T00:00:00.000+01:00,0.3926143504919908,1,Annual variation,comunidad de madrid
+2023-02-01T00:00:00.000+01:00,-1.2140741419218024,1,Annual variation,comunidad de madrid
+2023-03-01T00:00:00.000+01:00,-2.763226641208633,1,Annual variation,comunidad de madrid
+2023-04-01T00:00:00.000+02:00,-3.882355423109318,1,Annual variation,comunidad de madrid
+2023-05-01T00:00:00.000+02:00,-5.5532375431589225,1,Annual variation,comunidad de madrid
+2023-06-01T00:00:00.000+02:00,-7.086955734685704,1,Annual variation,comunidad de madrid
+2023-07-01T00:00:00.000+02:00,-7.961040436924689,1,Annual variation,comunidad de madrid
+2023-08-01T00:00:00.000+02:00,-8.243869828844385,1,Annual variation,comunidad de madrid
+2023-09-01T00:00:00.000+02:00,-8.114081953309714,1,Annual variation,comunidad de madrid
+2023-10-01T00:00:00.000+02:00,-7.671930560293853,1,Annual variation,comunidad de madrid
+2023-11-01T00:00:00.000+01:00,-6.963264879410811,1,Annual variation,comunidad de madrid
+2023-12-01T00:00:00.000+01:00,-6.108538628398866,1,Annual variation,comunidad de madrid
+2023-01-01T00:00:00.000+01:00,-3.0919558922945467,1,Corrected annual variation,comunidad de madrid
+2023-02-01T00:00:00.000+01:00,-4.943509068862695,1,Corrected annual variation,comunidad de madrid
+2023-03-01T00:00:00.000+01:00,-6.59049595878755,1,Corrected annual variation,comunidad de madrid
+2023-04-01T00:00:00.000+02:00,-7.722683605200659,1,Corrected annual variation,comunidad de madrid
+2023-05-01T00:00:00.000+02:00,-8.340870303505152,1,Corrected annual variation,comunidad de madrid
+2023-06-01T00:00:00.000+02:00,-9.106607976224451,1,Corrected annual variation,comunidad de madrid
+2023-07-01T00:00:00.000+02:00,-8.677870630132777,1,Corrected annual variation,comunidad de madrid
+2023-08-01T00:00:00.000+02:00,-8.597483359671482,1,Corrected annual variation,comunidad de madrid
+2023-09-01T00:00:00.000+02:00,-7.93915859250619,1,Corrected annual variation,comunidad de madrid
+2023-10-01T00:00:00.000+02:00,-7.066359523120371,1,Corrected annual variation,comunidad de madrid
+2023-11-01T00:00:00.000+01:00,-6.301302821110015,1,Corrected annual variation,comunidad de madrid
+2023-12-01T00:00:00.000+01:00,-5.470738223721058,1,Corrected annual variation,comunidad de madrid
+2023-01-01T00:00:00.000+01:00,120.47866666666668,1,Índice servicios,comunidad de navarra
+2023-02-01T00:00:00.000+01:00,119.53533333333336,1,Índice servicios,comunidad de navarra
+2023-03-01T00:00:00.000+01:00,118.48916666666668,1,Índice servicios,comunidad de navarra
+2023-04-01T00:00:00.000+02:00,117.6995,1,Índice servicios,comunidad de navarra
+2023-05-01T00:00:00.000+02:00,116.57516666666668,1,Índice servicios,comunidad de navarra
+2023-06-01T00:00:00.000+02:00,115.48541666666665,1,Índice servicios,comunidad de navarra
+2023-07-01T00:00:00.000+02:00,114.73500000000001,1,Índice servicios,comunidad de navarra
+2023-08-01T00:00:00.000+02:00,114.26474999999999,1,Índice servicios,comunidad de navarra
+2023-09-01T00:00:00.000+02:00,113.93991666666666,1,Índice servicios,comunidad de navarra
+2023-10-01T00:00:00.000+02:00,114.11641666666667,1,Índice servicios,comunidad de navarra
+2023-11-01T00:00:00.000+01:00,114.20716666666665,1,Índice servicios,comunidad de navarra
+2023-12-01T00:00:00.000+01:00,114.37850000000002,1,Índice servicios,comunidad de navarra
+2023-01-01T00:00:00.000+01:00,101.29991666666666,1,Índice servicios corregido,comunidad de navarra
+2023-02-01T00:00:00.000+01:00,100.34416666666668,1,Índice servicios corregido,comunidad de navarra
+2023-03-01T00:00:00.000+01:00,99.3045,1,Índice servicios corregido,comunidad de navarra
+2023-04-01T00:00:00.000+02:00,98.39891666666666,1,Índice servicios corregido,comunidad de navarra
+2023-05-01T00:00:00.000+02:00,97.88133333333332,1,Índice servicios corregido,comunidad de navarra
+2023-06-01T00:00:00.000+02:00,97.15458333333333,1,Índice servicios corregido,comunidad de navarra
+2023-07-01T00:00:00.000+02:00,97.05883333333333,1,Índice servicios corregido,comunidad de navarra
+2023-08-01T00:00:00.000+02:00,96.6395,1,Índice servicios corregido,comunidad de navarra
+2023-09-01T00:00:00.000+02:00,96.56783333333334,1,Índice servicios corregido,comunidad de navarra
+2023-10-01T00:00:00.000+02:00,96.58833333333332,1,Índice servicios corregido,comunidad de navarra
+2023-11-01T00:00:00.000+01:00,96.68425,1,Índice servicios corregido,comunidad de navarra
+2023-12-01T00:00:00.000+01:00,96.91541666666667,1,Índice servicios corregido,comunidad de navarra
+2023-01-01T00:00:00.000+01:00,0.3926143504919908,1,Annual variation,comunidad de navarra
+2023-02-01T00:00:00.000+01:00,-1.2140741419218024,1,Annual variation,comunidad de navarra
+2023-03-01T00:00:00.000+01:00,-2.763226641208633,1,Annual variation,comunidad de navarra
+2023-04-01T00:00:00.000+02:00,-3.882355423109318,1,Annual variation,comunidad de navarra
+2023-05-01T00:00:00.000+02:00,-5.5532375431589225,1,Annual variation,comunidad de navarra
+2023-06-01T00:00:00.000+02:00,-7.086955734685704,1,Annual variation,comunidad de navarra
+2023-07-01T00:00:00.000+02:00,-7.961040436924689,1,Annual variation,comunidad de navarra
+2023-08-01T00:00:00.000+02:00,-8.243869828844385,1,Annual variation,comunidad de navarra
+2023-09-01T00:00:00.000+02:00,-8.114081953309714,1,Annual variation,comunidad de navarra
+2023-10-01T00:00:00.000+02:00,-7.671930560293853,1,Annual variation,comunidad de navarra
+2023-11-01T00:00:00.000+01:00,-6.963264879410811,1,Annual variation,comunidad de navarra
+2023-12-01T00:00:00.000+01:00,-6.108538628398866,1,Annual variation,comunidad de navarra
+2023-01-01T00:00:00.000+01:00,-3.0919558922945467,1,Corrected annual variation,comunidad de navarra
+2023-02-01T00:00:00.000+01:00,-4.943509068862695,1,Corrected annual variation,comunidad de navarra
+2023-03-01T00:00:00.000+01:00,-6.59049595878755,1,Corrected annual variation,comunidad de navarra
+2023-04-01T00:00:00.000+02:00,-7.722683605200659,1,Corrected annual variation,comunidad de navarra
+2023-05-01T00:00:00.000+02:00,-8.340870303505152,1,Corrected annual variation,comunidad de navarra
+2023-06-01T00:00:00.000+02:00,-9.106607976224451,1,Corrected annual variation,comunidad de navarra
+2023-07-01T00:00:00.000+02:00,-8.677870630132777,1,Corrected annual variation,comunidad de navarra
+2023-08-01T00:00:00.000+02:00,-8.597483359671482,1,Corrected annual variation,comunidad de navarra
+2023-09-01T00:00:00.000+02:00,-7.93915859250619,1,Corrected annual variation,comunidad de navarra
+2023-10-01T00:00:00.000+02:00,-7.066359523120371,1,Corrected annual variation,comunidad de navarra
+2023-11-01T00:00:00.000+01:00,-6.301302821110015,1,Corrected annual variation,comunidad de navarra
+2023-12-01T00:00:00.000+01:00,-5.470738223721058,1,Corrected annual variation,comunidad de navarra
+2023-01-01T00:00:00.000+01:00,120.47866666666668,1,Índice servicios,comunidad valenciana
+2023-02-01T00:00:00.000+01:00,119.53533333333336,1,Índice servicios,comunidad valenciana
+2023-03-01T00:00:00.000+01:00,118.48916666666668,1,Índice servicios,comunidad valenciana
+2023-04-01T00:00:00.000+02:00,117.6995,1,Índice servicios,comunidad valenciana
+2023-05-01T00:00:00.000+02:00,116.57516666666668,1,Índice servicios,comunidad valenciana
+2023-06-01T00:00:00.000+02:00,115.48541666666665,1,Índice servicios,comunidad valenciana
+2023-07-01T00:00:00.000+02:00,114.73500000000001,1,Índice servicios,comunidad valenciana
+2023-08-01T00:00:00.000+02:00,114.26474999999999,1,Índice servicios,comunidad valenciana
+2023-09-01T00:00:00.000+02:00,113.93991666666666,1,Índice servicios,comunidad valenciana
+2023-10-01T00:00:00.000+02:00,114.11641666666667,1,Índice servicios,comunidad valenciana
+2023-11-01T00:00:00.000+01:00,114.20716666666665,1,Índice servicios,comunidad valenciana
+2023-12-01T00:00:00.000+01:00,114.37850000000002,1,Índice servicios,comunidad valenciana
+2023-01-01T00:00:00.000+01:00,101.29991666666666,1,Índice servicios corregido,comunidad valenciana
+2023-02-01T00:00:00.000+01:00,100.34416666666668,1,Índice servicios corregido,comunidad valenciana
+2023-03-01T00:00:00.000+01:00,99.3045,1,Índice servicios corregido,comunidad valenciana
+2023-04-01T00:00:00.000+02:00,98.39891666666666,1,Índice servicios corregido,comunidad valenciana
+2023-05-01T00:00:00.000+02:00,97.88133333333332,1,Índice servicios corregido,comunidad valenciana
+2023-06-01T00:00:00.000+02:00,97.15458333333333,1,Índice servicios corregido,comunidad valenciana
+2023-07-01T00:00:00.000+02:00,97.05883333333333,1,Índice servicios corregido,comunidad valenciana
+2023-08-01T00:00:00.000+02:00,96.6395,1,Índice servicios corregido,comunidad valenciana
+2023-09-01T00:00:00.000+02:00,96.56783333333334,1,Índice servicios corregido,comunidad valenciana
+2023-10-01T00:00:00.000+02:00,96.58833333333332,1,Índice servicios corregido,comunidad valenciana
+2023-11-01T00:00:00.000+01:00,96.68425,1,Índice servicios corregido,comunidad valenciana
+2023-12-01T00:00:00.000+01:00,96.91541666666667,1,Índice servicios corregido,comunidad valenciana
+2023-01-01T00:00:00.000+01:00,0.3926143504919908,1,Annual variation,comunidad valenciana
+2023-02-01T00:00:00.000+01:00,-1.2140741419218024,1,Annual variation,comunidad valenciana
+2023-03-01T00:00:00.000+01:00,-2.763226641208633,1,Annual variation,comunidad valenciana
+2023-04-01T00:00:00.000+02:00,-3.882355423109318,1,Annual variation,comunidad valenciana
+2023-05-01T00:00:00.000+02:00,-5.5532375431589225,1,Annual variation,comunidad valenciana
+2023-06-01T00:00:00.000+02:00,-7.086955734685704,1,Annual variation,comunidad valenciana
+2023-07-01T00:00:00.000+02:00,-7.961040436924689,1,Annual variation,comunidad valenciana
+2023-08-01T00:00:00.000+02:00,-8.243869828844385,1,Annual variation,comunidad valenciana
+2023-09-01T00:00:00.000+02:00,-8.114081953309714,1,Annual variation,comunidad valenciana
+2023-10-01T00:00:00.000+02:00,-7.671930560293853,1,Annual variation,comunidad valenciana
+2023-11-01T00:00:00.000+01:00,-6.963264879410811,1,Annual variation,comunidad valenciana
+2023-12-01T00:00:00.000+01:00,-6.108538628398866,1,Annual variation,comunidad valenciana
+2023-01-01T00:00:00.000+01:00,-3.0919558922945467,1,Corrected annual variation,comunidad valenciana
+2023-02-01T00:00:00.000+01:00,-4.943509068862695,1,Corrected annual variation,comunidad valenciana
+2023-03-01T00:00:00.000+01:00,-6.59049595878755,1,Corrected annual variation,comunidad valenciana
+2023-04-01T00:00:00.000+02:00,-7.722683605200659,1,Corrected annual variation,comunidad valenciana
+2023-05-01T00:00:00.000+02:00,-8.340870303505152,1,Corrected annual variation,comunidad valenciana
+2023-06-01T00:00:00.000+02:00,-9.106607976224451,1,Corrected annual variation,comunidad valenciana
+2023-07-01T00:00:00.000+02:00,-8.677870630132777,1,Corrected annual variation,comunidad valenciana
+2023-08-01T00:00:00.000+02:00,-8.597483359671482,1,Corrected annual variation,comunidad valenciana
+2023-09-01T00:00:00.000+02:00,-7.93915859250619,1,Corrected annual variation,comunidad valenciana
+2023-10-01T00:00:00.000+02:00,-7.066359523120371,1,Corrected annual variation,comunidad valenciana
+2023-11-01T00:00:00.000+01:00,-6.301302821110015,1,Corrected annual variation,comunidad valenciana
+2023-12-01T00:00:00.000+01:00,-5.470738223721058,1,Corrected annual variation,comunidad valenciana
+2023-01-01T00:00:00.000+01:00,120.47866666666668,1,Índice servicios,extremadura
+2023-02-01T00:00:00.000+01:00,119.53533333333336,1,Índice servicios,extremadura
+2023-03-01T00:00:00.000+01:00,118.48916666666668,1,Índice servicios,extremadura
+2023-04-01T00:00:00.000+02:00,117.6995,1,Índice servicios,extremadura
+2023-05-01T00:00:00.000+02:00,116.57516666666668,1,Índice servicios,extremadura
+2023-06-01T00:00:00.000+02:00,115.48541666666665,1,Índice servicios,extremadura
+2023-07-01T00:00:00.000+02:00,114.73500000000001,1,Índice servicios,extremadura
+2023-08-01T00:00:00.000+02:00,114.26474999999999,1,Índice servicios,extremadura
+2023-09-01T00:00:00.000+02:00,113.93991666666666,1,Índice servicios,extremadura
+2023-10-01T00:00:00.000+02:00,114.11641666666667,1,Índice servicios,extremadura
+2023-11-01T00:00:00.000+01:00,114.20716666666665,1,Índice servicios,extremadura
+2023-12-01T00:00:00.000+01:00,114.37850000000002,1,Índice servicios,extremadura
+2023-01-01T00:00:00.000+01:00,101.29991666666666,1,Índice servicios corregido,extremadura
+2023-02-01T00:00:00.000+01:00,100.34416666666668,1,Índice servicios corregido,extremadura
+2023-03-01T00:00:00.000+01:00,99.3045,1,Índice servicios corregido,extremadura
+2023-04-01T00:00:00.000+02:00,98.39891666666666,1,Índice servicios corregido,extremadura
+2023-05-01T00:00:00.000+02:00,97.88133333333332,1,Índice servicios corregido,extremadura
+2023-06-01T00:00:00.000+02:00,97.15458333333333,1,Índice servicios corregido,extremadura
+2023-07-01T00:00:00.000+02:00,97.05883333333333,1,Índice servicios corregido,extremadura
+2023-08-01T00:00:00.000+02:00,96.6395,1,Índice servicios corregido,extremadura
+2023-09-01T00:00:00.000+02:00,96.56783333333334,1,Índice servicios corregido,extremadura
+2023-10-01T00:00:00.000+02:00,96.58833333333332,1,Índice servicios corregido,extremadura
+2023-11-01T00:00:00.000+01:00,96.68425,1,Índice servicios corregido,extremadura
+2023-12-01T00:00:00.000+01:00,96.91541666666667,1,Índice servicios corregido,extremadura
+2023-01-01T00:00:00.000+01:00,0.3926143504919908,1,Annual variation,extremadura
+2023-02-01T00:00:00.000+01:00,-1.2140741419218024,1,Annual variation,extremadura
+2023-03-01T00:00:00.000+01:00,-2.763226641208633,1,Annual variation,extremadura
+2023-04-01T00:00:00.000+02:00,-3.882355423109318,1,Annual variation,extremadura
+2023-05-01T00:00:00.000+02:00,-5.5532375431589225,1,Annual variation,extremadura
+2023-06-01T00:00:00.000+02:00,-7.086955734685704,1,Annual variation,extremadura
+2023-07-01T00:00:00.000+02:00,-7.961040436924689,1,Annual variation,extremadura
+2023-08-01T00:00:00.000+02:00,-8.243869828844385,1,Annual variation,extremadura
+2023-09-01T00:00:00.000+02:00,-8.114081953309714,1,Annual variation,extremadura
+2023-10-01T00:00:00.000+02:00,-7.671930560293853,1,Annual variation,extremadura
+2023-11-01T00:00:00.000+01:00,-6.963264879410811,1,Annual variation,extremadura
+2023-12-01T00:00:00.000+01:00,-6.108538628398866,1,Annual variation,extremadura
+2023-01-01T00:00:00.000+01:00,-3.0919558922945467,1,Corrected annual variation,extremadura
+2023-02-01T00:00:00.000+01:00,-4.943509068862695,1,Corrected annual variation,extremadura
+2023-03-01T00:00:00.000+01:00,-6.59049595878755,1,Corrected annual variation,extremadura
+2023-04-01T00:00:00.000+02:00,-7.722683605200659,1,Corrected annual variation,extremadura
+2023-05-01T00:00:00.000+02:00,-8.340870303505152,1,Corrected annual variation,extremadura
+2023-06-01T00:00:00.000+02:00,-9.106607976224451,1,Corrected annual variation,extremadura
+2023-07-01T00:00:00.000+02:00,-8.677870630132777,1,Corrected annual variation,extremadura
+2023-08-01T00:00:00.000+02:00,-8.597483359671482,1,Corrected annual variation,extremadura
+2023-09-01T00:00:00.000+02:00,-7.93915859250619,1,Corrected annual variation,extremadura
+2023-10-01T00:00:00.000+02:00,-7.066359523120371,1,Corrected annual variation,extremadura
+2023-11-01T00:00:00.000+01:00,-6.301302821110015,1,Corrected annual variation,extremadura
+2023-12-01T00:00:00.000+01:00,-5.470738223721058,1,Corrected annual variation,extremadura
+2023-01-01T00:00:00.000+01:00,120.47866666666668,1,Índice servicios,galicia
+2023-02-01T00:00:00.000+01:00,119.53533333333336,1,Índice servicios,galicia
+2023-03-01T00:00:00.000+01:00,118.48916666666668,1,Índice servicios,galicia
+2023-04-01T00:00:00.000+02:00,117.6995,1,Índice servicios,galicia
+2023-05-01T00:00:00.000+02:00,116.57516666666668,1,Índice servicios,galicia
+2023-06-01T00:00:00.000+02:00,115.48541666666665,1,Índice servicios,galicia
+2023-07-01T00:00:00.000+02:00,114.73500000000001,1,Índice servicios,galicia
+2023-08-01T00:00:00.000+02:00,114.26474999999999,1,Índice servicios,galicia
+2023-09-01T00:00:00.000+02:00,113.93991666666666,1,Índice servicios,galicia
+2023-10-01T00:00:00.000+02:00,114.11641666666667,1,Índice servicios,galicia
+2023-11-01T00:00:00.000+01:00,114.20716666666665,1,Índice servicios,galicia
+2023-12-01T00:00:00.000+01:00,114.37850000000002,1,Índice servicios,galicia
+2023-01-01T00:00:00.000+01:00,101.29991666666666,1,Índice servicios corregido,galicia
+2023-02-01T00:00:00.000+01:00,100.34416666666668,1,Índice servicios corregido,galicia
+2023-03-01T00:00:00.000+01:00,99.3045,1,Índice servicios corregido,galicia
+2023-04-01T00:00:00.000+02:00,98.39891666666666,1,Índice servicios corregido,galicia
+2023-05-01T00:00:00.000+02:00,97.88133333333332,1,Índice servicios corregido,galicia
+2023-06-01T00:00:00.000+02:00,97.15458333333333,1,Índice servicios corregido,galicia
+2023-07-01T00:00:00.000+02:00,97.05883333333333,1,Índice servicios corregido,galicia
+2023-08-01T00:00:00.000+02:00,96.6395,1,Índice servicios corregido,galicia
+2023-09-01T00:00:00.000+02:00,96.56783333333334,1,Índice servicios corregido,galicia
+2023-10-01T00:00:00.000+02:00,96.58833333333332,1,Índice servicios corregido,galicia
+2023-11-01T00:00:00.000+01:00,96.68425,1,Índice servicios corregido,galicia
+2023-12-01T00:00:00.000+01:00,96.91541666666667,1,Índice servicios corregido,galicia
+2023-01-01T00:00:00.000+01:00,0.3926143504919908,1,Annual variation,galicia
+2023-02-01T00:00:00.000+01:00,-1.2140741419218024,1,Annual variation,galicia
+2023-03-01T00:00:00.000+01:00,-2.763226641208633,1,Annual variation,galicia
+2023-04-01T00:00:00.000+02:00,-3.882355423109318,1,Annual variation,galicia
+2023-05-01T00:00:00.000+02:00,-5.5532375431589225,1,Annual variation,galicia
+2023-06-01T00:00:00.000+02:00,-7.086955734685704,1,Annual variation,galicia
+2023-07-01T00:00:00.000+02:00,-7.961040436924689,1,Annual variation,galicia
+2023-08-01T00:00:00.000+02:00,-8.243869828844385,1,Annual variation,galicia
+2023-09-01T00:00:00.000+02:00,-8.114081953309714,1,Annual variation,galicia
+2023-10-01T00:00:00.000+02:00,-7.671930560293853,1,Annual variation,galicia
+2023-11-01T00:00:00.000+01:00,-6.963264879410811,1,Annual variation,galicia
+2023-12-01T00:00:00.000+01:00,-6.108538628398866,1,Annual variation,galicia
+2023-01-01T00:00:00.000+01:00,-3.0919558922945467,1,Corrected annual variation,galicia
+2023-02-01T00:00:00.000+01:00,-4.943509068862695,1,Corrected annual variation,galicia
+2023-03-01T00:00:00.000+01:00,-6.59049595878755,1,Corrected annual variation,galicia
+2023-04-01T00:00:00.000+02:00,-7.722683605200659,1,Corrected annual variation,galicia
+2023-05-01T00:00:00.000+02:00,-8.340870303505152,1,Corrected annual variation,galicia
+2023-06-01T00:00:00.000+02:00,-9.106607976224451,1,Corrected annual variation,galicia
+2023-07-01T00:00:00.000+02:00,-8.677870630132777,1,Corrected annual variation,galicia
+2023-08-01T00:00:00.000+02:00,-8.597483359671482,1,Corrected annual variation,galicia
+2023-09-01T00:00:00.000+02:00,-7.93915859250619,1,Corrected annual variation,galicia
+2023-10-01T00:00:00.000+02:00,-7.066359523120371,1,Corrected annual variation,galicia
+2023-11-01T00:00:00.000+01:00,-6.301302821110015,1,Corrected annual variation,galicia
+2023-12-01T00:00:00.000+01:00,-5.470738223721058,1,Corrected annual variation,galicia
+2023-01-01T00:00:00.000+01:00,120.47866666666668,1,Índice servicios,la rioja
+2023-02-01T00:00:00.000+01:00,119.53533333333336,1,Índice servicios,la rioja
+2023-03-01T00:00:00.000+01:00,118.48916666666668,1,Índice servicios,la rioja
+2023-04-01T00:00:00.000+02:00,117.6995,1,Índice servicios,la rioja
+2023-05-01T00:00:00.000+02:00,116.57516666666668,1,Índice servicios,la rioja
+2023-06-01T00:00:00.000+02:00,115.48541666666665,1,Índice servicios,la rioja
+2023-07-01T00:00:00.000+02:00,114.73500000000001,1,Índice servicios,la rioja
+2023-08-01T00:00:00.000+02:00,114.26474999999999,1,Índice servicios,la rioja
+2023-09-01T00:00:00.000+02:00,113.93991666666666,1,Índice servicios,la rioja
+2023-10-01T00:00:00.000+02:00,114.11641666666667,1,Índice servicios,la rioja
+2023-11-01T00:00:00.000+01:00,114.20716666666665,1,Índice servicios,la rioja
+2023-12-01T00:00:00.000+01:00,114.37850000000002,1,Índice servicios,la rioja
+2023-01-01T00:00:00.000+01:00,101.29991666666666,1,Índice servicios corregido,la rioja
+2023-02-01T00:00:00.000+01:00,100.34416666666668,1,Índice servicios corregido,la rioja
+2023-03-01T00:00:00.000+01:00,99.3045,1,Índice servicios corregido,la rioja
+2023-04-01T00:00:00.000+02:00,98.39891666666666,1,Índice servicios corregido,la rioja
+2023-05-01T00:00:00.000+02:00,97.88133333333332,1,Índice servicios corregido,la rioja
+2023-06-01T00:00:00.000+02:00,97.15458333333333,1,Índice servicios corregido,la rioja
+2023-07-01T00:00:00.000+02:00,97.05883333333333,1,Índice servicios corregido,la rioja
+2023-08-01T00:00:00.000+02:00,96.6395,1,Índice servicios corregido,la rioja
+2023-09-01T00:00:00.000+02:00,96.56783333333334,1,Índice servicios corregido,la rioja
+2023-10-01T00:00:00.000+02:00,96.58833333333332,1,Índice servicios corregido,la rioja
+2023-11-01T00:00:00.000+01:00,96.68425,1,Índice servicios corregido,la rioja
+2023-12-01T00:00:00.000+01:00,96.91541666666667,1,Índice servicios corregido,la rioja
+2023-01-01T00:00:00.000+01:00,0.3926143504919908,1,Annual variation,la rioja
+2023-02-01T00:00:00.000+01:00,-1.2140741419218024,1,Annual variation,la rioja
+2023-03-01T00:00:00.000+01:00,-2.763226641208633,1,Annual variation,la rioja
+2023-04-01T00:00:00.000+02:00,-3.882355423109318,1,Annual variation,la rioja
+2023-05-01T00:00:00.000+02:00,-5.5532375431589225,1,Annual variation,la rioja
+2023-06-01T00:00:00.000+02:00,-7.086955734685704,1,Annual variation,la rioja
+2023-07-01T00:00:00.000+02:00,-7.961040436924689,1,Annual variation,la rioja
+2023-08-01T00:00:00.000+02:00,-8.243869828844385,1,Annual variation,la rioja
+2023-09-01T00:00:00.000+02:00,-8.114081953309714,1,Annual variation,la rioja
+2023-10-01T00:00:00.000+02:00,-7.671930560293853,1,Annual variation,la rioja
+2023-11-01T00:00:00.000+01:00,-6.963264879410811,1,Annual variation,la rioja
+2023-12-01T00:00:00.000+01:00,-6.108538628398866,1,Annual variation,la rioja
+2023-01-01T00:00:00.000+01:00,-3.0919558922945467,1,Corrected annual variation,la rioja
+2023-02-01T00:00:00.000+01:00,-4.943509068862695,1,Corrected annual variation,la rioja
+2023-03-01T00:00:00.000+01:00,-6.59049595878755,1,Corrected annual variation,la rioja
+2023-04-01T00:00:00.000+02:00,-7.722683605200659,1,Corrected annual variation,la rioja
+2023-05-01T00:00:00.000+02:00,-8.340870303505152,1,Corrected annual variation,la rioja
+2023-06-01T00:00:00.000+02:00,-9.106607976224451,1,Corrected annual variation,la rioja
+2023-07-01T00:00:00.000+02:00,-8.677870630132777,1,Corrected annual variation,la rioja
+2023-08-01T00:00:00.000+02:00,-8.597483359671482,1,Corrected annual variation,la rioja
+2023-09-01T00:00:00.000+02:00,-7.93915859250619,1,Corrected annual variation,la rioja
+2023-10-01T00:00:00.000+02:00,-7.066359523120371,1,Corrected annual variation,la rioja
+2023-11-01T00:00:00.000+01:00,-6.301302821110015,1,Corrected annual variation,la rioja
+2023-12-01T00:00:00.000+01:00,-5.470738223721058,1,Corrected annual variation,la rioja
+2023-01-01T00:00:00.000+01:00,120.47866666666668,1,Índice servicios,region de murcia
+2023-02-01T00:00:00.000+01:00,119.53533333333336,1,Índice servicios,region de murcia
+2023-03-01T00:00:00.000+01:00,118.48916666666668,1,Índice servicios,region de murcia
+2023-04-01T00:00:00.000+02:00,117.6995,1,Índice servicios,region de murcia
+2023-05-01T00:00:00.000+02:00,116.57516666666668,1,Índice servicios,region de murcia
+2023-06-01T00:00:00.000+02:00,115.48541666666665,1,Índice servicios,region de murcia
+2023-07-01T00:00:00.000+02:00,114.73500000000001,1,Índice servicios,region de murcia
+2023-08-01T00:00:00.000+02:00,114.26474999999999,1,Índice servicios,region de murcia
+2023-09-01T00:00:00.000+02:00,113.93991666666666,1,Índice servicios,region de murcia
+2023-10-01T00:00:00.000+02:00,114.11641666666667,1,Índice servicios,region de murcia
+2023-11-01T00:00:00.000+01:00,114.20716666666665,1,Índice servicios,region de murcia
+2023-12-01T00:00:00.000+01:00,114.37850000000002,1,Índice servicios,region de murcia
+2023-01-01T00:00:00.000+01:00,101.29991666666666,1,Índice servicios corregido,region de murcia
+2023-02-01T00:00:00.000+01:00,100.34416666666668,1,Índice servicios corregido,region de murcia
+2023-03-01T00:00:00.000+01:00,99.3045,1,Índice servicios corregido,region de murcia
+2023-04-01T00:00:00.000+02:00,98.39891666666666,1,Índice servicios corregido,region de murcia
+2023-05-01T00:00:00.000+02:00,97.88133333333332,1,Índice servicios corregido,region de murcia
+2023-06-01T00:00:00.000+02:00,97.15458333333333,1,Índice servicios corregido,region de murcia
+2023-07-01T00:00:00.000+02:00,97.05883333333333,1,Índice servicios corregido,region de murcia
+2023-08-01T00:00:00.000+02:00,96.6395,1,Índice servicios corregido,region de murcia
+2023-09-01T00:00:00.000+02:00,96.56783333333334,1,Índice servicios corregido,region de murcia
+2023-10-01T00:00:00.000+02:00,96.58833333333332,1,Índice servicios corregido,region de murcia
+2023-11-01T00:00:00.000+01:00,96.68425,1,Índice servicios corregido,region de murcia
+2023-12-01T00:00:00.000+01:00,96.91541666666667,1,Índice servicios corregido,region de murcia
+2023-01-01T00:00:00.000+01:00,0.3926143504919908,1,Annual variation,region de murcia
+2023-02-01T00:00:00.000+01:00,-1.2140741419218024,1,Annual variation,region de murcia
+2023-03-01T00:00:00.000+01:00,-2.763226641208633,1,Annual variation,region de murcia
+2023-04-01T00:00:00.000+02:00,-3.882355423109318,1,Annual variation,region de murcia
+2023-05-01T00:00:00.000+02:00,-5.5532375431589225,1,Annual variation,region de murcia
+2023-06-01T00:00:00.000+02:00,-7.086955734685704,1,Annual variation,region de murcia
+2023-07-01T00:00:00.000+02:00,-7.961040436924689,1,Annual variation,region de murcia
+2023-08-01T00:00:00.000+02:00,-8.243869828844385,1,Annual variation,region de murcia
+2023-09-01T00:00:00.000+02:00,-8.114081953309714,1,Annual variation,region de murcia
+2023-10-01T00:00:00.000+02:00,-7.671930560293853,1,Annual variation,region de murcia
+2023-11-01T00:00:00.000+01:00,-6.963264879410811,1,Annual variation,region de murcia
+2023-12-01T00:00:00.000+01:00,-6.108538628398866,1,Annual variation,region de murcia
+2023-01-01T00:00:00.000+01:00,-3.0919558922945467,1,Corrected annual variation,region de murcia
+2023-02-01T00:00:00.000+01:00,-4.943509068862695,1,Corrected annual variation,region de murcia
+2023-03-01T00:00:00.000+01:00,-6.59049595878755,1,Corrected annual variation,region de murcia
+2023-04-01T00:00:00.000+02:00,-7.722683605200659,1,Corrected annual variation,region de murcia
+2023-05-01T00:00:00.000+02:00,-8.340870303505152,1,Corrected annual variation,region de murcia
+2023-06-01T00:00:00.000+02:00,-9.106607976224451,1,Corrected annual variation,region de murcia
+2023-07-01T00:00:00.000+02:00,-8.677870630132777,1,Corrected annual variation,region de murcia
+2023-08-01T00:00:00.000+02:00,-8.597483359671482,1,Corrected annual variation,region de murcia
+2023-09-01T00:00:00.000+02:00,-7.93915859250619,1,Corrected annual variation,region de murcia
+2023-10-01T00:00:00.000+02:00,-7.066359523120371,1,Corrected annual variation,region de murcia
+2023-11-01T00:00:00.000+01:00,-6.301302821110015,1,Corrected annual variation,region de murcia
+2023-12-01T00:00:00.000+01:00,-5.470738223721058,1,Corrected annual variation,region de murcia

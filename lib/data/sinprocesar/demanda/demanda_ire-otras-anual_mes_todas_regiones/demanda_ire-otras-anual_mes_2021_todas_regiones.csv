@@ -1,0 +1,961 @@
+fecha,valor,porcentaje,indicator,region
+2021-01-01T00:00:00.000+01:00,135.637,1,Índice servicios,peninsular
+2021-02-01T00:00:00.000+01:00,131.433,1,Índice servicios,peninsular
+2021-03-01T00:00:00.000+01:00,136.62933333333334,1,Índice servicios,peninsular
+2021-04-01T00:00:00.000+02:00,138.327,1,Índice servicios,peninsular
+2021-05-01T00:00:00.000+02:00,143.516,1,Índice servicios,peninsular
+2021-06-01T00:00:00.000+02:00,147.32049999999998,1,Índice servicios,peninsular
+2021-07-01T00:00:00.000+02:00,153.47171428571428,1,Índice servicios,peninsular
+2021-08-01T00:00:00.000+02:00,158.01375,1,Índice servicios,peninsular
+2021-09-01T00:00:00.000+02:00,158.08988888888888,1,Índice servicios,peninsular
+2021-10-01T00:00:00.000+02:00,157.7515,1,Índice servicios,peninsular
+2021-11-01T00:00:00.000+01:00,155.8231818181818,1,Índice servicios,peninsular
+2021-12-01T00:00:00.000+01:00,154.36291666666665,1,Índice servicios,peninsular
+2021-01-01T00:00:00.000+01:00,122.729,1,Índice servicios corregido,peninsular
+2021-02-01T00:00:00.000+01:00,124.2205,1,Índice servicios corregido,peninsular
+2021-03-01T00:00:00.000+01:00,125.77466666666668,1,Índice servicios corregido,peninsular
+2021-04-01T00:00:00.000+02:00,126.93875,1,Índice servicios corregido,peninsular
+2021-05-01T00:00:00.000+02:00,127.53399999999999,1,Índice servicios corregido,peninsular
+2021-06-01T00:00:00.000+02:00,126.98283333333332,1,Índice servicios corregido,peninsular
+2021-07-01T00:00:00.000+02:00,127.05014285714284,1,Índice servicios corregido,peninsular
+2021-08-01T00:00:00.000+02:00,126.70074999999999,1,Índice servicios corregido,peninsular
+2021-09-01T00:00:00.000+02:00,125.59622222222222,1,Índice servicios corregido,peninsular
+2021-10-01T00:00:00.000+02:00,125.25809999999998,1,Índice servicios corregido,peninsular
+2021-11-01T00:00:00.000+01:00,125.33236363636364,1,Índice servicios corregido,peninsular
+2021-12-01T00:00:00.000+01:00,125.28741666666667,1,Índice servicios corregido,peninsular
+2021-01-01T00:00:00.000+01:00,-5.326381327302678,1,Annual variation,peninsular
+2021-02-01T00:00:00.000+01:00,-6.701071177585484,1,Annual variation,peninsular
+2021-03-01T00:00:00.000+01:00,-3.7656687648352984,1,Annual variation,peninsular
+2021-04-01T00:00:00.000+02:00,0.7720341159307906,1,Annual variation,peninsular
+2021-05-01T00:00:00.000+02:00,1.7698173736812193,1,Annual variation,peninsular
+2021-06-01T00:00:00.000+02:00,1.615645574218624,1,Annual variation,peninsular
+2021-07-01T00:00:00.000+02:00,1.728519915761401,1,Annual variation,peninsular
+2021-08-01T00:00:00.000+02:00,1.588385857619862,1,Annual variation,peninsular
+2021-09-01T00:00:00.000+02:00,1.3090776004967033,1,Annual variation,peninsular
+2021-10-01T00:00:00.000+02:00,0.9961874701896096,1,Annual variation,peninsular
+2021-11-01T00:00:00.000+01:00,0.8849812744883859,1,Annual variation,peninsular
+2021-12-01T00:00:00.000+01:00,0.8488846955214076,1,Annual variation,peninsular
+2021-01-01T00:00:00.000+01:00,-5.024686198944458,1,Corrected annual variation,peninsular
+2021-02-01T00:00:00.000+01:00,-4.074241388763401,1,Corrected annual variation,peninsular
+2021-03-01T00:00:00.000+01:00,-2.205358276767395,1,Corrected annual variation,peninsular
+2021-04-01T00:00:00.000+02:00,2.3745004818762214,1,Corrected annual variation,peninsular
+2021-05-01T00:00:00.000+02:00,4.19189072163264,1,Corrected annual variation,peninsular
+2021-06-01T00:00:00.000+02:00,3.600396508656955,1,Corrected annual variation,peninsular
+2021-07-01T00:00:00.000+02:00,4.069147660187433,1,Corrected annual variation,peninsular
+2021-08-01T00:00:00.000+02:00,3.7484748982582974,1,Corrected annual variation,peninsular
+2021-09-01T00:00:00.000+02:00,3.205172100531289,1,Corrected annual variation,peninsular
+2021-10-01T00:00:00.000+02:00,2.334714592435968,1,Corrected annual variation,peninsular
+2021-11-01T00:00:00.000+01:00,2.2807851842069966,1,Corrected annual variation,peninsular
+2021-12-01T00:00:00.000+01:00,2.1351626575472236,1,Corrected annual variation,peninsular
+2021-01-01T00:00:00.000+01:00,135.637,1,Índice servicios,canarias
+2021-02-01T00:00:00.000+01:00,131.433,1,Índice servicios,canarias
+2021-03-01T00:00:00.000+01:00,136.62933333333334,1,Índice servicios,canarias
+2021-04-01T00:00:00.000+02:00,138.327,1,Índice servicios,canarias
+2021-05-01T00:00:00.000+02:00,143.516,1,Índice servicios,canarias
+2021-06-01T00:00:00.000+02:00,147.32049999999998,1,Índice servicios,canarias
+2021-07-01T00:00:00.000+02:00,153.47171428571428,1,Índice servicios,canarias
+2021-08-01T00:00:00.000+02:00,158.01375,1,Índice servicios,canarias
+2021-09-01T00:00:00.000+02:00,158.08988888888888,1,Índice servicios,canarias
+2021-10-01T00:00:00.000+02:00,157.7515,1,Índice servicios,canarias
+2021-11-01T00:00:00.000+01:00,155.8231818181818,1,Índice servicios,canarias
+2021-12-01T00:00:00.000+01:00,154.36291666666665,1,Índice servicios,canarias
+2021-01-01T00:00:00.000+01:00,122.729,1,Índice servicios corregido,canarias
+2021-02-01T00:00:00.000+01:00,124.2205,1,Índice servicios corregido,canarias
+2021-03-01T00:00:00.000+01:00,125.77466666666668,1,Índice servicios corregido,canarias
+2021-04-01T00:00:00.000+02:00,126.93875,1,Índice servicios corregido,canarias
+2021-05-01T00:00:00.000+02:00,127.53399999999999,1,Índice servicios corregido,canarias
+2021-06-01T00:00:00.000+02:00,126.98283333333332,1,Índice servicios corregido,canarias
+2021-07-01T00:00:00.000+02:00,127.05014285714284,1,Índice servicios corregido,canarias
+2021-08-01T00:00:00.000+02:00,126.70074999999999,1,Índice servicios corregido,canarias
+2021-09-01T00:00:00.000+02:00,125.59622222222222,1,Índice servicios corregido,canarias
+2021-10-01T00:00:00.000+02:00,125.25809999999998,1,Índice servicios corregido,canarias
+2021-11-01T00:00:00.000+01:00,125.33236363636364,1,Índice servicios corregido,canarias
+2021-12-01T00:00:00.000+01:00,125.28741666666667,1,Índice servicios corregido,canarias
+2021-01-01T00:00:00.000+01:00,-5.326381327302678,1,Annual variation,canarias
+2021-02-01T00:00:00.000+01:00,-6.701071177585484,1,Annual variation,canarias
+2021-03-01T00:00:00.000+01:00,-3.7656687648352984,1,Annual variation,canarias
+2021-04-01T00:00:00.000+02:00,0.7720341159307906,1,Annual variation,canarias
+2021-05-01T00:00:00.000+02:00,1.7698173736812193,1,Annual variation,canarias
+2021-06-01T00:00:00.000+02:00,1.615645574218624,1,Annual variation,canarias
+2021-07-01T00:00:00.000+02:00,1.728519915761401,1,Annual variation,canarias
+2021-08-01T00:00:00.000+02:00,1.588385857619862,1,Annual variation,canarias
+2021-09-01T00:00:00.000+02:00,1.3090776004967033,1,Annual variation,canarias
+2021-10-01T00:00:00.000+02:00,0.9961874701896096,1,Annual variation,canarias
+2021-11-01T00:00:00.000+01:00,0.8849812744883859,1,Annual variation,canarias
+2021-12-01T00:00:00.000+01:00,0.8488846955214076,1,Annual variation,canarias
+2021-01-01T00:00:00.000+01:00,-5.024686198944458,1,Corrected annual variation,canarias
+2021-02-01T00:00:00.000+01:00,-4.074241388763401,1,Corrected annual variation,canarias
+2021-03-01T00:00:00.000+01:00,-2.205358276767395,1,Corrected annual variation,canarias
+2021-04-01T00:00:00.000+02:00,2.3745004818762214,1,Corrected annual variation,canarias
+2021-05-01T00:00:00.000+02:00,4.19189072163264,1,Corrected annual variation,canarias
+2021-06-01T00:00:00.000+02:00,3.600396508656955,1,Corrected annual variation,canarias
+2021-07-01T00:00:00.000+02:00,4.069147660187433,1,Corrected annual variation,canarias
+2021-08-01T00:00:00.000+02:00,3.7484748982582974,1,Corrected annual variation,canarias
+2021-09-01T00:00:00.000+02:00,3.205172100531289,1,Corrected annual variation,canarias
+2021-10-01T00:00:00.000+02:00,2.334714592435968,1,Corrected annual variation,canarias
+2021-11-01T00:00:00.000+01:00,2.2807851842069966,1,Corrected annual variation,canarias
+2021-12-01T00:00:00.000+01:00,2.1351626575472236,1,Corrected annual variation,canarias
+2021-01-01T00:00:00.000+01:00,135.637,1,Índice servicios,baleares
+2021-02-01T00:00:00.000+01:00,131.433,1,Índice servicios,baleares
+2021-03-01T00:00:00.000+01:00,136.62933333333334,1,Índice servicios,baleares
+2021-04-01T00:00:00.000+02:00,138.327,1,Índice servicios,baleares
+2021-05-01T00:00:00.000+02:00,143.516,1,Índice servicios,baleares
+2021-06-01T00:00:00.000+02:00,147.32049999999998,1,Índice servicios,baleares
+2021-07-01T00:00:00.000+02:00,153.47171428571428,1,Índice servicios,baleares
+2021-08-01T00:00:00.000+02:00,158.01375,1,Índice servicios,baleares
+2021-09-01T00:00:00.000+02:00,158.08988888888888,1,Índice servicios,baleares
+2021-10-01T00:00:00.000+02:00,157.7515,1,Índice servicios,baleares
+2021-11-01T00:00:00.000+01:00,155.8231818181818,1,Índice servicios,baleares
+2021-12-01T00:00:00.000+01:00,154.36291666666665,1,Índice servicios,baleares
+2021-01-01T00:00:00.000+01:00,122.729,1,Índice servicios corregido,baleares
+2021-02-01T00:00:00.000+01:00,124.2205,1,Índice servicios corregido,baleares
+2021-03-01T00:00:00.000+01:00,125.77466666666668,1,Índice servicios corregido,baleares
+2021-04-01T00:00:00.000+02:00,126.93875,1,Índice servicios corregido,baleares
+2021-05-01T00:00:00.000+02:00,127.53399999999999,1,Índice servicios corregido,baleares
+2021-06-01T00:00:00.000+02:00,126.98283333333332,1,Índice servicios corregido,baleares
+2021-07-01T00:00:00.000+02:00,127.05014285714284,1,Índice servicios corregido,baleares
+2021-08-01T00:00:00.000+02:00,126.70074999999999,1,Índice servicios corregido,baleares
+2021-09-01T00:00:00.000+02:00,125.59622222222222,1,Índice servicios corregido,baleares
+2021-10-01T00:00:00.000+02:00,125.25809999999998,1,Índice servicios corregido,baleares
+2021-11-01T00:00:00.000+01:00,125.33236363636364,1,Índice servicios corregido,baleares
+2021-12-01T00:00:00.000+01:00,125.28741666666667,1,Índice servicios corregido,baleares
+2021-01-01T00:00:00.000+01:00,-5.326381327302678,1,Annual variation,baleares
+2021-02-01T00:00:00.000+01:00,-6.701071177585484,1,Annual variation,baleares
+2021-03-01T00:00:00.000+01:00,-3.7656687648352984,1,Annual variation,baleares
+2021-04-01T00:00:00.000+02:00,0.7720341159307906,1,Annual variation,baleares
+2021-05-01T00:00:00.000+02:00,1.7698173736812193,1,Annual variation,baleares
+2021-06-01T00:00:00.000+02:00,1.615645574218624,1,Annual variation,baleares
+2021-07-01T00:00:00.000+02:00,1.728519915761401,1,Annual variation,baleares
+2021-08-01T00:00:00.000+02:00,1.588385857619862,1,Annual variation,baleares
+2021-09-01T00:00:00.000+02:00,1.3090776004967033,1,Annual variation,baleares
+2021-10-01T00:00:00.000+02:00,0.9961874701896096,1,Annual variation,baleares
+2021-11-01T00:00:00.000+01:00,0.8849812744883859,1,Annual variation,baleares
+2021-12-01T00:00:00.000+01:00,0.8488846955214076,1,Annual variation,baleares
+2021-01-01T00:00:00.000+01:00,-5.024686198944458,1,Corrected annual variation,baleares
+2021-02-01T00:00:00.000+01:00,-4.074241388763401,1,Corrected annual variation,baleares
+2021-03-01T00:00:00.000+01:00,-2.205358276767395,1,Corrected annual variation,baleares
+2021-04-01T00:00:00.000+02:00,2.3745004818762214,1,Corrected annual variation,baleares
+2021-05-01T00:00:00.000+02:00,4.19189072163264,1,Corrected annual variation,baleares
+2021-06-01T00:00:00.000+02:00,3.600396508656955,1,Corrected annual variation,baleares
+2021-07-01T00:00:00.000+02:00,4.069147660187433,1,Corrected annual variation,baleares
+2021-08-01T00:00:00.000+02:00,3.7484748982582974,1,Corrected annual variation,baleares
+2021-09-01T00:00:00.000+02:00,3.205172100531289,1,Corrected annual variation,baleares
+2021-10-01T00:00:00.000+02:00,2.334714592435968,1,Corrected annual variation,baleares
+2021-11-01T00:00:00.000+01:00,2.2807851842069966,1,Corrected annual variation,baleares
+2021-12-01T00:00:00.000+01:00,2.1351626575472236,1,Corrected annual variation,baleares
+2021-01-01T00:00:00.000+01:00,135.637,1,Índice servicios,ceuta
+2021-02-01T00:00:00.000+01:00,131.433,1,Índice servicios,ceuta
+2021-03-01T00:00:00.000+01:00,136.62933333333334,1,Índice servicios,ceuta
+2021-04-01T00:00:00.000+02:00,138.327,1,Índice servicios,ceuta
+2021-05-01T00:00:00.000+02:00,143.516,1,Índice servicios,ceuta
+2021-06-01T00:00:00.000+02:00,147.32049999999998,1,Índice servicios,ceuta
+2021-07-01T00:00:00.000+02:00,153.47171428571428,1,Índice servicios,ceuta
+2021-08-01T00:00:00.000+02:00,158.01375,1,Índice servicios,ceuta
+2021-09-01T00:00:00.000+02:00,158.08988888888888,1,Índice servicios,ceuta
+2021-10-01T00:00:00.000+02:00,157.7515,1,Índice servicios,ceuta
+2021-11-01T00:00:00.000+01:00,155.8231818181818,1,Índice servicios,ceuta
+2021-12-01T00:00:00.000+01:00,154.36291666666665,1,Índice servicios,ceuta
+2021-01-01T00:00:00.000+01:00,122.729,1,Índice servicios corregido,ceuta
+2021-02-01T00:00:00.000+01:00,124.2205,1,Índice servicios corregido,ceuta
+2021-03-01T00:00:00.000+01:00,125.77466666666668,1,Índice servicios corregido,ceuta
+2021-04-01T00:00:00.000+02:00,126.93875,1,Índice servicios corregido,ceuta
+2021-05-01T00:00:00.000+02:00,127.53399999999999,1,Índice servicios corregido,ceuta
+2021-06-01T00:00:00.000+02:00,126.98283333333332,1,Índice servicios corregido,ceuta
+2021-07-01T00:00:00.000+02:00,127.05014285714284,1,Índice servicios corregido,ceuta
+2021-08-01T00:00:00.000+02:00,126.70074999999999,1,Índice servicios corregido,ceuta
+2021-09-01T00:00:00.000+02:00,125.59622222222222,1,Índice servicios corregido,ceuta
+2021-10-01T00:00:00.000+02:00,125.25809999999998,1,Índice servicios corregido,ceuta
+2021-11-01T00:00:00.000+01:00,125.33236363636364,1,Índice servicios corregido,ceuta
+2021-12-01T00:00:00.000+01:00,125.28741666666667,1,Índice servicios corregido,ceuta
+2021-01-01T00:00:00.000+01:00,-5.326381327302678,1,Annual variation,ceuta
+2021-02-01T00:00:00.000+01:00,-6.701071177585484,1,Annual variation,ceuta
+2021-03-01T00:00:00.000+01:00,-3.7656687648352984,1,Annual variation,ceuta
+2021-04-01T00:00:00.000+02:00,0.7720341159307906,1,Annual variation,ceuta
+2021-05-01T00:00:00.000+02:00,1.7698173736812193,1,Annual variation,ceuta
+2021-06-01T00:00:00.000+02:00,1.615645574218624,1,Annual variation,ceuta
+2021-07-01T00:00:00.000+02:00,1.728519915761401,1,Annual variation,ceuta
+2021-08-01T00:00:00.000+02:00,1.588385857619862,1,Annual variation,ceuta
+2021-09-01T00:00:00.000+02:00,1.3090776004967033,1,Annual variation,ceuta
+2021-10-01T00:00:00.000+02:00,0.9961874701896096,1,Annual variation,ceuta
+2021-11-01T00:00:00.000+01:00,0.8849812744883859,1,Annual variation,ceuta
+2021-12-01T00:00:00.000+01:00,0.8488846955214076,1,Annual variation,ceuta
+2021-01-01T00:00:00.000+01:00,-5.024686198944458,1,Corrected annual variation,ceuta
+2021-02-01T00:00:00.000+01:00,-4.074241388763401,1,Corrected annual variation,ceuta
+2021-03-01T00:00:00.000+01:00,-2.205358276767395,1,Corrected annual variation,ceuta
+2021-04-01T00:00:00.000+02:00,2.3745004818762214,1,Corrected annual variation,ceuta
+2021-05-01T00:00:00.000+02:00,4.19189072163264,1,Corrected annual variation,ceuta
+2021-06-01T00:00:00.000+02:00,3.600396508656955,1,Corrected annual variation,ceuta
+2021-07-01T00:00:00.000+02:00,4.069147660187433,1,Corrected annual variation,ceuta
+2021-08-01T00:00:00.000+02:00,3.7484748982582974,1,Corrected annual variation,ceuta
+2021-09-01T00:00:00.000+02:00,3.205172100531289,1,Corrected annual variation,ceuta
+2021-10-01T00:00:00.000+02:00,2.334714592435968,1,Corrected annual variation,ceuta
+2021-11-01T00:00:00.000+01:00,2.2807851842069966,1,Corrected annual variation,ceuta
+2021-12-01T00:00:00.000+01:00,2.1351626575472236,1,Corrected annual variation,ceuta
+2021-01-01T00:00:00.000+01:00,135.637,1,Índice servicios,melilla
+2021-02-01T00:00:00.000+01:00,131.433,1,Índice servicios,melilla
+2021-03-01T00:00:00.000+01:00,136.62933333333334,1,Índice servicios,melilla
+2021-04-01T00:00:00.000+02:00,138.327,1,Índice servicios,melilla
+2021-05-01T00:00:00.000+02:00,143.516,1,Índice servicios,melilla
+2021-06-01T00:00:00.000+02:00,147.32049999999998,1,Índice servicios,melilla
+2021-07-01T00:00:00.000+02:00,153.47171428571428,1,Índice servicios,melilla
+2021-08-01T00:00:00.000+02:00,158.01375,1,Índice servicios,melilla
+2021-09-01T00:00:00.000+02:00,158.08988888888888,1,Índice servicios,melilla
+2021-10-01T00:00:00.000+02:00,157.7515,1,Índice servicios,melilla
+2021-11-01T00:00:00.000+01:00,155.8231818181818,1,Índice servicios,melilla
+2021-12-01T00:00:00.000+01:00,154.36291666666665,1,Índice servicios,melilla
+2021-01-01T00:00:00.000+01:00,122.729,1,Índice servicios corregido,melilla
+2021-02-01T00:00:00.000+01:00,124.2205,1,Índice servicios corregido,melilla
+2021-03-01T00:00:00.000+01:00,125.77466666666668,1,Índice servicios corregido,melilla
+2021-04-01T00:00:00.000+02:00,126.93875,1,Índice servicios corregido,melilla
+2021-05-01T00:00:00.000+02:00,127.53399999999999,1,Índice servicios corregido,melilla
+2021-06-01T00:00:00.000+02:00,126.98283333333332,1,Índice servicios corregido,melilla
+2021-07-01T00:00:00.000+02:00,127.05014285714284,1,Índice servicios corregido,melilla
+2021-08-01T00:00:00.000+02:00,126.70074999999999,1,Índice servicios corregido,melilla
+2021-09-01T00:00:00.000+02:00,125.59622222222222,1,Índice servicios corregido,melilla
+2021-10-01T00:00:00.000+02:00,125.25809999999998,1,Índice servicios corregido,melilla
+2021-11-01T00:00:00.000+01:00,125.33236363636364,1,Índice servicios corregido,melilla
+2021-12-01T00:00:00.000+01:00,125.28741666666667,1,Índice servicios corregido,melilla
+2021-01-01T00:00:00.000+01:00,-5.326381327302678,1,Annual variation,melilla
+2021-02-01T00:00:00.000+01:00,-6.701071177585484,1,Annual variation,melilla
+2021-03-01T00:00:00.000+01:00,-3.7656687648352984,1,Annual variation,melilla
+2021-04-01T00:00:00.000+02:00,0.7720341159307906,1,Annual variation,melilla
+2021-05-01T00:00:00.000+02:00,1.7698173736812193,1,Annual variation,melilla
+2021-06-01T00:00:00.000+02:00,1.615645574218624,1,Annual variation,melilla
+2021-07-01T00:00:00.000+02:00,1.728519915761401,1,Annual variation,melilla
+2021-08-01T00:00:00.000+02:00,1.588385857619862,1,Annual variation,melilla
+2021-09-01T00:00:00.000+02:00,1.3090776004967033,1,Annual variation,melilla
+2021-10-01T00:00:00.000+02:00,0.9961874701896096,1,Annual variation,melilla
+2021-11-01T00:00:00.000+01:00,0.8849812744883859,1,Annual variation,melilla
+2021-12-01T00:00:00.000+01:00,0.8488846955214076,1,Annual variation,melilla
+2021-01-01T00:00:00.000+01:00,-5.024686198944458,1,Corrected annual variation,melilla
+2021-02-01T00:00:00.000+01:00,-4.074241388763401,1,Corrected annual variation,melilla
+2021-03-01T00:00:00.000+01:00,-2.205358276767395,1,Corrected annual variation,melilla
+2021-04-01T00:00:00.000+02:00,2.3745004818762214,1,Corrected annual variation,melilla
+2021-05-01T00:00:00.000+02:00,4.19189072163264,1,Corrected annual variation,melilla
+2021-06-01T00:00:00.000+02:00,3.600396508656955,1,Corrected annual variation,melilla
+2021-07-01T00:00:00.000+02:00,4.069147660187433,1,Corrected annual variation,melilla
+2021-08-01T00:00:00.000+02:00,3.7484748982582974,1,Corrected annual variation,melilla
+2021-09-01T00:00:00.000+02:00,3.205172100531289,1,Corrected annual variation,melilla
+2021-10-01T00:00:00.000+02:00,2.334714592435968,1,Corrected annual variation,melilla
+2021-11-01T00:00:00.000+01:00,2.2807851842069966,1,Corrected annual variation,melilla
+2021-12-01T00:00:00.000+01:00,2.1351626575472236,1,Corrected annual variation,melilla
+2021-01-01T00:00:00.000+01:00,135.637,1,Índice servicios,andalucia
+2021-02-01T00:00:00.000+01:00,131.433,1,Índice servicios,andalucia
+2021-03-01T00:00:00.000+01:00,136.62933333333334,1,Índice servicios,andalucia
+2021-04-01T00:00:00.000+02:00,138.327,1,Índice servicios,andalucia
+2021-05-01T00:00:00.000+02:00,143.516,1,Índice servicios,andalucia
+2021-06-01T00:00:00.000+02:00,147.32049999999998,1,Índice servicios,andalucia
+2021-07-01T00:00:00.000+02:00,153.47171428571428,1,Índice servicios,andalucia
+2021-08-01T00:00:00.000+02:00,158.01375,1,Índice servicios,andalucia
+2021-09-01T00:00:00.000+02:00,158.08988888888888,1,Índice servicios,andalucia
+2021-10-01T00:00:00.000+02:00,157.7515,1,Índice servicios,andalucia
+2021-11-01T00:00:00.000+01:00,155.8231818181818,1,Índice servicios,andalucia
+2021-12-01T00:00:00.000+01:00,154.36291666666665,1,Índice servicios,andalucia
+2021-01-01T00:00:00.000+01:00,122.729,1,Índice servicios corregido,andalucia
+2021-02-01T00:00:00.000+01:00,124.2205,1,Índice servicios corregido,andalucia
+2021-03-01T00:00:00.000+01:00,125.77466666666668,1,Índice servicios corregido,andalucia
+2021-04-01T00:00:00.000+02:00,126.93875,1,Índice servicios corregido,andalucia
+2021-05-01T00:00:00.000+02:00,127.53399999999999,1,Índice servicios corregido,andalucia
+2021-06-01T00:00:00.000+02:00,126.98283333333332,1,Índice servicios corregido,andalucia
+2021-07-01T00:00:00.000+02:00,127.05014285714284,1,Índice servicios corregido,andalucia
+2021-08-01T00:00:00.000+02:00,126.70074999999999,1,Índice servicios corregido,andalucia
+2021-09-01T00:00:00.000+02:00,125.59622222222222,1,Índice servicios corregido,andalucia
+2021-10-01T00:00:00.000+02:00,125.25809999999998,1,Índice servicios corregido,andalucia
+2021-11-01T00:00:00.000+01:00,125.33236363636364,1,Índice servicios corregido,andalucia
+2021-12-01T00:00:00.000+01:00,125.28741666666667,1,Índice servicios corregido,andalucia
+2021-01-01T00:00:00.000+01:00,-5.326381327302678,1,Annual variation,andalucia
+2021-02-01T00:00:00.000+01:00,-6.701071177585484,1,Annual variation,andalucia
+2021-03-01T00:00:00.000+01:00,-3.7656687648352984,1,Annual variation,andalucia
+2021-04-01T00:00:00.000+02:00,0.7720341159307906,1,Annual variation,andalucia
+2021-05-01T00:00:00.000+02:00,1.7698173736812193,1,Annual variation,andalucia
+2021-06-01T00:00:00.000+02:00,1.615645574218624,1,Annual variation,andalucia
+2021-07-01T00:00:00.000+02:00,1.728519915761401,1,Annual variation,andalucia
+2021-08-01T00:00:00.000+02:00,1.588385857619862,1,Annual variation,andalucia
+2021-09-01T00:00:00.000+02:00,1.3090776004967033,1,Annual variation,andalucia
+2021-10-01T00:00:00.000+02:00,0.9961874701896096,1,Annual variation,andalucia
+2021-11-01T00:00:00.000+01:00,0.8849812744883859,1,Annual variation,andalucia
+2021-12-01T00:00:00.000+01:00,0.8488846955214076,1,Annual variation,andalucia
+2021-01-01T00:00:00.000+01:00,-5.024686198944458,1,Corrected annual variation,andalucia
+2021-02-01T00:00:00.000+01:00,-4.074241388763401,1,Corrected annual variation,andalucia
+2021-03-01T00:00:00.000+01:00,-2.205358276767395,1,Corrected annual variation,andalucia
+2021-04-01T00:00:00.000+02:00,2.3745004818762214,1,Corrected annual variation,andalucia
+2021-05-01T00:00:00.000+02:00,4.19189072163264,1,Corrected annual variation,andalucia
+2021-06-01T00:00:00.000+02:00,3.600396508656955,1,Corrected annual variation,andalucia
+2021-07-01T00:00:00.000+02:00,4.069147660187433,1,Corrected annual variation,andalucia
+2021-08-01T00:00:00.000+02:00,3.7484748982582974,1,Corrected annual variation,andalucia
+2021-09-01T00:00:00.000+02:00,3.205172100531289,1,Corrected annual variation,andalucia
+2021-10-01T00:00:00.000+02:00,2.334714592435968,1,Corrected annual variation,andalucia
+2021-11-01T00:00:00.000+01:00,2.2807851842069966,1,Corrected annual variation,andalucia
+2021-12-01T00:00:00.000+01:00,2.1351626575472236,1,Corrected annual variation,andalucia
+2021-01-01T00:00:00.000+01:00,135.637,1,Índice servicios,aragon
+2021-02-01T00:00:00.000+01:00,131.433,1,Índice servicios,aragon
+2021-03-01T00:00:00.000+01:00,136.62933333333334,1,Índice servicios,aragon
+2021-04-01T00:00:00.000+02:00,138.327,1,Índice servicios,aragon
+2021-05-01T00:00:00.000+02:00,143.516,1,Índice servicios,aragon
+2021-06-01T00:00:00.000+02:00,147.32049999999998,1,Índice servicios,aragon
+2021-07-01T00:00:00.000+02:00,153.47171428571428,1,Índice servicios,aragon
+2021-08-01T00:00:00.000+02:00,158.01375,1,Índice servicios,aragon
+2021-09-01T00:00:00.000+02:00,158.08988888888888,1,Índice servicios,aragon
+2021-10-01T00:00:00.000+02:00,157.7515,1,Índice servicios,aragon
+2021-11-01T00:00:00.000+01:00,155.8231818181818,1,Índice servicios,aragon
+2021-12-01T00:00:00.000+01:00,154.36291666666665,1,Índice servicios,aragon
+2021-01-01T00:00:00.000+01:00,122.729,1,Índice servicios corregido,aragon
+2021-02-01T00:00:00.000+01:00,124.2205,1,Índice servicios corregido,aragon
+2021-03-01T00:00:00.000+01:00,125.77466666666668,1,Índice servicios corregido,aragon
+2021-04-01T00:00:00.000+02:00,126.93875,1,Índice servicios corregido,aragon
+2021-05-01T00:00:00.000+02:00,127.53399999999999,1,Índice servicios corregido,aragon
+2021-06-01T00:00:00.000+02:00,126.98283333333332,1,Índice servicios corregido,aragon
+2021-07-01T00:00:00.000+02:00,127.05014285714284,1,Índice servicios corregido,aragon
+2021-08-01T00:00:00.000+02:00,126.70074999999999,1,Índice servicios corregido,aragon
+2021-09-01T00:00:00.000+02:00,125.59622222222222,1,Índice servicios corregido,aragon
+2021-10-01T00:00:00.000+02:00,125.25809999999998,1,Índice servicios corregido,aragon
+2021-11-01T00:00:00.000+01:00,125.33236363636364,1,Índice servicios corregido,aragon
+2021-12-01T00:00:00.000+01:00,125.28741666666667,1,Índice servicios corregido,aragon
+2021-01-01T00:00:00.000+01:00,-5.326381327302678,1,Annual variation,aragon
+2021-02-01T00:00:00.000+01:00,-6.701071177585484,1,Annual variation,aragon
+2021-03-01T00:00:00.000+01:00,-3.7656687648352984,1,Annual variation,aragon
+2021-04-01T00:00:00.000+02:00,0.7720341159307906,1,Annual variation,aragon
+2021-05-01T00:00:00.000+02:00,1.7698173736812193,1,Annual variation,aragon
+2021-06-01T00:00:00.000+02:00,1.615645574218624,1,Annual variation,aragon
+2021-07-01T00:00:00.000+02:00,1.728519915761401,1,Annual variation,aragon
+2021-08-01T00:00:00.000+02:00,1.588385857619862,1,Annual variation,aragon
+2021-09-01T00:00:00.000+02:00,1.3090776004967033,1,Annual variation,aragon
+2021-10-01T00:00:00.000+02:00,0.9961874701896096,1,Annual variation,aragon
+2021-11-01T00:00:00.000+01:00,0.8849812744883859,1,Annual variation,aragon
+2021-12-01T00:00:00.000+01:00,0.8488846955214076,1,Annual variation,aragon
+2021-01-01T00:00:00.000+01:00,-5.024686198944458,1,Corrected annual variation,aragon
+2021-02-01T00:00:00.000+01:00,-4.074241388763401,1,Corrected annual variation,aragon
+2021-03-01T00:00:00.000+01:00,-2.205358276767395,1,Corrected annual variation,aragon
+2021-04-01T00:00:00.000+02:00,2.3745004818762214,1,Corrected annual variation,aragon
+2021-05-01T00:00:00.000+02:00,4.19189072163264,1,Corrected annual variation,aragon
+2021-06-01T00:00:00.000+02:00,3.600396508656955,1,Corrected annual variation,aragon
+2021-07-01T00:00:00.000+02:00,4.069147660187433,1,Corrected annual variation,aragon
+2021-08-01T00:00:00.000+02:00,3.7484748982582974,1,Corrected annual variation,aragon
+2021-09-01T00:00:00.000+02:00,3.205172100531289,1,Corrected annual variation,aragon
+2021-10-01T00:00:00.000+02:00,2.334714592435968,1,Corrected annual variation,aragon
+2021-11-01T00:00:00.000+01:00,2.2807851842069966,1,Corrected annual variation,aragon
+2021-12-01T00:00:00.000+01:00,2.1351626575472236,1,Corrected annual variation,aragon
+2021-01-01T00:00:00.000+01:00,135.637,1,Índice servicios,cantabria
+2021-02-01T00:00:00.000+01:00,131.433,1,Índice servicios,cantabria
+2021-03-01T00:00:00.000+01:00,136.62933333333334,1,Índice servicios,cantabria
+2021-04-01T00:00:00.000+02:00,138.327,1,Índice servicios,cantabria
+2021-05-01T00:00:00.000+02:00,143.516,1,Índice servicios,cantabria
+2021-06-01T00:00:00.000+02:00,147.32049999999998,1,Índice servicios,cantabria
+2021-07-01T00:00:00.000+02:00,153.47171428571428,1,Índice servicios,cantabria
+2021-08-01T00:00:00.000+02:00,158.01375,1,Índice servicios,cantabria
+2021-09-01T00:00:00.000+02:00,158.08988888888888,1,Índice servicios,cantabria
+2021-10-01T00:00:00.000+02:00,157.7515,1,Índice servicios,cantabria
+2021-11-01T00:00:00.000+01:00,155.8231818181818,1,Índice servicios,cantabria
+2021-12-01T00:00:00.000+01:00,154.36291666666665,1,Índice servicios,cantabria
+2021-01-01T00:00:00.000+01:00,122.729,1,Índice servicios corregido,cantabria
+2021-02-01T00:00:00.000+01:00,124.2205,1,Índice servicios corregido,cantabria
+2021-03-01T00:00:00.000+01:00,125.77466666666668,1,Índice servicios corregido,cantabria
+2021-04-01T00:00:00.000+02:00,126.93875,1,Índice servicios corregido,cantabria
+2021-05-01T00:00:00.000+02:00,127.53399999999999,1,Índice servicios corregido,cantabria
+2021-06-01T00:00:00.000+02:00,126.98283333333332,1,Índice servicios corregido,cantabria
+2021-07-01T00:00:00.000+02:00,127.05014285714284,1,Índice servicios corregido,cantabria
+2021-08-01T00:00:00.000+02:00,126.70074999999999,1,Índice servicios corregido,cantabria
+2021-09-01T00:00:00.000+02:00,125.59622222222222,1,Índice servicios corregido,cantabria
+2021-10-01T00:00:00.000+02:00,125.25809999999998,1,Índice servicios corregido,cantabria
+2021-11-01T00:00:00.000+01:00,125.33236363636364,1,Índice servicios corregido,cantabria
+2021-12-01T00:00:00.000+01:00,125.28741666666667,1,Índice servicios corregido,cantabria
+2021-01-01T00:00:00.000+01:00,-5.326381327302678,1,Annual variation,cantabria
+2021-02-01T00:00:00.000+01:00,-6.701071177585484,1,Annual variation,cantabria
+2021-03-01T00:00:00.000+01:00,-3.7656687648352984,1,Annual variation,cantabria
+2021-04-01T00:00:00.000+02:00,0.7720341159307906,1,Annual variation,cantabria
+2021-05-01T00:00:00.000+02:00,1.7698173736812193,1,Annual variation,cantabria
+2021-06-01T00:00:00.000+02:00,1.615645574218624,1,Annual variation,cantabria
+2021-07-01T00:00:00.000+02:00,1.728519915761401,1,Annual variation,cantabria
+2021-08-01T00:00:00.000+02:00,1.588385857619862,1,Annual variation,cantabria
+2021-09-01T00:00:00.000+02:00,1.3090776004967033,1,Annual variation,cantabria
+2021-10-01T00:00:00.000+02:00,0.9961874701896096,1,Annual variation,cantabria
+2021-11-01T00:00:00.000+01:00,0.8849812744883859,1,Annual variation,cantabria
+2021-12-01T00:00:00.000+01:00,0.8488846955214076,1,Annual variation,cantabria
+2021-01-01T00:00:00.000+01:00,-5.024686198944458,1,Corrected annual variation,cantabria
+2021-02-01T00:00:00.000+01:00,-4.074241388763401,1,Corrected annual variation,cantabria
+2021-03-01T00:00:00.000+01:00,-2.205358276767395,1,Corrected annual variation,cantabria
+2021-04-01T00:00:00.000+02:00,2.3745004818762214,1,Corrected annual variation,cantabria
+2021-05-01T00:00:00.000+02:00,4.19189072163264,1,Corrected annual variation,cantabria
+2021-06-01T00:00:00.000+02:00,3.600396508656955,1,Corrected annual variation,cantabria
+2021-07-01T00:00:00.000+02:00,4.069147660187433,1,Corrected annual variation,cantabria
+2021-08-01T00:00:00.000+02:00,3.7484748982582974,1,Corrected annual variation,cantabria
+2021-09-01T00:00:00.000+02:00,3.205172100531289,1,Corrected annual variation,cantabria
+2021-10-01T00:00:00.000+02:00,2.334714592435968,1,Corrected annual variation,cantabria
+2021-11-01T00:00:00.000+01:00,2.2807851842069966,1,Corrected annual variation,cantabria
+2021-12-01T00:00:00.000+01:00,2.1351626575472236,1,Corrected annual variation,cantabria
+2021-01-01T00:00:00.000+01:00,135.637,1,Índice servicios,castilla la mancha
+2021-02-01T00:00:00.000+01:00,131.433,1,Índice servicios,castilla la mancha
+2021-03-01T00:00:00.000+01:00,136.62933333333334,1,Índice servicios,castilla la mancha
+2021-04-01T00:00:00.000+02:00,138.327,1,Índice servicios,castilla la mancha
+2021-05-01T00:00:00.000+02:00,143.516,1,Índice servicios,castilla la mancha
+2021-06-01T00:00:00.000+02:00,147.32049999999998,1,Índice servicios,castilla la mancha
+2021-07-01T00:00:00.000+02:00,153.47171428571428,1,Índice servicios,castilla la mancha
+2021-08-01T00:00:00.000+02:00,158.01375,1,Índice servicios,castilla la mancha
+2021-09-01T00:00:00.000+02:00,158.08988888888888,1,Índice servicios,castilla la mancha
+2021-10-01T00:00:00.000+02:00,157.7515,1,Índice servicios,castilla la mancha
+2021-11-01T00:00:00.000+01:00,155.8231818181818,1,Índice servicios,castilla la mancha
+2021-12-01T00:00:00.000+01:00,154.36291666666665,1,Índice servicios,castilla la mancha
+2021-01-01T00:00:00.000+01:00,122.729,1,Índice servicios corregido,castilla la mancha
+2021-02-01T00:00:00.000+01:00,124.2205,1,Índice servicios corregido,castilla la mancha
+2021-03-01T00:00:00.000+01:00,125.77466666666668,1,Índice servicios corregido,castilla la mancha
+2021-04-01T00:00:00.000+02:00,126.93875,1,Índice servicios corregido,castilla la mancha
+2021-05-01T00:00:00.000+02:00,127.53399999999999,1,Índice servicios corregido,castilla la mancha
+2021-06-01T00:00:00.000+02:00,126.98283333333332,1,Índice servicios corregido,castilla la mancha
+2021-07-01T00:00:00.000+02:00,127.05014285714284,1,Índice servicios corregido,castilla la mancha
+2021-08-01T00:00:00.000+02:00,126.70074999999999,1,Índice servicios corregido,castilla la mancha
+2021-09-01T00:00:00.000+02:00,125.59622222222222,1,Índice servicios corregido,castilla la mancha
+2021-10-01T00:00:00.000+02:00,125.25809999999998,1,Índice servicios corregido,castilla la mancha
+2021-11-01T00:00:00.000+01:00,125.33236363636364,1,Índice servicios corregido,castilla la mancha
+2021-12-01T00:00:00.000+01:00,125.28741666666667,1,Índice servicios corregido,castilla la mancha
+2021-01-01T00:00:00.000+01:00,-5.326381327302678,1,Annual variation,castilla la mancha
+2021-02-01T00:00:00.000+01:00,-6.701071177585484,1,Annual variation,castilla la mancha
+2021-03-01T00:00:00.000+01:00,-3.7656687648352984,1,Annual variation,castilla la mancha
+2021-04-01T00:00:00.000+02:00,0.7720341159307906,1,Annual variation,castilla la mancha
+2021-05-01T00:00:00.000+02:00,1.7698173736812193,1,Annual variation,castilla la mancha
+2021-06-01T00:00:00.000+02:00,1.615645574218624,1,Annual variation,castilla la mancha
+2021-07-01T00:00:00.000+02:00,1.728519915761401,1,Annual variation,castilla la mancha
+2021-08-01T00:00:00.000+02:00,1.588385857619862,1,Annual variation,castilla la mancha
+2021-09-01T00:00:00.000+02:00,1.3090776004967033,1,Annual variation,castilla la mancha
+2021-10-01T00:00:00.000+02:00,0.9961874701896096,1,Annual variation,castilla la mancha
+2021-11-01T00:00:00.000+01:00,0.8849812744883859,1,Annual variation,castilla la mancha
+2021-12-01T00:00:00.000+01:00,0.8488846955214076,1,Annual variation,castilla la mancha
+2021-01-01T00:00:00.000+01:00,-5.024686198944458,1,Corrected annual variation,castilla la mancha
+2021-02-01T00:00:00.000+01:00,-4.074241388763401,1,Corrected annual variation,castilla la mancha
+2021-03-01T00:00:00.000+01:00,-2.205358276767395,1,Corrected annual variation,castilla la mancha
+2021-04-01T00:00:00.000+02:00,2.3745004818762214,1,Corrected annual variation,castilla la mancha
+2021-05-01T00:00:00.000+02:00,4.19189072163264,1,Corrected annual variation,castilla la mancha
+2021-06-01T00:00:00.000+02:00,3.600396508656955,1,Corrected annual variation,castilla la mancha
+2021-07-01T00:00:00.000+02:00,4.069147660187433,1,Corrected annual variation,castilla la mancha
+2021-08-01T00:00:00.000+02:00,3.7484748982582974,1,Corrected annual variation,castilla la mancha
+2021-09-01T00:00:00.000+02:00,3.205172100531289,1,Corrected annual variation,castilla la mancha
+2021-10-01T00:00:00.000+02:00,2.334714592435968,1,Corrected annual variation,castilla la mancha
+2021-11-01T00:00:00.000+01:00,2.2807851842069966,1,Corrected annual variation,castilla la mancha
+2021-12-01T00:00:00.000+01:00,2.1351626575472236,1,Corrected annual variation,castilla la mancha
+2021-01-01T00:00:00.000+01:00,135.637,1,Índice servicios,castilla y leon
+2021-02-01T00:00:00.000+01:00,131.433,1,Índice servicios,castilla y leon
+2021-03-01T00:00:00.000+01:00,136.62933333333334,1,Índice servicios,castilla y leon
+2021-04-01T00:00:00.000+02:00,138.327,1,Índice servicios,castilla y leon
+2021-05-01T00:00:00.000+02:00,143.516,1,Índice servicios,castilla y leon
+2021-06-01T00:00:00.000+02:00,147.32049999999998,1,Índice servicios,castilla y leon
+2021-07-01T00:00:00.000+02:00,153.47171428571428,1,Índice servicios,castilla y leon
+2021-08-01T00:00:00.000+02:00,158.01375,1,Índice servicios,castilla y leon
+2021-09-01T00:00:00.000+02:00,158.08988888888888,1,Índice servicios,castilla y leon
+2021-10-01T00:00:00.000+02:00,157.7515,1,Índice servicios,castilla y leon
+2021-11-01T00:00:00.000+01:00,155.8231818181818,1,Índice servicios,castilla y leon
+2021-12-01T00:00:00.000+01:00,154.36291666666665,1,Índice servicios,castilla y leon
+2021-01-01T00:00:00.000+01:00,122.729,1,Índice servicios corregido,castilla y leon
+2021-02-01T00:00:00.000+01:00,124.2205,1,Índice servicios corregido,castilla y leon
+2021-03-01T00:00:00.000+01:00,125.77466666666668,1,Índice servicios corregido,castilla y leon
+2021-04-01T00:00:00.000+02:00,126.93875,1,Índice servicios corregido,castilla y leon
+2021-05-01T00:00:00.000+02:00,127.53399999999999,1,Índice servicios corregido,castilla y leon
+2021-06-01T00:00:00.000+02:00,126.98283333333332,1,Índice servicios corregido,castilla y leon
+2021-07-01T00:00:00.000+02:00,127.05014285714284,1,Índice servicios corregido,castilla y leon
+2021-08-01T00:00:00.000+02:00,126.70074999999999,1,Índice servicios corregido,castilla y leon
+2021-09-01T00:00:00.000+02:00,125.59622222222222,1,Índice servicios corregido,castilla y leon
+2021-10-01T00:00:00.000+02:00,125.25809999999998,1,Índice servicios corregido,castilla y leon
+2021-11-01T00:00:00.000+01:00,125.33236363636364,1,Índice servicios corregido,castilla y leon
+2021-12-01T00:00:00.000+01:00,125.28741666666667,1,Índice servicios corregido,castilla y leon
+2021-01-01T00:00:00.000+01:00,-5.326381327302678,1,Annual variation,castilla y leon
+2021-02-01T00:00:00.000+01:00,-6.701071177585484,1,Annual variation,castilla y leon
+2021-03-01T00:00:00.000+01:00,-3.7656687648352984,1,Annual variation,castilla y leon
+2021-04-01T00:00:00.000+02:00,0.7720341159307906,1,Annual variation,castilla y leon
+2021-05-01T00:00:00.000+02:00,1.7698173736812193,1,Annual variation,castilla y leon
+2021-06-01T00:00:00.000+02:00,1.615645574218624,1,Annual variation,castilla y leon
+2021-07-01T00:00:00.000+02:00,1.728519915761401,1,Annual variation,castilla y leon
+2021-08-01T00:00:00.000+02:00,1.588385857619862,1,Annual variation,castilla y leon
+2021-09-01T00:00:00.000+02:00,1.3090776004967033,1,Annual variation,castilla y leon
+2021-10-01T00:00:00.000+02:00,0.9961874701896096,1,Annual variation,castilla y leon
+2021-11-01T00:00:00.000+01:00,0.8849812744883859,1,Annual variation,castilla y leon
+2021-12-01T00:00:00.000+01:00,0.8488846955214076,1,Annual variation,castilla y leon
+2021-01-01T00:00:00.000+01:00,-5.024686198944458,1,Corrected annual variation,castilla y leon
+2021-02-01T00:00:00.000+01:00,-4.074241388763401,1,Corrected annual variation,castilla y leon
+2021-03-01T00:00:00.000+01:00,-2.205358276767395,1,Corrected annual variation,castilla y leon
+2021-04-01T00:00:00.000+02:00,2.3745004818762214,1,Corrected annual variation,castilla y leon
+2021-05-01T00:00:00.000+02:00,4.19189072163264,1,Corrected annual variation,castilla y leon
+2021-06-01T00:00:00.000+02:00,3.600396508656955,1,Corrected annual variation,castilla y leon
+2021-07-01T00:00:00.000+02:00,4.069147660187433,1,Corrected annual variation,castilla y leon
+2021-08-01T00:00:00.000+02:00,3.7484748982582974,1,Corrected annual variation,castilla y leon
+2021-09-01T00:00:00.000+02:00,3.205172100531289,1,Corrected annual variation,castilla y leon
+2021-10-01T00:00:00.000+02:00,2.334714592435968,1,Corrected annual variation,castilla y leon
+2021-11-01T00:00:00.000+01:00,2.2807851842069966,1,Corrected annual variation,castilla y leon
+2021-12-01T00:00:00.000+01:00,2.1351626575472236,1,Corrected annual variation,castilla y leon
+2021-01-01T00:00:00.000+01:00,135.637,1,Índice servicios,cataluña
+2021-02-01T00:00:00.000+01:00,131.433,1,Índice servicios,cataluña
+2021-03-01T00:00:00.000+01:00,136.62933333333334,1,Índice servicios,cataluña
+2021-04-01T00:00:00.000+02:00,138.327,1,Índice servicios,cataluña
+2021-05-01T00:00:00.000+02:00,143.516,1,Índice servicios,cataluña
+2021-06-01T00:00:00.000+02:00,147.32049999999998,1,Índice servicios,cataluña
+2021-07-01T00:00:00.000+02:00,153.47171428571428,1,Índice servicios,cataluña
+2021-08-01T00:00:00.000+02:00,158.01375,1,Índice servicios,cataluña
+2021-09-01T00:00:00.000+02:00,158.08988888888888,1,Índice servicios,cataluña
+2021-10-01T00:00:00.000+02:00,157.7515,1,Índice servicios,cataluña
+2021-11-01T00:00:00.000+01:00,155.8231818181818,1,Índice servicios,cataluña
+2021-12-01T00:00:00.000+01:00,154.36291666666665,1,Índice servicios,cataluña
+2021-01-01T00:00:00.000+01:00,122.729,1,Índice servicios corregido,cataluña
+2021-02-01T00:00:00.000+01:00,124.2205,1,Índice servicios corregido,cataluña
+2021-03-01T00:00:00.000+01:00,125.77466666666668,1,Índice servicios corregido,cataluña
+2021-04-01T00:00:00.000+02:00,126.93875,1,Índice servicios corregido,cataluña
+2021-05-01T00:00:00.000+02:00,127.53399999999999,1,Índice servicios corregido,cataluña
+2021-06-01T00:00:00.000+02:00,126.98283333333332,1,Índice servicios corregido,cataluña
+2021-07-01T00:00:00.000+02:00,127.05014285714284,1,Índice servicios corregido,cataluña
+2021-08-01T00:00:00.000+02:00,126.70074999999999,1,Índice servicios corregido,cataluña
+2021-09-01T00:00:00.000+02:00,125.59622222222222,1,Índice servicios corregido,cataluña
+2021-10-01T00:00:00.000+02:00,125.25809999999998,1,Índice servicios corregido,cataluña
+2021-11-01T00:00:00.000+01:00,125.33236363636364,1,Índice servicios corregido,cataluña
+2021-12-01T00:00:00.000+01:00,125.28741666666667,1,Índice servicios corregido,cataluña
+2021-01-01T00:00:00.000+01:00,-5.326381327302678,1,Annual variation,cataluña
+2021-02-01T00:00:00.000+01:00,-6.701071177585484,1,Annual variation,cataluña
+2021-03-01T00:00:00.000+01:00,-3.7656687648352984,1,Annual variation,cataluña
+2021-04-01T00:00:00.000+02:00,0.7720341159307906,1,Annual variation,cataluña
+2021-05-01T00:00:00.000+02:00,1.7698173736812193,1,Annual variation,cataluña
+2021-06-01T00:00:00.000+02:00,1.615645574218624,1,Annual variation,cataluña
+2021-07-01T00:00:00.000+02:00,1.728519915761401,1,Annual variation,cataluña
+2021-08-01T00:00:00.000+02:00,1.588385857619862,1,Annual variation,cataluña
+2021-09-01T00:00:00.000+02:00,1.3090776004967033,1,Annual variation,cataluña
+2021-10-01T00:00:00.000+02:00,0.9961874701896096,1,Annual variation,cataluña
+2021-11-01T00:00:00.000+01:00,0.8849812744883859,1,Annual variation,cataluña
+2021-12-01T00:00:00.000+01:00,0.8488846955214076,1,Annual variation,cataluña
+2021-01-01T00:00:00.000+01:00,-5.024686198944458,1,Corrected annual variation,cataluña
+2021-02-01T00:00:00.000+01:00,-4.074241388763401,1,Corrected annual variation,cataluña
+2021-03-01T00:00:00.000+01:00,-2.205358276767395,1,Corrected annual variation,cataluña
+2021-04-01T00:00:00.000+02:00,2.3745004818762214,1,Corrected annual variation,cataluña
+2021-05-01T00:00:00.000+02:00,4.19189072163264,1,Corrected annual variation,cataluña
+2021-06-01T00:00:00.000+02:00,3.600396508656955,1,Corrected annual variation,cataluña
+2021-07-01T00:00:00.000+02:00,4.069147660187433,1,Corrected annual variation,cataluña
+2021-08-01T00:00:00.000+02:00,3.7484748982582974,1,Corrected annual variation,cataluña
+2021-09-01T00:00:00.000+02:00,3.205172100531289,1,Corrected annual variation,cataluña
+2021-10-01T00:00:00.000+02:00,2.334714592435968,1,Corrected annual variation,cataluña
+2021-11-01T00:00:00.000+01:00,2.2807851842069966,1,Corrected annual variation,cataluña
+2021-12-01T00:00:00.000+01:00,2.1351626575472236,1,Corrected annual variation,cataluña
+2021-01-01T00:00:00.000+01:00,135.637,1,Índice servicios,pais vasco
+2021-02-01T00:00:00.000+01:00,131.433,1,Índice servicios,pais vasco
+2021-03-01T00:00:00.000+01:00,136.62933333333334,1,Índice servicios,pais vasco
+2021-04-01T00:00:00.000+02:00,138.327,1,Índice servicios,pais vasco
+2021-05-01T00:00:00.000+02:00,143.516,1,Índice servicios,pais vasco
+2021-06-01T00:00:00.000+02:00,147.32049999999998,1,Índice servicios,pais vasco
+2021-07-01T00:00:00.000+02:00,153.47171428571428,1,Índice servicios,pais vasco
+2021-08-01T00:00:00.000+02:00,158.01375,1,Índice servicios,pais vasco
+2021-09-01T00:00:00.000+02:00,158.08988888888888,1,Índice servicios,pais vasco
+2021-10-01T00:00:00.000+02:00,157.7515,1,Índice servicios,pais vasco
+2021-11-01T00:00:00.000+01:00,155.8231818181818,1,Índice servicios,pais vasco
+2021-12-01T00:00:00.000+01:00,154.36291666666665,1,Índice servicios,pais vasco
+2021-01-01T00:00:00.000+01:00,122.729,1,Índice servicios corregido,pais vasco
+2021-02-01T00:00:00.000+01:00,124.2205,1,Índice servicios corregido,pais vasco
+2021-03-01T00:00:00.000+01:00,125.77466666666668,1,Índice servicios corregido,pais vasco
+2021-04-01T00:00:00.000+02:00,126.93875,1,Índice servicios corregido,pais vasco
+2021-05-01T00:00:00.000+02:00,127.53399999999999,1,Índice servicios corregido,pais vasco
+2021-06-01T00:00:00.000+02:00,126.98283333333332,1,Índice servicios corregido,pais vasco
+2021-07-01T00:00:00.000+02:00,127.05014285714284,1,Índice servicios corregido,pais vasco
+2021-08-01T00:00:00.000+02:00,126.70074999999999,1,Índice servicios corregido,pais vasco
+2021-09-01T00:00:00.000+02:00,125.59622222222222,1,Índice servicios corregido,pais vasco
+2021-10-01T00:00:00.000+02:00,125.25809999999998,1,Índice servicios corregido,pais vasco
+2021-11-01T00:00:00.000+01:00,125.33236363636364,1,Índice servicios corregido,pais vasco
+2021-12-01T00:00:00.000+01:00,125.28741666666667,1,Índice servicios corregido,pais vasco
+2021-01-01T00:00:00.000+01:00,-5.326381327302678,1,Annual variation,pais vasco
+2021-02-01T00:00:00.000+01:00,-6.701071177585484,1,Annual variation,pais vasco
+2021-03-01T00:00:00.000+01:00,-3.7656687648352984,1,Annual variation,pais vasco
+2021-04-01T00:00:00.000+02:00,0.7720341159307906,1,Annual variation,pais vasco
+2021-05-01T00:00:00.000+02:00,1.7698173736812193,1,Annual variation,pais vasco
+2021-06-01T00:00:00.000+02:00,1.615645574218624,1,Annual variation,pais vasco
+2021-07-01T00:00:00.000+02:00,1.728519915761401,1,Annual variation,pais vasco
+2021-08-01T00:00:00.000+02:00,1.588385857619862,1,Annual variation,pais vasco
+2021-09-01T00:00:00.000+02:00,1.3090776004967033,1,Annual variation,pais vasco
+2021-10-01T00:00:00.000+02:00,0.9961874701896096,1,Annual variation,pais vasco
+2021-11-01T00:00:00.000+01:00,0.8849812744883859,1,Annual variation,pais vasco
+2021-12-01T00:00:00.000+01:00,0.8488846955214076,1,Annual variation,pais vasco
+2021-01-01T00:00:00.000+01:00,-5.024686198944458,1,Corrected annual variation,pais vasco
+2021-02-01T00:00:00.000+01:00,-4.074241388763401,1,Corrected annual variation,pais vasco
+2021-03-01T00:00:00.000+01:00,-2.205358276767395,1,Corrected annual variation,pais vasco
+2021-04-01T00:00:00.000+02:00,2.3745004818762214,1,Corrected annual variation,pais vasco
+2021-05-01T00:00:00.000+02:00,4.19189072163264,1,Corrected annual variation,pais vasco
+2021-06-01T00:00:00.000+02:00,3.600396508656955,1,Corrected annual variation,pais vasco
+2021-07-01T00:00:00.000+02:00,4.069147660187433,1,Corrected annual variation,pais vasco
+2021-08-01T00:00:00.000+02:00,3.7484748982582974,1,Corrected annual variation,pais vasco
+2021-09-01T00:00:00.000+02:00,3.205172100531289,1,Corrected annual variation,pais vasco
+2021-10-01T00:00:00.000+02:00,2.334714592435968,1,Corrected annual variation,pais vasco
+2021-11-01T00:00:00.000+01:00,2.2807851842069966,1,Corrected annual variation,pais vasco
+2021-12-01T00:00:00.000+01:00,2.1351626575472236,1,Corrected annual variation,pais vasco
+2021-01-01T00:00:00.000+01:00,135.637,1,Índice servicios,principado de asturias
+2021-02-01T00:00:00.000+01:00,131.433,1,Índice servicios,principado de asturias
+2021-03-01T00:00:00.000+01:00,136.62933333333334,1,Índice servicios,principado de asturias
+2021-04-01T00:00:00.000+02:00,138.327,1,Índice servicios,principado de asturias
+2021-05-01T00:00:00.000+02:00,143.516,1,Índice servicios,principado de asturias
+2021-06-01T00:00:00.000+02:00,147.32049999999998,1,Índice servicios,principado de asturias
+2021-07-01T00:00:00.000+02:00,153.47171428571428,1,Índice servicios,principado de asturias
+2021-08-01T00:00:00.000+02:00,158.01375,1,Índice servicios,principado de asturias
+2021-09-01T00:00:00.000+02:00,158.08988888888888,1,Índice servicios,principado de asturias
+2021-10-01T00:00:00.000+02:00,157.7515,1,Índice servicios,principado de asturias
+2021-11-01T00:00:00.000+01:00,155.8231818181818,1,Índice servicios,principado de asturias
+2021-12-01T00:00:00.000+01:00,154.36291666666665,1,Índice servicios,principado de asturias
+2021-01-01T00:00:00.000+01:00,122.729,1,Índice servicios corregido,principado de asturias
+2021-02-01T00:00:00.000+01:00,124.2205,1,Índice servicios corregido,principado de asturias
+2021-03-01T00:00:00.000+01:00,125.77466666666668,1,Índice servicios corregido,principado de asturias
+2021-04-01T00:00:00.000+02:00,126.93875,1,Índice servicios corregido,principado de asturias
+2021-05-01T00:00:00.000+02:00,127.53399999999999,1,Índice servicios corregido,principado de asturias
+2021-06-01T00:00:00.000+02:00,126.98283333333332,1,Índice servicios corregido,principado de asturias
+2021-07-01T00:00:00.000+02:00,127.05014285714284,1,Índice servicios corregido,principado de asturias
+2021-08-01T00:00:00.000+02:00,126.70074999999999,1,Índice servicios corregido,principado de asturias
+2021-09-01T00:00:00.000+02:00,125.59622222222222,1,Índice servicios corregido,principado de asturias
+2021-10-01T00:00:00.000+02:00,125.25809999999998,1,Índice servicios corregido,principado de asturias
+2021-11-01T00:00:00.000+01:00,125.33236363636364,1,Índice servicios corregido,principado de asturias
+2021-12-01T00:00:00.000+01:00,125.28741666666667,1,Índice servicios corregido,principado de asturias
+2021-01-01T00:00:00.000+01:00,-5.326381327302678,1,Annual variation,principado de asturias
+2021-02-01T00:00:00.000+01:00,-6.701071177585484,1,Annual variation,principado de asturias
+2021-03-01T00:00:00.000+01:00,-3.7656687648352984,1,Annual variation,principado de asturias
+2021-04-01T00:00:00.000+02:00,0.7720341159307906,1,Annual variation,principado de asturias
+2021-05-01T00:00:00.000+02:00,1.7698173736812193,1,Annual variation,principado de asturias
+2021-06-01T00:00:00.000+02:00,1.615645574218624,1,Annual variation,principado de asturias
+2021-07-01T00:00:00.000+02:00,1.728519915761401,1,Annual variation,principado de asturias
+2021-08-01T00:00:00.000+02:00,1.588385857619862,1,Annual variation,principado de asturias
+2021-09-01T00:00:00.000+02:00,1.3090776004967033,1,Annual variation,principado de asturias
+2021-10-01T00:00:00.000+02:00,0.9961874701896096,1,Annual variation,principado de asturias
+2021-11-01T00:00:00.000+01:00,0.8849812744883859,1,Annual variation,principado de asturias
+2021-12-01T00:00:00.000+01:00,0.8488846955214076,1,Annual variation,principado de asturias
+2021-01-01T00:00:00.000+01:00,-5.024686198944458,1,Corrected annual variation,principado de asturias
+2021-02-01T00:00:00.000+01:00,-4.074241388763401,1,Corrected annual variation,principado de asturias
+2021-03-01T00:00:00.000+01:00,-2.205358276767395,1,Corrected annual variation,principado de asturias
+2021-04-01T00:00:00.000+02:00,2.3745004818762214,1,Corrected annual variation,principado de asturias
+2021-05-01T00:00:00.000+02:00,4.19189072163264,1,Corrected annual variation,principado de asturias
+2021-06-01T00:00:00.000+02:00,3.600396508656955,1,Corrected annual variation,principado de asturias
+2021-07-01T00:00:00.000+02:00,4.069147660187433,1,Corrected annual variation,principado de asturias
+2021-08-01T00:00:00.000+02:00,3.7484748982582974,1,Corrected annual variation,principado de asturias
+2021-09-01T00:00:00.000+02:00,3.205172100531289,1,Corrected annual variation,principado de asturias
+2021-10-01T00:00:00.000+02:00,2.334714592435968,1,Corrected annual variation,principado de asturias
+2021-11-01T00:00:00.000+01:00,2.2807851842069966,1,Corrected annual variation,principado de asturias
+2021-12-01T00:00:00.000+01:00,2.1351626575472236,1,Corrected annual variation,principado de asturias
+2021-01-01T00:00:00.000+01:00,135.637,1,Índice servicios,comunidad de madrid
+2021-02-01T00:00:00.000+01:00,131.433,1,Índice servicios,comunidad de madrid
+2021-03-01T00:00:00.000+01:00,136.62933333333334,1,Índice servicios,comunidad de madrid
+2021-04-01T00:00:00.000+02:00,138.327,1,Índice servicios,comunidad de madrid
+2021-05-01T00:00:00.000+02:00,143.516,1,Índice servicios,comunidad de madrid
+2021-06-01T00:00:00.000+02:00,147.32049999999998,1,Índice servicios,comunidad de madrid
+2021-07-01T00:00:00.000+02:00,153.47171428571428,1,Índice servicios,comunidad de madrid
+2021-08-01T00:00:00.000+02:00,158.01375,1,Índice servicios,comunidad de madrid
+2021-09-01T00:00:00.000+02:00,158.08988888888888,1,Índice servicios,comunidad de madrid
+2021-10-01T00:00:00.000+02:00,157.7515,1,Índice servicios,comunidad de madrid
+2021-11-01T00:00:00.000+01:00,155.8231818181818,1,Índice servicios,comunidad de madrid
+2021-12-01T00:00:00.000+01:00,154.36291666666665,1,Índice servicios,comunidad de madrid
+2021-01-01T00:00:00.000+01:00,122.729,1,Índice servicios corregido,comunidad de madrid
+2021-02-01T00:00:00.000+01:00,124.2205,1,Índice servicios corregido,comunidad de madrid
+2021-03-01T00:00:00.000+01:00,125.77466666666668,1,Índice servicios corregido,comunidad de madrid
+2021-04-01T00:00:00.000+02:00,126.93875,1,Índice servicios corregido,comunidad de madrid
+2021-05-01T00:00:00.000+02:00,127.53399999999999,1,Índice servicios corregido,comunidad de madrid
+2021-06-01T00:00:00.000+02:00,126.98283333333332,1,Índice servicios corregido,comunidad de madrid
+2021-07-01T00:00:00.000+02:00,127.05014285714284,1,Índice servicios corregido,comunidad de madrid
+2021-08-01T00:00:00.000+02:00,126.70074999999999,1,Índice servicios corregido,comunidad de madrid
+2021-09-01T00:00:00.000+02:00,125.59622222222222,1,Índice servicios corregido,comunidad de madrid
+2021-10-01T00:00:00.000+02:00,125.25809999999998,1,Índice servicios corregido,comunidad de madrid
+2021-11-01T00:00:00.000+01:00,125.33236363636364,1,Índice servicios corregido,comunidad de madrid
+2021-12-01T00:00:00.000+01:00,125.28741666666667,1,Índice servicios corregido,comunidad de madrid
+2021-01-01T00:00:00.000+01:00,-5.326381327302678,1,Annual variation,comunidad de madrid
+2021-02-01T00:00:00.000+01:00,-6.701071177585484,1,Annual variation,comunidad de madrid
+2021-03-01T00:00:00.000+01:00,-3.7656687648352984,1,Annual variation,comunidad de madrid
+2021-04-01T00:00:00.000+02:00,0.7720341159307906,1,Annual variation,comunidad de madrid
+2021-05-01T00:00:00.000+02:00,1.7698173736812193,1,Annual variation,comunidad de madrid
+2021-06-01T00:00:00.000+02:00,1.615645574218624,1,Annual variation,comunidad de madrid
+2021-07-01T00:00:00.000+02:00,1.728519915761401,1,Annual variation,comunidad de madrid
+2021-08-01T00:00:00.000+02:00,1.588385857619862,1,Annual variation,comunidad de madrid
+2021-09-01T00:00:00.000+02:00,1.3090776004967033,1,Annual variation,comunidad de madrid
+2021-10-01T00:00:00.000+02:00,0.9961874701896096,1,Annual variation,comunidad de madrid
+2021-11-01T00:00:00.000+01:00,0.8849812744883859,1,Annual variation,comunidad de madrid
+2021-12-01T00:00:00.000+01:00,0.8488846955214076,1,Annual variation,comunidad de madrid
+2021-01-01T00:00:00.000+01:00,-5.024686198944458,1,Corrected annual variation,comunidad de madrid
+2021-02-01T00:00:00.000+01:00,-4.074241388763401,1,Corrected annual variation,comunidad de madrid
+2021-03-01T00:00:00.000+01:00,-2.205358276767395,1,Corrected annual variation,comunidad de madrid
+2021-04-01T00:00:00.000+02:00,2.3745004818762214,1,Corrected annual variation,comunidad de madrid
+2021-05-01T00:00:00.000+02:00,4.19189072163264,1,Corrected annual variation,comunidad de madrid
+2021-06-01T00:00:00.000+02:00,3.600396508656955,1,Corrected annual variation,comunidad de madrid
+2021-07-01T00:00:00.000+02:00,4.069147660187433,1,Corrected annual variation,comunidad de madrid
+2021-08-01T00:00:00.000+02:00,3.7484748982582974,1,Corrected annual variation,comunidad de madrid
+2021-09-01T00:00:00.000+02:00,3.205172100531289,1,Corrected annual variation,comunidad de madrid
+2021-10-01T00:00:00.000+02:00,2.334714592435968,1,Corrected annual variation,comunidad de madrid
+2021-11-01T00:00:00.000+01:00,2.2807851842069966,1,Corrected annual variation,comunidad de madrid
+2021-12-01T00:00:00.000+01:00,2.1351626575472236,1,Corrected annual variation,comunidad de madrid
+2021-01-01T00:00:00.000+01:00,135.637,1,Índice servicios,comunidad de navarra
+2021-02-01T00:00:00.000+01:00,131.433,1,Índice servicios,comunidad de navarra
+2021-03-01T00:00:00.000+01:00,136.62933333333334,1,Índice servicios,comunidad de navarra
+2021-04-01T00:00:00.000+02:00,138.327,1,Índice servicios,comunidad de navarra
+2021-05-01T00:00:00.000+02:00,143.516,1,Índice servicios,comunidad de navarra
+2021-06-01T00:00:00.000+02:00,147.32049999999998,1,Índice servicios,comunidad de navarra
+2021-07-01T00:00:00.000+02:00,153.47171428571428,1,Índice servicios,comunidad de navarra
+2021-08-01T00:00:00.000+02:00,158.01375,1,Índice servicios,comunidad de navarra
+2021-09-01T00:00:00.000+02:00,158.08988888888888,1,Índice servicios,comunidad de navarra
+2021-10-01T00:00:00.000+02:00,157.7515,1,Índice servicios,comunidad de navarra
+2021-11-01T00:00:00.000+01:00,155.8231818181818,1,Índice servicios,comunidad de navarra
+2021-12-01T00:00:00.000+01:00,154.36291666666665,1,Índice servicios,comunidad de navarra
+2021-01-01T00:00:00.000+01:00,122.729,1,Índice servicios corregido,comunidad de navarra
+2021-02-01T00:00:00.000+01:00,124.2205,1,Índice servicios corregido,comunidad de navarra
+2021-03-01T00:00:00.000+01:00,125.77466666666668,1,Índice servicios corregido,comunidad de navarra
+2021-04-01T00:00:00.000+02:00,126.93875,1,Índice servicios corregido,comunidad de navarra
+2021-05-01T00:00:00.000+02:00,127.53399999999999,1,Índice servicios corregido,comunidad de navarra
+2021-06-01T00:00:00.000+02:00,126.98283333333332,1,Índice servicios corregido,comunidad de navarra
+2021-07-01T00:00:00.000+02:00,127.05014285714284,1,Índice servicios corregido,comunidad de navarra
+2021-08-01T00:00:00.000+02:00,126.70074999999999,1,Índice servicios corregido,comunidad de navarra
+2021-09-01T00:00:00.000+02:00,125.59622222222222,1,Índice servicios corregido,comunidad de navarra
+2021-10-01T00:00:00.000+02:00,125.25809999999998,1,Índice servicios corregido,comunidad de navarra
+2021-11-01T00:00:00.000+01:00,125.33236363636364,1,Índice servicios corregido,comunidad de navarra
+2021-12-01T00:00:00.000+01:00,125.28741666666667,1,Índice servicios corregido,comunidad de navarra
+2021-01-01T00:00:00.000+01:00,-5.326381327302678,1,Annual variation,comunidad de navarra
+2021-02-01T00:00:00.000+01:00,-6.701071177585484,1,Annual variation,comunidad de navarra
+2021-03-01T00:00:00.000+01:00,-3.7656687648352984,1,Annual variation,comunidad de navarra
+2021-04-01T00:00:00.000+02:00,0.7720341159307906,1,Annual variation,comunidad de navarra
+2021-05-01T00:00:00.000+02:00,1.7698173736812193,1,Annual variation,comunidad de navarra
+2021-06-01T00:00:00.000+02:00,1.615645574218624,1,Annual variation,comunidad de navarra
+2021-07-01T00:00:00.000+02:00,1.728519915761401,1,Annual variation,comunidad de navarra
+2021-08-01T00:00:00.000+02:00,1.588385857619862,1,Annual variation,comunidad de navarra
+2021-09-01T00:00:00.000+02:00,1.3090776004967033,1,Annual variation,comunidad de navarra
+2021-10-01T00:00:00.000+02:00,0.9961874701896096,1,Annual variation,comunidad de navarra
+2021-11-01T00:00:00.000+01:00,0.8849812744883859,1,Annual variation,comunidad de navarra
+2021-12-01T00:00:00.000+01:00,0.8488846955214076,1,Annual variation,comunidad de navarra
+2021-01-01T00:00:00.000+01:00,-5.024686198944458,1,Corrected annual variation,comunidad de navarra
+2021-02-01T00:00:00.000+01:00,-4.074241388763401,1,Corrected annual variation,comunidad de navarra
+2021-03-01T00:00:00.000+01:00,-2.205358276767395,1,Corrected annual variation,comunidad de navarra
+2021-04-01T00:00:00.000+02:00,2.3745004818762214,1,Corrected annual variation,comunidad de navarra
+2021-05-01T00:00:00.000+02:00,4.19189072163264,1,Corrected annual variation,comunidad de navarra
+2021-06-01T00:00:00.000+02:00,3.600396508656955,1,Corrected annual variation,comunidad de navarra
+2021-07-01T00:00:00.000+02:00,4.069147660187433,1,Corrected annual variation,comunidad de navarra
+2021-08-01T00:00:00.000+02:00,3.7484748982582974,1,Corrected annual variation,comunidad de navarra
+2021-09-01T00:00:00.000+02:00,3.205172100531289,1,Corrected annual variation,comunidad de navarra
+2021-10-01T00:00:00.000+02:00,2.334714592435968,1,Corrected annual variation,comunidad de navarra
+2021-11-01T00:00:00.000+01:00,2.2807851842069966,1,Corrected annual variation,comunidad de navarra
+2021-12-01T00:00:00.000+01:00,2.1351626575472236,1,Corrected annual variation,comunidad de navarra
+2021-01-01T00:00:00.000+01:00,135.637,1,Índice servicios,comunidad valenciana
+2021-02-01T00:00:00.000+01:00,131.433,1,Índice servicios,comunidad valenciana
+2021-03-01T00:00:00.000+01:00,136.62933333333334,1,Índice servicios,comunidad valenciana
+2021-04-01T00:00:00.000+02:00,138.327,1,Índice servicios,comunidad valenciana
+2021-05-01T00:00:00.000+02:00,143.516,1,Índice servicios,comunidad valenciana
+2021-06-01T00:00:00.000+02:00,147.32049999999998,1,Índice servicios,comunidad valenciana
+2021-07-01T00:00:00.000+02:00,153.47171428571428,1,Índice servicios,comunidad valenciana
+2021-08-01T00:00:00.000+02:00,158.01375,1,Índice servicios,comunidad valenciana
+2021-09-01T00:00:00.000+02:00,158.08988888888888,1,Índice servicios,comunidad valenciana
+2021-10-01T00:00:00.000+02:00,157.7515,1,Índice servicios,comunidad valenciana
+2021-11-01T00:00:00.000+01:00,155.8231818181818,1,Índice servicios,comunidad valenciana
+2021-12-01T00:00:00.000+01:00,154.36291666666665,1,Índice servicios,comunidad valenciana
+2021-01-01T00:00:00.000+01:00,122.729,1,Índice servicios corregido,comunidad valenciana
+2021-02-01T00:00:00.000+01:00,124.2205,1,Índice servicios corregido,comunidad valenciana
+2021-03-01T00:00:00.000+01:00,125.77466666666668,1,Índice servicios corregido,comunidad valenciana
+2021-04-01T00:00:00.000+02:00,126.93875,1,Índice servicios corregido,comunidad valenciana
+2021-05-01T00:00:00.000+02:00,127.53399999999999,1,Índice servicios corregido,comunidad valenciana
+2021-06-01T00:00:00.000+02:00,126.98283333333332,1,Índice servicios corregido,comunidad valenciana
+2021-07-01T00:00:00.000+02:00,127.05014285714284,1,Índice servicios corregido,comunidad valenciana
+2021-08-01T00:00:00.000+02:00,126.70074999999999,1,Índice servicios corregido,comunidad valenciana
+2021-09-01T00:00:00.000+02:00,125.59622222222222,1,Índice servicios corregido,comunidad valenciana
+2021-10-01T00:00:00.000+02:00,125.25809999999998,1,Índice servicios corregido,comunidad valenciana
+2021-11-01T00:00:00.000+01:00,125.33236363636364,1,Índice servicios corregido,comunidad valenciana
+2021-12-01T00:00:00.000+01:00,125.28741666666667,1,Índice servicios corregido,comunidad valenciana
+2021-01-01T00:00:00.000+01:00,-5.326381327302678,1,Annual variation,comunidad valenciana
+2021-02-01T00:00:00.000+01:00,-6.701071177585484,1,Annual variation,comunidad valenciana
+2021-03-01T00:00:00.000+01:00,-3.7656687648352984,1,Annual variation,comunidad valenciana
+2021-04-01T00:00:00.000+02:00,0.7720341159307906,1,Annual variation,comunidad valenciana
+2021-05-01T00:00:00.000+02:00,1.7698173736812193,1,Annual variation,comunidad valenciana
+2021-06-01T00:00:00.000+02:00,1.615645574218624,1,Annual variation,comunidad valenciana
+2021-07-01T00:00:00.000+02:00,1.728519915761401,1,Annual variation,comunidad valenciana
+2021-08-01T00:00:00.000+02:00,1.588385857619862,1,Annual variation,comunidad valenciana
+2021-09-01T00:00:00.000+02:00,1.3090776004967033,1,Annual variation,comunidad valenciana
+2021-10-01T00:00:00.000+02:00,0.9961874701896096,1,Annual variation,comunidad valenciana
+2021-11-01T00:00:00.000+01:00,0.8849812744883859,1,Annual variation,comunidad valenciana
+2021-12-01T00:00:00.000+01:00,0.8488846955214076,1,Annual variation,comunidad valenciana
+2021-01-01T00:00:00.000+01:00,-5.024686198944458,1,Corrected annual variation,comunidad valenciana
+2021-02-01T00:00:00.000+01:00,-4.074241388763401,1,Corrected annual variation,comunidad valenciana
+2021-03-01T00:00:00.000+01:00,-2.205358276767395,1,Corrected annual variation,comunidad valenciana
+2021-04-01T00:00:00.000+02:00,2.3745004818762214,1,Corrected annual variation,comunidad valenciana
+2021-05-01T00:00:00.000+02:00,4.19189072163264,1,Corrected annual variation,comunidad valenciana
+2021-06-01T00:00:00.000+02:00,3.600396508656955,1,Corrected annual variation,comunidad valenciana
+2021-07-01T00:00:00.000+02:00,4.069147660187433,1,Corrected annual variation,comunidad valenciana
+2021-08-01T00:00:00.000+02:00,3.7484748982582974,1,Corrected annual variation,comunidad valenciana
+2021-09-01T00:00:00.000+02:00,3.205172100531289,1,Corrected annual variation,comunidad valenciana
+2021-10-01T00:00:00.000+02:00,2.334714592435968,1,Corrected annual variation,comunidad valenciana
+2021-11-01T00:00:00.000+01:00,2.2807851842069966,1,Corrected annual variation,comunidad valenciana
+2021-12-01T00:00:00.000+01:00,2.1351626575472236,1,Corrected annual variation,comunidad valenciana
+2021-01-01T00:00:00.000+01:00,135.637,1,Índice servicios,extremadura
+2021-02-01T00:00:00.000+01:00,131.433,1,Índice servicios,extremadura
+2021-03-01T00:00:00.000+01:00,136.62933333333334,1,Índice servicios,extremadura
+2021-04-01T00:00:00.000+02:00,138.327,1,Índice servicios,extremadura
+2021-05-01T00:00:00.000+02:00,143.516,1,Índice servicios,extremadura
+2021-06-01T00:00:00.000+02:00,147.32049999999998,1,Índice servicios,extremadura
+2021-07-01T00:00:00.000+02:00,153.47171428571428,1,Índice servicios,extremadura
+2021-08-01T00:00:00.000+02:00,158.01375,1,Índice servicios,extremadura
+2021-09-01T00:00:00.000+02:00,158.08988888888888,1,Índice servicios,extremadura
+2021-10-01T00:00:00.000+02:00,157.7515,1,Índice servicios,extremadura
+2021-11-01T00:00:00.000+01:00,155.8231818181818,1,Índice servicios,extremadura
+2021-12-01T00:00:00.000+01:00,154.36291666666665,1,Índice servicios,extremadura
+2021-01-01T00:00:00.000+01:00,122.729,1,Índice servicios corregido,extremadura
+2021-02-01T00:00:00.000+01:00,124.2205,1,Índice servicios corregido,extremadura
+2021-03-01T00:00:00.000+01:00,125.77466666666668,1,Índice servicios corregido,extremadura
+2021-04-01T00:00:00.000+02:00,126.93875,1,Índice servicios corregido,extremadura
+2021-05-01T00:00:00.000+02:00,127.53399999999999,1,Índice servicios corregido,extremadura
+2021-06-01T00:00:00.000+02:00,126.98283333333332,1,Índice servicios corregido,extremadura
+2021-07-01T00:00:00.000+02:00,127.05014285714284,1,Índice servicios corregido,extremadura
+2021-08-01T00:00:00.000+02:00,126.70074999999999,1,Índice servicios corregido,extremadura
+2021-09-01T00:00:00.000+02:00,125.59622222222222,1,Índice servicios corregido,extremadura
+2021-10-01T00:00:00.000+02:00,125.25809999999998,1,Índice servicios corregido,extremadura
+2021-11-01T00:00:00.000+01:00,125.33236363636364,1,Índice servicios corregido,extremadura
+2021-12-01T00:00:00.000+01:00,125.28741666666667,1,Índice servicios corregido,extremadura
+2021-01-01T00:00:00.000+01:00,-5.326381327302678,1,Annual variation,extremadura
+2021-02-01T00:00:00.000+01:00,-6.701071177585484,1,Annual variation,extremadura
+2021-03-01T00:00:00.000+01:00,-3.7656687648352984,1,Annual variation,extremadura
+2021-04-01T00:00:00.000+02:00,0.7720341159307906,1,Annual variation,extremadura
+2021-05-01T00:00:00.000+02:00,1.7698173736812193,1,Annual variation,extremadura
+2021-06-01T00:00:00.000+02:00,1.615645574218624,1,Annual variation,extremadura
+2021-07-01T00:00:00.000+02:00,1.728519915761401,1,Annual variation,extremadura
+2021-08-01T00:00:00.000+02:00,1.588385857619862,1,Annual variation,extremadura
+2021-09-01T00:00:00.000+02:00,1.3090776004967033,1,Annual variation,extremadura
+2021-10-01T00:00:00.000+02:00,0.9961874701896096,1,Annual variation,extremadura
+2021-11-01T00:00:00.000+01:00,0.8849812744883859,1,Annual variation,extremadura
+2021-12-01T00:00:00.000+01:00,0.8488846955214076,1,Annual variation,extremadura
+2021-01-01T00:00:00.000+01:00,-5.024686198944458,1,Corrected annual variation,extremadura
+2021-02-01T00:00:00.000+01:00,-4.074241388763401,1,Corrected annual variation,extremadura
+2021-03-01T00:00:00.000+01:00,-2.205358276767395,1,Corrected annual variation,extremadura
+2021-04-01T00:00:00.000+02:00,2.3745004818762214,1,Corrected annual variation,extremadura
+2021-05-01T00:00:00.000+02:00,4.19189072163264,1,Corrected annual variation,extremadura
+2021-06-01T00:00:00.000+02:00,3.600396508656955,1,Corrected annual variation,extremadura
+2021-07-01T00:00:00.000+02:00,4.069147660187433,1,Corrected annual variation,extremadura
+2021-08-01T00:00:00.000+02:00,3.7484748982582974,1,Corrected annual variation,extremadura
+2021-09-01T00:00:00.000+02:00,3.205172100531289,1,Corrected annual variation,extremadura
+2021-10-01T00:00:00.000+02:00,2.334714592435968,1,Corrected annual variation,extremadura
+2021-11-01T00:00:00.000+01:00,2.2807851842069966,1,Corrected annual variation,extremadura
+2021-12-01T00:00:00.000+01:00,2.1351626575472236,1,Corrected annual variation,extremadura
+2021-01-01T00:00:00.000+01:00,135.637,1,Índice servicios,galicia
+2021-02-01T00:00:00.000+01:00,131.433,1,Índice servicios,galicia
+2021-03-01T00:00:00.000+01:00,136.62933333333334,1,Índice servicios,galicia
+2021-04-01T00:00:00.000+02:00,138.327,1,Índice servicios,galicia
+2021-05-01T00:00:00.000+02:00,143.516,1,Índice servicios,galicia
+2021-06-01T00:00:00.000+02:00,147.32049999999998,1,Índice servicios,galicia
+2021-07-01T00:00:00.000+02:00,153.47171428571428,1,Índice servicios,galicia
+2021-08-01T00:00:00.000+02:00,158.01375,1,Índice servicios,galicia
+2021-09-01T00:00:00.000+02:00,158.08988888888888,1,Índice servicios,galicia
+2021-10-01T00:00:00.000+02:00,157.7515,1,Índice servicios,galicia
+2021-11-01T00:00:00.000+01:00,155.8231818181818,1,Índice servicios,galicia
+2021-12-01T00:00:00.000+01:00,154.36291666666665,1,Índice servicios,galicia
+2021-01-01T00:00:00.000+01:00,122.729,1,Índice servicios corregido,galicia
+2021-02-01T00:00:00.000+01:00,124.2205,1,Índice servicios corregido,galicia
+2021-03-01T00:00:00.000+01:00,125.77466666666668,1,Índice servicios corregido,galicia
+2021-04-01T00:00:00.000+02:00,126.93875,1,Índice servicios corregido,galicia
+2021-05-01T00:00:00.000+02:00,127.53399999999999,1,Índice servicios corregido,galicia
+2021-06-01T00:00:00.000+02:00,126.98283333333332,1,Índice servicios corregido,galicia
+2021-07-01T00:00:00.000+02:00,127.05014285714284,1,Índice servicios corregido,galicia
+2021-08-01T00:00:00.000+02:00,126.70074999999999,1,Índice servicios corregido,galicia
+2021-09-01T00:00:00.000+02:00,125.59622222222222,1,Índice servicios corregido,galicia
+2021-10-01T00:00:00.000+02:00,125.25809999999998,1,Índice servicios corregido,galicia
+2021-11-01T00:00:00.000+01:00,125.33236363636364,1,Índice servicios corregido,galicia
+2021-12-01T00:00:00.000+01:00,125.28741666666667,1,Índice servicios corregido,galicia
+2021-01-01T00:00:00.000+01:00,-5.326381327302678,1,Annual variation,galicia
+2021-02-01T00:00:00.000+01:00,-6.701071177585484,1,Annual variation,galicia
+2021-03-01T00:00:00.000+01:00,-3.7656687648352984,1,Annual variation,galicia
+2021-04-01T00:00:00.000+02:00,0.7720341159307906,1,Annual variation,galicia
+2021-05-01T00:00:00.000+02:00,1.7698173736812193,1,Annual variation,galicia
+2021-06-01T00:00:00.000+02:00,1.615645574218624,1,Annual variation,galicia
+2021-07-01T00:00:00.000+02:00,1.728519915761401,1,Annual variation,galicia
+2021-08-01T00:00:00.000+02:00,1.588385857619862,1,Annual variation,galicia
+2021-09-01T00:00:00.000+02:00,1.3090776004967033,1,Annual variation,galicia
+2021-10-01T00:00:00.000+02:00,0.9961874701896096,1,Annual variation,galicia
+2021-11-01T00:00:00.000+01:00,0.8849812744883859,1,Annual variation,galicia
+2021-12-01T00:00:00.000+01:00,0.8488846955214076,1,Annual variation,galicia
+2021-01-01T00:00:00.000+01:00,-5.024686198944458,1,Corrected annual variation,galicia
+2021-02-01T00:00:00.000+01:00,-4.074241388763401,1,Corrected annual variation,galicia
+2021-03-01T00:00:00.000+01:00,-2.205358276767395,1,Corrected annual variation,galicia
+2021-04-01T00:00:00.000+02:00,2.3745004818762214,1,Corrected annual variation,galicia
+2021-05-01T00:00:00.000+02:00,4.19189072163264,1,Corrected annual variation,galicia
+2021-06-01T00:00:00.000+02:00,3.600396508656955,1,Corrected annual variation,galicia
+2021-07-01T00:00:00.000+02:00,4.069147660187433,1,Corrected annual variation,galicia
+2021-08-01T00:00:00.000+02:00,3.7484748982582974,1,Corrected annual variation,galicia
+2021-09-01T00:00:00.000+02:00,3.205172100531289,1,Corrected annual variation,galicia
+2021-10-01T00:00:00.000+02:00,2.334714592435968,1,Corrected annual variation,galicia
+2021-11-01T00:00:00.000+01:00,2.2807851842069966,1,Corrected annual variation,galicia
+2021-12-01T00:00:00.000+01:00,2.1351626575472236,1,Corrected annual variation,galicia
+2021-01-01T00:00:00.000+01:00,135.637,1,Índice servicios,la rioja
+2021-02-01T00:00:00.000+01:00,131.433,1,Índice servicios,la rioja
+2021-03-01T00:00:00.000+01:00,136.62933333333334,1,Índice servicios,la rioja
+2021-04-01T00:00:00.000+02:00,138.327,1,Índice servicios,la rioja
+2021-05-01T00:00:00.000+02:00,143.516,1,Índice servicios,la rioja
+2021-06-01T00:00:00.000+02:00,147.32049999999998,1,Índice servicios,la rioja
+2021-07-01T00:00:00.000+02:00,153.47171428571428,1,Índice servicios,la rioja
+2021-08-01T00:00:00.000+02:00,158.01375,1,Índice servicios,la rioja
+2021-09-01T00:00:00.000+02:00,158.08988888888888,1,Índice servicios,la rioja
+2021-10-01T00:00:00.000+02:00,157.7515,1,Índice servicios,la rioja
+2021-11-01T00:00:00.000+01:00,155.8231818181818,1,Índice servicios,la rioja
+2021-12-01T00:00:00.000+01:00,154.36291666666665,1,Índice servicios,la rioja
+2021-01-01T00:00:00.000+01:00,122.729,1,Índice servicios corregido,la rioja
+2021-02-01T00:00:00.000+01:00,124.2205,1,Índice servicios corregido,la rioja
+2021-03-01T00:00:00.000+01:00,125.77466666666668,1,Índice servicios corregido,la rioja
+2021-04-01T00:00:00.000+02:00,126.93875,1,Índice servicios corregido,la rioja
+2021-05-01T00:00:00.000+02:00,127.53399999999999,1,Índice servicios corregido,la rioja
+2021-06-01T00:00:00.000+02:00,126.98283333333332,1,Índice servicios corregido,la rioja
+2021-07-01T00:00:00.000+02:00,127.05014285714284,1,Índice servicios corregido,la rioja
+2021-08-01T00:00:00.000+02:00,126.70074999999999,1,Índice servicios corregido,la rioja
+2021-09-01T00:00:00.000+02:00,125.59622222222222,1,Índice servicios corregido,la rioja
+2021-10-01T00:00:00.000+02:00,125.25809999999998,1,Índice servicios corregido,la rioja
+2021-11-01T00:00:00.000+01:00,125.33236363636364,1,Índice servicios corregido,la rioja
+2021-12-01T00:00:00.000+01:00,125.28741666666667,1,Índice servicios corregido,la rioja
+2021-01-01T00:00:00.000+01:00,-5.326381327302678,1,Annual variation,la rioja
+2021-02-01T00:00:00.000+01:00,-6.701071177585484,1,Annual variation,la rioja
+2021-03-01T00:00:00.000+01:00,-3.7656687648352984,1,Annual variation,la rioja
+2021-04-01T00:00:00.000+02:00,0.7720341159307906,1,Annual variation,la rioja
+2021-05-01T00:00:00.000+02:00,1.7698173736812193,1,Annual variation,la rioja
+2021-06-01T00:00:00.000+02:00,1.615645574218624,1,Annual variation,la rioja
+2021-07-01T00:00:00.000+02:00,1.728519915761401,1,Annual variation,la rioja
+2021-08-01T00:00:00.000+02:00,1.588385857619862,1,Annual variation,la rioja
+2021-09-01T00:00:00.000+02:00,1.3090776004967033,1,Annual variation,la rioja
+2021-10-01T00:00:00.000+02:00,0.9961874701896096,1,Annual variation,la rioja
+2021-11-01T00:00:00.000+01:00,0.8849812744883859,1,Annual variation,la rioja
+2021-12-01T00:00:00.000+01:00,0.8488846955214076,1,Annual variation,la rioja
+2021-01-01T00:00:00.000+01:00,-5.024686198944458,1,Corrected annual variation,la rioja
+2021-02-01T00:00:00.000+01:00,-4.074241388763401,1,Corrected annual variation,la rioja
+2021-03-01T00:00:00.000+01:00,-2.205358276767395,1,Corrected annual variation,la rioja
+2021-04-01T00:00:00.000+02:00,2.3745004818762214,1,Corrected annual variation,la rioja
+2021-05-01T00:00:00.000+02:00,4.19189072163264,1,Corrected annual variation,la rioja
+2021-06-01T00:00:00.000+02:00,3.600396508656955,1,Corrected annual variation,la rioja
+2021-07-01T00:00:00.000+02:00,4.069147660187433,1,Corrected annual variation,la rioja
+2021-08-01T00:00:00.000+02:00,3.7484748982582974,1,Corrected annual variation,la rioja
+2021-09-01T00:00:00.000+02:00,3.205172100531289,1,Corrected annual variation,la rioja
+2021-10-01T00:00:00.000+02:00,2.334714592435968,1,Corrected annual variation,la rioja
+2021-11-01T00:00:00.000+01:00,2.2807851842069966,1,Corrected annual variation,la rioja
+2021-12-01T00:00:00.000+01:00,2.1351626575472236,1,Corrected annual variation,la rioja
+2021-01-01T00:00:00.000+01:00,135.637,1,Índice servicios,region de murcia
+2021-02-01T00:00:00.000+01:00,131.433,1,Índice servicios,region de murcia
+2021-03-01T00:00:00.000+01:00,136.62933333333334,1,Índice servicios,region de murcia
+2021-04-01T00:00:00.000+02:00,138.327,1,Índice servicios,region de murcia
+2021-05-01T00:00:00.000+02:00,143.516,1,Índice servicios,region de murcia
+2021-06-01T00:00:00.000+02:00,147.32049999999998,1,Índice servicios,region de murcia
+2021-07-01T00:00:00.000+02:00,153.47171428571428,1,Índice servicios,region de murcia
+2021-08-01T00:00:00.000+02:00,158.01375,1,Índice servicios,region de murcia
+2021-09-01T00:00:00.000+02:00,158.08988888888888,1,Índice servicios,region de murcia
+2021-10-01T00:00:00.000+02:00,157.7515,1,Índice servicios,region de murcia
+2021-11-01T00:00:00.000+01:00,155.8231818181818,1,Índice servicios,region de murcia
+2021-12-01T00:00:00.000+01:00,154.36291666666665,1,Índice servicios,region de murcia
+2021-01-01T00:00:00.000+01:00,122.729,1,Índice servicios corregido,region de murcia
+2021-02-01T00:00:00.000+01:00,124.2205,1,Índice servicios corregido,region de murcia
+2021-03-01T00:00:00.000+01:00,125.77466666666668,1,Índice servicios corregido,region de murcia
+2021-04-01T00:00:00.000+02:00,126.93875,1,Índice servicios corregido,region de murcia
+2021-05-01T00:00:00.000+02:00,127.53399999999999,1,Índice servicios corregido,region de murcia
+2021-06-01T00:00:00.000+02:00,126.98283333333332,1,Índice servicios corregido,region de murcia
+2021-07-01T00:00:00.000+02:00,127.05014285714284,1,Índice servicios corregido,region de murcia
+2021-08-01T00:00:00.000+02:00,126.70074999999999,1,Índice servicios corregido,region de murcia
+2021-09-01T00:00:00.000+02:00,125.59622222222222,1,Índice servicios corregido,region de murcia
+2021-10-01T00:00:00.000+02:00,125.25809999999998,1,Índice servicios corregido,region de murcia
+2021-11-01T00:00:00.000+01:00,125.33236363636364,1,Índice servicios corregido,region de murcia
+2021-12-01T00:00:00.000+01:00,125.28741666666667,1,Índice servicios corregido,region de murcia
+2021-01-01T00:00:00.000+01:00,-5.326381327302678,1,Annual variation,region de murcia
+2021-02-01T00:00:00.000+01:00,-6.701071177585484,1,Annual variation,region de murcia
+2021-03-01T00:00:00.000+01:00,-3.7656687648352984,1,Annual variation,region de murcia
+2021-04-01T00:00:00.000+02:00,0.7720341159307906,1,Annual variation,region de murcia
+2021-05-01T00:00:00.000+02:00,1.7698173736812193,1,Annual variation,region de murcia
+2021-06-01T00:00:00.000+02:00,1.615645574218624,1,Annual variation,region de murcia
+2021-07-01T00:00:00.000+02:00,1.728519915761401,1,Annual variation,region de murcia
+2021-08-01T00:00:00.000+02:00,1.588385857619862,1,Annual variation,region de murcia
+2021-09-01T00:00:00.000+02:00,1.3090776004967033,1,Annual variation,region de murcia
+2021-10-01T00:00:00.000+02:00,0.9961874701896096,1,Annual variation,region de murcia
+2021-11-01T00:00:00.000+01:00,0.8849812744883859,1,Annual variation,region de murcia
+2021-12-01T00:00:00.000+01:00,0.8488846955214076,1,Annual variation,region de murcia
+2021-01-01T00:00:00.000+01:00,-5.024686198944458,1,Corrected annual variation,region de murcia
+2021-02-01T00:00:00.000+01:00,-4.074241388763401,1,Corrected annual variation,region de murcia
+2021-03-01T00:00:00.000+01:00,-2.205358276767395,1,Corrected annual variation,region de murcia
+2021-04-01T00:00:00.000+02:00,2.3745004818762214,1,Corrected annual variation,region de murcia
+2021-05-01T00:00:00.000+02:00,4.19189072163264,1,Corrected annual variation,region de murcia
+2021-06-01T00:00:00.000+02:00,3.600396508656955,1,Corrected annual variation,region de murcia
+2021-07-01T00:00:00.000+02:00,4.069147660187433,1,Corrected annual variation,region de murcia
+2021-08-01T00:00:00.000+02:00,3.7484748982582974,1,Corrected annual variation,region de murcia
+2021-09-01T00:00:00.000+02:00,3.205172100531289,1,Corrected annual variation,region de murcia
+2021-10-01T00:00:00.000+02:00,2.334714592435968,1,Corrected annual variation,region de murcia
+2021-11-01T00:00:00.000+01:00,2.2807851842069966,1,Corrected annual variation,region de murcia
+2021-12-01T00:00:00.000+01:00,2.1351626575472236,1,Corrected annual variation,region de murcia
