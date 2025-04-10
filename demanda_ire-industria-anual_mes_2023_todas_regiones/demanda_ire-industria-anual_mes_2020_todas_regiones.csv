@@ -1,0 +1,961 @@
+fecha,valor,porcentaje,indicator,region
+2020-01-01T00:00:00.000+01:00,115.425,1,Índice industria,peninsular
+2020-02-01T00:00:00.000+01:00,115.763,1,Índice industria,peninsular
+2020-03-01T00:00:00.000+01:00,116.129,1,Índice industria,peninsular
+2020-04-01T00:00:00.000+02:00,109.594,1,Índice industria,peninsular
+2020-05-01T00:00:00.000+02:00,109.22639999999998,1,Índice industria,peninsular
+2020-06-01T00:00:00.000+02:00,109.28883333333333,1,Índice industria,peninsular
+2020-07-01T00:00:00.000+02:00,110.25557142857143,1,Índice industria,peninsular
+2020-08-01T00:00:00.000+02:00,109.50375,1,Índice industria,peninsular
+2020-09-01T00:00:00.000+02:00,110.53044444444444,1,Índice industria,peninsular
+2020-10-01T00:00:00.000+02:00,111.691,1,Índice industria,peninsular
+2020-11-01T00:00:00.000+01:00,112.33545454545455,1,Índice industria,peninsular
+2020-12-01T00:00:00.000+01:00,111.6915,1,Índice industria,peninsular
+2020-01-01T00:00:00.000+01:00,96.184,1,Índice industria corregido,peninsular
+2020-02-01T00:00:00.000+01:00,98.749,1,Índice industria corregido,peninsular
+2020-03-01T00:00:00.000+01:00,97.70100000000001,1,Índice industria corregido,peninsular
+2020-04-01T00:00:00.000+02:00,92.32050000000001,1,Índice industria corregido,peninsular
+2020-05-01T00:00:00.000+02:00,90.822,1,Índice industria corregido,peninsular
+2020-06-01T00:00:00.000+02:00,90.37683333333332,1,Índice industria corregido,peninsular
+2020-07-01T00:00:00.000+02:00,89.87571428571428,1,Índice industria corregido,peninsular
+2020-08-01T00:00:00.000+02:00,88.5225,1,Índice industria corregido,peninsular
+2020-09-01T00:00:00.000+02:00,89.32088888888887,1,Índice industria corregido,peninsular
+2020-10-01T00:00:00.000+02:00,90.2049,1,Índice industria corregido,peninsular
+2020-11-01T00:00:00.000+01:00,91.12745454545454,1,Índice industria corregido,peninsular
+2020-12-01T00:00:00.000+01:00,90.98066666666666,1,Índice industria corregido,peninsular
+2020-01-01T00:00:00.000+01:00,-6.2004794604038915,1,Annual variation,peninsular
+2020-02-01T00:00:00.000+01:00,-2.680095165236096,1,Annual variation,peninsular
+2020-03-01T00:00:00.000+01:00,-4.351299706783504,1,Annual variation,peninsular
+2020-04-01T00:00:00.000+02:00,-9.269354791974536,1,Annual variation,peninsular
+2020-05-01T00:00:00.000+02:00,-10.651205099176103,1,Annual variation,peninsular
+2020-06-01T00:00:00.000+02:00,-10.590845192369324,1,Annual variation,peninsular
+2020-07-01T00:00:00.000+02:00,-9.977394882705342,1,Annual variation,peninsular
+2020-08-01T00:00:00.000+02:00,-9.650184921998612,1,Annual variation,peninsular
+2020-09-01T00:00:00.000+02:00,-8.973083768363937,1,Annual variation,peninsular
+2020-10-01T00:00:00.000+02:00,-8.397140645093566,1,Annual variation,peninsular
+2020-11-01T00:00:00.000+01:00,-7.651939833148852,1,Annual variation,peninsular
+2020-12-01T00:00:00.000+01:00,-7.048266592876616,1,Annual variation,peninsular
+2020-01-01T00:00:00.000+01:00,-5.809079869951822,1,Corrected annual variation,peninsular
+2020-02-01T00:00:00.000+01:00,-4.178351365775567,1,Corrected annual variation,peninsular
+2020-03-01T00:00:00.000+01:00,-5.189764092810228,1,Corrected annual variation,peninsular
+2020-04-01T00:00:00.000+02:00,-10.03391250962317,1,Corrected annual variation,peninsular
+2020-05-01T00:00:00.000+02:00,-11.382623102457087,1,Corrected annual variation,peninsular
+2020-06-01T00:00:00.000+02:00,-11.424931191349321,1,Corrected annual variation,peninsular
+2020-07-01T00:00:00.000+02:00,-10.931500798477801,1,Corrected annual variation,peninsular
+2020-08-01T00:00:00.000+02:00,-10.608954251748568,1,Corrected annual variation,peninsular
+2020-09-01T00:00:00.000+02:00,-9.972596051009226,1,Corrected annual variation,peninsular
+2020-10-01T00:00:00.000+02:00,-9.118944950431226,1,Corrected annual variation,peninsular
+2020-11-01T00:00:00.000+01:00,-8.335139376215666,1,Corrected annual variation,peninsular
+2020-12-01T00:00:00.000+01:00,-7.691006922954673,1,Corrected annual variation,peninsular
+2020-01-01T00:00:00.000+01:00,115.425,1,Índice industria,canarias
+2020-02-01T00:00:00.000+01:00,115.763,1,Índice industria,canarias
+2020-03-01T00:00:00.000+01:00,116.129,1,Índice industria,canarias
+2020-04-01T00:00:00.000+02:00,109.594,1,Índice industria,canarias
+2020-05-01T00:00:00.000+02:00,109.22639999999998,1,Índice industria,canarias
+2020-06-01T00:00:00.000+02:00,109.28883333333333,1,Índice industria,canarias
+2020-07-01T00:00:00.000+02:00,110.25557142857143,1,Índice industria,canarias
+2020-08-01T00:00:00.000+02:00,109.50375,1,Índice industria,canarias
+2020-09-01T00:00:00.000+02:00,110.53044444444444,1,Índice industria,canarias
+2020-10-01T00:00:00.000+02:00,111.691,1,Índice industria,canarias
+2020-11-01T00:00:00.000+01:00,112.33545454545455,1,Índice industria,canarias
+2020-12-01T00:00:00.000+01:00,111.6915,1,Índice industria,canarias
+2020-01-01T00:00:00.000+01:00,96.184,1,Índice industria corregido,canarias
+2020-02-01T00:00:00.000+01:00,98.749,1,Índice industria corregido,canarias
+2020-03-01T00:00:00.000+01:00,97.70100000000001,1,Índice industria corregido,canarias
+2020-04-01T00:00:00.000+02:00,92.32050000000001,1,Índice industria corregido,canarias
+2020-05-01T00:00:00.000+02:00,90.822,1,Índice industria corregido,canarias
+2020-06-01T00:00:00.000+02:00,90.37683333333332,1,Índice industria corregido,canarias
+2020-07-01T00:00:00.000+02:00,89.87571428571428,1,Índice industria corregido,canarias
+2020-08-01T00:00:00.000+02:00,88.5225,1,Índice industria corregido,canarias
+2020-09-01T00:00:00.000+02:00,89.32088888888887,1,Índice industria corregido,canarias
+2020-10-01T00:00:00.000+02:00,90.2049,1,Índice industria corregido,canarias
+2020-11-01T00:00:00.000+01:00,91.12745454545454,1,Índice industria corregido,canarias
+2020-12-01T00:00:00.000+01:00,90.98066666666666,1,Índice industria corregido,canarias
+2020-01-01T00:00:00.000+01:00,-6.2004794604038915,1,Annual variation,canarias
+2020-02-01T00:00:00.000+01:00,-2.680095165236096,1,Annual variation,canarias
+2020-03-01T00:00:00.000+01:00,-4.351299706783504,1,Annual variation,canarias
+2020-04-01T00:00:00.000+02:00,-9.269354791974536,1,Annual variation,canarias
+2020-05-01T00:00:00.000+02:00,-10.651205099176103,1,Annual variation,canarias
+2020-06-01T00:00:00.000+02:00,-10.590845192369324,1,Annual variation,canarias
+2020-07-01T00:00:00.000+02:00,-9.977394882705342,1,Annual variation,canarias
+2020-08-01T00:00:00.000+02:00,-9.650184921998612,1,Annual variation,canarias
+2020-09-01T00:00:00.000+02:00,-8.973083768363937,1,Annual variation,canarias
+2020-10-01T00:00:00.000+02:00,-8.397140645093566,1,Annual variation,canarias
+2020-11-01T00:00:00.000+01:00,-7.651939833148852,1,Annual variation,canarias
+2020-12-01T00:00:00.000+01:00,-7.048266592876616,1,Annual variation,canarias
+2020-01-01T00:00:00.000+01:00,-5.809079869951822,1,Corrected annual variation,canarias
+2020-02-01T00:00:00.000+01:00,-4.178351365775567,1,Corrected annual variation,canarias
+2020-03-01T00:00:00.000+01:00,-5.189764092810228,1,Corrected annual variation,canarias
+2020-04-01T00:00:00.000+02:00,-10.03391250962317,1,Corrected annual variation,canarias
+2020-05-01T00:00:00.000+02:00,-11.382623102457087,1,Corrected annual variation,canarias
+2020-06-01T00:00:00.000+02:00,-11.424931191349321,1,Corrected annual variation,canarias
+2020-07-01T00:00:00.000+02:00,-10.931500798477801,1,Corrected annual variation,canarias
+2020-08-01T00:00:00.000+02:00,-10.608954251748568,1,Corrected annual variation,canarias
+2020-09-01T00:00:00.000+02:00,-9.972596051009226,1,Corrected annual variation,canarias
+2020-10-01T00:00:00.000+02:00,-9.118944950431226,1,Corrected annual variation,canarias
+2020-11-01T00:00:00.000+01:00,-8.335139376215666,1,Corrected annual variation,canarias
+2020-12-01T00:00:00.000+01:00,-7.691006922954673,1,Corrected annual variation,canarias
+2020-01-01T00:00:00.000+01:00,115.425,1,Índice industria,baleares
+2020-02-01T00:00:00.000+01:00,115.763,1,Índice industria,baleares
+2020-03-01T00:00:00.000+01:00,116.129,1,Índice industria,baleares
+2020-04-01T00:00:00.000+02:00,109.594,1,Índice industria,baleares
+2020-05-01T00:00:00.000+02:00,109.22639999999998,1,Índice industria,baleares
+2020-06-01T00:00:00.000+02:00,109.28883333333333,1,Índice industria,baleares
+2020-07-01T00:00:00.000+02:00,110.25557142857143,1,Índice industria,baleares
+2020-08-01T00:00:00.000+02:00,109.50375,1,Índice industria,baleares
+2020-09-01T00:00:00.000+02:00,110.53044444444444,1,Índice industria,baleares
+2020-10-01T00:00:00.000+02:00,111.691,1,Índice industria,baleares
+2020-11-01T00:00:00.000+01:00,112.33545454545455,1,Índice industria,baleares
+2020-12-01T00:00:00.000+01:00,111.6915,1,Índice industria,baleares
+2020-01-01T00:00:00.000+01:00,96.184,1,Índice industria corregido,baleares
+2020-02-01T00:00:00.000+01:00,98.749,1,Índice industria corregido,baleares
+2020-03-01T00:00:00.000+01:00,97.70100000000001,1,Índice industria corregido,baleares
+2020-04-01T00:00:00.000+02:00,92.32050000000001,1,Índice industria corregido,baleares
+2020-05-01T00:00:00.000+02:00,90.822,1,Índice industria corregido,baleares
+2020-06-01T00:00:00.000+02:00,90.37683333333332,1,Índice industria corregido,baleares
+2020-07-01T00:00:00.000+02:00,89.87571428571428,1,Índice industria corregido,baleares
+2020-08-01T00:00:00.000+02:00,88.5225,1,Índice industria corregido,baleares
+2020-09-01T00:00:00.000+02:00,89.32088888888887,1,Índice industria corregido,baleares
+2020-10-01T00:00:00.000+02:00,90.2049,1,Índice industria corregido,baleares
+2020-11-01T00:00:00.000+01:00,91.12745454545454,1,Índice industria corregido,baleares
+2020-12-01T00:00:00.000+01:00,90.98066666666666,1,Índice industria corregido,baleares
+2020-01-01T00:00:00.000+01:00,-6.2004794604038915,1,Annual variation,baleares
+2020-02-01T00:00:00.000+01:00,-2.680095165236096,1,Annual variation,baleares
+2020-03-01T00:00:00.000+01:00,-4.351299706783504,1,Annual variation,baleares
+2020-04-01T00:00:00.000+02:00,-9.269354791974536,1,Annual variation,baleares
+2020-05-01T00:00:00.000+02:00,-10.651205099176103,1,Annual variation,baleares
+2020-06-01T00:00:00.000+02:00,-10.590845192369324,1,Annual variation,baleares
+2020-07-01T00:00:00.000+02:00,-9.977394882705342,1,Annual variation,baleares
+2020-08-01T00:00:00.000+02:00,-9.650184921998612,1,Annual variation,baleares
+2020-09-01T00:00:00.000+02:00,-8.973083768363937,1,Annual variation,baleares
+2020-10-01T00:00:00.000+02:00,-8.397140645093566,1,Annual variation,baleares
+2020-11-01T00:00:00.000+01:00,-7.651939833148852,1,Annual variation,baleares
+2020-12-01T00:00:00.000+01:00,-7.048266592876616,1,Annual variation,baleares
+2020-01-01T00:00:00.000+01:00,-5.809079869951822,1,Corrected annual variation,baleares
+2020-02-01T00:00:00.000+01:00,-4.178351365775567,1,Corrected annual variation,baleares
+2020-03-01T00:00:00.000+01:00,-5.189764092810228,1,Corrected annual variation,baleares
+2020-04-01T00:00:00.000+02:00,-10.03391250962317,1,Corrected annual variation,baleares
+2020-05-01T00:00:00.000+02:00,-11.382623102457087,1,Corrected annual variation,baleares
+2020-06-01T00:00:00.000+02:00,-11.424931191349321,1,Corrected annual variation,baleares
+2020-07-01T00:00:00.000+02:00,-10.931500798477801,1,Corrected annual variation,baleares
+2020-08-01T00:00:00.000+02:00,-10.608954251748568,1,Corrected annual variation,baleares
+2020-09-01T00:00:00.000+02:00,-9.972596051009226,1,Corrected annual variation,baleares
+2020-10-01T00:00:00.000+02:00,-9.118944950431226,1,Corrected annual variation,baleares
+2020-11-01T00:00:00.000+01:00,-8.335139376215666,1,Corrected annual variation,baleares
+2020-12-01T00:00:00.000+01:00,-7.691006922954673,1,Corrected annual variation,baleares
+2020-01-01T00:00:00.000+01:00,115.425,1,Índice industria,ceuta
+2020-02-01T00:00:00.000+01:00,115.763,1,Índice industria,ceuta
+2020-03-01T00:00:00.000+01:00,116.129,1,Índice industria,ceuta
+2020-04-01T00:00:00.000+02:00,109.594,1,Índice industria,ceuta
+2020-05-01T00:00:00.000+02:00,109.22639999999998,1,Índice industria,ceuta
+2020-06-01T00:00:00.000+02:00,109.28883333333333,1,Índice industria,ceuta
+2020-07-01T00:00:00.000+02:00,110.25557142857143,1,Índice industria,ceuta
+2020-08-01T00:00:00.000+02:00,109.50375,1,Índice industria,ceuta
+2020-09-01T00:00:00.000+02:00,110.53044444444444,1,Índice industria,ceuta
+2020-10-01T00:00:00.000+02:00,111.691,1,Índice industria,ceuta
+2020-11-01T00:00:00.000+01:00,112.33545454545455,1,Índice industria,ceuta
+2020-12-01T00:00:00.000+01:00,111.6915,1,Índice industria,ceuta
+2020-01-01T00:00:00.000+01:00,96.184,1,Índice industria corregido,ceuta
+2020-02-01T00:00:00.000+01:00,98.749,1,Índice industria corregido,ceuta
+2020-03-01T00:00:00.000+01:00,97.70100000000001,1,Índice industria corregido,ceuta
+2020-04-01T00:00:00.000+02:00,92.32050000000001,1,Índice industria corregido,ceuta
+2020-05-01T00:00:00.000+02:00,90.822,1,Índice industria corregido,ceuta
+2020-06-01T00:00:00.000+02:00,90.37683333333332,1,Índice industria corregido,ceuta
+2020-07-01T00:00:00.000+02:00,89.87571428571428,1,Índice industria corregido,ceuta
+2020-08-01T00:00:00.000+02:00,88.5225,1,Índice industria corregido,ceuta
+2020-09-01T00:00:00.000+02:00,89.32088888888887,1,Índice industria corregido,ceuta
+2020-10-01T00:00:00.000+02:00,90.2049,1,Índice industria corregido,ceuta
+2020-11-01T00:00:00.000+01:00,91.12745454545454,1,Índice industria corregido,ceuta
+2020-12-01T00:00:00.000+01:00,90.98066666666666,1,Índice industria corregido,ceuta
+2020-01-01T00:00:00.000+01:00,-6.2004794604038915,1,Annual variation,ceuta
+2020-02-01T00:00:00.000+01:00,-2.680095165236096,1,Annual variation,ceuta
+2020-03-01T00:00:00.000+01:00,-4.351299706783504,1,Annual variation,ceuta
+2020-04-01T00:00:00.000+02:00,-9.269354791974536,1,Annual variation,ceuta
+2020-05-01T00:00:00.000+02:00,-10.651205099176103,1,Annual variation,ceuta
+2020-06-01T00:00:00.000+02:00,-10.590845192369324,1,Annual variation,ceuta
+2020-07-01T00:00:00.000+02:00,-9.977394882705342,1,Annual variation,ceuta
+2020-08-01T00:00:00.000+02:00,-9.650184921998612,1,Annual variation,ceuta
+2020-09-01T00:00:00.000+02:00,-8.973083768363937,1,Annual variation,ceuta
+2020-10-01T00:00:00.000+02:00,-8.397140645093566,1,Annual variation,ceuta
+2020-11-01T00:00:00.000+01:00,-7.651939833148852,1,Annual variation,ceuta
+2020-12-01T00:00:00.000+01:00,-7.048266592876616,1,Annual variation,ceuta
+2020-01-01T00:00:00.000+01:00,-5.809079869951822,1,Corrected annual variation,ceuta
+2020-02-01T00:00:00.000+01:00,-4.178351365775567,1,Corrected annual variation,ceuta
+2020-03-01T00:00:00.000+01:00,-5.189764092810228,1,Corrected annual variation,ceuta
+2020-04-01T00:00:00.000+02:00,-10.03391250962317,1,Corrected annual variation,ceuta
+2020-05-01T00:00:00.000+02:00,-11.382623102457087,1,Corrected annual variation,ceuta
+2020-06-01T00:00:00.000+02:00,-11.424931191349321,1,Corrected annual variation,ceuta
+2020-07-01T00:00:00.000+02:00,-10.931500798477801,1,Corrected annual variation,ceuta
+2020-08-01T00:00:00.000+02:00,-10.608954251748568,1,Corrected annual variation,ceuta
+2020-09-01T00:00:00.000+02:00,-9.972596051009226,1,Corrected annual variation,ceuta
+2020-10-01T00:00:00.000+02:00,-9.118944950431226,1,Corrected annual variation,ceuta
+2020-11-01T00:00:00.000+01:00,-8.335139376215666,1,Corrected annual variation,ceuta
+2020-12-01T00:00:00.000+01:00,-7.691006922954673,1,Corrected annual variation,ceuta
+2020-01-01T00:00:00.000+01:00,115.425,1,Índice industria,melilla
+2020-02-01T00:00:00.000+01:00,115.763,1,Índice industria,melilla
+2020-03-01T00:00:00.000+01:00,116.129,1,Índice industria,melilla
+2020-04-01T00:00:00.000+02:00,109.594,1,Índice industria,melilla
+2020-05-01T00:00:00.000+02:00,109.22639999999998,1,Índice industria,melilla
+2020-06-01T00:00:00.000+02:00,109.28883333333333,1,Índice industria,melilla
+2020-07-01T00:00:00.000+02:00,110.25557142857143,1,Índice industria,melilla
+2020-08-01T00:00:00.000+02:00,109.50375,1,Índice industria,melilla
+2020-09-01T00:00:00.000+02:00,110.53044444444444,1,Índice industria,melilla
+2020-10-01T00:00:00.000+02:00,111.691,1,Índice industria,melilla
+2020-11-01T00:00:00.000+01:00,112.33545454545455,1,Índice industria,melilla
+2020-12-01T00:00:00.000+01:00,111.6915,1,Índice industria,melilla
+2020-01-01T00:00:00.000+01:00,96.184,1,Índice industria corregido,melilla
+2020-02-01T00:00:00.000+01:00,98.749,1,Índice industria corregido,melilla
+2020-03-01T00:00:00.000+01:00,97.70100000000001,1,Índice industria corregido,melilla
+2020-04-01T00:00:00.000+02:00,92.32050000000001,1,Índice industria corregido,melilla
+2020-05-01T00:00:00.000+02:00,90.822,1,Índice industria corregido,melilla
+2020-06-01T00:00:00.000+02:00,90.37683333333332,1,Índice industria corregido,melilla
+2020-07-01T00:00:00.000+02:00,89.87571428571428,1,Índice industria corregido,melilla
+2020-08-01T00:00:00.000+02:00,88.5225,1,Índice industria corregido,melilla
+2020-09-01T00:00:00.000+02:00,89.32088888888887,1,Índice industria corregido,melilla
+2020-10-01T00:00:00.000+02:00,90.2049,1,Índice industria corregido,melilla
+2020-11-01T00:00:00.000+01:00,91.12745454545454,1,Índice industria corregido,melilla
+2020-12-01T00:00:00.000+01:00,90.98066666666666,1,Índice industria corregido,melilla
+2020-01-01T00:00:00.000+01:00,-6.2004794604038915,1,Annual variation,melilla
+2020-02-01T00:00:00.000+01:00,-2.680095165236096,1,Annual variation,melilla
+2020-03-01T00:00:00.000+01:00,-4.351299706783504,1,Annual variation,melilla
+2020-04-01T00:00:00.000+02:00,-9.269354791974536,1,Annual variation,melilla
+2020-05-01T00:00:00.000+02:00,-10.651205099176103,1,Annual variation,melilla
+2020-06-01T00:00:00.000+02:00,-10.590845192369324,1,Annual variation,melilla
+2020-07-01T00:00:00.000+02:00,-9.977394882705342,1,Annual variation,melilla
+2020-08-01T00:00:00.000+02:00,-9.650184921998612,1,Annual variation,melilla
+2020-09-01T00:00:00.000+02:00,-8.973083768363937,1,Annual variation,melilla
+2020-10-01T00:00:00.000+02:00,-8.397140645093566,1,Annual variation,melilla
+2020-11-01T00:00:00.000+01:00,-7.651939833148852,1,Annual variation,melilla
+2020-12-01T00:00:00.000+01:00,-7.048266592876616,1,Annual variation,melilla
+2020-01-01T00:00:00.000+01:00,-5.809079869951822,1,Corrected annual variation,melilla
+2020-02-01T00:00:00.000+01:00,-4.178351365775567,1,Corrected annual variation,melilla
+2020-03-01T00:00:00.000+01:00,-5.189764092810228,1,Corrected annual variation,melilla
+2020-04-01T00:00:00.000+02:00,-10.03391250962317,1,Corrected annual variation,melilla
+2020-05-01T00:00:00.000+02:00,-11.382623102457087,1,Corrected annual variation,melilla
+2020-06-01T00:00:00.000+02:00,-11.424931191349321,1,Corrected annual variation,melilla
+2020-07-01T00:00:00.000+02:00,-10.931500798477801,1,Corrected annual variation,melilla
+2020-08-01T00:00:00.000+02:00,-10.608954251748568,1,Corrected annual variation,melilla
+2020-09-01T00:00:00.000+02:00,-9.972596051009226,1,Corrected annual variation,melilla
+2020-10-01T00:00:00.000+02:00,-9.118944950431226,1,Corrected annual variation,melilla
+2020-11-01T00:00:00.000+01:00,-8.335139376215666,1,Corrected annual variation,melilla
+2020-12-01T00:00:00.000+01:00,-7.691006922954673,1,Corrected annual variation,melilla
+2020-01-01T00:00:00.000+01:00,115.425,1,Índice industria,andalucia
+2020-02-01T00:00:00.000+01:00,115.763,1,Índice industria,andalucia
+2020-03-01T00:00:00.000+01:00,116.129,1,Índice industria,andalucia
+2020-04-01T00:00:00.000+02:00,109.594,1,Índice industria,andalucia
+2020-05-01T00:00:00.000+02:00,109.22639999999998,1,Índice industria,andalucia
+2020-06-01T00:00:00.000+02:00,109.28883333333333,1,Índice industria,andalucia
+2020-07-01T00:00:00.000+02:00,110.25557142857143,1,Índice industria,andalucia
+2020-08-01T00:00:00.000+02:00,109.50375,1,Índice industria,andalucia
+2020-09-01T00:00:00.000+02:00,110.53044444444444,1,Índice industria,andalucia
+2020-10-01T00:00:00.000+02:00,111.691,1,Índice industria,andalucia
+2020-11-01T00:00:00.000+01:00,112.33545454545455,1,Índice industria,andalucia
+2020-12-01T00:00:00.000+01:00,111.6915,1,Índice industria,andalucia
+2020-01-01T00:00:00.000+01:00,96.184,1,Índice industria corregido,andalucia
+2020-02-01T00:00:00.000+01:00,98.749,1,Índice industria corregido,andalucia
+2020-03-01T00:00:00.000+01:00,97.70100000000001,1,Índice industria corregido,andalucia
+2020-04-01T00:00:00.000+02:00,92.32050000000001,1,Índice industria corregido,andalucia
+2020-05-01T00:00:00.000+02:00,90.822,1,Índice industria corregido,andalucia
+2020-06-01T00:00:00.000+02:00,90.37683333333332,1,Índice industria corregido,andalucia
+2020-07-01T00:00:00.000+02:00,89.87571428571428,1,Índice industria corregido,andalucia
+2020-08-01T00:00:00.000+02:00,88.5225,1,Índice industria corregido,andalucia
+2020-09-01T00:00:00.000+02:00,89.32088888888887,1,Índice industria corregido,andalucia
+2020-10-01T00:00:00.000+02:00,90.2049,1,Índice industria corregido,andalucia
+2020-11-01T00:00:00.000+01:00,91.12745454545454,1,Índice industria corregido,andalucia
+2020-12-01T00:00:00.000+01:00,90.98066666666666,1,Índice industria corregido,andalucia
+2020-01-01T00:00:00.000+01:00,-6.2004794604038915,1,Annual variation,andalucia
+2020-02-01T00:00:00.000+01:00,-2.680095165236096,1,Annual variation,andalucia
+2020-03-01T00:00:00.000+01:00,-4.351299706783504,1,Annual variation,andalucia
+2020-04-01T00:00:00.000+02:00,-9.269354791974536,1,Annual variation,andalucia
+2020-05-01T00:00:00.000+02:00,-10.651205099176103,1,Annual variation,andalucia
+2020-06-01T00:00:00.000+02:00,-10.590845192369324,1,Annual variation,andalucia
+2020-07-01T00:00:00.000+02:00,-9.977394882705342,1,Annual variation,andalucia
+2020-08-01T00:00:00.000+02:00,-9.650184921998612,1,Annual variation,andalucia
+2020-09-01T00:00:00.000+02:00,-8.973083768363937,1,Annual variation,andalucia
+2020-10-01T00:00:00.000+02:00,-8.397140645093566,1,Annual variation,andalucia
+2020-11-01T00:00:00.000+01:00,-7.651939833148852,1,Annual variation,andalucia
+2020-12-01T00:00:00.000+01:00,-7.048266592876616,1,Annual variation,andalucia
+2020-01-01T00:00:00.000+01:00,-5.809079869951822,1,Corrected annual variation,andalucia
+2020-02-01T00:00:00.000+01:00,-4.178351365775567,1,Corrected annual variation,andalucia
+2020-03-01T00:00:00.000+01:00,-5.189764092810228,1,Corrected annual variation,andalucia
+2020-04-01T00:00:00.000+02:00,-10.03391250962317,1,Corrected annual variation,andalucia
+2020-05-01T00:00:00.000+02:00,-11.382623102457087,1,Corrected annual variation,andalucia
+2020-06-01T00:00:00.000+02:00,-11.424931191349321,1,Corrected annual variation,andalucia
+2020-07-01T00:00:00.000+02:00,-10.931500798477801,1,Corrected annual variation,andalucia
+2020-08-01T00:00:00.000+02:00,-10.608954251748568,1,Corrected annual variation,andalucia
+2020-09-01T00:00:00.000+02:00,-9.972596051009226,1,Corrected annual variation,andalucia
+2020-10-01T00:00:00.000+02:00,-9.118944950431226,1,Corrected annual variation,andalucia
+2020-11-01T00:00:00.000+01:00,-8.335139376215666,1,Corrected annual variation,andalucia
+2020-12-01T00:00:00.000+01:00,-7.691006922954673,1,Corrected annual variation,andalucia
+2020-01-01T00:00:00.000+01:00,115.425,1,Índice industria,aragon
+2020-02-01T00:00:00.000+01:00,115.763,1,Índice industria,aragon
+2020-03-01T00:00:00.000+01:00,116.129,1,Índice industria,aragon
+2020-04-01T00:00:00.000+02:00,109.594,1,Índice industria,aragon
+2020-05-01T00:00:00.000+02:00,109.22639999999998,1,Índice industria,aragon
+2020-06-01T00:00:00.000+02:00,109.28883333333333,1,Índice industria,aragon
+2020-07-01T00:00:00.000+02:00,110.25557142857143,1,Índice industria,aragon
+2020-08-01T00:00:00.000+02:00,109.50375,1,Índice industria,aragon
+2020-09-01T00:00:00.000+02:00,110.53044444444444,1,Índice industria,aragon
+2020-10-01T00:00:00.000+02:00,111.691,1,Índice industria,aragon
+2020-11-01T00:00:00.000+01:00,112.33545454545455,1,Índice industria,aragon
+2020-12-01T00:00:00.000+01:00,111.6915,1,Índice industria,aragon
+2020-01-01T00:00:00.000+01:00,96.184,1,Índice industria corregido,aragon
+2020-02-01T00:00:00.000+01:00,98.749,1,Índice industria corregido,aragon
+2020-03-01T00:00:00.000+01:00,97.70100000000001,1,Índice industria corregido,aragon
+2020-04-01T00:00:00.000+02:00,92.32050000000001,1,Índice industria corregido,aragon
+2020-05-01T00:00:00.000+02:00,90.822,1,Índice industria corregido,aragon
+2020-06-01T00:00:00.000+02:00,90.37683333333332,1,Índice industria corregido,aragon
+2020-07-01T00:00:00.000+02:00,89.87571428571428,1,Índice industria corregido,aragon
+2020-08-01T00:00:00.000+02:00,88.5225,1,Índice industria corregido,aragon
+2020-09-01T00:00:00.000+02:00,89.32088888888887,1,Índice industria corregido,aragon
+2020-10-01T00:00:00.000+02:00,90.2049,1,Índice industria corregido,aragon
+2020-11-01T00:00:00.000+01:00,91.12745454545454,1,Índice industria corregido,aragon
+2020-12-01T00:00:00.000+01:00,90.98066666666666,1,Índice industria corregido,aragon
+2020-01-01T00:00:00.000+01:00,-6.2004794604038915,1,Annual variation,aragon
+2020-02-01T00:00:00.000+01:00,-2.680095165236096,1,Annual variation,aragon
+2020-03-01T00:00:00.000+01:00,-4.351299706783504,1,Annual variation,aragon
+2020-04-01T00:00:00.000+02:00,-9.269354791974536,1,Annual variation,aragon
+2020-05-01T00:00:00.000+02:00,-10.651205099176103,1,Annual variation,aragon
+2020-06-01T00:00:00.000+02:00,-10.590845192369324,1,Annual variation,aragon
+2020-07-01T00:00:00.000+02:00,-9.977394882705342,1,Annual variation,aragon
+2020-08-01T00:00:00.000+02:00,-9.650184921998612,1,Annual variation,aragon
+2020-09-01T00:00:00.000+02:00,-8.973083768363937,1,Annual variation,aragon
+2020-10-01T00:00:00.000+02:00,-8.397140645093566,1,Annual variation,aragon
+2020-11-01T00:00:00.000+01:00,-7.651939833148852,1,Annual variation,aragon
+2020-12-01T00:00:00.000+01:00,-7.048266592876616,1,Annual variation,aragon
+2020-01-01T00:00:00.000+01:00,-5.809079869951822,1,Corrected annual variation,aragon
+2020-02-01T00:00:00.000+01:00,-4.178351365775567,1,Corrected annual variation,aragon
+2020-03-01T00:00:00.000+01:00,-5.189764092810228,1,Corrected annual variation,aragon
+2020-04-01T00:00:00.000+02:00,-10.03391250962317,1,Corrected annual variation,aragon
+2020-05-01T00:00:00.000+02:00,-11.382623102457087,1,Corrected annual variation,aragon
+2020-06-01T00:00:00.000+02:00,-11.424931191349321,1,Corrected annual variation,aragon
+2020-07-01T00:00:00.000+02:00,-10.931500798477801,1,Corrected annual variation,aragon
+2020-08-01T00:00:00.000+02:00,-10.608954251748568,1,Corrected annual variation,aragon
+2020-09-01T00:00:00.000+02:00,-9.972596051009226,1,Corrected annual variation,aragon
+2020-10-01T00:00:00.000+02:00,-9.118944950431226,1,Corrected annual variation,aragon
+2020-11-01T00:00:00.000+01:00,-8.335139376215666,1,Corrected annual variation,aragon
+2020-12-01T00:00:00.000+01:00,-7.691006922954673,1,Corrected annual variation,aragon
+2020-01-01T00:00:00.000+01:00,115.425,1,Índice industria,cantabria
+2020-02-01T00:00:00.000+01:00,115.763,1,Índice industria,cantabria
+2020-03-01T00:00:00.000+01:00,116.129,1,Índice industria,cantabria
+2020-04-01T00:00:00.000+02:00,109.594,1,Índice industria,cantabria
+2020-05-01T00:00:00.000+02:00,109.22639999999998,1,Índice industria,cantabria
+2020-06-01T00:00:00.000+02:00,109.28883333333333,1,Índice industria,cantabria
+2020-07-01T00:00:00.000+02:00,110.25557142857143,1,Índice industria,cantabria
+2020-08-01T00:00:00.000+02:00,109.50375,1,Índice industria,cantabria
+2020-09-01T00:00:00.000+02:00,110.53044444444444,1,Índice industria,cantabria
+2020-10-01T00:00:00.000+02:00,111.691,1,Índice industria,cantabria
+2020-11-01T00:00:00.000+01:00,112.33545454545455,1,Índice industria,cantabria
+2020-12-01T00:00:00.000+01:00,111.6915,1,Índice industria,cantabria
+2020-01-01T00:00:00.000+01:00,96.184,1,Índice industria corregido,cantabria
+2020-02-01T00:00:00.000+01:00,98.749,1,Índice industria corregido,cantabria
+2020-03-01T00:00:00.000+01:00,97.70100000000001,1,Índice industria corregido,cantabria
+2020-04-01T00:00:00.000+02:00,92.32050000000001,1,Índice industria corregido,cantabria
+2020-05-01T00:00:00.000+02:00,90.822,1,Índice industria corregido,cantabria
+2020-06-01T00:00:00.000+02:00,90.37683333333332,1,Índice industria corregido,cantabria
+2020-07-01T00:00:00.000+02:00,89.87571428571428,1,Índice industria corregido,cantabria
+2020-08-01T00:00:00.000+02:00,88.5225,1,Índice industria corregido,cantabria
+2020-09-01T00:00:00.000+02:00,89.32088888888887,1,Índice industria corregido,cantabria
+2020-10-01T00:00:00.000+02:00,90.2049,1,Índice industria corregido,cantabria
+2020-11-01T00:00:00.000+01:00,91.12745454545454,1,Índice industria corregido,cantabria
+2020-12-01T00:00:00.000+01:00,90.98066666666666,1,Índice industria corregido,cantabria
+2020-01-01T00:00:00.000+01:00,-6.2004794604038915,1,Annual variation,cantabria
+2020-02-01T00:00:00.000+01:00,-2.680095165236096,1,Annual variation,cantabria
+2020-03-01T00:00:00.000+01:00,-4.351299706783504,1,Annual variation,cantabria
+2020-04-01T00:00:00.000+02:00,-9.269354791974536,1,Annual variation,cantabria
+2020-05-01T00:00:00.000+02:00,-10.651205099176103,1,Annual variation,cantabria
+2020-06-01T00:00:00.000+02:00,-10.590845192369324,1,Annual variation,cantabria
+2020-07-01T00:00:00.000+02:00,-9.977394882705342,1,Annual variation,cantabria
+2020-08-01T00:00:00.000+02:00,-9.650184921998612,1,Annual variation,cantabria
+2020-09-01T00:00:00.000+02:00,-8.973083768363937,1,Annual variation,cantabria
+2020-10-01T00:00:00.000+02:00,-8.397140645093566,1,Annual variation,cantabria
+2020-11-01T00:00:00.000+01:00,-7.651939833148852,1,Annual variation,cantabria
+2020-12-01T00:00:00.000+01:00,-7.048266592876616,1,Annual variation,cantabria
+2020-01-01T00:00:00.000+01:00,-5.809079869951822,1,Corrected annual variation,cantabria
+2020-02-01T00:00:00.000+01:00,-4.178351365775567,1,Corrected annual variation,cantabria
+2020-03-01T00:00:00.000+01:00,-5.189764092810228,1,Corrected annual variation,cantabria
+2020-04-01T00:00:00.000+02:00,-10.03391250962317,1,Corrected annual variation,cantabria
+2020-05-01T00:00:00.000+02:00,-11.382623102457087,1,Corrected annual variation,cantabria
+2020-06-01T00:00:00.000+02:00,-11.424931191349321,1,Corrected annual variation,cantabria
+2020-07-01T00:00:00.000+02:00,-10.931500798477801,1,Corrected annual variation,cantabria
+2020-08-01T00:00:00.000+02:00,-10.608954251748568,1,Corrected annual variation,cantabria
+2020-09-01T00:00:00.000+02:00,-9.972596051009226,1,Corrected annual variation,cantabria
+2020-10-01T00:00:00.000+02:00,-9.118944950431226,1,Corrected annual variation,cantabria
+2020-11-01T00:00:00.000+01:00,-8.335139376215666,1,Corrected annual variation,cantabria
+2020-12-01T00:00:00.000+01:00,-7.691006922954673,1,Corrected annual variation,cantabria
+2020-01-01T00:00:00.000+01:00,115.425,1,Índice industria,castilla la mancha
+2020-02-01T00:00:00.000+01:00,115.763,1,Índice industria,castilla la mancha
+2020-03-01T00:00:00.000+01:00,116.129,1,Índice industria,castilla la mancha
+2020-04-01T00:00:00.000+02:00,109.594,1,Índice industria,castilla la mancha
+2020-05-01T00:00:00.000+02:00,109.22639999999998,1,Índice industria,castilla la mancha
+2020-06-01T00:00:00.000+02:00,109.28883333333333,1,Índice industria,castilla la mancha
+2020-07-01T00:00:00.000+02:00,110.25557142857143,1,Índice industria,castilla la mancha
+2020-08-01T00:00:00.000+02:00,109.50375,1,Índice industria,castilla la mancha
+2020-09-01T00:00:00.000+02:00,110.53044444444444,1,Índice industria,castilla la mancha
+2020-10-01T00:00:00.000+02:00,111.691,1,Índice industria,castilla la mancha
+2020-11-01T00:00:00.000+01:00,112.33545454545455,1,Índice industria,castilla la mancha
+2020-12-01T00:00:00.000+01:00,111.6915,1,Índice industria,castilla la mancha
+2020-01-01T00:00:00.000+01:00,96.184,1,Índice industria corregido,castilla la mancha
+2020-02-01T00:00:00.000+01:00,98.749,1,Índice industria corregido,castilla la mancha
+2020-03-01T00:00:00.000+01:00,97.70100000000001,1,Índice industria corregido,castilla la mancha
+2020-04-01T00:00:00.000+02:00,92.32050000000001,1,Índice industria corregido,castilla la mancha
+2020-05-01T00:00:00.000+02:00,90.822,1,Índice industria corregido,castilla la mancha
+2020-06-01T00:00:00.000+02:00,90.37683333333332,1,Índice industria corregido,castilla la mancha
+2020-07-01T00:00:00.000+02:00,89.87571428571428,1,Índice industria corregido,castilla la mancha
+2020-08-01T00:00:00.000+02:00,88.5225,1,Índice industria corregido,castilla la mancha
+2020-09-01T00:00:00.000+02:00,89.32088888888887,1,Índice industria corregido,castilla la mancha
+2020-10-01T00:00:00.000+02:00,90.2049,1,Índice industria corregido,castilla la mancha
+2020-11-01T00:00:00.000+01:00,91.12745454545454,1,Índice industria corregido,castilla la mancha
+2020-12-01T00:00:00.000+01:00,90.98066666666666,1,Índice industria corregido,castilla la mancha
+2020-01-01T00:00:00.000+01:00,-6.2004794604038915,1,Annual variation,castilla la mancha
+2020-02-01T00:00:00.000+01:00,-2.680095165236096,1,Annual variation,castilla la mancha
+2020-03-01T00:00:00.000+01:00,-4.351299706783504,1,Annual variation,castilla la mancha
+2020-04-01T00:00:00.000+02:00,-9.269354791974536,1,Annual variation,castilla la mancha
+2020-05-01T00:00:00.000+02:00,-10.651205099176103,1,Annual variation,castilla la mancha
+2020-06-01T00:00:00.000+02:00,-10.590845192369324,1,Annual variation,castilla la mancha
+2020-07-01T00:00:00.000+02:00,-9.977394882705342,1,Annual variation,castilla la mancha
+2020-08-01T00:00:00.000+02:00,-9.650184921998612,1,Annual variation,castilla la mancha
+2020-09-01T00:00:00.000+02:00,-8.973083768363937,1,Annual variation,castilla la mancha
+2020-10-01T00:00:00.000+02:00,-8.397140645093566,1,Annual variation,castilla la mancha
+2020-11-01T00:00:00.000+01:00,-7.651939833148852,1,Annual variation,castilla la mancha
+2020-12-01T00:00:00.000+01:00,-7.048266592876616,1,Annual variation,castilla la mancha
+2020-01-01T00:00:00.000+01:00,-5.809079869951822,1,Corrected annual variation,castilla la mancha
+2020-02-01T00:00:00.000+01:00,-4.178351365775567,1,Corrected annual variation,castilla la mancha
+2020-03-01T00:00:00.000+01:00,-5.189764092810228,1,Corrected annual variation,castilla la mancha
+2020-04-01T00:00:00.000+02:00,-10.03391250962317,1,Corrected annual variation,castilla la mancha
+2020-05-01T00:00:00.000+02:00,-11.382623102457087,1,Corrected annual variation,castilla la mancha
+2020-06-01T00:00:00.000+02:00,-11.424931191349321,1,Corrected annual variation,castilla la mancha
+2020-07-01T00:00:00.000+02:00,-10.931500798477801,1,Corrected annual variation,castilla la mancha
+2020-08-01T00:00:00.000+02:00,-10.608954251748568,1,Corrected annual variation,castilla la mancha
+2020-09-01T00:00:00.000+02:00,-9.972596051009226,1,Corrected annual variation,castilla la mancha
+2020-10-01T00:00:00.000+02:00,-9.118944950431226,1,Corrected annual variation,castilla la mancha
+2020-11-01T00:00:00.000+01:00,-8.335139376215666,1,Corrected annual variation,castilla la mancha
+2020-12-01T00:00:00.000+01:00,-7.691006922954673,1,Corrected annual variation,castilla la mancha
+2020-01-01T00:00:00.000+01:00,115.425,1,Índice industria,castilla y leon
+2020-02-01T00:00:00.000+01:00,115.763,1,Índice industria,castilla y leon
+2020-03-01T00:00:00.000+01:00,116.129,1,Índice industria,castilla y leon
+2020-04-01T00:00:00.000+02:00,109.594,1,Índice industria,castilla y leon
+2020-05-01T00:00:00.000+02:00,109.22639999999998,1,Índice industria,castilla y leon
+2020-06-01T00:00:00.000+02:00,109.28883333333333,1,Índice industria,castilla y leon
+2020-07-01T00:00:00.000+02:00,110.25557142857143,1,Índice industria,castilla y leon
+2020-08-01T00:00:00.000+02:00,109.50375,1,Índice industria,castilla y leon
+2020-09-01T00:00:00.000+02:00,110.53044444444444,1,Índice industria,castilla y leon
+2020-10-01T00:00:00.000+02:00,111.691,1,Índice industria,castilla y leon
+2020-11-01T00:00:00.000+01:00,112.33545454545455,1,Índice industria,castilla y leon
+2020-12-01T00:00:00.000+01:00,111.6915,1,Índice industria,castilla y leon
+2020-01-01T00:00:00.000+01:00,96.184,1,Índice industria corregido,castilla y leon
+2020-02-01T00:00:00.000+01:00,98.749,1,Índice industria corregido,castilla y leon
+2020-03-01T00:00:00.000+01:00,97.70100000000001,1,Índice industria corregido,castilla y leon
+2020-04-01T00:00:00.000+02:00,92.32050000000001,1,Índice industria corregido,castilla y leon
+2020-05-01T00:00:00.000+02:00,90.822,1,Índice industria corregido,castilla y leon
+2020-06-01T00:00:00.000+02:00,90.37683333333332,1,Índice industria corregido,castilla y leon
+2020-07-01T00:00:00.000+02:00,89.87571428571428,1,Índice industria corregido,castilla y leon
+2020-08-01T00:00:00.000+02:00,88.5225,1,Índice industria corregido,castilla y leon
+2020-09-01T00:00:00.000+02:00,89.32088888888887,1,Índice industria corregido,castilla y leon
+2020-10-01T00:00:00.000+02:00,90.2049,1,Índice industria corregido,castilla y leon
+2020-11-01T00:00:00.000+01:00,91.12745454545454,1,Índice industria corregido,castilla y leon
+2020-12-01T00:00:00.000+01:00,90.98066666666666,1,Índice industria corregido,castilla y leon
+2020-01-01T00:00:00.000+01:00,-6.2004794604038915,1,Annual variation,castilla y leon
+2020-02-01T00:00:00.000+01:00,-2.680095165236096,1,Annual variation,castilla y leon
+2020-03-01T00:00:00.000+01:00,-4.351299706783504,1,Annual variation,castilla y leon
+2020-04-01T00:00:00.000+02:00,-9.269354791974536,1,Annual variation,castilla y leon
+2020-05-01T00:00:00.000+02:00,-10.651205099176103,1,Annual variation,castilla y leon
+2020-06-01T00:00:00.000+02:00,-10.590845192369324,1,Annual variation,castilla y leon
+2020-07-01T00:00:00.000+02:00,-9.977394882705342,1,Annual variation,castilla y leon
+2020-08-01T00:00:00.000+02:00,-9.650184921998612,1,Annual variation,castilla y leon
+2020-09-01T00:00:00.000+02:00,-8.973083768363937,1,Annual variation,castilla y leon
+2020-10-01T00:00:00.000+02:00,-8.397140645093566,1,Annual variation,castilla y leon
+2020-11-01T00:00:00.000+01:00,-7.651939833148852,1,Annual variation,castilla y leon
+2020-12-01T00:00:00.000+01:00,-7.048266592876616,1,Annual variation,castilla y leon
+2020-01-01T00:00:00.000+01:00,-5.809079869951822,1,Corrected annual variation,castilla y leon
+2020-02-01T00:00:00.000+01:00,-4.178351365775567,1,Corrected annual variation,castilla y leon
+2020-03-01T00:00:00.000+01:00,-5.189764092810228,1,Corrected annual variation,castilla y leon
+2020-04-01T00:00:00.000+02:00,-10.03391250962317,1,Corrected annual variation,castilla y leon
+2020-05-01T00:00:00.000+02:00,-11.382623102457087,1,Corrected annual variation,castilla y leon
+2020-06-01T00:00:00.000+02:00,-11.424931191349321,1,Corrected annual variation,castilla y leon
+2020-07-01T00:00:00.000+02:00,-10.931500798477801,1,Corrected annual variation,castilla y leon
+2020-08-01T00:00:00.000+02:00,-10.608954251748568,1,Corrected annual variation,castilla y leon
+2020-09-01T00:00:00.000+02:00,-9.972596051009226,1,Corrected annual variation,castilla y leon
+2020-10-01T00:00:00.000+02:00,-9.118944950431226,1,Corrected annual variation,castilla y leon
+2020-11-01T00:00:00.000+01:00,-8.335139376215666,1,Corrected annual variation,castilla y leon
+2020-12-01T00:00:00.000+01:00,-7.691006922954673,1,Corrected annual variation,castilla y leon
+2020-01-01T00:00:00.000+01:00,115.425,1,Índice industria,cataluña
+2020-02-01T00:00:00.000+01:00,115.763,1,Índice industria,cataluña
+2020-03-01T00:00:00.000+01:00,116.129,1,Índice industria,cataluña
+2020-04-01T00:00:00.000+02:00,109.594,1,Índice industria,cataluña
+2020-05-01T00:00:00.000+02:00,109.22639999999998,1,Índice industria,cataluña
+2020-06-01T00:00:00.000+02:00,109.28883333333333,1,Índice industria,cataluña
+2020-07-01T00:00:00.000+02:00,110.25557142857143,1,Índice industria,cataluña
+2020-08-01T00:00:00.000+02:00,109.50375,1,Índice industria,cataluña
+2020-09-01T00:00:00.000+02:00,110.53044444444444,1,Índice industria,cataluña
+2020-10-01T00:00:00.000+02:00,111.691,1,Índice industria,cataluña
+2020-11-01T00:00:00.000+01:00,112.33545454545455,1,Índice industria,cataluña
+2020-12-01T00:00:00.000+01:00,111.6915,1,Índice industria,cataluña
+2020-01-01T00:00:00.000+01:00,96.184,1,Índice industria corregido,cataluña
+2020-02-01T00:00:00.000+01:00,98.749,1,Índice industria corregido,cataluña
+2020-03-01T00:00:00.000+01:00,97.70100000000001,1,Índice industria corregido,cataluña
+2020-04-01T00:00:00.000+02:00,92.32050000000001,1,Índice industria corregido,cataluña
+2020-05-01T00:00:00.000+02:00,90.822,1,Índice industria corregido,cataluña
+2020-06-01T00:00:00.000+02:00,90.37683333333332,1,Índice industria corregido,cataluña
+2020-07-01T00:00:00.000+02:00,89.87571428571428,1,Índice industria corregido,cataluña
+2020-08-01T00:00:00.000+02:00,88.5225,1,Índice industria corregido,cataluña
+2020-09-01T00:00:00.000+02:00,89.32088888888887,1,Índice industria corregido,cataluña
+2020-10-01T00:00:00.000+02:00,90.2049,1,Índice industria corregido,cataluña
+2020-11-01T00:00:00.000+01:00,91.12745454545454,1,Índice industria corregido,cataluña
+2020-12-01T00:00:00.000+01:00,90.98066666666666,1,Índice industria corregido,cataluña
+2020-01-01T00:00:00.000+01:00,-6.2004794604038915,1,Annual variation,cataluña
+2020-02-01T00:00:00.000+01:00,-2.680095165236096,1,Annual variation,cataluña
+2020-03-01T00:00:00.000+01:00,-4.351299706783504,1,Annual variation,cataluña
+2020-04-01T00:00:00.000+02:00,-9.269354791974536,1,Annual variation,cataluña
+2020-05-01T00:00:00.000+02:00,-10.651205099176103,1,Annual variation,cataluña
+2020-06-01T00:00:00.000+02:00,-10.590845192369324,1,Annual variation,cataluña
+2020-07-01T00:00:00.000+02:00,-9.977394882705342,1,Annual variation,cataluña
+2020-08-01T00:00:00.000+02:00,-9.650184921998612,1,Annual variation,cataluña
+2020-09-01T00:00:00.000+02:00,-8.973083768363937,1,Annual variation,cataluña
+2020-10-01T00:00:00.000+02:00,-8.397140645093566,1,Annual variation,cataluña
+2020-11-01T00:00:00.000+01:00,-7.651939833148852,1,Annual variation,cataluña
+2020-12-01T00:00:00.000+01:00,-7.048266592876616,1,Annual variation,cataluña
+2020-01-01T00:00:00.000+01:00,-5.809079869951822,1,Corrected annual variation,cataluña
+2020-02-01T00:00:00.000+01:00,-4.178351365775567,1,Corrected annual variation,cataluña
+2020-03-01T00:00:00.000+01:00,-5.189764092810228,1,Corrected annual variation,cataluña
+2020-04-01T00:00:00.000+02:00,-10.03391250962317,1,Corrected annual variation,cataluña
+2020-05-01T00:00:00.000+02:00,-11.382623102457087,1,Corrected annual variation,cataluña
+2020-06-01T00:00:00.000+02:00,-11.424931191349321,1,Corrected annual variation,cataluña
+2020-07-01T00:00:00.000+02:00,-10.931500798477801,1,Corrected annual variation,cataluña
+2020-08-01T00:00:00.000+02:00,-10.608954251748568,1,Corrected annual variation,cataluña
+2020-09-01T00:00:00.000+02:00,-9.972596051009226,1,Corrected annual variation,cataluña
+2020-10-01T00:00:00.000+02:00,-9.118944950431226,1,Corrected annual variation,cataluña
+2020-11-01T00:00:00.000+01:00,-8.335139376215666,1,Corrected annual variation,cataluña
+2020-12-01T00:00:00.000+01:00,-7.691006922954673,1,Corrected annual variation,cataluña
+2020-01-01T00:00:00.000+01:00,115.425,1,Índice industria,pais vasco
+2020-02-01T00:00:00.000+01:00,115.763,1,Índice industria,pais vasco
+2020-03-01T00:00:00.000+01:00,116.129,1,Índice industria,pais vasco
+2020-04-01T00:00:00.000+02:00,109.594,1,Índice industria,pais vasco
+2020-05-01T00:00:00.000+02:00,109.22639999999998,1,Índice industria,pais vasco
+2020-06-01T00:00:00.000+02:00,109.28883333333333,1,Índice industria,pais vasco
+2020-07-01T00:00:00.000+02:00,110.25557142857143,1,Índice industria,pais vasco
+2020-08-01T00:00:00.000+02:00,109.50375,1,Índice industria,pais vasco
+2020-09-01T00:00:00.000+02:00,110.53044444444444,1,Índice industria,pais vasco
+2020-10-01T00:00:00.000+02:00,111.691,1,Índice industria,pais vasco
+2020-11-01T00:00:00.000+01:00,112.33545454545455,1,Índice industria,pais vasco
+2020-12-01T00:00:00.000+01:00,111.6915,1,Índice industria,pais vasco
+2020-01-01T00:00:00.000+01:00,96.184,1,Índice industria corregido,pais vasco
+2020-02-01T00:00:00.000+01:00,98.749,1,Índice industria corregido,pais vasco
+2020-03-01T00:00:00.000+01:00,97.70100000000001,1,Índice industria corregido,pais vasco
+2020-04-01T00:00:00.000+02:00,92.32050000000001,1,Índice industria corregido,pais vasco
+2020-05-01T00:00:00.000+02:00,90.822,1,Índice industria corregido,pais vasco
+2020-06-01T00:00:00.000+02:00,90.37683333333332,1,Índice industria corregido,pais vasco
+2020-07-01T00:00:00.000+02:00,89.87571428571428,1,Índice industria corregido,pais vasco
+2020-08-01T00:00:00.000+02:00,88.5225,1,Índice industria corregido,pais vasco
+2020-09-01T00:00:00.000+02:00,89.32088888888887,1,Índice industria corregido,pais vasco
+2020-10-01T00:00:00.000+02:00,90.2049,1,Índice industria corregido,pais vasco
+2020-11-01T00:00:00.000+01:00,91.12745454545454,1,Índice industria corregido,pais vasco
+2020-12-01T00:00:00.000+01:00,90.98066666666666,1,Índice industria corregido,pais vasco
+2020-01-01T00:00:00.000+01:00,-6.2004794604038915,1,Annual variation,pais vasco
+2020-02-01T00:00:00.000+01:00,-2.680095165236096,1,Annual variation,pais vasco
+2020-03-01T00:00:00.000+01:00,-4.351299706783504,1,Annual variation,pais vasco
+2020-04-01T00:00:00.000+02:00,-9.269354791974536,1,Annual variation,pais vasco
+2020-05-01T00:00:00.000+02:00,-10.651205099176103,1,Annual variation,pais vasco
+2020-06-01T00:00:00.000+02:00,-10.590845192369324,1,Annual variation,pais vasco
+2020-07-01T00:00:00.000+02:00,-9.977394882705342,1,Annual variation,pais vasco
+2020-08-01T00:00:00.000+02:00,-9.650184921998612,1,Annual variation,pais vasco
+2020-09-01T00:00:00.000+02:00,-8.973083768363937,1,Annual variation,pais vasco
+2020-10-01T00:00:00.000+02:00,-8.397140645093566,1,Annual variation,pais vasco
+2020-11-01T00:00:00.000+01:00,-7.651939833148852,1,Annual variation,pais vasco
+2020-12-01T00:00:00.000+01:00,-7.048266592876616,1,Annual variation,pais vasco
+2020-01-01T00:00:00.000+01:00,-5.809079869951822,1,Corrected annual variation,pais vasco
+2020-02-01T00:00:00.000+01:00,-4.178351365775567,1,Corrected annual variation,pais vasco
+2020-03-01T00:00:00.000+01:00,-5.189764092810228,1,Corrected annual variation,pais vasco
+2020-04-01T00:00:00.000+02:00,-10.03391250962317,1,Corrected annual variation,pais vasco
+2020-05-01T00:00:00.000+02:00,-11.382623102457087,1,Corrected annual variation,pais vasco
+2020-06-01T00:00:00.000+02:00,-11.424931191349321,1,Corrected annual variation,pais vasco
+2020-07-01T00:00:00.000+02:00,-10.931500798477801,1,Corrected annual variation,pais vasco
+2020-08-01T00:00:00.000+02:00,-10.608954251748568,1,Corrected annual variation,pais vasco
+2020-09-01T00:00:00.000+02:00,-9.972596051009226,1,Corrected annual variation,pais vasco
+2020-10-01T00:00:00.000+02:00,-9.118944950431226,1,Corrected annual variation,pais vasco
+2020-11-01T00:00:00.000+01:00,-8.335139376215666,1,Corrected annual variation,pais vasco
+2020-12-01T00:00:00.000+01:00,-7.691006922954673,1,Corrected annual variation,pais vasco
+2020-01-01T00:00:00.000+01:00,115.425,1,Índice industria,principado de asturias
+2020-02-01T00:00:00.000+01:00,115.763,1,Índice industria,principado de asturias
+2020-03-01T00:00:00.000+01:00,116.129,1,Índice industria,principado de asturias
+2020-04-01T00:00:00.000+02:00,109.594,1,Índice industria,principado de asturias
+2020-05-01T00:00:00.000+02:00,109.22639999999998,1,Índice industria,principado de asturias
+2020-06-01T00:00:00.000+02:00,109.28883333333333,1,Índice industria,principado de asturias
+2020-07-01T00:00:00.000+02:00,110.25557142857143,1,Índice industria,principado de asturias
+2020-08-01T00:00:00.000+02:00,109.50375,1,Índice industria,principado de asturias
+2020-09-01T00:00:00.000+02:00,110.53044444444444,1,Índice industria,principado de asturias
+2020-10-01T00:00:00.000+02:00,111.691,1,Índice industria,principado de asturias
+2020-11-01T00:00:00.000+01:00,112.33545454545455,1,Índice industria,principado de asturias
+2020-12-01T00:00:00.000+01:00,111.6915,1,Índice industria,principado de asturias
+2020-01-01T00:00:00.000+01:00,96.184,1,Índice industria corregido,principado de asturias
+2020-02-01T00:00:00.000+01:00,98.749,1,Índice industria corregido,principado de asturias
+2020-03-01T00:00:00.000+01:00,97.70100000000001,1,Índice industria corregido,principado de asturias
+2020-04-01T00:00:00.000+02:00,92.32050000000001,1,Índice industria corregido,principado de asturias
+2020-05-01T00:00:00.000+02:00,90.822,1,Índice industria corregido,principado de asturias
+2020-06-01T00:00:00.000+02:00,90.37683333333332,1,Índice industria corregido,principado de asturias
+2020-07-01T00:00:00.000+02:00,89.87571428571428,1,Índice industria corregido,principado de asturias
+2020-08-01T00:00:00.000+02:00,88.5225,1,Índice industria corregido,principado de asturias
+2020-09-01T00:00:00.000+02:00,89.32088888888887,1,Índice industria corregido,principado de asturias
+2020-10-01T00:00:00.000+02:00,90.2049,1,Índice industria corregido,principado de asturias
+2020-11-01T00:00:00.000+01:00,91.12745454545454,1,Índice industria corregido,principado de asturias
+2020-12-01T00:00:00.000+01:00,90.98066666666666,1,Índice industria corregido,principado de asturias
+2020-01-01T00:00:00.000+01:00,-6.2004794604038915,1,Annual variation,principado de asturias
+2020-02-01T00:00:00.000+01:00,-2.680095165236096,1,Annual variation,principado de asturias
+2020-03-01T00:00:00.000+01:00,-4.351299706783504,1,Annual variation,principado de asturias
+2020-04-01T00:00:00.000+02:00,-9.269354791974536,1,Annual variation,principado de asturias
+2020-05-01T00:00:00.000+02:00,-10.651205099176103,1,Annual variation,principado de asturias
+2020-06-01T00:00:00.000+02:00,-10.590845192369324,1,Annual variation,principado de asturias
+2020-07-01T00:00:00.000+02:00,-9.977394882705342,1,Annual variation,principado de asturias
+2020-08-01T00:00:00.000+02:00,-9.650184921998612,1,Annual variation,principado de asturias
+2020-09-01T00:00:00.000+02:00,-8.973083768363937,1,Annual variation,principado de asturias
+2020-10-01T00:00:00.000+02:00,-8.397140645093566,1,Annual variation,principado de asturias
+2020-11-01T00:00:00.000+01:00,-7.651939833148852,1,Annual variation,principado de asturias
+2020-12-01T00:00:00.000+01:00,-7.048266592876616,1,Annual variation,principado de asturias
+2020-01-01T00:00:00.000+01:00,-5.809079869951822,1,Corrected annual variation,principado de asturias
+2020-02-01T00:00:00.000+01:00,-4.178351365775567,1,Corrected annual variation,principado de asturias
+2020-03-01T00:00:00.000+01:00,-5.189764092810228,1,Corrected annual variation,principado de asturias
+2020-04-01T00:00:00.000+02:00,-10.03391250962317,1,Corrected annual variation,principado de asturias
+2020-05-01T00:00:00.000+02:00,-11.382623102457087,1,Corrected annual variation,principado de asturias
+2020-06-01T00:00:00.000+02:00,-11.424931191349321,1,Corrected annual variation,principado de asturias
+2020-07-01T00:00:00.000+02:00,-10.931500798477801,1,Corrected annual variation,principado de asturias
+2020-08-01T00:00:00.000+02:00,-10.608954251748568,1,Corrected annual variation,principado de asturias
+2020-09-01T00:00:00.000+02:00,-9.972596051009226,1,Corrected annual variation,principado de asturias
+2020-10-01T00:00:00.000+02:00,-9.118944950431226,1,Corrected annual variation,principado de asturias
+2020-11-01T00:00:00.000+01:00,-8.335139376215666,1,Corrected annual variation,principado de asturias
+2020-12-01T00:00:00.000+01:00,-7.691006922954673,1,Corrected annual variation,principado de asturias
+2020-01-01T00:00:00.000+01:00,115.425,1,Índice industria,comunidad de madrid
+2020-02-01T00:00:00.000+01:00,115.763,1,Índice industria,comunidad de madrid
+2020-03-01T00:00:00.000+01:00,116.129,1,Índice industria,comunidad de madrid
+2020-04-01T00:00:00.000+02:00,109.594,1,Índice industria,comunidad de madrid
+2020-05-01T00:00:00.000+02:00,109.22639999999998,1,Índice industria,comunidad de madrid
+2020-06-01T00:00:00.000+02:00,109.28883333333333,1,Índice industria,comunidad de madrid
+2020-07-01T00:00:00.000+02:00,110.25557142857143,1,Índice industria,comunidad de madrid
+2020-08-01T00:00:00.000+02:00,109.50375,1,Índice industria,comunidad de madrid
+2020-09-01T00:00:00.000+02:00,110.53044444444444,1,Índice industria,comunidad de madrid
+2020-10-01T00:00:00.000+02:00,111.691,1,Índice industria,comunidad de madrid
+2020-11-01T00:00:00.000+01:00,112.33545454545455,1,Índice industria,comunidad de madrid
+2020-12-01T00:00:00.000+01:00,111.6915,1,Índice industria,comunidad de madrid
+2020-01-01T00:00:00.000+01:00,96.184,1,Índice industria corregido,comunidad de madrid
+2020-02-01T00:00:00.000+01:00,98.749,1,Índice industria corregido,comunidad de madrid
+2020-03-01T00:00:00.000+01:00,97.70100000000001,1,Índice industria corregido,comunidad de madrid
+2020-04-01T00:00:00.000+02:00,92.32050000000001,1,Índice industria corregido,comunidad de madrid
+2020-05-01T00:00:00.000+02:00,90.822,1,Índice industria corregido,comunidad de madrid
+2020-06-01T00:00:00.000+02:00,90.37683333333332,1,Índice industria corregido,comunidad de madrid
+2020-07-01T00:00:00.000+02:00,89.87571428571428,1,Índice industria corregido,comunidad de madrid
+2020-08-01T00:00:00.000+02:00,88.5225,1,Índice industria corregido,comunidad de madrid
+2020-09-01T00:00:00.000+02:00,89.32088888888887,1,Índice industria corregido,comunidad de madrid
+2020-10-01T00:00:00.000+02:00,90.2049,1,Índice industria corregido,comunidad de madrid
+2020-11-01T00:00:00.000+01:00,91.12745454545454,1,Índice industria corregido,comunidad de madrid
+2020-12-01T00:00:00.000+01:00,90.98066666666666,1,Índice industria corregido,comunidad de madrid
+2020-01-01T00:00:00.000+01:00,-6.2004794604038915,1,Annual variation,comunidad de madrid
+2020-02-01T00:00:00.000+01:00,-2.680095165236096,1,Annual variation,comunidad de madrid
+2020-03-01T00:00:00.000+01:00,-4.351299706783504,1,Annual variation,comunidad de madrid
+2020-04-01T00:00:00.000+02:00,-9.269354791974536,1,Annual variation,comunidad de madrid
+2020-05-01T00:00:00.000+02:00,-10.651205099176103,1,Annual variation,comunidad de madrid
+2020-06-01T00:00:00.000+02:00,-10.590845192369324,1,Annual variation,comunidad de madrid
+2020-07-01T00:00:00.000+02:00,-9.977394882705342,1,Annual variation,comunidad de madrid
+2020-08-01T00:00:00.000+02:00,-9.650184921998612,1,Annual variation,comunidad de madrid
+2020-09-01T00:00:00.000+02:00,-8.973083768363937,1,Annual variation,comunidad de madrid
+2020-10-01T00:00:00.000+02:00,-8.397140645093566,1,Annual variation,comunidad de madrid
+2020-11-01T00:00:00.000+01:00,-7.651939833148852,1,Annual variation,comunidad de madrid
+2020-12-01T00:00:00.000+01:00,-7.048266592876616,1,Annual variation,comunidad de madrid
+2020-01-01T00:00:00.000+01:00,-5.809079869951822,1,Corrected annual variation,comunidad de madrid
+2020-02-01T00:00:00.000+01:00,-4.178351365775567,1,Corrected annual variation,comunidad de madrid
+2020-03-01T00:00:00.000+01:00,-5.189764092810228,1,Corrected annual variation,comunidad de madrid
+2020-04-01T00:00:00.000+02:00,-10.03391250962317,1,Corrected annual variation,comunidad de madrid
+2020-05-01T00:00:00.000+02:00,-11.382623102457087,1,Corrected annual variation,comunidad de madrid
+2020-06-01T00:00:00.000+02:00,-11.424931191349321,1,Corrected annual variation,comunidad de madrid
+2020-07-01T00:00:00.000+02:00,-10.931500798477801,1,Corrected annual variation,comunidad de madrid
+2020-08-01T00:00:00.000+02:00,-10.608954251748568,1,Corrected annual variation,comunidad de madrid
+2020-09-01T00:00:00.000+02:00,-9.972596051009226,1,Corrected annual variation,comunidad de madrid
+2020-10-01T00:00:00.000+02:00,-9.118944950431226,1,Corrected annual variation,comunidad de madrid
+2020-11-01T00:00:00.000+01:00,-8.335139376215666,1,Corrected annual variation,comunidad de madrid
+2020-12-01T00:00:00.000+01:00,-7.691006922954673,1,Corrected annual variation,comunidad de madrid
+2020-01-01T00:00:00.000+01:00,115.425,1,Índice industria,comunidad de navarra
+2020-02-01T00:00:00.000+01:00,115.763,1,Índice industria,comunidad de navarra
+2020-03-01T00:00:00.000+01:00,116.129,1,Índice industria,comunidad de navarra
+2020-04-01T00:00:00.000+02:00,109.594,1,Índice industria,comunidad de navarra
+2020-05-01T00:00:00.000+02:00,109.22639999999998,1,Índice industria,comunidad de navarra
+2020-06-01T00:00:00.000+02:00,109.28883333333333,1,Índice industria,comunidad de navarra
+2020-07-01T00:00:00.000+02:00,110.25557142857143,1,Índice industria,comunidad de navarra
+2020-08-01T00:00:00.000+02:00,109.50375,1,Índice industria,comunidad de navarra
+2020-09-01T00:00:00.000+02:00,110.53044444444444,1,Índice industria,comunidad de navarra
+2020-10-01T00:00:00.000+02:00,111.691,1,Índice industria,comunidad de navarra
+2020-11-01T00:00:00.000+01:00,112.33545454545455,1,Índice industria,comunidad de navarra
+2020-12-01T00:00:00.000+01:00,111.6915,1,Índice industria,comunidad de navarra
+2020-01-01T00:00:00.000+01:00,96.184,1,Índice industria corregido,comunidad de navarra
+2020-02-01T00:00:00.000+01:00,98.749,1,Índice industria corregido,comunidad de navarra
+2020-03-01T00:00:00.000+01:00,97.70100000000001,1,Índice industria corregido,comunidad de navarra
+2020-04-01T00:00:00.000+02:00,92.32050000000001,1,Índice industria corregido,comunidad de navarra
+2020-05-01T00:00:00.000+02:00,90.822,1,Índice industria corregido,comunidad de navarra
+2020-06-01T00:00:00.000+02:00,90.37683333333332,1,Índice industria corregido,comunidad de navarra
+2020-07-01T00:00:00.000+02:00,89.87571428571428,1,Índice industria corregido,comunidad de navarra
+2020-08-01T00:00:00.000+02:00,88.5225,1,Índice industria corregido,comunidad de navarra
+2020-09-01T00:00:00.000+02:00,89.32088888888887,1,Índice industria corregido,comunidad de navarra
+2020-10-01T00:00:00.000+02:00,90.2049,1,Índice industria corregido,comunidad de navarra
+2020-11-01T00:00:00.000+01:00,91.12745454545454,1,Índice industria corregido,comunidad de navarra
+2020-12-01T00:00:00.000+01:00,90.98066666666666,1,Índice industria corregido,comunidad de navarra
+2020-01-01T00:00:00.000+01:00,-6.2004794604038915,1,Annual variation,comunidad de navarra
+2020-02-01T00:00:00.000+01:00,-2.680095165236096,1,Annual variation,comunidad de navarra
+2020-03-01T00:00:00.000+01:00,-4.351299706783504,1,Annual variation,comunidad de navarra
+2020-04-01T00:00:00.000+02:00,-9.269354791974536,1,Annual variation,comunidad de navarra
+2020-05-01T00:00:00.000+02:00,-10.651205099176103,1,Annual variation,comunidad de navarra
+2020-06-01T00:00:00.000+02:00,-10.590845192369324,1,Annual variation,comunidad de navarra
+2020-07-01T00:00:00.000+02:00,-9.977394882705342,1,Annual variation,comunidad de navarra
+2020-08-01T00:00:00.000+02:00,-9.650184921998612,1,Annual variation,comunidad de navarra
+2020-09-01T00:00:00.000+02:00,-8.973083768363937,1,Annual variation,comunidad de navarra
+2020-10-01T00:00:00.000+02:00,-8.397140645093566,1,Annual variation,comunidad de navarra
+2020-11-01T00:00:00.000+01:00,-7.651939833148852,1,Annual variation,comunidad de navarra
+2020-12-01T00:00:00.000+01:00,-7.048266592876616,1,Annual variation,comunidad de navarra
+2020-01-01T00:00:00.000+01:00,-5.809079869951822,1,Corrected annual variation,comunidad de navarra
+2020-02-01T00:00:00.000+01:00,-4.178351365775567,1,Corrected annual variation,comunidad de navarra
+2020-03-01T00:00:00.000+01:00,-5.189764092810228,1,Corrected annual variation,comunidad de navarra
+2020-04-01T00:00:00.000+02:00,-10.03391250962317,1,Corrected annual variation,comunidad de navarra
+2020-05-01T00:00:00.000+02:00,-11.382623102457087,1,Corrected annual variation,comunidad de navarra
+2020-06-01T00:00:00.000+02:00,-11.424931191349321,1,Corrected annual variation,comunidad de navarra
+2020-07-01T00:00:00.000+02:00,-10.931500798477801,1,Corrected annual variation,comunidad de navarra
+2020-08-01T00:00:00.000+02:00,-10.608954251748568,1,Corrected annual variation,comunidad de navarra
+2020-09-01T00:00:00.000+02:00,-9.972596051009226,1,Corrected annual variation,comunidad de navarra
+2020-10-01T00:00:00.000+02:00,-9.118944950431226,1,Corrected annual variation,comunidad de navarra
+2020-11-01T00:00:00.000+01:00,-8.335139376215666,1,Corrected annual variation,comunidad de navarra
+2020-12-01T00:00:00.000+01:00,-7.691006922954673,1,Corrected annual variation,comunidad de navarra
+2020-01-01T00:00:00.000+01:00,115.425,1,Índice industria,comunidad valenciana
+2020-02-01T00:00:00.000+01:00,115.763,1,Índice industria,comunidad valenciana
+2020-03-01T00:00:00.000+01:00,116.129,1,Índice industria,comunidad valenciana
+2020-04-01T00:00:00.000+02:00,109.594,1,Índice industria,comunidad valenciana
+2020-05-01T00:00:00.000+02:00,109.22639999999998,1,Índice industria,comunidad valenciana
+2020-06-01T00:00:00.000+02:00,109.28883333333333,1,Índice industria,comunidad valenciana
+2020-07-01T00:00:00.000+02:00,110.25557142857143,1,Índice industria,comunidad valenciana
+2020-08-01T00:00:00.000+02:00,109.50375,1,Índice industria,comunidad valenciana
+2020-09-01T00:00:00.000+02:00,110.53044444444444,1,Índice industria,comunidad valenciana
+2020-10-01T00:00:00.000+02:00,111.691,1,Índice industria,comunidad valenciana
+2020-11-01T00:00:00.000+01:00,112.33545454545455,1,Índice industria,comunidad valenciana
+2020-12-01T00:00:00.000+01:00,111.6915,1,Índice industria,comunidad valenciana
+2020-01-01T00:00:00.000+01:00,96.184,1,Índice industria corregido,comunidad valenciana
+2020-02-01T00:00:00.000+01:00,98.749,1,Índice industria corregido,comunidad valenciana
+2020-03-01T00:00:00.000+01:00,97.70100000000001,1,Índice industria corregido,comunidad valenciana
+2020-04-01T00:00:00.000+02:00,92.32050000000001,1,Índice industria corregido,comunidad valenciana
+2020-05-01T00:00:00.000+02:00,90.822,1,Índice industria corregido,comunidad valenciana
+2020-06-01T00:00:00.000+02:00,90.37683333333332,1,Índice industria corregido,comunidad valenciana
+2020-07-01T00:00:00.000+02:00,89.87571428571428,1,Índice industria corregido,comunidad valenciana
+2020-08-01T00:00:00.000+02:00,88.5225,1,Índice industria corregido,comunidad valenciana
+2020-09-01T00:00:00.000+02:00,89.32088888888887,1,Índice industria corregido,comunidad valenciana
+2020-10-01T00:00:00.000+02:00,90.2049,1,Índice industria corregido,comunidad valenciana
+2020-11-01T00:00:00.000+01:00,91.12745454545454,1,Índice industria corregido,comunidad valenciana
+2020-12-01T00:00:00.000+01:00,90.98066666666666,1,Índice industria corregido,comunidad valenciana
+2020-01-01T00:00:00.000+01:00,-6.2004794604038915,1,Annual variation,comunidad valenciana
+2020-02-01T00:00:00.000+01:00,-2.680095165236096,1,Annual variation,comunidad valenciana
+2020-03-01T00:00:00.000+01:00,-4.351299706783504,1,Annual variation,comunidad valenciana
+2020-04-01T00:00:00.000+02:00,-9.269354791974536,1,Annual variation,comunidad valenciana
+2020-05-01T00:00:00.000+02:00,-10.651205099176103,1,Annual variation,comunidad valenciana
+2020-06-01T00:00:00.000+02:00,-10.590845192369324,1,Annual variation,comunidad valenciana
+2020-07-01T00:00:00.000+02:00,-9.977394882705342,1,Annual variation,comunidad valenciana
+2020-08-01T00:00:00.000+02:00,-9.650184921998612,1,Annual variation,comunidad valenciana
+2020-09-01T00:00:00.000+02:00,-8.973083768363937,1,Annual variation,comunidad valenciana
+2020-10-01T00:00:00.000+02:00,-8.397140645093566,1,Annual variation,comunidad valenciana
+2020-11-01T00:00:00.000+01:00,-7.651939833148852,1,Annual variation,comunidad valenciana
+2020-12-01T00:00:00.000+01:00,-7.048266592876616,1,Annual variation,comunidad valenciana
+2020-01-01T00:00:00.000+01:00,-5.809079869951822,1,Corrected annual variation,comunidad valenciana
+2020-02-01T00:00:00.000+01:00,-4.178351365775567,1,Corrected annual variation,comunidad valenciana
+2020-03-01T00:00:00.000+01:00,-5.189764092810228,1,Corrected annual variation,comunidad valenciana
+2020-04-01T00:00:00.000+02:00,-10.03391250962317,1,Corrected annual variation,comunidad valenciana
+2020-05-01T00:00:00.000+02:00,-11.382623102457087,1,Corrected annual variation,comunidad valenciana
+2020-06-01T00:00:00.000+02:00,-11.424931191349321,1,Corrected annual variation,comunidad valenciana
+2020-07-01T00:00:00.000+02:00,-10.931500798477801,1,Corrected annual variation,comunidad valenciana
+2020-08-01T00:00:00.000+02:00,-10.608954251748568,1,Corrected annual variation,comunidad valenciana
+2020-09-01T00:00:00.000+02:00,-9.972596051009226,1,Corrected annual variation,comunidad valenciana
+2020-10-01T00:00:00.000+02:00,-9.118944950431226,1,Corrected annual variation,comunidad valenciana
+2020-11-01T00:00:00.000+01:00,-8.335139376215666,1,Corrected annual variation,comunidad valenciana
+2020-12-01T00:00:00.000+01:00,-7.691006922954673,1,Corrected annual variation,comunidad valenciana
+2020-01-01T00:00:00.000+01:00,115.425,1,Índice industria,extremadura
+2020-02-01T00:00:00.000+01:00,115.763,1,Índice industria,extremadura
+2020-03-01T00:00:00.000+01:00,116.129,1,Índice industria,extremadura
+2020-04-01T00:00:00.000+02:00,109.594,1,Índice industria,extremadura
+2020-05-01T00:00:00.000+02:00,109.22639999999998,1,Índice industria,extremadura
+2020-06-01T00:00:00.000+02:00,109.28883333333333,1,Índice industria,extremadura
+2020-07-01T00:00:00.000+02:00,110.25557142857143,1,Índice industria,extremadura
+2020-08-01T00:00:00.000+02:00,109.50375,1,Índice industria,extremadura
+2020-09-01T00:00:00.000+02:00,110.53044444444444,1,Índice industria,extremadura
+2020-10-01T00:00:00.000+02:00,111.691,1,Índice industria,extremadura
+2020-11-01T00:00:00.000+01:00,112.33545454545455,1,Índice industria,extremadura
+2020-12-01T00:00:00.000+01:00,111.6915,1,Índice industria,extremadura
+2020-01-01T00:00:00.000+01:00,96.184,1,Índice industria corregido,extremadura
+2020-02-01T00:00:00.000+01:00,98.749,1,Índice industria corregido,extremadura
+2020-03-01T00:00:00.000+01:00,97.70100000000001,1,Índice industria corregido,extremadura
+2020-04-01T00:00:00.000+02:00,92.32050000000001,1,Índice industria corregido,extremadura
+2020-05-01T00:00:00.000+02:00,90.822,1,Índice industria corregido,extremadura
+2020-06-01T00:00:00.000+02:00,90.37683333333332,1,Índice industria corregido,extremadura
+2020-07-01T00:00:00.000+02:00,89.87571428571428,1,Índice industria corregido,extremadura
+2020-08-01T00:00:00.000+02:00,88.5225,1,Índice industria corregido,extremadura
+2020-09-01T00:00:00.000+02:00,89.32088888888887,1,Índice industria corregido,extremadura
+2020-10-01T00:00:00.000+02:00,90.2049,1,Índice industria corregido,extremadura
+2020-11-01T00:00:00.000+01:00,91.12745454545454,1,Índice industria corregido,extremadura
+2020-12-01T00:00:00.000+01:00,90.98066666666666,1,Índice industria corregido,extremadura
+2020-01-01T00:00:00.000+01:00,-6.2004794604038915,1,Annual variation,extremadura
+2020-02-01T00:00:00.000+01:00,-2.680095165236096,1,Annual variation,extremadura
+2020-03-01T00:00:00.000+01:00,-4.351299706783504,1,Annual variation,extremadura
+2020-04-01T00:00:00.000+02:00,-9.269354791974536,1,Annual variation,extremadura
+2020-05-01T00:00:00.000+02:00,-10.651205099176103,1,Annual variation,extremadura
+2020-06-01T00:00:00.000+02:00,-10.590845192369324,1,Annual variation,extremadura
+2020-07-01T00:00:00.000+02:00,-9.977394882705342,1,Annual variation,extremadura
+2020-08-01T00:00:00.000+02:00,-9.650184921998612,1,Annual variation,extremadura
+2020-09-01T00:00:00.000+02:00,-8.973083768363937,1,Annual variation,extremadura
+2020-10-01T00:00:00.000+02:00,-8.397140645093566,1,Annual variation,extremadura
+2020-11-01T00:00:00.000+01:00,-7.651939833148852,1,Annual variation,extremadura
+2020-12-01T00:00:00.000+01:00,-7.048266592876616,1,Annual variation,extremadura
+2020-01-01T00:00:00.000+01:00,-5.809079869951822,1,Corrected annual variation,extremadura
+2020-02-01T00:00:00.000+01:00,-4.178351365775567,1,Corrected annual variation,extremadura
+2020-03-01T00:00:00.000+01:00,-5.189764092810228,1,Corrected annual variation,extremadura
+2020-04-01T00:00:00.000+02:00,-10.03391250962317,1,Corrected annual variation,extremadura
+2020-05-01T00:00:00.000+02:00,-11.382623102457087,1,Corrected annual variation,extremadura
+2020-06-01T00:00:00.000+02:00,-11.424931191349321,1,Corrected annual variation,extremadura
+2020-07-01T00:00:00.000+02:00,-10.931500798477801,1,Corrected annual variation,extremadura
+2020-08-01T00:00:00.000+02:00,-10.608954251748568,1,Corrected annual variation,extremadura
+2020-09-01T00:00:00.000+02:00,-9.972596051009226,1,Corrected annual variation,extremadura
+2020-10-01T00:00:00.000+02:00,-9.118944950431226,1,Corrected annual variation,extremadura
+2020-11-01T00:00:00.000+01:00,-8.335139376215666,1,Corrected annual variation,extremadura
+2020-12-01T00:00:00.000+01:00,-7.691006922954673,1,Corrected annual variation,extremadura
+2020-01-01T00:00:00.000+01:00,115.425,1,Índice industria,galicia
+2020-02-01T00:00:00.000+01:00,115.763,1,Índice industria,galicia
+2020-03-01T00:00:00.000+01:00,116.129,1,Índice industria,galicia
+2020-04-01T00:00:00.000+02:00,109.594,1,Índice industria,galicia
+2020-05-01T00:00:00.000+02:00,109.22639999999998,1,Índice industria,galicia
+2020-06-01T00:00:00.000+02:00,109.28883333333333,1,Índice industria,galicia
+2020-07-01T00:00:00.000+02:00,110.25557142857143,1,Índice industria,galicia
+2020-08-01T00:00:00.000+02:00,109.50375,1,Índice industria,galicia
+2020-09-01T00:00:00.000+02:00,110.53044444444444,1,Índice industria,galicia
+2020-10-01T00:00:00.000+02:00,111.691,1,Índice industria,galicia
+2020-11-01T00:00:00.000+01:00,112.33545454545455,1,Índice industria,galicia
+2020-12-01T00:00:00.000+01:00,111.6915,1,Índice industria,galicia
+2020-01-01T00:00:00.000+01:00,96.184,1,Índice industria corregido,galicia
+2020-02-01T00:00:00.000+01:00,98.749,1,Índice industria corregido,galicia
+2020-03-01T00:00:00.000+01:00,97.70100000000001,1,Índice industria corregido,galicia
+2020-04-01T00:00:00.000+02:00,92.32050000000001,1,Índice industria corregido,galicia
+2020-05-01T00:00:00.000+02:00,90.822,1,Índice industria corregido,galicia
+2020-06-01T00:00:00.000+02:00,90.37683333333332,1,Índice industria corregido,galicia
+2020-07-01T00:00:00.000+02:00,89.87571428571428,1,Índice industria corregido,galicia
+2020-08-01T00:00:00.000+02:00,88.5225,1,Índice industria corregido,galicia
+2020-09-01T00:00:00.000+02:00,89.32088888888887,1,Índice industria corregido,galicia
+2020-10-01T00:00:00.000+02:00,90.2049,1,Índice industria corregido,galicia
+2020-11-01T00:00:00.000+01:00,91.12745454545454,1,Índice industria corregido,galicia
+2020-12-01T00:00:00.000+01:00,90.98066666666666,1,Índice industria corregido,galicia
+2020-01-01T00:00:00.000+01:00,-6.2004794604038915,1,Annual variation,galicia
+2020-02-01T00:00:00.000+01:00,-2.680095165236096,1,Annual variation,galicia
+2020-03-01T00:00:00.000+01:00,-4.351299706783504,1,Annual variation,galicia
+2020-04-01T00:00:00.000+02:00,-9.269354791974536,1,Annual variation,galicia
+2020-05-01T00:00:00.000+02:00,-10.651205099176103,1,Annual variation,galicia
+2020-06-01T00:00:00.000+02:00,-10.590845192369324,1,Annual variation,galicia
+2020-07-01T00:00:00.000+02:00,-9.977394882705342,1,Annual variation,galicia
+2020-08-01T00:00:00.000+02:00,-9.650184921998612,1,Annual variation,galicia
+2020-09-01T00:00:00.000+02:00,-8.973083768363937,1,Annual variation,galicia
+2020-10-01T00:00:00.000+02:00,-8.397140645093566,1,Annual variation,galicia
+2020-11-01T00:00:00.000+01:00,-7.651939833148852,1,Annual variation,galicia
+2020-12-01T00:00:00.000+01:00,-7.048266592876616,1,Annual variation,galicia
+2020-01-01T00:00:00.000+01:00,-5.809079869951822,1,Corrected annual variation,galicia
+2020-02-01T00:00:00.000+01:00,-4.178351365775567,1,Corrected annual variation,galicia
+2020-03-01T00:00:00.000+01:00,-5.189764092810228,1,Corrected annual variation,galicia
+2020-04-01T00:00:00.000+02:00,-10.03391250962317,1,Corrected annual variation,galicia
+2020-05-01T00:00:00.000+02:00,-11.382623102457087,1,Corrected annual variation,galicia
+2020-06-01T00:00:00.000+02:00,-11.424931191349321,1,Corrected annual variation,galicia
+2020-07-01T00:00:00.000+02:00,-10.931500798477801,1,Corrected annual variation,galicia
+2020-08-01T00:00:00.000+02:00,-10.608954251748568,1,Corrected annual variation,galicia
+2020-09-01T00:00:00.000+02:00,-9.972596051009226,1,Corrected annual variation,galicia
+2020-10-01T00:00:00.000+02:00,-9.118944950431226,1,Corrected annual variation,galicia
+2020-11-01T00:00:00.000+01:00,-8.335139376215666,1,Corrected annual variation,galicia
+2020-12-01T00:00:00.000+01:00,-7.691006922954673,1,Corrected annual variation,galicia
+2020-01-01T00:00:00.000+01:00,115.425,1,Índice industria,la rioja
+2020-02-01T00:00:00.000+01:00,115.763,1,Índice industria,la rioja
+2020-03-01T00:00:00.000+01:00,116.129,1,Índice industria,la rioja
+2020-04-01T00:00:00.000+02:00,109.594,1,Índice industria,la rioja
+2020-05-01T00:00:00.000+02:00,109.22639999999998,1,Índice industria,la rioja
+2020-06-01T00:00:00.000+02:00,109.28883333333333,1,Índice industria,la rioja
+2020-07-01T00:00:00.000+02:00,110.25557142857143,1,Índice industria,la rioja
+2020-08-01T00:00:00.000+02:00,109.50375,1,Índice industria,la rioja
+2020-09-01T00:00:00.000+02:00,110.53044444444444,1,Índice industria,la rioja
+2020-10-01T00:00:00.000+02:00,111.691,1,Índice industria,la rioja
+2020-11-01T00:00:00.000+01:00,112.33545454545455,1,Índice industria,la rioja
+2020-12-01T00:00:00.000+01:00,111.6915,1,Índice industria,la rioja
+2020-01-01T00:00:00.000+01:00,96.184,1,Índice industria corregido,la rioja
+2020-02-01T00:00:00.000+01:00,98.749,1,Índice industria corregido,la rioja
+2020-03-01T00:00:00.000+01:00,97.70100000000001,1,Índice industria corregido,la rioja
+2020-04-01T00:00:00.000+02:00,92.32050000000001,1,Índice industria corregido,la rioja
+2020-05-01T00:00:00.000+02:00,90.822,1,Índice industria corregido,la rioja
+2020-06-01T00:00:00.000+02:00,90.37683333333332,1,Índice industria corregido,la rioja
+2020-07-01T00:00:00.000+02:00,89.87571428571428,1,Índice industria corregido,la rioja
+2020-08-01T00:00:00.000+02:00,88.5225,1,Índice industria corregido,la rioja
+2020-09-01T00:00:00.000+02:00,89.32088888888887,1,Índice industria corregido,la rioja
+2020-10-01T00:00:00.000+02:00,90.2049,1,Índice industria corregido,la rioja
+2020-11-01T00:00:00.000+01:00,91.12745454545454,1,Índice industria corregido,la rioja
+2020-12-01T00:00:00.000+01:00,90.98066666666666,1,Índice industria corregido,la rioja
+2020-01-01T00:00:00.000+01:00,-6.2004794604038915,1,Annual variation,la rioja
+2020-02-01T00:00:00.000+01:00,-2.680095165236096,1,Annual variation,la rioja
+2020-03-01T00:00:00.000+01:00,-4.351299706783504,1,Annual variation,la rioja
+2020-04-01T00:00:00.000+02:00,-9.269354791974536,1,Annual variation,la rioja
+2020-05-01T00:00:00.000+02:00,-10.651205099176103,1,Annual variation,la rioja
+2020-06-01T00:00:00.000+02:00,-10.590845192369324,1,Annual variation,la rioja
+2020-07-01T00:00:00.000+02:00,-9.977394882705342,1,Annual variation,la rioja
+2020-08-01T00:00:00.000+02:00,-9.650184921998612,1,Annual variation,la rioja
+2020-09-01T00:00:00.000+02:00,-8.973083768363937,1,Annual variation,la rioja
+2020-10-01T00:00:00.000+02:00,-8.397140645093566,1,Annual variation,la rioja
+2020-11-01T00:00:00.000+01:00,-7.651939833148852,1,Annual variation,la rioja
+2020-12-01T00:00:00.000+01:00,-7.048266592876616,1,Annual variation,la rioja
+2020-01-01T00:00:00.000+01:00,-5.809079869951822,1,Corrected annual variation,la rioja
+2020-02-01T00:00:00.000+01:00,-4.178351365775567,1,Corrected annual variation,la rioja
+2020-03-01T00:00:00.000+01:00,-5.189764092810228,1,Corrected annual variation,la rioja
+2020-04-01T00:00:00.000+02:00,-10.03391250962317,1,Corrected annual variation,la rioja
+2020-05-01T00:00:00.000+02:00,-11.382623102457087,1,Corrected annual variation,la rioja
+2020-06-01T00:00:00.000+02:00,-11.424931191349321,1,Corrected annual variation,la rioja
+2020-07-01T00:00:00.000+02:00,-10.931500798477801,1,Corrected annual variation,la rioja
+2020-08-01T00:00:00.000+02:00,-10.608954251748568,1,Corrected annual variation,la rioja
+2020-09-01T00:00:00.000+02:00,-9.972596051009226,1,Corrected annual variation,la rioja
+2020-10-01T00:00:00.000+02:00,-9.118944950431226,1,Corrected annual variation,la rioja
+2020-11-01T00:00:00.000+01:00,-8.335139376215666,1,Corrected annual variation,la rioja
+2020-12-01T00:00:00.000+01:00,-7.691006922954673,1,Corrected annual variation,la rioja
+2020-01-01T00:00:00.000+01:00,115.425,1,Índice industria,region de murcia
+2020-02-01T00:00:00.000+01:00,115.763,1,Índice industria,region de murcia
+2020-03-01T00:00:00.000+01:00,116.129,1,Índice industria,region de murcia
+2020-04-01T00:00:00.000+02:00,109.594,1,Índice industria,region de murcia
+2020-05-01T00:00:00.000+02:00,109.22639999999998,1,Índice industria,region de murcia
+2020-06-01T00:00:00.000+02:00,109.28883333333333,1,Índice industria,region de murcia
+2020-07-01T00:00:00.000+02:00,110.25557142857143,1,Índice industria,region de murcia
+2020-08-01T00:00:00.000+02:00,109.50375,1,Índice industria,region de murcia
+2020-09-01T00:00:00.000+02:00,110.53044444444444,1,Índice industria,region de murcia
+2020-10-01T00:00:00.000+02:00,111.691,1,Índice industria,region de murcia
+2020-11-01T00:00:00.000+01:00,112.33545454545455,1,Índice industria,region de murcia
+2020-12-01T00:00:00.000+01:00,111.6915,1,Índice industria,region de murcia
+2020-01-01T00:00:00.000+01:00,96.184,1,Índice industria corregido,region de murcia
+2020-02-01T00:00:00.000+01:00,98.749,1,Índice industria corregido,region de murcia
+2020-03-01T00:00:00.000+01:00,97.70100000000001,1,Índice industria corregido,region de murcia
+2020-04-01T00:00:00.000+02:00,92.32050000000001,1,Índice industria corregido,region de murcia
+2020-05-01T00:00:00.000+02:00,90.822,1,Índice industria corregido,region de murcia
+2020-06-01T00:00:00.000+02:00,90.37683333333332,1,Índice industria corregido,region de murcia
+2020-07-01T00:00:00.000+02:00,89.87571428571428,1,Índice industria corregido,region de murcia
+2020-08-01T00:00:00.000+02:00,88.5225,1,Índice industria corregido,region de murcia
+2020-09-01T00:00:00.000+02:00,89.32088888888887,1,Índice industria corregido,region de murcia
+2020-10-01T00:00:00.000+02:00,90.2049,1,Índice industria corregido,region de murcia
+2020-11-01T00:00:00.000+01:00,91.12745454545454,1,Índice industria corregido,region de murcia
+2020-12-01T00:00:00.000+01:00,90.98066666666666,1,Índice industria corregido,region de murcia
+2020-01-01T00:00:00.000+01:00,-6.2004794604038915,1,Annual variation,region de murcia
+2020-02-01T00:00:00.000+01:00,-2.680095165236096,1,Annual variation,region de murcia
+2020-03-01T00:00:00.000+01:00,-4.351299706783504,1,Annual variation,region de murcia
+2020-04-01T00:00:00.000+02:00,-9.269354791974536,1,Annual variation,region de murcia
+2020-05-01T00:00:00.000+02:00,-10.651205099176103,1,Annual variation,region de murcia
+2020-06-01T00:00:00.000+02:00,-10.590845192369324,1,Annual variation,region de murcia
+2020-07-01T00:00:00.000+02:00,-9.977394882705342,1,Annual variation,region de murcia
+2020-08-01T00:00:00.000+02:00,-9.650184921998612,1,Annual variation,region de murcia
+2020-09-01T00:00:00.000+02:00,-8.973083768363937,1,Annual variation,region de murcia
+2020-10-01T00:00:00.000+02:00,-8.397140645093566,1,Annual variation,region de murcia
+2020-11-01T00:00:00.000+01:00,-7.651939833148852,1,Annual variation,region de murcia
+2020-12-01T00:00:00.000+01:00,-7.048266592876616,1,Annual variation,region de murcia
+2020-01-01T00:00:00.000+01:00,-5.809079869951822,1,Corrected annual variation,region de murcia
+2020-02-01T00:00:00.000+01:00,-4.178351365775567,1,Corrected annual variation,region de murcia
+2020-03-01T00:00:00.000+01:00,-5.189764092810228,1,Corrected annual variation,region de murcia
+2020-04-01T00:00:00.000+02:00,-10.03391250962317,1,Corrected annual variation,region de murcia
+2020-05-01T00:00:00.000+02:00,-11.382623102457087,1,Corrected annual variation,region de murcia
+2020-06-01T00:00:00.000+02:00,-11.424931191349321,1,Corrected annual variation,region de murcia
+2020-07-01T00:00:00.000+02:00,-10.931500798477801,1,Corrected annual variation,region de murcia
+2020-08-01T00:00:00.000+02:00,-10.608954251748568,1,Corrected annual variation,region de murcia
+2020-09-01T00:00:00.000+02:00,-9.972596051009226,1,Corrected annual variation,region de murcia
+2020-10-01T00:00:00.000+02:00,-9.118944950431226,1,Corrected annual variation,region de murcia
+2020-11-01T00:00:00.000+01:00,-8.335139376215666,1,Corrected annual variation,region de murcia
+2020-12-01T00:00:00.000+01:00,-7.691006922954673,1,Corrected annual variation,region de murcia

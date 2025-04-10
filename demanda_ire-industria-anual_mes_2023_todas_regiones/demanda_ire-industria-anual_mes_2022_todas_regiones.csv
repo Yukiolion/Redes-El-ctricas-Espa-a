@@ -1,0 +1,961 @@
+fecha,valor,porcentaje,indicator,region
+2022-01-01T00:00:00.000+01:00,108.27,1,Índice industria,peninsular
+2022-02-01T00:00:00.000+01:00,107.0525,1,Índice industria,peninsular
+2022-03-01T00:00:00.000+01:00,108.19866666666667,1,Índice industria,peninsular
+2022-04-01T00:00:00.000+02:00,108.1345,1,Índice industria,peninsular
+2022-05-01T00:00:00.000+02:00,110.297,1,Índice industria,peninsular
+2022-06-01T00:00:00.000+02:00,111.07233333333333,1,Índice industria,peninsular
+2022-07-01T00:00:00.000+02:00,111.32071428571429,1,Índice industria,peninsular
+2022-08-01T00:00:00.000+02:00,109.43075,1,Índice industria,peninsular
+2022-09-01T00:00:00.000+02:00,109.38355555555556,1,Índice industria,peninsular
+2022-10-01T00:00:00.000+02:00,109.19120000000001,1,Índice industria,peninsular
+2022-11-01T00:00:00.000+01:00,108.6088181818182,1,Índice industria,peninsular
+2022-12-01T00:00:00.000+01:00,107.02575000000002,1,Índice industria,peninsular
+2022-01-01T00:00:00.000+01:00,89.646,1,Índice industria corregido,peninsular
+2022-02-01T00:00:00.000+01:00,92.767,1,Índice industria corregido,peninsular
+2022-03-01T00:00:00.000+01:00,91.72833333333334,1,Índice industria corregido,peninsular
+2022-04-01T00:00:00.000+02:00,91.9845,1,Índice industria corregido,peninsular
+2022-05-01T00:00:00.000+02:00,92.5432,1,Índice industria corregido,peninsular
+2022-06-01T00:00:00.000+02:00,92.5215,1,Índice industria corregido,peninsular
+2022-07-01T00:00:00.000+02:00,91.3237142857143,1,Índice industria corregido,peninsular
+2022-08-01T00:00:00.000+02:00,88.82275000000001,1,Índice industria corregido,peninsular
+2022-09-01T00:00:00.000+02:00,88.68133333333334,1,Índice industria corregido,peninsular
+2022-10-01T00:00:00.000+02:00,88.4972,1,Índice industria corregido,peninsular
+2022-11-01T00:00:00.000+01:00,88.35700000000001,1,Índice industria corregido,peninsular
+2022-12-01T00:00:00.000+01:00,87.34100000000001,1,Índice industria corregido,peninsular
+2022-01-01T00:00:00.000+01:00,-3.349342093517353,1,Annual variation,peninsular
+2022-02-01T00:00:00.000+01:00,-4.176568786727365,1,Annual variation,peninsular
+2022-03-01T00:00:00.000+01:00,-6.3976792336395825,1,Annual variation,peninsular
+2022-04-01T00:00:00.000+02:00,-6.6234329766266145,1,Annual variation,peninsular
+2022-05-01T00:00:00.000+02:00,-5.969681004335931,1,Annual variation,peninsular
+2022-06-01T00:00:00.000+02:00,-6.0295123344073245,1,Annual variation,peninsular
+2022-07-01T00:00:00.000+02:00,-6.223750303864674,1,Annual variation,peninsular
+2022-08-01T00:00:00.000+02:00,-6.7940719289653515,1,Annual variation,peninsular
+2022-09-01T00:00:00.000+02:00,-7.211117488988741,1,Annual variation,peninsular
+2022-10-01T00:00:00.000+02:00,-7.447437011294523,1,Annual variation,peninsular
+2022-11-01T00:00:00.000+01:00,-7.81488237436496,1,Annual variation,peninsular
+2022-12-01T00:00:00.000+01:00,-8.187372796115627,1,Annual variation,peninsular
+2022-01-01T00:00:00.000+01:00,-5.472605339744399,1,Corrected annual variation,peninsular
+2022-02-01T00:00:00.000+01:00,-5.533548538202257,1,Corrected annual variation,peninsular
+2022-03-01T00:00:00.000+01:00,-7.326083808458964,1,Corrected annual variation,peninsular
+2022-04-01T00:00:00.000+02:00,-7.397377494777641,1,Corrected annual variation,peninsular
+2022-05-01T00:00:00.000+02:00,-6.6890373997249375,1,Corrected annual variation,peninsular
+2022-06-01T00:00:00.000+02:00,-6.654100127627156,1,Corrected annual variation,peninsular
+2022-07-01T00:00:00.000+02:00,-6.895055111504666,1,Corrected annual variation,peninsular
+2022-08-01T00:00:00.000+02:00,-7.423745772339501,1,Corrected annual variation,peninsular
+2022-09-01T00:00:00.000+02:00,-7.753652836626139,1,Corrected annual variation,peninsular
+2022-10-01T00:00:00.000+02:00,-7.878174660179423,1,Corrected annual variation,peninsular
+2022-11-01T00:00:00.000+01:00,-8.334803041777763,1,Corrected annual variation,peninsular
+2022-12-01T00:00:00.000+01:00,-8.767635548251423,1,Corrected annual variation,peninsular
+2022-01-01T00:00:00.000+01:00,108.27,1,Índice industria,canarias
+2022-02-01T00:00:00.000+01:00,107.0525,1,Índice industria,canarias
+2022-03-01T00:00:00.000+01:00,108.19866666666667,1,Índice industria,canarias
+2022-04-01T00:00:00.000+02:00,108.1345,1,Índice industria,canarias
+2022-05-01T00:00:00.000+02:00,110.297,1,Índice industria,canarias
+2022-06-01T00:00:00.000+02:00,111.07233333333333,1,Índice industria,canarias
+2022-07-01T00:00:00.000+02:00,111.32071428571429,1,Índice industria,canarias
+2022-08-01T00:00:00.000+02:00,109.43075,1,Índice industria,canarias
+2022-09-01T00:00:00.000+02:00,109.38355555555556,1,Índice industria,canarias
+2022-10-01T00:00:00.000+02:00,109.19120000000001,1,Índice industria,canarias
+2022-11-01T00:00:00.000+01:00,108.6088181818182,1,Índice industria,canarias
+2022-12-01T00:00:00.000+01:00,107.02575000000002,1,Índice industria,canarias
+2022-01-01T00:00:00.000+01:00,89.646,1,Índice industria corregido,canarias
+2022-02-01T00:00:00.000+01:00,92.767,1,Índice industria corregido,canarias
+2022-03-01T00:00:00.000+01:00,91.72833333333334,1,Índice industria corregido,canarias
+2022-04-01T00:00:00.000+02:00,91.9845,1,Índice industria corregido,canarias
+2022-05-01T00:00:00.000+02:00,92.5432,1,Índice industria corregido,canarias
+2022-06-01T00:00:00.000+02:00,92.5215,1,Índice industria corregido,canarias
+2022-07-01T00:00:00.000+02:00,91.3237142857143,1,Índice industria corregido,canarias
+2022-08-01T00:00:00.000+02:00,88.82275000000001,1,Índice industria corregido,canarias
+2022-09-01T00:00:00.000+02:00,88.68133333333334,1,Índice industria corregido,canarias
+2022-10-01T00:00:00.000+02:00,88.4972,1,Índice industria corregido,canarias
+2022-11-01T00:00:00.000+01:00,88.35700000000001,1,Índice industria corregido,canarias
+2022-12-01T00:00:00.000+01:00,87.34100000000001,1,Índice industria corregido,canarias
+2022-01-01T00:00:00.000+01:00,-3.349342093517353,1,Annual variation,canarias
+2022-02-01T00:00:00.000+01:00,-4.176568786727365,1,Annual variation,canarias
+2022-03-01T00:00:00.000+01:00,-6.3976792336395825,1,Annual variation,canarias
+2022-04-01T00:00:00.000+02:00,-6.6234329766266145,1,Annual variation,canarias
+2022-05-01T00:00:00.000+02:00,-5.969681004335931,1,Annual variation,canarias
+2022-06-01T00:00:00.000+02:00,-6.0295123344073245,1,Annual variation,canarias
+2022-07-01T00:00:00.000+02:00,-6.223750303864674,1,Annual variation,canarias
+2022-08-01T00:00:00.000+02:00,-6.7940719289653515,1,Annual variation,canarias
+2022-09-01T00:00:00.000+02:00,-7.211117488988741,1,Annual variation,canarias
+2022-10-01T00:00:00.000+02:00,-7.447437011294523,1,Annual variation,canarias
+2022-11-01T00:00:00.000+01:00,-7.81488237436496,1,Annual variation,canarias
+2022-12-01T00:00:00.000+01:00,-8.187372796115627,1,Annual variation,canarias
+2022-01-01T00:00:00.000+01:00,-5.472605339744399,1,Corrected annual variation,canarias
+2022-02-01T00:00:00.000+01:00,-5.533548538202257,1,Corrected annual variation,canarias
+2022-03-01T00:00:00.000+01:00,-7.326083808458964,1,Corrected annual variation,canarias
+2022-04-01T00:00:00.000+02:00,-7.397377494777641,1,Corrected annual variation,canarias
+2022-05-01T00:00:00.000+02:00,-6.6890373997249375,1,Corrected annual variation,canarias
+2022-06-01T00:00:00.000+02:00,-6.654100127627156,1,Corrected annual variation,canarias
+2022-07-01T00:00:00.000+02:00,-6.895055111504666,1,Corrected annual variation,canarias
+2022-08-01T00:00:00.000+02:00,-7.423745772339501,1,Corrected annual variation,canarias
+2022-09-01T00:00:00.000+02:00,-7.753652836626139,1,Corrected annual variation,canarias
+2022-10-01T00:00:00.000+02:00,-7.878174660179423,1,Corrected annual variation,canarias
+2022-11-01T00:00:00.000+01:00,-8.334803041777763,1,Corrected annual variation,canarias
+2022-12-01T00:00:00.000+01:00,-8.767635548251423,1,Corrected annual variation,canarias
+2022-01-01T00:00:00.000+01:00,108.27,1,Índice industria,baleares
+2022-02-01T00:00:00.000+01:00,107.0525,1,Índice industria,baleares
+2022-03-01T00:00:00.000+01:00,108.19866666666667,1,Índice industria,baleares
+2022-04-01T00:00:00.000+02:00,108.1345,1,Índice industria,baleares
+2022-05-01T00:00:00.000+02:00,110.297,1,Índice industria,baleares
+2022-06-01T00:00:00.000+02:00,111.07233333333333,1,Índice industria,baleares
+2022-07-01T00:00:00.000+02:00,111.32071428571429,1,Índice industria,baleares
+2022-08-01T00:00:00.000+02:00,109.43075,1,Índice industria,baleares
+2022-09-01T00:00:00.000+02:00,109.38355555555556,1,Índice industria,baleares
+2022-10-01T00:00:00.000+02:00,109.19120000000001,1,Índice industria,baleares
+2022-11-01T00:00:00.000+01:00,108.6088181818182,1,Índice industria,baleares
+2022-12-01T00:00:00.000+01:00,107.02575000000002,1,Índice industria,baleares
+2022-01-01T00:00:00.000+01:00,89.646,1,Índice industria corregido,baleares
+2022-02-01T00:00:00.000+01:00,92.767,1,Índice industria corregido,baleares
+2022-03-01T00:00:00.000+01:00,91.72833333333334,1,Índice industria corregido,baleares
+2022-04-01T00:00:00.000+02:00,91.9845,1,Índice industria corregido,baleares
+2022-05-01T00:00:00.000+02:00,92.5432,1,Índice industria corregido,baleares
+2022-06-01T00:00:00.000+02:00,92.5215,1,Índice industria corregido,baleares
+2022-07-01T00:00:00.000+02:00,91.3237142857143,1,Índice industria corregido,baleares
+2022-08-01T00:00:00.000+02:00,88.82275000000001,1,Índice industria corregido,baleares
+2022-09-01T00:00:00.000+02:00,88.68133333333334,1,Índice industria corregido,baleares
+2022-10-01T00:00:00.000+02:00,88.4972,1,Índice industria corregido,baleares
+2022-11-01T00:00:00.000+01:00,88.35700000000001,1,Índice industria corregido,baleares
+2022-12-01T00:00:00.000+01:00,87.34100000000001,1,Índice industria corregido,baleares
+2022-01-01T00:00:00.000+01:00,-3.349342093517353,1,Annual variation,baleares
+2022-02-01T00:00:00.000+01:00,-4.176568786727365,1,Annual variation,baleares
+2022-03-01T00:00:00.000+01:00,-6.3976792336395825,1,Annual variation,baleares
+2022-04-01T00:00:00.000+02:00,-6.6234329766266145,1,Annual variation,baleares
+2022-05-01T00:00:00.000+02:00,-5.969681004335931,1,Annual variation,baleares
+2022-06-01T00:00:00.000+02:00,-6.0295123344073245,1,Annual variation,baleares
+2022-07-01T00:00:00.000+02:00,-6.223750303864674,1,Annual variation,baleares
+2022-08-01T00:00:00.000+02:00,-6.7940719289653515,1,Annual variation,baleares
+2022-09-01T00:00:00.000+02:00,-7.211117488988741,1,Annual variation,baleares
+2022-10-01T00:00:00.000+02:00,-7.447437011294523,1,Annual variation,baleares
+2022-11-01T00:00:00.000+01:00,-7.81488237436496,1,Annual variation,baleares
+2022-12-01T00:00:00.000+01:00,-8.187372796115627,1,Annual variation,baleares
+2022-01-01T00:00:00.000+01:00,-5.472605339744399,1,Corrected annual variation,baleares
+2022-02-01T00:00:00.000+01:00,-5.533548538202257,1,Corrected annual variation,baleares
+2022-03-01T00:00:00.000+01:00,-7.326083808458964,1,Corrected annual variation,baleares
+2022-04-01T00:00:00.000+02:00,-7.397377494777641,1,Corrected annual variation,baleares
+2022-05-01T00:00:00.000+02:00,-6.6890373997249375,1,Corrected annual variation,baleares
+2022-06-01T00:00:00.000+02:00,-6.654100127627156,1,Corrected annual variation,baleares
+2022-07-01T00:00:00.000+02:00,-6.895055111504666,1,Corrected annual variation,baleares
+2022-08-01T00:00:00.000+02:00,-7.423745772339501,1,Corrected annual variation,baleares
+2022-09-01T00:00:00.000+02:00,-7.753652836626139,1,Corrected annual variation,baleares
+2022-10-01T00:00:00.000+02:00,-7.878174660179423,1,Corrected annual variation,baleares
+2022-11-01T00:00:00.000+01:00,-8.334803041777763,1,Corrected annual variation,baleares
+2022-12-01T00:00:00.000+01:00,-8.767635548251423,1,Corrected annual variation,baleares
+2022-01-01T00:00:00.000+01:00,108.27,1,Índice industria,ceuta
+2022-02-01T00:00:00.000+01:00,107.0525,1,Índice industria,ceuta
+2022-03-01T00:00:00.000+01:00,108.19866666666667,1,Índice industria,ceuta
+2022-04-01T00:00:00.000+02:00,108.1345,1,Índice industria,ceuta
+2022-05-01T00:00:00.000+02:00,110.297,1,Índice industria,ceuta
+2022-06-01T00:00:00.000+02:00,111.07233333333333,1,Índice industria,ceuta
+2022-07-01T00:00:00.000+02:00,111.32071428571429,1,Índice industria,ceuta
+2022-08-01T00:00:00.000+02:00,109.43075,1,Índice industria,ceuta
+2022-09-01T00:00:00.000+02:00,109.38355555555556,1,Índice industria,ceuta
+2022-10-01T00:00:00.000+02:00,109.19120000000001,1,Índice industria,ceuta
+2022-11-01T00:00:00.000+01:00,108.6088181818182,1,Índice industria,ceuta
+2022-12-01T00:00:00.000+01:00,107.02575000000002,1,Índice industria,ceuta
+2022-01-01T00:00:00.000+01:00,89.646,1,Índice industria corregido,ceuta
+2022-02-01T00:00:00.000+01:00,92.767,1,Índice industria corregido,ceuta
+2022-03-01T00:00:00.000+01:00,91.72833333333334,1,Índice industria corregido,ceuta
+2022-04-01T00:00:00.000+02:00,91.9845,1,Índice industria corregido,ceuta
+2022-05-01T00:00:00.000+02:00,92.5432,1,Índice industria corregido,ceuta
+2022-06-01T00:00:00.000+02:00,92.5215,1,Índice industria corregido,ceuta
+2022-07-01T00:00:00.000+02:00,91.3237142857143,1,Índice industria corregido,ceuta
+2022-08-01T00:00:00.000+02:00,88.82275000000001,1,Índice industria corregido,ceuta
+2022-09-01T00:00:00.000+02:00,88.68133333333334,1,Índice industria corregido,ceuta
+2022-10-01T00:00:00.000+02:00,88.4972,1,Índice industria corregido,ceuta
+2022-11-01T00:00:00.000+01:00,88.35700000000001,1,Índice industria corregido,ceuta
+2022-12-01T00:00:00.000+01:00,87.34100000000001,1,Índice industria corregido,ceuta
+2022-01-01T00:00:00.000+01:00,-3.349342093517353,1,Annual variation,ceuta
+2022-02-01T00:00:00.000+01:00,-4.176568786727365,1,Annual variation,ceuta
+2022-03-01T00:00:00.000+01:00,-6.3976792336395825,1,Annual variation,ceuta
+2022-04-01T00:00:00.000+02:00,-6.6234329766266145,1,Annual variation,ceuta
+2022-05-01T00:00:00.000+02:00,-5.969681004335931,1,Annual variation,ceuta
+2022-06-01T00:00:00.000+02:00,-6.0295123344073245,1,Annual variation,ceuta
+2022-07-01T00:00:00.000+02:00,-6.223750303864674,1,Annual variation,ceuta
+2022-08-01T00:00:00.000+02:00,-6.7940719289653515,1,Annual variation,ceuta
+2022-09-01T00:00:00.000+02:00,-7.211117488988741,1,Annual variation,ceuta
+2022-10-01T00:00:00.000+02:00,-7.447437011294523,1,Annual variation,ceuta
+2022-11-01T00:00:00.000+01:00,-7.81488237436496,1,Annual variation,ceuta
+2022-12-01T00:00:00.000+01:00,-8.187372796115627,1,Annual variation,ceuta
+2022-01-01T00:00:00.000+01:00,-5.472605339744399,1,Corrected annual variation,ceuta
+2022-02-01T00:00:00.000+01:00,-5.533548538202257,1,Corrected annual variation,ceuta
+2022-03-01T00:00:00.000+01:00,-7.326083808458964,1,Corrected annual variation,ceuta
+2022-04-01T00:00:00.000+02:00,-7.397377494777641,1,Corrected annual variation,ceuta
+2022-05-01T00:00:00.000+02:00,-6.6890373997249375,1,Corrected annual variation,ceuta
+2022-06-01T00:00:00.000+02:00,-6.654100127627156,1,Corrected annual variation,ceuta
+2022-07-01T00:00:00.000+02:00,-6.895055111504666,1,Corrected annual variation,ceuta
+2022-08-01T00:00:00.000+02:00,-7.423745772339501,1,Corrected annual variation,ceuta
+2022-09-01T00:00:00.000+02:00,-7.753652836626139,1,Corrected annual variation,ceuta
+2022-10-01T00:00:00.000+02:00,-7.878174660179423,1,Corrected annual variation,ceuta
+2022-11-01T00:00:00.000+01:00,-8.334803041777763,1,Corrected annual variation,ceuta
+2022-12-01T00:00:00.000+01:00,-8.767635548251423,1,Corrected annual variation,ceuta
+2022-01-01T00:00:00.000+01:00,108.27,1,Índice industria,melilla
+2022-02-01T00:00:00.000+01:00,107.0525,1,Índice industria,melilla
+2022-03-01T00:00:00.000+01:00,108.19866666666667,1,Índice industria,melilla
+2022-04-01T00:00:00.000+02:00,108.1345,1,Índice industria,melilla
+2022-05-01T00:00:00.000+02:00,110.297,1,Índice industria,melilla
+2022-06-01T00:00:00.000+02:00,111.07233333333333,1,Índice industria,melilla
+2022-07-01T00:00:00.000+02:00,111.32071428571429,1,Índice industria,melilla
+2022-08-01T00:00:00.000+02:00,109.43075,1,Índice industria,melilla
+2022-09-01T00:00:00.000+02:00,109.38355555555556,1,Índice industria,melilla
+2022-10-01T00:00:00.000+02:00,109.19120000000001,1,Índice industria,melilla
+2022-11-01T00:00:00.000+01:00,108.6088181818182,1,Índice industria,melilla
+2022-12-01T00:00:00.000+01:00,107.02575000000002,1,Índice industria,melilla
+2022-01-01T00:00:00.000+01:00,89.646,1,Índice industria corregido,melilla
+2022-02-01T00:00:00.000+01:00,92.767,1,Índice industria corregido,melilla
+2022-03-01T00:00:00.000+01:00,91.72833333333334,1,Índice industria corregido,melilla
+2022-04-01T00:00:00.000+02:00,91.9845,1,Índice industria corregido,melilla
+2022-05-01T00:00:00.000+02:00,92.5432,1,Índice industria corregido,melilla
+2022-06-01T00:00:00.000+02:00,92.5215,1,Índice industria corregido,melilla
+2022-07-01T00:00:00.000+02:00,91.3237142857143,1,Índice industria corregido,melilla
+2022-08-01T00:00:00.000+02:00,88.82275000000001,1,Índice industria corregido,melilla
+2022-09-01T00:00:00.000+02:00,88.68133333333334,1,Índice industria corregido,melilla
+2022-10-01T00:00:00.000+02:00,88.4972,1,Índice industria corregido,melilla
+2022-11-01T00:00:00.000+01:00,88.35700000000001,1,Índice industria corregido,melilla
+2022-12-01T00:00:00.000+01:00,87.34100000000001,1,Índice industria corregido,melilla
+2022-01-01T00:00:00.000+01:00,-3.349342093517353,1,Annual variation,melilla
+2022-02-01T00:00:00.000+01:00,-4.176568786727365,1,Annual variation,melilla
+2022-03-01T00:00:00.000+01:00,-6.3976792336395825,1,Annual variation,melilla
+2022-04-01T00:00:00.000+02:00,-6.6234329766266145,1,Annual variation,melilla
+2022-05-01T00:00:00.000+02:00,-5.969681004335931,1,Annual variation,melilla
+2022-06-01T00:00:00.000+02:00,-6.0295123344073245,1,Annual variation,melilla
+2022-07-01T00:00:00.000+02:00,-6.223750303864674,1,Annual variation,melilla
+2022-08-01T00:00:00.000+02:00,-6.7940719289653515,1,Annual variation,melilla
+2022-09-01T00:00:00.000+02:00,-7.211117488988741,1,Annual variation,melilla
+2022-10-01T00:00:00.000+02:00,-7.447437011294523,1,Annual variation,melilla
+2022-11-01T00:00:00.000+01:00,-7.81488237436496,1,Annual variation,melilla
+2022-12-01T00:00:00.000+01:00,-8.187372796115627,1,Annual variation,melilla
+2022-01-01T00:00:00.000+01:00,-5.472605339744399,1,Corrected annual variation,melilla
+2022-02-01T00:00:00.000+01:00,-5.533548538202257,1,Corrected annual variation,melilla
+2022-03-01T00:00:00.000+01:00,-7.326083808458964,1,Corrected annual variation,melilla
+2022-04-01T00:00:00.000+02:00,-7.397377494777641,1,Corrected annual variation,melilla
+2022-05-01T00:00:00.000+02:00,-6.6890373997249375,1,Corrected annual variation,melilla
+2022-06-01T00:00:00.000+02:00,-6.654100127627156,1,Corrected annual variation,melilla
+2022-07-01T00:00:00.000+02:00,-6.895055111504666,1,Corrected annual variation,melilla
+2022-08-01T00:00:00.000+02:00,-7.423745772339501,1,Corrected annual variation,melilla
+2022-09-01T00:00:00.000+02:00,-7.753652836626139,1,Corrected annual variation,melilla
+2022-10-01T00:00:00.000+02:00,-7.878174660179423,1,Corrected annual variation,melilla
+2022-11-01T00:00:00.000+01:00,-8.334803041777763,1,Corrected annual variation,melilla
+2022-12-01T00:00:00.000+01:00,-8.767635548251423,1,Corrected annual variation,melilla
+2022-01-01T00:00:00.000+01:00,108.27,1,Índice industria,andalucia
+2022-02-01T00:00:00.000+01:00,107.0525,1,Índice industria,andalucia
+2022-03-01T00:00:00.000+01:00,108.19866666666667,1,Índice industria,andalucia
+2022-04-01T00:00:00.000+02:00,108.1345,1,Índice industria,andalucia
+2022-05-01T00:00:00.000+02:00,110.297,1,Índice industria,andalucia
+2022-06-01T00:00:00.000+02:00,111.07233333333333,1,Índice industria,andalucia
+2022-07-01T00:00:00.000+02:00,111.32071428571429,1,Índice industria,andalucia
+2022-08-01T00:00:00.000+02:00,109.43075,1,Índice industria,andalucia
+2022-09-01T00:00:00.000+02:00,109.38355555555556,1,Índice industria,andalucia
+2022-10-01T00:00:00.000+02:00,109.19120000000001,1,Índice industria,andalucia
+2022-11-01T00:00:00.000+01:00,108.6088181818182,1,Índice industria,andalucia
+2022-12-01T00:00:00.000+01:00,107.02575000000002,1,Índice industria,andalucia
+2022-01-01T00:00:00.000+01:00,89.646,1,Índice industria corregido,andalucia
+2022-02-01T00:00:00.000+01:00,92.767,1,Índice industria corregido,andalucia
+2022-03-01T00:00:00.000+01:00,91.72833333333334,1,Índice industria corregido,andalucia
+2022-04-01T00:00:00.000+02:00,91.9845,1,Índice industria corregido,andalucia
+2022-05-01T00:00:00.000+02:00,92.5432,1,Índice industria corregido,andalucia
+2022-06-01T00:00:00.000+02:00,92.5215,1,Índice industria corregido,andalucia
+2022-07-01T00:00:00.000+02:00,91.3237142857143,1,Índice industria corregido,andalucia
+2022-08-01T00:00:00.000+02:00,88.82275000000001,1,Índice industria corregido,andalucia
+2022-09-01T00:00:00.000+02:00,88.68133333333334,1,Índice industria corregido,andalucia
+2022-10-01T00:00:00.000+02:00,88.4972,1,Índice industria corregido,andalucia
+2022-11-01T00:00:00.000+01:00,88.35700000000001,1,Índice industria corregido,andalucia
+2022-12-01T00:00:00.000+01:00,87.34100000000001,1,Índice industria corregido,andalucia
+2022-01-01T00:00:00.000+01:00,-3.349342093517353,1,Annual variation,andalucia
+2022-02-01T00:00:00.000+01:00,-4.176568786727365,1,Annual variation,andalucia
+2022-03-01T00:00:00.000+01:00,-6.3976792336395825,1,Annual variation,andalucia
+2022-04-01T00:00:00.000+02:00,-6.6234329766266145,1,Annual variation,andalucia
+2022-05-01T00:00:00.000+02:00,-5.969681004335931,1,Annual variation,andalucia
+2022-06-01T00:00:00.000+02:00,-6.0295123344073245,1,Annual variation,andalucia
+2022-07-01T00:00:00.000+02:00,-6.223750303864674,1,Annual variation,andalucia
+2022-08-01T00:00:00.000+02:00,-6.7940719289653515,1,Annual variation,andalucia
+2022-09-01T00:00:00.000+02:00,-7.211117488988741,1,Annual variation,andalucia
+2022-10-01T00:00:00.000+02:00,-7.447437011294523,1,Annual variation,andalucia
+2022-11-01T00:00:00.000+01:00,-7.81488237436496,1,Annual variation,andalucia
+2022-12-01T00:00:00.000+01:00,-8.187372796115627,1,Annual variation,andalucia
+2022-01-01T00:00:00.000+01:00,-5.472605339744399,1,Corrected annual variation,andalucia
+2022-02-01T00:00:00.000+01:00,-5.533548538202257,1,Corrected annual variation,andalucia
+2022-03-01T00:00:00.000+01:00,-7.326083808458964,1,Corrected annual variation,andalucia
+2022-04-01T00:00:00.000+02:00,-7.397377494777641,1,Corrected annual variation,andalucia
+2022-05-01T00:00:00.000+02:00,-6.6890373997249375,1,Corrected annual variation,andalucia
+2022-06-01T00:00:00.000+02:00,-6.654100127627156,1,Corrected annual variation,andalucia
+2022-07-01T00:00:00.000+02:00,-6.895055111504666,1,Corrected annual variation,andalucia
+2022-08-01T00:00:00.000+02:00,-7.423745772339501,1,Corrected annual variation,andalucia
+2022-09-01T00:00:00.000+02:00,-7.753652836626139,1,Corrected annual variation,andalucia
+2022-10-01T00:00:00.000+02:00,-7.878174660179423,1,Corrected annual variation,andalucia
+2022-11-01T00:00:00.000+01:00,-8.334803041777763,1,Corrected annual variation,andalucia
+2022-12-01T00:00:00.000+01:00,-8.767635548251423,1,Corrected annual variation,andalucia
+2022-01-01T00:00:00.000+01:00,108.27,1,Índice industria,aragon
+2022-02-01T00:00:00.000+01:00,107.0525,1,Índice industria,aragon
+2022-03-01T00:00:00.000+01:00,108.19866666666667,1,Índice industria,aragon
+2022-04-01T00:00:00.000+02:00,108.1345,1,Índice industria,aragon
+2022-05-01T00:00:00.000+02:00,110.297,1,Índice industria,aragon
+2022-06-01T00:00:00.000+02:00,111.07233333333333,1,Índice industria,aragon
+2022-07-01T00:00:00.000+02:00,111.32071428571429,1,Índice industria,aragon
+2022-08-01T00:00:00.000+02:00,109.43075,1,Índice industria,aragon
+2022-09-01T00:00:00.000+02:00,109.38355555555556,1,Índice industria,aragon
+2022-10-01T00:00:00.000+02:00,109.19120000000001,1,Índice industria,aragon
+2022-11-01T00:00:00.000+01:00,108.6088181818182,1,Índice industria,aragon
+2022-12-01T00:00:00.000+01:00,107.02575000000002,1,Índice industria,aragon
+2022-01-01T00:00:00.000+01:00,89.646,1,Índice industria corregido,aragon
+2022-02-01T00:00:00.000+01:00,92.767,1,Índice industria corregido,aragon
+2022-03-01T00:00:00.000+01:00,91.72833333333334,1,Índice industria corregido,aragon
+2022-04-01T00:00:00.000+02:00,91.9845,1,Índice industria corregido,aragon
+2022-05-01T00:00:00.000+02:00,92.5432,1,Índice industria corregido,aragon
+2022-06-01T00:00:00.000+02:00,92.5215,1,Índice industria corregido,aragon
+2022-07-01T00:00:00.000+02:00,91.3237142857143,1,Índice industria corregido,aragon
+2022-08-01T00:00:00.000+02:00,88.82275000000001,1,Índice industria corregido,aragon
+2022-09-01T00:00:00.000+02:00,88.68133333333334,1,Índice industria corregido,aragon
+2022-10-01T00:00:00.000+02:00,88.4972,1,Índice industria corregido,aragon
+2022-11-01T00:00:00.000+01:00,88.35700000000001,1,Índice industria corregido,aragon
+2022-12-01T00:00:00.000+01:00,87.34100000000001,1,Índice industria corregido,aragon
+2022-01-01T00:00:00.000+01:00,-3.349342093517353,1,Annual variation,aragon
+2022-02-01T00:00:00.000+01:00,-4.176568786727365,1,Annual variation,aragon
+2022-03-01T00:00:00.000+01:00,-6.3976792336395825,1,Annual variation,aragon
+2022-04-01T00:00:00.000+02:00,-6.6234329766266145,1,Annual variation,aragon
+2022-05-01T00:00:00.000+02:00,-5.969681004335931,1,Annual variation,aragon
+2022-06-01T00:00:00.000+02:00,-6.0295123344073245,1,Annual variation,aragon
+2022-07-01T00:00:00.000+02:00,-6.223750303864674,1,Annual variation,aragon
+2022-08-01T00:00:00.000+02:00,-6.7940719289653515,1,Annual variation,aragon
+2022-09-01T00:00:00.000+02:00,-7.211117488988741,1,Annual variation,aragon
+2022-10-01T00:00:00.000+02:00,-7.447437011294523,1,Annual variation,aragon
+2022-11-01T00:00:00.000+01:00,-7.81488237436496,1,Annual variation,aragon
+2022-12-01T00:00:00.000+01:00,-8.187372796115627,1,Annual variation,aragon
+2022-01-01T00:00:00.000+01:00,-5.472605339744399,1,Corrected annual variation,aragon
+2022-02-01T00:00:00.000+01:00,-5.533548538202257,1,Corrected annual variation,aragon
+2022-03-01T00:00:00.000+01:00,-7.326083808458964,1,Corrected annual variation,aragon
+2022-04-01T00:00:00.000+02:00,-7.397377494777641,1,Corrected annual variation,aragon
+2022-05-01T00:00:00.000+02:00,-6.6890373997249375,1,Corrected annual variation,aragon
+2022-06-01T00:00:00.000+02:00,-6.654100127627156,1,Corrected annual variation,aragon
+2022-07-01T00:00:00.000+02:00,-6.895055111504666,1,Corrected annual variation,aragon
+2022-08-01T00:00:00.000+02:00,-7.423745772339501,1,Corrected annual variation,aragon
+2022-09-01T00:00:00.000+02:00,-7.753652836626139,1,Corrected annual variation,aragon
+2022-10-01T00:00:00.000+02:00,-7.878174660179423,1,Corrected annual variation,aragon
+2022-11-01T00:00:00.000+01:00,-8.334803041777763,1,Corrected annual variation,aragon
+2022-12-01T00:00:00.000+01:00,-8.767635548251423,1,Corrected annual variation,aragon
+2022-01-01T00:00:00.000+01:00,108.27,1,Índice industria,cantabria
+2022-02-01T00:00:00.000+01:00,107.0525,1,Índice industria,cantabria
+2022-03-01T00:00:00.000+01:00,108.19866666666667,1,Índice industria,cantabria
+2022-04-01T00:00:00.000+02:00,108.1345,1,Índice industria,cantabria
+2022-05-01T00:00:00.000+02:00,110.297,1,Índice industria,cantabria
+2022-06-01T00:00:00.000+02:00,111.07233333333333,1,Índice industria,cantabria
+2022-07-01T00:00:00.000+02:00,111.32071428571429,1,Índice industria,cantabria
+2022-08-01T00:00:00.000+02:00,109.43075,1,Índice industria,cantabria
+2022-09-01T00:00:00.000+02:00,109.38355555555556,1,Índice industria,cantabria
+2022-10-01T00:00:00.000+02:00,109.19120000000001,1,Índice industria,cantabria
+2022-11-01T00:00:00.000+01:00,108.6088181818182,1,Índice industria,cantabria
+2022-12-01T00:00:00.000+01:00,107.02575000000002,1,Índice industria,cantabria
+2022-01-01T00:00:00.000+01:00,89.646,1,Índice industria corregido,cantabria
+2022-02-01T00:00:00.000+01:00,92.767,1,Índice industria corregido,cantabria
+2022-03-01T00:00:00.000+01:00,91.72833333333334,1,Índice industria corregido,cantabria
+2022-04-01T00:00:00.000+02:00,91.9845,1,Índice industria corregido,cantabria
+2022-05-01T00:00:00.000+02:00,92.5432,1,Índice industria corregido,cantabria
+2022-06-01T00:00:00.000+02:00,92.5215,1,Índice industria corregido,cantabria
+2022-07-01T00:00:00.000+02:00,91.3237142857143,1,Índice industria corregido,cantabria
+2022-08-01T00:00:00.000+02:00,88.82275000000001,1,Índice industria corregido,cantabria
+2022-09-01T00:00:00.000+02:00,88.68133333333334,1,Índice industria corregido,cantabria
+2022-10-01T00:00:00.000+02:00,88.4972,1,Índice industria corregido,cantabria
+2022-11-01T00:00:00.000+01:00,88.35700000000001,1,Índice industria corregido,cantabria
+2022-12-01T00:00:00.000+01:00,87.34100000000001,1,Índice industria corregido,cantabria
+2022-01-01T00:00:00.000+01:00,-3.349342093517353,1,Annual variation,cantabria
+2022-02-01T00:00:00.000+01:00,-4.176568786727365,1,Annual variation,cantabria
+2022-03-01T00:00:00.000+01:00,-6.3976792336395825,1,Annual variation,cantabria
+2022-04-01T00:00:00.000+02:00,-6.6234329766266145,1,Annual variation,cantabria
+2022-05-01T00:00:00.000+02:00,-5.969681004335931,1,Annual variation,cantabria
+2022-06-01T00:00:00.000+02:00,-6.0295123344073245,1,Annual variation,cantabria
+2022-07-01T00:00:00.000+02:00,-6.223750303864674,1,Annual variation,cantabria
+2022-08-01T00:00:00.000+02:00,-6.7940719289653515,1,Annual variation,cantabria
+2022-09-01T00:00:00.000+02:00,-7.211117488988741,1,Annual variation,cantabria
+2022-10-01T00:00:00.000+02:00,-7.447437011294523,1,Annual variation,cantabria
+2022-11-01T00:00:00.000+01:00,-7.81488237436496,1,Annual variation,cantabria
+2022-12-01T00:00:00.000+01:00,-8.187372796115627,1,Annual variation,cantabria
+2022-01-01T00:00:00.000+01:00,-5.472605339744399,1,Corrected annual variation,cantabria
+2022-02-01T00:00:00.000+01:00,-5.533548538202257,1,Corrected annual variation,cantabria
+2022-03-01T00:00:00.000+01:00,-7.326083808458964,1,Corrected annual variation,cantabria
+2022-04-01T00:00:00.000+02:00,-7.397377494777641,1,Corrected annual variation,cantabria
+2022-05-01T00:00:00.000+02:00,-6.6890373997249375,1,Corrected annual variation,cantabria
+2022-06-01T00:00:00.000+02:00,-6.654100127627156,1,Corrected annual variation,cantabria
+2022-07-01T00:00:00.000+02:00,-6.895055111504666,1,Corrected annual variation,cantabria
+2022-08-01T00:00:00.000+02:00,-7.423745772339501,1,Corrected annual variation,cantabria
+2022-09-01T00:00:00.000+02:00,-7.753652836626139,1,Corrected annual variation,cantabria
+2022-10-01T00:00:00.000+02:00,-7.878174660179423,1,Corrected annual variation,cantabria
+2022-11-01T00:00:00.000+01:00,-8.334803041777763,1,Corrected annual variation,cantabria
+2022-12-01T00:00:00.000+01:00,-8.767635548251423,1,Corrected annual variation,cantabria
+2022-01-01T00:00:00.000+01:00,108.27,1,Índice industria,castilla la mancha
+2022-02-01T00:00:00.000+01:00,107.0525,1,Índice industria,castilla la mancha
+2022-03-01T00:00:00.000+01:00,108.19866666666667,1,Índice industria,castilla la mancha
+2022-04-01T00:00:00.000+02:00,108.1345,1,Índice industria,castilla la mancha
+2022-05-01T00:00:00.000+02:00,110.297,1,Índice industria,castilla la mancha
+2022-06-01T00:00:00.000+02:00,111.07233333333333,1,Índice industria,castilla la mancha
+2022-07-01T00:00:00.000+02:00,111.32071428571429,1,Índice industria,castilla la mancha
+2022-08-01T00:00:00.000+02:00,109.43075,1,Índice industria,castilla la mancha
+2022-09-01T00:00:00.000+02:00,109.38355555555556,1,Índice industria,castilla la mancha
+2022-10-01T00:00:00.000+02:00,109.19120000000001,1,Índice industria,castilla la mancha
+2022-11-01T00:00:00.000+01:00,108.6088181818182,1,Índice industria,castilla la mancha
+2022-12-01T00:00:00.000+01:00,107.02575000000002,1,Índice industria,castilla la mancha
+2022-01-01T00:00:00.000+01:00,89.646,1,Índice industria corregido,castilla la mancha
+2022-02-01T00:00:00.000+01:00,92.767,1,Índice industria corregido,castilla la mancha
+2022-03-01T00:00:00.000+01:00,91.72833333333334,1,Índice industria corregido,castilla la mancha
+2022-04-01T00:00:00.000+02:00,91.9845,1,Índice industria corregido,castilla la mancha
+2022-05-01T00:00:00.000+02:00,92.5432,1,Índice industria corregido,castilla la mancha
+2022-06-01T00:00:00.000+02:00,92.5215,1,Índice industria corregido,castilla la mancha
+2022-07-01T00:00:00.000+02:00,91.3237142857143,1,Índice industria corregido,castilla la mancha
+2022-08-01T00:00:00.000+02:00,88.82275000000001,1,Índice industria corregido,castilla la mancha
+2022-09-01T00:00:00.000+02:00,88.68133333333334,1,Índice industria corregido,castilla la mancha
+2022-10-01T00:00:00.000+02:00,88.4972,1,Índice industria corregido,castilla la mancha
+2022-11-01T00:00:00.000+01:00,88.35700000000001,1,Índice industria corregido,castilla la mancha
+2022-12-01T00:00:00.000+01:00,87.34100000000001,1,Índice industria corregido,castilla la mancha
+2022-01-01T00:00:00.000+01:00,-3.349342093517353,1,Annual variation,castilla la mancha
+2022-02-01T00:00:00.000+01:00,-4.176568786727365,1,Annual variation,castilla la mancha
+2022-03-01T00:00:00.000+01:00,-6.3976792336395825,1,Annual variation,castilla la mancha
+2022-04-01T00:00:00.000+02:00,-6.6234329766266145,1,Annual variation,castilla la mancha
+2022-05-01T00:00:00.000+02:00,-5.969681004335931,1,Annual variation,castilla la mancha
+2022-06-01T00:00:00.000+02:00,-6.0295123344073245,1,Annual variation,castilla la mancha
+2022-07-01T00:00:00.000+02:00,-6.223750303864674,1,Annual variation,castilla la mancha
+2022-08-01T00:00:00.000+02:00,-6.7940719289653515,1,Annual variation,castilla la mancha
+2022-09-01T00:00:00.000+02:00,-7.211117488988741,1,Annual variation,castilla la mancha
+2022-10-01T00:00:00.000+02:00,-7.447437011294523,1,Annual variation,castilla la mancha
+2022-11-01T00:00:00.000+01:00,-7.81488237436496,1,Annual variation,castilla la mancha
+2022-12-01T00:00:00.000+01:00,-8.187372796115627,1,Annual variation,castilla la mancha
+2022-01-01T00:00:00.000+01:00,-5.472605339744399,1,Corrected annual variation,castilla la mancha
+2022-02-01T00:00:00.000+01:00,-5.533548538202257,1,Corrected annual variation,castilla la mancha
+2022-03-01T00:00:00.000+01:00,-7.326083808458964,1,Corrected annual variation,castilla la mancha
+2022-04-01T00:00:00.000+02:00,-7.397377494777641,1,Corrected annual variation,castilla la mancha
+2022-05-01T00:00:00.000+02:00,-6.6890373997249375,1,Corrected annual variation,castilla la mancha
+2022-06-01T00:00:00.000+02:00,-6.654100127627156,1,Corrected annual variation,castilla la mancha
+2022-07-01T00:00:00.000+02:00,-6.895055111504666,1,Corrected annual variation,castilla la mancha
+2022-08-01T00:00:00.000+02:00,-7.423745772339501,1,Corrected annual variation,castilla la mancha
+2022-09-01T00:00:00.000+02:00,-7.753652836626139,1,Corrected annual variation,castilla la mancha
+2022-10-01T00:00:00.000+02:00,-7.878174660179423,1,Corrected annual variation,castilla la mancha
+2022-11-01T00:00:00.000+01:00,-8.334803041777763,1,Corrected annual variation,castilla la mancha
+2022-12-01T00:00:00.000+01:00,-8.767635548251423,1,Corrected annual variation,castilla la mancha
+2022-01-01T00:00:00.000+01:00,108.27,1,Índice industria,castilla y leon
+2022-02-01T00:00:00.000+01:00,107.0525,1,Índice industria,castilla y leon
+2022-03-01T00:00:00.000+01:00,108.19866666666667,1,Índice industria,castilla y leon
+2022-04-01T00:00:00.000+02:00,108.1345,1,Índice industria,castilla y leon
+2022-05-01T00:00:00.000+02:00,110.297,1,Índice industria,castilla y leon
+2022-06-01T00:00:00.000+02:00,111.07233333333333,1,Índice industria,castilla y leon
+2022-07-01T00:00:00.000+02:00,111.32071428571429,1,Índice industria,castilla y leon
+2022-08-01T00:00:00.000+02:00,109.43075,1,Índice industria,castilla y leon
+2022-09-01T00:00:00.000+02:00,109.38355555555556,1,Índice industria,castilla y leon
+2022-10-01T00:00:00.000+02:00,109.19120000000001,1,Índice industria,castilla y leon
+2022-11-01T00:00:00.000+01:00,108.6088181818182,1,Índice industria,castilla y leon
+2022-12-01T00:00:00.000+01:00,107.02575000000002,1,Índice industria,castilla y leon
+2022-01-01T00:00:00.000+01:00,89.646,1,Índice industria corregido,castilla y leon
+2022-02-01T00:00:00.000+01:00,92.767,1,Índice industria corregido,castilla y leon
+2022-03-01T00:00:00.000+01:00,91.72833333333334,1,Índice industria corregido,castilla y leon
+2022-04-01T00:00:00.000+02:00,91.9845,1,Índice industria corregido,castilla y leon
+2022-05-01T00:00:00.000+02:00,92.5432,1,Índice industria corregido,castilla y leon
+2022-06-01T00:00:00.000+02:00,92.5215,1,Índice industria corregido,castilla y leon
+2022-07-01T00:00:00.000+02:00,91.3237142857143,1,Índice industria corregido,castilla y leon
+2022-08-01T00:00:00.000+02:00,88.82275000000001,1,Índice industria corregido,castilla y leon
+2022-09-01T00:00:00.000+02:00,88.68133333333334,1,Índice industria corregido,castilla y leon
+2022-10-01T00:00:00.000+02:00,88.4972,1,Índice industria corregido,castilla y leon
+2022-11-01T00:00:00.000+01:00,88.35700000000001,1,Índice industria corregido,castilla y leon
+2022-12-01T00:00:00.000+01:00,87.34100000000001,1,Índice industria corregido,castilla y leon
+2022-01-01T00:00:00.000+01:00,-3.349342093517353,1,Annual variation,castilla y leon
+2022-02-01T00:00:00.000+01:00,-4.176568786727365,1,Annual variation,castilla y leon
+2022-03-01T00:00:00.000+01:00,-6.3976792336395825,1,Annual variation,castilla y leon
+2022-04-01T00:00:00.000+02:00,-6.6234329766266145,1,Annual variation,castilla y leon
+2022-05-01T00:00:00.000+02:00,-5.969681004335931,1,Annual variation,castilla y leon
+2022-06-01T00:00:00.000+02:00,-6.0295123344073245,1,Annual variation,castilla y leon
+2022-07-01T00:00:00.000+02:00,-6.223750303864674,1,Annual variation,castilla y leon
+2022-08-01T00:00:00.000+02:00,-6.7940719289653515,1,Annual variation,castilla y leon
+2022-09-01T00:00:00.000+02:00,-7.211117488988741,1,Annual variation,castilla y leon
+2022-10-01T00:00:00.000+02:00,-7.447437011294523,1,Annual variation,castilla y leon
+2022-11-01T00:00:00.000+01:00,-7.81488237436496,1,Annual variation,castilla y leon
+2022-12-01T00:00:00.000+01:00,-8.187372796115627,1,Annual variation,castilla y leon
+2022-01-01T00:00:00.000+01:00,-5.472605339744399,1,Corrected annual variation,castilla y leon
+2022-02-01T00:00:00.000+01:00,-5.533548538202257,1,Corrected annual variation,castilla y leon
+2022-03-01T00:00:00.000+01:00,-7.326083808458964,1,Corrected annual variation,castilla y leon
+2022-04-01T00:00:00.000+02:00,-7.397377494777641,1,Corrected annual variation,castilla y leon
+2022-05-01T00:00:00.000+02:00,-6.6890373997249375,1,Corrected annual variation,castilla y leon
+2022-06-01T00:00:00.000+02:00,-6.654100127627156,1,Corrected annual variation,castilla y leon
+2022-07-01T00:00:00.000+02:00,-6.895055111504666,1,Corrected annual variation,castilla y leon
+2022-08-01T00:00:00.000+02:00,-7.423745772339501,1,Corrected annual variation,castilla y leon
+2022-09-01T00:00:00.000+02:00,-7.753652836626139,1,Corrected annual variation,castilla y leon
+2022-10-01T00:00:00.000+02:00,-7.878174660179423,1,Corrected annual variation,castilla y leon
+2022-11-01T00:00:00.000+01:00,-8.334803041777763,1,Corrected annual variation,castilla y leon
+2022-12-01T00:00:00.000+01:00,-8.767635548251423,1,Corrected annual variation,castilla y leon
+2022-01-01T00:00:00.000+01:00,108.27,1,Índice industria,cataluña
+2022-02-01T00:00:00.000+01:00,107.0525,1,Índice industria,cataluña
+2022-03-01T00:00:00.000+01:00,108.19866666666667,1,Índice industria,cataluña
+2022-04-01T00:00:00.000+02:00,108.1345,1,Índice industria,cataluña
+2022-05-01T00:00:00.000+02:00,110.297,1,Índice industria,cataluña
+2022-06-01T00:00:00.000+02:00,111.07233333333333,1,Índice industria,cataluña
+2022-07-01T00:00:00.000+02:00,111.32071428571429,1,Índice industria,cataluña
+2022-08-01T00:00:00.000+02:00,109.43075,1,Índice industria,cataluña
+2022-09-01T00:00:00.000+02:00,109.38355555555556,1,Índice industria,cataluña
+2022-10-01T00:00:00.000+02:00,109.19120000000001,1,Índice industria,cataluña
+2022-11-01T00:00:00.000+01:00,108.6088181818182,1,Índice industria,cataluña
+2022-12-01T00:00:00.000+01:00,107.02575000000002,1,Índice industria,cataluña
+2022-01-01T00:00:00.000+01:00,89.646,1,Índice industria corregido,cataluña
+2022-02-01T00:00:00.000+01:00,92.767,1,Índice industria corregido,cataluña
+2022-03-01T00:00:00.000+01:00,91.72833333333334,1,Índice industria corregido,cataluña
+2022-04-01T00:00:00.000+02:00,91.9845,1,Índice industria corregido,cataluña
+2022-05-01T00:00:00.000+02:00,92.5432,1,Índice industria corregido,cataluña
+2022-06-01T00:00:00.000+02:00,92.5215,1,Índice industria corregido,cataluña
+2022-07-01T00:00:00.000+02:00,91.3237142857143,1,Índice industria corregido,cataluña
+2022-08-01T00:00:00.000+02:00,88.82275000000001,1,Índice industria corregido,cataluña
+2022-09-01T00:00:00.000+02:00,88.68133333333334,1,Índice industria corregido,cataluña
+2022-10-01T00:00:00.000+02:00,88.4972,1,Índice industria corregido,cataluña
+2022-11-01T00:00:00.000+01:00,88.35700000000001,1,Índice industria corregido,cataluña
+2022-12-01T00:00:00.000+01:00,87.34100000000001,1,Índice industria corregido,cataluña
+2022-01-01T00:00:00.000+01:00,-3.349342093517353,1,Annual variation,cataluña
+2022-02-01T00:00:00.000+01:00,-4.176568786727365,1,Annual variation,cataluña
+2022-03-01T00:00:00.000+01:00,-6.3976792336395825,1,Annual variation,cataluña
+2022-04-01T00:00:00.000+02:00,-6.6234329766266145,1,Annual variation,cataluña
+2022-05-01T00:00:00.000+02:00,-5.969681004335931,1,Annual variation,cataluña
+2022-06-01T00:00:00.000+02:00,-6.0295123344073245,1,Annual variation,cataluña
+2022-07-01T00:00:00.000+02:00,-6.223750303864674,1,Annual variation,cataluña
+2022-08-01T00:00:00.000+02:00,-6.7940719289653515,1,Annual variation,cataluña
+2022-09-01T00:00:00.000+02:00,-7.211117488988741,1,Annual variation,cataluña
+2022-10-01T00:00:00.000+02:00,-7.447437011294523,1,Annual variation,cataluña
+2022-11-01T00:00:00.000+01:00,-7.81488237436496,1,Annual variation,cataluña
+2022-12-01T00:00:00.000+01:00,-8.187372796115627,1,Annual variation,cataluña
+2022-01-01T00:00:00.000+01:00,-5.472605339744399,1,Corrected annual variation,cataluña
+2022-02-01T00:00:00.000+01:00,-5.533548538202257,1,Corrected annual variation,cataluña
+2022-03-01T00:00:00.000+01:00,-7.326083808458964,1,Corrected annual variation,cataluña
+2022-04-01T00:00:00.000+02:00,-7.397377494777641,1,Corrected annual variation,cataluña
+2022-05-01T00:00:00.000+02:00,-6.6890373997249375,1,Corrected annual variation,cataluña
+2022-06-01T00:00:00.000+02:00,-6.654100127627156,1,Corrected annual variation,cataluña
+2022-07-01T00:00:00.000+02:00,-6.895055111504666,1,Corrected annual variation,cataluña
+2022-08-01T00:00:00.000+02:00,-7.423745772339501,1,Corrected annual variation,cataluña
+2022-09-01T00:00:00.000+02:00,-7.753652836626139,1,Corrected annual variation,cataluña
+2022-10-01T00:00:00.000+02:00,-7.878174660179423,1,Corrected annual variation,cataluña
+2022-11-01T00:00:00.000+01:00,-8.334803041777763,1,Corrected annual variation,cataluña
+2022-12-01T00:00:00.000+01:00,-8.767635548251423,1,Corrected annual variation,cataluña
+2022-01-01T00:00:00.000+01:00,108.27,1,Índice industria,pais vasco
+2022-02-01T00:00:00.000+01:00,107.0525,1,Índice industria,pais vasco
+2022-03-01T00:00:00.000+01:00,108.19866666666667,1,Índice industria,pais vasco
+2022-04-01T00:00:00.000+02:00,108.1345,1,Índice industria,pais vasco
+2022-05-01T00:00:00.000+02:00,110.297,1,Índice industria,pais vasco
+2022-06-01T00:00:00.000+02:00,111.07233333333333,1,Índice industria,pais vasco
+2022-07-01T00:00:00.000+02:00,111.32071428571429,1,Índice industria,pais vasco
+2022-08-01T00:00:00.000+02:00,109.43075,1,Índice industria,pais vasco
+2022-09-01T00:00:00.000+02:00,109.38355555555556,1,Índice industria,pais vasco
+2022-10-01T00:00:00.000+02:00,109.19120000000001,1,Índice industria,pais vasco
+2022-11-01T00:00:00.000+01:00,108.6088181818182,1,Índice industria,pais vasco
+2022-12-01T00:00:00.000+01:00,107.02575000000002,1,Índice industria,pais vasco
+2022-01-01T00:00:00.000+01:00,89.646,1,Índice industria corregido,pais vasco
+2022-02-01T00:00:00.000+01:00,92.767,1,Índice industria corregido,pais vasco
+2022-03-01T00:00:00.000+01:00,91.72833333333334,1,Índice industria corregido,pais vasco
+2022-04-01T00:00:00.000+02:00,91.9845,1,Índice industria corregido,pais vasco
+2022-05-01T00:00:00.000+02:00,92.5432,1,Índice industria corregido,pais vasco
+2022-06-01T00:00:00.000+02:00,92.5215,1,Índice industria corregido,pais vasco
+2022-07-01T00:00:00.000+02:00,91.3237142857143,1,Índice industria corregido,pais vasco
+2022-08-01T00:00:00.000+02:00,88.82275000000001,1,Índice industria corregido,pais vasco
+2022-09-01T00:00:00.000+02:00,88.68133333333334,1,Índice industria corregido,pais vasco
+2022-10-01T00:00:00.000+02:00,88.4972,1,Índice industria corregido,pais vasco
+2022-11-01T00:00:00.000+01:00,88.35700000000001,1,Índice industria corregido,pais vasco
+2022-12-01T00:00:00.000+01:00,87.34100000000001,1,Índice industria corregido,pais vasco
+2022-01-01T00:00:00.000+01:00,-3.349342093517353,1,Annual variation,pais vasco
+2022-02-01T00:00:00.000+01:00,-4.176568786727365,1,Annual variation,pais vasco
+2022-03-01T00:00:00.000+01:00,-6.3976792336395825,1,Annual variation,pais vasco
+2022-04-01T00:00:00.000+02:00,-6.6234329766266145,1,Annual variation,pais vasco
+2022-05-01T00:00:00.000+02:00,-5.969681004335931,1,Annual variation,pais vasco
+2022-06-01T00:00:00.000+02:00,-6.0295123344073245,1,Annual variation,pais vasco
+2022-07-01T00:00:00.000+02:00,-6.223750303864674,1,Annual variation,pais vasco
+2022-08-01T00:00:00.000+02:00,-6.7940719289653515,1,Annual variation,pais vasco
+2022-09-01T00:00:00.000+02:00,-7.211117488988741,1,Annual variation,pais vasco
+2022-10-01T00:00:00.000+02:00,-7.447437011294523,1,Annual variation,pais vasco
+2022-11-01T00:00:00.000+01:00,-7.81488237436496,1,Annual variation,pais vasco
+2022-12-01T00:00:00.000+01:00,-8.187372796115627,1,Annual variation,pais vasco
+2022-01-01T00:00:00.000+01:00,-5.472605339744399,1,Corrected annual variation,pais vasco
+2022-02-01T00:00:00.000+01:00,-5.533548538202257,1,Corrected annual variation,pais vasco
+2022-03-01T00:00:00.000+01:00,-7.326083808458964,1,Corrected annual variation,pais vasco
+2022-04-01T00:00:00.000+02:00,-7.397377494777641,1,Corrected annual variation,pais vasco
+2022-05-01T00:00:00.000+02:00,-6.6890373997249375,1,Corrected annual variation,pais vasco
+2022-06-01T00:00:00.000+02:00,-6.654100127627156,1,Corrected annual variation,pais vasco
+2022-07-01T00:00:00.000+02:00,-6.895055111504666,1,Corrected annual variation,pais vasco
+2022-08-01T00:00:00.000+02:00,-7.423745772339501,1,Corrected annual variation,pais vasco
+2022-09-01T00:00:00.000+02:00,-7.753652836626139,1,Corrected annual variation,pais vasco
+2022-10-01T00:00:00.000+02:00,-7.878174660179423,1,Corrected annual variation,pais vasco
+2022-11-01T00:00:00.000+01:00,-8.334803041777763,1,Corrected annual variation,pais vasco
+2022-12-01T00:00:00.000+01:00,-8.767635548251423,1,Corrected annual variation,pais vasco
+2022-01-01T00:00:00.000+01:00,108.27,1,Índice industria,principado de asturias
+2022-02-01T00:00:00.000+01:00,107.0525,1,Índice industria,principado de asturias
+2022-03-01T00:00:00.000+01:00,108.19866666666667,1,Índice industria,principado de asturias
+2022-04-01T00:00:00.000+02:00,108.1345,1,Índice industria,principado de asturias
+2022-05-01T00:00:00.000+02:00,110.297,1,Índice industria,principado de asturias
+2022-06-01T00:00:00.000+02:00,111.07233333333333,1,Índice industria,principado de asturias
+2022-07-01T00:00:00.000+02:00,111.32071428571429,1,Índice industria,principado de asturias
+2022-08-01T00:00:00.000+02:00,109.43075,1,Índice industria,principado de asturias
+2022-09-01T00:00:00.000+02:00,109.38355555555556,1,Índice industria,principado de asturias
+2022-10-01T00:00:00.000+02:00,109.19120000000001,1,Índice industria,principado de asturias
+2022-11-01T00:00:00.000+01:00,108.6088181818182,1,Índice industria,principado de asturias
+2022-12-01T00:00:00.000+01:00,107.02575000000002,1,Índice industria,principado de asturias
+2022-01-01T00:00:00.000+01:00,89.646,1,Índice industria corregido,principado de asturias
+2022-02-01T00:00:00.000+01:00,92.767,1,Índice industria corregido,principado de asturias
+2022-03-01T00:00:00.000+01:00,91.72833333333334,1,Índice industria corregido,principado de asturias
+2022-04-01T00:00:00.000+02:00,91.9845,1,Índice industria corregido,principado de asturias
+2022-05-01T00:00:00.000+02:00,92.5432,1,Índice industria corregido,principado de asturias
+2022-06-01T00:00:00.000+02:00,92.5215,1,Índice industria corregido,principado de asturias
+2022-07-01T00:00:00.000+02:00,91.3237142857143,1,Índice industria corregido,principado de asturias
+2022-08-01T00:00:00.000+02:00,88.82275000000001,1,Índice industria corregido,principado de asturias
+2022-09-01T00:00:00.000+02:00,88.68133333333334,1,Índice industria corregido,principado de asturias
+2022-10-01T00:00:00.000+02:00,88.4972,1,Índice industria corregido,principado de asturias
+2022-11-01T00:00:00.000+01:00,88.35700000000001,1,Índice industria corregido,principado de asturias
+2022-12-01T00:00:00.000+01:00,87.34100000000001,1,Índice industria corregido,principado de asturias
+2022-01-01T00:00:00.000+01:00,-3.349342093517353,1,Annual variation,principado de asturias
+2022-02-01T00:00:00.000+01:00,-4.176568786727365,1,Annual variation,principado de asturias
+2022-03-01T00:00:00.000+01:00,-6.3976792336395825,1,Annual variation,principado de asturias
+2022-04-01T00:00:00.000+02:00,-6.6234329766266145,1,Annual variation,principado de asturias
+2022-05-01T00:00:00.000+02:00,-5.969681004335931,1,Annual variation,principado de asturias
+2022-06-01T00:00:00.000+02:00,-6.0295123344073245,1,Annual variation,principado de asturias
+2022-07-01T00:00:00.000+02:00,-6.223750303864674,1,Annual variation,principado de asturias
+2022-08-01T00:00:00.000+02:00,-6.7940719289653515,1,Annual variation,principado de asturias
+2022-09-01T00:00:00.000+02:00,-7.211117488988741,1,Annual variation,principado de asturias
+2022-10-01T00:00:00.000+02:00,-7.447437011294523,1,Annual variation,principado de asturias
+2022-11-01T00:00:00.000+01:00,-7.81488237436496,1,Annual variation,principado de asturias
+2022-12-01T00:00:00.000+01:00,-8.187372796115627,1,Annual variation,principado de asturias
+2022-01-01T00:00:00.000+01:00,-5.472605339744399,1,Corrected annual variation,principado de asturias
+2022-02-01T00:00:00.000+01:00,-5.533548538202257,1,Corrected annual variation,principado de asturias
+2022-03-01T00:00:00.000+01:00,-7.326083808458964,1,Corrected annual variation,principado de asturias
+2022-04-01T00:00:00.000+02:00,-7.397377494777641,1,Corrected annual variation,principado de asturias
+2022-05-01T00:00:00.000+02:00,-6.6890373997249375,1,Corrected annual variation,principado de asturias
+2022-06-01T00:00:00.000+02:00,-6.654100127627156,1,Corrected annual variation,principado de asturias
+2022-07-01T00:00:00.000+02:00,-6.895055111504666,1,Corrected annual variation,principado de asturias
+2022-08-01T00:00:00.000+02:00,-7.423745772339501,1,Corrected annual variation,principado de asturias
+2022-09-01T00:00:00.000+02:00,-7.753652836626139,1,Corrected annual variation,principado de asturias
+2022-10-01T00:00:00.000+02:00,-7.878174660179423,1,Corrected annual variation,principado de asturias
+2022-11-01T00:00:00.000+01:00,-8.334803041777763,1,Corrected annual variation,principado de asturias
+2022-12-01T00:00:00.000+01:00,-8.767635548251423,1,Corrected annual variation,principado de asturias
+2022-01-01T00:00:00.000+01:00,108.27,1,Índice industria,comunidad de madrid
+2022-02-01T00:00:00.000+01:00,107.0525,1,Índice industria,comunidad de madrid
+2022-03-01T00:00:00.000+01:00,108.19866666666667,1,Índice industria,comunidad de madrid
+2022-04-01T00:00:00.000+02:00,108.1345,1,Índice industria,comunidad de madrid
+2022-05-01T00:00:00.000+02:00,110.297,1,Índice industria,comunidad de madrid
+2022-06-01T00:00:00.000+02:00,111.07233333333333,1,Índice industria,comunidad de madrid
+2022-07-01T00:00:00.000+02:00,111.32071428571429,1,Índice industria,comunidad de madrid
+2022-08-01T00:00:00.000+02:00,109.43075,1,Índice industria,comunidad de madrid
+2022-09-01T00:00:00.000+02:00,109.38355555555556,1,Índice industria,comunidad de madrid
+2022-10-01T00:00:00.000+02:00,109.19120000000001,1,Índice industria,comunidad de madrid
+2022-11-01T00:00:00.000+01:00,108.6088181818182,1,Índice industria,comunidad de madrid
+2022-12-01T00:00:00.000+01:00,107.02575000000002,1,Índice industria,comunidad de madrid
+2022-01-01T00:00:00.000+01:00,89.646,1,Índice industria corregido,comunidad de madrid
+2022-02-01T00:00:00.000+01:00,92.767,1,Índice industria corregido,comunidad de madrid
+2022-03-01T00:00:00.000+01:00,91.72833333333334,1,Índice industria corregido,comunidad de madrid
+2022-04-01T00:00:00.000+02:00,91.9845,1,Índice industria corregido,comunidad de madrid
+2022-05-01T00:00:00.000+02:00,92.5432,1,Índice industria corregido,comunidad de madrid
+2022-06-01T00:00:00.000+02:00,92.5215,1,Índice industria corregido,comunidad de madrid
+2022-07-01T00:00:00.000+02:00,91.3237142857143,1,Índice industria corregido,comunidad de madrid
+2022-08-01T00:00:00.000+02:00,88.82275000000001,1,Índice industria corregido,comunidad de madrid
+2022-09-01T00:00:00.000+02:00,88.68133333333334,1,Índice industria corregido,comunidad de madrid
+2022-10-01T00:00:00.000+02:00,88.4972,1,Índice industria corregido,comunidad de madrid
+2022-11-01T00:00:00.000+01:00,88.35700000000001,1,Índice industria corregido,comunidad de madrid
+2022-12-01T00:00:00.000+01:00,87.34100000000001,1,Índice industria corregido,comunidad de madrid
+2022-01-01T00:00:00.000+01:00,-3.349342093517353,1,Annual variation,comunidad de madrid
+2022-02-01T00:00:00.000+01:00,-4.176568786727365,1,Annual variation,comunidad de madrid
+2022-03-01T00:00:00.000+01:00,-6.3976792336395825,1,Annual variation,comunidad de madrid
+2022-04-01T00:00:00.000+02:00,-6.6234329766266145,1,Annual variation,comunidad de madrid
+2022-05-01T00:00:00.000+02:00,-5.969681004335931,1,Annual variation,comunidad de madrid
+2022-06-01T00:00:00.000+02:00,-6.0295123344073245,1,Annual variation,comunidad de madrid
+2022-07-01T00:00:00.000+02:00,-6.223750303864674,1,Annual variation,comunidad de madrid
+2022-08-01T00:00:00.000+02:00,-6.7940719289653515,1,Annual variation,comunidad de madrid
+2022-09-01T00:00:00.000+02:00,-7.211117488988741,1,Annual variation,comunidad de madrid
+2022-10-01T00:00:00.000+02:00,-7.447437011294523,1,Annual variation,comunidad de madrid
+2022-11-01T00:00:00.000+01:00,-7.81488237436496,1,Annual variation,comunidad de madrid
+2022-12-01T00:00:00.000+01:00,-8.187372796115627,1,Annual variation,comunidad de madrid
+2022-01-01T00:00:00.000+01:00,-5.472605339744399,1,Corrected annual variation,comunidad de madrid
+2022-02-01T00:00:00.000+01:00,-5.533548538202257,1,Corrected annual variation,comunidad de madrid
+2022-03-01T00:00:00.000+01:00,-7.326083808458964,1,Corrected annual variation,comunidad de madrid
+2022-04-01T00:00:00.000+02:00,-7.397377494777641,1,Corrected annual variation,comunidad de madrid
+2022-05-01T00:00:00.000+02:00,-6.6890373997249375,1,Corrected annual variation,comunidad de madrid
+2022-06-01T00:00:00.000+02:00,-6.654100127627156,1,Corrected annual variation,comunidad de madrid
+2022-07-01T00:00:00.000+02:00,-6.895055111504666,1,Corrected annual variation,comunidad de madrid
+2022-08-01T00:00:00.000+02:00,-7.423745772339501,1,Corrected annual variation,comunidad de madrid
+2022-09-01T00:00:00.000+02:00,-7.753652836626139,1,Corrected annual variation,comunidad de madrid
+2022-10-01T00:00:00.000+02:00,-7.878174660179423,1,Corrected annual variation,comunidad de madrid
+2022-11-01T00:00:00.000+01:00,-8.334803041777763,1,Corrected annual variation,comunidad de madrid
+2022-12-01T00:00:00.000+01:00,-8.767635548251423,1,Corrected annual variation,comunidad de madrid
+2022-01-01T00:00:00.000+01:00,108.27,1,Índice industria,comunidad de navarra
+2022-02-01T00:00:00.000+01:00,107.0525,1,Índice industria,comunidad de navarra
+2022-03-01T00:00:00.000+01:00,108.19866666666667,1,Índice industria,comunidad de navarra
+2022-04-01T00:00:00.000+02:00,108.1345,1,Índice industria,comunidad de navarra
+2022-05-01T00:00:00.000+02:00,110.297,1,Índice industria,comunidad de navarra
+2022-06-01T00:00:00.000+02:00,111.07233333333333,1,Índice industria,comunidad de navarra
+2022-07-01T00:00:00.000+02:00,111.32071428571429,1,Índice industria,comunidad de navarra
+2022-08-01T00:00:00.000+02:00,109.43075,1,Índice industria,comunidad de navarra
+2022-09-01T00:00:00.000+02:00,109.38355555555556,1,Índice industria,comunidad de navarra
+2022-10-01T00:00:00.000+02:00,109.19120000000001,1,Índice industria,comunidad de navarra
+2022-11-01T00:00:00.000+01:00,108.6088181818182,1,Índice industria,comunidad de navarra
+2022-12-01T00:00:00.000+01:00,107.02575000000002,1,Índice industria,comunidad de navarra
+2022-01-01T00:00:00.000+01:00,89.646,1,Índice industria corregido,comunidad de navarra
+2022-02-01T00:00:00.000+01:00,92.767,1,Índice industria corregido,comunidad de navarra
+2022-03-01T00:00:00.000+01:00,91.72833333333334,1,Índice industria corregido,comunidad de navarra
+2022-04-01T00:00:00.000+02:00,91.9845,1,Índice industria corregido,comunidad de navarra
+2022-05-01T00:00:00.000+02:00,92.5432,1,Índice industria corregido,comunidad de navarra
+2022-06-01T00:00:00.000+02:00,92.5215,1,Índice industria corregido,comunidad de navarra
+2022-07-01T00:00:00.000+02:00,91.3237142857143,1,Índice industria corregido,comunidad de navarra
+2022-08-01T00:00:00.000+02:00,88.82275000000001,1,Índice industria corregido,comunidad de navarra
+2022-09-01T00:00:00.000+02:00,88.68133333333334,1,Índice industria corregido,comunidad de navarra
+2022-10-01T00:00:00.000+02:00,88.4972,1,Índice industria corregido,comunidad de navarra
+2022-11-01T00:00:00.000+01:00,88.35700000000001,1,Índice industria corregido,comunidad de navarra
+2022-12-01T00:00:00.000+01:00,87.34100000000001,1,Índice industria corregido,comunidad de navarra
+2022-01-01T00:00:00.000+01:00,-3.349342093517353,1,Annual variation,comunidad de navarra
+2022-02-01T00:00:00.000+01:00,-4.176568786727365,1,Annual variation,comunidad de navarra
+2022-03-01T00:00:00.000+01:00,-6.3976792336395825,1,Annual variation,comunidad de navarra
+2022-04-01T00:00:00.000+02:00,-6.6234329766266145,1,Annual variation,comunidad de navarra
+2022-05-01T00:00:00.000+02:00,-5.969681004335931,1,Annual variation,comunidad de navarra
+2022-06-01T00:00:00.000+02:00,-6.0295123344073245,1,Annual variation,comunidad de navarra
+2022-07-01T00:00:00.000+02:00,-6.223750303864674,1,Annual variation,comunidad de navarra
+2022-08-01T00:00:00.000+02:00,-6.7940719289653515,1,Annual variation,comunidad de navarra
+2022-09-01T00:00:00.000+02:00,-7.211117488988741,1,Annual variation,comunidad de navarra
+2022-10-01T00:00:00.000+02:00,-7.447437011294523,1,Annual variation,comunidad de navarra
+2022-11-01T00:00:00.000+01:00,-7.81488237436496,1,Annual variation,comunidad de navarra
+2022-12-01T00:00:00.000+01:00,-8.187372796115627,1,Annual variation,comunidad de navarra
+2022-01-01T00:00:00.000+01:00,-5.472605339744399,1,Corrected annual variation,comunidad de navarra
+2022-02-01T00:00:00.000+01:00,-5.533548538202257,1,Corrected annual variation,comunidad de navarra
+2022-03-01T00:00:00.000+01:00,-7.326083808458964,1,Corrected annual variation,comunidad de navarra
+2022-04-01T00:00:00.000+02:00,-7.397377494777641,1,Corrected annual variation,comunidad de navarra
+2022-05-01T00:00:00.000+02:00,-6.6890373997249375,1,Corrected annual variation,comunidad de navarra
+2022-06-01T00:00:00.000+02:00,-6.654100127627156,1,Corrected annual variation,comunidad de navarra
+2022-07-01T00:00:00.000+02:00,-6.895055111504666,1,Corrected annual variation,comunidad de navarra
+2022-08-01T00:00:00.000+02:00,-7.423745772339501,1,Corrected annual variation,comunidad de navarra
+2022-09-01T00:00:00.000+02:00,-7.753652836626139,1,Corrected annual variation,comunidad de navarra
+2022-10-01T00:00:00.000+02:00,-7.878174660179423,1,Corrected annual variation,comunidad de navarra
+2022-11-01T00:00:00.000+01:00,-8.334803041777763,1,Corrected annual variation,comunidad de navarra
+2022-12-01T00:00:00.000+01:00,-8.767635548251423,1,Corrected annual variation,comunidad de navarra
+2022-01-01T00:00:00.000+01:00,108.27,1,Índice industria,comunidad valenciana
+2022-02-01T00:00:00.000+01:00,107.0525,1,Índice industria,comunidad valenciana
+2022-03-01T00:00:00.000+01:00,108.19866666666667,1,Índice industria,comunidad valenciana
+2022-04-01T00:00:00.000+02:00,108.1345,1,Índice industria,comunidad valenciana
+2022-05-01T00:00:00.000+02:00,110.297,1,Índice industria,comunidad valenciana
+2022-06-01T00:00:00.000+02:00,111.07233333333333,1,Índice industria,comunidad valenciana
+2022-07-01T00:00:00.000+02:00,111.32071428571429,1,Índice industria,comunidad valenciana
+2022-08-01T00:00:00.000+02:00,109.43075,1,Índice industria,comunidad valenciana
+2022-09-01T00:00:00.000+02:00,109.38355555555556,1,Índice industria,comunidad valenciana
+2022-10-01T00:00:00.000+02:00,109.19120000000001,1,Índice industria,comunidad valenciana
+2022-11-01T00:00:00.000+01:00,108.6088181818182,1,Índice industria,comunidad valenciana
+2022-12-01T00:00:00.000+01:00,107.02575000000002,1,Índice industria,comunidad valenciana
+2022-01-01T00:00:00.000+01:00,89.646,1,Índice industria corregido,comunidad valenciana
+2022-02-01T00:00:00.000+01:00,92.767,1,Índice industria corregido,comunidad valenciana
+2022-03-01T00:00:00.000+01:00,91.72833333333334,1,Índice industria corregido,comunidad valenciana
+2022-04-01T00:00:00.000+02:00,91.9845,1,Índice industria corregido,comunidad valenciana
+2022-05-01T00:00:00.000+02:00,92.5432,1,Índice industria corregido,comunidad valenciana
+2022-06-01T00:00:00.000+02:00,92.5215,1,Índice industria corregido,comunidad valenciana
+2022-07-01T00:00:00.000+02:00,91.3237142857143,1,Índice industria corregido,comunidad valenciana
+2022-08-01T00:00:00.000+02:00,88.82275000000001,1,Índice industria corregido,comunidad valenciana
+2022-09-01T00:00:00.000+02:00,88.68133333333334,1,Índice industria corregido,comunidad valenciana
+2022-10-01T00:00:00.000+02:00,88.4972,1,Índice industria corregido,comunidad valenciana
+2022-11-01T00:00:00.000+01:00,88.35700000000001,1,Índice industria corregido,comunidad valenciana
+2022-12-01T00:00:00.000+01:00,87.34100000000001,1,Índice industria corregido,comunidad valenciana
+2022-01-01T00:00:00.000+01:00,-3.349342093517353,1,Annual variation,comunidad valenciana
+2022-02-01T00:00:00.000+01:00,-4.176568786727365,1,Annual variation,comunidad valenciana
+2022-03-01T00:00:00.000+01:00,-6.3976792336395825,1,Annual variation,comunidad valenciana
+2022-04-01T00:00:00.000+02:00,-6.6234329766266145,1,Annual variation,comunidad valenciana
+2022-05-01T00:00:00.000+02:00,-5.969681004335931,1,Annual variation,comunidad valenciana
+2022-06-01T00:00:00.000+02:00,-6.0295123344073245,1,Annual variation,comunidad valenciana
+2022-07-01T00:00:00.000+02:00,-6.223750303864674,1,Annual variation,comunidad valenciana
+2022-08-01T00:00:00.000+02:00,-6.7940719289653515,1,Annual variation,comunidad valenciana
+2022-09-01T00:00:00.000+02:00,-7.211117488988741,1,Annual variation,comunidad valenciana
+2022-10-01T00:00:00.000+02:00,-7.447437011294523,1,Annual variation,comunidad valenciana
+2022-11-01T00:00:00.000+01:00,-7.81488237436496,1,Annual variation,comunidad valenciana
+2022-12-01T00:00:00.000+01:00,-8.187372796115627,1,Annual variation,comunidad valenciana
+2022-01-01T00:00:00.000+01:00,-5.472605339744399,1,Corrected annual variation,comunidad valenciana
+2022-02-01T00:00:00.000+01:00,-5.533548538202257,1,Corrected annual variation,comunidad valenciana
+2022-03-01T00:00:00.000+01:00,-7.326083808458964,1,Corrected annual variation,comunidad valenciana
+2022-04-01T00:00:00.000+02:00,-7.397377494777641,1,Corrected annual variation,comunidad valenciana
+2022-05-01T00:00:00.000+02:00,-6.6890373997249375,1,Corrected annual variation,comunidad valenciana
+2022-06-01T00:00:00.000+02:00,-6.654100127627156,1,Corrected annual variation,comunidad valenciana
+2022-07-01T00:00:00.000+02:00,-6.895055111504666,1,Corrected annual variation,comunidad valenciana
+2022-08-01T00:00:00.000+02:00,-7.423745772339501,1,Corrected annual variation,comunidad valenciana
+2022-09-01T00:00:00.000+02:00,-7.753652836626139,1,Corrected annual variation,comunidad valenciana
+2022-10-01T00:00:00.000+02:00,-7.878174660179423,1,Corrected annual variation,comunidad valenciana
+2022-11-01T00:00:00.000+01:00,-8.334803041777763,1,Corrected annual variation,comunidad valenciana
+2022-12-01T00:00:00.000+01:00,-8.767635548251423,1,Corrected annual variation,comunidad valenciana
+2022-01-01T00:00:00.000+01:00,108.27,1,Índice industria,extremadura
+2022-02-01T00:00:00.000+01:00,107.0525,1,Índice industria,extremadura
+2022-03-01T00:00:00.000+01:00,108.19866666666667,1,Índice industria,extremadura
+2022-04-01T00:00:00.000+02:00,108.1345,1,Índice industria,extremadura
+2022-05-01T00:00:00.000+02:00,110.297,1,Índice industria,extremadura
+2022-06-01T00:00:00.000+02:00,111.07233333333333,1,Índice industria,extremadura
+2022-07-01T00:00:00.000+02:00,111.32071428571429,1,Índice industria,extremadura
+2022-08-01T00:00:00.000+02:00,109.43075,1,Índice industria,extremadura
+2022-09-01T00:00:00.000+02:00,109.38355555555556,1,Índice industria,extremadura
+2022-10-01T00:00:00.000+02:00,109.19120000000001,1,Índice industria,extremadura
+2022-11-01T00:00:00.000+01:00,108.6088181818182,1,Índice industria,extremadura
+2022-12-01T00:00:00.000+01:00,107.02575000000002,1,Índice industria,extremadura
+2022-01-01T00:00:00.000+01:00,89.646,1,Índice industria corregido,extremadura
+2022-02-01T00:00:00.000+01:00,92.767,1,Índice industria corregido,extremadura
+2022-03-01T00:00:00.000+01:00,91.72833333333334,1,Índice industria corregido,extremadura
+2022-04-01T00:00:00.000+02:00,91.9845,1,Índice industria corregido,extremadura
+2022-05-01T00:00:00.000+02:00,92.5432,1,Índice industria corregido,extremadura
+2022-06-01T00:00:00.000+02:00,92.5215,1,Índice industria corregido,extremadura
+2022-07-01T00:00:00.000+02:00,91.3237142857143,1,Índice industria corregido,extremadura
+2022-08-01T00:00:00.000+02:00,88.82275000000001,1,Índice industria corregido,extremadura
+2022-09-01T00:00:00.000+02:00,88.68133333333334,1,Índice industria corregido,extremadura
+2022-10-01T00:00:00.000+02:00,88.4972,1,Índice industria corregido,extremadura
+2022-11-01T00:00:00.000+01:00,88.35700000000001,1,Índice industria corregido,extremadura
+2022-12-01T00:00:00.000+01:00,87.34100000000001,1,Índice industria corregido,extremadura
+2022-01-01T00:00:00.000+01:00,-3.349342093517353,1,Annual variation,extremadura
+2022-02-01T00:00:00.000+01:00,-4.176568786727365,1,Annual variation,extremadura
+2022-03-01T00:00:00.000+01:00,-6.3976792336395825,1,Annual variation,extremadura
+2022-04-01T00:00:00.000+02:00,-6.6234329766266145,1,Annual variation,extremadura
+2022-05-01T00:00:00.000+02:00,-5.969681004335931,1,Annual variation,extremadura
+2022-06-01T00:00:00.000+02:00,-6.0295123344073245,1,Annual variation,extremadura
+2022-07-01T00:00:00.000+02:00,-6.223750303864674,1,Annual variation,extremadura
+2022-08-01T00:00:00.000+02:00,-6.7940719289653515,1,Annual variation,extremadura
+2022-09-01T00:00:00.000+02:00,-7.211117488988741,1,Annual variation,extremadura
+2022-10-01T00:00:00.000+02:00,-7.447437011294523,1,Annual variation,extremadura
+2022-11-01T00:00:00.000+01:00,-7.81488237436496,1,Annual variation,extremadura
+2022-12-01T00:00:00.000+01:00,-8.187372796115627,1,Annual variation,extremadura
+2022-01-01T00:00:00.000+01:00,-5.472605339744399,1,Corrected annual variation,extremadura
+2022-02-01T00:00:00.000+01:00,-5.533548538202257,1,Corrected annual variation,extremadura
+2022-03-01T00:00:00.000+01:00,-7.326083808458964,1,Corrected annual variation,extremadura
+2022-04-01T00:00:00.000+02:00,-7.397377494777641,1,Corrected annual variation,extremadura
+2022-05-01T00:00:00.000+02:00,-6.6890373997249375,1,Corrected annual variation,extremadura
+2022-06-01T00:00:00.000+02:00,-6.654100127627156,1,Corrected annual variation,extremadura
+2022-07-01T00:00:00.000+02:00,-6.895055111504666,1,Corrected annual variation,extremadura
+2022-08-01T00:00:00.000+02:00,-7.423745772339501,1,Corrected annual variation,extremadura
+2022-09-01T00:00:00.000+02:00,-7.753652836626139,1,Corrected annual variation,extremadura
+2022-10-01T00:00:00.000+02:00,-7.878174660179423,1,Corrected annual variation,extremadura
+2022-11-01T00:00:00.000+01:00,-8.334803041777763,1,Corrected annual variation,extremadura
+2022-12-01T00:00:00.000+01:00,-8.767635548251423,1,Corrected annual variation,extremadura
+2022-01-01T00:00:00.000+01:00,108.27,1,Índice industria,galicia
+2022-02-01T00:00:00.000+01:00,107.0525,1,Índice industria,galicia
+2022-03-01T00:00:00.000+01:00,108.19866666666667,1,Índice industria,galicia
+2022-04-01T00:00:00.000+02:00,108.1345,1,Índice industria,galicia
+2022-05-01T00:00:00.000+02:00,110.297,1,Índice industria,galicia
+2022-06-01T00:00:00.000+02:00,111.07233333333333,1,Índice industria,galicia
+2022-07-01T00:00:00.000+02:00,111.32071428571429,1,Índice industria,galicia
+2022-08-01T00:00:00.000+02:00,109.43075,1,Índice industria,galicia
+2022-09-01T00:00:00.000+02:00,109.38355555555556,1,Índice industria,galicia
+2022-10-01T00:00:00.000+02:00,109.19120000000001,1,Índice industria,galicia
+2022-11-01T00:00:00.000+01:00,108.6088181818182,1,Índice industria,galicia
+2022-12-01T00:00:00.000+01:00,107.02575000000002,1,Índice industria,galicia
+2022-01-01T00:00:00.000+01:00,89.646,1,Índice industria corregido,galicia
+2022-02-01T00:00:00.000+01:00,92.767,1,Índice industria corregido,galicia
+2022-03-01T00:00:00.000+01:00,91.72833333333334,1,Índice industria corregido,galicia
+2022-04-01T00:00:00.000+02:00,91.9845,1,Índice industria corregido,galicia
+2022-05-01T00:00:00.000+02:00,92.5432,1,Índice industria corregido,galicia
+2022-06-01T00:00:00.000+02:00,92.5215,1,Índice industria corregido,galicia
+2022-07-01T00:00:00.000+02:00,91.3237142857143,1,Índice industria corregido,galicia
+2022-08-01T00:00:00.000+02:00,88.82275000000001,1,Índice industria corregido,galicia
+2022-09-01T00:00:00.000+02:00,88.68133333333334,1,Índice industria corregido,galicia
+2022-10-01T00:00:00.000+02:00,88.4972,1,Índice industria corregido,galicia
+2022-11-01T00:00:00.000+01:00,88.35700000000001,1,Índice industria corregido,galicia
+2022-12-01T00:00:00.000+01:00,87.34100000000001,1,Índice industria corregido,galicia
+2022-01-01T00:00:00.000+01:00,-3.349342093517353,1,Annual variation,galicia
+2022-02-01T00:00:00.000+01:00,-4.176568786727365,1,Annual variation,galicia
+2022-03-01T00:00:00.000+01:00,-6.3976792336395825,1,Annual variation,galicia
+2022-04-01T00:00:00.000+02:00,-6.6234329766266145,1,Annual variation,galicia
+2022-05-01T00:00:00.000+02:00,-5.969681004335931,1,Annual variation,galicia
+2022-06-01T00:00:00.000+02:00,-6.0295123344073245,1,Annual variation,galicia
+2022-07-01T00:00:00.000+02:00,-6.223750303864674,1,Annual variation,galicia
+2022-08-01T00:00:00.000+02:00,-6.7940719289653515,1,Annual variation,galicia
+2022-09-01T00:00:00.000+02:00,-7.211117488988741,1,Annual variation,galicia
+2022-10-01T00:00:00.000+02:00,-7.447437011294523,1,Annual variation,galicia
+2022-11-01T00:00:00.000+01:00,-7.81488237436496,1,Annual variation,galicia
+2022-12-01T00:00:00.000+01:00,-8.187372796115627,1,Annual variation,galicia
+2022-01-01T00:00:00.000+01:00,-5.472605339744399,1,Corrected annual variation,galicia
+2022-02-01T00:00:00.000+01:00,-5.533548538202257,1,Corrected annual variation,galicia
+2022-03-01T00:00:00.000+01:00,-7.326083808458964,1,Corrected annual variation,galicia
+2022-04-01T00:00:00.000+02:00,-7.397377494777641,1,Corrected annual variation,galicia
+2022-05-01T00:00:00.000+02:00,-6.6890373997249375,1,Corrected annual variation,galicia
+2022-06-01T00:00:00.000+02:00,-6.654100127627156,1,Corrected annual variation,galicia
+2022-07-01T00:00:00.000+02:00,-6.895055111504666,1,Corrected annual variation,galicia
+2022-08-01T00:00:00.000+02:00,-7.423745772339501,1,Corrected annual variation,galicia
+2022-09-01T00:00:00.000+02:00,-7.753652836626139,1,Corrected annual variation,galicia
+2022-10-01T00:00:00.000+02:00,-7.878174660179423,1,Corrected annual variation,galicia
+2022-11-01T00:00:00.000+01:00,-8.334803041777763,1,Corrected annual variation,galicia
+2022-12-01T00:00:00.000+01:00,-8.767635548251423,1,Corrected annual variation,galicia
+2022-01-01T00:00:00.000+01:00,108.27,1,Índice industria,la rioja
+2022-02-01T00:00:00.000+01:00,107.0525,1,Índice industria,la rioja
+2022-03-01T00:00:00.000+01:00,108.19866666666667,1,Índice industria,la rioja
+2022-04-01T00:00:00.000+02:00,108.1345,1,Índice industria,la rioja
+2022-05-01T00:00:00.000+02:00,110.297,1,Índice industria,la rioja
+2022-06-01T00:00:00.000+02:00,111.07233333333333,1,Índice industria,la rioja
+2022-07-01T00:00:00.000+02:00,111.32071428571429,1,Índice industria,la rioja
+2022-08-01T00:00:00.000+02:00,109.43075,1,Índice industria,la rioja
+2022-09-01T00:00:00.000+02:00,109.38355555555556,1,Índice industria,la rioja
+2022-10-01T00:00:00.000+02:00,109.19120000000001,1,Índice industria,la rioja
+2022-11-01T00:00:00.000+01:00,108.6088181818182,1,Índice industria,la rioja
+2022-12-01T00:00:00.000+01:00,107.02575000000002,1,Índice industria,la rioja
+2022-01-01T00:00:00.000+01:00,89.646,1,Índice industria corregido,la rioja
+2022-02-01T00:00:00.000+01:00,92.767,1,Índice industria corregido,la rioja
+2022-03-01T00:00:00.000+01:00,91.72833333333334,1,Índice industria corregido,la rioja
+2022-04-01T00:00:00.000+02:00,91.9845,1,Índice industria corregido,la rioja
+2022-05-01T00:00:00.000+02:00,92.5432,1,Índice industria corregido,la rioja
+2022-06-01T00:00:00.000+02:00,92.5215,1,Índice industria corregido,la rioja
+2022-07-01T00:00:00.000+02:00,91.3237142857143,1,Índice industria corregido,la rioja
+2022-08-01T00:00:00.000+02:00,88.82275000000001,1,Índice industria corregido,la rioja
+2022-09-01T00:00:00.000+02:00,88.68133333333334,1,Índice industria corregido,la rioja
+2022-10-01T00:00:00.000+02:00,88.4972,1,Índice industria corregido,la rioja
+2022-11-01T00:00:00.000+01:00,88.35700000000001,1,Índice industria corregido,la rioja
+2022-12-01T00:00:00.000+01:00,87.34100000000001,1,Índice industria corregido,la rioja
+2022-01-01T00:00:00.000+01:00,-3.349342093517353,1,Annual variation,la rioja
+2022-02-01T00:00:00.000+01:00,-4.176568786727365,1,Annual variation,la rioja
+2022-03-01T00:00:00.000+01:00,-6.3976792336395825,1,Annual variation,la rioja
+2022-04-01T00:00:00.000+02:00,-6.6234329766266145,1,Annual variation,la rioja
+2022-05-01T00:00:00.000+02:00,-5.969681004335931,1,Annual variation,la rioja
+2022-06-01T00:00:00.000+02:00,-6.0295123344073245,1,Annual variation,la rioja
+2022-07-01T00:00:00.000+02:00,-6.223750303864674,1,Annual variation,la rioja
+2022-08-01T00:00:00.000+02:00,-6.7940719289653515,1,Annual variation,la rioja
+2022-09-01T00:00:00.000+02:00,-7.211117488988741,1,Annual variation,la rioja
+2022-10-01T00:00:00.000+02:00,-7.447437011294523,1,Annual variation,la rioja
+2022-11-01T00:00:00.000+01:00,-7.81488237436496,1,Annual variation,la rioja
+2022-12-01T00:00:00.000+01:00,-8.187372796115627,1,Annual variation,la rioja
+2022-01-01T00:00:00.000+01:00,-5.472605339744399,1,Corrected annual variation,la rioja
+2022-02-01T00:00:00.000+01:00,-5.533548538202257,1,Corrected annual variation,la rioja
+2022-03-01T00:00:00.000+01:00,-7.326083808458964,1,Corrected annual variation,la rioja
+2022-04-01T00:00:00.000+02:00,-7.397377494777641,1,Corrected annual variation,la rioja
+2022-05-01T00:00:00.000+02:00,-6.6890373997249375,1,Corrected annual variation,la rioja
+2022-06-01T00:00:00.000+02:00,-6.654100127627156,1,Corrected annual variation,la rioja
+2022-07-01T00:00:00.000+02:00,-6.895055111504666,1,Corrected annual variation,la rioja
+2022-08-01T00:00:00.000+02:00,-7.423745772339501,1,Corrected annual variation,la rioja
+2022-09-01T00:00:00.000+02:00,-7.753652836626139,1,Corrected annual variation,la rioja
+2022-10-01T00:00:00.000+02:00,-7.878174660179423,1,Corrected annual variation,la rioja
+2022-11-01T00:00:00.000+01:00,-8.334803041777763,1,Corrected annual variation,la rioja
+2022-12-01T00:00:00.000+01:00,-8.767635548251423,1,Corrected annual variation,la rioja
+2022-01-01T00:00:00.000+01:00,108.27,1,Índice industria,region de murcia
+2022-02-01T00:00:00.000+01:00,107.0525,1,Índice industria,region de murcia
+2022-03-01T00:00:00.000+01:00,108.19866666666667,1,Índice industria,region de murcia
+2022-04-01T00:00:00.000+02:00,108.1345,1,Índice industria,region de murcia
+2022-05-01T00:00:00.000+02:00,110.297,1,Índice industria,region de murcia
+2022-06-01T00:00:00.000+02:00,111.07233333333333,1,Índice industria,region de murcia
+2022-07-01T00:00:00.000+02:00,111.32071428571429,1,Índice industria,region de murcia
+2022-08-01T00:00:00.000+02:00,109.43075,1,Índice industria,region de murcia
+2022-09-01T00:00:00.000+02:00,109.38355555555556,1,Índice industria,region de murcia
+2022-10-01T00:00:00.000+02:00,109.19120000000001,1,Índice industria,region de murcia
+2022-11-01T00:00:00.000+01:00,108.6088181818182,1,Índice industria,region de murcia
+2022-12-01T00:00:00.000+01:00,107.02575000000002,1,Índice industria,region de murcia
+2022-01-01T00:00:00.000+01:00,89.646,1,Índice industria corregido,region de murcia
+2022-02-01T00:00:00.000+01:00,92.767,1,Índice industria corregido,region de murcia
+2022-03-01T00:00:00.000+01:00,91.72833333333334,1,Índice industria corregido,region de murcia
+2022-04-01T00:00:00.000+02:00,91.9845,1,Índice industria corregido,region de murcia
+2022-05-01T00:00:00.000+02:00,92.5432,1,Índice industria corregido,region de murcia
+2022-06-01T00:00:00.000+02:00,92.5215,1,Índice industria corregido,region de murcia
+2022-07-01T00:00:00.000+02:00,91.3237142857143,1,Índice industria corregido,region de murcia
+2022-08-01T00:00:00.000+02:00,88.82275000000001,1,Índice industria corregido,region de murcia
+2022-09-01T00:00:00.000+02:00,88.68133333333334,1,Índice industria corregido,region de murcia
+2022-10-01T00:00:00.000+02:00,88.4972,1,Índice industria corregido,region de murcia
+2022-11-01T00:00:00.000+01:00,88.35700000000001,1,Índice industria corregido,region de murcia
+2022-12-01T00:00:00.000+01:00,87.34100000000001,1,Índice industria corregido,region de murcia
+2022-01-01T00:00:00.000+01:00,-3.349342093517353,1,Annual variation,region de murcia
+2022-02-01T00:00:00.000+01:00,-4.176568786727365,1,Annual variation,region de murcia
+2022-03-01T00:00:00.000+01:00,-6.3976792336395825,1,Annual variation,region de murcia
+2022-04-01T00:00:00.000+02:00,-6.6234329766266145,1,Annual variation,region de murcia
+2022-05-01T00:00:00.000+02:00,-5.969681004335931,1,Annual variation,region de murcia
+2022-06-01T00:00:00.000+02:00,-6.0295123344073245,1,Annual variation,region de murcia
+2022-07-01T00:00:00.000+02:00,-6.223750303864674,1,Annual variation,region de murcia
+2022-08-01T00:00:00.000+02:00,-6.7940719289653515,1,Annual variation,region de murcia
+2022-09-01T00:00:00.000+02:00,-7.211117488988741,1,Annual variation,region de murcia
+2022-10-01T00:00:00.000+02:00,-7.447437011294523,1,Annual variation,region de murcia
+2022-11-01T00:00:00.000+01:00,-7.81488237436496,1,Annual variation,region de murcia
+2022-12-01T00:00:00.000+01:00,-8.187372796115627,1,Annual variation,region de murcia
+2022-01-01T00:00:00.000+01:00,-5.472605339744399,1,Corrected annual variation,region de murcia
+2022-02-01T00:00:00.000+01:00,-5.533548538202257,1,Corrected annual variation,region de murcia
+2022-03-01T00:00:00.000+01:00,-7.326083808458964,1,Corrected annual variation,region de murcia
+2022-04-01T00:00:00.000+02:00,-7.397377494777641,1,Corrected annual variation,region de murcia
+2022-05-01T00:00:00.000+02:00,-6.6890373997249375,1,Corrected annual variation,region de murcia
+2022-06-01T00:00:00.000+02:00,-6.654100127627156,1,Corrected annual variation,region de murcia
+2022-07-01T00:00:00.000+02:00,-6.895055111504666,1,Corrected annual variation,region de murcia
+2022-08-01T00:00:00.000+02:00,-7.423745772339501,1,Corrected annual variation,region de murcia
+2022-09-01T00:00:00.000+02:00,-7.753652836626139,1,Corrected annual variation,region de murcia
+2022-10-01T00:00:00.000+02:00,-7.878174660179423,1,Corrected annual variation,region de murcia
+2022-11-01T00:00:00.000+01:00,-8.334803041777763,1,Corrected annual variation,region de murcia
+2022-12-01T00:00:00.000+01:00,-8.767635548251423,1,Corrected annual variation,region de murcia
