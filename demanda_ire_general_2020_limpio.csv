@@ -1,0 +1,961 @@
+fecha,valor,porcentaje,indicator,region
+2020-01-01,119.338,1,Índice general,peninsular
+2020-02-01,118.2195,1,Índice general,peninsular
+2020-03-01,117.664,1,Índice general,peninsular
+2020-04-01,111.16475,1,Índice general,peninsular
+2020-05-01,110.7556,1,Índice general,peninsular
+2020-06-01,111.25433333333336,1,Índice general,peninsular
+2020-07-01,113.42157142857144,1,Índice general,peninsular
+2020-08-01,113.90725,1,Índice general,peninsular
+2020-09-01,114.80366666666666,1,Índice general,peninsular
+2020-10-01,115.58599999999998,1,Índice general,peninsular
+2020-11-01,115.74681818181816,1,Índice general,peninsular
+2020-12-01,115.18858333333333,1,Índice general,peninsular
+2020-01-01,101.472,1,Índice general corregido,peninsular
+2020-02-01,103.573,1,Índice general corregido,peninsular
+2020-03-01,101.80966666666669,1,Índice general corregido,peninsular
+2020-04-01,96.404,1,Índice general corregido,peninsular
+2020-05-01,94.42820000000002,1,Índice general corregido,peninsular
+2020-06-01,93.90066666666668,1,Índice general corregido,peninsular
+2020-07-01,93.5124285714286,1,Índice general corregido,peninsular
+2020-08-01,92.54775,1,Índice general corregido,peninsular
+2020-09-01,93.161,1,Índice general corregido,peninsular
+2020-10-01,93.9932,1,Índice general corregido,peninsular
+2020-11-01,94.76409090909092,1,Índice general corregido,peninsular
+2020-12-01,94.70741666666667,1,Índice general corregido,peninsular
+2020-01-01,-3.7356113221853855,1,Annual variation,peninsular
+2020-02-01,-0.9779121679914932,1,Annual variation,peninsular
+2020-03-01,-3.3663756642001297,1,Annual variation,peninsular
+2020-04-01,-8.26496066809567,1,Annual variation,peninsular
+2020-05-01,-9.954943162694038,1,Annual variation,peninsular
+2020-06-01,-10.192939758290503,1,Annual variation,peninsular
+2020-07-01,-9.66075177361454,1,Annual variation,peninsular
+2020-08-01,-9.284506178554397,1,Annual variation,peninsular
+2020-09-01,-8.734916612417567,1,Annual variation,peninsular
+2020-10-01,-8.381928762284934,1,Annual variation,peninsular
+2020-11-01,-7.912942158407834,1,Annual variation,peninsular
+2020-12-01,-7.405544160223574,1,Annual variation,peninsular
+2020-01-01,-3.4262220191868518,1,Corrected annual variation,peninsular
+2020-02-01,-2.4621542083578505,1,Corrected annual variation,peninsular
+2020-03-01,-4.3591670580867365,1,Corrected annual variation,peninsular
+2020-04-01,-9.098495331354762,1,Corrected annual variation,peninsular
+2020-05-01,-10.882154195781736,1,Corrected annual variation,peninsular
+2020-06-01,-11.15211268494074,1,Corrected annual variation,peninsular
+2020-07-01,-10.829657560558283,1,Corrected annual variation,peninsular
+2020-08-01,-10.478415269822724,1,Corrected annual variation,peninsular
+2020-09-01,-9.972361927750182,1,Corrected annual variation,peninsular
+2020-10-01,-9.236089182959498,1,Corrected annual variation,peninsular
+2020-11-01,-8.666879285600388,1,Corrected annual variation,peninsular
+2020-12-01,-8.154934790584766,1,Corrected annual variation,peninsular
+2020-01-01,119.338,1,Índice general,canarias
+2020-02-01,118.2195,1,Índice general,canarias
+2020-03-01,117.664,1,Índice general,canarias
+2020-04-01,111.16475,1,Índice general,canarias
+2020-05-01,110.7556,1,Índice general,canarias
+2020-06-01,111.25433333333336,1,Índice general,canarias
+2020-07-01,113.42157142857144,1,Índice general,canarias
+2020-08-01,113.90725,1,Índice general,canarias
+2020-09-01,114.80366666666666,1,Índice general,canarias
+2020-10-01,115.58599999999998,1,Índice general,canarias
+2020-11-01,115.74681818181816,1,Índice general,canarias
+2020-12-01,115.18858333333333,1,Índice general,canarias
+2020-01-01,101.472,1,Índice general corregido,canarias
+2020-02-01,103.573,1,Índice general corregido,canarias
+2020-03-01,101.80966666666669,1,Índice general corregido,canarias
+2020-04-01,96.404,1,Índice general corregido,canarias
+2020-05-01,94.42820000000002,1,Índice general corregido,canarias
+2020-06-01,93.90066666666668,1,Índice general corregido,canarias
+2020-07-01,93.5124285714286,1,Índice general corregido,canarias
+2020-08-01,92.54775,1,Índice general corregido,canarias
+2020-09-01,93.161,1,Índice general corregido,canarias
+2020-10-01,93.9932,1,Índice general corregido,canarias
+2020-11-01,94.76409090909092,1,Índice general corregido,canarias
+2020-12-01,94.70741666666667,1,Índice general corregido,canarias
+2020-01-01,-3.7356113221853855,1,Annual variation,canarias
+2020-02-01,-0.9779121679914932,1,Annual variation,canarias
+2020-03-01,-3.3663756642001297,1,Annual variation,canarias
+2020-04-01,-8.26496066809567,1,Annual variation,canarias
+2020-05-01,-9.954943162694038,1,Annual variation,canarias
+2020-06-01,-10.192939758290503,1,Annual variation,canarias
+2020-07-01,-9.66075177361454,1,Annual variation,canarias
+2020-08-01,-9.284506178554397,1,Annual variation,canarias
+2020-09-01,-8.734916612417567,1,Annual variation,canarias
+2020-10-01,-8.381928762284934,1,Annual variation,canarias
+2020-11-01,-7.912942158407834,1,Annual variation,canarias
+2020-12-01,-7.405544160223574,1,Annual variation,canarias
+2020-01-01,-3.4262220191868518,1,Corrected annual variation,canarias
+2020-02-01,-2.4621542083578505,1,Corrected annual variation,canarias
+2020-03-01,-4.3591670580867365,1,Corrected annual variation,canarias
+2020-04-01,-9.098495331354762,1,Corrected annual variation,canarias
+2020-05-01,-10.882154195781736,1,Corrected annual variation,canarias
+2020-06-01,-11.15211268494074,1,Corrected annual variation,canarias
+2020-07-01,-10.829657560558283,1,Corrected annual variation,canarias
+2020-08-01,-10.478415269822724,1,Corrected annual variation,canarias
+2020-09-01,-9.972361927750182,1,Corrected annual variation,canarias
+2020-10-01,-9.236089182959498,1,Corrected annual variation,canarias
+2020-11-01,-8.666879285600388,1,Corrected annual variation,canarias
+2020-12-01,-8.154934790584766,1,Corrected annual variation,canarias
+2020-01-01,119.338,1,Índice general,baleares
+2020-02-01,118.2195,1,Índice general,baleares
+2020-03-01,117.664,1,Índice general,baleares
+2020-04-01,111.16475,1,Índice general,baleares
+2020-05-01,110.7556,1,Índice general,baleares
+2020-06-01,111.25433333333336,1,Índice general,baleares
+2020-07-01,113.42157142857144,1,Índice general,baleares
+2020-08-01,113.90725,1,Índice general,baleares
+2020-09-01,114.80366666666666,1,Índice general,baleares
+2020-10-01,115.58599999999998,1,Índice general,baleares
+2020-11-01,115.74681818181816,1,Índice general,baleares
+2020-12-01,115.18858333333333,1,Índice general,baleares
+2020-01-01,101.472,1,Índice general corregido,baleares
+2020-02-01,103.573,1,Índice general corregido,baleares
+2020-03-01,101.80966666666669,1,Índice general corregido,baleares
+2020-04-01,96.404,1,Índice general corregido,baleares
+2020-05-01,94.42820000000002,1,Índice general corregido,baleares
+2020-06-01,93.90066666666668,1,Índice general corregido,baleares
+2020-07-01,93.5124285714286,1,Índice general corregido,baleares
+2020-08-01,92.54775,1,Índice general corregido,baleares
+2020-09-01,93.161,1,Índice general corregido,baleares
+2020-10-01,93.9932,1,Índice general corregido,baleares
+2020-11-01,94.76409090909092,1,Índice general corregido,baleares
+2020-12-01,94.70741666666667,1,Índice general corregido,baleares
+2020-01-01,-3.7356113221853855,1,Annual variation,baleares
+2020-02-01,-0.9779121679914932,1,Annual variation,baleares
+2020-03-01,-3.3663756642001297,1,Annual variation,baleares
+2020-04-01,-8.26496066809567,1,Annual variation,baleares
+2020-05-01,-9.954943162694038,1,Annual variation,baleares
+2020-06-01,-10.192939758290503,1,Annual variation,baleares
+2020-07-01,-9.66075177361454,1,Annual variation,baleares
+2020-08-01,-9.284506178554397,1,Annual variation,baleares
+2020-09-01,-8.734916612417567,1,Annual variation,baleares
+2020-10-01,-8.381928762284934,1,Annual variation,baleares
+2020-11-01,-7.912942158407834,1,Annual variation,baleares
+2020-12-01,-7.405544160223574,1,Annual variation,baleares
+2020-01-01,-3.4262220191868518,1,Corrected annual variation,baleares
+2020-02-01,-2.4621542083578505,1,Corrected annual variation,baleares
+2020-03-01,-4.3591670580867365,1,Corrected annual variation,baleares
+2020-04-01,-9.098495331354762,1,Corrected annual variation,baleares
+2020-05-01,-10.882154195781736,1,Corrected annual variation,baleares
+2020-06-01,-11.15211268494074,1,Corrected annual variation,baleares
+2020-07-01,-10.829657560558283,1,Corrected annual variation,baleares
+2020-08-01,-10.478415269822724,1,Corrected annual variation,baleares
+2020-09-01,-9.972361927750182,1,Corrected annual variation,baleares
+2020-10-01,-9.236089182959498,1,Corrected annual variation,baleares
+2020-11-01,-8.666879285600388,1,Corrected annual variation,baleares
+2020-12-01,-8.154934790584766,1,Corrected annual variation,baleares
+2020-01-01,119.338,1,Índice general,ceuta
+2020-02-01,118.2195,1,Índice general,ceuta
+2020-03-01,117.664,1,Índice general,ceuta
+2020-04-01,111.16475,1,Índice general,ceuta
+2020-05-01,110.7556,1,Índice general,ceuta
+2020-06-01,111.25433333333336,1,Índice general,ceuta
+2020-07-01,113.42157142857144,1,Índice general,ceuta
+2020-08-01,113.90725,1,Índice general,ceuta
+2020-09-01,114.80366666666666,1,Índice general,ceuta
+2020-10-01,115.58599999999998,1,Índice general,ceuta
+2020-11-01,115.74681818181816,1,Índice general,ceuta
+2020-12-01,115.18858333333333,1,Índice general,ceuta
+2020-01-01,101.472,1,Índice general corregido,ceuta
+2020-02-01,103.573,1,Índice general corregido,ceuta
+2020-03-01,101.80966666666669,1,Índice general corregido,ceuta
+2020-04-01,96.404,1,Índice general corregido,ceuta
+2020-05-01,94.42820000000002,1,Índice general corregido,ceuta
+2020-06-01,93.90066666666668,1,Índice general corregido,ceuta
+2020-07-01,93.5124285714286,1,Índice general corregido,ceuta
+2020-08-01,92.54775,1,Índice general corregido,ceuta
+2020-09-01,93.161,1,Índice general corregido,ceuta
+2020-10-01,93.9932,1,Índice general corregido,ceuta
+2020-11-01,94.76409090909092,1,Índice general corregido,ceuta
+2020-12-01,94.70741666666667,1,Índice general corregido,ceuta
+2020-01-01,-3.7356113221853855,1,Annual variation,ceuta
+2020-02-01,-0.9779121679914932,1,Annual variation,ceuta
+2020-03-01,-3.3663756642001297,1,Annual variation,ceuta
+2020-04-01,-8.26496066809567,1,Annual variation,ceuta
+2020-05-01,-9.954943162694038,1,Annual variation,ceuta
+2020-06-01,-10.192939758290503,1,Annual variation,ceuta
+2020-07-01,-9.66075177361454,1,Annual variation,ceuta
+2020-08-01,-9.284506178554397,1,Annual variation,ceuta
+2020-09-01,-8.734916612417567,1,Annual variation,ceuta
+2020-10-01,-8.381928762284934,1,Annual variation,ceuta
+2020-11-01,-7.912942158407834,1,Annual variation,ceuta
+2020-12-01,-7.405544160223574,1,Annual variation,ceuta
+2020-01-01,-3.4262220191868518,1,Corrected annual variation,ceuta
+2020-02-01,-2.4621542083578505,1,Corrected annual variation,ceuta
+2020-03-01,-4.3591670580867365,1,Corrected annual variation,ceuta
+2020-04-01,-9.098495331354762,1,Corrected annual variation,ceuta
+2020-05-01,-10.882154195781736,1,Corrected annual variation,ceuta
+2020-06-01,-11.15211268494074,1,Corrected annual variation,ceuta
+2020-07-01,-10.829657560558283,1,Corrected annual variation,ceuta
+2020-08-01,-10.478415269822724,1,Corrected annual variation,ceuta
+2020-09-01,-9.972361927750182,1,Corrected annual variation,ceuta
+2020-10-01,-9.236089182959498,1,Corrected annual variation,ceuta
+2020-11-01,-8.666879285600388,1,Corrected annual variation,ceuta
+2020-12-01,-8.154934790584766,1,Corrected annual variation,ceuta
+2020-01-01,119.338,1,Índice general,melilla
+2020-02-01,118.2195,1,Índice general,melilla
+2020-03-01,117.664,1,Índice general,melilla
+2020-04-01,111.16475,1,Índice general,melilla
+2020-05-01,110.7556,1,Índice general,melilla
+2020-06-01,111.25433333333336,1,Índice general,melilla
+2020-07-01,113.42157142857144,1,Índice general,melilla
+2020-08-01,113.90725,1,Índice general,melilla
+2020-09-01,114.80366666666666,1,Índice general,melilla
+2020-10-01,115.58599999999998,1,Índice general,melilla
+2020-11-01,115.74681818181816,1,Índice general,melilla
+2020-12-01,115.18858333333333,1,Índice general,melilla
+2020-01-01,101.472,1,Índice general corregido,melilla
+2020-02-01,103.573,1,Índice general corregido,melilla
+2020-03-01,101.80966666666669,1,Índice general corregido,melilla
+2020-04-01,96.404,1,Índice general corregido,melilla
+2020-05-01,94.42820000000002,1,Índice general corregido,melilla
+2020-06-01,93.90066666666668,1,Índice general corregido,melilla
+2020-07-01,93.5124285714286,1,Índice general corregido,melilla
+2020-08-01,92.54775,1,Índice general corregido,melilla
+2020-09-01,93.161,1,Índice general corregido,melilla
+2020-10-01,93.9932,1,Índice general corregido,melilla
+2020-11-01,94.76409090909092,1,Índice general corregido,melilla
+2020-12-01,94.70741666666667,1,Índice general corregido,melilla
+2020-01-01,-3.7356113221853855,1,Annual variation,melilla
+2020-02-01,-0.9779121679914932,1,Annual variation,melilla
+2020-03-01,-3.3663756642001297,1,Annual variation,melilla
+2020-04-01,-8.26496066809567,1,Annual variation,melilla
+2020-05-01,-9.954943162694038,1,Annual variation,melilla
+2020-06-01,-10.192939758290503,1,Annual variation,melilla
+2020-07-01,-9.66075177361454,1,Annual variation,melilla
+2020-08-01,-9.284506178554397,1,Annual variation,melilla
+2020-09-01,-8.734916612417567,1,Annual variation,melilla
+2020-10-01,-8.381928762284934,1,Annual variation,melilla
+2020-11-01,-7.912942158407834,1,Annual variation,melilla
+2020-12-01,-7.405544160223574,1,Annual variation,melilla
+2020-01-01,-3.4262220191868518,1,Corrected annual variation,melilla
+2020-02-01,-2.4621542083578505,1,Corrected annual variation,melilla
+2020-03-01,-4.3591670580867365,1,Corrected annual variation,melilla
+2020-04-01,-9.098495331354762,1,Corrected annual variation,melilla
+2020-05-01,-10.882154195781736,1,Corrected annual variation,melilla
+2020-06-01,-11.15211268494074,1,Corrected annual variation,melilla
+2020-07-01,-10.829657560558283,1,Corrected annual variation,melilla
+2020-08-01,-10.478415269822724,1,Corrected annual variation,melilla
+2020-09-01,-9.972361927750182,1,Corrected annual variation,melilla
+2020-10-01,-9.236089182959498,1,Corrected annual variation,melilla
+2020-11-01,-8.666879285600388,1,Corrected annual variation,melilla
+2020-12-01,-8.154934790584766,1,Corrected annual variation,melilla
+2020-01-01,119.338,1,Índice general,andalucia
+2020-02-01,118.2195,1,Índice general,andalucia
+2020-03-01,117.664,1,Índice general,andalucia
+2020-04-01,111.16475,1,Índice general,andalucia
+2020-05-01,110.7556,1,Índice general,andalucia
+2020-06-01,111.25433333333336,1,Índice general,andalucia
+2020-07-01,113.42157142857144,1,Índice general,andalucia
+2020-08-01,113.90725,1,Índice general,andalucia
+2020-09-01,114.80366666666666,1,Índice general,andalucia
+2020-10-01,115.58599999999998,1,Índice general,andalucia
+2020-11-01,115.74681818181816,1,Índice general,andalucia
+2020-12-01,115.18858333333333,1,Índice general,andalucia
+2020-01-01,101.472,1,Índice general corregido,andalucia
+2020-02-01,103.573,1,Índice general corregido,andalucia
+2020-03-01,101.80966666666669,1,Índice general corregido,andalucia
+2020-04-01,96.404,1,Índice general corregido,andalucia
+2020-05-01,94.42820000000002,1,Índice general corregido,andalucia
+2020-06-01,93.90066666666668,1,Índice general corregido,andalucia
+2020-07-01,93.5124285714286,1,Índice general corregido,andalucia
+2020-08-01,92.54775,1,Índice general corregido,andalucia
+2020-09-01,93.161,1,Índice general corregido,andalucia
+2020-10-01,93.9932,1,Índice general corregido,andalucia
+2020-11-01,94.76409090909092,1,Índice general corregido,andalucia
+2020-12-01,94.70741666666667,1,Índice general corregido,andalucia
+2020-01-01,-3.7356113221853855,1,Annual variation,andalucia
+2020-02-01,-0.9779121679914932,1,Annual variation,andalucia
+2020-03-01,-3.3663756642001297,1,Annual variation,andalucia
+2020-04-01,-8.26496066809567,1,Annual variation,andalucia
+2020-05-01,-9.954943162694038,1,Annual variation,andalucia
+2020-06-01,-10.192939758290503,1,Annual variation,andalucia
+2020-07-01,-9.66075177361454,1,Annual variation,andalucia
+2020-08-01,-9.284506178554397,1,Annual variation,andalucia
+2020-09-01,-8.734916612417567,1,Annual variation,andalucia
+2020-10-01,-8.381928762284934,1,Annual variation,andalucia
+2020-11-01,-7.912942158407834,1,Annual variation,andalucia
+2020-12-01,-7.405544160223574,1,Annual variation,andalucia
+2020-01-01,-3.4262220191868518,1,Corrected annual variation,andalucia
+2020-02-01,-2.4621542083578505,1,Corrected annual variation,andalucia
+2020-03-01,-4.3591670580867365,1,Corrected annual variation,andalucia
+2020-04-01,-9.098495331354762,1,Corrected annual variation,andalucia
+2020-05-01,-10.882154195781736,1,Corrected annual variation,andalucia
+2020-06-01,-11.15211268494074,1,Corrected annual variation,andalucia
+2020-07-01,-10.829657560558283,1,Corrected annual variation,andalucia
+2020-08-01,-10.478415269822724,1,Corrected annual variation,andalucia
+2020-09-01,-9.972361927750182,1,Corrected annual variation,andalucia
+2020-10-01,-9.236089182959498,1,Corrected annual variation,andalucia
+2020-11-01,-8.666879285600388,1,Corrected annual variation,andalucia
+2020-12-01,-8.154934790584766,1,Corrected annual variation,andalucia
+2020-01-01,119.338,1,Índice general,aragon
+2020-02-01,118.2195,1,Índice general,aragon
+2020-03-01,117.664,1,Índice general,aragon
+2020-04-01,111.16475,1,Índice general,aragon
+2020-05-01,110.7556,1,Índice general,aragon
+2020-06-01,111.25433333333336,1,Índice general,aragon
+2020-07-01,113.42157142857144,1,Índice general,aragon
+2020-08-01,113.90725,1,Índice general,aragon
+2020-09-01,114.80366666666666,1,Índice general,aragon
+2020-10-01,115.58599999999998,1,Índice general,aragon
+2020-11-01,115.74681818181816,1,Índice general,aragon
+2020-12-01,115.18858333333333,1,Índice general,aragon
+2020-01-01,101.472,1,Índice general corregido,aragon
+2020-02-01,103.573,1,Índice general corregido,aragon
+2020-03-01,101.80966666666669,1,Índice general corregido,aragon
+2020-04-01,96.404,1,Índice general corregido,aragon
+2020-05-01,94.42820000000002,1,Índice general corregido,aragon
+2020-06-01,93.90066666666668,1,Índice general corregido,aragon
+2020-07-01,93.5124285714286,1,Índice general corregido,aragon
+2020-08-01,92.54775,1,Índice general corregido,aragon
+2020-09-01,93.161,1,Índice general corregido,aragon
+2020-10-01,93.9932,1,Índice general corregido,aragon
+2020-11-01,94.76409090909092,1,Índice general corregido,aragon
+2020-12-01,94.70741666666667,1,Índice general corregido,aragon
+2020-01-01,-3.7356113221853855,1,Annual variation,aragon
+2020-02-01,-0.9779121679914932,1,Annual variation,aragon
+2020-03-01,-3.3663756642001297,1,Annual variation,aragon
+2020-04-01,-8.26496066809567,1,Annual variation,aragon
+2020-05-01,-9.954943162694038,1,Annual variation,aragon
+2020-06-01,-10.192939758290503,1,Annual variation,aragon
+2020-07-01,-9.66075177361454,1,Annual variation,aragon
+2020-08-01,-9.284506178554397,1,Annual variation,aragon
+2020-09-01,-8.734916612417567,1,Annual variation,aragon
+2020-10-01,-8.381928762284934,1,Annual variation,aragon
+2020-11-01,-7.912942158407834,1,Annual variation,aragon
+2020-12-01,-7.405544160223574,1,Annual variation,aragon
+2020-01-01,-3.4262220191868518,1,Corrected annual variation,aragon
+2020-02-01,-2.4621542083578505,1,Corrected annual variation,aragon
+2020-03-01,-4.3591670580867365,1,Corrected annual variation,aragon
+2020-04-01,-9.098495331354762,1,Corrected annual variation,aragon
+2020-05-01,-10.882154195781736,1,Corrected annual variation,aragon
+2020-06-01,-11.15211268494074,1,Corrected annual variation,aragon
+2020-07-01,-10.829657560558283,1,Corrected annual variation,aragon
+2020-08-01,-10.478415269822724,1,Corrected annual variation,aragon
+2020-09-01,-9.972361927750182,1,Corrected annual variation,aragon
+2020-10-01,-9.236089182959498,1,Corrected annual variation,aragon
+2020-11-01,-8.666879285600388,1,Corrected annual variation,aragon
+2020-12-01,-8.154934790584766,1,Corrected annual variation,aragon
+2020-01-01,119.338,1,Índice general,cantabria
+2020-02-01,118.2195,1,Índice general,cantabria
+2020-03-01,117.664,1,Índice general,cantabria
+2020-04-01,111.16475,1,Índice general,cantabria
+2020-05-01,110.7556,1,Índice general,cantabria
+2020-06-01,111.25433333333336,1,Índice general,cantabria
+2020-07-01,113.42157142857144,1,Índice general,cantabria
+2020-08-01,113.90725,1,Índice general,cantabria
+2020-09-01,114.80366666666666,1,Índice general,cantabria
+2020-10-01,115.58599999999998,1,Índice general,cantabria
+2020-11-01,115.74681818181816,1,Índice general,cantabria
+2020-12-01,115.18858333333333,1,Índice general,cantabria
+2020-01-01,101.472,1,Índice general corregido,cantabria
+2020-02-01,103.573,1,Índice general corregido,cantabria
+2020-03-01,101.80966666666669,1,Índice general corregido,cantabria
+2020-04-01,96.404,1,Índice general corregido,cantabria
+2020-05-01,94.42820000000002,1,Índice general corregido,cantabria
+2020-06-01,93.90066666666668,1,Índice general corregido,cantabria
+2020-07-01,93.5124285714286,1,Índice general corregido,cantabria
+2020-08-01,92.54775,1,Índice general corregido,cantabria
+2020-09-01,93.161,1,Índice general corregido,cantabria
+2020-10-01,93.9932,1,Índice general corregido,cantabria
+2020-11-01,94.76409090909092,1,Índice general corregido,cantabria
+2020-12-01,94.70741666666667,1,Índice general corregido,cantabria
+2020-01-01,-3.7356113221853855,1,Annual variation,cantabria
+2020-02-01,-0.9779121679914932,1,Annual variation,cantabria
+2020-03-01,-3.3663756642001297,1,Annual variation,cantabria
+2020-04-01,-8.26496066809567,1,Annual variation,cantabria
+2020-05-01,-9.954943162694038,1,Annual variation,cantabria
+2020-06-01,-10.192939758290503,1,Annual variation,cantabria
+2020-07-01,-9.66075177361454,1,Annual variation,cantabria
+2020-08-01,-9.284506178554397,1,Annual variation,cantabria
+2020-09-01,-8.734916612417567,1,Annual variation,cantabria
+2020-10-01,-8.381928762284934,1,Annual variation,cantabria
+2020-11-01,-7.912942158407834,1,Annual variation,cantabria
+2020-12-01,-7.405544160223574,1,Annual variation,cantabria
+2020-01-01,-3.4262220191868518,1,Corrected annual variation,cantabria
+2020-02-01,-2.4621542083578505,1,Corrected annual variation,cantabria
+2020-03-01,-4.3591670580867365,1,Corrected annual variation,cantabria
+2020-04-01,-9.098495331354762,1,Corrected annual variation,cantabria
+2020-05-01,-10.882154195781736,1,Corrected annual variation,cantabria
+2020-06-01,-11.15211268494074,1,Corrected annual variation,cantabria
+2020-07-01,-10.829657560558283,1,Corrected annual variation,cantabria
+2020-08-01,-10.478415269822724,1,Corrected annual variation,cantabria
+2020-09-01,-9.972361927750182,1,Corrected annual variation,cantabria
+2020-10-01,-9.236089182959498,1,Corrected annual variation,cantabria
+2020-11-01,-8.666879285600388,1,Corrected annual variation,cantabria
+2020-12-01,-8.154934790584766,1,Corrected annual variation,cantabria
+2020-01-01,119.338,1,Índice general,castilla la mancha
+2020-02-01,118.2195,1,Índice general,castilla la mancha
+2020-03-01,117.664,1,Índice general,castilla la mancha
+2020-04-01,111.16475,1,Índice general,castilla la mancha
+2020-05-01,110.7556,1,Índice general,castilla la mancha
+2020-06-01,111.25433333333336,1,Índice general,castilla la mancha
+2020-07-01,113.42157142857144,1,Índice general,castilla la mancha
+2020-08-01,113.90725,1,Índice general,castilla la mancha
+2020-09-01,114.80366666666666,1,Índice general,castilla la mancha
+2020-10-01,115.58599999999998,1,Índice general,castilla la mancha
+2020-11-01,115.74681818181816,1,Índice general,castilla la mancha
+2020-12-01,115.18858333333333,1,Índice general,castilla la mancha
+2020-01-01,101.472,1,Índice general corregido,castilla la mancha
+2020-02-01,103.573,1,Índice general corregido,castilla la mancha
+2020-03-01,101.80966666666669,1,Índice general corregido,castilla la mancha
+2020-04-01,96.404,1,Índice general corregido,castilla la mancha
+2020-05-01,94.42820000000002,1,Índice general corregido,castilla la mancha
+2020-06-01,93.90066666666668,1,Índice general corregido,castilla la mancha
+2020-07-01,93.5124285714286,1,Índice general corregido,castilla la mancha
+2020-08-01,92.54775,1,Índice general corregido,castilla la mancha
+2020-09-01,93.161,1,Índice general corregido,castilla la mancha
+2020-10-01,93.9932,1,Índice general corregido,castilla la mancha
+2020-11-01,94.76409090909092,1,Índice general corregido,castilla la mancha
+2020-12-01,94.70741666666667,1,Índice general corregido,castilla la mancha
+2020-01-01,-3.7356113221853855,1,Annual variation,castilla la mancha
+2020-02-01,-0.9779121679914932,1,Annual variation,castilla la mancha
+2020-03-01,-3.3663756642001297,1,Annual variation,castilla la mancha
+2020-04-01,-8.26496066809567,1,Annual variation,castilla la mancha
+2020-05-01,-9.954943162694038,1,Annual variation,castilla la mancha
+2020-06-01,-10.192939758290503,1,Annual variation,castilla la mancha
+2020-07-01,-9.66075177361454,1,Annual variation,castilla la mancha
+2020-08-01,-9.284506178554397,1,Annual variation,castilla la mancha
+2020-09-01,-8.734916612417567,1,Annual variation,castilla la mancha
+2020-10-01,-8.381928762284934,1,Annual variation,castilla la mancha
+2020-11-01,-7.912942158407834,1,Annual variation,castilla la mancha
+2020-12-01,-7.405544160223574,1,Annual variation,castilla la mancha
+2020-01-01,-3.4262220191868518,1,Corrected annual variation,castilla la mancha
+2020-02-01,-2.4621542083578505,1,Corrected annual variation,castilla la mancha
+2020-03-01,-4.3591670580867365,1,Corrected annual variation,castilla la mancha
+2020-04-01,-9.098495331354762,1,Corrected annual variation,castilla la mancha
+2020-05-01,-10.882154195781736,1,Corrected annual variation,castilla la mancha
+2020-06-01,-11.15211268494074,1,Corrected annual variation,castilla la mancha
+2020-07-01,-10.829657560558283,1,Corrected annual variation,castilla la mancha
+2020-08-01,-10.478415269822724,1,Corrected annual variation,castilla la mancha
+2020-09-01,-9.972361927750182,1,Corrected annual variation,castilla la mancha
+2020-10-01,-9.236089182959498,1,Corrected annual variation,castilla la mancha
+2020-11-01,-8.666879285600388,1,Corrected annual variation,castilla la mancha
+2020-12-01,-8.154934790584766,1,Corrected annual variation,castilla la mancha
+2020-01-01,119.338,1,Índice general,castilla y leon
+2020-02-01,118.2195,1,Índice general,castilla y leon
+2020-03-01,117.664,1,Índice general,castilla y leon
+2020-04-01,111.16475,1,Índice general,castilla y leon
+2020-05-01,110.7556,1,Índice general,castilla y leon
+2020-06-01,111.25433333333336,1,Índice general,castilla y leon
+2020-07-01,113.42157142857144,1,Índice general,castilla y leon
+2020-08-01,113.90725,1,Índice general,castilla y leon
+2020-09-01,114.80366666666666,1,Índice general,castilla y leon
+2020-10-01,115.58599999999998,1,Índice general,castilla y leon
+2020-11-01,115.74681818181816,1,Índice general,castilla y leon
+2020-12-01,115.18858333333333,1,Índice general,castilla y leon
+2020-01-01,101.472,1,Índice general corregido,castilla y leon
+2020-02-01,103.573,1,Índice general corregido,castilla y leon
+2020-03-01,101.80966666666669,1,Índice general corregido,castilla y leon
+2020-04-01,96.404,1,Índice general corregido,castilla y leon
+2020-05-01,94.42820000000002,1,Índice general corregido,castilla y leon
+2020-06-01,93.90066666666668,1,Índice general corregido,castilla y leon
+2020-07-01,93.5124285714286,1,Índice general corregido,castilla y leon
+2020-08-01,92.54775,1,Índice general corregido,castilla y leon
+2020-09-01,93.161,1,Índice general corregido,castilla y leon
+2020-10-01,93.9932,1,Índice general corregido,castilla y leon
+2020-11-01,94.76409090909092,1,Índice general corregido,castilla y leon
+2020-12-01,94.70741666666667,1,Índice general corregido,castilla y leon
+2020-01-01,-3.7356113221853855,1,Annual variation,castilla y leon
+2020-02-01,-0.9779121679914932,1,Annual variation,castilla y leon
+2020-03-01,-3.3663756642001297,1,Annual variation,castilla y leon
+2020-04-01,-8.26496066809567,1,Annual variation,castilla y leon
+2020-05-01,-9.954943162694038,1,Annual variation,castilla y leon
+2020-06-01,-10.192939758290503,1,Annual variation,castilla y leon
+2020-07-01,-9.66075177361454,1,Annual variation,castilla y leon
+2020-08-01,-9.284506178554397,1,Annual variation,castilla y leon
+2020-09-01,-8.734916612417567,1,Annual variation,castilla y leon
+2020-10-01,-8.381928762284934,1,Annual variation,castilla y leon
+2020-11-01,-7.912942158407834,1,Annual variation,castilla y leon
+2020-12-01,-7.405544160223574,1,Annual variation,castilla y leon
+2020-01-01,-3.4262220191868518,1,Corrected annual variation,castilla y leon
+2020-02-01,-2.4621542083578505,1,Corrected annual variation,castilla y leon
+2020-03-01,-4.3591670580867365,1,Corrected annual variation,castilla y leon
+2020-04-01,-9.098495331354762,1,Corrected annual variation,castilla y leon
+2020-05-01,-10.882154195781736,1,Corrected annual variation,castilla y leon
+2020-06-01,-11.15211268494074,1,Corrected annual variation,castilla y leon
+2020-07-01,-10.829657560558283,1,Corrected annual variation,castilla y leon
+2020-08-01,-10.478415269822724,1,Corrected annual variation,castilla y leon
+2020-09-01,-9.972361927750182,1,Corrected annual variation,castilla y leon
+2020-10-01,-9.236089182959498,1,Corrected annual variation,castilla y leon
+2020-11-01,-8.666879285600388,1,Corrected annual variation,castilla y leon
+2020-12-01,-8.154934790584766,1,Corrected annual variation,castilla y leon
+2020-01-01,119.338,1,Índice general,cataluña
+2020-02-01,118.2195,1,Índice general,cataluña
+2020-03-01,117.664,1,Índice general,cataluña
+2020-04-01,111.16475,1,Índice general,cataluña
+2020-05-01,110.7556,1,Índice general,cataluña
+2020-06-01,111.25433333333336,1,Índice general,cataluña
+2020-07-01,113.42157142857144,1,Índice general,cataluña
+2020-08-01,113.90725,1,Índice general,cataluña
+2020-09-01,114.80366666666666,1,Índice general,cataluña
+2020-10-01,115.58599999999998,1,Índice general,cataluña
+2020-11-01,115.74681818181816,1,Índice general,cataluña
+2020-12-01,115.18858333333333,1,Índice general,cataluña
+2020-01-01,101.472,1,Índice general corregido,cataluña
+2020-02-01,103.573,1,Índice general corregido,cataluña
+2020-03-01,101.80966666666669,1,Índice general corregido,cataluña
+2020-04-01,96.404,1,Índice general corregido,cataluña
+2020-05-01,94.42820000000002,1,Índice general corregido,cataluña
+2020-06-01,93.90066666666668,1,Índice general corregido,cataluña
+2020-07-01,93.5124285714286,1,Índice general corregido,cataluña
+2020-08-01,92.54775,1,Índice general corregido,cataluña
+2020-09-01,93.161,1,Índice general corregido,cataluña
+2020-10-01,93.9932,1,Índice general corregido,cataluña
+2020-11-01,94.76409090909092,1,Índice general corregido,cataluña
+2020-12-01,94.70741666666667,1,Índice general corregido,cataluña
+2020-01-01,-3.7356113221853855,1,Annual variation,cataluña
+2020-02-01,-0.9779121679914932,1,Annual variation,cataluña
+2020-03-01,-3.3663756642001297,1,Annual variation,cataluña
+2020-04-01,-8.26496066809567,1,Annual variation,cataluña
+2020-05-01,-9.954943162694038,1,Annual variation,cataluña
+2020-06-01,-10.192939758290503,1,Annual variation,cataluña
+2020-07-01,-9.66075177361454,1,Annual variation,cataluña
+2020-08-01,-9.284506178554397,1,Annual variation,cataluña
+2020-09-01,-8.734916612417567,1,Annual variation,cataluña
+2020-10-01,-8.381928762284934,1,Annual variation,cataluña
+2020-11-01,-7.912942158407834,1,Annual variation,cataluña
+2020-12-01,-7.405544160223574,1,Annual variation,cataluña
+2020-01-01,-3.4262220191868518,1,Corrected annual variation,cataluña
+2020-02-01,-2.4621542083578505,1,Corrected annual variation,cataluña
+2020-03-01,-4.3591670580867365,1,Corrected annual variation,cataluña
+2020-04-01,-9.098495331354762,1,Corrected annual variation,cataluña
+2020-05-01,-10.882154195781736,1,Corrected annual variation,cataluña
+2020-06-01,-11.15211268494074,1,Corrected annual variation,cataluña
+2020-07-01,-10.829657560558283,1,Corrected annual variation,cataluña
+2020-08-01,-10.478415269822724,1,Corrected annual variation,cataluña
+2020-09-01,-9.972361927750182,1,Corrected annual variation,cataluña
+2020-10-01,-9.236089182959498,1,Corrected annual variation,cataluña
+2020-11-01,-8.666879285600388,1,Corrected annual variation,cataluña
+2020-12-01,-8.154934790584766,1,Corrected annual variation,cataluña
+2020-01-01,119.338,1,Índice general,pais vasco
+2020-02-01,118.2195,1,Índice general,pais vasco
+2020-03-01,117.664,1,Índice general,pais vasco
+2020-04-01,111.16475,1,Índice general,pais vasco
+2020-05-01,110.7556,1,Índice general,pais vasco
+2020-06-01,111.25433333333336,1,Índice general,pais vasco
+2020-07-01,113.42157142857144,1,Índice general,pais vasco
+2020-08-01,113.90725,1,Índice general,pais vasco
+2020-09-01,114.80366666666666,1,Índice general,pais vasco
+2020-10-01,115.58599999999998,1,Índice general,pais vasco
+2020-11-01,115.74681818181816,1,Índice general,pais vasco
+2020-12-01,115.18858333333333,1,Índice general,pais vasco
+2020-01-01,101.472,1,Índice general corregido,pais vasco
+2020-02-01,103.573,1,Índice general corregido,pais vasco
+2020-03-01,101.80966666666669,1,Índice general corregido,pais vasco
+2020-04-01,96.404,1,Índice general corregido,pais vasco
+2020-05-01,94.42820000000002,1,Índice general corregido,pais vasco
+2020-06-01,93.90066666666668,1,Índice general corregido,pais vasco
+2020-07-01,93.5124285714286,1,Índice general corregido,pais vasco
+2020-08-01,92.54775,1,Índice general corregido,pais vasco
+2020-09-01,93.161,1,Índice general corregido,pais vasco
+2020-10-01,93.9932,1,Índice general corregido,pais vasco
+2020-11-01,94.76409090909092,1,Índice general corregido,pais vasco
+2020-12-01,94.70741666666667,1,Índice general corregido,pais vasco
+2020-01-01,-3.7356113221853855,1,Annual variation,pais vasco
+2020-02-01,-0.9779121679914932,1,Annual variation,pais vasco
+2020-03-01,-3.3663756642001297,1,Annual variation,pais vasco
+2020-04-01,-8.26496066809567,1,Annual variation,pais vasco
+2020-05-01,-9.954943162694038,1,Annual variation,pais vasco
+2020-06-01,-10.192939758290503,1,Annual variation,pais vasco
+2020-07-01,-9.66075177361454,1,Annual variation,pais vasco
+2020-08-01,-9.284506178554397,1,Annual variation,pais vasco
+2020-09-01,-8.734916612417567,1,Annual variation,pais vasco
+2020-10-01,-8.381928762284934,1,Annual variation,pais vasco
+2020-11-01,-7.912942158407834,1,Annual variation,pais vasco
+2020-12-01,-7.405544160223574,1,Annual variation,pais vasco
+2020-01-01,-3.4262220191868518,1,Corrected annual variation,pais vasco
+2020-02-01,-2.4621542083578505,1,Corrected annual variation,pais vasco
+2020-03-01,-4.3591670580867365,1,Corrected annual variation,pais vasco
+2020-04-01,-9.098495331354762,1,Corrected annual variation,pais vasco
+2020-05-01,-10.882154195781736,1,Corrected annual variation,pais vasco
+2020-06-01,-11.15211268494074,1,Corrected annual variation,pais vasco
+2020-07-01,-10.829657560558283,1,Corrected annual variation,pais vasco
+2020-08-01,-10.478415269822724,1,Corrected annual variation,pais vasco
+2020-09-01,-9.972361927750182,1,Corrected annual variation,pais vasco
+2020-10-01,-9.236089182959498,1,Corrected annual variation,pais vasco
+2020-11-01,-8.666879285600388,1,Corrected annual variation,pais vasco
+2020-12-01,-8.154934790584766,1,Corrected annual variation,pais vasco
+2020-01-01,119.338,1,Índice general,principado de asturias
+2020-02-01,118.2195,1,Índice general,principado de asturias
+2020-03-01,117.664,1,Índice general,principado de asturias
+2020-04-01,111.16475,1,Índice general,principado de asturias
+2020-05-01,110.7556,1,Índice general,principado de asturias
+2020-06-01,111.25433333333336,1,Índice general,principado de asturias
+2020-07-01,113.42157142857144,1,Índice general,principado de asturias
+2020-08-01,113.90725,1,Índice general,principado de asturias
+2020-09-01,114.80366666666666,1,Índice general,principado de asturias
+2020-10-01,115.58599999999998,1,Índice general,principado de asturias
+2020-11-01,115.74681818181816,1,Índice general,principado de asturias
+2020-12-01,115.18858333333333,1,Índice general,principado de asturias
+2020-01-01,101.472,1,Índice general corregido,principado de asturias
+2020-02-01,103.573,1,Índice general corregido,principado de asturias
+2020-03-01,101.80966666666669,1,Índice general corregido,principado de asturias
+2020-04-01,96.404,1,Índice general corregido,principado de asturias
+2020-05-01,94.42820000000002,1,Índice general corregido,principado de asturias
+2020-06-01,93.90066666666668,1,Índice general corregido,principado de asturias
+2020-07-01,93.5124285714286,1,Índice general corregido,principado de asturias
+2020-08-01,92.54775,1,Índice general corregido,principado de asturias
+2020-09-01,93.161,1,Índice general corregido,principado de asturias
+2020-10-01,93.9932,1,Índice general corregido,principado de asturias
+2020-11-01,94.76409090909092,1,Índice general corregido,principado de asturias
+2020-12-01,94.70741666666667,1,Índice general corregido,principado de asturias
+2020-01-01,-3.7356113221853855,1,Annual variation,principado de asturias
+2020-02-01,-0.9779121679914932,1,Annual variation,principado de asturias
+2020-03-01,-3.3663756642001297,1,Annual variation,principado de asturias
+2020-04-01,-8.26496066809567,1,Annual variation,principado de asturias
+2020-05-01,-9.954943162694038,1,Annual variation,principado de asturias
+2020-06-01,-10.192939758290503,1,Annual variation,principado de asturias
+2020-07-01,-9.66075177361454,1,Annual variation,principado de asturias
+2020-08-01,-9.284506178554397,1,Annual variation,principado de asturias
+2020-09-01,-8.734916612417567,1,Annual variation,principado de asturias
+2020-10-01,-8.381928762284934,1,Annual variation,principado de asturias
+2020-11-01,-7.912942158407834,1,Annual variation,principado de asturias
+2020-12-01,-7.405544160223574,1,Annual variation,principado de asturias
+2020-01-01,-3.4262220191868518,1,Corrected annual variation,principado de asturias
+2020-02-01,-2.4621542083578505,1,Corrected annual variation,principado de asturias
+2020-03-01,-4.3591670580867365,1,Corrected annual variation,principado de asturias
+2020-04-01,-9.098495331354762,1,Corrected annual variation,principado de asturias
+2020-05-01,-10.882154195781736,1,Corrected annual variation,principado de asturias
+2020-06-01,-11.15211268494074,1,Corrected annual variation,principado de asturias
+2020-07-01,-10.829657560558283,1,Corrected annual variation,principado de asturias
+2020-08-01,-10.478415269822724,1,Corrected annual variation,principado de asturias
+2020-09-01,-9.972361927750182,1,Corrected annual variation,principado de asturias
+2020-10-01,-9.236089182959498,1,Corrected annual variation,principado de asturias
+2020-11-01,-8.666879285600388,1,Corrected annual variation,principado de asturias
+2020-12-01,-8.154934790584766,1,Corrected annual variation,principado de asturias
+2020-01-01,119.338,1,Índice general,comunidad de madrid
+2020-02-01,118.2195,1,Índice general,comunidad de madrid
+2020-03-01,117.664,1,Índice general,comunidad de madrid
+2020-04-01,111.16475,1,Índice general,comunidad de madrid
+2020-05-01,110.7556,1,Índice general,comunidad de madrid
+2020-06-01,111.25433333333336,1,Índice general,comunidad de madrid
+2020-07-01,113.42157142857144,1,Índice general,comunidad de madrid
+2020-08-01,113.90725,1,Índice general,comunidad de madrid
+2020-09-01,114.80366666666666,1,Índice general,comunidad de madrid
+2020-10-01,115.58599999999998,1,Índice general,comunidad de madrid
+2020-11-01,115.74681818181816,1,Índice general,comunidad de madrid
+2020-12-01,115.18858333333333,1,Índice general,comunidad de madrid
+2020-01-01,101.472,1,Índice general corregido,comunidad de madrid
+2020-02-01,103.573,1,Índice general corregido,comunidad de madrid
+2020-03-01,101.80966666666669,1,Índice general corregido,comunidad de madrid
+2020-04-01,96.404,1,Índice general corregido,comunidad de madrid
+2020-05-01,94.42820000000002,1,Índice general corregido,comunidad de madrid
+2020-06-01,93.90066666666668,1,Índice general corregido,comunidad de madrid
+2020-07-01,93.5124285714286,1,Índice general corregido,comunidad de madrid
+2020-08-01,92.54775,1,Índice general corregido,comunidad de madrid
+2020-09-01,93.161,1,Índice general corregido,comunidad de madrid
+2020-10-01,93.9932,1,Índice general corregido,comunidad de madrid
+2020-11-01,94.76409090909092,1,Índice general corregido,comunidad de madrid
+2020-12-01,94.70741666666667,1,Índice general corregido,comunidad de madrid
+2020-01-01,-3.7356113221853855,1,Annual variation,comunidad de madrid
+2020-02-01,-0.9779121679914932,1,Annual variation,comunidad de madrid
+2020-03-01,-3.3663756642001297,1,Annual variation,comunidad de madrid
+2020-04-01,-8.26496066809567,1,Annual variation,comunidad de madrid
+2020-05-01,-9.954943162694038,1,Annual variation,comunidad de madrid
+2020-06-01,-10.192939758290503,1,Annual variation,comunidad de madrid
+2020-07-01,-9.66075177361454,1,Annual variation,comunidad de madrid
+2020-08-01,-9.284506178554397,1,Annual variation,comunidad de madrid
+2020-09-01,-8.734916612417567,1,Annual variation,comunidad de madrid
+2020-10-01,-8.381928762284934,1,Annual variation,comunidad de madrid
+2020-11-01,-7.912942158407834,1,Annual variation,comunidad de madrid
+2020-12-01,-7.405544160223574,1,Annual variation,comunidad de madrid
+2020-01-01,-3.4262220191868518,1,Corrected annual variation,comunidad de madrid
+2020-02-01,-2.4621542083578505,1,Corrected annual variation,comunidad de madrid
+2020-03-01,-4.3591670580867365,1,Corrected annual variation,comunidad de madrid
+2020-04-01,-9.098495331354762,1,Corrected annual variation,comunidad de madrid
+2020-05-01,-10.882154195781736,1,Corrected annual variation,comunidad de madrid
+2020-06-01,-11.15211268494074,1,Corrected annual variation,comunidad de madrid
+2020-07-01,-10.829657560558283,1,Corrected annual variation,comunidad de madrid
+2020-08-01,-10.478415269822724,1,Corrected annual variation,comunidad de madrid
+2020-09-01,-9.972361927750182,1,Corrected annual variation,comunidad de madrid
+2020-10-01,-9.236089182959498,1,Corrected annual variation,comunidad de madrid
+2020-11-01,-8.666879285600388,1,Corrected annual variation,comunidad de madrid
+2020-12-01,-8.154934790584766,1,Corrected annual variation,comunidad de madrid
+2020-01-01,119.338,1,Índice general,comunidad de navarra
+2020-02-01,118.2195,1,Índice general,comunidad de navarra
+2020-03-01,117.664,1,Índice general,comunidad de navarra
+2020-04-01,111.16475,1,Índice general,comunidad de navarra
+2020-05-01,110.7556,1,Índice general,comunidad de navarra
+2020-06-01,111.25433333333336,1,Índice general,comunidad de navarra
+2020-07-01,113.42157142857144,1,Índice general,comunidad de navarra
+2020-08-01,113.90725,1,Índice general,comunidad de navarra
+2020-09-01,114.80366666666666,1,Índice general,comunidad de navarra
+2020-10-01,115.58599999999998,1,Índice general,comunidad de navarra
+2020-11-01,115.74681818181816,1,Índice general,comunidad de navarra
+2020-12-01,115.18858333333333,1,Índice general,comunidad de navarra
+2020-01-01,101.472,1,Índice general corregido,comunidad de navarra
+2020-02-01,103.573,1,Índice general corregido,comunidad de navarra
+2020-03-01,101.80966666666669,1,Índice general corregido,comunidad de navarra
+2020-04-01,96.404,1,Índice general corregido,comunidad de navarra
+2020-05-01,94.42820000000002,1,Índice general corregido,comunidad de navarra
+2020-06-01,93.90066666666668,1,Índice general corregido,comunidad de navarra
+2020-07-01,93.5124285714286,1,Índice general corregido,comunidad de navarra
+2020-08-01,92.54775,1,Índice general corregido,comunidad de navarra
+2020-09-01,93.161,1,Índice general corregido,comunidad de navarra
+2020-10-01,93.9932,1,Índice general corregido,comunidad de navarra
+2020-11-01,94.76409090909092,1,Índice general corregido,comunidad de navarra
+2020-12-01,94.70741666666667,1,Índice general corregido,comunidad de navarra
+2020-01-01,-3.7356113221853855,1,Annual variation,comunidad de navarra
+2020-02-01,-0.9779121679914932,1,Annual variation,comunidad de navarra
+2020-03-01,-3.3663756642001297,1,Annual variation,comunidad de navarra
+2020-04-01,-8.26496066809567,1,Annual variation,comunidad de navarra
+2020-05-01,-9.954943162694038,1,Annual variation,comunidad de navarra
+2020-06-01,-10.192939758290503,1,Annual variation,comunidad de navarra
+2020-07-01,-9.66075177361454,1,Annual variation,comunidad de navarra
+2020-08-01,-9.284506178554397,1,Annual variation,comunidad de navarra
+2020-09-01,-8.734916612417567,1,Annual variation,comunidad de navarra
+2020-10-01,-8.381928762284934,1,Annual variation,comunidad de navarra
+2020-11-01,-7.912942158407834,1,Annual variation,comunidad de navarra
+2020-12-01,-7.405544160223574,1,Annual variation,comunidad de navarra
+2020-01-01,-3.4262220191868518,1,Corrected annual variation,comunidad de navarra
+2020-02-01,-2.4621542083578505,1,Corrected annual variation,comunidad de navarra
+2020-03-01,-4.3591670580867365,1,Corrected annual variation,comunidad de navarra
+2020-04-01,-9.098495331354762,1,Corrected annual variation,comunidad de navarra
+2020-05-01,-10.882154195781736,1,Corrected annual variation,comunidad de navarra
+2020-06-01,-11.15211268494074,1,Corrected annual variation,comunidad de navarra
+2020-07-01,-10.829657560558283,1,Corrected annual variation,comunidad de navarra
+2020-08-01,-10.478415269822724,1,Corrected annual variation,comunidad de navarra
+2020-09-01,-9.972361927750182,1,Corrected annual variation,comunidad de navarra
+2020-10-01,-9.236089182959498,1,Corrected annual variation,comunidad de navarra
+2020-11-01,-8.666879285600388,1,Corrected annual variation,comunidad de navarra
+2020-12-01,-8.154934790584766,1,Corrected annual variation,comunidad de navarra
+2020-01-01,119.338,1,Índice general,comunidad valenciana
+2020-02-01,118.2195,1,Índice general,comunidad valenciana
+2020-03-01,117.664,1,Índice general,comunidad valenciana
+2020-04-01,111.16475,1,Índice general,comunidad valenciana
+2020-05-01,110.7556,1,Índice general,comunidad valenciana
+2020-06-01,111.25433333333336,1,Índice general,comunidad valenciana
+2020-07-01,113.42157142857144,1,Índice general,comunidad valenciana
+2020-08-01,113.90725,1,Índice general,comunidad valenciana
+2020-09-01,114.80366666666666,1,Índice general,comunidad valenciana
+2020-10-01,115.58599999999998,1,Índice general,comunidad valenciana
+2020-11-01,115.74681818181816,1,Índice general,comunidad valenciana
+2020-12-01,115.18858333333333,1,Índice general,comunidad valenciana
+2020-01-01,101.472,1,Índice general corregido,comunidad valenciana
+2020-02-01,103.573,1,Índice general corregido,comunidad valenciana
+2020-03-01,101.80966666666669,1,Índice general corregido,comunidad valenciana
+2020-04-01,96.404,1,Índice general corregido,comunidad valenciana
+2020-05-01,94.42820000000002,1,Índice general corregido,comunidad valenciana
+2020-06-01,93.90066666666668,1,Índice general corregido,comunidad valenciana
+2020-07-01,93.5124285714286,1,Índice general corregido,comunidad valenciana
+2020-08-01,92.54775,1,Índice general corregido,comunidad valenciana
+2020-09-01,93.161,1,Índice general corregido,comunidad valenciana
+2020-10-01,93.9932,1,Índice general corregido,comunidad valenciana
+2020-11-01,94.76409090909092,1,Índice general corregido,comunidad valenciana
+2020-12-01,94.70741666666667,1,Índice general corregido,comunidad valenciana
+2020-01-01,-3.7356113221853855,1,Annual variation,comunidad valenciana
+2020-02-01,-0.9779121679914932,1,Annual variation,comunidad valenciana
+2020-03-01,-3.3663756642001297,1,Annual variation,comunidad valenciana
+2020-04-01,-8.26496066809567,1,Annual variation,comunidad valenciana
+2020-05-01,-9.954943162694038,1,Annual variation,comunidad valenciana
+2020-06-01,-10.192939758290503,1,Annual variation,comunidad valenciana
+2020-07-01,-9.66075177361454,1,Annual variation,comunidad valenciana
+2020-08-01,-9.284506178554397,1,Annual variation,comunidad valenciana
+2020-09-01,-8.734916612417567,1,Annual variation,comunidad valenciana
+2020-10-01,-8.381928762284934,1,Annual variation,comunidad valenciana
+2020-11-01,-7.912942158407834,1,Annual variation,comunidad valenciana
+2020-12-01,-7.405544160223574,1,Annual variation,comunidad valenciana
+2020-01-01,-3.4262220191868518,1,Corrected annual variation,comunidad valenciana
+2020-02-01,-2.4621542083578505,1,Corrected annual variation,comunidad valenciana
+2020-03-01,-4.3591670580867365,1,Corrected annual variation,comunidad valenciana
+2020-04-01,-9.098495331354762,1,Corrected annual variation,comunidad valenciana
+2020-05-01,-10.882154195781736,1,Corrected annual variation,comunidad valenciana
+2020-06-01,-11.15211268494074,1,Corrected annual variation,comunidad valenciana
+2020-07-01,-10.829657560558283,1,Corrected annual variation,comunidad valenciana
+2020-08-01,-10.478415269822724,1,Corrected annual variation,comunidad valenciana
+2020-09-01,-9.972361927750182,1,Corrected annual variation,comunidad valenciana
+2020-10-01,-9.236089182959498,1,Corrected annual variation,comunidad valenciana
+2020-11-01,-8.666879285600388,1,Corrected annual variation,comunidad valenciana
+2020-12-01,-8.154934790584766,1,Corrected annual variation,comunidad valenciana
+2020-01-01,119.338,1,Índice general,extremadura
+2020-02-01,118.2195,1,Índice general,extremadura
+2020-03-01,117.664,1,Índice general,extremadura
+2020-04-01,111.16475,1,Índice general,extremadura
+2020-05-01,110.7556,1,Índice general,extremadura
+2020-06-01,111.25433333333336,1,Índice general,extremadura
+2020-07-01,113.42157142857144,1,Índice general,extremadura
+2020-08-01,113.90725,1,Índice general,extremadura
+2020-09-01,114.80366666666666,1,Índice general,extremadura
+2020-10-01,115.58599999999998,1,Índice general,extremadura
+2020-11-01,115.74681818181816,1,Índice general,extremadura
+2020-12-01,115.18858333333333,1,Índice general,extremadura
+2020-01-01,101.472,1,Índice general corregido,extremadura
+2020-02-01,103.573,1,Índice general corregido,extremadura
+2020-03-01,101.80966666666669,1,Índice general corregido,extremadura
+2020-04-01,96.404,1,Índice general corregido,extremadura
+2020-05-01,94.42820000000002,1,Índice general corregido,extremadura
+2020-06-01,93.90066666666668,1,Índice general corregido,extremadura
+2020-07-01,93.5124285714286,1,Índice general corregido,extremadura
+2020-08-01,92.54775,1,Índice general corregido,extremadura
+2020-09-01,93.161,1,Índice general corregido,extremadura
+2020-10-01,93.9932,1,Índice general corregido,extremadura
+2020-11-01,94.76409090909092,1,Índice general corregido,extremadura
+2020-12-01,94.70741666666667,1,Índice general corregido,extremadura
+2020-01-01,-3.7356113221853855,1,Annual variation,extremadura
+2020-02-01,-0.9779121679914932,1,Annual variation,extremadura
+2020-03-01,-3.3663756642001297,1,Annual variation,extremadura
+2020-04-01,-8.26496066809567,1,Annual variation,extremadura
+2020-05-01,-9.954943162694038,1,Annual variation,extremadura
+2020-06-01,-10.192939758290503,1,Annual variation,extremadura
+2020-07-01,-9.66075177361454,1,Annual variation,extremadura
+2020-08-01,-9.284506178554397,1,Annual variation,extremadura
+2020-09-01,-8.734916612417567,1,Annual variation,extremadura
+2020-10-01,-8.381928762284934,1,Annual variation,extremadura
+2020-11-01,-7.912942158407834,1,Annual variation,extremadura
+2020-12-01,-7.405544160223574,1,Annual variation,extremadura
+2020-01-01,-3.4262220191868518,1,Corrected annual variation,extremadura
+2020-02-01,-2.4621542083578505,1,Corrected annual variation,extremadura
+2020-03-01,-4.3591670580867365,1,Corrected annual variation,extremadura
+2020-04-01,-9.098495331354762,1,Corrected annual variation,extremadura
+2020-05-01,-10.882154195781736,1,Corrected annual variation,extremadura
+2020-06-01,-11.15211268494074,1,Corrected annual variation,extremadura
+2020-07-01,-10.829657560558283,1,Corrected annual variation,extremadura
+2020-08-01,-10.478415269822724,1,Corrected annual variation,extremadura
+2020-09-01,-9.972361927750182,1,Corrected annual variation,extremadura
+2020-10-01,-9.236089182959498,1,Corrected annual variation,extremadura
+2020-11-01,-8.666879285600388,1,Corrected annual variation,extremadura
+2020-12-01,-8.154934790584766,1,Corrected annual variation,extremadura
+2020-01-01,119.338,1,Índice general,galicia
+2020-02-01,118.2195,1,Índice general,galicia
+2020-03-01,117.664,1,Índice general,galicia
+2020-04-01,111.16475,1,Índice general,galicia
+2020-05-01,110.7556,1,Índice general,galicia
+2020-06-01,111.25433333333336,1,Índice general,galicia
+2020-07-01,113.42157142857144,1,Índice general,galicia
+2020-08-01,113.90725,1,Índice general,galicia
+2020-09-01,114.80366666666666,1,Índice general,galicia
+2020-10-01,115.58599999999998,1,Índice general,galicia
+2020-11-01,115.74681818181816,1,Índice general,galicia
+2020-12-01,115.18858333333333,1,Índice general,galicia
+2020-01-01,101.472,1,Índice general corregido,galicia
+2020-02-01,103.573,1,Índice general corregido,galicia
+2020-03-01,101.80966666666669,1,Índice general corregido,galicia
+2020-04-01,96.404,1,Índice general corregido,galicia
+2020-05-01,94.42820000000002,1,Índice general corregido,galicia
+2020-06-01,93.90066666666668,1,Índice general corregido,galicia
+2020-07-01,93.5124285714286,1,Índice general corregido,galicia
+2020-08-01,92.54775,1,Índice general corregido,galicia
+2020-09-01,93.161,1,Índice general corregido,galicia
+2020-10-01,93.9932,1,Índice general corregido,galicia
+2020-11-01,94.76409090909092,1,Índice general corregido,galicia
+2020-12-01,94.70741666666667,1,Índice general corregido,galicia
+2020-01-01,-3.7356113221853855,1,Annual variation,galicia
+2020-02-01,-0.9779121679914932,1,Annual variation,galicia
+2020-03-01,-3.3663756642001297,1,Annual variation,galicia
+2020-04-01,-8.26496066809567,1,Annual variation,galicia
+2020-05-01,-9.954943162694038,1,Annual variation,galicia
+2020-06-01,-10.192939758290503,1,Annual variation,galicia
+2020-07-01,-9.66075177361454,1,Annual variation,galicia
+2020-08-01,-9.284506178554397,1,Annual variation,galicia
+2020-09-01,-8.734916612417567,1,Annual variation,galicia
+2020-10-01,-8.381928762284934,1,Annual variation,galicia
+2020-11-01,-7.912942158407834,1,Annual variation,galicia
+2020-12-01,-7.405544160223574,1,Annual variation,galicia
+2020-01-01,-3.4262220191868518,1,Corrected annual variation,galicia
+2020-02-01,-2.4621542083578505,1,Corrected annual variation,galicia
+2020-03-01,-4.3591670580867365,1,Corrected annual variation,galicia
+2020-04-01,-9.098495331354762,1,Corrected annual variation,galicia
+2020-05-01,-10.882154195781736,1,Corrected annual variation,galicia
+2020-06-01,-11.15211268494074,1,Corrected annual variation,galicia
+2020-07-01,-10.829657560558283,1,Corrected annual variation,galicia
+2020-08-01,-10.478415269822724,1,Corrected annual variation,galicia
+2020-09-01,-9.972361927750182,1,Corrected annual variation,galicia
+2020-10-01,-9.236089182959498,1,Corrected annual variation,galicia
+2020-11-01,-8.666879285600388,1,Corrected annual variation,galicia
+2020-12-01,-8.154934790584766,1,Corrected annual variation,galicia
+2020-01-01,119.338,1,Índice general,la rioja
+2020-02-01,118.2195,1,Índice general,la rioja
+2020-03-01,117.664,1,Índice general,la rioja
+2020-04-01,111.16475,1,Índice general,la rioja
+2020-05-01,110.7556,1,Índice general,la rioja
+2020-06-01,111.25433333333336,1,Índice general,la rioja
+2020-07-01,113.42157142857144,1,Índice general,la rioja
+2020-08-01,113.90725,1,Índice general,la rioja
+2020-09-01,114.80366666666666,1,Índice general,la rioja
+2020-10-01,115.58599999999998,1,Índice general,la rioja
+2020-11-01,115.74681818181816,1,Índice general,la rioja
+2020-12-01,115.18858333333333,1,Índice general,la rioja
+2020-01-01,101.472,1,Índice general corregido,la rioja
+2020-02-01,103.573,1,Índice general corregido,la rioja
+2020-03-01,101.80966666666669,1,Índice general corregido,la rioja
+2020-04-01,96.404,1,Índice general corregido,la rioja
+2020-05-01,94.42820000000002,1,Índice general corregido,la rioja
+2020-06-01,93.90066666666668,1,Índice general corregido,la rioja
+2020-07-01,93.5124285714286,1,Índice general corregido,la rioja
+2020-08-01,92.54775,1,Índice general corregido,la rioja
+2020-09-01,93.161,1,Índice general corregido,la rioja
+2020-10-01,93.9932,1,Índice general corregido,la rioja
+2020-11-01,94.76409090909092,1,Índice general corregido,la rioja
+2020-12-01,94.70741666666667,1,Índice general corregido,la rioja
+2020-01-01,-3.7356113221853855,1,Annual variation,la rioja
+2020-02-01,-0.9779121679914932,1,Annual variation,la rioja
+2020-03-01,-3.3663756642001297,1,Annual variation,la rioja
+2020-04-01,-8.26496066809567,1,Annual variation,la rioja
+2020-05-01,-9.954943162694038,1,Annual variation,la rioja
+2020-06-01,-10.192939758290503,1,Annual variation,la rioja
+2020-07-01,-9.66075177361454,1,Annual variation,la rioja
+2020-08-01,-9.284506178554397,1,Annual variation,la rioja
+2020-09-01,-8.734916612417567,1,Annual variation,la rioja
+2020-10-01,-8.381928762284934,1,Annual variation,la rioja
+2020-11-01,-7.912942158407834,1,Annual variation,la rioja
+2020-12-01,-7.405544160223574,1,Annual variation,la rioja
+2020-01-01,-3.4262220191868518,1,Corrected annual variation,la rioja
+2020-02-01,-2.4621542083578505,1,Corrected annual variation,la rioja
+2020-03-01,-4.3591670580867365,1,Corrected annual variation,la rioja
+2020-04-01,-9.098495331354762,1,Corrected annual variation,la rioja
+2020-05-01,-10.882154195781736,1,Corrected annual variation,la rioja
+2020-06-01,-11.15211268494074,1,Corrected annual variation,la rioja
+2020-07-01,-10.829657560558283,1,Corrected annual variation,la rioja
+2020-08-01,-10.478415269822724,1,Corrected annual variation,la rioja
+2020-09-01,-9.972361927750182,1,Corrected annual variation,la rioja
+2020-10-01,-9.236089182959498,1,Corrected annual variation,la rioja
+2020-11-01,-8.666879285600388,1,Corrected annual variation,la rioja
+2020-12-01,-8.154934790584766,1,Corrected annual variation,la rioja
+2020-01-01,119.338,1,Índice general,region de murcia
+2020-02-01,118.2195,1,Índice general,region de murcia
+2020-03-01,117.664,1,Índice general,region de murcia
+2020-04-01,111.16475,1,Índice general,region de murcia
+2020-05-01,110.7556,1,Índice general,region de murcia
+2020-06-01,111.25433333333336,1,Índice general,region de murcia
+2020-07-01,113.42157142857144,1,Índice general,region de murcia
+2020-08-01,113.90725,1,Índice general,region de murcia
+2020-09-01,114.80366666666666,1,Índice general,region de murcia
+2020-10-01,115.58599999999998,1,Índice general,region de murcia
+2020-11-01,115.74681818181816,1,Índice general,region de murcia
+2020-12-01,115.18858333333333,1,Índice general,region de murcia
+2020-01-01,101.472,1,Índice general corregido,region de murcia
+2020-02-01,103.573,1,Índice general corregido,region de murcia
+2020-03-01,101.80966666666669,1,Índice general corregido,region de murcia
+2020-04-01,96.404,1,Índice general corregido,region de murcia
+2020-05-01,94.42820000000002,1,Índice general corregido,region de murcia
+2020-06-01,93.90066666666668,1,Índice general corregido,region de murcia
+2020-07-01,93.5124285714286,1,Índice general corregido,region de murcia
+2020-08-01,92.54775,1,Índice general corregido,region de murcia
+2020-09-01,93.161,1,Índice general corregido,region de murcia
+2020-10-01,93.9932,1,Índice general corregido,region de murcia
+2020-11-01,94.76409090909092,1,Índice general corregido,region de murcia
+2020-12-01,94.70741666666667,1,Índice general corregido,region de murcia
+2020-01-01,-3.7356113221853855,1,Annual variation,region de murcia
+2020-02-01,-0.9779121679914932,1,Annual variation,region de murcia
+2020-03-01,-3.3663756642001297,1,Annual variation,region de murcia
+2020-04-01,-8.26496066809567,1,Annual variation,region de murcia
+2020-05-01,-9.954943162694038,1,Annual variation,region de murcia
+2020-06-01,-10.192939758290503,1,Annual variation,region de murcia
+2020-07-01,-9.66075177361454,1,Annual variation,region de murcia
+2020-08-01,-9.284506178554397,1,Annual variation,region de murcia
+2020-09-01,-8.734916612417567,1,Annual variation,region de murcia
+2020-10-01,-8.381928762284934,1,Annual variation,region de murcia
+2020-11-01,-7.912942158407834,1,Annual variation,region de murcia
+2020-12-01,-7.405544160223574,1,Annual variation,region de murcia
+2020-01-01,-3.4262220191868518,1,Corrected annual variation,region de murcia
+2020-02-01,-2.4621542083578505,1,Corrected annual variation,region de murcia
+2020-03-01,-4.3591670580867365,1,Corrected annual variation,region de murcia
+2020-04-01,-9.098495331354762,1,Corrected annual variation,region de murcia
+2020-05-01,-10.882154195781736,1,Corrected annual variation,region de murcia
+2020-06-01,-11.15211268494074,1,Corrected annual variation,region de murcia
+2020-07-01,-10.829657560558283,1,Corrected annual variation,region de murcia
+2020-08-01,-10.478415269822724,1,Corrected annual variation,region de murcia
+2020-09-01,-9.972361927750182,1,Corrected annual variation,region de murcia
+2020-10-01,-9.236089182959498,1,Corrected annual variation,region de murcia
+2020-11-01,-8.666879285600388,1,Corrected annual variation,region de murcia
+2020-12-01,-8.154934790584766,1,Corrected annual variation,region de murcia

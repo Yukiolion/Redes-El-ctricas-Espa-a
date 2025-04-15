@@ -1,0 +1,961 @@
+fecha,valor,porcentaje,indicator,region
+2023-01-01,104.566,1,Índice general,peninsular
+2023-02-01,102.9195,1,Índice general,peninsular
+2023-03-01,106.261,1,Índice general,peninsular
+2023-04-01,105.93675,1,Índice general,peninsular
+2023-05-01,107.3688,1,Índice general,peninsular
+2023-06-01,108.359,1,Índice general,peninsular
+2023-07-01,109.68642857142856,1,Índice general,peninsular
+2023-08-01,109.318875,1,Índice general,peninsular
+2023-09-01,109.56233333333331,1,Índice general,peninsular
+2023-10-01,109.8866,1,Índice general,peninsular
+2023-11-01,109.7720909090909,1,Índice general,peninsular
+2023-12-01,108.73516666666666,1,Índice general,peninsular
+2023-01-01,88.826,1,Índice general corregido,peninsular
+2023-02-01,91.5435,1,Índice general corregido,peninsular
+2023-03-01,92.14733333333334,1,Índice general corregido,peninsular
+2023-04-01,91.8635,1,Índice general corregido,peninsular
+2023-05-01,91.8814,1,Índice general corregido,peninsular
+2023-06-01,91.50266666666668,1,Índice general corregido,peninsular
+2023-07-01,90.58757142857144,1,Índice general corregido,peninsular
+2023-08-01,88.527375,1,Índice general corregido,peninsular
+2023-09-01,88.63877777777778,1,Índice general corregido,peninsular
+2023-10-01,88.8203,1,Índice general corregido,peninsular
+2023-11-01,89.34927272727272,1,Índice general corregido,peninsular
+2023-12-01,89.02183333333333,1,Índice general corregido,peninsular
+2023-01-01,-9.126777209997565,1,Annual variation,peninsular
+2023-02-01,-8.469624609802299,1,Annual variation,peninsular
+2023-03-01,-6.426065898583688,1,Annual variation,peninsular
+2023-04-01,-6.28280125178313,1,Annual variation,peninsular
+2023-05-01,-6.917824607883598,1,Annual variation,peninsular
+2023-06-01,-7.381643971047261,1,Annual variation,peninsular
+2023-07-01,-7.422434540201914,1,Annual variation,peninsular
+2023-08-01,-7.276341737526266,1,Annual variation,peninsular
+2023-09-01,-6.993715390078777,1,Annual variation,peninsular
+2023-10-01,-6.379973265198509,1,Annual variation,peninsular
+2023-11-01,-5.742666229528692,1,Annual variation,peninsular
+2023-12-01,-5.393179404077009,1,Annual variation,peninsular
+2023-01-01,-9.582654723127035,1,Corrected annual variation,peninsular
+2023-02-01,-8.81712825774064,1,Corrected annual variation,peninsular
+2023-03-01,-7.161328022675515,1,Corrected annual variation,peninsular
+2023-04-01,-7.139878748670098,1,Corrected annual variation,peninsular
+2023-05-01,-7.130280444490253,1,Corrected annual variation,peninsular
+2023-06-01,-7.411735937196937,1,Corrected annual variation,peninsular
+2023-07-01,-7.130084051335882,1,Corrected annual variation,peninsular
+2023-08-01,-7.176765717401313,1,Corrected annual variation,peninsular
+2023-09-01,-6.76908153844354,1,Corrected annual variation,peninsular
+2023-10-01,-6.273591127572784,1,Corrected annual variation,peninsular
+2023-11-01,-5.595449411005307,1,Corrected annual variation,peninsular
+2023-12-01,-5.167629257310836,1,Corrected annual variation,peninsular
+2023-01-01,104.566,1,Índice general,canarias
+2023-02-01,102.9195,1,Índice general,canarias
+2023-03-01,106.261,1,Índice general,canarias
+2023-04-01,105.93675,1,Índice general,canarias
+2023-05-01,107.3688,1,Índice general,canarias
+2023-06-01,108.359,1,Índice general,canarias
+2023-07-01,109.68642857142856,1,Índice general,canarias
+2023-08-01,109.318875,1,Índice general,canarias
+2023-09-01,109.56233333333331,1,Índice general,canarias
+2023-10-01,109.8866,1,Índice general,canarias
+2023-11-01,109.7720909090909,1,Índice general,canarias
+2023-12-01,108.73516666666666,1,Índice general,canarias
+2023-01-01,88.826,1,Índice general corregido,canarias
+2023-02-01,91.5435,1,Índice general corregido,canarias
+2023-03-01,92.14733333333334,1,Índice general corregido,canarias
+2023-04-01,91.8635,1,Índice general corregido,canarias
+2023-05-01,91.8814,1,Índice general corregido,canarias
+2023-06-01,91.50266666666668,1,Índice general corregido,canarias
+2023-07-01,90.58757142857144,1,Índice general corregido,canarias
+2023-08-01,88.527375,1,Índice general corregido,canarias
+2023-09-01,88.63877777777778,1,Índice general corregido,canarias
+2023-10-01,88.8203,1,Índice general corregido,canarias
+2023-11-01,89.34927272727272,1,Índice general corregido,canarias
+2023-12-01,89.02183333333333,1,Índice general corregido,canarias
+2023-01-01,-9.126777209997565,1,Annual variation,canarias
+2023-02-01,-8.469624609802299,1,Annual variation,canarias
+2023-03-01,-6.426065898583688,1,Annual variation,canarias
+2023-04-01,-6.28280125178313,1,Annual variation,canarias
+2023-05-01,-6.917824607883598,1,Annual variation,canarias
+2023-06-01,-7.381643971047261,1,Annual variation,canarias
+2023-07-01,-7.422434540201914,1,Annual variation,canarias
+2023-08-01,-7.276341737526266,1,Annual variation,canarias
+2023-09-01,-6.993715390078777,1,Annual variation,canarias
+2023-10-01,-6.379973265198509,1,Annual variation,canarias
+2023-11-01,-5.742666229528692,1,Annual variation,canarias
+2023-12-01,-5.393179404077009,1,Annual variation,canarias
+2023-01-01,-9.582654723127035,1,Corrected annual variation,canarias
+2023-02-01,-8.81712825774064,1,Corrected annual variation,canarias
+2023-03-01,-7.161328022675515,1,Corrected annual variation,canarias
+2023-04-01,-7.139878748670098,1,Corrected annual variation,canarias
+2023-05-01,-7.130280444490253,1,Corrected annual variation,canarias
+2023-06-01,-7.411735937196937,1,Corrected annual variation,canarias
+2023-07-01,-7.130084051335882,1,Corrected annual variation,canarias
+2023-08-01,-7.176765717401313,1,Corrected annual variation,canarias
+2023-09-01,-6.76908153844354,1,Corrected annual variation,canarias
+2023-10-01,-6.273591127572784,1,Corrected annual variation,canarias
+2023-11-01,-5.595449411005307,1,Corrected annual variation,canarias
+2023-12-01,-5.167629257310836,1,Corrected annual variation,canarias
+2023-01-01,104.566,1,Índice general,baleares
+2023-02-01,102.9195,1,Índice general,baleares
+2023-03-01,106.261,1,Índice general,baleares
+2023-04-01,105.93675,1,Índice general,baleares
+2023-05-01,107.3688,1,Índice general,baleares
+2023-06-01,108.359,1,Índice general,baleares
+2023-07-01,109.68642857142856,1,Índice general,baleares
+2023-08-01,109.318875,1,Índice general,baleares
+2023-09-01,109.56233333333331,1,Índice general,baleares
+2023-10-01,109.8866,1,Índice general,baleares
+2023-11-01,109.7720909090909,1,Índice general,baleares
+2023-12-01,108.73516666666666,1,Índice general,baleares
+2023-01-01,88.826,1,Índice general corregido,baleares
+2023-02-01,91.5435,1,Índice general corregido,baleares
+2023-03-01,92.14733333333334,1,Índice general corregido,baleares
+2023-04-01,91.8635,1,Índice general corregido,baleares
+2023-05-01,91.8814,1,Índice general corregido,baleares
+2023-06-01,91.50266666666668,1,Índice general corregido,baleares
+2023-07-01,90.58757142857144,1,Índice general corregido,baleares
+2023-08-01,88.527375,1,Índice general corregido,baleares
+2023-09-01,88.63877777777778,1,Índice general corregido,baleares
+2023-10-01,88.8203,1,Índice general corregido,baleares
+2023-11-01,89.34927272727272,1,Índice general corregido,baleares
+2023-12-01,89.02183333333333,1,Índice general corregido,baleares
+2023-01-01,-9.126777209997565,1,Annual variation,baleares
+2023-02-01,-8.469624609802299,1,Annual variation,baleares
+2023-03-01,-6.426065898583688,1,Annual variation,baleares
+2023-04-01,-6.28280125178313,1,Annual variation,baleares
+2023-05-01,-6.917824607883598,1,Annual variation,baleares
+2023-06-01,-7.381643971047261,1,Annual variation,baleares
+2023-07-01,-7.422434540201914,1,Annual variation,baleares
+2023-08-01,-7.276341737526266,1,Annual variation,baleares
+2023-09-01,-6.993715390078777,1,Annual variation,baleares
+2023-10-01,-6.379973265198509,1,Annual variation,baleares
+2023-11-01,-5.742666229528692,1,Annual variation,baleares
+2023-12-01,-5.393179404077009,1,Annual variation,baleares
+2023-01-01,-9.582654723127035,1,Corrected annual variation,baleares
+2023-02-01,-8.81712825774064,1,Corrected annual variation,baleares
+2023-03-01,-7.161328022675515,1,Corrected annual variation,baleares
+2023-04-01,-7.139878748670098,1,Corrected annual variation,baleares
+2023-05-01,-7.130280444490253,1,Corrected annual variation,baleares
+2023-06-01,-7.411735937196937,1,Corrected annual variation,baleares
+2023-07-01,-7.130084051335882,1,Corrected annual variation,baleares
+2023-08-01,-7.176765717401313,1,Corrected annual variation,baleares
+2023-09-01,-6.76908153844354,1,Corrected annual variation,baleares
+2023-10-01,-6.273591127572784,1,Corrected annual variation,baleares
+2023-11-01,-5.595449411005307,1,Corrected annual variation,baleares
+2023-12-01,-5.167629257310836,1,Corrected annual variation,baleares
+2023-01-01,104.566,1,Índice general,ceuta
+2023-02-01,102.9195,1,Índice general,ceuta
+2023-03-01,106.261,1,Índice general,ceuta
+2023-04-01,105.93675,1,Índice general,ceuta
+2023-05-01,107.3688,1,Índice general,ceuta
+2023-06-01,108.359,1,Índice general,ceuta
+2023-07-01,109.68642857142856,1,Índice general,ceuta
+2023-08-01,109.318875,1,Índice general,ceuta
+2023-09-01,109.56233333333331,1,Índice general,ceuta
+2023-10-01,109.8866,1,Índice general,ceuta
+2023-11-01,109.7720909090909,1,Índice general,ceuta
+2023-12-01,108.73516666666666,1,Índice general,ceuta
+2023-01-01,88.826,1,Índice general corregido,ceuta
+2023-02-01,91.5435,1,Índice general corregido,ceuta
+2023-03-01,92.14733333333334,1,Índice general corregido,ceuta
+2023-04-01,91.8635,1,Índice general corregido,ceuta
+2023-05-01,91.8814,1,Índice general corregido,ceuta
+2023-06-01,91.50266666666668,1,Índice general corregido,ceuta
+2023-07-01,90.58757142857144,1,Índice general corregido,ceuta
+2023-08-01,88.527375,1,Índice general corregido,ceuta
+2023-09-01,88.63877777777778,1,Índice general corregido,ceuta
+2023-10-01,88.8203,1,Índice general corregido,ceuta
+2023-11-01,89.34927272727272,1,Índice general corregido,ceuta
+2023-12-01,89.02183333333333,1,Índice general corregido,ceuta
+2023-01-01,-9.126777209997565,1,Annual variation,ceuta
+2023-02-01,-8.469624609802299,1,Annual variation,ceuta
+2023-03-01,-6.426065898583688,1,Annual variation,ceuta
+2023-04-01,-6.28280125178313,1,Annual variation,ceuta
+2023-05-01,-6.917824607883598,1,Annual variation,ceuta
+2023-06-01,-7.381643971047261,1,Annual variation,ceuta
+2023-07-01,-7.422434540201914,1,Annual variation,ceuta
+2023-08-01,-7.276341737526266,1,Annual variation,ceuta
+2023-09-01,-6.993715390078777,1,Annual variation,ceuta
+2023-10-01,-6.379973265198509,1,Annual variation,ceuta
+2023-11-01,-5.742666229528692,1,Annual variation,ceuta
+2023-12-01,-5.393179404077009,1,Annual variation,ceuta
+2023-01-01,-9.582654723127035,1,Corrected annual variation,ceuta
+2023-02-01,-8.81712825774064,1,Corrected annual variation,ceuta
+2023-03-01,-7.161328022675515,1,Corrected annual variation,ceuta
+2023-04-01,-7.139878748670098,1,Corrected annual variation,ceuta
+2023-05-01,-7.130280444490253,1,Corrected annual variation,ceuta
+2023-06-01,-7.411735937196937,1,Corrected annual variation,ceuta
+2023-07-01,-7.130084051335882,1,Corrected annual variation,ceuta
+2023-08-01,-7.176765717401313,1,Corrected annual variation,ceuta
+2023-09-01,-6.76908153844354,1,Corrected annual variation,ceuta
+2023-10-01,-6.273591127572784,1,Corrected annual variation,ceuta
+2023-11-01,-5.595449411005307,1,Corrected annual variation,ceuta
+2023-12-01,-5.167629257310836,1,Corrected annual variation,ceuta
+2023-01-01,104.566,1,Índice general,melilla
+2023-02-01,102.9195,1,Índice general,melilla
+2023-03-01,106.261,1,Índice general,melilla
+2023-04-01,105.93675,1,Índice general,melilla
+2023-05-01,107.3688,1,Índice general,melilla
+2023-06-01,108.359,1,Índice general,melilla
+2023-07-01,109.68642857142856,1,Índice general,melilla
+2023-08-01,109.318875,1,Índice general,melilla
+2023-09-01,109.56233333333331,1,Índice general,melilla
+2023-10-01,109.8866,1,Índice general,melilla
+2023-11-01,109.7720909090909,1,Índice general,melilla
+2023-12-01,108.73516666666666,1,Índice general,melilla
+2023-01-01,88.826,1,Índice general corregido,melilla
+2023-02-01,91.5435,1,Índice general corregido,melilla
+2023-03-01,92.14733333333334,1,Índice general corregido,melilla
+2023-04-01,91.8635,1,Índice general corregido,melilla
+2023-05-01,91.8814,1,Índice general corregido,melilla
+2023-06-01,91.50266666666668,1,Índice general corregido,melilla
+2023-07-01,90.58757142857144,1,Índice general corregido,melilla
+2023-08-01,88.527375,1,Índice general corregido,melilla
+2023-09-01,88.63877777777778,1,Índice general corregido,melilla
+2023-10-01,88.8203,1,Índice general corregido,melilla
+2023-11-01,89.34927272727272,1,Índice general corregido,melilla
+2023-12-01,89.02183333333333,1,Índice general corregido,melilla
+2023-01-01,-9.126777209997565,1,Annual variation,melilla
+2023-02-01,-8.469624609802299,1,Annual variation,melilla
+2023-03-01,-6.426065898583688,1,Annual variation,melilla
+2023-04-01,-6.28280125178313,1,Annual variation,melilla
+2023-05-01,-6.917824607883598,1,Annual variation,melilla
+2023-06-01,-7.381643971047261,1,Annual variation,melilla
+2023-07-01,-7.422434540201914,1,Annual variation,melilla
+2023-08-01,-7.276341737526266,1,Annual variation,melilla
+2023-09-01,-6.993715390078777,1,Annual variation,melilla
+2023-10-01,-6.379973265198509,1,Annual variation,melilla
+2023-11-01,-5.742666229528692,1,Annual variation,melilla
+2023-12-01,-5.393179404077009,1,Annual variation,melilla
+2023-01-01,-9.582654723127035,1,Corrected annual variation,melilla
+2023-02-01,-8.81712825774064,1,Corrected annual variation,melilla
+2023-03-01,-7.161328022675515,1,Corrected annual variation,melilla
+2023-04-01,-7.139878748670098,1,Corrected annual variation,melilla
+2023-05-01,-7.130280444490253,1,Corrected annual variation,melilla
+2023-06-01,-7.411735937196937,1,Corrected annual variation,melilla
+2023-07-01,-7.130084051335882,1,Corrected annual variation,melilla
+2023-08-01,-7.176765717401313,1,Corrected annual variation,melilla
+2023-09-01,-6.76908153844354,1,Corrected annual variation,melilla
+2023-10-01,-6.273591127572784,1,Corrected annual variation,melilla
+2023-11-01,-5.595449411005307,1,Corrected annual variation,melilla
+2023-12-01,-5.167629257310836,1,Corrected annual variation,melilla
+2023-01-01,104.566,1,Índice general,andalucia
+2023-02-01,102.9195,1,Índice general,andalucia
+2023-03-01,106.261,1,Índice general,andalucia
+2023-04-01,105.93675,1,Índice general,andalucia
+2023-05-01,107.3688,1,Índice general,andalucia
+2023-06-01,108.359,1,Índice general,andalucia
+2023-07-01,109.68642857142856,1,Índice general,andalucia
+2023-08-01,109.318875,1,Índice general,andalucia
+2023-09-01,109.56233333333331,1,Índice general,andalucia
+2023-10-01,109.8866,1,Índice general,andalucia
+2023-11-01,109.7720909090909,1,Índice general,andalucia
+2023-12-01,108.73516666666666,1,Índice general,andalucia
+2023-01-01,88.826,1,Índice general corregido,andalucia
+2023-02-01,91.5435,1,Índice general corregido,andalucia
+2023-03-01,92.14733333333334,1,Índice general corregido,andalucia
+2023-04-01,91.8635,1,Índice general corregido,andalucia
+2023-05-01,91.8814,1,Índice general corregido,andalucia
+2023-06-01,91.50266666666668,1,Índice general corregido,andalucia
+2023-07-01,90.58757142857144,1,Índice general corregido,andalucia
+2023-08-01,88.527375,1,Índice general corregido,andalucia
+2023-09-01,88.63877777777778,1,Índice general corregido,andalucia
+2023-10-01,88.8203,1,Índice general corregido,andalucia
+2023-11-01,89.34927272727272,1,Índice general corregido,andalucia
+2023-12-01,89.02183333333333,1,Índice general corregido,andalucia
+2023-01-01,-9.126777209997565,1,Annual variation,andalucia
+2023-02-01,-8.469624609802299,1,Annual variation,andalucia
+2023-03-01,-6.426065898583688,1,Annual variation,andalucia
+2023-04-01,-6.28280125178313,1,Annual variation,andalucia
+2023-05-01,-6.917824607883598,1,Annual variation,andalucia
+2023-06-01,-7.381643971047261,1,Annual variation,andalucia
+2023-07-01,-7.422434540201914,1,Annual variation,andalucia
+2023-08-01,-7.276341737526266,1,Annual variation,andalucia
+2023-09-01,-6.993715390078777,1,Annual variation,andalucia
+2023-10-01,-6.379973265198509,1,Annual variation,andalucia
+2023-11-01,-5.742666229528692,1,Annual variation,andalucia
+2023-12-01,-5.393179404077009,1,Annual variation,andalucia
+2023-01-01,-9.582654723127035,1,Corrected annual variation,andalucia
+2023-02-01,-8.81712825774064,1,Corrected annual variation,andalucia
+2023-03-01,-7.161328022675515,1,Corrected annual variation,andalucia
+2023-04-01,-7.139878748670098,1,Corrected annual variation,andalucia
+2023-05-01,-7.130280444490253,1,Corrected annual variation,andalucia
+2023-06-01,-7.411735937196937,1,Corrected annual variation,andalucia
+2023-07-01,-7.130084051335882,1,Corrected annual variation,andalucia
+2023-08-01,-7.176765717401313,1,Corrected annual variation,andalucia
+2023-09-01,-6.76908153844354,1,Corrected annual variation,andalucia
+2023-10-01,-6.273591127572784,1,Corrected annual variation,andalucia
+2023-11-01,-5.595449411005307,1,Corrected annual variation,andalucia
+2023-12-01,-5.167629257310836,1,Corrected annual variation,andalucia
+2023-01-01,104.566,1,Índice general,aragon
+2023-02-01,102.9195,1,Índice general,aragon
+2023-03-01,106.261,1,Índice general,aragon
+2023-04-01,105.93675,1,Índice general,aragon
+2023-05-01,107.3688,1,Índice general,aragon
+2023-06-01,108.359,1,Índice general,aragon
+2023-07-01,109.68642857142856,1,Índice general,aragon
+2023-08-01,109.318875,1,Índice general,aragon
+2023-09-01,109.56233333333331,1,Índice general,aragon
+2023-10-01,109.8866,1,Índice general,aragon
+2023-11-01,109.7720909090909,1,Índice general,aragon
+2023-12-01,108.73516666666666,1,Índice general,aragon
+2023-01-01,88.826,1,Índice general corregido,aragon
+2023-02-01,91.5435,1,Índice general corregido,aragon
+2023-03-01,92.14733333333334,1,Índice general corregido,aragon
+2023-04-01,91.8635,1,Índice general corregido,aragon
+2023-05-01,91.8814,1,Índice general corregido,aragon
+2023-06-01,91.50266666666668,1,Índice general corregido,aragon
+2023-07-01,90.58757142857144,1,Índice general corregido,aragon
+2023-08-01,88.527375,1,Índice general corregido,aragon
+2023-09-01,88.63877777777778,1,Índice general corregido,aragon
+2023-10-01,88.8203,1,Índice general corregido,aragon
+2023-11-01,89.34927272727272,1,Índice general corregido,aragon
+2023-12-01,89.02183333333333,1,Índice general corregido,aragon
+2023-01-01,-9.126777209997565,1,Annual variation,aragon
+2023-02-01,-8.469624609802299,1,Annual variation,aragon
+2023-03-01,-6.426065898583688,1,Annual variation,aragon
+2023-04-01,-6.28280125178313,1,Annual variation,aragon
+2023-05-01,-6.917824607883598,1,Annual variation,aragon
+2023-06-01,-7.381643971047261,1,Annual variation,aragon
+2023-07-01,-7.422434540201914,1,Annual variation,aragon
+2023-08-01,-7.276341737526266,1,Annual variation,aragon
+2023-09-01,-6.993715390078777,1,Annual variation,aragon
+2023-10-01,-6.379973265198509,1,Annual variation,aragon
+2023-11-01,-5.742666229528692,1,Annual variation,aragon
+2023-12-01,-5.393179404077009,1,Annual variation,aragon
+2023-01-01,-9.582654723127035,1,Corrected annual variation,aragon
+2023-02-01,-8.81712825774064,1,Corrected annual variation,aragon
+2023-03-01,-7.161328022675515,1,Corrected annual variation,aragon
+2023-04-01,-7.139878748670098,1,Corrected annual variation,aragon
+2023-05-01,-7.130280444490253,1,Corrected annual variation,aragon
+2023-06-01,-7.411735937196937,1,Corrected annual variation,aragon
+2023-07-01,-7.130084051335882,1,Corrected annual variation,aragon
+2023-08-01,-7.176765717401313,1,Corrected annual variation,aragon
+2023-09-01,-6.76908153844354,1,Corrected annual variation,aragon
+2023-10-01,-6.273591127572784,1,Corrected annual variation,aragon
+2023-11-01,-5.595449411005307,1,Corrected annual variation,aragon
+2023-12-01,-5.167629257310836,1,Corrected annual variation,aragon
+2023-01-01,104.566,1,Índice general,cantabria
+2023-02-01,102.9195,1,Índice general,cantabria
+2023-03-01,106.261,1,Índice general,cantabria
+2023-04-01,105.93675,1,Índice general,cantabria
+2023-05-01,107.3688,1,Índice general,cantabria
+2023-06-01,108.359,1,Índice general,cantabria
+2023-07-01,109.68642857142856,1,Índice general,cantabria
+2023-08-01,109.318875,1,Índice general,cantabria
+2023-09-01,109.56233333333331,1,Índice general,cantabria
+2023-10-01,109.8866,1,Índice general,cantabria
+2023-11-01,109.7720909090909,1,Índice general,cantabria
+2023-12-01,108.73516666666666,1,Índice general,cantabria
+2023-01-01,88.826,1,Índice general corregido,cantabria
+2023-02-01,91.5435,1,Índice general corregido,cantabria
+2023-03-01,92.14733333333334,1,Índice general corregido,cantabria
+2023-04-01,91.8635,1,Índice general corregido,cantabria
+2023-05-01,91.8814,1,Índice general corregido,cantabria
+2023-06-01,91.50266666666668,1,Índice general corregido,cantabria
+2023-07-01,90.58757142857144,1,Índice general corregido,cantabria
+2023-08-01,88.527375,1,Índice general corregido,cantabria
+2023-09-01,88.63877777777778,1,Índice general corregido,cantabria
+2023-10-01,88.8203,1,Índice general corregido,cantabria
+2023-11-01,89.34927272727272,1,Índice general corregido,cantabria
+2023-12-01,89.02183333333333,1,Índice general corregido,cantabria
+2023-01-01,-9.126777209997565,1,Annual variation,cantabria
+2023-02-01,-8.469624609802299,1,Annual variation,cantabria
+2023-03-01,-6.426065898583688,1,Annual variation,cantabria
+2023-04-01,-6.28280125178313,1,Annual variation,cantabria
+2023-05-01,-6.917824607883598,1,Annual variation,cantabria
+2023-06-01,-7.381643971047261,1,Annual variation,cantabria
+2023-07-01,-7.422434540201914,1,Annual variation,cantabria
+2023-08-01,-7.276341737526266,1,Annual variation,cantabria
+2023-09-01,-6.993715390078777,1,Annual variation,cantabria
+2023-10-01,-6.379973265198509,1,Annual variation,cantabria
+2023-11-01,-5.742666229528692,1,Annual variation,cantabria
+2023-12-01,-5.393179404077009,1,Annual variation,cantabria
+2023-01-01,-9.582654723127035,1,Corrected annual variation,cantabria
+2023-02-01,-8.81712825774064,1,Corrected annual variation,cantabria
+2023-03-01,-7.161328022675515,1,Corrected annual variation,cantabria
+2023-04-01,-7.139878748670098,1,Corrected annual variation,cantabria
+2023-05-01,-7.130280444490253,1,Corrected annual variation,cantabria
+2023-06-01,-7.411735937196937,1,Corrected annual variation,cantabria
+2023-07-01,-7.130084051335882,1,Corrected annual variation,cantabria
+2023-08-01,-7.176765717401313,1,Corrected annual variation,cantabria
+2023-09-01,-6.76908153844354,1,Corrected annual variation,cantabria
+2023-10-01,-6.273591127572784,1,Corrected annual variation,cantabria
+2023-11-01,-5.595449411005307,1,Corrected annual variation,cantabria
+2023-12-01,-5.167629257310836,1,Corrected annual variation,cantabria
+2023-01-01,104.566,1,Índice general,castilla la mancha
+2023-02-01,102.9195,1,Índice general,castilla la mancha
+2023-03-01,106.261,1,Índice general,castilla la mancha
+2023-04-01,105.93675,1,Índice general,castilla la mancha
+2023-05-01,107.3688,1,Índice general,castilla la mancha
+2023-06-01,108.359,1,Índice general,castilla la mancha
+2023-07-01,109.68642857142856,1,Índice general,castilla la mancha
+2023-08-01,109.318875,1,Índice general,castilla la mancha
+2023-09-01,109.56233333333331,1,Índice general,castilla la mancha
+2023-10-01,109.8866,1,Índice general,castilla la mancha
+2023-11-01,109.7720909090909,1,Índice general,castilla la mancha
+2023-12-01,108.73516666666666,1,Índice general,castilla la mancha
+2023-01-01,88.826,1,Índice general corregido,castilla la mancha
+2023-02-01,91.5435,1,Índice general corregido,castilla la mancha
+2023-03-01,92.14733333333334,1,Índice general corregido,castilla la mancha
+2023-04-01,91.8635,1,Índice general corregido,castilla la mancha
+2023-05-01,91.8814,1,Índice general corregido,castilla la mancha
+2023-06-01,91.50266666666668,1,Índice general corregido,castilla la mancha
+2023-07-01,90.58757142857144,1,Índice general corregido,castilla la mancha
+2023-08-01,88.527375,1,Índice general corregido,castilla la mancha
+2023-09-01,88.63877777777778,1,Índice general corregido,castilla la mancha
+2023-10-01,88.8203,1,Índice general corregido,castilla la mancha
+2023-11-01,89.34927272727272,1,Índice general corregido,castilla la mancha
+2023-12-01,89.02183333333333,1,Índice general corregido,castilla la mancha
+2023-01-01,-9.126777209997565,1,Annual variation,castilla la mancha
+2023-02-01,-8.469624609802299,1,Annual variation,castilla la mancha
+2023-03-01,-6.426065898583688,1,Annual variation,castilla la mancha
+2023-04-01,-6.28280125178313,1,Annual variation,castilla la mancha
+2023-05-01,-6.917824607883598,1,Annual variation,castilla la mancha
+2023-06-01,-7.381643971047261,1,Annual variation,castilla la mancha
+2023-07-01,-7.422434540201914,1,Annual variation,castilla la mancha
+2023-08-01,-7.276341737526266,1,Annual variation,castilla la mancha
+2023-09-01,-6.993715390078777,1,Annual variation,castilla la mancha
+2023-10-01,-6.379973265198509,1,Annual variation,castilla la mancha
+2023-11-01,-5.742666229528692,1,Annual variation,castilla la mancha
+2023-12-01,-5.393179404077009,1,Annual variation,castilla la mancha
+2023-01-01,-9.582654723127035,1,Corrected annual variation,castilla la mancha
+2023-02-01,-8.81712825774064,1,Corrected annual variation,castilla la mancha
+2023-03-01,-7.161328022675515,1,Corrected annual variation,castilla la mancha
+2023-04-01,-7.139878748670098,1,Corrected annual variation,castilla la mancha
+2023-05-01,-7.130280444490253,1,Corrected annual variation,castilla la mancha
+2023-06-01,-7.411735937196937,1,Corrected annual variation,castilla la mancha
+2023-07-01,-7.130084051335882,1,Corrected annual variation,castilla la mancha
+2023-08-01,-7.176765717401313,1,Corrected annual variation,castilla la mancha
+2023-09-01,-6.76908153844354,1,Corrected annual variation,castilla la mancha
+2023-10-01,-6.273591127572784,1,Corrected annual variation,castilla la mancha
+2023-11-01,-5.595449411005307,1,Corrected annual variation,castilla la mancha
+2023-12-01,-5.167629257310836,1,Corrected annual variation,castilla la mancha
+2023-01-01,104.566,1,Índice general,castilla y leon
+2023-02-01,102.9195,1,Índice general,castilla y leon
+2023-03-01,106.261,1,Índice general,castilla y leon
+2023-04-01,105.93675,1,Índice general,castilla y leon
+2023-05-01,107.3688,1,Índice general,castilla y leon
+2023-06-01,108.359,1,Índice general,castilla y leon
+2023-07-01,109.68642857142856,1,Índice general,castilla y leon
+2023-08-01,109.318875,1,Índice general,castilla y leon
+2023-09-01,109.56233333333331,1,Índice general,castilla y leon
+2023-10-01,109.8866,1,Índice general,castilla y leon
+2023-11-01,109.7720909090909,1,Índice general,castilla y leon
+2023-12-01,108.73516666666666,1,Índice general,castilla y leon
+2023-01-01,88.826,1,Índice general corregido,castilla y leon
+2023-02-01,91.5435,1,Índice general corregido,castilla y leon
+2023-03-01,92.14733333333334,1,Índice general corregido,castilla y leon
+2023-04-01,91.8635,1,Índice general corregido,castilla y leon
+2023-05-01,91.8814,1,Índice general corregido,castilla y leon
+2023-06-01,91.50266666666668,1,Índice general corregido,castilla y leon
+2023-07-01,90.58757142857144,1,Índice general corregido,castilla y leon
+2023-08-01,88.527375,1,Índice general corregido,castilla y leon
+2023-09-01,88.63877777777778,1,Índice general corregido,castilla y leon
+2023-10-01,88.8203,1,Índice general corregido,castilla y leon
+2023-11-01,89.34927272727272,1,Índice general corregido,castilla y leon
+2023-12-01,89.02183333333333,1,Índice general corregido,castilla y leon
+2023-01-01,-9.126777209997565,1,Annual variation,castilla y leon
+2023-02-01,-8.469624609802299,1,Annual variation,castilla y leon
+2023-03-01,-6.426065898583688,1,Annual variation,castilla y leon
+2023-04-01,-6.28280125178313,1,Annual variation,castilla y leon
+2023-05-01,-6.917824607883598,1,Annual variation,castilla y leon
+2023-06-01,-7.381643971047261,1,Annual variation,castilla y leon
+2023-07-01,-7.422434540201914,1,Annual variation,castilla y leon
+2023-08-01,-7.276341737526266,1,Annual variation,castilla y leon
+2023-09-01,-6.993715390078777,1,Annual variation,castilla y leon
+2023-10-01,-6.379973265198509,1,Annual variation,castilla y leon
+2023-11-01,-5.742666229528692,1,Annual variation,castilla y leon
+2023-12-01,-5.393179404077009,1,Annual variation,castilla y leon
+2023-01-01,-9.582654723127035,1,Corrected annual variation,castilla y leon
+2023-02-01,-8.81712825774064,1,Corrected annual variation,castilla y leon
+2023-03-01,-7.161328022675515,1,Corrected annual variation,castilla y leon
+2023-04-01,-7.139878748670098,1,Corrected annual variation,castilla y leon
+2023-05-01,-7.130280444490253,1,Corrected annual variation,castilla y leon
+2023-06-01,-7.411735937196937,1,Corrected annual variation,castilla y leon
+2023-07-01,-7.130084051335882,1,Corrected annual variation,castilla y leon
+2023-08-01,-7.176765717401313,1,Corrected annual variation,castilla y leon
+2023-09-01,-6.76908153844354,1,Corrected annual variation,castilla y leon
+2023-10-01,-6.273591127572784,1,Corrected annual variation,castilla y leon
+2023-11-01,-5.595449411005307,1,Corrected annual variation,castilla y leon
+2023-12-01,-5.167629257310836,1,Corrected annual variation,castilla y leon
+2023-01-01,104.566,1,Índice general,cataluña
+2023-02-01,102.9195,1,Índice general,cataluña
+2023-03-01,106.261,1,Índice general,cataluña
+2023-04-01,105.93675,1,Índice general,cataluña
+2023-05-01,107.3688,1,Índice general,cataluña
+2023-06-01,108.359,1,Índice general,cataluña
+2023-07-01,109.68642857142856,1,Índice general,cataluña
+2023-08-01,109.318875,1,Índice general,cataluña
+2023-09-01,109.56233333333331,1,Índice general,cataluña
+2023-10-01,109.8866,1,Índice general,cataluña
+2023-11-01,109.7720909090909,1,Índice general,cataluña
+2023-12-01,108.73516666666666,1,Índice general,cataluña
+2023-01-01,88.826,1,Índice general corregido,cataluña
+2023-02-01,91.5435,1,Índice general corregido,cataluña
+2023-03-01,92.14733333333334,1,Índice general corregido,cataluña
+2023-04-01,91.8635,1,Índice general corregido,cataluña
+2023-05-01,91.8814,1,Índice general corregido,cataluña
+2023-06-01,91.50266666666668,1,Índice general corregido,cataluña
+2023-07-01,90.58757142857144,1,Índice general corregido,cataluña
+2023-08-01,88.527375,1,Índice general corregido,cataluña
+2023-09-01,88.63877777777778,1,Índice general corregido,cataluña
+2023-10-01,88.8203,1,Índice general corregido,cataluña
+2023-11-01,89.34927272727272,1,Índice general corregido,cataluña
+2023-12-01,89.02183333333333,1,Índice general corregido,cataluña
+2023-01-01,-9.126777209997565,1,Annual variation,cataluña
+2023-02-01,-8.469624609802299,1,Annual variation,cataluña
+2023-03-01,-6.426065898583688,1,Annual variation,cataluña
+2023-04-01,-6.28280125178313,1,Annual variation,cataluña
+2023-05-01,-6.917824607883598,1,Annual variation,cataluña
+2023-06-01,-7.381643971047261,1,Annual variation,cataluña
+2023-07-01,-7.422434540201914,1,Annual variation,cataluña
+2023-08-01,-7.276341737526266,1,Annual variation,cataluña
+2023-09-01,-6.993715390078777,1,Annual variation,cataluña
+2023-10-01,-6.379973265198509,1,Annual variation,cataluña
+2023-11-01,-5.742666229528692,1,Annual variation,cataluña
+2023-12-01,-5.393179404077009,1,Annual variation,cataluña
+2023-01-01,-9.582654723127035,1,Corrected annual variation,cataluña
+2023-02-01,-8.81712825774064,1,Corrected annual variation,cataluña
+2023-03-01,-7.161328022675515,1,Corrected annual variation,cataluña
+2023-04-01,-7.139878748670098,1,Corrected annual variation,cataluña
+2023-05-01,-7.130280444490253,1,Corrected annual variation,cataluña
+2023-06-01,-7.411735937196937,1,Corrected annual variation,cataluña
+2023-07-01,-7.130084051335882,1,Corrected annual variation,cataluña
+2023-08-01,-7.176765717401313,1,Corrected annual variation,cataluña
+2023-09-01,-6.76908153844354,1,Corrected annual variation,cataluña
+2023-10-01,-6.273591127572784,1,Corrected annual variation,cataluña
+2023-11-01,-5.595449411005307,1,Corrected annual variation,cataluña
+2023-12-01,-5.167629257310836,1,Corrected annual variation,cataluña
+2023-01-01,104.566,1,Índice general,pais vasco
+2023-02-01,102.9195,1,Índice general,pais vasco
+2023-03-01,106.261,1,Índice general,pais vasco
+2023-04-01,105.93675,1,Índice general,pais vasco
+2023-05-01,107.3688,1,Índice general,pais vasco
+2023-06-01,108.359,1,Índice general,pais vasco
+2023-07-01,109.68642857142856,1,Índice general,pais vasco
+2023-08-01,109.318875,1,Índice general,pais vasco
+2023-09-01,109.56233333333331,1,Índice general,pais vasco
+2023-10-01,109.8866,1,Índice general,pais vasco
+2023-11-01,109.7720909090909,1,Índice general,pais vasco
+2023-12-01,108.73516666666666,1,Índice general,pais vasco
+2023-01-01,88.826,1,Índice general corregido,pais vasco
+2023-02-01,91.5435,1,Índice general corregido,pais vasco
+2023-03-01,92.14733333333334,1,Índice general corregido,pais vasco
+2023-04-01,91.8635,1,Índice general corregido,pais vasco
+2023-05-01,91.8814,1,Índice general corregido,pais vasco
+2023-06-01,91.50266666666668,1,Índice general corregido,pais vasco
+2023-07-01,90.58757142857144,1,Índice general corregido,pais vasco
+2023-08-01,88.527375,1,Índice general corregido,pais vasco
+2023-09-01,88.63877777777778,1,Índice general corregido,pais vasco
+2023-10-01,88.8203,1,Índice general corregido,pais vasco
+2023-11-01,89.34927272727272,1,Índice general corregido,pais vasco
+2023-12-01,89.02183333333333,1,Índice general corregido,pais vasco
+2023-01-01,-9.126777209997565,1,Annual variation,pais vasco
+2023-02-01,-8.469624609802299,1,Annual variation,pais vasco
+2023-03-01,-6.426065898583688,1,Annual variation,pais vasco
+2023-04-01,-6.28280125178313,1,Annual variation,pais vasco
+2023-05-01,-6.917824607883598,1,Annual variation,pais vasco
+2023-06-01,-7.381643971047261,1,Annual variation,pais vasco
+2023-07-01,-7.422434540201914,1,Annual variation,pais vasco
+2023-08-01,-7.276341737526266,1,Annual variation,pais vasco
+2023-09-01,-6.993715390078777,1,Annual variation,pais vasco
+2023-10-01,-6.379973265198509,1,Annual variation,pais vasco
+2023-11-01,-5.742666229528692,1,Annual variation,pais vasco
+2023-12-01,-5.393179404077009,1,Annual variation,pais vasco
+2023-01-01,-9.582654723127035,1,Corrected annual variation,pais vasco
+2023-02-01,-8.81712825774064,1,Corrected annual variation,pais vasco
+2023-03-01,-7.161328022675515,1,Corrected annual variation,pais vasco
+2023-04-01,-7.139878748670098,1,Corrected annual variation,pais vasco
+2023-05-01,-7.130280444490253,1,Corrected annual variation,pais vasco
+2023-06-01,-7.411735937196937,1,Corrected annual variation,pais vasco
+2023-07-01,-7.130084051335882,1,Corrected annual variation,pais vasco
+2023-08-01,-7.176765717401313,1,Corrected annual variation,pais vasco
+2023-09-01,-6.76908153844354,1,Corrected annual variation,pais vasco
+2023-10-01,-6.273591127572784,1,Corrected annual variation,pais vasco
+2023-11-01,-5.595449411005307,1,Corrected annual variation,pais vasco
+2023-12-01,-5.167629257310836,1,Corrected annual variation,pais vasco
+2023-01-01,104.566,1,Índice general,principado de asturias
+2023-02-01,102.9195,1,Índice general,principado de asturias
+2023-03-01,106.261,1,Índice general,principado de asturias
+2023-04-01,105.93675,1,Índice general,principado de asturias
+2023-05-01,107.3688,1,Índice general,principado de asturias
+2023-06-01,108.359,1,Índice general,principado de asturias
+2023-07-01,109.68642857142856,1,Índice general,principado de asturias
+2023-08-01,109.318875,1,Índice general,principado de asturias
+2023-09-01,109.56233333333331,1,Índice general,principado de asturias
+2023-10-01,109.8866,1,Índice general,principado de asturias
+2023-11-01,109.7720909090909,1,Índice general,principado de asturias
+2023-12-01,108.73516666666666,1,Índice general,principado de asturias
+2023-01-01,88.826,1,Índice general corregido,principado de asturias
+2023-02-01,91.5435,1,Índice general corregido,principado de asturias
+2023-03-01,92.14733333333334,1,Índice general corregido,principado de asturias
+2023-04-01,91.8635,1,Índice general corregido,principado de asturias
+2023-05-01,91.8814,1,Índice general corregido,principado de asturias
+2023-06-01,91.50266666666668,1,Índice general corregido,principado de asturias
+2023-07-01,90.58757142857144,1,Índice general corregido,principado de asturias
+2023-08-01,88.527375,1,Índice general corregido,principado de asturias
+2023-09-01,88.63877777777778,1,Índice general corregido,principado de asturias
+2023-10-01,88.8203,1,Índice general corregido,principado de asturias
+2023-11-01,89.34927272727272,1,Índice general corregido,principado de asturias
+2023-12-01,89.02183333333333,1,Índice general corregido,principado de asturias
+2023-01-01,-9.126777209997565,1,Annual variation,principado de asturias
+2023-02-01,-8.469624609802299,1,Annual variation,principado de asturias
+2023-03-01,-6.426065898583688,1,Annual variation,principado de asturias
+2023-04-01,-6.28280125178313,1,Annual variation,principado de asturias
+2023-05-01,-6.917824607883598,1,Annual variation,principado de asturias
+2023-06-01,-7.381643971047261,1,Annual variation,principado de asturias
+2023-07-01,-7.422434540201914,1,Annual variation,principado de asturias
+2023-08-01,-7.276341737526266,1,Annual variation,principado de asturias
+2023-09-01,-6.993715390078777,1,Annual variation,principado de asturias
+2023-10-01,-6.379973265198509,1,Annual variation,principado de asturias
+2023-11-01,-5.742666229528692,1,Annual variation,principado de asturias
+2023-12-01,-5.393179404077009,1,Annual variation,principado de asturias
+2023-01-01,-9.582654723127035,1,Corrected annual variation,principado de asturias
+2023-02-01,-8.81712825774064,1,Corrected annual variation,principado de asturias
+2023-03-01,-7.161328022675515,1,Corrected annual variation,principado de asturias
+2023-04-01,-7.139878748670098,1,Corrected annual variation,principado de asturias
+2023-05-01,-7.130280444490253,1,Corrected annual variation,principado de asturias
+2023-06-01,-7.411735937196937,1,Corrected annual variation,principado de asturias
+2023-07-01,-7.130084051335882,1,Corrected annual variation,principado de asturias
+2023-08-01,-7.176765717401313,1,Corrected annual variation,principado de asturias
+2023-09-01,-6.76908153844354,1,Corrected annual variation,principado de asturias
+2023-10-01,-6.273591127572784,1,Corrected annual variation,principado de asturias
+2023-11-01,-5.595449411005307,1,Corrected annual variation,principado de asturias
+2023-12-01,-5.167629257310836,1,Corrected annual variation,principado de asturias
+2023-01-01,104.566,1,Índice general,comunidad de madrid
+2023-02-01,102.9195,1,Índice general,comunidad de madrid
+2023-03-01,106.261,1,Índice general,comunidad de madrid
+2023-04-01,105.93675,1,Índice general,comunidad de madrid
+2023-05-01,107.3688,1,Índice general,comunidad de madrid
+2023-06-01,108.359,1,Índice general,comunidad de madrid
+2023-07-01,109.68642857142856,1,Índice general,comunidad de madrid
+2023-08-01,109.318875,1,Índice general,comunidad de madrid
+2023-09-01,109.56233333333331,1,Índice general,comunidad de madrid
+2023-10-01,109.8866,1,Índice general,comunidad de madrid
+2023-11-01,109.7720909090909,1,Índice general,comunidad de madrid
+2023-12-01,108.73516666666666,1,Índice general,comunidad de madrid
+2023-01-01,88.826,1,Índice general corregido,comunidad de madrid
+2023-02-01,91.5435,1,Índice general corregido,comunidad de madrid
+2023-03-01,92.14733333333334,1,Índice general corregido,comunidad de madrid
+2023-04-01,91.8635,1,Índice general corregido,comunidad de madrid
+2023-05-01,91.8814,1,Índice general corregido,comunidad de madrid
+2023-06-01,91.50266666666668,1,Índice general corregido,comunidad de madrid
+2023-07-01,90.58757142857144,1,Índice general corregido,comunidad de madrid
+2023-08-01,88.527375,1,Índice general corregido,comunidad de madrid
+2023-09-01,88.63877777777778,1,Índice general corregido,comunidad de madrid
+2023-10-01,88.8203,1,Índice general corregido,comunidad de madrid
+2023-11-01,89.34927272727272,1,Índice general corregido,comunidad de madrid
+2023-12-01,89.02183333333333,1,Índice general corregido,comunidad de madrid
+2023-01-01,-9.126777209997565,1,Annual variation,comunidad de madrid
+2023-02-01,-8.469624609802299,1,Annual variation,comunidad de madrid
+2023-03-01,-6.426065898583688,1,Annual variation,comunidad de madrid
+2023-04-01,-6.28280125178313,1,Annual variation,comunidad de madrid
+2023-05-01,-6.917824607883598,1,Annual variation,comunidad de madrid
+2023-06-01,-7.381643971047261,1,Annual variation,comunidad de madrid
+2023-07-01,-7.422434540201914,1,Annual variation,comunidad de madrid
+2023-08-01,-7.276341737526266,1,Annual variation,comunidad de madrid
+2023-09-01,-6.993715390078777,1,Annual variation,comunidad de madrid
+2023-10-01,-6.379973265198509,1,Annual variation,comunidad de madrid
+2023-11-01,-5.742666229528692,1,Annual variation,comunidad de madrid
+2023-12-01,-5.393179404077009,1,Annual variation,comunidad de madrid
+2023-01-01,-9.582654723127035,1,Corrected annual variation,comunidad de madrid
+2023-02-01,-8.81712825774064,1,Corrected annual variation,comunidad de madrid
+2023-03-01,-7.161328022675515,1,Corrected annual variation,comunidad de madrid
+2023-04-01,-7.139878748670098,1,Corrected annual variation,comunidad de madrid
+2023-05-01,-7.130280444490253,1,Corrected annual variation,comunidad de madrid
+2023-06-01,-7.411735937196937,1,Corrected annual variation,comunidad de madrid
+2023-07-01,-7.130084051335882,1,Corrected annual variation,comunidad de madrid
+2023-08-01,-7.176765717401313,1,Corrected annual variation,comunidad de madrid
+2023-09-01,-6.76908153844354,1,Corrected annual variation,comunidad de madrid
+2023-10-01,-6.273591127572784,1,Corrected annual variation,comunidad de madrid
+2023-11-01,-5.595449411005307,1,Corrected annual variation,comunidad de madrid
+2023-12-01,-5.167629257310836,1,Corrected annual variation,comunidad de madrid
+2023-01-01,104.566,1,Índice general,comunidad de navarra
+2023-02-01,102.9195,1,Índice general,comunidad de navarra
+2023-03-01,106.261,1,Índice general,comunidad de navarra
+2023-04-01,105.93675,1,Índice general,comunidad de navarra
+2023-05-01,107.3688,1,Índice general,comunidad de navarra
+2023-06-01,108.359,1,Índice general,comunidad de navarra
+2023-07-01,109.68642857142856,1,Índice general,comunidad de navarra
+2023-08-01,109.318875,1,Índice general,comunidad de navarra
+2023-09-01,109.56233333333331,1,Índice general,comunidad de navarra
+2023-10-01,109.8866,1,Índice general,comunidad de navarra
+2023-11-01,109.7720909090909,1,Índice general,comunidad de navarra
+2023-12-01,108.73516666666666,1,Índice general,comunidad de navarra
+2023-01-01,88.826,1,Índice general corregido,comunidad de navarra
+2023-02-01,91.5435,1,Índice general corregido,comunidad de navarra
+2023-03-01,92.14733333333334,1,Índice general corregido,comunidad de navarra
+2023-04-01,91.8635,1,Índice general corregido,comunidad de navarra
+2023-05-01,91.8814,1,Índice general corregido,comunidad de navarra
+2023-06-01,91.50266666666668,1,Índice general corregido,comunidad de navarra
+2023-07-01,90.58757142857144,1,Índice general corregido,comunidad de navarra
+2023-08-01,88.527375,1,Índice general corregido,comunidad de navarra
+2023-09-01,88.63877777777778,1,Índice general corregido,comunidad de navarra
+2023-10-01,88.8203,1,Índice general corregido,comunidad de navarra
+2023-11-01,89.34927272727272,1,Índice general corregido,comunidad de navarra
+2023-12-01,89.02183333333333,1,Índice general corregido,comunidad de navarra
+2023-01-01,-9.126777209997565,1,Annual variation,comunidad de navarra
+2023-02-01,-8.469624609802299,1,Annual variation,comunidad de navarra
+2023-03-01,-6.426065898583688,1,Annual variation,comunidad de navarra
+2023-04-01,-6.28280125178313,1,Annual variation,comunidad de navarra
+2023-05-01,-6.917824607883598,1,Annual variation,comunidad de navarra
+2023-06-01,-7.381643971047261,1,Annual variation,comunidad de navarra
+2023-07-01,-7.422434540201914,1,Annual variation,comunidad de navarra
+2023-08-01,-7.276341737526266,1,Annual variation,comunidad de navarra
+2023-09-01,-6.993715390078777,1,Annual variation,comunidad de navarra
+2023-10-01,-6.379973265198509,1,Annual variation,comunidad de navarra
+2023-11-01,-5.742666229528692,1,Annual variation,comunidad de navarra
+2023-12-01,-5.393179404077009,1,Annual variation,comunidad de navarra
+2023-01-01,-9.582654723127035,1,Corrected annual variation,comunidad de navarra
+2023-02-01,-8.81712825774064,1,Corrected annual variation,comunidad de navarra
+2023-03-01,-7.161328022675515,1,Corrected annual variation,comunidad de navarra
+2023-04-01,-7.139878748670098,1,Corrected annual variation,comunidad de navarra
+2023-05-01,-7.130280444490253,1,Corrected annual variation,comunidad de navarra
+2023-06-01,-7.411735937196937,1,Corrected annual variation,comunidad de navarra
+2023-07-01,-7.130084051335882,1,Corrected annual variation,comunidad de navarra
+2023-08-01,-7.176765717401313,1,Corrected annual variation,comunidad de navarra
+2023-09-01,-6.76908153844354,1,Corrected annual variation,comunidad de navarra
+2023-10-01,-6.273591127572784,1,Corrected annual variation,comunidad de navarra
+2023-11-01,-5.595449411005307,1,Corrected annual variation,comunidad de navarra
+2023-12-01,-5.167629257310836,1,Corrected annual variation,comunidad de navarra
+2023-01-01,104.566,1,Índice general,comunidad valenciana
+2023-02-01,102.9195,1,Índice general,comunidad valenciana
+2023-03-01,106.261,1,Índice general,comunidad valenciana
+2023-04-01,105.93675,1,Índice general,comunidad valenciana
+2023-05-01,107.3688,1,Índice general,comunidad valenciana
+2023-06-01,108.359,1,Índice general,comunidad valenciana
+2023-07-01,109.68642857142856,1,Índice general,comunidad valenciana
+2023-08-01,109.318875,1,Índice general,comunidad valenciana
+2023-09-01,109.56233333333331,1,Índice general,comunidad valenciana
+2023-10-01,109.8866,1,Índice general,comunidad valenciana
+2023-11-01,109.7720909090909,1,Índice general,comunidad valenciana
+2023-12-01,108.73516666666666,1,Índice general,comunidad valenciana
+2023-01-01,88.826,1,Índice general corregido,comunidad valenciana
+2023-02-01,91.5435,1,Índice general corregido,comunidad valenciana
+2023-03-01,92.14733333333334,1,Índice general corregido,comunidad valenciana
+2023-04-01,91.8635,1,Índice general corregido,comunidad valenciana
+2023-05-01,91.8814,1,Índice general corregido,comunidad valenciana
+2023-06-01,91.50266666666668,1,Índice general corregido,comunidad valenciana
+2023-07-01,90.58757142857144,1,Índice general corregido,comunidad valenciana
+2023-08-01,88.527375,1,Índice general corregido,comunidad valenciana
+2023-09-01,88.63877777777778,1,Índice general corregido,comunidad valenciana
+2023-10-01,88.8203,1,Índice general corregido,comunidad valenciana
+2023-11-01,89.34927272727272,1,Índice general corregido,comunidad valenciana
+2023-12-01,89.02183333333333,1,Índice general corregido,comunidad valenciana
+2023-01-01,-9.126777209997565,1,Annual variation,comunidad valenciana
+2023-02-01,-8.469624609802299,1,Annual variation,comunidad valenciana
+2023-03-01,-6.426065898583688,1,Annual variation,comunidad valenciana
+2023-04-01,-6.28280125178313,1,Annual variation,comunidad valenciana
+2023-05-01,-6.917824607883598,1,Annual variation,comunidad valenciana
+2023-06-01,-7.381643971047261,1,Annual variation,comunidad valenciana
+2023-07-01,-7.422434540201914,1,Annual variation,comunidad valenciana
+2023-08-01,-7.276341737526266,1,Annual variation,comunidad valenciana
+2023-09-01,-6.993715390078777,1,Annual variation,comunidad valenciana
+2023-10-01,-6.379973265198509,1,Annual variation,comunidad valenciana
+2023-11-01,-5.742666229528692,1,Annual variation,comunidad valenciana
+2023-12-01,-5.393179404077009,1,Annual variation,comunidad valenciana
+2023-01-01,-9.582654723127035,1,Corrected annual variation,comunidad valenciana
+2023-02-01,-8.81712825774064,1,Corrected annual variation,comunidad valenciana
+2023-03-01,-7.161328022675515,1,Corrected annual variation,comunidad valenciana
+2023-04-01,-7.139878748670098,1,Corrected annual variation,comunidad valenciana
+2023-05-01,-7.130280444490253,1,Corrected annual variation,comunidad valenciana
+2023-06-01,-7.411735937196937,1,Corrected annual variation,comunidad valenciana
+2023-07-01,-7.130084051335882,1,Corrected annual variation,comunidad valenciana
+2023-08-01,-7.176765717401313,1,Corrected annual variation,comunidad valenciana
+2023-09-01,-6.76908153844354,1,Corrected annual variation,comunidad valenciana
+2023-10-01,-6.273591127572784,1,Corrected annual variation,comunidad valenciana
+2023-11-01,-5.595449411005307,1,Corrected annual variation,comunidad valenciana
+2023-12-01,-5.167629257310836,1,Corrected annual variation,comunidad valenciana
+2023-01-01,104.566,1,Índice general,extremadura
+2023-02-01,102.9195,1,Índice general,extremadura
+2023-03-01,106.261,1,Índice general,extremadura
+2023-04-01,105.93675,1,Índice general,extremadura
+2023-05-01,107.3688,1,Índice general,extremadura
+2023-06-01,108.359,1,Índice general,extremadura
+2023-07-01,109.68642857142856,1,Índice general,extremadura
+2023-08-01,109.318875,1,Índice general,extremadura
+2023-09-01,109.56233333333331,1,Índice general,extremadura
+2023-10-01,109.8866,1,Índice general,extremadura
+2023-11-01,109.7720909090909,1,Índice general,extremadura
+2023-12-01,108.73516666666666,1,Índice general,extremadura
+2023-01-01,88.826,1,Índice general corregido,extremadura
+2023-02-01,91.5435,1,Índice general corregido,extremadura
+2023-03-01,92.14733333333334,1,Índice general corregido,extremadura
+2023-04-01,91.8635,1,Índice general corregido,extremadura
+2023-05-01,91.8814,1,Índice general corregido,extremadura
+2023-06-01,91.50266666666668,1,Índice general corregido,extremadura
+2023-07-01,90.58757142857144,1,Índice general corregido,extremadura
+2023-08-01,88.527375,1,Índice general corregido,extremadura
+2023-09-01,88.63877777777778,1,Índice general corregido,extremadura
+2023-10-01,88.8203,1,Índice general corregido,extremadura
+2023-11-01,89.34927272727272,1,Índice general corregido,extremadura
+2023-12-01,89.02183333333333,1,Índice general corregido,extremadura
+2023-01-01,-9.126777209997565,1,Annual variation,extremadura
+2023-02-01,-8.469624609802299,1,Annual variation,extremadura
+2023-03-01,-6.426065898583688,1,Annual variation,extremadura
+2023-04-01,-6.28280125178313,1,Annual variation,extremadura
+2023-05-01,-6.917824607883598,1,Annual variation,extremadura
+2023-06-01,-7.381643971047261,1,Annual variation,extremadura
+2023-07-01,-7.422434540201914,1,Annual variation,extremadura
+2023-08-01,-7.276341737526266,1,Annual variation,extremadura
+2023-09-01,-6.993715390078777,1,Annual variation,extremadura
+2023-10-01,-6.379973265198509,1,Annual variation,extremadura
+2023-11-01,-5.742666229528692,1,Annual variation,extremadura
+2023-12-01,-5.393179404077009,1,Annual variation,extremadura
+2023-01-01,-9.582654723127035,1,Corrected annual variation,extremadura
+2023-02-01,-8.81712825774064,1,Corrected annual variation,extremadura
+2023-03-01,-7.161328022675515,1,Corrected annual variation,extremadura
+2023-04-01,-7.139878748670098,1,Corrected annual variation,extremadura
+2023-05-01,-7.130280444490253,1,Corrected annual variation,extremadura
+2023-06-01,-7.411735937196937,1,Corrected annual variation,extremadura
+2023-07-01,-7.130084051335882,1,Corrected annual variation,extremadura
+2023-08-01,-7.176765717401313,1,Corrected annual variation,extremadura
+2023-09-01,-6.76908153844354,1,Corrected annual variation,extremadura
+2023-10-01,-6.273591127572784,1,Corrected annual variation,extremadura
+2023-11-01,-5.595449411005307,1,Corrected annual variation,extremadura
+2023-12-01,-5.167629257310836,1,Corrected annual variation,extremadura
+2023-01-01,104.566,1,Índice general,galicia
+2023-02-01,102.9195,1,Índice general,galicia
+2023-03-01,106.261,1,Índice general,galicia
+2023-04-01,105.93675,1,Índice general,galicia
+2023-05-01,107.3688,1,Índice general,galicia
+2023-06-01,108.359,1,Índice general,galicia
+2023-07-01,109.68642857142856,1,Índice general,galicia
+2023-08-01,109.318875,1,Índice general,galicia
+2023-09-01,109.56233333333331,1,Índice general,galicia
+2023-10-01,109.8866,1,Índice general,galicia
+2023-11-01,109.7720909090909,1,Índice general,galicia
+2023-12-01,108.73516666666666,1,Índice general,galicia
+2023-01-01,88.826,1,Índice general corregido,galicia
+2023-02-01,91.5435,1,Índice general corregido,galicia
+2023-03-01,92.14733333333334,1,Índice general corregido,galicia
+2023-04-01,91.8635,1,Índice general corregido,galicia
+2023-05-01,91.8814,1,Índice general corregido,galicia
+2023-06-01,91.50266666666668,1,Índice general corregido,galicia
+2023-07-01,90.58757142857144,1,Índice general corregido,galicia
+2023-08-01,88.527375,1,Índice general corregido,galicia
+2023-09-01,88.63877777777778,1,Índice general corregido,galicia
+2023-10-01,88.8203,1,Índice general corregido,galicia
+2023-11-01,89.34927272727272,1,Índice general corregido,galicia
+2023-12-01,89.02183333333333,1,Índice general corregido,galicia
+2023-01-01,-9.126777209997565,1,Annual variation,galicia
+2023-02-01,-8.469624609802299,1,Annual variation,galicia
+2023-03-01,-6.426065898583688,1,Annual variation,galicia
+2023-04-01,-6.28280125178313,1,Annual variation,galicia
+2023-05-01,-6.917824607883598,1,Annual variation,galicia
+2023-06-01,-7.381643971047261,1,Annual variation,galicia
+2023-07-01,-7.422434540201914,1,Annual variation,galicia
+2023-08-01,-7.276341737526266,1,Annual variation,galicia
+2023-09-01,-6.993715390078777,1,Annual variation,galicia
+2023-10-01,-6.379973265198509,1,Annual variation,galicia
+2023-11-01,-5.742666229528692,1,Annual variation,galicia
+2023-12-01,-5.393179404077009,1,Annual variation,galicia
+2023-01-01,-9.582654723127035,1,Corrected annual variation,galicia
+2023-02-01,-8.81712825774064,1,Corrected annual variation,galicia
+2023-03-01,-7.161328022675515,1,Corrected annual variation,galicia
+2023-04-01,-7.139878748670098,1,Corrected annual variation,galicia
+2023-05-01,-7.130280444490253,1,Corrected annual variation,galicia
+2023-06-01,-7.411735937196937,1,Corrected annual variation,galicia
+2023-07-01,-7.130084051335882,1,Corrected annual variation,galicia
+2023-08-01,-7.176765717401313,1,Corrected annual variation,galicia
+2023-09-01,-6.76908153844354,1,Corrected annual variation,galicia
+2023-10-01,-6.273591127572784,1,Corrected annual variation,galicia
+2023-11-01,-5.595449411005307,1,Corrected annual variation,galicia
+2023-12-01,-5.167629257310836,1,Corrected annual variation,galicia
+2023-01-01,104.566,1,Índice general,la rioja
+2023-02-01,102.9195,1,Índice general,la rioja
+2023-03-01,106.261,1,Índice general,la rioja
+2023-04-01,105.93675,1,Índice general,la rioja
+2023-05-01,107.3688,1,Índice general,la rioja
+2023-06-01,108.359,1,Índice general,la rioja
+2023-07-01,109.68642857142856,1,Índice general,la rioja
+2023-08-01,109.318875,1,Índice general,la rioja
+2023-09-01,109.56233333333331,1,Índice general,la rioja
+2023-10-01,109.8866,1,Índice general,la rioja
+2023-11-01,109.7720909090909,1,Índice general,la rioja
+2023-12-01,108.73516666666666,1,Índice general,la rioja
+2023-01-01,88.826,1,Índice general corregido,la rioja
+2023-02-01,91.5435,1,Índice general corregido,la rioja
+2023-03-01,92.14733333333334,1,Índice general corregido,la rioja
+2023-04-01,91.8635,1,Índice general corregido,la rioja
+2023-05-01,91.8814,1,Índice general corregido,la rioja
+2023-06-01,91.50266666666668,1,Índice general corregido,la rioja
+2023-07-01,90.58757142857144,1,Índice general corregido,la rioja
+2023-08-01,88.527375,1,Índice general corregido,la rioja
+2023-09-01,88.63877777777778,1,Índice general corregido,la rioja
+2023-10-01,88.8203,1,Índice general corregido,la rioja
+2023-11-01,89.34927272727272,1,Índice general corregido,la rioja
+2023-12-01,89.02183333333333,1,Índice general corregido,la rioja
+2023-01-01,-9.126777209997565,1,Annual variation,la rioja
+2023-02-01,-8.469624609802299,1,Annual variation,la rioja
+2023-03-01,-6.426065898583688,1,Annual variation,la rioja
+2023-04-01,-6.28280125178313,1,Annual variation,la rioja
+2023-05-01,-6.917824607883598,1,Annual variation,la rioja
+2023-06-01,-7.381643971047261,1,Annual variation,la rioja
+2023-07-01,-7.422434540201914,1,Annual variation,la rioja
+2023-08-01,-7.276341737526266,1,Annual variation,la rioja
+2023-09-01,-6.993715390078777,1,Annual variation,la rioja
+2023-10-01,-6.379973265198509,1,Annual variation,la rioja
+2023-11-01,-5.742666229528692,1,Annual variation,la rioja
+2023-12-01,-5.393179404077009,1,Annual variation,la rioja
+2023-01-01,-9.582654723127035,1,Corrected annual variation,la rioja
+2023-02-01,-8.81712825774064,1,Corrected annual variation,la rioja
+2023-03-01,-7.161328022675515,1,Corrected annual variation,la rioja
+2023-04-01,-7.139878748670098,1,Corrected annual variation,la rioja
+2023-05-01,-7.130280444490253,1,Corrected annual variation,la rioja
+2023-06-01,-7.411735937196937,1,Corrected annual variation,la rioja
+2023-07-01,-7.130084051335882,1,Corrected annual variation,la rioja
+2023-08-01,-7.176765717401313,1,Corrected annual variation,la rioja
+2023-09-01,-6.76908153844354,1,Corrected annual variation,la rioja
+2023-10-01,-6.273591127572784,1,Corrected annual variation,la rioja
+2023-11-01,-5.595449411005307,1,Corrected annual variation,la rioja
+2023-12-01,-5.167629257310836,1,Corrected annual variation,la rioja
+2023-01-01,104.566,1,Índice general,region de murcia
+2023-02-01,102.9195,1,Índice general,region de murcia
+2023-03-01,106.261,1,Índice general,region de murcia
+2023-04-01,105.93675,1,Índice general,region de murcia
+2023-05-01,107.3688,1,Índice general,region de murcia
+2023-06-01,108.359,1,Índice general,region de murcia
+2023-07-01,109.68642857142856,1,Índice general,region de murcia
+2023-08-01,109.318875,1,Índice general,region de murcia
+2023-09-01,109.56233333333331,1,Índice general,region de murcia
+2023-10-01,109.8866,1,Índice general,region de murcia
+2023-11-01,109.7720909090909,1,Índice general,region de murcia
+2023-12-01,108.73516666666666,1,Índice general,region de murcia
+2023-01-01,88.826,1,Índice general corregido,region de murcia
+2023-02-01,91.5435,1,Índice general corregido,region de murcia
+2023-03-01,92.14733333333334,1,Índice general corregido,region de murcia
+2023-04-01,91.8635,1,Índice general corregido,region de murcia
+2023-05-01,91.8814,1,Índice general corregido,region de murcia
+2023-06-01,91.50266666666668,1,Índice general corregido,region de murcia
+2023-07-01,90.58757142857144,1,Índice general corregido,region de murcia
+2023-08-01,88.527375,1,Índice general corregido,region de murcia
+2023-09-01,88.63877777777778,1,Índice general corregido,region de murcia
+2023-10-01,88.8203,1,Índice general corregido,region de murcia
+2023-11-01,89.34927272727272,1,Índice general corregido,region de murcia
+2023-12-01,89.02183333333333,1,Índice general corregido,region de murcia
+2023-01-01,-9.126777209997565,1,Annual variation,region de murcia
+2023-02-01,-8.469624609802299,1,Annual variation,region de murcia
+2023-03-01,-6.426065898583688,1,Annual variation,region de murcia
+2023-04-01,-6.28280125178313,1,Annual variation,region de murcia
+2023-05-01,-6.917824607883598,1,Annual variation,region de murcia
+2023-06-01,-7.381643971047261,1,Annual variation,region de murcia
+2023-07-01,-7.422434540201914,1,Annual variation,region de murcia
+2023-08-01,-7.276341737526266,1,Annual variation,region de murcia
+2023-09-01,-6.993715390078777,1,Annual variation,region de murcia
+2023-10-01,-6.379973265198509,1,Annual variation,region de murcia
+2023-11-01,-5.742666229528692,1,Annual variation,region de murcia
+2023-12-01,-5.393179404077009,1,Annual variation,region de murcia
+2023-01-01,-9.582654723127035,1,Corrected annual variation,region de murcia
+2023-02-01,-8.81712825774064,1,Corrected annual variation,region de murcia
+2023-03-01,-7.161328022675515,1,Corrected annual variation,region de murcia
+2023-04-01,-7.139878748670098,1,Corrected annual variation,region de murcia
+2023-05-01,-7.130280444490253,1,Corrected annual variation,region de murcia
+2023-06-01,-7.411735937196937,1,Corrected annual variation,region de murcia
+2023-07-01,-7.130084051335882,1,Corrected annual variation,region de murcia
+2023-08-01,-7.176765717401313,1,Corrected annual variation,region de murcia
+2023-09-01,-6.76908153844354,1,Corrected annual variation,region de murcia
+2023-10-01,-6.273591127572784,1,Corrected annual variation,region de murcia
+2023-11-01,-5.595449411005307,1,Corrected annual variation,region de murcia
+2023-12-01,-5.167629257310836,1,Corrected annual variation,region de murcia
