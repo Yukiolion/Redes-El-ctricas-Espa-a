@@ -1,0 +1,961 @@
+fecha,valor,porcentaje,indicator,region
+2019-01-01,152.99325000000002,1,Índice servicios,peninsular
+2019-02-01,152.87699999999998,1,Índice servicios,peninsular
+2019-03-01,154.0055,1,Índice servicios,peninsular
+2019-04-01,153.57258333333334,1,Índice servicios,peninsular
+2019-05-01,153.98658333333333,1,Índice servicios,peninsular
+2019-06-01,155.06758333333332,1,Índice servicios,peninsular
+2019-07-01,155.80425,1,Índice servicios,peninsular
+2019-08-01,156.00133333333332,1,Índice servicios,peninsular
+2019-09-01,155.76058333333333,1,Índice servicios,peninsular
+2019-10-01,156.71966666666663,1,Índice servicios,peninsular
+2019-11-01,157.76175,1,Índice servicios,peninsular
+2019-12-01,158.66575,1,Índice servicios,peninsular
+2019-01-01,124.82216666666666,1,Índice servicios corregido,peninsular
+2019-02-01,124.61216666666668,1,Índice servicios corregido,peninsular
+2019-03-01,125.30725,1,Índice servicios corregido,peninsular
+2019-04-01,125.03841666666666,1,Índice servicios corregido,peninsular
+2019-05-01,124.8935,1,Índice servicios corregido,peninsular
+2019-06-01,125.5695,1,Índice servicios corregido,peninsular
+2019-07-01,125.82833333333332,1,Índice servicios corregido,peninsular
+2019-08-01,126.09516666666666,1,Índice servicios corregido,peninsular
+2019-09-01,126.326,1,Índice servicios corregido,peninsular
+2019-10-01,126.87633333333332,1,Índice servicios corregido,peninsular
+2019-11-01,127.74008333333336,1,Índice servicios corregido,peninsular
+2019-12-01,128.52533333333335,1,Índice servicios corregido,peninsular
+2019-01-01,-2.149605783021544,1,Annual variation,peninsular
+2019-02-01,-2.7154470682441296,1,Annual variation,peninsular
+2019-03-01,-1.955670478834985,1,Annual variation,peninsular
+2019-04-01,-2.0306017645295,1,Annual variation,peninsular
+2019-05-01,-1.5813337636862037,1,Annual variation,peninsular
+2019-06-01,-0.031481731194367,1,Annual variation,peninsular
+2019-07-01,0.7713411019004499,1,Annual variation,peninsular
+2019-08-01,0.8003110136859868,1,Annual variation,peninsular
+2019-09-01,0.4578070943438427,1,Annual variation,peninsular
+2019-10-01,1.21214371784708,1,Annual variation,peninsular
+2019-11-01,2.1781264420858517,1,Annual variation,peninsular
+2019-12-01,3.1079314501586075,1,Annual variation,peninsular
+2019-01-01,-0.3420476418273702,1,Corrected annual variation,peninsular
+2019-02-01,-1.139312392939484,1,Corrected annual variation,peninsular
+2019-03-01,-0.8624258950610821,1,Corrected annual variation,peninsular
+2019-04-01,-1.0490197630126676,1,Corrected annual variation,peninsular
+2019-05-01,-1.5256823190371267,1,Corrected annual variation,peninsular
+2019-06-01,-0.7186338116977824,1,Corrected annual variation,peninsular
+2019-07-01,-0.2729723071476801,1,Corrected annual variation,peninsular
+2019-08-01,0.0351709958283863,1,Corrected annual variation,peninsular
+2019-09-01,0.3572289204483813,1,Corrected annual variation,peninsular
+2019-10-01,0.4521453647677509,1,Corrected annual variation,peninsular
+2019-11-01,1.3209094868983289,1,Corrected annual variation,peninsular
+2019-12-01,2.315713776795365,1,Corrected annual variation,peninsular
+2019-01-01,152.99325000000002,1,Índice servicios,canarias
+2019-02-01,152.87699999999998,1,Índice servicios,canarias
+2019-03-01,154.0055,1,Índice servicios,canarias
+2019-04-01,153.57258333333334,1,Índice servicios,canarias
+2019-05-01,153.98658333333333,1,Índice servicios,canarias
+2019-06-01,155.06758333333332,1,Índice servicios,canarias
+2019-07-01,155.80425,1,Índice servicios,canarias
+2019-08-01,156.00133333333332,1,Índice servicios,canarias
+2019-09-01,155.76058333333333,1,Índice servicios,canarias
+2019-10-01,156.71966666666663,1,Índice servicios,canarias
+2019-11-01,157.76175,1,Índice servicios,canarias
+2019-12-01,158.66575,1,Índice servicios,canarias
+2019-01-01,124.82216666666666,1,Índice servicios corregido,canarias
+2019-02-01,124.61216666666668,1,Índice servicios corregido,canarias
+2019-03-01,125.30725,1,Índice servicios corregido,canarias
+2019-04-01,125.03841666666666,1,Índice servicios corregido,canarias
+2019-05-01,124.8935,1,Índice servicios corregido,canarias
+2019-06-01,125.5695,1,Índice servicios corregido,canarias
+2019-07-01,125.82833333333332,1,Índice servicios corregido,canarias
+2019-08-01,126.09516666666666,1,Índice servicios corregido,canarias
+2019-09-01,126.326,1,Índice servicios corregido,canarias
+2019-10-01,126.87633333333332,1,Índice servicios corregido,canarias
+2019-11-01,127.74008333333336,1,Índice servicios corregido,canarias
+2019-12-01,128.52533333333335,1,Índice servicios corregido,canarias
+2019-01-01,-2.149605783021544,1,Annual variation,canarias
+2019-02-01,-2.7154470682441296,1,Annual variation,canarias
+2019-03-01,-1.955670478834985,1,Annual variation,canarias
+2019-04-01,-2.0306017645295,1,Annual variation,canarias
+2019-05-01,-1.5813337636862037,1,Annual variation,canarias
+2019-06-01,-0.031481731194367,1,Annual variation,canarias
+2019-07-01,0.7713411019004499,1,Annual variation,canarias
+2019-08-01,0.8003110136859868,1,Annual variation,canarias
+2019-09-01,0.4578070943438427,1,Annual variation,canarias
+2019-10-01,1.21214371784708,1,Annual variation,canarias
+2019-11-01,2.1781264420858517,1,Annual variation,canarias
+2019-12-01,3.1079314501586075,1,Annual variation,canarias
+2019-01-01,-0.3420476418273702,1,Corrected annual variation,canarias
+2019-02-01,-1.139312392939484,1,Corrected annual variation,canarias
+2019-03-01,-0.8624258950610821,1,Corrected annual variation,canarias
+2019-04-01,-1.0490197630126676,1,Corrected annual variation,canarias
+2019-05-01,-1.5256823190371267,1,Corrected annual variation,canarias
+2019-06-01,-0.7186338116977824,1,Corrected annual variation,canarias
+2019-07-01,-0.2729723071476801,1,Corrected annual variation,canarias
+2019-08-01,0.0351709958283863,1,Corrected annual variation,canarias
+2019-09-01,0.3572289204483813,1,Corrected annual variation,canarias
+2019-10-01,0.4521453647677509,1,Corrected annual variation,canarias
+2019-11-01,1.3209094868983289,1,Corrected annual variation,canarias
+2019-12-01,2.315713776795365,1,Corrected annual variation,canarias
+2019-01-01,152.99325000000002,1,Índice servicios,baleares
+2019-02-01,152.87699999999998,1,Índice servicios,baleares
+2019-03-01,154.0055,1,Índice servicios,baleares
+2019-04-01,153.57258333333334,1,Índice servicios,baleares
+2019-05-01,153.98658333333333,1,Índice servicios,baleares
+2019-06-01,155.06758333333332,1,Índice servicios,baleares
+2019-07-01,155.80425,1,Índice servicios,baleares
+2019-08-01,156.00133333333332,1,Índice servicios,baleares
+2019-09-01,155.76058333333333,1,Índice servicios,baleares
+2019-10-01,156.71966666666663,1,Índice servicios,baleares
+2019-11-01,157.76175,1,Índice servicios,baleares
+2019-12-01,158.66575,1,Índice servicios,baleares
+2019-01-01,124.82216666666666,1,Índice servicios corregido,baleares
+2019-02-01,124.61216666666668,1,Índice servicios corregido,baleares
+2019-03-01,125.30725,1,Índice servicios corregido,baleares
+2019-04-01,125.03841666666666,1,Índice servicios corregido,baleares
+2019-05-01,124.8935,1,Índice servicios corregido,baleares
+2019-06-01,125.5695,1,Índice servicios corregido,baleares
+2019-07-01,125.82833333333332,1,Índice servicios corregido,baleares
+2019-08-01,126.09516666666666,1,Índice servicios corregido,baleares
+2019-09-01,126.326,1,Índice servicios corregido,baleares
+2019-10-01,126.87633333333332,1,Índice servicios corregido,baleares
+2019-11-01,127.74008333333336,1,Índice servicios corregido,baleares
+2019-12-01,128.52533333333335,1,Índice servicios corregido,baleares
+2019-01-01,-2.149605783021544,1,Annual variation,baleares
+2019-02-01,-2.7154470682441296,1,Annual variation,baleares
+2019-03-01,-1.955670478834985,1,Annual variation,baleares
+2019-04-01,-2.0306017645295,1,Annual variation,baleares
+2019-05-01,-1.5813337636862037,1,Annual variation,baleares
+2019-06-01,-0.031481731194367,1,Annual variation,baleares
+2019-07-01,0.7713411019004499,1,Annual variation,baleares
+2019-08-01,0.8003110136859868,1,Annual variation,baleares
+2019-09-01,0.4578070943438427,1,Annual variation,baleares
+2019-10-01,1.21214371784708,1,Annual variation,baleares
+2019-11-01,2.1781264420858517,1,Annual variation,baleares
+2019-12-01,3.1079314501586075,1,Annual variation,baleares
+2019-01-01,-0.3420476418273702,1,Corrected annual variation,baleares
+2019-02-01,-1.139312392939484,1,Corrected annual variation,baleares
+2019-03-01,-0.8624258950610821,1,Corrected annual variation,baleares
+2019-04-01,-1.0490197630126676,1,Corrected annual variation,baleares
+2019-05-01,-1.5256823190371267,1,Corrected annual variation,baleares
+2019-06-01,-0.7186338116977824,1,Corrected annual variation,baleares
+2019-07-01,-0.2729723071476801,1,Corrected annual variation,baleares
+2019-08-01,0.0351709958283863,1,Corrected annual variation,baleares
+2019-09-01,0.3572289204483813,1,Corrected annual variation,baleares
+2019-10-01,0.4521453647677509,1,Corrected annual variation,baleares
+2019-11-01,1.3209094868983289,1,Corrected annual variation,baleares
+2019-12-01,2.315713776795365,1,Corrected annual variation,baleares
+2019-01-01,152.99325000000002,1,Índice servicios,ceuta
+2019-02-01,152.87699999999998,1,Índice servicios,ceuta
+2019-03-01,154.0055,1,Índice servicios,ceuta
+2019-04-01,153.57258333333334,1,Índice servicios,ceuta
+2019-05-01,153.98658333333333,1,Índice servicios,ceuta
+2019-06-01,155.06758333333332,1,Índice servicios,ceuta
+2019-07-01,155.80425,1,Índice servicios,ceuta
+2019-08-01,156.00133333333332,1,Índice servicios,ceuta
+2019-09-01,155.76058333333333,1,Índice servicios,ceuta
+2019-10-01,156.71966666666663,1,Índice servicios,ceuta
+2019-11-01,157.76175,1,Índice servicios,ceuta
+2019-12-01,158.66575,1,Índice servicios,ceuta
+2019-01-01,124.82216666666666,1,Índice servicios corregido,ceuta
+2019-02-01,124.61216666666668,1,Índice servicios corregido,ceuta
+2019-03-01,125.30725,1,Índice servicios corregido,ceuta
+2019-04-01,125.03841666666666,1,Índice servicios corregido,ceuta
+2019-05-01,124.8935,1,Índice servicios corregido,ceuta
+2019-06-01,125.5695,1,Índice servicios corregido,ceuta
+2019-07-01,125.82833333333332,1,Índice servicios corregido,ceuta
+2019-08-01,126.09516666666666,1,Índice servicios corregido,ceuta
+2019-09-01,126.326,1,Índice servicios corregido,ceuta
+2019-10-01,126.87633333333332,1,Índice servicios corregido,ceuta
+2019-11-01,127.74008333333336,1,Índice servicios corregido,ceuta
+2019-12-01,128.52533333333335,1,Índice servicios corregido,ceuta
+2019-01-01,-2.149605783021544,1,Annual variation,ceuta
+2019-02-01,-2.7154470682441296,1,Annual variation,ceuta
+2019-03-01,-1.955670478834985,1,Annual variation,ceuta
+2019-04-01,-2.0306017645295,1,Annual variation,ceuta
+2019-05-01,-1.5813337636862037,1,Annual variation,ceuta
+2019-06-01,-0.031481731194367,1,Annual variation,ceuta
+2019-07-01,0.7713411019004499,1,Annual variation,ceuta
+2019-08-01,0.8003110136859868,1,Annual variation,ceuta
+2019-09-01,0.4578070943438427,1,Annual variation,ceuta
+2019-10-01,1.21214371784708,1,Annual variation,ceuta
+2019-11-01,2.1781264420858517,1,Annual variation,ceuta
+2019-12-01,3.1079314501586075,1,Annual variation,ceuta
+2019-01-01,-0.3420476418273702,1,Corrected annual variation,ceuta
+2019-02-01,-1.139312392939484,1,Corrected annual variation,ceuta
+2019-03-01,-0.8624258950610821,1,Corrected annual variation,ceuta
+2019-04-01,-1.0490197630126676,1,Corrected annual variation,ceuta
+2019-05-01,-1.5256823190371267,1,Corrected annual variation,ceuta
+2019-06-01,-0.7186338116977824,1,Corrected annual variation,ceuta
+2019-07-01,-0.2729723071476801,1,Corrected annual variation,ceuta
+2019-08-01,0.0351709958283863,1,Corrected annual variation,ceuta
+2019-09-01,0.3572289204483813,1,Corrected annual variation,ceuta
+2019-10-01,0.4521453647677509,1,Corrected annual variation,ceuta
+2019-11-01,1.3209094868983289,1,Corrected annual variation,ceuta
+2019-12-01,2.315713776795365,1,Corrected annual variation,ceuta
+2019-01-01,152.99325000000002,1,Índice servicios,melilla
+2019-02-01,152.87699999999998,1,Índice servicios,melilla
+2019-03-01,154.0055,1,Índice servicios,melilla
+2019-04-01,153.57258333333334,1,Índice servicios,melilla
+2019-05-01,153.98658333333333,1,Índice servicios,melilla
+2019-06-01,155.06758333333332,1,Índice servicios,melilla
+2019-07-01,155.80425,1,Índice servicios,melilla
+2019-08-01,156.00133333333332,1,Índice servicios,melilla
+2019-09-01,155.76058333333333,1,Índice servicios,melilla
+2019-10-01,156.71966666666663,1,Índice servicios,melilla
+2019-11-01,157.76175,1,Índice servicios,melilla
+2019-12-01,158.66575,1,Índice servicios,melilla
+2019-01-01,124.82216666666666,1,Índice servicios corregido,melilla
+2019-02-01,124.61216666666668,1,Índice servicios corregido,melilla
+2019-03-01,125.30725,1,Índice servicios corregido,melilla
+2019-04-01,125.03841666666666,1,Índice servicios corregido,melilla
+2019-05-01,124.8935,1,Índice servicios corregido,melilla
+2019-06-01,125.5695,1,Índice servicios corregido,melilla
+2019-07-01,125.82833333333332,1,Índice servicios corregido,melilla
+2019-08-01,126.09516666666666,1,Índice servicios corregido,melilla
+2019-09-01,126.326,1,Índice servicios corregido,melilla
+2019-10-01,126.87633333333332,1,Índice servicios corregido,melilla
+2019-11-01,127.74008333333336,1,Índice servicios corregido,melilla
+2019-12-01,128.52533333333335,1,Índice servicios corregido,melilla
+2019-01-01,-2.149605783021544,1,Annual variation,melilla
+2019-02-01,-2.7154470682441296,1,Annual variation,melilla
+2019-03-01,-1.955670478834985,1,Annual variation,melilla
+2019-04-01,-2.0306017645295,1,Annual variation,melilla
+2019-05-01,-1.5813337636862037,1,Annual variation,melilla
+2019-06-01,-0.031481731194367,1,Annual variation,melilla
+2019-07-01,0.7713411019004499,1,Annual variation,melilla
+2019-08-01,0.8003110136859868,1,Annual variation,melilla
+2019-09-01,0.4578070943438427,1,Annual variation,melilla
+2019-10-01,1.21214371784708,1,Annual variation,melilla
+2019-11-01,2.1781264420858517,1,Annual variation,melilla
+2019-12-01,3.1079314501586075,1,Annual variation,melilla
+2019-01-01,-0.3420476418273702,1,Corrected annual variation,melilla
+2019-02-01,-1.139312392939484,1,Corrected annual variation,melilla
+2019-03-01,-0.8624258950610821,1,Corrected annual variation,melilla
+2019-04-01,-1.0490197630126676,1,Corrected annual variation,melilla
+2019-05-01,-1.5256823190371267,1,Corrected annual variation,melilla
+2019-06-01,-0.7186338116977824,1,Corrected annual variation,melilla
+2019-07-01,-0.2729723071476801,1,Corrected annual variation,melilla
+2019-08-01,0.0351709958283863,1,Corrected annual variation,melilla
+2019-09-01,0.3572289204483813,1,Corrected annual variation,melilla
+2019-10-01,0.4521453647677509,1,Corrected annual variation,melilla
+2019-11-01,1.3209094868983289,1,Corrected annual variation,melilla
+2019-12-01,2.315713776795365,1,Corrected annual variation,melilla
+2019-01-01,152.99325000000002,1,Índice servicios,andalucia
+2019-02-01,152.87699999999998,1,Índice servicios,andalucia
+2019-03-01,154.0055,1,Índice servicios,andalucia
+2019-04-01,153.57258333333334,1,Índice servicios,andalucia
+2019-05-01,153.98658333333333,1,Índice servicios,andalucia
+2019-06-01,155.06758333333332,1,Índice servicios,andalucia
+2019-07-01,155.80425,1,Índice servicios,andalucia
+2019-08-01,156.00133333333332,1,Índice servicios,andalucia
+2019-09-01,155.76058333333333,1,Índice servicios,andalucia
+2019-10-01,156.71966666666663,1,Índice servicios,andalucia
+2019-11-01,157.76175,1,Índice servicios,andalucia
+2019-12-01,158.66575,1,Índice servicios,andalucia
+2019-01-01,124.82216666666666,1,Índice servicios corregido,andalucia
+2019-02-01,124.61216666666668,1,Índice servicios corregido,andalucia
+2019-03-01,125.30725,1,Índice servicios corregido,andalucia
+2019-04-01,125.03841666666666,1,Índice servicios corregido,andalucia
+2019-05-01,124.8935,1,Índice servicios corregido,andalucia
+2019-06-01,125.5695,1,Índice servicios corregido,andalucia
+2019-07-01,125.82833333333332,1,Índice servicios corregido,andalucia
+2019-08-01,126.09516666666666,1,Índice servicios corregido,andalucia
+2019-09-01,126.326,1,Índice servicios corregido,andalucia
+2019-10-01,126.87633333333332,1,Índice servicios corregido,andalucia
+2019-11-01,127.74008333333336,1,Índice servicios corregido,andalucia
+2019-12-01,128.52533333333335,1,Índice servicios corregido,andalucia
+2019-01-01,-2.149605783021544,1,Annual variation,andalucia
+2019-02-01,-2.7154470682441296,1,Annual variation,andalucia
+2019-03-01,-1.955670478834985,1,Annual variation,andalucia
+2019-04-01,-2.0306017645295,1,Annual variation,andalucia
+2019-05-01,-1.5813337636862037,1,Annual variation,andalucia
+2019-06-01,-0.031481731194367,1,Annual variation,andalucia
+2019-07-01,0.7713411019004499,1,Annual variation,andalucia
+2019-08-01,0.8003110136859868,1,Annual variation,andalucia
+2019-09-01,0.4578070943438427,1,Annual variation,andalucia
+2019-10-01,1.21214371784708,1,Annual variation,andalucia
+2019-11-01,2.1781264420858517,1,Annual variation,andalucia
+2019-12-01,3.1079314501586075,1,Annual variation,andalucia
+2019-01-01,-0.3420476418273702,1,Corrected annual variation,andalucia
+2019-02-01,-1.139312392939484,1,Corrected annual variation,andalucia
+2019-03-01,-0.8624258950610821,1,Corrected annual variation,andalucia
+2019-04-01,-1.0490197630126676,1,Corrected annual variation,andalucia
+2019-05-01,-1.5256823190371267,1,Corrected annual variation,andalucia
+2019-06-01,-0.7186338116977824,1,Corrected annual variation,andalucia
+2019-07-01,-0.2729723071476801,1,Corrected annual variation,andalucia
+2019-08-01,0.0351709958283863,1,Corrected annual variation,andalucia
+2019-09-01,0.3572289204483813,1,Corrected annual variation,andalucia
+2019-10-01,0.4521453647677509,1,Corrected annual variation,andalucia
+2019-11-01,1.3209094868983289,1,Corrected annual variation,andalucia
+2019-12-01,2.315713776795365,1,Corrected annual variation,andalucia
+2019-01-01,152.99325000000002,1,Índice servicios,aragon
+2019-02-01,152.87699999999998,1,Índice servicios,aragon
+2019-03-01,154.0055,1,Índice servicios,aragon
+2019-04-01,153.57258333333334,1,Índice servicios,aragon
+2019-05-01,153.98658333333333,1,Índice servicios,aragon
+2019-06-01,155.06758333333332,1,Índice servicios,aragon
+2019-07-01,155.80425,1,Índice servicios,aragon
+2019-08-01,156.00133333333332,1,Índice servicios,aragon
+2019-09-01,155.76058333333333,1,Índice servicios,aragon
+2019-10-01,156.71966666666663,1,Índice servicios,aragon
+2019-11-01,157.76175,1,Índice servicios,aragon
+2019-12-01,158.66575,1,Índice servicios,aragon
+2019-01-01,124.82216666666666,1,Índice servicios corregido,aragon
+2019-02-01,124.61216666666668,1,Índice servicios corregido,aragon
+2019-03-01,125.30725,1,Índice servicios corregido,aragon
+2019-04-01,125.03841666666666,1,Índice servicios corregido,aragon
+2019-05-01,124.8935,1,Índice servicios corregido,aragon
+2019-06-01,125.5695,1,Índice servicios corregido,aragon
+2019-07-01,125.82833333333332,1,Índice servicios corregido,aragon
+2019-08-01,126.09516666666666,1,Índice servicios corregido,aragon
+2019-09-01,126.326,1,Índice servicios corregido,aragon
+2019-10-01,126.87633333333332,1,Índice servicios corregido,aragon
+2019-11-01,127.74008333333336,1,Índice servicios corregido,aragon
+2019-12-01,128.52533333333335,1,Índice servicios corregido,aragon
+2019-01-01,-2.149605783021544,1,Annual variation,aragon
+2019-02-01,-2.7154470682441296,1,Annual variation,aragon
+2019-03-01,-1.955670478834985,1,Annual variation,aragon
+2019-04-01,-2.0306017645295,1,Annual variation,aragon
+2019-05-01,-1.5813337636862037,1,Annual variation,aragon
+2019-06-01,-0.031481731194367,1,Annual variation,aragon
+2019-07-01,0.7713411019004499,1,Annual variation,aragon
+2019-08-01,0.8003110136859868,1,Annual variation,aragon
+2019-09-01,0.4578070943438427,1,Annual variation,aragon
+2019-10-01,1.21214371784708,1,Annual variation,aragon
+2019-11-01,2.1781264420858517,1,Annual variation,aragon
+2019-12-01,3.1079314501586075,1,Annual variation,aragon
+2019-01-01,-0.3420476418273702,1,Corrected annual variation,aragon
+2019-02-01,-1.139312392939484,1,Corrected annual variation,aragon
+2019-03-01,-0.8624258950610821,1,Corrected annual variation,aragon
+2019-04-01,-1.0490197630126676,1,Corrected annual variation,aragon
+2019-05-01,-1.5256823190371267,1,Corrected annual variation,aragon
+2019-06-01,-0.7186338116977824,1,Corrected annual variation,aragon
+2019-07-01,-0.2729723071476801,1,Corrected annual variation,aragon
+2019-08-01,0.0351709958283863,1,Corrected annual variation,aragon
+2019-09-01,0.3572289204483813,1,Corrected annual variation,aragon
+2019-10-01,0.4521453647677509,1,Corrected annual variation,aragon
+2019-11-01,1.3209094868983289,1,Corrected annual variation,aragon
+2019-12-01,2.315713776795365,1,Corrected annual variation,aragon
+2019-01-01,152.99325000000002,1,Índice servicios,cantabria
+2019-02-01,152.87699999999998,1,Índice servicios,cantabria
+2019-03-01,154.0055,1,Índice servicios,cantabria
+2019-04-01,153.57258333333334,1,Índice servicios,cantabria
+2019-05-01,153.98658333333333,1,Índice servicios,cantabria
+2019-06-01,155.06758333333332,1,Índice servicios,cantabria
+2019-07-01,155.80425,1,Índice servicios,cantabria
+2019-08-01,156.00133333333332,1,Índice servicios,cantabria
+2019-09-01,155.76058333333333,1,Índice servicios,cantabria
+2019-10-01,156.71966666666663,1,Índice servicios,cantabria
+2019-11-01,157.76175,1,Índice servicios,cantabria
+2019-12-01,158.66575,1,Índice servicios,cantabria
+2019-01-01,124.82216666666666,1,Índice servicios corregido,cantabria
+2019-02-01,124.61216666666668,1,Índice servicios corregido,cantabria
+2019-03-01,125.30725,1,Índice servicios corregido,cantabria
+2019-04-01,125.03841666666666,1,Índice servicios corregido,cantabria
+2019-05-01,124.8935,1,Índice servicios corregido,cantabria
+2019-06-01,125.5695,1,Índice servicios corregido,cantabria
+2019-07-01,125.82833333333332,1,Índice servicios corregido,cantabria
+2019-08-01,126.09516666666666,1,Índice servicios corregido,cantabria
+2019-09-01,126.326,1,Índice servicios corregido,cantabria
+2019-10-01,126.87633333333332,1,Índice servicios corregido,cantabria
+2019-11-01,127.74008333333336,1,Índice servicios corregido,cantabria
+2019-12-01,128.52533333333335,1,Índice servicios corregido,cantabria
+2019-01-01,-2.149605783021544,1,Annual variation,cantabria
+2019-02-01,-2.7154470682441296,1,Annual variation,cantabria
+2019-03-01,-1.955670478834985,1,Annual variation,cantabria
+2019-04-01,-2.0306017645295,1,Annual variation,cantabria
+2019-05-01,-1.5813337636862037,1,Annual variation,cantabria
+2019-06-01,-0.031481731194367,1,Annual variation,cantabria
+2019-07-01,0.7713411019004499,1,Annual variation,cantabria
+2019-08-01,0.8003110136859868,1,Annual variation,cantabria
+2019-09-01,0.4578070943438427,1,Annual variation,cantabria
+2019-10-01,1.21214371784708,1,Annual variation,cantabria
+2019-11-01,2.1781264420858517,1,Annual variation,cantabria
+2019-12-01,3.1079314501586075,1,Annual variation,cantabria
+2019-01-01,-0.3420476418273702,1,Corrected annual variation,cantabria
+2019-02-01,-1.139312392939484,1,Corrected annual variation,cantabria
+2019-03-01,-0.8624258950610821,1,Corrected annual variation,cantabria
+2019-04-01,-1.0490197630126676,1,Corrected annual variation,cantabria
+2019-05-01,-1.5256823190371267,1,Corrected annual variation,cantabria
+2019-06-01,-0.7186338116977824,1,Corrected annual variation,cantabria
+2019-07-01,-0.2729723071476801,1,Corrected annual variation,cantabria
+2019-08-01,0.0351709958283863,1,Corrected annual variation,cantabria
+2019-09-01,0.3572289204483813,1,Corrected annual variation,cantabria
+2019-10-01,0.4521453647677509,1,Corrected annual variation,cantabria
+2019-11-01,1.3209094868983289,1,Corrected annual variation,cantabria
+2019-12-01,2.315713776795365,1,Corrected annual variation,cantabria
+2019-01-01,152.99325000000002,1,Índice servicios,castilla la mancha
+2019-02-01,152.87699999999998,1,Índice servicios,castilla la mancha
+2019-03-01,154.0055,1,Índice servicios,castilla la mancha
+2019-04-01,153.57258333333334,1,Índice servicios,castilla la mancha
+2019-05-01,153.98658333333333,1,Índice servicios,castilla la mancha
+2019-06-01,155.06758333333332,1,Índice servicios,castilla la mancha
+2019-07-01,155.80425,1,Índice servicios,castilla la mancha
+2019-08-01,156.00133333333332,1,Índice servicios,castilla la mancha
+2019-09-01,155.76058333333333,1,Índice servicios,castilla la mancha
+2019-10-01,156.71966666666663,1,Índice servicios,castilla la mancha
+2019-11-01,157.76175,1,Índice servicios,castilla la mancha
+2019-12-01,158.66575,1,Índice servicios,castilla la mancha
+2019-01-01,124.82216666666666,1,Índice servicios corregido,castilla la mancha
+2019-02-01,124.61216666666668,1,Índice servicios corregido,castilla la mancha
+2019-03-01,125.30725,1,Índice servicios corregido,castilla la mancha
+2019-04-01,125.03841666666666,1,Índice servicios corregido,castilla la mancha
+2019-05-01,124.8935,1,Índice servicios corregido,castilla la mancha
+2019-06-01,125.5695,1,Índice servicios corregido,castilla la mancha
+2019-07-01,125.82833333333332,1,Índice servicios corregido,castilla la mancha
+2019-08-01,126.09516666666666,1,Índice servicios corregido,castilla la mancha
+2019-09-01,126.326,1,Índice servicios corregido,castilla la mancha
+2019-10-01,126.87633333333332,1,Índice servicios corregido,castilla la mancha
+2019-11-01,127.74008333333336,1,Índice servicios corregido,castilla la mancha
+2019-12-01,128.52533333333335,1,Índice servicios corregido,castilla la mancha
+2019-01-01,-2.149605783021544,1,Annual variation,castilla la mancha
+2019-02-01,-2.7154470682441296,1,Annual variation,castilla la mancha
+2019-03-01,-1.955670478834985,1,Annual variation,castilla la mancha
+2019-04-01,-2.0306017645295,1,Annual variation,castilla la mancha
+2019-05-01,-1.5813337636862037,1,Annual variation,castilla la mancha
+2019-06-01,-0.031481731194367,1,Annual variation,castilla la mancha
+2019-07-01,0.7713411019004499,1,Annual variation,castilla la mancha
+2019-08-01,0.8003110136859868,1,Annual variation,castilla la mancha
+2019-09-01,0.4578070943438427,1,Annual variation,castilla la mancha
+2019-10-01,1.21214371784708,1,Annual variation,castilla la mancha
+2019-11-01,2.1781264420858517,1,Annual variation,castilla la mancha
+2019-12-01,3.1079314501586075,1,Annual variation,castilla la mancha
+2019-01-01,-0.3420476418273702,1,Corrected annual variation,castilla la mancha
+2019-02-01,-1.139312392939484,1,Corrected annual variation,castilla la mancha
+2019-03-01,-0.8624258950610821,1,Corrected annual variation,castilla la mancha
+2019-04-01,-1.0490197630126676,1,Corrected annual variation,castilla la mancha
+2019-05-01,-1.5256823190371267,1,Corrected annual variation,castilla la mancha
+2019-06-01,-0.7186338116977824,1,Corrected annual variation,castilla la mancha
+2019-07-01,-0.2729723071476801,1,Corrected annual variation,castilla la mancha
+2019-08-01,0.0351709958283863,1,Corrected annual variation,castilla la mancha
+2019-09-01,0.3572289204483813,1,Corrected annual variation,castilla la mancha
+2019-10-01,0.4521453647677509,1,Corrected annual variation,castilla la mancha
+2019-11-01,1.3209094868983289,1,Corrected annual variation,castilla la mancha
+2019-12-01,2.315713776795365,1,Corrected annual variation,castilla la mancha
+2019-01-01,152.99325000000002,1,Índice servicios,castilla y leon
+2019-02-01,152.87699999999998,1,Índice servicios,castilla y leon
+2019-03-01,154.0055,1,Índice servicios,castilla y leon
+2019-04-01,153.57258333333334,1,Índice servicios,castilla y leon
+2019-05-01,153.98658333333333,1,Índice servicios,castilla y leon
+2019-06-01,155.06758333333332,1,Índice servicios,castilla y leon
+2019-07-01,155.80425,1,Índice servicios,castilla y leon
+2019-08-01,156.00133333333332,1,Índice servicios,castilla y leon
+2019-09-01,155.76058333333333,1,Índice servicios,castilla y leon
+2019-10-01,156.71966666666663,1,Índice servicios,castilla y leon
+2019-11-01,157.76175,1,Índice servicios,castilla y leon
+2019-12-01,158.66575,1,Índice servicios,castilla y leon
+2019-01-01,124.82216666666666,1,Índice servicios corregido,castilla y leon
+2019-02-01,124.61216666666668,1,Índice servicios corregido,castilla y leon
+2019-03-01,125.30725,1,Índice servicios corregido,castilla y leon
+2019-04-01,125.03841666666666,1,Índice servicios corregido,castilla y leon
+2019-05-01,124.8935,1,Índice servicios corregido,castilla y leon
+2019-06-01,125.5695,1,Índice servicios corregido,castilla y leon
+2019-07-01,125.82833333333332,1,Índice servicios corregido,castilla y leon
+2019-08-01,126.09516666666666,1,Índice servicios corregido,castilla y leon
+2019-09-01,126.326,1,Índice servicios corregido,castilla y leon
+2019-10-01,126.87633333333332,1,Índice servicios corregido,castilla y leon
+2019-11-01,127.74008333333336,1,Índice servicios corregido,castilla y leon
+2019-12-01,128.52533333333335,1,Índice servicios corregido,castilla y leon
+2019-01-01,-2.149605783021544,1,Annual variation,castilla y leon
+2019-02-01,-2.7154470682441296,1,Annual variation,castilla y leon
+2019-03-01,-1.955670478834985,1,Annual variation,castilla y leon
+2019-04-01,-2.0306017645295,1,Annual variation,castilla y leon
+2019-05-01,-1.5813337636862037,1,Annual variation,castilla y leon
+2019-06-01,-0.031481731194367,1,Annual variation,castilla y leon
+2019-07-01,0.7713411019004499,1,Annual variation,castilla y leon
+2019-08-01,0.8003110136859868,1,Annual variation,castilla y leon
+2019-09-01,0.4578070943438427,1,Annual variation,castilla y leon
+2019-10-01,1.21214371784708,1,Annual variation,castilla y leon
+2019-11-01,2.1781264420858517,1,Annual variation,castilla y leon
+2019-12-01,3.1079314501586075,1,Annual variation,castilla y leon
+2019-01-01,-0.3420476418273702,1,Corrected annual variation,castilla y leon
+2019-02-01,-1.139312392939484,1,Corrected annual variation,castilla y leon
+2019-03-01,-0.8624258950610821,1,Corrected annual variation,castilla y leon
+2019-04-01,-1.0490197630126676,1,Corrected annual variation,castilla y leon
+2019-05-01,-1.5256823190371267,1,Corrected annual variation,castilla y leon
+2019-06-01,-0.7186338116977824,1,Corrected annual variation,castilla y leon
+2019-07-01,-0.2729723071476801,1,Corrected annual variation,castilla y leon
+2019-08-01,0.0351709958283863,1,Corrected annual variation,castilla y leon
+2019-09-01,0.3572289204483813,1,Corrected annual variation,castilla y leon
+2019-10-01,0.4521453647677509,1,Corrected annual variation,castilla y leon
+2019-11-01,1.3209094868983289,1,Corrected annual variation,castilla y leon
+2019-12-01,2.315713776795365,1,Corrected annual variation,castilla y leon
+2019-01-01,152.99325000000002,1,Índice servicios,cataluña
+2019-02-01,152.87699999999998,1,Índice servicios,cataluña
+2019-03-01,154.0055,1,Índice servicios,cataluña
+2019-04-01,153.57258333333334,1,Índice servicios,cataluña
+2019-05-01,153.98658333333333,1,Índice servicios,cataluña
+2019-06-01,155.06758333333332,1,Índice servicios,cataluña
+2019-07-01,155.80425,1,Índice servicios,cataluña
+2019-08-01,156.00133333333332,1,Índice servicios,cataluña
+2019-09-01,155.76058333333333,1,Índice servicios,cataluña
+2019-10-01,156.71966666666663,1,Índice servicios,cataluña
+2019-11-01,157.76175,1,Índice servicios,cataluña
+2019-12-01,158.66575,1,Índice servicios,cataluña
+2019-01-01,124.82216666666666,1,Índice servicios corregido,cataluña
+2019-02-01,124.61216666666668,1,Índice servicios corregido,cataluña
+2019-03-01,125.30725,1,Índice servicios corregido,cataluña
+2019-04-01,125.03841666666666,1,Índice servicios corregido,cataluña
+2019-05-01,124.8935,1,Índice servicios corregido,cataluña
+2019-06-01,125.5695,1,Índice servicios corregido,cataluña
+2019-07-01,125.82833333333332,1,Índice servicios corregido,cataluña
+2019-08-01,126.09516666666666,1,Índice servicios corregido,cataluña
+2019-09-01,126.326,1,Índice servicios corregido,cataluña
+2019-10-01,126.87633333333332,1,Índice servicios corregido,cataluña
+2019-11-01,127.74008333333336,1,Índice servicios corregido,cataluña
+2019-12-01,128.52533333333335,1,Índice servicios corregido,cataluña
+2019-01-01,-2.149605783021544,1,Annual variation,cataluña
+2019-02-01,-2.7154470682441296,1,Annual variation,cataluña
+2019-03-01,-1.955670478834985,1,Annual variation,cataluña
+2019-04-01,-2.0306017645295,1,Annual variation,cataluña
+2019-05-01,-1.5813337636862037,1,Annual variation,cataluña
+2019-06-01,-0.031481731194367,1,Annual variation,cataluña
+2019-07-01,0.7713411019004499,1,Annual variation,cataluña
+2019-08-01,0.8003110136859868,1,Annual variation,cataluña
+2019-09-01,0.4578070943438427,1,Annual variation,cataluña
+2019-10-01,1.21214371784708,1,Annual variation,cataluña
+2019-11-01,2.1781264420858517,1,Annual variation,cataluña
+2019-12-01,3.1079314501586075,1,Annual variation,cataluña
+2019-01-01,-0.3420476418273702,1,Corrected annual variation,cataluña
+2019-02-01,-1.139312392939484,1,Corrected annual variation,cataluña
+2019-03-01,-0.8624258950610821,1,Corrected annual variation,cataluña
+2019-04-01,-1.0490197630126676,1,Corrected annual variation,cataluña
+2019-05-01,-1.5256823190371267,1,Corrected annual variation,cataluña
+2019-06-01,-0.7186338116977824,1,Corrected annual variation,cataluña
+2019-07-01,-0.2729723071476801,1,Corrected annual variation,cataluña
+2019-08-01,0.0351709958283863,1,Corrected annual variation,cataluña
+2019-09-01,0.3572289204483813,1,Corrected annual variation,cataluña
+2019-10-01,0.4521453647677509,1,Corrected annual variation,cataluña
+2019-11-01,1.3209094868983289,1,Corrected annual variation,cataluña
+2019-12-01,2.315713776795365,1,Corrected annual variation,cataluña
+2019-01-01,152.99325000000002,1,Índice servicios,pais vasco
+2019-02-01,152.87699999999998,1,Índice servicios,pais vasco
+2019-03-01,154.0055,1,Índice servicios,pais vasco
+2019-04-01,153.57258333333334,1,Índice servicios,pais vasco
+2019-05-01,153.98658333333333,1,Índice servicios,pais vasco
+2019-06-01,155.06758333333332,1,Índice servicios,pais vasco
+2019-07-01,155.80425,1,Índice servicios,pais vasco
+2019-08-01,156.00133333333332,1,Índice servicios,pais vasco
+2019-09-01,155.76058333333333,1,Índice servicios,pais vasco
+2019-10-01,156.71966666666663,1,Índice servicios,pais vasco
+2019-11-01,157.76175,1,Índice servicios,pais vasco
+2019-12-01,158.66575,1,Índice servicios,pais vasco
+2019-01-01,124.82216666666666,1,Índice servicios corregido,pais vasco
+2019-02-01,124.61216666666668,1,Índice servicios corregido,pais vasco
+2019-03-01,125.30725,1,Índice servicios corregido,pais vasco
+2019-04-01,125.03841666666666,1,Índice servicios corregido,pais vasco
+2019-05-01,124.8935,1,Índice servicios corregido,pais vasco
+2019-06-01,125.5695,1,Índice servicios corregido,pais vasco
+2019-07-01,125.82833333333332,1,Índice servicios corregido,pais vasco
+2019-08-01,126.09516666666666,1,Índice servicios corregido,pais vasco
+2019-09-01,126.326,1,Índice servicios corregido,pais vasco
+2019-10-01,126.87633333333332,1,Índice servicios corregido,pais vasco
+2019-11-01,127.74008333333336,1,Índice servicios corregido,pais vasco
+2019-12-01,128.52533333333335,1,Índice servicios corregido,pais vasco
+2019-01-01,-2.149605783021544,1,Annual variation,pais vasco
+2019-02-01,-2.7154470682441296,1,Annual variation,pais vasco
+2019-03-01,-1.955670478834985,1,Annual variation,pais vasco
+2019-04-01,-2.0306017645295,1,Annual variation,pais vasco
+2019-05-01,-1.5813337636862037,1,Annual variation,pais vasco
+2019-06-01,-0.031481731194367,1,Annual variation,pais vasco
+2019-07-01,0.7713411019004499,1,Annual variation,pais vasco
+2019-08-01,0.8003110136859868,1,Annual variation,pais vasco
+2019-09-01,0.4578070943438427,1,Annual variation,pais vasco
+2019-10-01,1.21214371784708,1,Annual variation,pais vasco
+2019-11-01,2.1781264420858517,1,Annual variation,pais vasco
+2019-12-01,3.1079314501586075,1,Annual variation,pais vasco
+2019-01-01,-0.3420476418273702,1,Corrected annual variation,pais vasco
+2019-02-01,-1.139312392939484,1,Corrected annual variation,pais vasco
+2019-03-01,-0.8624258950610821,1,Corrected annual variation,pais vasco
+2019-04-01,-1.0490197630126676,1,Corrected annual variation,pais vasco
+2019-05-01,-1.5256823190371267,1,Corrected annual variation,pais vasco
+2019-06-01,-0.7186338116977824,1,Corrected annual variation,pais vasco
+2019-07-01,-0.2729723071476801,1,Corrected annual variation,pais vasco
+2019-08-01,0.0351709958283863,1,Corrected annual variation,pais vasco
+2019-09-01,0.3572289204483813,1,Corrected annual variation,pais vasco
+2019-10-01,0.4521453647677509,1,Corrected annual variation,pais vasco
+2019-11-01,1.3209094868983289,1,Corrected annual variation,pais vasco
+2019-12-01,2.315713776795365,1,Corrected annual variation,pais vasco
+2019-01-01,152.99325000000002,1,Índice servicios,principado de asturias
+2019-02-01,152.87699999999998,1,Índice servicios,principado de asturias
+2019-03-01,154.0055,1,Índice servicios,principado de asturias
+2019-04-01,153.57258333333334,1,Índice servicios,principado de asturias
+2019-05-01,153.98658333333333,1,Índice servicios,principado de asturias
+2019-06-01,155.06758333333332,1,Índice servicios,principado de asturias
+2019-07-01,155.80425,1,Índice servicios,principado de asturias
+2019-08-01,156.00133333333332,1,Índice servicios,principado de asturias
+2019-09-01,155.76058333333333,1,Índice servicios,principado de asturias
+2019-10-01,156.71966666666663,1,Índice servicios,principado de asturias
+2019-11-01,157.76175,1,Índice servicios,principado de asturias
+2019-12-01,158.66575,1,Índice servicios,principado de asturias
+2019-01-01,124.82216666666666,1,Índice servicios corregido,principado de asturias
+2019-02-01,124.61216666666668,1,Índice servicios corregido,principado de asturias
+2019-03-01,125.30725,1,Índice servicios corregido,principado de asturias
+2019-04-01,125.03841666666666,1,Índice servicios corregido,principado de asturias
+2019-05-01,124.8935,1,Índice servicios corregido,principado de asturias
+2019-06-01,125.5695,1,Índice servicios corregido,principado de asturias
+2019-07-01,125.82833333333332,1,Índice servicios corregido,principado de asturias
+2019-08-01,126.09516666666666,1,Índice servicios corregido,principado de asturias
+2019-09-01,126.326,1,Índice servicios corregido,principado de asturias
+2019-10-01,126.87633333333332,1,Índice servicios corregido,principado de asturias
+2019-11-01,127.74008333333336,1,Índice servicios corregido,principado de asturias
+2019-12-01,128.52533333333335,1,Índice servicios corregido,principado de asturias
+2019-01-01,-2.149605783021544,1,Annual variation,principado de asturias
+2019-02-01,-2.7154470682441296,1,Annual variation,principado de asturias
+2019-03-01,-1.955670478834985,1,Annual variation,principado de asturias
+2019-04-01,-2.0306017645295,1,Annual variation,principado de asturias
+2019-05-01,-1.5813337636862037,1,Annual variation,principado de asturias
+2019-06-01,-0.031481731194367,1,Annual variation,principado de asturias
+2019-07-01,0.7713411019004499,1,Annual variation,principado de asturias
+2019-08-01,0.8003110136859868,1,Annual variation,principado de asturias
+2019-09-01,0.4578070943438427,1,Annual variation,principado de asturias
+2019-10-01,1.21214371784708,1,Annual variation,principado de asturias
+2019-11-01,2.1781264420858517,1,Annual variation,principado de asturias
+2019-12-01,3.1079314501586075,1,Annual variation,principado de asturias
+2019-01-01,-0.3420476418273702,1,Corrected annual variation,principado de asturias
+2019-02-01,-1.139312392939484,1,Corrected annual variation,principado de asturias
+2019-03-01,-0.8624258950610821,1,Corrected annual variation,principado de asturias
+2019-04-01,-1.0490197630126676,1,Corrected annual variation,principado de asturias
+2019-05-01,-1.5256823190371267,1,Corrected annual variation,principado de asturias
+2019-06-01,-0.7186338116977824,1,Corrected annual variation,principado de asturias
+2019-07-01,-0.2729723071476801,1,Corrected annual variation,principado de asturias
+2019-08-01,0.0351709958283863,1,Corrected annual variation,principado de asturias
+2019-09-01,0.3572289204483813,1,Corrected annual variation,principado de asturias
+2019-10-01,0.4521453647677509,1,Corrected annual variation,principado de asturias
+2019-11-01,1.3209094868983289,1,Corrected annual variation,principado de asturias
+2019-12-01,2.315713776795365,1,Corrected annual variation,principado de asturias
+2019-01-01,152.99325000000002,1,Índice servicios,comunidad de madrid
+2019-02-01,152.87699999999998,1,Índice servicios,comunidad de madrid
+2019-03-01,154.0055,1,Índice servicios,comunidad de madrid
+2019-04-01,153.57258333333334,1,Índice servicios,comunidad de madrid
+2019-05-01,153.98658333333333,1,Índice servicios,comunidad de madrid
+2019-06-01,155.06758333333332,1,Índice servicios,comunidad de madrid
+2019-07-01,155.80425,1,Índice servicios,comunidad de madrid
+2019-08-01,156.00133333333332,1,Índice servicios,comunidad de madrid
+2019-09-01,155.76058333333333,1,Índice servicios,comunidad de madrid
+2019-10-01,156.71966666666663,1,Índice servicios,comunidad de madrid
+2019-11-01,157.76175,1,Índice servicios,comunidad de madrid
+2019-12-01,158.66575,1,Índice servicios,comunidad de madrid
+2019-01-01,124.82216666666666,1,Índice servicios corregido,comunidad de madrid
+2019-02-01,124.61216666666668,1,Índice servicios corregido,comunidad de madrid
+2019-03-01,125.30725,1,Índice servicios corregido,comunidad de madrid
+2019-04-01,125.03841666666666,1,Índice servicios corregido,comunidad de madrid
+2019-05-01,124.8935,1,Índice servicios corregido,comunidad de madrid
+2019-06-01,125.5695,1,Índice servicios corregido,comunidad de madrid
+2019-07-01,125.82833333333332,1,Índice servicios corregido,comunidad de madrid
+2019-08-01,126.09516666666666,1,Índice servicios corregido,comunidad de madrid
+2019-09-01,126.326,1,Índice servicios corregido,comunidad de madrid
+2019-10-01,126.87633333333332,1,Índice servicios corregido,comunidad de madrid
+2019-11-01,127.74008333333336,1,Índice servicios corregido,comunidad de madrid
+2019-12-01,128.52533333333335,1,Índice servicios corregido,comunidad de madrid
+2019-01-01,-2.149605783021544,1,Annual variation,comunidad de madrid
+2019-02-01,-2.7154470682441296,1,Annual variation,comunidad de madrid
+2019-03-01,-1.955670478834985,1,Annual variation,comunidad de madrid
+2019-04-01,-2.0306017645295,1,Annual variation,comunidad de madrid
+2019-05-01,-1.5813337636862037,1,Annual variation,comunidad de madrid
+2019-06-01,-0.031481731194367,1,Annual variation,comunidad de madrid
+2019-07-01,0.7713411019004499,1,Annual variation,comunidad de madrid
+2019-08-01,0.8003110136859868,1,Annual variation,comunidad de madrid
+2019-09-01,0.4578070943438427,1,Annual variation,comunidad de madrid
+2019-10-01,1.21214371784708,1,Annual variation,comunidad de madrid
+2019-11-01,2.1781264420858517,1,Annual variation,comunidad de madrid
+2019-12-01,3.1079314501586075,1,Annual variation,comunidad de madrid
+2019-01-01,-0.3420476418273702,1,Corrected annual variation,comunidad de madrid
+2019-02-01,-1.139312392939484,1,Corrected annual variation,comunidad de madrid
+2019-03-01,-0.8624258950610821,1,Corrected annual variation,comunidad de madrid
+2019-04-01,-1.0490197630126676,1,Corrected annual variation,comunidad de madrid
+2019-05-01,-1.5256823190371267,1,Corrected annual variation,comunidad de madrid
+2019-06-01,-0.7186338116977824,1,Corrected annual variation,comunidad de madrid
+2019-07-01,-0.2729723071476801,1,Corrected annual variation,comunidad de madrid
+2019-08-01,0.0351709958283863,1,Corrected annual variation,comunidad de madrid
+2019-09-01,0.3572289204483813,1,Corrected annual variation,comunidad de madrid
+2019-10-01,0.4521453647677509,1,Corrected annual variation,comunidad de madrid
+2019-11-01,1.3209094868983289,1,Corrected annual variation,comunidad de madrid
+2019-12-01,2.315713776795365,1,Corrected annual variation,comunidad de madrid
+2019-01-01,152.99325000000002,1,Índice servicios,comunidad de navarra
+2019-02-01,152.87699999999998,1,Índice servicios,comunidad de navarra
+2019-03-01,154.0055,1,Índice servicios,comunidad de navarra
+2019-04-01,153.57258333333334,1,Índice servicios,comunidad de navarra
+2019-05-01,153.98658333333333,1,Índice servicios,comunidad de navarra
+2019-06-01,155.06758333333332,1,Índice servicios,comunidad de navarra
+2019-07-01,155.80425,1,Índice servicios,comunidad de navarra
+2019-08-01,156.00133333333332,1,Índice servicios,comunidad de navarra
+2019-09-01,155.76058333333333,1,Índice servicios,comunidad de navarra
+2019-10-01,156.71966666666663,1,Índice servicios,comunidad de navarra
+2019-11-01,157.76175,1,Índice servicios,comunidad de navarra
+2019-12-01,158.66575,1,Índice servicios,comunidad de navarra
+2019-01-01,124.82216666666666,1,Índice servicios corregido,comunidad de navarra
+2019-02-01,124.61216666666668,1,Índice servicios corregido,comunidad de navarra
+2019-03-01,125.30725,1,Índice servicios corregido,comunidad de navarra
+2019-04-01,125.03841666666666,1,Índice servicios corregido,comunidad de navarra
+2019-05-01,124.8935,1,Índice servicios corregido,comunidad de navarra
+2019-06-01,125.5695,1,Índice servicios corregido,comunidad de navarra
+2019-07-01,125.82833333333332,1,Índice servicios corregido,comunidad de navarra
+2019-08-01,126.09516666666666,1,Índice servicios corregido,comunidad de navarra
+2019-09-01,126.326,1,Índice servicios corregido,comunidad de navarra
+2019-10-01,126.87633333333332,1,Índice servicios corregido,comunidad de navarra
+2019-11-01,127.74008333333336,1,Índice servicios corregido,comunidad de navarra
+2019-12-01,128.52533333333335,1,Índice servicios corregido,comunidad de navarra
+2019-01-01,-2.149605783021544,1,Annual variation,comunidad de navarra
+2019-02-01,-2.7154470682441296,1,Annual variation,comunidad de navarra
+2019-03-01,-1.955670478834985,1,Annual variation,comunidad de navarra
+2019-04-01,-2.0306017645295,1,Annual variation,comunidad de navarra
+2019-05-01,-1.5813337636862037,1,Annual variation,comunidad de navarra
+2019-06-01,-0.031481731194367,1,Annual variation,comunidad de navarra
+2019-07-01,0.7713411019004499,1,Annual variation,comunidad de navarra
+2019-08-01,0.8003110136859868,1,Annual variation,comunidad de navarra
+2019-09-01,0.4578070943438427,1,Annual variation,comunidad de navarra
+2019-10-01,1.21214371784708,1,Annual variation,comunidad de navarra
+2019-11-01,2.1781264420858517,1,Annual variation,comunidad de navarra
+2019-12-01,3.1079314501586075,1,Annual variation,comunidad de navarra
+2019-01-01,-0.3420476418273702,1,Corrected annual variation,comunidad de navarra
+2019-02-01,-1.139312392939484,1,Corrected annual variation,comunidad de navarra
+2019-03-01,-0.8624258950610821,1,Corrected annual variation,comunidad de navarra
+2019-04-01,-1.0490197630126676,1,Corrected annual variation,comunidad de navarra
+2019-05-01,-1.5256823190371267,1,Corrected annual variation,comunidad de navarra
+2019-06-01,-0.7186338116977824,1,Corrected annual variation,comunidad de navarra
+2019-07-01,-0.2729723071476801,1,Corrected annual variation,comunidad de navarra
+2019-08-01,0.0351709958283863,1,Corrected annual variation,comunidad de navarra
+2019-09-01,0.3572289204483813,1,Corrected annual variation,comunidad de navarra
+2019-10-01,0.4521453647677509,1,Corrected annual variation,comunidad de navarra
+2019-11-01,1.3209094868983289,1,Corrected annual variation,comunidad de navarra
+2019-12-01,2.315713776795365,1,Corrected annual variation,comunidad de navarra
+2019-01-01,152.99325000000002,1,Índice servicios,comunidad valenciana
+2019-02-01,152.87699999999998,1,Índice servicios,comunidad valenciana
+2019-03-01,154.0055,1,Índice servicios,comunidad valenciana
+2019-04-01,153.57258333333334,1,Índice servicios,comunidad valenciana
+2019-05-01,153.98658333333333,1,Índice servicios,comunidad valenciana
+2019-06-01,155.06758333333332,1,Índice servicios,comunidad valenciana
+2019-07-01,155.80425,1,Índice servicios,comunidad valenciana
+2019-08-01,156.00133333333332,1,Índice servicios,comunidad valenciana
+2019-09-01,155.76058333333333,1,Índice servicios,comunidad valenciana
+2019-10-01,156.71966666666663,1,Índice servicios,comunidad valenciana
+2019-11-01,157.76175,1,Índice servicios,comunidad valenciana
+2019-12-01,158.66575,1,Índice servicios,comunidad valenciana
+2019-01-01,124.82216666666666,1,Índice servicios corregido,comunidad valenciana
+2019-02-01,124.61216666666668,1,Índice servicios corregido,comunidad valenciana
+2019-03-01,125.30725,1,Índice servicios corregido,comunidad valenciana
+2019-04-01,125.03841666666666,1,Índice servicios corregido,comunidad valenciana
+2019-05-01,124.8935,1,Índice servicios corregido,comunidad valenciana
+2019-06-01,125.5695,1,Índice servicios corregido,comunidad valenciana
+2019-07-01,125.82833333333332,1,Índice servicios corregido,comunidad valenciana
+2019-08-01,126.09516666666666,1,Índice servicios corregido,comunidad valenciana
+2019-09-01,126.326,1,Índice servicios corregido,comunidad valenciana
+2019-10-01,126.87633333333332,1,Índice servicios corregido,comunidad valenciana
+2019-11-01,127.74008333333336,1,Índice servicios corregido,comunidad valenciana
+2019-12-01,128.52533333333335,1,Índice servicios corregido,comunidad valenciana
+2019-01-01,-2.149605783021544,1,Annual variation,comunidad valenciana
+2019-02-01,-2.7154470682441296,1,Annual variation,comunidad valenciana
+2019-03-01,-1.955670478834985,1,Annual variation,comunidad valenciana
+2019-04-01,-2.0306017645295,1,Annual variation,comunidad valenciana
+2019-05-01,-1.5813337636862037,1,Annual variation,comunidad valenciana
+2019-06-01,-0.031481731194367,1,Annual variation,comunidad valenciana
+2019-07-01,0.7713411019004499,1,Annual variation,comunidad valenciana
+2019-08-01,0.8003110136859868,1,Annual variation,comunidad valenciana
+2019-09-01,0.4578070943438427,1,Annual variation,comunidad valenciana
+2019-10-01,1.21214371784708,1,Annual variation,comunidad valenciana
+2019-11-01,2.1781264420858517,1,Annual variation,comunidad valenciana
+2019-12-01,3.1079314501586075,1,Annual variation,comunidad valenciana
+2019-01-01,-0.3420476418273702,1,Corrected annual variation,comunidad valenciana
+2019-02-01,-1.139312392939484,1,Corrected annual variation,comunidad valenciana
+2019-03-01,-0.8624258950610821,1,Corrected annual variation,comunidad valenciana
+2019-04-01,-1.0490197630126676,1,Corrected annual variation,comunidad valenciana
+2019-05-01,-1.5256823190371267,1,Corrected annual variation,comunidad valenciana
+2019-06-01,-0.7186338116977824,1,Corrected annual variation,comunidad valenciana
+2019-07-01,-0.2729723071476801,1,Corrected annual variation,comunidad valenciana
+2019-08-01,0.0351709958283863,1,Corrected annual variation,comunidad valenciana
+2019-09-01,0.3572289204483813,1,Corrected annual variation,comunidad valenciana
+2019-10-01,0.4521453647677509,1,Corrected annual variation,comunidad valenciana
+2019-11-01,1.3209094868983289,1,Corrected annual variation,comunidad valenciana
+2019-12-01,2.315713776795365,1,Corrected annual variation,comunidad valenciana
+2019-01-01,152.99325000000002,1,Índice servicios,extremadura
+2019-02-01,152.87699999999998,1,Índice servicios,extremadura
+2019-03-01,154.0055,1,Índice servicios,extremadura
+2019-04-01,153.57258333333334,1,Índice servicios,extremadura
+2019-05-01,153.98658333333333,1,Índice servicios,extremadura
+2019-06-01,155.06758333333332,1,Índice servicios,extremadura
+2019-07-01,155.80425,1,Índice servicios,extremadura
+2019-08-01,156.00133333333332,1,Índice servicios,extremadura
+2019-09-01,155.76058333333333,1,Índice servicios,extremadura
+2019-10-01,156.71966666666663,1,Índice servicios,extremadura
+2019-11-01,157.76175,1,Índice servicios,extremadura
+2019-12-01,158.66575,1,Índice servicios,extremadura
+2019-01-01,124.82216666666666,1,Índice servicios corregido,extremadura
+2019-02-01,124.61216666666668,1,Índice servicios corregido,extremadura
+2019-03-01,125.30725,1,Índice servicios corregido,extremadura
+2019-04-01,125.03841666666666,1,Índice servicios corregido,extremadura
+2019-05-01,124.8935,1,Índice servicios corregido,extremadura
+2019-06-01,125.5695,1,Índice servicios corregido,extremadura
+2019-07-01,125.82833333333332,1,Índice servicios corregido,extremadura
+2019-08-01,126.09516666666666,1,Índice servicios corregido,extremadura
+2019-09-01,126.326,1,Índice servicios corregido,extremadura
+2019-10-01,126.87633333333332,1,Índice servicios corregido,extremadura
+2019-11-01,127.74008333333336,1,Índice servicios corregido,extremadura
+2019-12-01,128.52533333333335,1,Índice servicios corregido,extremadura
+2019-01-01,-2.149605783021544,1,Annual variation,extremadura
+2019-02-01,-2.7154470682441296,1,Annual variation,extremadura
+2019-03-01,-1.955670478834985,1,Annual variation,extremadura
+2019-04-01,-2.0306017645295,1,Annual variation,extremadura
+2019-05-01,-1.5813337636862037,1,Annual variation,extremadura
+2019-06-01,-0.031481731194367,1,Annual variation,extremadura
+2019-07-01,0.7713411019004499,1,Annual variation,extremadura
+2019-08-01,0.8003110136859868,1,Annual variation,extremadura
+2019-09-01,0.4578070943438427,1,Annual variation,extremadura
+2019-10-01,1.21214371784708,1,Annual variation,extremadura
+2019-11-01,2.1781264420858517,1,Annual variation,extremadura
+2019-12-01,3.1079314501586075,1,Annual variation,extremadura
+2019-01-01,-0.3420476418273702,1,Corrected annual variation,extremadura
+2019-02-01,-1.139312392939484,1,Corrected annual variation,extremadura
+2019-03-01,-0.8624258950610821,1,Corrected annual variation,extremadura
+2019-04-01,-1.0490197630126676,1,Corrected annual variation,extremadura
+2019-05-01,-1.5256823190371267,1,Corrected annual variation,extremadura
+2019-06-01,-0.7186338116977824,1,Corrected annual variation,extremadura
+2019-07-01,-0.2729723071476801,1,Corrected annual variation,extremadura
+2019-08-01,0.0351709958283863,1,Corrected annual variation,extremadura
+2019-09-01,0.3572289204483813,1,Corrected annual variation,extremadura
+2019-10-01,0.4521453647677509,1,Corrected annual variation,extremadura
+2019-11-01,1.3209094868983289,1,Corrected annual variation,extremadura
+2019-12-01,2.315713776795365,1,Corrected annual variation,extremadura
+2019-01-01,152.99325000000002,1,Índice servicios,galicia
+2019-02-01,152.87699999999998,1,Índice servicios,galicia
+2019-03-01,154.0055,1,Índice servicios,galicia
+2019-04-01,153.57258333333334,1,Índice servicios,galicia
+2019-05-01,153.98658333333333,1,Índice servicios,galicia
+2019-06-01,155.06758333333332,1,Índice servicios,galicia
+2019-07-01,155.80425,1,Índice servicios,galicia
+2019-08-01,156.00133333333332,1,Índice servicios,galicia
+2019-09-01,155.76058333333333,1,Índice servicios,galicia
+2019-10-01,156.71966666666663,1,Índice servicios,galicia
+2019-11-01,157.76175,1,Índice servicios,galicia
+2019-12-01,158.66575,1,Índice servicios,galicia
+2019-01-01,124.82216666666666,1,Índice servicios corregido,galicia
+2019-02-01,124.61216666666668,1,Índice servicios corregido,galicia
+2019-03-01,125.30725,1,Índice servicios corregido,galicia
+2019-04-01,125.03841666666666,1,Índice servicios corregido,galicia
+2019-05-01,124.8935,1,Índice servicios corregido,galicia
+2019-06-01,125.5695,1,Índice servicios corregido,galicia
+2019-07-01,125.82833333333332,1,Índice servicios corregido,galicia
+2019-08-01,126.09516666666666,1,Índice servicios corregido,galicia
+2019-09-01,126.326,1,Índice servicios corregido,galicia
+2019-10-01,126.87633333333332,1,Índice servicios corregido,galicia
+2019-11-01,127.74008333333336,1,Índice servicios corregido,galicia
+2019-12-01,128.52533333333335,1,Índice servicios corregido,galicia
+2019-01-01,-2.149605783021544,1,Annual variation,galicia
+2019-02-01,-2.7154470682441296,1,Annual variation,galicia
+2019-03-01,-1.955670478834985,1,Annual variation,galicia
+2019-04-01,-2.0306017645295,1,Annual variation,galicia
+2019-05-01,-1.5813337636862037,1,Annual variation,galicia
+2019-06-01,-0.031481731194367,1,Annual variation,galicia
+2019-07-01,0.7713411019004499,1,Annual variation,galicia
+2019-08-01,0.8003110136859868,1,Annual variation,galicia
+2019-09-01,0.4578070943438427,1,Annual variation,galicia
+2019-10-01,1.21214371784708,1,Annual variation,galicia
+2019-11-01,2.1781264420858517,1,Annual variation,galicia
+2019-12-01,3.1079314501586075,1,Annual variation,galicia
+2019-01-01,-0.3420476418273702,1,Corrected annual variation,galicia
+2019-02-01,-1.139312392939484,1,Corrected annual variation,galicia
+2019-03-01,-0.8624258950610821,1,Corrected annual variation,galicia
+2019-04-01,-1.0490197630126676,1,Corrected annual variation,galicia
+2019-05-01,-1.5256823190371267,1,Corrected annual variation,galicia
+2019-06-01,-0.7186338116977824,1,Corrected annual variation,galicia
+2019-07-01,-0.2729723071476801,1,Corrected annual variation,galicia
+2019-08-01,0.0351709958283863,1,Corrected annual variation,galicia
+2019-09-01,0.3572289204483813,1,Corrected annual variation,galicia
+2019-10-01,0.4521453647677509,1,Corrected annual variation,galicia
+2019-11-01,1.3209094868983289,1,Corrected annual variation,galicia
+2019-12-01,2.315713776795365,1,Corrected annual variation,galicia
+2019-01-01,152.99325000000002,1,Índice servicios,la rioja
+2019-02-01,152.87699999999998,1,Índice servicios,la rioja
+2019-03-01,154.0055,1,Índice servicios,la rioja
+2019-04-01,153.57258333333334,1,Índice servicios,la rioja
+2019-05-01,153.98658333333333,1,Índice servicios,la rioja
+2019-06-01,155.06758333333332,1,Índice servicios,la rioja
+2019-07-01,155.80425,1,Índice servicios,la rioja
+2019-08-01,156.00133333333332,1,Índice servicios,la rioja
+2019-09-01,155.76058333333333,1,Índice servicios,la rioja
+2019-10-01,156.71966666666663,1,Índice servicios,la rioja
+2019-11-01,157.76175,1,Índice servicios,la rioja
+2019-12-01,158.66575,1,Índice servicios,la rioja
+2019-01-01,124.82216666666666,1,Índice servicios corregido,la rioja
+2019-02-01,124.61216666666668,1,Índice servicios corregido,la rioja
+2019-03-01,125.30725,1,Índice servicios corregido,la rioja
+2019-04-01,125.03841666666666,1,Índice servicios corregido,la rioja
+2019-05-01,124.8935,1,Índice servicios corregido,la rioja
+2019-06-01,125.5695,1,Índice servicios corregido,la rioja
+2019-07-01,125.82833333333332,1,Índice servicios corregido,la rioja
+2019-08-01,126.09516666666666,1,Índice servicios corregido,la rioja
+2019-09-01,126.326,1,Índice servicios corregido,la rioja
+2019-10-01,126.87633333333332,1,Índice servicios corregido,la rioja
+2019-11-01,127.74008333333336,1,Índice servicios corregido,la rioja
+2019-12-01,128.52533333333335,1,Índice servicios corregido,la rioja
+2019-01-01,-2.149605783021544,1,Annual variation,la rioja
+2019-02-01,-2.7154470682441296,1,Annual variation,la rioja
+2019-03-01,-1.955670478834985,1,Annual variation,la rioja
+2019-04-01,-2.0306017645295,1,Annual variation,la rioja
+2019-05-01,-1.5813337636862037,1,Annual variation,la rioja
+2019-06-01,-0.031481731194367,1,Annual variation,la rioja
+2019-07-01,0.7713411019004499,1,Annual variation,la rioja
+2019-08-01,0.8003110136859868,1,Annual variation,la rioja
+2019-09-01,0.4578070943438427,1,Annual variation,la rioja
+2019-10-01,1.21214371784708,1,Annual variation,la rioja
+2019-11-01,2.1781264420858517,1,Annual variation,la rioja
+2019-12-01,3.1079314501586075,1,Annual variation,la rioja
+2019-01-01,-0.3420476418273702,1,Corrected annual variation,la rioja
+2019-02-01,-1.139312392939484,1,Corrected annual variation,la rioja
+2019-03-01,-0.8624258950610821,1,Corrected annual variation,la rioja
+2019-04-01,-1.0490197630126676,1,Corrected annual variation,la rioja
+2019-05-01,-1.5256823190371267,1,Corrected annual variation,la rioja
+2019-06-01,-0.7186338116977824,1,Corrected annual variation,la rioja
+2019-07-01,-0.2729723071476801,1,Corrected annual variation,la rioja
+2019-08-01,0.0351709958283863,1,Corrected annual variation,la rioja
+2019-09-01,0.3572289204483813,1,Corrected annual variation,la rioja
+2019-10-01,0.4521453647677509,1,Corrected annual variation,la rioja
+2019-11-01,1.3209094868983289,1,Corrected annual variation,la rioja
+2019-12-01,2.315713776795365,1,Corrected annual variation,la rioja
+2019-01-01,152.99325000000002,1,Índice servicios,region de murcia
+2019-02-01,152.87699999999998,1,Índice servicios,region de murcia
+2019-03-01,154.0055,1,Índice servicios,region de murcia
+2019-04-01,153.57258333333334,1,Índice servicios,region de murcia
+2019-05-01,153.98658333333333,1,Índice servicios,region de murcia
+2019-06-01,155.06758333333332,1,Índice servicios,region de murcia
+2019-07-01,155.80425,1,Índice servicios,region de murcia
+2019-08-01,156.00133333333332,1,Índice servicios,region de murcia
+2019-09-01,155.76058333333333,1,Índice servicios,region de murcia
+2019-10-01,156.71966666666663,1,Índice servicios,region de murcia
+2019-11-01,157.76175,1,Índice servicios,region de murcia
+2019-12-01,158.66575,1,Índice servicios,region de murcia
+2019-01-01,124.82216666666666,1,Índice servicios corregido,region de murcia
+2019-02-01,124.61216666666668,1,Índice servicios corregido,region de murcia
+2019-03-01,125.30725,1,Índice servicios corregido,region de murcia
+2019-04-01,125.03841666666666,1,Índice servicios corregido,region de murcia
+2019-05-01,124.8935,1,Índice servicios corregido,region de murcia
+2019-06-01,125.5695,1,Índice servicios corregido,region de murcia
+2019-07-01,125.82833333333332,1,Índice servicios corregido,region de murcia
+2019-08-01,126.09516666666666,1,Índice servicios corregido,region de murcia
+2019-09-01,126.326,1,Índice servicios corregido,region de murcia
+2019-10-01,126.87633333333332,1,Índice servicios corregido,region de murcia
+2019-11-01,127.74008333333336,1,Índice servicios corregido,region de murcia
+2019-12-01,128.52533333333335,1,Índice servicios corregido,region de murcia
+2019-01-01,-2.149605783021544,1,Annual variation,region de murcia
+2019-02-01,-2.7154470682441296,1,Annual variation,region de murcia
+2019-03-01,-1.955670478834985,1,Annual variation,region de murcia
+2019-04-01,-2.0306017645295,1,Annual variation,region de murcia
+2019-05-01,-1.5813337636862037,1,Annual variation,region de murcia
+2019-06-01,-0.031481731194367,1,Annual variation,region de murcia
+2019-07-01,0.7713411019004499,1,Annual variation,region de murcia
+2019-08-01,0.8003110136859868,1,Annual variation,region de murcia
+2019-09-01,0.4578070943438427,1,Annual variation,region de murcia
+2019-10-01,1.21214371784708,1,Annual variation,region de murcia
+2019-11-01,2.1781264420858517,1,Annual variation,region de murcia
+2019-12-01,3.1079314501586075,1,Annual variation,region de murcia
+2019-01-01,-0.3420476418273702,1,Corrected annual variation,region de murcia
+2019-02-01,-1.139312392939484,1,Corrected annual variation,region de murcia
+2019-03-01,-0.8624258950610821,1,Corrected annual variation,region de murcia
+2019-04-01,-1.0490197630126676,1,Corrected annual variation,region de murcia
+2019-05-01,-1.5256823190371267,1,Corrected annual variation,region de murcia
+2019-06-01,-0.7186338116977824,1,Corrected annual variation,region de murcia
+2019-07-01,-0.2729723071476801,1,Corrected annual variation,region de murcia
+2019-08-01,0.0351709958283863,1,Corrected annual variation,region de murcia
+2019-09-01,0.3572289204483813,1,Corrected annual variation,region de murcia
+2019-10-01,0.4521453647677509,1,Corrected annual variation,region de murcia
+2019-11-01,1.3209094868983289,1,Corrected annual variation,region de murcia
+2019-12-01,2.315713776795365,1,Corrected annual variation,region de murcia
