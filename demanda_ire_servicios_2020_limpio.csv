@@ -1,0 +1,961 @@
+fecha,valor,porcentaje,indicator,region
+2020-01-01,122.357,1,Índice servicios,peninsular
+2020-02-01,117.652,1,Índice servicios,peninsular
+2020-03-01,114.03066666666666,1,Índice servicios,peninsular
+2020-04-01,107.0515,1,Índice servicios,peninsular
+2020-05-01,105.1848,1,Índice servicios,peninsular
+2020-06-01,105.765,1,Índice servicios,peninsular
+2020-07-01,110.02857142857142,1,Índice servicios,peninsular
+2020-08-01,112.559,1,Índice servicios,peninsular
+2020-09-01,113.22444444444444,1,Índice servicios,peninsular
+2020-10-01,113.1726,1,Índice servicios,peninsular
+2020-11-01,112.61863636363636,1,Índice servicios,peninsular
+2020-12-01,112.56525,1,Índice servicios,peninsular
+2020-01-01,108.585,1,Índice servicios corregido,peninsular
+2020-02-01,109.854,1,Índice servicios corregido,peninsular
+2020-03-01,105.53166666666668,1,Índice servicios corregido,peninsular
+2020-04-01,99.7745,1,Índice servicios corregido,peninsular
+2020-05-01,96.161,1,Índice servicios corregido,peninsular
+2020-06-01,95.1345,1,Índice servicios corregido,peninsular
+2020-07-01,95.13614285714286,1,Índice servicios corregido,peninsular
+2020-08-01,95.050125,1,Índice servicios corregido,peninsular
+2020-09-01,95.43844444444444,1,Índice servicios corregido,peninsular
+2020-10-01,96.1511,1,Índice servicios corregido,peninsular
+2020-11-01,96.6620909090909,1,Índice servicios corregido,peninsular
+2020-12-01,96.82516666666665,1,Índice servicios corregido,peninsular
+2020-01-01,-0.8138714828835732,1,Annual variation,peninsular
+2020-02-01,0.5895051832852369,1,Annual variation,peninsular
+2020-03-01,-2.992527896326337,1,Annual variation,peninsular
+2020-04-01,-8.24085046382507,1,Annual variation,peninsular
+2020-05-01,-10.94320708357816,1,Annual variation,peninsular
+2020-06-01,-11.850379427171244,1,Annual variation,peninsular
+2020-07-01,-11.394269042984472,1,Annual variation,peninsular
+2020-08-01,-10.807266388002928,1,Annual variation,peninsular
+2020-09-01,-10.466513903337368,1,Annual variation,peninsular
+2020-10-01,-10.492403062027506,1,Annual variation,peninsular
+2020-11-01,-10.406488777351496,1,Annual variation,peninsular
+2020-12-01,-9.936512042842711,1,Annual variation,peninsular
+2020-01-01,-0.5604549575537872,1,Corrected annual variation,peninsular
+2020-02-01,-0.4923118730043784,1,Corrected annual variation,peninsular
+2020-03-01,-4.5120719036057215,1,Corrected annual variation,peninsular
+2020-04-01,-9.35812237963943,1,Corrected annual variation,peninsular
+2020-05-01,-12.287470811441928,1,Corrected annual variation,peninsular
+2020-06-01,-13.11005265393169,1,Corrected annual variation,peninsular
+2020-07-01,-13.007475876158836,1,Corrected annual variation,peninsular
+2020-08-01,-12.4375582961965,1,Corrected annual variation,peninsular
+2020-09-01,-12.1701572447304,1,Corrected annual variation,peninsular
+2020-10-01,-11.620222238358874,1,Corrected annual variation,peninsular
+2020-11-01,-11.271303196971177,1,Corrected annual variation,peninsular
+2020-12-01,-10.945915391483988,1,Corrected annual variation,peninsular
+2020-01-01,122.357,1,Índice servicios,canarias
+2020-02-01,117.652,1,Índice servicios,canarias
+2020-03-01,114.03066666666666,1,Índice servicios,canarias
+2020-04-01,107.0515,1,Índice servicios,canarias
+2020-05-01,105.1848,1,Índice servicios,canarias
+2020-06-01,105.765,1,Índice servicios,canarias
+2020-07-01,110.02857142857142,1,Índice servicios,canarias
+2020-08-01,112.559,1,Índice servicios,canarias
+2020-09-01,113.22444444444444,1,Índice servicios,canarias
+2020-10-01,113.1726,1,Índice servicios,canarias
+2020-11-01,112.61863636363636,1,Índice servicios,canarias
+2020-12-01,112.56525,1,Índice servicios,canarias
+2020-01-01,108.585,1,Índice servicios corregido,canarias
+2020-02-01,109.854,1,Índice servicios corregido,canarias
+2020-03-01,105.53166666666668,1,Índice servicios corregido,canarias
+2020-04-01,99.7745,1,Índice servicios corregido,canarias
+2020-05-01,96.161,1,Índice servicios corregido,canarias
+2020-06-01,95.1345,1,Índice servicios corregido,canarias
+2020-07-01,95.13614285714286,1,Índice servicios corregido,canarias
+2020-08-01,95.050125,1,Índice servicios corregido,canarias
+2020-09-01,95.43844444444444,1,Índice servicios corregido,canarias
+2020-10-01,96.1511,1,Índice servicios corregido,canarias
+2020-11-01,96.6620909090909,1,Índice servicios corregido,canarias
+2020-12-01,96.82516666666665,1,Índice servicios corregido,canarias
+2020-01-01,-0.8138714828835732,1,Annual variation,canarias
+2020-02-01,0.5895051832852369,1,Annual variation,canarias
+2020-03-01,-2.992527896326337,1,Annual variation,canarias
+2020-04-01,-8.24085046382507,1,Annual variation,canarias
+2020-05-01,-10.94320708357816,1,Annual variation,canarias
+2020-06-01,-11.850379427171244,1,Annual variation,canarias
+2020-07-01,-11.394269042984472,1,Annual variation,canarias
+2020-08-01,-10.807266388002928,1,Annual variation,canarias
+2020-09-01,-10.466513903337368,1,Annual variation,canarias
+2020-10-01,-10.492403062027506,1,Annual variation,canarias
+2020-11-01,-10.406488777351496,1,Annual variation,canarias
+2020-12-01,-9.936512042842711,1,Annual variation,canarias
+2020-01-01,-0.5604549575537872,1,Corrected annual variation,canarias
+2020-02-01,-0.4923118730043784,1,Corrected annual variation,canarias
+2020-03-01,-4.5120719036057215,1,Corrected annual variation,canarias
+2020-04-01,-9.35812237963943,1,Corrected annual variation,canarias
+2020-05-01,-12.287470811441928,1,Corrected annual variation,canarias
+2020-06-01,-13.11005265393169,1,Corrected annual variation,canarias
+2020-07-01,-13.007475876158836,1,Corrected annual variation,canarias
+2020-08-01,-12.4375582961965,1,Corrected annual variation,canarias
+2020-09-01,-12.1701572447304,1,Corrected annual variation,canarias
+2020-10-01,-11.620222238358874,1,Corrected annual variation,canarias
+2020-11-01,-11.271303196971177,1,Corrected annual variation,canarias
+2020-12-01,-10.945915391483988,1,Corrected annual variation,canarias
+2020-01-01,122.357,1,Índice servicios,baleares
+2020-02-01,117.652,1,Índice servicios,baleares
+2020-03-01,114.03066666666666,1,Índice servicios,baleares
+2020-04-01,107.0515,1,Índice servicios,baleares
+2020-05-01,105.1848,1,Índice servicios,baleares
+2020-06-01,105.765,1,Índice servicios,baleares
+2020-07-01,110.02857142857142,1,Índice servicios,baleares
+2020-08-01,112.559,1,Índice servicios,baleares
+2020-09-01,113.22444444444444,1,Índice servicios,baleares
+2020-10-01,113.1726,1,Índice servicios,baleares
+2020-11-01,112.61863636363636,1,Índice servicios,baleares
+2020-12-01,112.56525,1,Índice servicios,baleares
+2020-01-01,108.585,1,Índice servicios corregido,baleares
+2020-02-01,109.854,1,Índice servicios corregido,baleares
+2020-03-01,105.53166666666668,1,Índice servicios corregido,baleares
+2020-04-01,99.7745,1,Índice servicios corregido,baleares
+2020-05-01,96.161,1,Índice servicios corregido,baleares
+2020-06-01,95.1345,1,Índice servicios corregido,baleares
+2020-07-01,95.13614285714286,1,Índice servicios corregido,baleares
+2020-08-01,95.050125,1,Índice servicios corregido,baleares
+2020-09-01,95.43844444444444,1,Índice servicios corregido,baleares
+2020-10-01,96.1511,1,Índice servicios corregido,baleares
+2020-11-01,96.6620909090909,1,Índice servicios corregido,baleares
+2020-12-01,96.82516666666665,1,Índice servicios corregido,baleares
+2020-01-01,-0.8138714828835732,1,Annual variation,baleares
+2020-02-01,0.5895051832852369,1,Annual variation,baleares
+2020-03-01,-2.992527896326337,1,Annual variation,baleares
+2020-04-01,-8.24085046382507,1,Annual variation,baleares
+2020-05-01,-10.94320708357816,1,Annual variation,baleares
+2020-06-01,-11.850379427171244,1,Annual variation,baleares
+2020-07-01,-11.394269042984472,1,Annual variation,baleares
+2020-08-01,-10.807266388002928,1,Annual variation,baleares
+2020-09-01,-10.466513903337368,1,Annual variation,baleares
+2020-10-01,-10.492403062027506,1,Annual variation,baleares
+2020-11-01,-10.406488777351496,1,Annual variation,baleares
+2020-12-01,-9.936512042842711,1,Annual variation,baleares
+2020-01-01,-0.5604549575537872,1,Corrected annual variation,baleares
+2020-02-01,-0.4923118730043784,1,Corrected annual variation,baleares
+2020-03-01,-4.5120719036057215,1,Corrected annual variation,baleares
+2020-04-01,-9.35812237963943,1,Corrected annual variation,baleares
+2020-05-01,-12.287470811441928,1,Corrected annual variation,baleares
+2020-06-01,-13.11005265393169,1,Corrected annual variation,baleares
+2020-07-01,-13.007475876158836,1,Corrected annual variation,baleares
+2020-08-01,-12.4375582961965,1,Corrected annual variation,baleares
+2020-09-01,-12.1701572447304,1,Corrected annual variation,baleares
+2020-10-01,-11.620222238358874,1,Corrected annual variation,baleares
+2020-11-01,-11.271303196971177,1,Corrected annual variation,baleares
+2020-12-01,-10.945915391483988,1,Corrected annual variation,baleares
+2020-01-01,122.357,1,Índice servicios,ceuta
+2020-02-01,117.652,1,Índice servicios,ceuta
+2020-03-01,114.03066666666666,1,Índice servicios,ceuta
+2020-04-01,107.0515,1,Índice servicios,ceuta
+2020-05-01,105.1848,1,Índice servicios,ceuta
+2020-06-01,105.765,1,Índice servicios,ceuta
+2020-07-01,110.02857142857142,1,Índice servicios,ceuta
+2020-08-01,112.559,1,Índice servicios,ceuta
+2020-09-01,113.22444444444444,1,Índice servicios,ceuta
+2020-10-01,113.1726,1,Índice servicios,ceuta
+2020-11-01,112.61863636363636,1,Índice servicios,ceuta
+2020-12-01,112.56525,1,Índice servicios,ceuta
+2020-01-01,108.585,1,Índice servicios corregido,ceuta
+2020-02-01,109.854,1,Índice servicios corregido,ceuta
+2020-03-01,105.53166666666668,1,Índice servicios corregido,ceuta
+2020-04-01,99.7745,1,Índice servicios corregido,ceuta
+2020-05-01,96.161,1,Índice servicios corregido,ceuta
+2020-06-01,95.1345,1,Índice servicios corregido,ceuta
+2020-07-01,95.13614285714286,1,Índice servicios corregido,ceuta
+2020-08-01,95.050125,1,Índice servicios corregido,ceuta
+2020-09-01,95.43844444444444,1,Índice servicios corregido,ceuta
+2020-10-01,96.1511,1,Índice servicios corregido,ceuta
+2020-11-01,96.6620909090909,1,Índice servicios corregido,ceuta
+2020-12-01,96.82516666666665,1,Índice servicios corregido,ceuta
+2020-01-01,-0.8138714828835732,1,Annual variation,ceuta
+2020-02-01,0.5895051832852369,1,Annual variation,ceuta
+2020-03-01,-2.992527896326337,1,Annual variation,ceuta
+2020-04-01,-8.24085046382507,1,Annual variation,ceuta
+2020-05-01,-10.94320708357816,1,Annual variation,ceuta
+2020-06-01,-11.850379427171244,1,Annual variation,ceuta
+2020-07-01,-11.394269042984472,1,Annual variation,ceuta
+2020-08-01,-10.807266388002928,1,Annual variation,ceuta
+2020-09-01,-10.466513903337368,1,Annual variation,ceuta
+2020-10-01,-10.492403062027506,1,Annual variation,ceuta
+2020-11-01,-10.406488777351496,1,Annual variation,ceuta
+2020-12-01,-9.936512042842711,1,Annual variation,ceuta
+2020-01-01,-0.5604549575537872,1,Corrected annual variation,ceuta
+2020-02-01,-0.4923118730043784,1,Corrected annual variation,ceuta
+2020-03-01,-4.5120719036057215,1,Corrected annual variation,ceuta
+2020-04-01,-9.35812237963943,1,Corrected annual variation,ceuta
+2020-05-01,-12.287470811441928,1,Corrected annual variation,ceuta
+2020-06-01,-13.11005265393169,1,Corrected annual variation,ceuta
+2020-07-01,-13.007475876158836,1,Corrected annual variation,ceuta
+2020-08-01,-12.4375582961965,1,Corrected annual variation,ceuta
+2020-09-01,-12.1701572447304,1,Corrected annual variation,ceuta
+2020-10-01,-11.620222238358874,1,Corrected annual variation,ceuta
+2020-11-01,-11.271303196971177,1,Corrected annual variation,ceuta
+2020-12-01,-10.945915391483988,1,Corrected annual variation,ceuta
+2020-01-01,122.357,1,Índice servicios,melilla
+2020-02-01,117.652,1,Índice servicios,melilla
+2020-03-01,114.03066666666666,1,Índice servicios,melilla
+2020-04-01,107.0515,1,Índice servicios,melilla
+2020-05-01,105.1848,1,Índice servicios,melilla
+2020-06-01,105.765,1,Índice servicios,melilla
+2020-07-01,110.02857142857142,1,Índice servicios,melilla
+2020-08-01,112.559,1,Índice servicios,melilla
+2020-09-01,113.22444444444444,1,Índice servicios,melilla
+2020-10-01,113.1726,1,Índice servicios,melilla
+2020-11-01,112.61863636363636,1,Índice servicios,melilla
+2020-12-01,112.56525,1,Índice servicios,melilla
+2020-01-01,108.585,1,Índice servicios corregido,melilla
+2020-02-01,109.854,1,Índice servicios corregido,melilla
+2020-03-01,105.53166666666668,1,Índice servicios corregido,melilla
+2020-04-01,99.7745,1,Índice servicios corregido,melilla
+2020-05-01,96.161,1,Índice servicios corregido,melilla
+2020-06-01,95.1345,1,Índice servicios corregido,melilla
+2020-07-01,95.13614285714286,1,Índice servicios corregido,melilla
+2020-08-01,95.050125,1,Índice servicios corregido,melilla
+2020-09-01,95.43844444444444,1,Índice servicios corregido,melilla
+2020-10-01,96.1511,1,Índice servicios corregido,melilla
+2020-11-01,96.6620909090909,1,Índice servicios corregido,melilla
+2020-12-01,96.82516666666665,1,Índice servicios corregido,melilla
+2020-01-01,-0.8138714828835732,1,Annual variation,melilla
+2020-02-01,0.5895051832852369,1,Annual variation,melilla
+2020-03-01,-2.992527896326337,1,Annual variation,melilla
+2020-04-01,-8.24085046382507,1,Annual variation,melilla
+2020-05-01,-10.94320708357816,1,Annual variation,melilla
+2020-06-01,-11.850379427171244,1,Annual variation,melilla
+2020-07-01,-11.394269042984472,1,Annual variation,melilla
+2020-08-01,-10.807266388002928,1,Annual variation,melilla
+2020-09-01,-10.466513903337368,1,Annual variation,melilla
+2020-10-01,-10.492403062027506,1,Annual variation,melilla
+2020-11-01,-10.406488777351496,1,Annual variation,melilla
+2020-12-01,-9.936512042842711,1,Annual variation,melilla
+2020-01-01,-0.5604549575537872,1,Corrected annual variation,melilla
+2020-02-01,-0.4923118730043784,1,Corrected annual variation,melilla
+2020-03-01,-4.5120719036057215,1,Corrected annual variation,melilla
+2020-04-01,-9.35812237963943,1,Corrected annual variation,melilla
+2020-05-01,-12.287470811441928,1,Corrected annual variation,melilla
+2020-06-01,-13.11005265393169,1,Corrected annual variation,melilla
+2020-07-01,-13.007475876158836,1,Corrected annual variation,melilla
+2020-08-01,-12.4375582961965,1,Corrected annual variation,melilla
+2020-09-01,-12.1701572447304,1,Corrected annual variation,melilla
+2020-10-01,-11.620222238358874,1,Corrected annual variation,melilla
+2020-11-01,-11.271303196971177,1,Corrected annual variation,melilla
+2020-12-01,-10.945915391483988,1,Corrected annual variation,melilla
+2020-01-01,122.357,1,Índice servicios,andalucia
+2020-02-01,117.652,1,Índice servicios,andalucia
+2020-03-01,114.03066666666666,1,Índice servicios,andalucia
+2020-04-01,107.0515,1,Índice servicios,andalucia
+2020-05-01,105.1848,1,Índice servicios,andalucia
+2020-06-01,105.765,1,Índice servicios,andalucia
+2020-07-01,110.02857142857142,1,Índice servicios,andalucia
+2020-08-01,112.559,1,Índice servicios,andalucia
+2020-09-01,113.22444444444444,1,Índice servicios,andalucia
+2020-10-01,113.1726,1,Índice servicios,andalucia
+2020-11-01,112.61863636363636,1,Índice servicios,andalucia
+2020-12-01,112.56525,1,Índice servicios,andalucia
+2020-01-01,108.585,1,Índice servicios corregido,andalucia
+2020-02-01,109.854,1,Índice servicios corregido,andalucia
+2020-03-01,105.53166666666668,1,Índice servicios corregido,andalucia
+2020-04-01,99.7745,1,Índice servicios corregido,andalucia
+2020-05-01,96.161,1,Índice servicios corregido,andalucia
+2020-06-01,95.1345,1,Índice servicios corregido,andalucia
+2020-07-01,95.13614285714286,1,Índice servicios corregido,andalucia
+2020-08-01,95.050125,1,Índice servicios corregido,andalucia
+2020-09-01,95.43844444444444,1,Índice servicios corregido,andalucia
+2020-10-01,96.1511,1,Índice servicios corregido,andalucia
+2020-11-01,96.6620909090909,1,Índice servicios corregido,andalucia
+2020-12-01,96.82516666666665,1,Índice servicios corregido,andalucia
+2020-01-01,-0.8138714828835732,1,Annual variation,andalucia
+2020-02-01,0.5895051832852369,1,Annual variation,andalucia
+2020-03-01,-2.992527896326337,1,Annual variation,andalucia
+2020-04-01,-8.24085046382507,1,Annual variation,andalucia
+2020-05-01,-10.94320708357816,1,Annual variation,andalucia
+2020-06-01,-11.850379427171244,1,Annual variation,andalucia
+2020-07-01,-11.394269042984472,1,Annual variation,andalucia
+2020-08-01,-10.807266388002928,1,Annual variation,andalucia
+2020-09-01,-10.466513903337368,1,Annual variation,andalucia
+2020-10-01,-10.492403062027506,1,Annual variation,andalucia
+2020-11-01,-10.406488777351496,1,Annual variation,andalucia
+2020-12-01,-9.936512042842711,1,Annual variation,andalucia
+2020-01-01,-0.5604549575537872,1,Corrected annual variation,andalucia
+2020-02-01,-0.4923118730043784,1,Corrected annual variation,andalucia
+2020-03-01,-4.5120719036057215,1,Corrected annual variation,andalucia
+2020-04-01,-9.35812237963943,1,Corrected annual variation,andalucia
+2020-05-01,-12.287470811441928,1,Corrected annual variation,andalucia
+2020-06-01,-13.11005265393169,1,Corrected annual variation,andalucia
+2020-07-01,-13.007475876158836,1,Corrected annual variation,andalucia
+2020-08-01,-12.4375582961965,1,Corrected annual variation,andalucia
+2020-09-01,-12.1701572447304,1,Corrected annual variation,andalucia
+2020-10-01,-11.620222238358874,1,Corrected annual variation,andalucia
+2020-11-01,-11.271303196971177,1,Corrected annual variation,andalucia
+2020-12-01,-10.945915391483988,1,Corrected annual variation,andalucia
+2020-01-01,122.357,1,Índice servicios,aragon
+2020-02-01,117.652,1,Índice servicios,aragon
+2020-03-01,114.03066666666666,1,Índice servicios,aragon
+2020-04-01,107.0515,1,Índice servicios,aragon
+2020-05-01,105.1848,1,Índice servicios,aragon
+2020-06-01,105.765,1,Índice servicios,aragon
+2020-07-01,110.02857142857142,1,Índice servicios,aragon
+2020-08-01,112.559,1,Índice servicios,aragon
+2020-09-01,113.22444444444444,1,Índice servicios,aragon
+2020-10-01,113.1726,1,Índice servicios,aragon
+2020-11-01,112.61863636363636,1,Índice servicios,aragon
+2020-12-01,112.56525,1,Índice servicios,aragon
+2020-01-01,108.585,1,Índice servicios corregido,aragon
+2020-02-01,109.854,1,Índice servicios corregido,aragon
+2020-03-01,105.53166666666668,1,Índice servicios corregido,aragon
+2020-04-01,99.7745,1,Índice servicios corregido,aragon
+2020-05-01,96.161,1,Índice servicios corregido,aragon
+2020-06-01,95.1345,1,Índice servicios corregido,aragon
+2020-07-01,95.13614285714286,1,Índice servicios corregido,aragon
+2020-08-01,95.050125,1,Índice servicios corregido,aragon
+2020-09-01,95.43844444444444,1,Índice servicios corregido,aragon
+2020-10-01,96.1511,1,Índice servicios corregido,aragon
+2020-11-01,96.6620909090909,1,Índice servicios corregido,aragon
+2020-12-01,96.82516666666665,1,Índice servicios corregido,aragon
+2020-01-01,-0.8138714828835732,1,Annual variation,aragon
+2020-02-01,0.5895051832852369,1,Annual variation,aragon
+2020-03-01,-2.992527896326337,1,Annual variation,aragon
+2020-04-01,-8.24085046382507,1,Annual variation,aragon
+2020-05-01,-10.94320708357816,1,Annual variation,aragon
+2020-06-01,-11.850379427171244,1,Annual variation,aragon
+2020-07-01,-11.394269042984472,1,Annual variation,aragon
+2020-08-01,-10.807266388002928,1,Annual variation,aragon
+2020-09-01,-10.466513903337368,1,Annual variation,aragon
+2020-10-01,-10.492403062027506,1,Annual variation,aragon
+2020-11-01,-10.406488777351496,1,Annual variation,aragon
+2020-12-01,-9.936512042842711,1,Annual variation,aragon
+2020-01-01,-0.5604549575537872,1,Corrected annual variation,aragon
+2020-02-01,-0.4923118730043784,1,Corrected annual variation,aragon
+2020-03-01,-4.5120719036057215,1,Corrected annual variation,aragon
+2020-04-01,-9.35812237963943,1,Corrected annual variation,aragon
+2020-05-01,-12.287470811441928,1,Corrected annual variation,aragon
+2020-06-01,-13.11005265393169,1,Corrected annual variation,aragon
+2020-07-01,-13.007475876158836,1,Corrected annual variation,aragon
+2020-08-01,-12.4375582961965,1,Corrected annual variation,aragon
+2020-09-01,-12.1701572447304,1,Corrected annual variation,aragon
+2020-10-01,-11.620222238358874,1,Corrected annual variation,aragon
+2020-11-01,-11.271303196971177,1,Corrected annual variation,aragon
+2020-12-01,-10.945915391483988,1,Corrected annual variation,aragon
+2020-01-01,122.357,1,Índice servicios,cantabria
+2020-02-01,117.652,1,Índice servicios,cantabria
+2020-03-01,114.03066666666666,1,Índice servicios,cantabria
+2020-04-01,107.0515,1,Índice servicios,cantabria
+2020-05-01,105.1848,1,Índice servicios,cantabria
+2020-06-01,105.765,1,Índice servicios,cantabria
+2020-07-01,110.02857142857142,1,Índice servicios,cantabria
+2020-08-01,112.559,1,Índice servicios,cantabria
+2020-09-01,113.22444444444444,1,Índice servicios,cantabria
+2020-10-01,113.1726,1,Índice servicios,cantabria
+2020-11-01,112.61863636363636,1,Índice servicios,cantabria
+2020-12-01,112.56525,1,Índice servicios,cantabria
+2020-01-01,108.585,1,Índice servicios corregido,cantabria
+2020-02-01,109.854,1,Índice servicios corregido,cantabria
+2020-03-01,105.53166666666668,1,Índice servicios corregido,cantabria
+2020-04-01,99.7745,1,Índice servicios corregido,cantabria
+2020-05-01,96.161,1,Índice servicios corregido,cantabria
+2020-06-01,95.1345,1,Índice servicios corregido,cantabria
+2020-07-01,95.13614285714286,1,Índice servicios corregido,cantabria
+2020-08-01,95.050125,1,Índice servicios corregido,cantabria
+2020-09-01,95.43844444444444,1,Índice servicios corregido,cantabria
+2020-10-01,96.1511,1,Índice servicios corregido,cantabria
+2020-11-01,96.6620909090909,1,Índice servicios corregido,cantabria
+2020-12-01,96.82516666666665,1,Índice servicios corregido,cantabria
+2020-01-01,-0.8138714828835732,1,Annual variation,cantabria
+2020-02-01,0.5895051832852369,1,Annual variation,cantabria
+2020-03-01,-2.992527896326337,1,Annual variation,cantabria
+2020-04-01,-8.24085046382507,1,Annual variation,cantabria
+2020-05-01,-10.94320708357816,1,Annual variation,cantabria
+2020-06-01,-11.850379427171244,1,Annual variation,cantabria
+2020-07-01,-11.394269042984472,1,Annual variation,cantabria
+2020-08-01,-10.807266388002928,1,Annual variation,cantabria
+2020-09-01,-10.466513903337368,1,Annual variation,cantabria
+2020-10-01,-10.492403062027506,1,Annual variation,cantabria
+2020-11-01,-10.406488777351496,1,Annual variation,cantabria
+2020-12-01,-9.936512042842711,1,Annual variation,cantabria
+2020-01-01,-0.5604549575537872,1,Corrected annual variation,cantabria
+2020-02-01,-0.4923118730043784,1,Corrected annual variation,cantabria
+2020-03-01,-4.5120719036057215,1,Corrected annual variation,cantabria
+2020-04-01,-9.35812237963943,1,Corrected annual variation,cantabria
+2020-05-01,-12.287470811441928,1,Corrected annual variation,cantabria
+2020-06-01,-13.11005265393169,1,Corrected annual variation,cantabria
+2020-07-01,-13.007475876158836,1,Corrected annual variation,cantabria
+2020-08-01,-12.4375582961965,1,Corrected annual variation,cantabria
+2020-09-01,-12.1701572447304,1,Corrected annual variation,cantabria
+2020-10-01,-11.620222238358874,1,Corrected annual variation,cantabria
+2020-11-01,-11.271303196971177,1,Corrected annual variation,cantabria
+2020-12-01,-10.945915391483988,1,Corrected annual variation,cantabria
+2020-01-01,122.357,1,Índice servicios,castilla la mancha
+2020-02-01,117.652,1,Índice servicios,castilla la mancha
+2020-03-01,114.03066666666666,1,Índice servicios,castilla la mancha
+2020-04-01,107.0515,1,Índice servicios,castilla la mancha
+2020-05-01,105.1848,1,Índice servicios,castilla la mancha
+2020-06-01,105.765,1,Índice servicios,castilla la mancha
+2020-07-01,110.02857142857142,1,Índice servicios,castilla la mancha
+2020-08-01,112.559,1,Índice servicios,castilla la mancha
+2020-09-01,113.22444444444444,1,Índice servicios,castilla la mancha
+2020-10-01,113.1726,1,Índice servicios,castilla la mancha
+2020-11-01,112.61863636363636,1,Índice servicios,castilla la mancha
+2020-12-01,112.56525,1,Índice servicios,castilla la mancha
+2020-01-01,108.585,1,Índice servicios corregido,castilla la mancha
+2020-02-01,109.854,1,Índice servicios corregido,castilla la mancha
+2020-03-01,105.53166666666668,1,Índice servicios corregido,castilla la mancha
+2020-04-01,99.7745,1,Índice servicios corregido,castilla la mancha
+2020-05-01,96.161,1,Índice servicios corregido,castilla la mancha
+2020-06-01,95.1345,1,Índice servicios corregido,castilla la mancha
+2020-07-01,95.13614285714286,1,Índice servicios corregido,castilla la mancha
+2020-08-01,95.050125,1,Índice servicios corregido,castilla la mancha
+2020-09-01,95.43844444444444,1,Índice servicios corregido,castilla la mancha
+2020-10-01,96.1511,1,Índice servicios corregido,castilla la mancha
+2020-11-01,96.6620909090909,1,Índice servicios corregido,castilla la mancha
+2020-12-01,96.82516666666665,1,Índice servicios corregido,castilla la mancha
+2020-01-01,-0.8138714828835732,1,Annual variation,castilla la mancha
+2020-02-01,0.5895051832852369,1,Annual variation,castilla la mancha
+2020-03-01,-2.992527896326337,1,Annual variation,castilla la mancha
+2020-04-01,-8.24085046382507,1,Annual variation,castilla la mancha
+2020-05-01,-10.94320708357816,1,Annual variation,castilla la mancha
+2020-06-01,-11.850379427171244,1,Annual variation,castilla la mancha
+2020-07-01,-11.394269042984472,1,Annual variation,castilla la mancha
+2020-08-01,-10.807266388002928,1,Annual variation,castilla la mancha
+2020-09-01,-10.466513903337368,1,Annual variation,castilla la mancha
+2020-10-01,-10.492403062027506,1,Annual variation,castilla la mancha
+2020-11-01,-10.406488777351496,1,Annual variation,castilla la mancha
+2020-12-01,-9.936512042842711,1,Annual variation,castilla la mancha
+2020-01-01,-0.5604549575537872,1,Corrected annual variation,castilla la mancha
+2020-02-01,-0.4923118730043784,1,Corrected annual variation,castilla la mancha
+2020-03-01,-4.5120719036057215,1,Corrected annual variation,castilla la mancha
+2020-04-01,-9.35812237963943,1,Corrected annual variation,castilla la mancha
+2020-05-01,-12.287470811441928,1,Corrected annual variation,castilla la mancha
+2020-06-01,-13.11005265393169,1,Corrected annual variation,castilla la mancha
+2020-07-01,-13.007475876158836,1,Corrected annual variation,castilla la mancha
+2020-08-01,-12.4375582961965,1,Corrected annual variation,castilla la mancha
+2020-09-01,-12.1701572447304,1,Corrected annual variation,castilla la mancha
+2020-10-01,-11.620222238358874,1,Corrected annual variation,castilla la mancha
+2020-11-01,-11.271303196971177,1,Corrected annual variation,castilla la mancha
+2020-12-01,-10.945915391483988,1,Corrected annual variation,castilla la mancha
+2020-01-01,122.357,1,Índice servicios,castilla y leon
+2020-02-01,117.652,1,Índice servicios,castilla y leon
+2020-03-01,114.03066666666666,1,Índice servicios,castilla y leon
+2020-04-01,107.0515,1,Índice servicios,castilla y leon
+2020-05-01,105.1848,1,Índice servicios,castilla y leon
+2020-06-01,105.765,1,Índice servicios,castilla y leon
+2020-07-01,110.02857142857142,1,Índice servicios,castilla y leon
+2020-08-01,112.559,1,Índice servicios,castilla y leon
+2020-09-01,113.22444444444444,1,Índice servicios,castilla y leon
+2020-10-01,113.1726,1,Índice servicios,castilla y leon
+2020-11-01,112.61863636363636,1,Índice servicios,castilla y leon
+2020-12-01,112.56525,1,Índice servicios,castilla y leon
+2020-01-01,108.585,1,Índice servicios corregido,castilla y leon
+2020-02-01,109.854,1,Índice servicios corregido,castilla y leon
+2020-03-01,105.53166666666668,1,Índice servicios corregido,castilla y leon
+2020-04-01,99.7745,1,Índice servicios corregido,castilla y leon
+2020-05-01,96.161,1,Índice servicios corregido,castilla y leon
+2020-06-01,95.1345,1,Índice servicios corregido,castilla y leon
+2020-07-01,95.13614285714286,1,Índice servicios corregido,castilla y leon
+2020-08-01,95.050125,1,Índice servicios corregido,castilla y leon
+2020-09-01,95.43844444444444,1,Índice servicios corregido,castilla y leon
+2020-10-01,96.1511,1,Índice servicios corregido,castilla y leon
+2020-11-01,96.6620909090909,1,Índice servicios corregido,castilla y leon
+2020-12-01,96.82516666666665,1,Índice servicios corregido,castilla y leon
+2020-01-01,-0.8138714828835732,1,Annual variation,castilla y leon
+2020-02-01,0.5895051832852369,1,Annual variation,castilla y leon
+2020-03-01,-2.992527896326337,1,Annual variation,castilla y leon
+2020-04-01,-8.24085046382507,1,Annual variation,castilla y leon
+2020-05-01,-10.94320708357816,1,Annual variation,castilla y leon
+2020-06-01,-11.850379427171244,1,Annual variation,castilla y leon
+2020-07-01,-11.394269042984472,1,Annual variation,castilla y leon
+2020-08-01,-10.807266388002928,1,Annual variation,castilla y leon
+2020-09-01,-10.466513903337368,1,Annual variation,castilla y leon
+2020-10-01,-10.492403062027506,1,Annual variation,castilla y leon
+2020-11-01,-10.406488777351496,1,Annual variation,castilla y leon
+2020-12-01,-9.936512042842711,1,Annual variation,castilla y leon
+2020-01-01,-0.5604549575537872,1,Corrected annual variation,castilla y leon
+2020-02-01,-0.4923118730043784,1,Corrected annual variation,castilla y leon
+2020-03-01,-4.5120719036057215,1,Corrected annual variation,castilla y leon
+2020-04-01,-9.35812237963943,1,Corrected annual variation,castilla y leon
+2020-05-01,-12.287470811441928,1,Corrected annual variation,castilla y leon
+2020-06-01,-13.11005265393169,1,Corrected annual variation,castilla y leon
+2020-07-01,-13.007475876158836,1,Corrected annual variation,castilla y leon
+2020-08-01,-12.4375582961965,1,Corrected annual variation,castilla y leon
+2020-09-01,-12.1701572447304,1,Corrected annual variation,castilla y leon
+2020-10-01,-11.620222238358874,1,Corrected annual variation,castilla y leon
+2020-11-01,-11.271303196971177,1,Corrected annual variation,castilla y leon
+2020-12-01,-10.945915391483988,1,Corrected annual variation,castilla y leon
+2020-01-01,122.357,1,Índice servicios,cataluña
+2020-02-01,117.652,1,Índice servicios,cataluña
+2020-03-01,114.03066666666666,1,Índice servicios,cataluña
+2020-04-01,107.0515,1,Índice servicios,cataluña
+2020-05-01,105.1848,1,Índice servicios,cataluña
+2020-06-01,105.765,1,Índice servicios,cataluña
+2020-07-01,110.02857142857142,1,Índice servicios,cataluña
+2020-08-01,112.559,1,Índice servicios,cataluña
+2020-09-01,113.22444444444444,1,Índice servicios,cataluña
+2020-10-01,113.1726,1,Índice servicios,cataluña
+2020-11-01,112.61863636363636,1,Índice servicios,cataluña
+2020-12-01,112.56525,1,Índice servicios,cataluña
+2020-01-01,108.585,1,Índice servicios corregido,cataluña
+2020-02-01,109.854,1,Índice servicios corregido,cataluña
+2020-03-01,105.53166666666668,1,Índice servicios corregido,cataluña
+2020-04-01,99.7745,1,Índice servicios corregido,cataluña
+2020-05-01,96.161,1,Índice servicios corregido,cataluña
+2020-06-01,95.1345,1,Índice servicios corregido,cataluña
+2020-07-01,95.13614285714286,1,Índice servicios corregido,cataluña
+2020-08-01,95.050125,1,Índice servicios corregido,cataluña
+2020-09-01,95.43844444444444,1,Índice servicios corregido,cataluña
+2020-10-01,96.1511,1,Índice servicios corregido,cataluña
+2020-11-01,96.6620909090909,1,Índice servicios corregido,cataluña
+2020-12-01,96.82516666666665,1,Índice servicios corregido,cataluña
+2020-01-01,-0.8138714828835732,1,Annual variation,cataluña
+2020-02-01,0.5895051832852369,1,Annual variation,cataluña
+2020-03-01,-2.992527896326337,1,Annual variation,cataluña
+2020-04-01,-8.24085046382507,1,Annual variation,cataluña
+2020-05-01,-10.94320708357816,1,Annual variation,cataluña
+2020-06-01,-11.850379427171244,1,Annual variation,cataluña
+2020-07-01,-11.394269042984472,1,Annual variation,cataluña
+2020-08-01,-10.807266388002928,1,Annual variation,cataluña
+2020-09-01,-10.466513903337368,1,Annual variation,cataluña
+2020-10-01,-10.492403062027506,1,Annual variation,cataluña
+2020-11-01,-10.406488777351496,1,Annual variation,cataluña
+2020-12-01,-9.936512042842711,1,Annual variation,cataluña
+2020-01-01,-0.5604549575537872,1,Corrected annual variation,cataluña
+2020-02-01,-0.4923118730043784,1,Corrected annual variation,cataluña
+2020-03-01,-4.5120719036057215,1,Corrected annual variation,cataluña
+2020-04-01,-9.35812237963943,1,Corrected annual variation,cataluña
+2020-05-01,-12.287470811441928,1,Corrected annual variation,cataluña
+2020-06-01,-13.11005265393169,1,Corrected annual variation,cataluña
+2020-07-01,-13.007475876158836,1,Corrected annual variation,cataluña
+2020-08-01,-12.4375582961965,1,Corrected annual variation,cataluña
+2020-09-01,-12.1701572447304,1,Corrected annual variation,cataluña
+2020-10-01,-11.620222238358874,1,Corrected annual variation,cataluña
+2020-11-01,-11.271303196971177,1,Corrected annual variation,cataluña
+2020-12-01,-10.945915391483988,1,Corrected annual variation,cataluña
+2020-01-01,122.357,1,Índice servicios,pais vasco
+2020-02-01,117.652,1,Índice servicios,pais vasco
+2020-03-01,114.03066666666666,1,Índice servicios,pais vasco
+2020-04-01,107.0515,1,Índice servicios,pais vasco
+2020-05-01,105.1848,1,Índice servicios,pais vasco
+2020-06-01,105.765,1,Índice servicios,pais vasco
+2020-07-01,110.02857142857142,1,Índice servicios,pais vasco
+2020-08-01,112.559,1,Índice servicios,pais vasco
+2020-09-01,113.22444444444444,1,Índice servicios,pais vasco
+2020-10-01,113.1726,1,Índice servicios,pais vasco
+2020-11-01,112.61863636363636,1,Índice servicios,pais vasco
+2020-12-01,112.56525,1,Índice servicios,pais vasco
+2020-01-01,108.585,1,Índice servicios corregido,pais vasco
+2020-02-01,109.854,1,Índice servicios corregido,pais vasco
+2020-03-01,105.53166666666668,1,Índice servicios corregido,pais vasco
+2020-04-01,99.7745,1,Índice servicios corregido,pais vasco
+2020-05-01,96.161,1,Índice servicios corregido,pais vasco
+2020-06-01,95.1345,1,Índice servicios corregido,pais vasco
+2020-07-01,95.13614285714286,1,Índice servicios corregido,pais vasco
+2020-08-01,95.050125,1,Índice servicios corregido,pais vasco
+2020-09-01,95.43844444444444,1,Índice servicios corregido,pais vasco
+2020-10-01,96.1511,1,Índice servicios corregido,pais vasco
+2020-11-01,96.6620909090909,1,Índice servicios corregido,pais vasco
+2020-12-01,96.82516666666665,1,Índice servicios corregido,pais vasco
+2020-01-01,-0.8138714828835732,1,Annual variation,pais vasco
+2020-02-01,0.5895051832852369,1,Annual variation,pais vasco
+2020-03-01,-2.992527896326337,1,Annual variation,pais vasco
+2020-04-01,-8.24085046382507,1,Annual variation,pais vasco
+2020-05-01,-10.94320708357816,1,Annual variation,pais vasco
+2020-06-01,-11.850379427171244,1,Annual variation,pais vasco
+2020-07-01,-11.394269042984472,1,Annual variation,pais vasco
+2020-08-01,-10.807266388002928,1,Annual variation,pais vasco
+2020-09-01,-10.466513903337368,1,Annual variation,pais vasco
+2020-10-01,-10.492403062027506,1,Annual variation,pais vasco
+2020-11-01,-10.406488777351496,1,Annual variation,pais vasco
+2020-12-01,-9.936512042842711,1,Annual variation,pais vasco
+2020-01-01,-0.5604549575537872,1,Corrected annual variation,pais vasco
+2020-02-01,-0.4923118730043784,1,Corrected annual variation,pais vasco
+2020-03-01,-4.5120719036057215,1,Corrected annual variation,pais vasco
+2020-04-01,-9.35812237963943,1,Corrected annual variation,pais vasco
+2020-05-01,-12.287470811441928,1,Corrected annual variation,pais vasco
+2020-06-01,-13.11005265393169,1,Corrected annual variation,pais vasco
+2020-07-01,-13.007475876158836,1,Corrected annual variation,pais vasco
+2020-08-01,-12.4375582961965,1,Corrected annual variation,pais vasco
+2020-09-01,-12.1701572447304,1,Corrected annual variation,pais vasco
+2020-10-01,-11.620222238358874,1,Corrected annual variation,pais vasco
+2020-11-01,-11.271303196971177,1,Corrected annual variation,pais vasco
+2020-12-01,-10.945915391483988,1,Corrected annual variation,pais vasco
+2020-01-01,122.357,1,Índice servicios,principado de asturias
+2020-02-01,117.652,1,Índice servicios,principado de asturias
+2020-03-01,114.03066666666666,1,Índice servicios,principado de asturias
+2020-04-01,107.0515,1,Índice servicios,principado de asturias
+2020-05-01,105.1848,1,Índice servicios,principado de asturias
+2020-06-01,105.765,1,Índice servicios,principado de asturias
+2020-07-01,110.02857142857142,1,Índice servicios,principado de asturias
+2020-08-01,112.559,1,Índice servicios,principado de asturias
+2020-09-01,113.22444444444444,1,Índice servicios,principado de asturias
+2020-10-01,113.1726,1,Índice servicios,principado de asturias
+2020-11-01,112.61863636363636,1,Índice servicios,principado de asturias
+2020-12-01,112.56525,1,Índice servicios,principado de asturias
+2020-01-01,108.585,1,Índice servicios corregido,principado de asturias
+2020-02-01,109.854,1,Índice servicios corregido,principado de asturias
+2020-03-01,105.53166666666668,1,Índice servicios corregido,principado de asturias
+2020-04-01,99.7745,1,Índice servicios corregido,principado de asturias
+2020-05-01,96.161,1,Índice servicios corregido,principado de asturias
+2020-06-01,95.1345,1,Índice servicios corregido,principado de asturias
+2020-07-01,95.13614285714286,1,Índice servicios corregido,principado de asturias
+2020-08-01,95.050125,1,Índice servicios corregido,principado de asturias
+2020-09-01,95.43844444444444,1,Índice servicios corregido,principado de asturias
+2020-10-01,96.1511,1,Índice servicios corregido,principado de asturias
+2020-11-01,96.6620909090909,1,Índice servicios corregido,principado de asturias
+2020-12-01,96.82516666666665,1,Índice servicios corregido,principado de asturias
+2020-01-01,-0.8138714828835732,1,Annual variation,principado de asturias
+2020-02-01,0.5895051832852369,1,Annual variation,principado de asturias
+2020-03-01,-2.992527896326337,1,Annual variation,principado de asturias
+2020-04-01,-8.24085046382507,1,Annual variation,principado de asturias
+2020-05-01,-10.94320708357816,1,Annual variation,principado de asturias
+2020-06-01,-11.850379427171244,1,Annual variation,principado de asturias
+2020-07-01,-11.394269042984472,1,Annual variation,principado de asturias
+2020-08-01,-10.807266388002928,1,Annual variation,principado de asturias
+2020-09-01,-10.466513903337368,1,Annual variation,principado de asturias
+2020-10-01,-10.492403062027506,1,Annual variation,principado de asturias
+2020-11-01,-10.406488777351496,1,Annual variation,principado de asturias
+2020-12-01,-9.936512042842711,1,Annual variation,principado de asturias
+2020-01-01,-0.5604549575537872,1,Corrected annual variation,principado de asturias
+2020-02-01,-0.4923118730043784,1,Corrected annual variation,principado de asturias
+2020-03-01,-4.5120719036057215,1,Corrected annual variation,principado de asturias
+2020-04-01,-9.35812237963943,1,Corrected annual variation,principado de asturias
+2020-05-01,-12.287470811441928,1,Corrected annual variation,principado de asturias
+2020-06-01,-13.11005265393169,1,Corrected annual variation,principado de asturias
+2020-07-01,-13.007475876158836,1,Corrected annual variation,principado de asturias
+2020-08-01,-12.4375582961965,1,Corrected annual variation,principado de asturias
+2020-09-01,-12.1701572447304,1,Corrected annual variation,principado de asturias
+2020-10-01,-11.620222238358874,1,Corrected annual variation,principado de asturias
+2020-11-01,-11.271303196971177,1,Corrected annual variation,principado de asturias
+2020-12-01,-10.945915391483988,1,Corrected annual variation,principado de asturias
+2020-01-01,122.357,1,Índice servicios,comunidad de madrid
+2020-02-01,117.652,1,Índice servicios,comunidad de madrid
+2020-03-01,114.03066666666666,1,Índice servicios,comunidad de madrid
+2020-04-01,107.0515,1,Índice servicios,comunidad de madrid
+2020-05-01,105.1848,1,Índice servicios,comunidad de madrid
+2020-06-01,105.765,1,Índice servicios,comunidad de madrid
+2020-07-01,110.02857142857142,1,Índice servicios,comunidad de madrid
+2020-08-01,112.559,1,Índice servicios,comunidad de madrid
+2020-09-01,113.22444444444444,1,Índice servicios,comunidad de madrid
+2020-10-01,113.1726,1,Índice servicios,comunidad de madrid
+2020-11-01,112.61863636363636,1,Índice servicios,comunidad de madrid
+2020-12-01,112.56525,1,Índice servicios,comunidad de madrid
+2020-01-01,108.585,1,Índice servicios corregido,comunidad de madrid
+2020-02-01,109.854,1,Índice servicios corregido,comunidad de madrid
+2020-03-01,105.53166666666668,1,Índice servicios corregido,comunidad de madrid
+2020-04-01,99.7745,1,Índice servicios corregido,comunidad de madrid
+2020-05-01,96.161,1,Índice servicios corregido,comunidad de madrid
+2020-06-01,95.1345,1,Índice servicios corregido,comunidad de madrid
+2020-07-01,95.13614285714286,1,Índice servicios corregido,comunidad de madrid
+2020-08-01,95.050125,1,Índice servicios corregido,comunidad de madrid
+2020-09-01,95.43844444444444,1,Índice servicios corregido,comunidad de madrid
+2020-10-01,96.1511,1,Índice servicios corregido,comunidad de madrid
+2020-11-01,96.6620909090909,1,Índice servicios corregido,comunidad de madrid
+2020-12-01,96.82516666666665,1,Índice servicios corregido,comunidad de madrid
+2020-01-01,-0.8138714828835732,1,Annual variation,comunidad de madrid
+2020-02-01,0.5895051832852369,1,Annual variation,comunidad de madrid
+2020-03-01,-2.992527896326337,1,Annual variation,comunidad de madrid
+2020-04-01,-8.24085046382507,1,Annual variation,comunidad de madrid
+2020-05-01,-10.94320708357816,1,Annual variation,comunidad de madrid
+2020-06-01,-11.850379427171244,1,Annual variation,comunidad de madrid
+2020-07-01,-11.394269042984472,1,Annual variation,comunidad de madrid
+2020-08-01,-10.807266388002928,1,Annual variation,comunidad de madrid
+2020-09-01,-10.466513903337368,1,Annual variation,comunidad de madrid
+2020-10-01,-10.492403062027506,1,Annual variation,comunidad de madrid
+2020-11-01,-10.406488777351496,1,Annual variation,comunidad de madrid
+2020-12-01,-9.936512042842711,1,Annual variation,comunidad de madrid
+2020-01-01,-0.5604549575537872,1,Corrected annual variation,comunidad de madrid
+2020-02-01,-0.4923118730043784,1,Corrected annual variation,comunidad de madrid
+2020-03-01,-4.5120719036057215,1,Corrected annual variation,comunidad de madrid
+2020-04-01,-9.35812237963943,1,Corrected annual variation,comunidad de madrid
+2020-05-01,-12.287470811441928,1,Corrected annual variation,comunidad de madrid
+2020-06-01,-13.11005265393169,1,Corrected annual variation,comunidad de madrid
+2020-07-01,-13.007475876158836,1,Corrected annual variation,comunidad de madrid
+2020-08-01,-12.4375582961965,1,Corrected annual variation,comunidad de madrid
+2020-09-01,-12.1701572447304,1,Corrected annual variation,comunidad de madrid
+2020-10-01,-11.620222238358874,1,Corrected annual variation,comunidad de madrid
+2020-11-01,-11.271303196971177,1,Corrected annual variation,comunidad de madrid
+2020-12-01,-10.945915391483988,1,Corrected annual variation,comunidad de madrid
+2020-01-01,122.357,1,Índice servicios,comunidad de navarra
+2020-02-01,117.652,1,Índice servicios,comunidad de navarra
+2020-03-01,114.03066666666666,1,Índice servicios,comunidad de navarra
+2020-04-01,107.0515,1,Índice servicios,comunidad de navarra
+2020-05-01,105.1848,1,Índice servicios,comunidad de navarra
+2020-06-01,105.765,1,Índice servicios,comunidad de navarra
+2020-07-01,110.02857142857142,1,Índice servicios,comunidad de navarra
+2020-08-01,112.559,1,Índice servicios,comunidad de navarra
+2020-09-01,113.22444444444444,1,Índice servicios,comunidad de navarra
+2020-10-01,113.1726,1,Índice servicios,comunidad de navarra
+2020-11-01,112.61863636363636,1,Índice servicios,comunidad de navarra
+2020-12-01,112.56525,1,Índice servicios,comunidad de navarra
+2020-01-01,108.585,1,Índice servicios corregido,comunidad de navarra
+2020-02-01,109.854,1,Índice servicios corregido,comunidad de navarra
+2020-03-01,105.53166666666668,1,Índice servicios corregido,comunidad de navarra
+2020-04-01,99.7745,1,Índice servicios corregido,comunidad de navarra
+2020-05-01,96.161,1,Índice servicios corregido,comunidad de navarra
+2020-06-01,95.1345,1,Índice servicios corregido,comunidad de navarra
+2020-07-01,95.13614285714286,1,Índice servicios corregido,comunidad de navarra
+2020-08-01,95.050125,1,Índice servicios corregido,comunidad de navarra
+2020-09-01,95.43844444444444,1,Índice servicios corregido,comunidad de navarra
+2020-10-01,96.1511,1,Índice servicios corregido,comunidad de navarra
+2020-11-01,96.6620909090909,1,Índice servicios corregido,comunidad de navarra
+2020-12-01,96.82516666666665,1,Índice servicios corregido,comunidad de navarra
+2020-01-01,-0.8138714828835732,1,Annual variation,comunidad de navarra
+2020-02-01,0.5895051832852369,1,Annual variation,comunidad de navarra
+2020-03-01,-2.992527896326337,1,Annual variation,comunidad de navarra
+2020-04-01,-8.24085046382507,1,Annual variation,comunidad de navarra
+2020-05-01,-10.94320708357816,1,Annual variation,comunidad de navarra
+2020-06-01,-11.850379427171244,1,Annual variation,comunidad de navarra
+2020-07-01,-11.394269042984472,1,Annual variation,comunidad de navarra
+2020-08-01,-10.807266388002928,1,Annual variation,comunidad de navarra
+2020-09-01,-10.466513903337368,1,Annual variation,comunidad de navarra
+2020-10-01,-10.492403062027506,1,Annual variation,comunidad de navarra
+2020-11-01,-10.406488777351496,1,Annual variation,comunidad de navarra
+2020-12-01,-9.936512042842711,1,Annual variation,comunidad de navarra
+2020-01-01,-0.5604549575537872,1,Corrected annual variation,comunidad de navarra
+2020-02-01,-0.4923118730043784,1,Corrected annual variation,comunidad de navarra
+2020-03-01,-4.5120719036057215,1,Corrected annual variation,comunidad de navarra
+2020-04-01,-9.35812237963943,1,Corrected annual variation,comunidad de navarra
+2020-05-01,-12.287470811441928,1,Corrected annual variation,comunidad de navarra
+2020-06-01,-13.11005265393169,1,Corrected annual variation,comunidad de navarra
+2020-07-01,-13.007475876158836,1,Corrected annual variation,comunidad de navarra
+2020-08-01,-12.4375582961965,1,Corrected annual variation,comunidad de navarra
+2020-09-01,-12.1701572447304,1,Corrected annual variation,comunidad de navarra
+2020-10-01,-11.620222238358874,1,Corrected annual variation,comunidad de navarra
+2020-11-01,-11.271303196971177,1,Corrected annual variation,comunidad de navarra
+2020-12-01,-10.945915391483988,1,Corrected annual variation,comunidad de navarra
+2020-01-01,122.357,1,Índice servicios,comunidad valenciana
+2020-02-01,117.652,1,Índice servicios,comunidad valenciana
+2020-03-01,114.03066666666666,1,Índice servicios,comunidad valenciana
+2020-04-01,107.0515,1,Índice servicios,comunidad valenciana
+2020-05-01,105.1848,1,Índice servicios,comunidad valenciana
+2020-06-01,105.765,1,Índice servicios,comunidad valenciana
+2020-07-01,110.02857142857142,1,Índice servicios,comunidad valenciana
+2020-08-01,112.559,1,Índice servicios,comunidad valenciana
+2020-09-01,113.22444444444444,1,Índice servicios,comunidad valenciana
+2020-10-01,113.1726,1,Índice servicios,comunidad valenciana
+2020-11-01,112.61863636363636,1,Índice servicios,comunidad valenciana
+2020-12-01,112.56525,1,Índice servicios,comunidad valenciana
+2020-01-01,108.585,1,Índice servicios corregido,comunidad valenciana
+2020-02-01,109.854,1,Índice servicios corregido,comunidad valenciana
+2020-03-01,105.53166666666668,1,Índice servicios corregido,comunidad valenciana
+2020-04-01,99.7745,1,Índice servicios corregido,comunidad valenciana
+2020-05-01,96.161,1,Índice servicios corregido,comunidad valenciana
+2020-06-01,95.1345,1,Índice servicios corregido,comunidad valenciana
+2020-07-01,95.13614285714286,1,Índice servicios corregido,comunidad valenciana
+2020-08-01,95.050125,1,Índice servicios corregido,comunidad valenciana
+2020-09-01,95.43844444444444,1,Índice servicios corregido,comunidad valenciana
+2020-10-01,96.1511,1,Índice servicios corregido,comunidad valenciana
+2020-11-01,96.6620909090909,1,Índice servicios corregido,comunidad valenciana
+2020-12-01,96.82516666666665,1,Índice servicios corregido,comunidad valenciana
+2020-01-01,-0.8138714828835732,1,Annual variation,comunidad valenciana
+2020-02-01,0.5895051832852369,1,Annual variation,comunidad valenciana
+2020-03-01,-2.992527896326337,1,Annual variation,comunidad valenciana
+2020-04-01,-8.24085046382507,1,Annual variation,comunidad valenciana
+2020-05-01,-10.94320708357816,1,Annual variation,comunidad valenciana
+2020-06-01,-11.850379427171244,1,Annual variation,comunidad valenciana
+2020-07-01,-11.394269042984472,1,Annual variation,comunidad valenciana
+2020-08-01,-10.807266388002928,1,Annual variation,comunidad valenciana
+2020-09-01,-10.466513903337368,1,Annual variation,comunidad valenciana
+2020-10-01,-10.492403062027506,1,Annual variation,comunidad valenciana
+2020-11-01,-10.406488777351496,1,Annual variation,comunidad valenciana
+2020-12-01,-9.936512042842711,1,Annual variation,comunidad valenciana
+2020-01-01,-0.5604549575537872,1,Corrected annual variation,comunidad valenciana
+2020-02-01,-0.4923118730043784,1,Corrected annual variation,comunidad valenciana
+2020-03-01,-4.5120719036057215,1,Corrected annual variation,comunidad valenciana
+2020-04-01,-9.35812237963943,1,Corrected annual variation,comunidad valenciana
+2020-05-01,-12.287470811441928,1,Corrected annual variation,comunidad valenciana
+2020-06-01,-13.11005265393169,1,Corrected annual variation,comunidad valenciana
+2020-07-01,-13.007475876158836,1,Corrected annual variation,comunidad valenciana
+2020-08-01,-12.4375582961965,1,Corrected annual variation,comunidad valenciana
+2020-09-01,-12.1701572447304,1,Corrected annual variation,comunidad valenciana
+2020-10-01,-11.620222238358874,1,Corrected annual variation,comunidad valenciana
+2020-11-01,-11.271303196971177,1,Corrected annual variation,comunidad valenciana
+2020-12-01,-10.945915391483988,1,Corrected annual variation,comunidad valenciana
+2020-01-01,122.357,1,Índice servicios,extremadura
+2020-02-01,117.652,1,Índice servicios,extremadura
+2020-03-01,114.03066666666666,1,Índice servicios,extremadura
+2020-04-01,107.0515,1,Índice servicios,extremadura
+2020-05-01,105.1848,1,Índice servicios,extremadura
+2020-06-01,105.765,1,Índice servicios,extremadura
+2020-07-01,110.02857142857142,1,Índice servicios,extremadura
+2020-08-01,112.559,1,Índice servicios,extremadura
+2020-09-01,113.22444444444444,1,Índice servicios,extremadura
+2020-10-01,113.1726,1,Índice servicios,extremadura
+2020-11-01,112.61863636363636,1,Índice servicios,extremadura
+2020-12-01,112.56525,1,Índice servicios,extremadura
+2020-01-01,108.585,1,Índice servicios corregido,extremadura
+2020-02-01,109.854,1,Índice servicios corregido,extremadura
+2020-03-01,105.53166666666668,1,Índice servicios corregido,extremadura
+2020-04-01,99.7745,1,Índice servicios corregido,extremadura
+2020-05-01,96.161,1,Índice servicios corregido,extremadura
+2020-06-01,95.1345,1,Índice servicios corregido,extremadura
+2020-07-01,95.13614285714286,1,Índice servicios corregido,extremadura
+2020-08-01,95.050125,1,Índice servicios corregido,extremadura
+2020-09-01,95.43844444444444,1,Índice servicios corregido,extremadura
+2020-10-01,96.1511,1,Índice servicios corregido,extremadura
+2020-11-01,96.6620909090909,1,Índice servicios corregido,extremadura
+2020-12-01,96.82516666666665,1,Índice servicios corregido,extremadura
+2020-01-01,-0.8138714828835732,1,Annual variation,extremadura
+2020-02-01,0.5895051832852369,1,Annual variation,extremadura
+2020-03-01,-2.992527896326337,1,Annual variation,extremadura
+2020-04-01,-8.24085046382507,1,Annual variation,extremadura
+2020-05-01,-10.94320708357816,1,Annual variation,extremadura
+2020-06-01,-11.850379427171244,1,Annual variation,extremadura
+2020-07-01,-11.394269042984472,1,Annual variation,extremadura
+2020-08-01,-10.807266388002928,1,Annual variation,extremadura
+2020-09-01,-10.466513903337368,1,Annual variation,extremadura
+2020-10-01,-10.492403062027506,1,Annual variation,extremadura
+2020-11-01,-10.406488777351496,1,Annual variation,extremadura
+2020-12-01,-9.936512042842711,1,Annual variation,extremadura
+2020-01-01,-0.5604549575537872,1,Corrected annual variation,extremadura
+2020-02-01,-0.4923118730043784,1,Corrected annual variation,extremadura
+2020-03-01,-4.5120719036057215,1,Corrected annual variation,extremadura
+2020-04-01,-9.35812237963943,1,Corrected annual variation,extremadura
+2020-05-01,-12.287470811441928,1,Corrected annual variation,extremadura
+2020-06-01,-13.11005265393169,1,Corrected annual variation,extremadura
+2020-07-01,-13.007475876158836,1,Corrected annual variation,extremadura
+2020-08-01,-12.4375582961965,1,Corrected annual variation,extremadura
+2020-09-01,-12.1701572447304,1,Corrected annual variation,extremadura
+2020-10-01,-11.620222238358874,1,Corrected annual variation,extremadura
+2020-11-01,-11.271303196971177,1,Corrected annual variation,extremadura
+2020-12-01,-10.945915391483988,1,Corrected annual variation,extremadura
+2020-01-01,122.357,1,Índice servicios,galicia
+2020-02-01,117.652,1,Índice servicios,galicia
+2020-03-01,114.03066666666666,1,Índice servicios,galicia
+2020-04-01,107.0515,1,Índice servicios,galicia
+2020-05-01,105.1848,1,Índice servicios,galicia
+2020-06-01,105.765,1,Índice servicios,galicia
+2020-07-01,110.02857142857142,1,Índice servicios,galicia
+2020-08-01,112.559,1,Índice servicios,galicia
+2020-09-01,113.22444444444444,1,Índice servicios,galicia
+2020-10-01,113.1726,1,Índice servicios,galicia
+2020-11-01,112.61863636363636,1,Índice servicios,galicia
+2020-12-01,112.56525,1,Índice servicios,galicia
+2020-01-01,108.585,1,Índice servicios corregido,galicia
+2020-02-01,109.854,1,Índice servicios corregido,galicia
+2020-03-01,105.53166666666668,1,Índice servicios corregido,galicia
+2020-04-01,99.7745,1,Índice servicios corregido,galicia
+2020-05-01,96.161,1,Índice servicios corregido,galicia
+2020-06-01,95.1345,1,Índice servicios corregido,galicia
+2020-07-01,95.13614285714286,1,Índice servicios corregido,galicia
+2020-08-01,95.050125,1,Índice servicios corregido,galicia
+2020-09-01,95.43844444444444,1,Índice servicios corregido,galicia
+2020-10-01,96.1511,1,Índice servicios corregido,galicia
+2020-11-01,96.6620909090909,1,Índice servicios corregido,galicia
+2020-12-01,96.82516666666665,1,Índice servicios corregido,galicia
+2020-01-01,-0.8138714828835732,1,Annual variation,galicia
+2020-02-01,0.5895051832852369,1,Annual variation,galicia
+2020-03-01,-2.992527896326337,1,Annual variation,galicia
+2020-04-01,-8.24085046382507,1,Annual variation,galicia
+2020-05-01,-10.94320708357816,1,Annual variation,galicia
+2020-06-01,-11.850379427171244,1,Annual variation,galicia
+2020-07-01,-11.394269042984472,1,Annual variation,galicia
+2020-08-01,-10.807266388002928,1,Annual variation,galicia
+2020-09-01,-10.466513903337368,1,Annual variation,galicia
+2020-10-01,-10.492403062027506,1,Annual variation,galicia
+2020-11-01,-10.406488777351496,1,Annual variation,galicia
+2020-12-01,-9.936512042842711,1,Annual variation,galicia
+2020-01-01,-0.5604549575537872,1,Corrected annual variation,galicia
+2020-02-01,-0.4923118730043784,1,Corrected annual variation,galicia
+2020-03-01,-4.5120719036057215,1,Corrected annual variation,galicia
+2020-04-01,-9.35812237963943,1,Corrected annual variation,galicia
+2020-05-01,-12.287470811441928,1,Corrected annual variation,galicia
+2020-06-01,-13.11005265393169,1,Corrected annual variation,galicia
+2020-07-01,-13.007475876158836,1,Corrected annual variation,galicia
+2020-08-01,-12.4375582961965,1,Corrected annual variation,galicia
+2020-09-01,-12.1701572447304,1,Corrected annual variation,galicia
+2020-10-01,-11.620222238358874,1,Corrected annual variation,galicia
+2020-11-01,-11.271303196971177,1,Corrected annual variation,galicia
+2020-12-01,-10.945915391483988,1,Corrected annual variation,galicia
+2020-01-01,122.357,1,Índice servicios,la rioja
+2020-02-01,117.652,1,Índice servicios,la rioja
+2020-03-01,114.03066666666666,1,Índice servicios,la rioja
+2020-04-01,107.0515,1,Índice servicios,la rioja
+2020-05-01,105.1848,1,Índice servicios,la rioja
+2020-06-01,105.765,1,Índice servicios,la rioja
+2020-07-01,110.02857142857142,1,Índice servicios,la rioja
+2020-08-01,112.559,1,Índice servicios,la rioja
+2020-09-01,113.22444444444444,1,Índice servicios,la rioja
+2020-10-01,113.1726,1,Índice servicios,la rioja
+2020-11-01,112.61863636363636,1,Índice servicios,la rioja
+2020-12-01,112.56525,1,Índice servicios,la rioja
+2020-01-01,108.585,1,Índice servicios corregido,la rioja
+2020-02-01,109.854,1,Índice servicios corregido,la rioja
+2020-03-01,105.53166666666668,1,Índice servicios corregido,la rioja
+2020-04-01,99.7745,1,Índice servicios corregido,la rioja
+2020-05-01,96.161,1,Índice servicios corregido,la rioja
+2020-06-01,95.1345,1,Índice servicios corregido,la rioja
+2020-07-01,95.13614285714286,1,Índice servicios corregido,la rioja
+2020-08-01,95.050125,1,Índice servicios corregido,la rioja
+2020-09-01,95.43844444444444,1,Índice servicios corregido,la rioja
+2020-10-01,96.1511,1,Índice servicios corregido,la rioja
+2020-11-01,96.6620909090909,1,Índice servicios corregido,la rioja
+2020-12-01,96.82516666666665,1,Índice servicios corregido,la rioja
+2020-01-01,-0.8138714828835732,1,Annual variation,la rioja
+2020-02-01,0.5895051832852369,1,Annual variation,la rioja
+2020-03-01,-2.992527896326337,1,Annual variation,la rioja
+2020-04-01,-8.24085046382507,1,Annual variation,la rioja
+2020-05-01,-10.94320708357816,1,Annual variation,la rioja
+2020-06-01,-11.850379427171244,1,Annual variation,la rioja
+2020-07-01,-11.394269042984472,1,Annual variation,la rioja
+2020-08-01,-10.807266388002928,1,Annual variation,la rioja
+2020-09-01,-10.466513903337368,1,Annual variation,la rioja
+2020-10-01,-10.492403062027506,1,Annual variation,la rioja
+2020-11-01,-10.406488777351496,1,Annual variation,la rioja
+2020-12-01,-9.936512042842711,1,Annual variation,la rioja
+2020-01-01,-0.5604549575537872,1,Corrected annual variation,la rioja
+2020-02-01,-0.4923118730043784,1,Corrected annual variation,la rioja
+2020-03-01,-4.5120719036057215,1,Corrected annual variation,la rioja
+2020-04-01,-9.35812237963943,1,Corrected annual variation,la rioja
+2020-05-01,-12.287470811441928,1,Corrected annual variation,la rioja
+2020-06-01,-13.11005265393169,1,Corrected annual variation,la rioja
+2020-07-01,-13.007475876158836,1,Corrected annual variation,la rioja
+2020-08-01,-12.4375582961965,1,Corrected annual variation,la rioja
+2020-09-01,-12.1701572447304,1,Corrected annual variation,la rioja
+2020-10-01,-11.620222238358874,1,Corrected annual variation,la rioja
+2020-11-01,-11.271303196971177,1,Corrected annual variation,la rioja
+2020-12-01,-10.945915391483988,1,Corrected annual variation,la rioja
+2020-01-01,122.357,1,Índice servicios,region de murcia
+2020-02-01,117.652,1,Índice servicios,region de murcia
+2020-03-01,114.03066666666666,1,Índice servicios,region de murcia
+2020-04-01,107.0515,1,Índice servicios,region de murcia
+2020-05-01,105.1848,1,Índice servicios,region de murcia
+2020-06-01,105.765,1,Índice servicios,region de murcia
+2020-07-01,110.02857142857142,1,Índice servicios,region de murcia
+2020-08-01,112.559,1,Índice servicios,region de murcia
+2020-09-01,113.22444444444444,1,Índice servicios,region de murcia
+2020-10-01,113.1726,1,Índice servicios,region de murcia
+2020-11-01,112.61863636363636,1,Índice servicios,region de murcia
+2020-12-01,112.56525,1,Índice servicios,region de murcia
+2020-01-01,108.585,1,Índice servicios corregido,region de murcia
+2020-02-01,109.854,1,Índice servicios corregido,region de murcia
+2020-03-01,105.53166666666668,1,Índice servicios corregido,region de murcia
+2020-04-01,99.7745,1,Índice servicios corregido,region de murcia
+2020-05-01,96.161,1,Índice servicios corregido,region de murcia
+2020-06-01,95.1345,1,Índice servicios corregido,region de murcia
+2020-07-01,95.13614285714286,1,Índice servicios corregido,region de murcia
+2020-08-01,95.050125,1,Índice servicios corregido,region de murcia
+2020-09-01,95.43844444444444,1,Índice servicios corregido,region de murcia
+2020-10-01,96.1511,1,Índice servicios corregido,region de murcia
+2020-11-01,96.6620909090909,1,Índice servicios corregido,region de murcia
+2020-12-01,96.82516666666665,1,Índice servicios corregido,region de murcia
+2020-01-01,-0.8138714828835732,1,Annual variation,region de murcia
+2020-02-01,0.5895051832852369,1,Annual variation,region de murcia
+2020-03-01,-2.992527896326337,1,Annual variation,region de murcia
+2020-04-01,-8.24085046382507,1,Annual variation,region de murcia
+2020-05-01,-10.94320708357816,1,Annual variation,region de murcia
+2020-06-01,-11.850379427171244,1,Annual variation,region de murcia
+2020-07-01,-11.394269042984472,1,Annual variation,region de murcia
+2020-08-01,-10.807266388002928,1,Annual variation,region de murcia
+2020-09-01,-10.466513903337368,1,Annual variation,region de murcia
+2020-10-01,-10.492403062027506,1,Annual variation,region de murcia
+2020-11-01,-10.406488777351496,1,Annual variation,region de murcia
+2020-12-01,-9.936512042842711,1,Annual variation,region de murcia
+2020-01-01,-0.5604549575537872,1,Corrected annual variation,region de murcia
+2020-02-01,-0.4923118730043784,1,Corrected annual variation,region de murcia
+2020-03-01,-4.5120719036057215,1,Corrected annual variation,region de murcia
+2020-04-01,-9.35812237963943,1,Corrected annual variation,region de murcia
+2020-05-01,-12.287470811441928,1,Corrected annual variation,region de murcia
+2020-06-01,-13.11005265393169,1,Corrected annual variation,region de murcia
+2020-07-01,-13.007475876158836,1,Corrected annual variation,region de murcia
+2020-08-01,-12.4375582961965,1,Corrected annual variation,region de murcia
+2020-09-01,-12.1701572447304,1,Corrected annual variation,region de murcia
+2020-10-01,-11.620222238358874,1,Corrected annual variation,region de murcia
+2020-11-01,-11.271303196971177,1,Corrected annual variation,region de murcia
+2020-12-01,-10.945915391483988,1,Corrected annual variation,region de murcia

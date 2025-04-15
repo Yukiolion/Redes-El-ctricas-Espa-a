@@ -1,0 +1,961 @@
+fecha,valor,porcentaje,indicator,region
+2022-01-01,125.229,1,Índice servicios,peninsular
+2022-02-01,118.984,1,Índice servicios,peninsular
+2022-03-01,119.95666666666666,1,Índice servicios,peninsular
+2022-04-01,118.145,1,Índice servicios,peninsular
+2022-05-01,119.4442,1,Índice servicios,peninsular
+2022-06-01,121.7525,1,Índice servicios,peninsular
+2022-07-01,124.90942857142856,1,Índice servicios,peninsular
+2022-08-01,126.357375,1,Índice servicios,peninsular
+2022-09-01,125.92833333333334,1,Índice servicios,peninsular
+2022-10-01,124.8147,1,Índice servicios,peninsular
+2022-11-01,123.18399999999998,1,Índice servicios,peninsular
+2022-12-01,121.81991666666666,1,Índice servicios,peninsular
+2022-01-01,114.426,1,Índice servicios corregido,peninsular
+2022-02-01,113.6425,1,Índice servicios corregido,peninsular
+2022-03-01,112.24766666666666,1,Índice servicios corregido,peninsular
+2022-04-01,110.496,1,Índice servicios corregido,peninsular
+2022-05-01,108.6664,1,Índice servicios corregido,peninsular
+2022-06-01,107.82666666666668,1,Índice servicios corregido,peninsular
+2022-07-01,106.15,1,Índice servicios corregido,peninsular
+2022-08-01,104.54625,1,Índice servicios corregido,peninsular
+2022-09-01,103.81366666666668,1,Índice servicios corregido,peninsular
+2022-10-01,103.1407,1,Índice servicios corregido,peninsular
+2022-11-01,102.873,1,Índice servicios corregido,peninsular
+2022-12-01,102.52425,1,Índice servicios corregido,peninsular
+2022-01-01,10.64294107772368,1,Annual variation,peninsular
+2022-02-01,11.221308755415764,1,Annual variation,peninsular
+2022-03-01,10.512286649592482,1,Annual variation,peninsular
+2022-04-01,9.601304324633956,1,Annual variation,peninsular
+2022-05-01,9.760875997728377,1,Annual variation,peninsular
+2022-06-01,9.517562928204113,1,Annual variation,peninsular
+2022-07-01,8.414879107253537,1,Annual variation,peninsular
+2022-08-01,7.0222078235570375,1,Annual variation,peninsular
+2022-09-01,5.587391615838182,1,Annual variation,peninsular
+2022-10-01,4.622109714544342,1,Annual variation,peninsular
+2022-11-01,3.436235934256929,1,Annual variation,peninsular
+2022-12-01,2.366523720557615,1,Annual variation,peninsular
+2022-01-01,15.325539205805285,1,Corrected annual variation,peninsular
+2022-02-01,13.806951044258945,1,Corrected annual variation,peninsular
+2022-03-01,12.176621473067051,1,Corrected annual variation,peninsular
+2022-04-01,10.06811022151386,1,Corrected annual variation,peninsular
+2022-05-01,8.438895197874853,1,Corrected annual variation,peninsular
+2022-06-01,7.205588954656022,1,Corrected annual variation,peninsular
+2022-07-01,5.121907742280508,1,Corrected annual variation,peninsular
+2022-08-01,3.665996110526506,1,Corrected annual variation,peninsular
+2022-09-01,2.1393753286406296,1,Corrected annual variation,peninsular
+2022-10-01,0.7829828980822752,1,Corrected annual variation,peninsular
+2022-11-01,-0.0831755029601516,1,Corrected annual variation,peninsular
+2022-12-01,-0.7171689620054584,1,Corrected annual variation,peninsular
+2022-01-01,125.229,1,Índice servicios,canarias
+2022-02-01,118.984,1,Índice servicios,canarias
+2022-03-01,119.95666666666666,1,Índice servicios,canarias
+2022-04-01,118.145,1,Índice servicios,canarias
+2022-05-01,119.4442,1,Índice servicios,canarias
+2022-06-01,121.7525,1,Índice servicios,canarias
+2022-07-01,124.90942857142856,1,Índice servicios,canarias
+2022-08-01,126.357375,1,Índice servicios,canarias
+2022-09-01,125.92833333333334,1,Índice servicios,canarias
+2022-10-01,124.8147,1,Índice servicios,canarias
+2022-11-01,123.18399999999998,1,Índice servicios,canarias
+2022-12-01,121.81991666666666,1,Índice servicios,canarias
+2022-01-01,114.426,1,Índice servicios corregido,canarias
+2022-02-01,113.6425,1,Índice servicios corregido,canarias
+2022-03-01,112.24766666666666,1,Índice servicios corregido,canarias
+2022-04-01,110.496,1,Índice servicios corregido,canarias
+2022-05-01,108.6664,1,Índice servicios corregido,canarias
+2022-06-01,107.82666666666668,1,Índice servicios corregido,canarias
+2022-07-01,106.15,1,Índice servicios corregido,canarias
+2022-08-01,104.54625,1,Índice servicios corregido,canarias
+2022-09-01,103.81366666666668,1,Índice servicios corregido,canarias
+2022-10-01,103.1407,1,Índice servicios corregido,canarias
+2022-11-01,102.873,1,Índice servicios corregido,canarias
+2022-12-01,102.52425,1,Índice servicios corregido,canarias
+2022-01-01,10.64294107772368,1,Annual variation,canarias
+2022-02-01,11.221308755415764,1,Annual variation,canarias
+2022-03-01,10.512286649592482,1,Annual variation,canarias
+2022-04-01,9.601304324633956,1,Annual variation,canarias
+2022-05-01,9.760875997728377,1,Annual variation,canarias
+2022-06-01,9.517562928204113,1,Annual variation,canarias
+2022-07-01,8.414879107253537,1,Annual variation,canarias
+2022-08-01,7.0222078235570375,1,Annual variation,canarias
+2022-09-01,5.587391615838182,1,Annual variation,canarias
+2022-10-01,4.622109714544342,1,Annual variation,canarias
+2022-11-01,3.436235934256929,1,Annual variation,canarias
+2022-12-01,2.366523720557615,1,Annual variation,canarias
+2022-01-01,15.325539205805285,1,Corrected annual variation,canarias
+2022-02-01,13.806951044258945,1,Corrected annual variation,canarias
+2022-03-01,12.176621473067051,1,Corrected annual variation,canarias
+2022-04-01,10.06811022151386,1,Corrected annual variation,canarias
+2022-05-01,8.438895197874853,1,Corrected annual variation,canarias
+2022-06-01,7.205588954656022,1,Corrected annual variation,canarias
+2022-07-01,5.121907742280508,1,Corrected annual variation,canarias
+2022-08-01,3.665996110526506,1,Corrected annual variation,canarias
+2022-09-01,2.1393753286406296,1,Corrected annual variation,canarias
+2022-10-01,0.7829828980822752,1,Corrected annual variation,canarias
+2022-11-01,-0.0831755029601516,1,Corrected annual variation,canarias
+2022-12-01,-0.7171689620054584,1,Corrected annual variation,canarias
+2022-01-01,125.229,1,Índice servicios,baleares
+2022-02-01,118.984,1,Índice servicios,baleares
+2022-03-01,119.95666666666666,1,Índice servicios,baleares
+2022-04-01,118.145,1,Índice servicios,baleares
+2022-05-01,119.4442,1,Índice servicios,baleares
+2022-06-01,121.7525,1,Índice servicios,baleares
+2022-07-01,124.90942857142856,1,Índice servicios,baleares
+2022-08-01,126.357375,1,Índice servicios,baleares
+2022-09-01,125.92833333333334,1,Índice servicios,baleares
+2022-10-01,124.8147,1,Índice servicios,baleares
+2022-11-01,123.18399999999998,1,Índice servicios,baleares
+2022-12-01,121.81991666666666,1,Índice servicios,baleares
+2022-01-01,114.426,1,Índice servicios corregido,baleares
+2022-02-01,113.6425,1,Índice servicios corregido,baleares
+2022-03-01,112.24766666666666,1,Índice servicios corregido,baleares
+2022-04-01,110.496,1,Índice servicios corregido,baleares
+2022-05-01,108.6664,1,Índice servicios corregido,baleares
+2022-06-01,107.82666666666668,1,Índice servicios corregido,baleares
+2022-07-01,106.15,1,Índice servicios corregido,baleares
+2022-08-01,104.54625,1,Índice servicios corregido,baleares
+2022-09-01,103.81366666666668,1,Índice servicios corregido,baleares
+2022-10-01,103.1407,1,Índice servicios corregido,baleares
+2022-11-01,102.873,1,Índice servicios corregido,baleares
+2022-12-01,102.52425,1,Índice servicios corregido,baleares
+2022-01-01,10.64294107772368,1,Annual variation,baleares
+2022-02-01,11.221308755415764,1,Annual variation,baleares
+2022-03-01,10.512286649592482,1,Annual variation,baleares
+2022-04-01,9.601304324633956,1,Annual variation,baleares
+2022-05-01,9.760875997728377,1,Annual variation,baleares
+2022-06-01,9.517562928204113,1,Annual variation,baleares
+2022-07-01,8.414879107253537,1,Annual variation,baleares
+2022-08-01,7.0222078235570375,1,Annual variation,baleares
+2022-09-01,5.587391615838182,1,Annual variation,baleares
+2022-10-01,4.622109714544342,1,Annual variation,baleares
+2022-11-01,3.436235934256929,1,Annual variation,baleares
+2022-12-01,2.366523720557615,1,Annual variation,baleares
+2022-01-01,15.325539205805285,1,Corrected annual variation,baleares
+2022-02-01,13.806951044258945,1,Corrected annual variation,baleares
+2022-03-01,12.176621473067051,1,Corrected annual variation,baleares
+2022-04-01,10.06811022151386,1,Corrected annual variation,baleares
+2022-05-01,8.438895197874853,1,Corrected annual variation,baleares
+2022-06-01,7.205588954656022,1,Corrected annual variation,baleares
+2022-07-01,5.121907742280508,1,Corrected annual variation,baleares
+2022-08-01,3.665996110526506,1,Corrected annual variation,baleares
+2022-09-01,2.1393753286406296,1,Corrected annual variation,baleares
+2022-10-01,0.7829828980822752,1,Corrected annual variation,baleares
+2022-11-01,-0.0831755029601516,1,Corrected annual variation,baleares
+2022-12-01,-0.7171689620054584,1,Corrected annual variation,baleares
+2022-01-01,125.229,1,Índice servicios,ceuta
+2022-02-01,118.984,1,Índice servicios,ceuta
+2022-03-01,119.95666666666666,1,Índice servicios,ceuta
+2022-04-01,118.145,1,Índice servicios,ceuta
+2022-05-01,119.4442,1,Índice servicios,ceuta
+2022-06-01,121.7525,1,Índice servicios,ceuta
+2022-07-01,124.90942857142856,1,Índice servicios,ceuta
+2022-08-01,126.357375,1,Índice servicios,ceuta
+2022-09-01,125.92833333333334,1,Índice servicios,ceuta
+2022-10-01,124.8147,1,Índice servicios,ceuta
+2022-11-01,123.18399999999998,1,Índice servicios,ceuta
+2022-12-01,121.81991666666666,1,Índice servicios,ceuta
+2022-01-01,114.426,1,Índice servicios corregido,ceuta
+2022-02-01,113.6425,1,Índice servicios corregido,ceuta
+2022-03-01,112.24766666666666,1,Índice servicios corregido,ceuta
+2022-04-01,110.496,1,Índice servicios corregido,ceuta
+2022-05-01,108.6664,1,Índice servicios corregido,ceuta
+2022-06-01,107.82666666666668,1,Índice servicios corregido,ceuta
+2022-07-01,106.15,1,Índice servicios corregido,ceuta
+2022-08-01,104.54625,1,Índice servicios corregido,ceuta
+2022-09-01,103.81366666666668,1,Índice servicios corregido,ceuta
+2022-10-01,103.1407,1,Índice servicios corregido,ceuta
+2022-11-01,102.873,1,Índice servicios corregido,ceuta
+2022-12-01,102.52425,1,Índice servicios corregido,ceuta
+2022-01-01,10.64294107772368,1,Annual variation,ceuta
+2022-02-01,11.221308755415764,1,Annual variation,ceuta
+2022-03-01,10.512286649592482,1,Annual variation,ceuta
+2022-04-01,9.601304324633956,1,Annual variation,ceuta
+2022-05-01,9.760875997728377,1,Annual variation,ceuta
+2022-06-01,9.517562928204113,1,Annual variation,ceuta
+2022-07-01,8.414879107253537,1,Annual variation,ceuta
+2022-08-01,7.0222078235570375,1,Annual variation,ceuta
+2022-09-01,5.587391615838182,1,Annual variation,ceuta
+2022-10-01,4.622109714544342,1,Annual variation,ceuta
+2022-11-01,3.436235934256929,1,Annual variation,ceuta
+2022-12-01,2.366523720557615,1,Annual variation,ceuta
+2022-01-01,15.325539205805285,1,Corrected annual variation,ceuta
+2022-02-01,13.806951044258945,1,Corrected annual variation,ceuta
+2022-03-01,12.176621473067051,1,Corrected annual variation,ceuta
+2022-04-01,10.06811022151386,1,Corrected annual variation,ceuta
+2022-05-01,8.438895197874853,1,Corrected annual variation,ceuta
+2022-06-01,7.205588954656022,1,Corrected annual variation,ceuta
+2022-07-01,5.121907742280508,1,Corrected annual variation,ceuta
+2022-08-01,3.665996110526506,1,Corrected annual variation,ceuta
+2022-09-01,2.1393753286406296,1,Corrected annual variation,ceuta
+2022-10-01,0.7829828980822752,1,Corrected annual variation,ceuta
+2022-11-01,-0.0831755029601516,1,Corrected annual variation,ceuta
+2022-12-01,-0.7171689620054584,1,Corrected annual variation,ceuta
+2022-01-01,125.229,1,Índice servicios,melilla
+2022-02-01,118.984,1,Índice servicios,melilla
+2022-03-01,119.95666666666666,1,Índice servicios,melilla
+2022-04-01,118.145,1,Índice servicios,melilla
+2022-05-01,119.4442,1,Índice servicios,melilla
+2022-06-01,121.7525,1,Índice servicios,melilla
+2022-07-01,124.90942857142856,1,Índice servicios,melilla
+2022-08-01,126.357375,1,Índice servicios,melilla
+2022-09-01,125.92833333333334,1,Índice servicios,melilla
+2022-10-01,124.8147,1,Índice servicios,melilla
+2022-11-01,123.18399999999998,1,Índice servicios,melilla
+2022-12-01,121.81991666666666,1,Índice servicios,melilla
+2022-01-01,114.426,1,Índice servicios corregido,melilla
+2022-02-01,113.6425,1,Índice servicios corregido,melilla
+2022-03-01,112.24766666666666,1,Índice servicios corregido,melilla
+2022-04-01,110.496,1,Índice servicios corregido,melilla
+2022-05-01,108.6664,1,Índice servicios corregido,melilla
+2022-06-01,107.82666666666668,1,Índice servicios corregido,melilla
+2022-07-01,106.15,1,Índice servicios corregido,melilla
+2022-08-01,104.54625,1,Índice servicios corregido,melilla
+2022-09-01,103.81366666666668,1,Índice servicios corregido,melilla
+2022-10-01,103.1407,1,Índice servicios corregido,melilla
+2022-11-01,102.873,1,Índice servicios corregido,melilla
+2022-12-01,102.52425,1,Índice servicios corregido,melilla
+2022-01-01,10.64294107772368,1,Annual variation,melilla
+2022-02-01,11.221308755415764,1,Annual variation,melilla
+2022-03-01,10.512286649592482,1,Annual variation,melilla
+2022-04-01,9.601304324633956,1,Annual variation,melilla
+2022-05-01,9.760875997728377,1,Annual variation,melilla
+2022-06-01,9.517562928204113,1,Annual variation,melilla
+2022-07-01,8.414879107253537,1,Annual variation,melilla
+2022-08-01,7.0222078235570375,1,Annual variation,melilla
+2022-09-01,5.587391615838182,1,Annual variation,melilla
+2022-10-01,4.622109714544342,1,Annual variation,melilla
+2022-11-01,3.436235934256929,1,Annual variation,melilla
+2022-12-01,2.366523720557615,1,Annual variation,melilla
+2022-01-01,15.325539205805285,1,Corrected annual variation,melilla
+2022-02-01,13.806951044258945,1,Corrected annual variation,melilla
+2022-03-01,12.176621473067051,1,Corrected annual variation,melilla
+2022-04-01,10.06811022151386,1,Corrected annual variation,melilla
+2022-05-01,8.438895197874853,1,Corrected annual variation,melilla
+2022-06-01,7.205588954656022,1,Corrected annual variation,melilla
+2022-07-01,5.121907742280508,1,Corrected annual variation,melilla
+2022-08-01,3.665996110526506,1,Corrected annual variation,melilla
+2022-09-01,2.1393753286406296,1,Corrected annual variation,melilla
+2022-10-01,0.7829828980822752,1,Corrected annual variation,melilla
+2022-11-01,-0.0831755029601516,1,Corrected annual variation,melilla
+2022-12-01,-0.7171689620054584,1,Corrected annual variation,melilla
+2022-01-01,125.229,1,Índice servicios,andalucia
+2022-02-01,118.984,1,Índice servicios,andalucia
+2022-03-01,119.95666666666666,1,Índice servicios,andalucia
+2022-04-01,118.145,1,Índice servicios,andalucia
+2022-05-01,119.4442,1,Índice servicios,andalucia
+2022-06-01,121.7525,1,Índice servicios,andalucia
+2022-07-01,124.90942857142856,1,Índice servicios,andalucia
+2022-08-01,126.357375,1,Índice servicios,andalucia
+2022-09-01,125.92833333333334,1,Índice servicios,andalucia
+2022-10-01,124.8147,1,Índice servicios,andalucia
+2022-11-01,123.18399999999998,1,Índice servicios,andalucia
+2022-12-01,121.81991666666666,1,Índice servicios,andalucia
+2022-01-01,114.426,1,Índice servicios corregido,andalucia
+2022-02-01,113.6425,1,Índice servicios corregido,andalucia
+2022-03-01,112.24766666666666,1,Índice servicios corregido,andalucia
+2022-04-01,110.496,1,Índice servicios corregido,andalucia
+2022-05-01,108.6664,1,Índice servicios corregido,andalucia
+2022-06-01,107.82666666666668,1,Índice servicios corregido,andalucia
+2022-07-01,106.15,1,Índice servicios corregido,andalucia
+2022-08-01,104.54625,1,Índice servicios corregido,andalucia
+2022-09-01,103.81366666666668,1,Índice servicios corregido,andalucia
+2022-10-01,103.1407,1,Índice servicios corregido,andalucia
+2022-11-01,102.873,1,Índice servicios corregido,andalucia
+2022-12-01,102.52425,1,Índice servicios corregido,andalucia
+2022-01-01,10.64294107772368,1,Annual variation,andalucia
+2022-02-01,11.221308755415764,1,Annual variation,andalucia
+2022-03-01,10.512286649592482,1,Annual variation,andalucia
+2022-04-01,9.601304324633956,1,Annual variation,andalucia
+2022-05-01,9.760875997728377,1,Annual variation,andalucia
+2022-06-01,9.517562928204113,1,Annual variation,andalucia
+2022-07-01,8.414879107253537,1,Annual variation,andalucia
+2022-08-01,7.0222078235570375,1,Annual variation,andalucia
+2022-09-01,5.587391615838182,1,Annual variation,andalucia
+2022-10-01,4.622109714544342,1,Annual variation,andalucia
+2022-11-01,3.436235934256929,1,Annual variation,andalucia
+2022-12-01,2.366523720557615,1,Annual variation,andalucia
+2022-01-01,15.325539205805285,1,Corrected annual variation,andalucia
+2022-02-01,13.806951044258945,1,Corrected annual variation,andalucia
+2022-03-01,12.176621473067051,1,Corrected annual variation,andalucia
+2022-04-01,10.06811022151386,1,Corrected annual variation,andalucia
+2022-05-01,8.438895197874853,1,Corrected annual variation,andalucia
+2022-06-01,7.205588954656022,1,Corrected annual variation,andalucia
+2022-07-01,5.121907742280508,1,Corrected annual variation,andalucia
+2022-08-01,3.665996110526506,1,Corrected annual variation,andalucia
+2022-09-01,2.1393753286406296,1,Corrected annual variation,andalucia
+2022-10-01,0.7829828980822752,1,Corrected annual variation,andalucia
+2022-11-01,-0.0831755029601516,1,Corrected annual variation,andalucia
+2022-12-01,-0.7171689620054584,1,Corrected annual variation,andalucia
+2022-01-01,125.229,1,Índice servicios,aragon
+2022-02-01,118.984,1,Índice servicios,aragon
+2022-03-01,119.95666666666666,1,Índice servicios,aragon
+2022-04-01,118.145,1,Índice servicios,aragon
+2022-05-01,119.4442,1,Índice servicios,aragon
+2022-06-01,121.7525,1,Índice servicios,aragon
+2022-07-01,124.90942857142856,1,Índice servicios,aragon
+2022-08-01,126.357375,1,Índice servicios,aragon
+2022-09-01,125.92833333333334,1,Índice servicios,aragon
+2022-10-01,124.8147,1,Índice servicios,aragon
+2022-11-01,123.18399999999998,1,Índice servicios,aragon
+2022-12-01,121.81991666666666,1,Índice servicios,aragon
+2022-01-01,114.426,1,Índice servicios corregido,aragon
+2022-02-01,113.6425,1,Índice servicios corregido,aragon
+2022-03-01,112.24766666666666,1,Índice servicios corregido,aragon
+2022-04-01,110.496,1,Índice servicios corregido,aragon
+2022-05-01,108.6664,1,Índice servicios corregido,aragon
+2022-06-01,107.82666666666668,1,Índice servicios corregido,aragon
+2022-07-01,106.15,1,Índice servicios corregido,aragon
+2022-08-01,104.54625,1,Índice servicios corregido,aragon
+2022-09-01,103.81366666666668,1,Índice servicios corregido,aragon
+2022-10-01,103.1407,1,Índice servicios corregido,aragon
+2022-11-01,102.873,1,Índice servicios corregido,aragon
+2022-12-01,102.52425,1,Índice servicios corregido,aragon
+2022-01-01,10.64294107772368,1,Annual variation,aragon
+2022-02-01,11.221308755415764,1,Annual variation,aragon
+2022-03-01,10.512286649592482,1,Annual variation,aragon
+2022-04-01,9.601304324633956,1,Annual variation,aragon
+2022-05-01,9.760875997728377,1,Annual variation,aragon
+2022-06-01,9.517562928204113,1,Annual variation,aragon
+2022-07-01,8.414879107253537,1,Annual variation,aragon
+2022-08-01,7.0222078235570375,1,Annual variation,aragon
+2022-09-01,5.587391615838182,1,Annual variation,aragon
+2022-10-01,4.622109714544342,1,Annual variation,aragon
+2022-11-01,3.436235934256929,1,Annual variation,aragon
+2022-12-01,2.366523720557615,1,Annual variation,aragon
+2022-01-01,15.325539205805285,1,Corrected annual variation,aragon
+2022-02-01,13.806951044258945,1,Corrected annual variation,aragon
+2022-03-01,12.176621473067051,1,Corrected annual variation,aragon
+2022-04-01,10.06811022151386,1,Corrected annual variation,aragon
+2022-05-01,8.438895197874853,1,Corrected annual variation,aragon
+2022-06-01,7.205588954656022,1,Corrected annual variation,aragon
+2022-07-01,5.121907742280508,1,Corrected annual variation,aragon
+2022-08-01,3.665996110526506,1,Corrected annual variation,aragon
+2022-09-01,2.1393753286406296,1,Corrected annual variation,aragon
+2022-10-01,0.7829828980822752,1,Corrected annual variation,aragon
+2022-11-01,-0.0831755029601516,1,Corrected annual variation,aragon
+2022-12-01,-0.7171689620054584,1,Corrected annual variation,aragon
+2022-01-01,125.229,1,Índice servicios,cantabria
+2022-02-01,118.984,1,Índice servicios,cantabria
+2022-03-01,119.95666666666666,1,Índice servicios,cantabria
+2022-04-01,118.145,1,Índice servicios,cantabria
+2022-05-01,119.4442,1,Índice servicios,cantabria
+2022-06-01,121.7525,1,Índice servicios,cantabria
+2022-07-01,124.90942857142856,1,Índice servicios,cantabria
+2022-08-01,126.357375,1,Índice servicios,cantabria
+2022-09-01,125.92833333333334,1,Índice servicios,cantabria
+2022-10-01,124.8147,1,Índice servicios,cantabria
+2022-11-01,123.18399999999998,1,Índice servicios,cantabria
+2022-12-01,121.81991666666666,1,Índice servicios,cantabria
+2022-01-01,114.426,1,Índice servicios corregido,cantabria
+2022-02-01,113.6425,1,Índice servicios corregido,cantabria
+2022-03-01,112.24766666666666,1,Índice servicios corregido,cantabria
+2022-04-01,110.496,1,Índice servicios corregido,cantabria
+2022-05-01,108.6664,1,Índice servicios corregido,cantabria
+2022-06-01,107.82666666666668,1,Índice servicios corregido,cantabria
+2022-07-01,106.15,1,Índice servicios corregido,cantabria
+2022-08-01,104.54625,1,Índice servicios corregido,cantabria
+2022-09-01,103.81366666666668,1,Índice servicios corregido,cantabria
+2022-10-01,103.1407,1,Índice servicios corregido,cantabria
+2022-11-01,102.873,1,Índice servicios corregido,cantabria
+2022-12-01,102.52425,1,Índice servicios corregido,cantabria
+2022-01-01,10.64294107772368,1,Annual variation,cantabria
+2022-02-01,11.221308755415764,1,Annual variation,cantabria
+2022-03-01,10.512286649592482,1,Annual variation,cantabria
+2022-04-01,9.601304324633956,1,Annual variation,cantabria
+2022-05-01,9.760875997728377,1,Annual variation,cantabria
+2022-06-01,9.517562928204113,1,Annual variation,cantabria
+2022-07-01,8.414879107253537,1,Annual variation,cantabria
+2022-08-01,7.0222078235570375,1,Annual variation,cantabria
+2022-09-01,5.587391615838182,1,Annual variation,cantabria
+2022-10-01,4.622109714544342,1,Annual variation,cantabria
+2022-11-01,3.436235934256929,1,Annual variation,cantabria
+2022-12-01,2.366523720557615,1,Annual variation,cantabria
+2022-01-01,15.325539205805285,1,Corrected annual variation,cantabria
+2022-02-01,13.806951044258945,1,Corrected annual variation,cantabria
+2022-03-01,12.176621473067051,1,Corrected annual variation,cantabria
+2022-04-01,10.06811022151386,1,Corrected annual variation,cantabria
+2022-05-01,8.438895197874853,1,Corrected annual variation,cantabria
+2022-06-01,7.205588954656022,1,Corrected annual variation,cantabria
+2022-07-01,5.121907742280508,1,Corrected annual variation,cantabria
+2022-08-01,3.665996110526506,1,Corrected annual variation,cantabria
+2022-09-01,2.1393753286406296,1,Corrected annual variation,cantabria
+2022-10-01,0.7829828980822752,1,Corrected annual variation,cantabria
+2022-11-01,-0.0831755029601516,1,Corrected annual variation,cantabria
+2022-12-01,-0.7171689620054584,1,Corrected annual variation,cantabria
+2022-01-01,125.229,1,Índice servicios,castilla la mancha
+2022-02-01,118.984,1,Índice servicios,castilla la mancha
+2022-03-01,119.95666666666666,1,Índice servicios,castilla la mancha
+2022-04-01,118.145,1,Índice servicios,castilla la mancha
+2022-05-01,119.4442,1,Índice servicios,castilla la mancha
+2022-06-01,121.7525,1,Índice servicios,castilla la mancha
+2022-07-01,124.90942857142856,1,Índice servicios,castilla la mancha
+2022-08-01,126.357375,1,Índice servicios,castilla la mancha
+2022-09-01,125.92833333333334,1,Índice servicios,castilla la mancha
+2022-10-01,124.8147,1,Índice servicios,castilla la mancha
+2022-11-01,123.18399999999998,1,Índice servicios,castilla la mancha
+2022-12-01,121.81991666666666,1,Índice servicios,castilla la mancha
+2022-01-01,114.426,1,Índice servicios corregido,castilla la mancha
+2022-02-01,113.6425,1,Índice servicios corregido,castilla la mancha
+2022-03-01,112.24766666666666,1,Índice servicios corregido,castilla la mancha
+2022-04-01,110.496,1,Índice servicios corregido,castilla la mancha
+2022-05-01,108.6664,1,Índice servicios corregido,castilla la mancha
+2022-06-01,107.82666666666668,1,Índice servicios corregido,castilla la mancha
+2022-07-01,106.15,1,Índice servicios corregido,castilla la mancha
+2022-08-01,104.54625,1,Índice servicios corregido,castilla la mancha
+2022-09-01,103.81366666666668,1,Índice servicios corregido,castilla la mancha
+2022-10-01,103.1407,1,Índice servicios corregido,castilla la mancha
+2022-11-01,102.873,1,Índice servicios corregido,castilla la mancha
+2022-12-01,102.52425,1,Índice servicios corregido,castilla la mancha
+2022-01-01,10.64294107772368,1,Annual variation,castilla la mancha
+2022-02-01,11.221308755415764,1,Annual variation,castilla la mancha
+2022-03-01,10.512286649592482,1,Annual variation,castilla la mancha
+2022-04-01,9.601304324633956,1,Annual variation,castilla la mancha
+2022-05-01,9.760875997728377,1,Annual variation,castilla la mancha
+2022-06-01,9.517562928204113,1,Annual variation,castilla la mancha
+2022-07-01,8.414879107253537,1,Annual variation,castilla la mancha
+2022-08-01,7.0222078235570375,1,Annual variation,castilla la mancha
+2022-09-01,5.587391615838182,1,Annual variation,castilla la mancha
+2022-10-01,4.622109714544342,1,Annual variation,castilla la mancha
+2022-11-01,3.436235934256929,1,Annual variation,castilla la mancha
+2022-12-01,2.366523720557615,1,Annual variation,castilla la mancha
+2022-01-01,15.325539205805285,1,Corrected annual variation,castilla la mancha
+2022-02-01,13.806951044258945,1,Corrected annual variation,castilla la mancha
+2022-03-01,12.176621473067051,1,Corrected annual variation,castilla la mancha
+2022-04-01,10.06811022151386,1,Corrected annual variation,castilla la mancha
+2022-05-01,8.438895197874853,1,Corrected annual variation,castilla la mancha
+2022-06-01,7.205588954656022,1,Corrected annual variation,castilla la mancha
+2022-07-01,5.121907742280508,1,Corrected annual variation,castilla la mancha
+2022-08-01,3.665996110526506,1,Corrected annual variation,castilla la mancha
+2022-09-01,2.1393753286406296,1,Corrected annual variation,castilla la mancha
+2022-10-01,0.7829828980822752,1,Corrected annual variation,castilla la mancha
+2022-11-01,-0.0831755029601516,1,Corrected annual variation,castilla la mancha
+2022-12-01,-0.7171689620054584,1,Corrected annual variation,castilla la mancha
+2022-01-01,125.229,1,Índice servicios,castilla y leon
+2022-02-01,118.984,1,Índice servicios,castilla y leon
+2022-03-01,119.95666666666666,1,Índice servicios,castilla y leon
+2022-04-01,118.145,1,Índice servicios,castilla y leon
+2022-05-01,119.4442,1,Índice servicios,castilla y leon
+2022-06-01,121.7525,1,Índice servicios,castilla y leon
+2022-07-01,124.90942857142856,1,Índice servicios,castilla y leon
+2022-08-01,126.357375,1,Índice servicios,castilla y leon
+2022-09-01,125.92833333333334,1,Índice servicios,castilla y leon
+2022-10-01,124.8147,1,Índice servicios,castilla y leon
+2022-11-01,123.18399999999998,1,Índice servicios,castilla y leon
+2022-12-01,121.81991666666666,1,Índice servicios,castilla y leon
+2022-01-01,114.426,1,Índice servicios corregido,castilla y leon
+2022-02-01,113.6425,1,Índice servicios corregido,castilla y leon
+2022-03-01,112.24766666666666,1,Índice servicios corregido,castilla y leon
+2022-04-01,110.496,1,Índice servicios corregido,castilla y leon
+2022-05-01,108.6664,1,Índice servicios corregido,castilla y leon
+2022-06-01,107.82666666666668,1,Índice servicios corregido,castilla y leon
+2022-07-01,106.15,1,Índice servicios corregido,castilla y leon
+2022-08-01,104.54625,1,Índice servicios corregido,castilla y leon
+2022-09-01,103.81366666666668,1,Índice servicios corregido,castilla y leon
+2022-10-01,103.1407,1,Índice servicios corregido,castilla y leon
+2022-11-01,102.873,1,Índice servicios corregido,castilla y leon
+2022-12-01,102.52425,1,Índice servicios corregido,castilla y leon
+2022-01-01,10.64294107772368,1,Annual variation,castilla y leon
+2022-02-01,11.221308755415764,1,Annual variation,castilla y leon
+2022-03-01,10.512286649592482,1,Annual variation,castilla y leon
+2022-04-01,9.601304324633956,1,Annual variation,castilla y leon
+2022-05-01,9.760875997728377,1,Annual variation,castilla y leon
+2022-06-01,9.517562928204113,1,Annual variation,castilla y leon
+2022-07-01,8.414879107253537,1,Annual variation,castilla y leon
+2022-08-01,7.0222078235570375,1,Annual variation,castilla y leon
+2022-09-01,5.587391615838182,1,Annual variation,castilla y leon
+2022-10-01,4.622109714544342,1,Annual variation,castilla y leon
+2022-11-01,3.436235934256929,1,Annual variation,castilla y leon
+2022-12-01,2.366523720557615,1,Annual variation,castilla y leon
+2022-01-01,15.325539205805285,1,Corrected annual variation,castilla y leon
+2022-02-01,13.806951044258945,1,Corrected annual variation,castilla y leon
+2022-03-01,12.176621473067051,1,Corrected annual variation,castilla y leon
+2022-04-01,10.06811022151386,1,Corrected annual variation,castilla y leon
+2022-05-01,8.438895197874853,1,Corrected annual variation,castilla y leon
+2022-06-01,7.205588954656022,1,Corrected annual variation,castilla y leon
+2022-07-01,5.121907742280508,1,Corrected annual variation,castilla y leon
+2022-08-01,3.665996110526506,1,Corrected annual variation,castilla y leon
+2022-09-01,2.1393753286406296,1,Corrected annual variation,castilla y leon
+2022-10-01,0.7829828980822752,1,Corrected annual variation,castilla y leon
+2022-11-01,-0.0831755029601516,1,Corrected annual variation,castilla y leon
+2022-12-01,-0.7171689620054584,1,Corrected annual variation,castilla y leon
+2022-01-01,125.229,1,Índice servicios,cataluña
+2022-02-01,118.984,1,Índice servicios,cataluña
+2022-03-01,119.95666666666666,1,Índice servicios,cataluña
+2022-04-01,118.145,1,Índice servicios,cataluña
+2022-05-01,119.4442,1,Índice servicios,cataluña
+2022-06-01,121.7525,1,Índice servicios,cataluña
+2022-07-01,124.90942857142856,1,Índice servicios,cataluña
+2022-08-01,126.357375,1,Índice servicios,cataluña
+2022-09-01,125.92833333333334,1,Índice servicios,cataluña
+2022-10-01,124.8147,1,Índice servicios,cataluña
+2022-11-01,123.18399999999998,1,Índice servicios,cataluña
+2022-12-01,121.81991666666666,1,Índice servicios,cataluña
+2022-01-01,114.426,1,Índice servicios corregido,cataluña
+2022-02-01,113.6425,1,Índice servicios corregido,cataluña
+2022-03-01,112.24766666666666,1,Índice servicios corregido,cataluña
+2022-04-01,110.496,1,Índice servicios corregido,cataluña
+2022-05-01,108.6664,1,Índice servicios corregido,cataluña
+2022-06-01,107.82666666666668,1,Índice servicios corregido,cataluña
+2022-07-01,106.15,1,Índice servicios corregido,cataluña
+2022-08-01,104.54625,1,Índice servicios corregido,cataluña
+2022-09-01,103.81366666666668,1,Índice servicios corregido,cataluña
+2022-10-01,103.1407,1,Índice servicios corregido,cataluña
+2022-11-01,102.873,1,Índice servicios corregido,cataluña
+2022-12-01,102.52425,1,Índice servicios corregido,cataluña
+2022-01-01,10.64294107772368,1,Annual variation,cataluña
+2022-02-01,11.221308755415764,1,Annual variation,cataluña
+2022-03-01,10.512286649592482,1,Annual variation,cataluña
+2022-04-01,9.601304324633956,1,Annual variation,cataluña
+2022-05-01,9.760875997728377,1,Annual variation,cataluña
+2022-06-01,9.517562928204113,1,Annual variation,cataluña
+2022-07-01,8.414879107253537,1,Annual variation,cataluña
+2022-08-01,7.0222078235570375,1,Annual variation,cataluña
+2022-09-01,5.587391615838182,1,Annual variation,cataluña
+2022-10-01,4.622109714544342,1,Annual variation,cataluña
+2022-11-01,3.436235934256929,1,Annual variation,cataluña
+2022-12-01,2.366523720557615,1,Annual variation,cataluña
+2022-01-01,15.325539205805285,1,Corrected annual variation,cataluña
+2022-02-01,13.806951044258945,1,Corrected annual variation,cataluña
+2022-03-01,12.176621473067051,1,Corrected annual variation,cataluña
+2022-04-01,10.06811022151386,1,Corrected annual variation,cataluña
+2022-05-01,8.438895197874853,1,Corrected annual variation,cataluña
+2022-06-01,7.205588954656022,1,Corrected annual variation,cataluña
+2022-07-01,5.121907742280508,1,Corrected annual variation,cataluña
+2022-08-01,3.665996110526506,1,Corrected annual variation,cataluña
+2022-09-01,2.1393753286406296,1,Corrected annual variation,cataluña
+2022-10-01,0.7829828980822752,1,Corrected annual variation,cataluña
+2022-11-01,-0.0831755029601516,1,Corrected annual variation,cataluña
+2022-12-01,-0.7171689620054584,1,Corrected annual variation,cataluña
+2022-01-01,125.229,1,Índice servicios,pais vasco
+2022-02-01,118.984,1,Índice servicios,pais vasco
+2022-03-01,119.95666666666666,1,Índice servicios,pais vasco
+2022-04-01,118.145,1,Índice servicios,pais vasco
+2022-05-01,119.4442,1,Índice servicios,pais vasco
+2022-06-01,121.7525,1,Índice servicios,pais vasco
+2022-07-01,124.90942857142856,1,Índice servicios,pais vasco
+2022-08-01,126.357375,1,Índice servicios,pais vasco
+2022-09-01,125.92833333333334,1,Índice servicios,pais vasco
+2022-10-01,124.8147,1,Índice servicios,pais vasco
+2022-11-01,123.18399999999998,1,Índice servicios,pais vasco
+2022-12-01,121.81991666666666,1,Índice servicios,pais vasco
+2022-01-01,114.426,1,Índice servicios corregido,pais vasco
+2022-02-01,113.6425,1,Índice servicios corregido,pais vasco
+2022-03-01,112.24766666666666,1,Índice servicios corregido,pais vasco
+2022-04-01,110.496,1,Índice servicios corregido,pais vasco
+2022-05-01,108.6664,1,Índice servicios corregido,pais vasco
+2022-06-01,107.82666666666668,1,Índice servicios corregido,pais vasco
+2022-07-01,106.15,1,Índice servicios corregido,pais vasco
+2022-08-01,104.54625,1,Índice servicios corregido,pais vasco
+2022-09-01,103.81366666666668,1,Índice servicios corregido,pais vasco
+2022-10-01,103.1407,1,Índice servicios corregido,pais vasco
+2022-11-01,102.873,1,Índice servicios corregido,pais vasco
+2022-12-01,102.52425,1,Índice servicios corregido,pais vasco
+2022-01-01,10.64294107772368,1,Annual variation,pais vasco
+2022-02-01,11.221308755415764,1,Annual variation,pais vasco
+2022-03-01,10.512286649592482,1,Annual variation,pais vasco
+2022-04-01,9.601304324633956,1,Annual variation,pais vasco
+2022-05-01,9.760875997728377,1,Annual variation,pais vasco
+2022-06-01,9.517562928204113,1,Annual variation,pais vasco
+2022-07-01,8.414879107253537,1,Annual variation,pais vasco
+2022-08-01,7.0222078235570375,1,Annual variation,pais vasco
+2022-09-01,5.587391615838182,1,Annual variation,pais vasco
+2022-10-01,4.622109714544342,1,Annual variation,pais vasco
+2022-11-01,3.436235934256929,1,Annual variation,pais vasco
+2022-12-01,2.366523720557615,1,Annual variation,pais vasco
+2022-01-01,15.325539205805285,1,Corrected annual variation,pais vasco
+2022-02-01,13.806951044258945,1,Corrected annual variation,pais vasco
+2022-03-01,12.176621473067051,1,Corrected annual variation,pais vasco
+2022-04-01,10.06811022151386,1,Corrected annual variation,pais vasco
+2022-05-01,8.438895197874853,1,Corrected annual variation,pais vasco
+2022-06-01,7.205588954656022,1,Corrected annual variation,pais vasco
+2022-07-01,5.121907742280508,1,Corrected annual variation,pais vasco
+2022-08-01,3.665996110526506,1,Corrected annual variation,pais vasco
+2022-09-01,2.1393753286406296,1,Corrected annual variation,pais vasco
+2022-10-01,0.7829828980822752,1,Corrected annual variation,pais vasco
+2022-11-01,-0.0831755029601516,1,Corrected annual variation,pais vasco
+2022-12-01,-0.7171689620054584,1,Corrected annual variation,pais vasco
+2022-01-01,125.229,1,Índice servicios,principado de asturias
+2022-02-01,118.984,1,Índice servicios,principado de asturias
+2022-03-01,119.95666666666666,1,Índice servicios,principado de asturias
+2022-04-01,118.145,1,Índice servicios,principado de asturias
+2022-05-01,119.4442,1,Índice servicios,principado de asturias
+2022-06-01,121.7525,1,Índice servicios,principado de asturias
+2022-07-01,124.90942857142856,1,Índice servicios,principado de asturias
+2022-08-01,126.357375,1,Índice servicios,principado de asturias
+2022-09-01,125.92833333333334,1,Índice servicios,principado de asturias
+2022-10-01,124.8147,1,Índice servicios,principado de asturias
+2022-11-01,123.18399999999998,1,Índice servicios,principado de asturias
+2022-12-01,121.81991666666666,1,Índice servicios,principado de asturias
+2022-01-01,114.426,1,Índice servicios corregido,principado de asturias
+2022-02-01,113.6425,1,Índice servicios corregido,principado de asturias
+2022-03-01,112.24766666666666,1,Índice servicios corregido,principado de asturias
+2022-04-01,110.496,1,Índice servicios corregido,principado de asturias
+2022-05-01,108.6664,1,Índice servicios corregido,principado de asturias
+2022-06-01,107.82666666666668,1,Índice servicios corregido,principado de asturias
+2022-07-01,106.15,1,Índice servicios corregido,principado de asturias
+2022-08-01,104.54625,1,Índice servicios corregido,principado de asturias
+2022-09-01,103.81366666666668,1,Índice servicios corregido,principado de asturias
+2022-10-01,103.1407,1,Índice servicios corregido,principado de asturias
+2022-11-01,102.873,1,Índice servicios corregido,principado de asturias
+2022-12-01,102.52425,1,Índice servicios corregido,principado de asturias
+2022-01-01,10.64294107772368,1,Annual variation,principado de asturias
+2022-02-01,11.221308755415764,1,Annual variation,principado de asturias
+2022-03-01,10.512286649592482,1,Annual variation,principado de asturias
+2022-04-01,9.601304324633956,1,Annual variation,principado de asturias
+2022-05-01,9.760875997728377,1,Annual variation,principado de asturias
+2022-06-01,9.517562928204113,1,Annual variation,principado de asturias
+2022-07-01,8.414879107253537,1,Annual variation,principado de asturias
+2022-08-01,7.0222078235570375,1,Annual variation,principado de asturias
+2022-09-01,5.587391615838182,1,Annual variation,principado de asturias
+2022-10-01,4.622109714544342,1,Annual variation,principado de asturias
+2022-11-01,3.436235934256929,1,Annual variation,principado de asturias
+2022-12-01,2.366523720557615,1,Annual variation,principado de asturias
+2022-01-01,15.325539205805285,1,Corrected annual variation,principado de asturias
+2022-02-01,13.806951044258945,1,Corrected annual variation,principado de asturias
+2022-03-01,12.176621473067051,1,Corrected annual variation,principado de asturias
+2022-04-01,10.06811022151386,1,Corrected annual variation,principado de asturias
+2022-05-01,8.438895197874853,1,Corrected annual variation,principado de asturias
+2022-06-01,7.205588954656022,1,Corrected annual variation,principado de asturias
+2022-07-01,5.121907742280508,1,Corrected annual variation,principado de asturias
+2022-08-01,3.665996110526506,1,Corrected annual variation,principado de asturias
+2022-09-01,2.1393753286406296,1,Corrected annual variation,principado de asturias
+2022-10-01,0.7829828980822752,1,Corrected annual variation,principado de asturias
+2022-11-01,-0.0831755029601516,1,Corrected annual variation,principado de asturias
+2022-12-01,-0.7171689620054584,1,Corrected annual variation,principado de asturias
+2022-01-01,125.229,1,Índice servicios,comunidad de madrid
+2022-02-01,118.984,1,Índice servicios,comunidad de madrid
+2022-03-01,119.95666666666666,1,Índice servicios,comunidad de madrid
+2022-04-01,118.145,1,Índice servicios,comunidad de madrid
+2022-05-01,119.4442,1,Índice servicios,comunidad de madrid
+2022-06-01,121.7525,1,Índice servicios,comunidad de madrid
+2022-07-01,124.90942857142856,1,Índice servicios,comunidad de madrid
+2022-08-01,126.357375,1,Índice servicios,comunidad de madrid
+2022-09-01,125.92833333333334,1,Índice servicios,comunidad de madrid
+2022-10-01,124.8147,1,Índice servicios,comunidad de madrid
+2022-11-01,123.18399999999998,1,Índice servicios,comunidad de madrid
+2022-12-01,121.81991666666666,1,Índice servicios,comunidad de madrid
+2022-01-01,114.426,1,Índice servicios corregido,comunidad de madrid
+2022-02-01,113.6425,1,Índice servicios corregido,comunidad de madrid
+2022-03-01,112.24766666666666,1,Índice servicios corregido,comunidad de madrid
+2022-04-01,110.496,1,Índice servicios corregido,comunidad de madrid
+2022-05-01,108.6664,1,Índice servicios corregido,comunidad de madrid
+2022-06-01,107.82666666666668,1,Índice servicios corregido,comunidad de madrid
+2022-07-01,106.15,1,Índice servicios corregido,comunidad de madrid
+2022-08-01,104.54625,1,Índice servicios corregido,comunidad de madrid
+2022-09-01,103.81366666666668,1,Índice servicios corregido,comunidad de madrid
+2022-10-01,103.1407,1,Índice servicios corregido,comunidad de madrid
+2022-11-01,102.873,1,Índice servicios corregido,comunidad de madrid
+2022-12-01,102.52425,1,Índice servicios corregido,comunidad de madrid
+2022-01-01,10.64294107772368,1,Annual variation,comunidad de madrid
+2022-02-01,11.221308755415764,1,Annual variation,comunidad de madrid
+2022-03-01,10.512286649592482,1,Annual variation,comunidad de madrid
+2022-04-01,9.601304324633956,1,Annual variation,comunidad de madrid
+2022-05-01,9.760875997728377,1,Annual variation,comunidad de madrid
+2022-06-01,9.517562928204113,1,Annual variation,comunidad de madrid
+2022-07-01,8.414879107253537,1,Annual variation,comunidad de madrid
+2022-08-01,7.0222078235570375,1,Annual variation,comunidad de madrid
+2022-09-01,5.587391615838182,1,Annual variation,comunidad de madrid
+2022-10-01,4.622109714544342,1,Annual variation,comunidad de madrid
+2022-11-01,3.436235934256929,1,Annual variation,comunidad de madrid
+2022-12-01,2.366523720557615,1,Annual variation,comunidad de madrid
+2022-01-01,15.325539205805285,1,Corrected annual variation,comunidad de madrid
+2022-02-01,13.806951044258945,1,Corrected annual variation,comunidad de madrid
+2022-03-01,12.176621473067051,1,Corrected annual variation,comunidad de madrid
+2022-04-01,10.06811022151386,1,Corrected annual variation,comunidad de madrid
+2022-05-01,8.438895197874853,1,Corrected annual variation,comunidad de madrid
+2022-06-01,7.205588954656022,1,Corrected annual variation,comunidad de madrid
+2022-07-01,5.121907742280508,1,Corrected annual variation,comunidad de madrid
+2022-08-01,3.665996110526506,1,Corrected annual variation,comunidad de madrid
+2022-09-01,2.1393753286406296,1,Corrected annual variation,comunidad de madrid
+2022-10-01,0.7829828980822752,1,Corrected annual variation,comunidad de madrid
+2022-11-01,-0.0831755029601516,1,Corrected annual variation,comunidad de madrid
+2022-12-01,-0.7171689620054584,1,Corrected annual variation,comunidad de madrid
+2022-01-01,125.229,1,Índice servicios,comunidad de navarra
+2022-02-01,118.984,1,Índice servicios,comunidad de navarra
+2022-03-01,119.95666666666666,1,Índice servicios,comunidad de navarra
+2022-04-01,118.145,1,Índice servicios,comunidad de navarra
+2022-05-01,119.4442,1,Índice servicios,comunidad de navarra
+2022-06-01,121.7525,1,Índice servicios,comunidad de navarra
+2022-07-01,124.90942857142856,1,Índice servicios,comunidad de navarra
+2022-08-01,126.357375,1,Índice servicios,comunidad de navarra
+2022-09-01,125.92833333333334,1,Índice servicios,comunidad de navarra
+2022-10-01,124.8147,1,Índice servicios,comunidad de navarra
+2022-11-01,123.18399999999998,1,Índice servicios,comunidad de navarra
+2022-12-01,121.81991666666666,1,Índice servicios,comunidad de navarra
+2022-01-01,114.426,1,Índice servicios corregido,comunidad de navarra
+2022-02-01,113.6425,1,Índice servicios corregido,comunidad de navarra
+2022-03-01,112.24766666666666,1,Índice servicios corregido,comunidad de navarra
+2022-04-01,110.496,1,Índice servicios corregido,comunidad de navarra
+2022-05-01,108.6664,1,Índice servicios corregido,comunidad de navarra
+2022-06-01,107.82666666666668,1,Índice servicios corregido,comunidad de navarra
+2022-07-01,106.15,1,Índice servicios corregido,comunidad de navarra
+2022-08-01,104.54625,1,Índice servicios corregido,comunidad de navarra
+2022-09-01,103.81366666666668,1,Índice servicios corregido,comunidad de navarra
+2022-10-01,103.1407,1,Índice servicios corregido,comunidad de navarra
+2022-11-01,102.873,1,Índice servicios corregido,comunidad de navarra
+2022-12-01,102.52425,1,Índice servicios corregido,comunidad de navarra
+2022-01-01,10.64294107772368,1,Annual variation,comunidad de navarra
+2022-02-01,11.221308755415764,1,Annual variation,comunidad de navarra
+2022-03-01,10.512286649592482,1,Annual variation,comunidad de navarra
+2022-04-01,9.601304324633956,1,Annual variation,comunidad de navarra
+2022-05-01,9.760875997728377,1,Annual variation,comunidad de navarra
+2022-06-01,9.517562928204113,1,Annual variation,comunidad de navarra
+2022-07-01,8.414879107253537,1,Annual variation,comunidad de navarra
+2022-08-01,7.0222078235570375,1,Annual variation,comunidad de navarra
+2022-09-01,5.587391615838182,1,Annual variation,comunidad de navarra
+2022-10-01,4.622109714544342,1,Annual variation,comunidad de navarra
+2022-11-01,3.436235934256929,1,Annual variation,comunidad de navarra
+2022-12-01,2.366523720557615,1,Annual variation,comunidad de navarra
+2022-01-01,15.325539205805285,1,Corrected annual variation,comunidad de navarra
+2022-02-01,13.806951044258945,1,Corrected annual variation,comunidad de navarra
+2022-03-01,12.176621473067051,1,Corrected annual variation,comunidad de navarra
+2022-04-01,10.06811022151386,1,Corrected annual variation,comunidad de navarra
+2022-05-01,8.438895197874853,1,Corrected annual variation,comunidad de navarra
+2022-06-01,7.205588954656022,1,Corrected annual variation,comunidad de navarra
+2022-07-01,5.121907742280508,1,Corrected annual variation,comunidad de navarra
+2022-08-01,3.665996110526506,1,Corrected annual variation,comunidad de navarra
+2022-09-01,2.1393753286406296,1,Corrected annual variation,comunidad de navarra
+2022-10-01,0.7829828980822752,1,Corrected annual variation,comunidad de navarra
+2022-11-01,-0.0831755029601516,1,Corrected annual variation,comunidad de navarra
+2022-12-01,-0.7171689620054584,1,Corrected annual variation,comunidad de navarra
+2022-01-01,125.229,1,Índice servicios,comunidad valenciana
+2022-02-01,118.984,1,Índice servicios,comunidad valenciana
+2022-03-01,119.95666666666666,1,Índice servicios,comunidad valenciana
+2022-04-01,118.145,1,Índice servicios,comunidad valenciana
+2022-05-01,119.4442,1,Índice servicios,comunidad valenciana
+2022-06-01,121.7525,1,Índice servicios,comunidad valenciana
+2022-07-01,124.90942857142856,1,Índice servicios,comunidad valenciana
+2022-08-01,126.357375,1,Índice servicios,comunidad valenciana
+2022-09-01,125.92833333333334,1,Índice servicios,comunidad valenciana
+2022-10-01,124.8147,1,Índice servicios,comunidad valenciana
+2022-11-01,123.18399999999998,1,Índice servicios,comunidad valenciana
+2022-12-01,121.81991666666666,1,Índice servicios,comunidad valenciana
+2022-01-01,114.426,1,Índice servicios corregido,comunidad valenciana
+2022-02-01,113.6425,1,Índice servicios corregido,comunidad valenciana
+2022-03-01,112.24766666666666,1,Índice servicios corregido,comunidad valenciana
+2022-04-01,110.496,1,Índice servicios corregido,comunidad valenciana
+2022-05-01,108.6664,1,Índice servicios corregido,comunidad valenciana
+2022-06-01,107.82666666666668,1,Índice servicios corregido,comunidad valenciana
+2022-07-01,106.15,1,Índice servicios corregido,comunidad valenciana
+2022-08-01,104.54625,1,Índice servicios corregido,comunidad valenciana
+2022-09-01,103.81366666666668,1,Índice servicios corregido,comunidad valenciana
+2022-10-01,103.1407,1,Índice servicios corregido,comunidad valenciana
+2022-11-01,102.873,1,Índice servicios corregido,comunidad valenciana
+2022-12-01,102.52425,1,Índice servicios corregido,comunidad valenciana
+2022-01-01,10.64294107772368,1,Annual variation,comunidad valenciana
+2022-02-01,11.221308755415764,1,Annual variation,comunidad valenciana
+2022-03-01,10.512286649592482,1,Annual variation,comunidad valenciana
+2022-04-01,9.601304324633956,1,Annual variation,comunidad valenciana
+2022-05-01,9.760875997728377,1,Annual variation,comunidad valenciana
+2022-06-01,9.517562928204113,1,Annual variation,comunidad valenciana
+2022-07-01,8.414879107253537,1,Annual variation,comunidad valenciana
+2022-08-01,7.0222078235570375,1,Annual variation,comunidad valenciana
+2022-09-01,5.587391615838182,1,Annual variation,comunidad valenciana
+2022-10-01,4.622109714544342,1,Annual variation,comunidad valenciana
+2022-11-01,3.436235934256929,1,Annual variation,comunidad valenciana
+2022-12-01,2.366523720557615,1,Annual variation,comunidad valenciana
+2022-01-01,15.325539205805285,1,Corrected annual variation,comunidad valenciana
+2022-02-01,13.806951044258945,1,Corrected annual variation,comunidad valenciana
+2022-03-01,12.176621473067051,1,Corrected annual variation,comunidad valenciana
+2022-04-01,10.06811022151386,1,Corrected annual variation,comunidad valenciana
+2022-05-01,8.438895197874853,1,Corrected annual variation,comunidad valenciana
+2022-06-01,7.205588954656022,1,Corrected annual variation,comunidad valenciana
+2022-07-01,5.121907742280508,1,Corrected annual variation,comunidad valenciana
+2022-08-01,3.665996110526506,1,Corrected annual variation,comunidad valenciana
+2022-09-01,2.1393753286406296,1,Corrected annual variation,comunidad valenciana
+2022-10-01,0.7829828980822752,1,Corrected annual variation,comunidad valenciana
+2022-11-01,-0.0831755029601516,1,Corrected annual variation,comunidad valenciana
+2022-12-01,-0.7171689620054584,1,Corrected annual variation,comunidad valenciana
+2022-01-01,125.229,1,Índice servicios,extremadura
+2022-02-01,118.984,1,Índice servicios,extremadura
+2022-03-01,119.95666666666666,1,Índice servicios,extremadura
+2022-04-01,118.145,1,Índice servicios,extremadura
+2022-05-01,119.4442,1,Índice servicios,extremadura
+2022-06-01,121.7525,1,Índice servicios,extremadura
+2022-07-01,124.90942857142856,1,Índice servicios,extremadura
+2022-08-01,126.357375,1,Índice servicios,extremadura
+2022-09-01,125.92833333333334,1,Índice servicios,extremadura
+2022-10-01,124.8147,1,Índice servicios,extremadura
+2022-11-01,123.18399999999998,1,Índice servicios,extremadura
+2022-12-01,121.81991666666666,1,Índice servicios,extremadura
+2022-01-01,114.426,1,Índice servicios corregido,extremadura
+2022-02-01,113.6425,1,Índice servicios corregido,extremadura
+2022-03-01,112.24766666666666,1,Índice servicios corregido,extremadura
+2022-04-01,110.496,1,Índice servicios corregido,extremadura
+2022-05-01,108.6664,1,Índice servicios corregido,extremadura
+2022-06-01,107.82666666666668,1,Índice servicios corregido,extremadura
+2022-07-01,106.15,1,Índice servicios corregido,extremadura
+2022-08-01,104.54625,1,Índice servicios corregido,extremadura
+2022-09-01,103.81366666666668,1,Índice servicios corregido,extremadura
+2022-10-01,103.1407,1,Índice servicios corregido,extremadura
+2022-11-01,102.873,1,Índice servicios corregido,extremadura
+2022-12-01,102.52425,1,Índice servicios corregido,extremadura
+2022-01-01,10.64294107772368,1,Annual variation,extremadura
+2022-02-01,11.221308755415764,1,Annual variation,extremadura
+2022-03-01,10.512286649592482,1,Annual variation,extremadura
+2022-04-01,9.601304324633956,1,Annual variation,extremadura
+2022-05-01,9.760875997728377,1,Annual variation,extremadura
+2022-06-01,9.517562928204113,1,Annual variation,extremadura
+2022-07-01,8.414879107253537,1,Annual variation,extremadura
+2022-08-01,7.0222078235570375,1,Annual variation,extremadura
+2022-09-01,5.587391615838182,1,Annual variation,extremadura
+2022-10-01,4.622109714544342,1,Annual variation,extremadura
+2022-11-01,3.436235934256929,1,Annual variation,extremadura
+2022-12-01,2.366523720557615,1,Annual variation,extremadura
+2022-01-01,15.325539205805285,1,Corrected annual variation,extremadura
+2022-02-01,13.806951044258945,1,Corrected annual variation,extremadura
+2022-03-01,12.176621473067051,1,Corrected annual variation,extremadura
+2022-04-01,10.06811022151386,1,Corrected annual variation,extremadura
+2022-05-01,8.438895197874853,1,Corrected annual variation,extremadura
+2022-06-01,7.205588954656022,1,Corrected annual variation,extremadura
+2022-07-01,5.121907742280508,1,Corrected annual variation,extremadura
+2022-08-01,3.665996110526506,1,Corrected annual variation,extremadura
+2022-09-01,2.1393753286406296,1,Corrected annual variation,extremadura
+2022-10-01,0.7829828980822752,1,Corrected annual variation,extremadura
+2022-11-01,-0.0831755029601516,1,Corrected annual variation,extremadura
+2022-12-01,-0.7171689620054584,1,Corrected annual variation,extremadura
+2022-01-01,125.229,1,Índice servicios,galicia
+2022-02-01,118.984,1,Índice servicios,galicia
+2022-03-01,119.95666666666666,1,Índice servicios,galicia
+2022-04-01,118.145,1,Índice servicios,galicia
+2022-05-01,119.4442,1,Índice servicios,galicia
+2022-06-01,121.7525,1,Índice servicios,galicia
+2022-07-01,124.90942857142856,1,Índice servicios,galicia
+2022-08-01,126.357375,1,Índice servicios,galicia
+2022-09-01,125.92833333333334,1,Índice servicios,galicia
+2022-10-01,124.8147,1,Índice servicios,galicia
+2022-11-01,123.18399999999998,1,Índice servicios,galicia
+2022-12-01,121.81991666666666,1,Índice servicios,galicia
+2022-01-01,114.426,1,Índice servicios corregido,galicia
+2022-02-01,113.6425,1,Índice servicios corregido,galicia
+2022-03-01,112.24766666666666,1,Índice servicios corregido,galicia
+2022-04-01,110.496,1,Índice servicios corregido,galicia
+2022-05-01,108.6664,1,Índice servicios corregido,galicia
+2022-06-01,107.82666666666668,1,Índice servicios corregido,galicia
+2022-07-01,106.15,1,Índice servicios corregido,galicia
+2022-08-01,104.54625,1,Índice servicios corregido,galicia
+2022-09-01,103.81366666666668,1,Índice servicios corregido,galicia
+2022-10-01,103.1407,1,Índice servicios corregido,galicia
+2022-11-01,102.873,1,Índice servicios corregido,galicia
+2022-12-01,102.52425,1,Índice servicios corregido,galicia
+2022-01-01,10.64294107772368,1,Annual variation,galicia
+2022-02-01,11.221308755415764,1,Annual variation,galicia
+2022-03-01,10.512286649592482,1,Annual variation,galicia
+2022-04-01,9.601304324633956,1,Annual variation,galicia
+2022-05-01,9.760875997728377,1,Annual variation,galicia
+2022-06-01,9.517562928204113,1,Annual variation,galicia
+2022-07-01,8.414879107253537,1,Annual variation,galicia
+2022-08-01,7.0222078235570375,1,Annual variation,galicia
+2022-09-01,5.587391615838182,1,Annual variation,galicia
+2022-10-01,4.622109714544342,1,Annual variation,galicia
+2022-11-01,3.436235934256929,1,Annual variation,galicia
+2022-12-01,2.366523720557615,1,Annual variation,galicia
+2022-01-01,15.325539205805285,1,Corrected annual variation,galicia
+2022-02-01,13.806951044258945,1,Corrected annual variation,galicia
+2022-03-01,12.176621473067051,1,Corrected annual variation,galicia
+2022-04-01,10.06811022151386,1,Corrected annual variation,galicia
+2022-05-01,8.438895197874853,1,Corrected annual variation,galicia
+2022-06-01,7.205588954656022,1,Corrected annual variation,galicia
+2022-07-01,5.121907742280508,1,Corrected annual variation,galicia
+2022-08-01,3.665996110526506,1,Corrected annual variation,galicia
+2022-09-01,2.1393753286406296,1,Corrected annual variation,galicia
+2022-10-01,0.7829828980822752,1,Corrected annual variation,galicia
+2022-11-01,-0.0831755029601516,1,Corrected annual variation,galicia
+2022-12-01,-0.7171689620054584,1,Corrected annual variation,galicia
+2022-01-01,125.229,1,Índice servicios,la rioja
+2022-02-01,118.984,1,Índice servicios,la rioja
+2022-03-01,119.95666666666666,1,Índice servicios,la rioja
+2022-04-01,118.145,1,Índice servicios,la rioja
+2022-05-01,119.4442,1,Índice servicios,la rioja
+2022-06-01,121.7525,1,Índice servicios,la rioja
+2022-07-01,124.90942857142856,1,Índice servicios,la rioja
+2022-08-01,126.357375,1,Índice servicios,la rioja
+2022-09-01,125.92833333333334,1,Índice servicios,la rioja
+2022-10-01,124.8147,1,Índice servicios,la rioja
+2022-11-01,123.18399999999998,1,Índice servicios,la rioja
+2022-12-01,121.81991666666666,1,Índice servicios,la rioja
+2022-01-01,114.426,1,Índice servicios corregido,la rioja
+2022-02-01,113.6425,1,Índice servicios corregido,la rioja
+2022-03-01,112.24766666666666,1,Índice servicios corregido,la rioja
+2022-04-01,110.496,1,Índice servicios corregido,la rioja
+2022-05-01,108.6664,1,Índice servicios corregido,la rioja
+2022-06-01,107.82666666666668,1,Índice servicios corregido,la rioja
+2022-07-01,106.15,1,Índice servicios corregido,la rioja
+2022-08-01,104.54625,1,Índice servicios corregido,la rioja
+2022-09-01,103.81366666666668,1,Índice servicios corregido,la rioja
+2022-10-01,103.1407,1,Índice servicios corregido,la rioja
+2022-11-01,102.873,1,Índice servicios corregido,la rioja
+2022-12-01,102.52425,1,Índice servicios corregido,la rioja
+2022-01-01,10.64294107772368,1,Annual variation,la rioja
+2022-02-01,11.221308755415764,1,Annual variation,la rioja
+2022-03-01,10.512286649592482,1,Annual variation,la rioja
+2022-04-01,9.601304324633956,1,Annual variation,la rioja
+2022-05-01,9.760875997728377,1,Annual variation,la rioja
+2022-06-01,9.517562928204113,1,Annual variation,la rioja
+2022-07-01,8.414879107253537,1,Annual variation,la rioja
+2022-08-01,7.0222078235570375,1,Annual variation,la rioja
+2022-09-01,5.587391615838182,1,Annual variation,la rioja
+2022-10-01,4.622109714544342,1,Annual variation,la rioja
+2022-11-01,3.436235934256929,1,Annual variation,la rioja
+2022-12-01,2.366523720557615,1,Annual variation,la rioja
+2022-01-01,15.325539205805285,1,Corrected annual variation,la rioja
+2022-02-01,13.806951044258945,1,Corrected annual variation,la rioja
+2022-03-01,12.176621473067051,1,Corrected annual variation,la rioja
+2022-04-01,10.06811022151386,1,Corrected annual variation,la rioja
+2022-05-01,8.438895197874853,1,Corrected annual variation,la rioja
+2022-06-01,7.205588954656022,1,Corrected annual variation,la rioja
+2022-07-01,5.121907742280508,1,Corrected annual variation,la rioja
+2022-08-01,3.665996110526506,1,Corrected annual variation,la rioja
+2022-09-01,2.1393753286406296,1,Corrected annual variation,la rioja
+2022-10-01,0.7829828980822752,1,Corrected annual variation,la rioja
+2022-11-01,-0.0831755029601516,1,Corrected annual variation,la rioja
+2022-12-01,-0.7171689620054584,1,Corrected annual variation,la rioja
+2022-01-01,125.229,1,Índice servicios,region de murcia
+2022-02-01,118.984,1,Índice servicios,region de murcia
+2022-03-01,119.95666666666666,1,Índice servicios,region de murcia
+2022-04-01,118.145,1,Índice servicios,region de murcia
+2022-05-01,119.4442,1,Índice servicios,region de murcia
+2022-06-01,121.7525,1,Índice servicios,region de murcia
+2022-07-01,124.90942857142856,1,Índice servicios,region de murcia
+2022-08-01,126.357375,1,Índice servicios,region de murcia
+2022-09-01,125.92833333333334,1,Índice servicios,region de murcia
+2022-10-01,124.8147,1,Índice servicios,region de murcia
+2022-11-01,123.18399999999998,1,Índice servicios,region de murcia
+2022-12-01,121.81991666666666,1,Índice servicios,region de murcia
+2022-01-01,114.426,1,Índice servicios corregido,region de murcia
+2022-02-01,113.6425,1,Índice servicios corregido,region de murcia
+2022-03-01,112.24766666666666,1,Índice servicios corregido,region de murcia
+2022-04-01,110.496,1,Índice servicios corregido,region de murcia
+2022-05-01,108.6664,1,Índice servicios corregido,region de murcia
+2022-06-01,107.82666666666668,1,Índice servicios corregido,region de murcia
+2022-07-01,106.15,1,Índice servicios corregido,region de murcia
+2022-08-01,104.54625,1,Índice servicios corregido,region de murcia
+2022-09-01,103.81366666666668,1,Índice servicios corregido,region de murcia
+2022-10-01,103.1407,1,Índice servicios corregido,region de murcia
+2022-11-01,102.873,1,Índice servicios corregido,region de murcia
+2022-12-01,102.52425,1,Índice servicios corregido,region de murcia
+2022-01-01,10.64294107772368,1,Annual variation,region de murcia
+2022-02-01,11.221308755415764,1,Annual variation,region de murcia
+2022-03-01,10.512286649592482,1,Annual variation,region de murcia
+2022-04-01,9.601304324633956,1,Annual variation,region de murcia
+2022-05-01,9.760875997728377,1,Annual variation,region de murcia
+2022-06-01,9.517562928204113,1,Annual variation,region de murcia
+2022-07-01,8.414879107253537,1,Annual variation,region de murcia
+2022-08-01,7.0222078235570375,1,Annual variation,region de murcia
+2022-09-01,5.587391615838182,1,Annual variation,region de murcia
+2022-10-01,4.622109714544342,1,Annual variation,region de murcia
+2022-11-01,3.436235934256929,1,Annual variation,region de murcia
+2022-12-01,2.366523720557615,1,Annual variation,region de murcia
+2022-01-01,15.325539205805285,1,Corrected annual variation,region de murcia
+2022-02-01,13.806951044258945,1,Corrected annual variation,region de murcia
+2022-03-01,12.176621473067051,1,Corrected annual variation,region de murcia
+2022-04-01,10.06811022151386,1,Corrected annual variation,region de murcia
+2022-05-01,8.438895197874853,1,Corrected annual variation,region de murcia
+2022-06-01,7.205588954656022,1,Corrected annual variation,region de murcia
+2022-07-01,5.121907742280508,1,Corrected annual variation,region de murcia
+2022-08-01,3.665996110526506,1,Corrected annual variation,region de murcia
+2022-09-01,2.1393753286406296,1,Corrected annual variation,region de murcia
+2022-10-01,0.7829828980822752,1,Corrected annual variation,region de murcia
+2022-11-01,-0.0831755029601516,1,Corrected annual variation,region de murcia
+2022-12-01,-0.7171689620054584,1,Corrected annual variation,region de murcia
