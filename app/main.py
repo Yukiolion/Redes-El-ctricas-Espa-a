@@ -119,7 +119,7 @@ def Generacion():
     st.title("Generación Eléctrica")
     st.write("Aquí se agregaran los datos y graficas de la generación eléctrica de España.")
 
-    df_generacion = pd.read_csv('estructura-generacion-limpio.csv')
+    df_generacion = pd.read_csv('../../lib/data/processed/generacion/estructura-generacion-limpio.csv')
     df_generacion
 
 
@@ -161,7 +161,7 @@ def intercambio():
     st.title("Intercambio Internacional")
     st.write("Aquí se agregaran los datos y graficas de intercambio internacional de energía de España.")
 
-    df_intercambio = pd.read_csv('fronteras-limpio.csv')
+    df_intercambio = pd.read_csv('../../lib/data/processed/intercambio/fronteras-limpio.csv')
     df_intercambio
 
     grafico_lineas = df_intercambio.groupby(['fecha', 'pais'])['valor'].sum().reset_index()
