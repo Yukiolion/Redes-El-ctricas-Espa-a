@@ -1,78 +1,59 @@
+-- Crear base de datos y seleccionarla
 CREATE DATABASE IF NOT EXISTS redes_electricas;
 USE redes_electricas;
 
-
+-- Tabla central
 CREATE TABLE balance (
-    fecha DATE,
-    valor DECIMAL(10,2),
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    fecha DATE NOT NULL,
     tipo VARCHAR(50),
     energia VARCHAR(50),
-    region VARCHAR(100),
-    PRIMARY KEY (fecha, tipo, energia, region)
+    region VARCHAR(100) NOT NULL,
+    valor DECIMAL(10,2),
+    UNIQUE KEY unique_fecha_region (fecha, region)
 );
 
-
+-- Indicadores generales de demanda
 CREATE TABLE demanda_ire_general (
-    fecha DATE,
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    fecha DATE NOT NULL,
+    indicador VARCHAR(100) NOT NULL,
+    region VARCHAR(100) NOT NULL,
     valor DECIMAL(10,2),
     porcentaje DECIMAL(5,2),
-    indicador VARCHAR(100),
-    region VARCHAR(100),
-    PRIMARY KEY (fecha, indicador, region),
-    FOREIGN KEY (fecha) REFERENCES balance(fecha)
+    UNIQUE KEY unique_fecha_indicador_region (fecha, indicador, region),
+    FOREIGN KEY (fecha, region) REFERENCES balance(fecha, region)
 );
 
-
+-- Evolución de la demanda
 CREATE TABLE demanda_evolucion (
-    fecha DATE,
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    fecha DATE NOT NULL,
+    indicador VARCHAR(100) NOT NULL,
+    region VARCHAR(100) NOT NULL,
     valor DECIMAL(10,2),
-    indicador VARCHAR(100),
-    region VARCHAR(100),
-    PRIMARY KEY (fecha, indicador, region)
+    FOREIGN KEY (fecha, region) REFERENCES balance(fecha, region)
 );
 
-
+-- Fronteras eléctricas
 CREATE TABLE fronteras (
-    fecha DATE,
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    fecha DATE NOT NULL,
+    pais VARCHAR(100) NOT NULL,
+    region VARCHAR(100) NOT NULL,
     valor DECIMAL(10,2),
     porcentaje DECIMAL(5,2),
-    pais VARCHAR(100),
-    año INT,
-    PRIMARY KEY (fecha, pais)
+    FOREIGN KEY (fecha, region) REFERENCES balance(fecha, region)
 );
 
-
-ALTER TABLE fronteras ADD UNIQUE (pais);
-
-CREATE TABLE enlace_baleares (
-    fecha DATE,
-    valor DECIMAL(10,2),
-    porcentaje DECIMAL(5,2),
-    pais VARCHAR(100),
-    año INT,
-    PRIMARY KEY (fecha, pais),
-    FOREIGN KEY (pais) REFERENCES fronteras(pais)
-);
-
-
-CREATE TABLE energia_renovable_norenovable (
-    fecha DATE,
-    valor DECIMAL(10,2),
-    porcentaje DECIMAL(5,2),
-    indicador VARCHAR(100),
-    region VARCHAR(100),
-    tipo VARCHAR(50),
-    año INT,
-    PRIMARY KEY (fecha, indicador, region, tipo)
-);
-
+-- Estructura de generación
 CREATE TABLE estructura_generacion (
-    fecha DATE,
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    fecha DATE NOT NULL,
+    indicador VARCHAR(100) NOT NULL,
+    region VARCHAR(100) NOT NULL,
+    tipo VARCHAR(50),
     valor DECIMAL(10,2),
     porcentaje DECIMAL(5,2),
-    indicador VARCHAR(100),
-    region VARCHAR(100),
-    tipo VARCHAR(50),
-    año INT,
-    PRIMARY KEY (fecha, indicador, region, tipo)
+    FOREIGN KEY (fecha, region) REFERENCES balance(fecha, region)
 );
