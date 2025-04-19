@@ -1,5 +1,6 @@
 import streamlit as st
 
+import plotly.express as px
 import numpy as np
 import pandas as pd
 import requests
@@ -36,18 +37,161 @@ def main():
 def Balance():
     st.title("Balance Energético")
     st.write("Aquí se agregaran los datos y graficas del balance energético de España.")
+    df_balance = pd.read_csv('balance-electrico-limpio.csv')
+    df_balance
+
+
+    grafico_lineas = df_balance.groupby(['fecha', 'energia'])['valor'].sum().reset_index()
+    fig = px.line(grafico_lineas,
+                x='fecha',
+                y='valor',
+                color='energia',
+                title="Evolución del balance energético desde 2019 hasta 2023",
+                labels={'fecha': 'Fecha', 'energia': 'Tipo energia'})
+    fig.update_traces(line=dict(width=1))
+    fig.update_layout(xaxis_title='Fecha', xaxis_tickformat='%b %Y', yaxis_title='kWh')
+    st.plotly_chart(fig)
+
+
+    df_balance['fecha'] = pd.to_datetime(df_balance['fecha'])
+    df_balance['año'] = df_balance['fecha'].dt.year
+
+    grafico_barras = df_balance.groupby(['año', 'tipo'])['valor'].sum().reset_index()
+
+    fig = px.bar(grafico_barras,
+                x='año',
+                y='valor',
+                color='tipo',
+                title="Distribución de tipo de energía por años",
+                labels={'valor': 'kWh', 'año': 'Año'},
+                hover_data={'valor': ':.2f'},
+                barmode='stack')
+    fig.update_layout(height=700)
+    st.plotly_chart(fig)
+
 
 def Demanda():
     st.title("Demanda Eléctrica")
     st.write("Aquí se agregaran los datos y graficas de la demanda eléctrica de España.")
 
+    df_demanda = pd.read_csv('demanda-limpio.csv')
+    df_demanda
+
+    df_ire = pd.read_csv('ire-limpio.csv')
+    df_ire
+
+    grafico_lineas = df_ire.groupby(['fecha', 'indicador'])['valor'].sum().reset_index()
+    fig = px.line(grafico_lineas,
+                x='fecha',
+                y='valor',
+                color='indicador',
+                title="Evolución de ire de demanda en la región peninsular",
+                labels={'fecha': 'Fecha', 'energia': 'Wh', 'tipo energia': 'Tipo de energía'})
+    fig.update_traces(line=dict(width=1))
+    fig.update_layout(xaxis_title='Fecha', xaxis_tickformat='%b %Y')
+    st.plotly_chart(fig)
+
+
+    grafico_lineas = df_demanda.groupby(['fecha', 'indicador'])['valor'].sum().reset_index()
+    fig = px.line(grafico_lineas,
+                x='fecha',
+                y='valor',
+                color='indicador',
+                title="Evolución de demanda en la región peninsular",
+                labels={'fecha': 'Fecha', 'energia': 'Wh', 'tipo energia': 'Tipo de energía'})
+    fig.update_traces(line=dict(width=1))
+    fig.update_layout(xaxis_title='Fecha', xaxis_tickformat='%b %Y')
+    st.plotly_chart(fig)
+
+    filtro = df_ire['indicador'].isin(['Índice general corregido', 'Índice industria corregido', 'Índice servicios corregido'])
+    df_filtrado = df_ire[filtro]
+
+    df_agrupado = df_filtrado.groupby(['año', 'indicador'])['valor'].sum().reset_index()
+
+
+    grafico_barras = df_agrupado.groupby(['año', 'indicador'])['valor'].sum().reset_index()
+
+    fig = px.bar(grafico_barras,
+                x='año',
+                y='valor',
+                color='indicador',
+                title="Distribución de tipo de energia por años",
+                labels={'valor': 'Wh', 'indicador': 'indices'})
+    st.plotly_chart(fig)
+
 def Generacion():
     st.title("Generación Eléctrica")
     st.write("Aquí se agregaran los datos y graficas de la generación eléctrica de España.")
+
+    df_generacion = pd.read_csv('estructura-generacion-limpio.csv')
+    df_generacion
+
+
+    grafico_lineas = df_generacion.groupby(['fecha', 'tipo'])['valor'].sum().reset_index()
+    fig = px.line(grafico_lineas,
+                x='fecha',
+                y='valor',
+                color='tipo',
+                title="Evolución de energía Renovable vs No renovable en la región peninsular",
+                labels={'fecha': 'Fecha', 'energia': 'kWh', 'tipo energia': 'Tipo de energía'})
+    fig.update_traces(line=dict(width=1))
+    fig.update_layout(xaxis_title='Fecha', xaxis_tickformat='%b %Y')
+    st.plotly_chart(fig)
+
+
+    grafico_barras = df_generacion.groupby(['año', 'tipo'])['valor'].sum().reset_index()
+
+    fig = px.bar(grafico_barras,
+                x='año',
+                y='valor',
+                color='tipo',
+                title="Distribución de tipo de energia por años",
+                labels={'energia': 'kWh', 'tipo': 'Tipo de energía'},
+                hover_name='tipo',
+                barmode='stack')
+    st.plotly_chart(fig)
+
+    grafico_hist = df_generacion.groupby(['indicador', 'año'])['valor'].sum().reset_index()
+
+    fig = px.bar(grafico_hist,
+                x='indicador',
+                y='valor',
+                color='año',  
+                title='Distribución de generación por tipo de energía y año',
+                barmode='group')
+    st.plotly_chart(fig)
   
 def intercambio():
     st.title("Intercambio Internacional")
     st.write("Aquí se agregaran los datos y graficas de intercambio internacional de energía de España.")
+
+    df_intercambio = pd.read_csv('fronteras-limpio.csv')
+    df_intercambio
+
+    grafico_lineas = df_intercambio.groupby(['fecha', 'pais'])['valor'].sum().reset_index()
+    fig = px.line(grafico_lineas,
+                x='fecha',
+                y='valor',
+                color='pais',
+                title="Evolución de la exportacion de energía",
+                labels={'fecha': 'Fecha', 'energia': 'kWh', 'tipo energia': 'Tipo de energía'})
+    fig.update_traces(line=dict(width=1))
+    fig.update_layout(xaxis_title='Fecha', xaxis_tickformat='%b %Y')
+    st.plotly_chart(fig)
+
+    grafico_barras = df_intercambio.groupby(['año', 'pais'])['valor'].sum().reset_index()
+
+    fig = px.bar(grafico_barras,
+                x='año',
+                y='valor',
+                color='pais',
+                title="Distribución de la exportacion de energia por años",
+                labels={'energia': 'kWh', 'pais': 'pais'},
+                hover_name='pais',
+                barmode='stack')
+    st.plotly_chart(fig)
+
+
 
 # ESTA FUNCION SE PUEDE USAR COMO CONCLUSIONES O COMO COMPARACIONES PARA COMPARAR DATOS ENTRE LOS TIPOS QUE TENEMOS
 def Conclusiones():
