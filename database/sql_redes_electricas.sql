@@ -77,24 +77,5 @@ CREATE TABLE estructura_generacion (
     PRIMARY KEY (fecha, indicador, region, tipo)
 );
 
-CREATE TABLE demanda_ire_industria (
-    fecha DATE,
-    valor DECIMAL(10,2),
-    porcentaje DECIMAL(5,2),
-    indicador VARCHAR(100),
-    region VARCHAR(100),
-    año INT,
-    PRIMARY KEY (fecha, indicador, region),
-    FOREIGN KEY (fecha) REFERENCES balance(fecha)
-);
 
-CREATE TABLE demanda_ire_servicios (
-    fecha DATE,
-    valor DECIMAL(10,2),
-    porcentaje DECIMAL(5,2),
-    indicador VARCHAR(100),
-    region VARCHAR(100),
-    año INT,
-    PRIMARY KEY (fecha, indicador, region),
-    FOREIGN KEY (fecha) REFERENCES balance(fecha)
-);
+
