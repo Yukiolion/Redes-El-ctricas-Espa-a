@@ -5,10 +5,6 @@ import numpy as np
 import pandas as pd
 import requests
 
-# import pages.graficas as graficas
-
-# graficas.mostrar_graficas()  # Suponiendo que definiste una función con tus plots
-
 # PAGINA PRINCIPAL DEL PROYECTO(TITULO, IMAGEN Y DESCRIPCION)
 def main():
     st.title("Proyecto Red Eléctrica España")
@@ -37,7 +33,7 @@ def main():
 def Balance():
     st.title("Balance Energético")
     st.write("Aquí se agregaran los datos y graficas del balance energético de España.")
-    df_balance = pd.read_csv('balance-electrico-limpio.csv')
+    df_balance = pd.read_csv('../../lib/data/processed/balance/balance-electrico-limpio.csv')
     df_balance
 
 
@@ -74,10 +70,10 @@ def Demanda():
     st.title("Demanda Eléctrica")
     st.write("Aquí se agregaran los datos y graficas de la demanda eléctrica de España.")
 
-    df_demanda = pd.read_csv('demanda-limpio.csv')
+    df_demanda = pd.read_csv('../../lib/data/processed/demanda/demanda-limpio.csv')
     df_demanda
 
-    df_ire = pd.read_csv('ire-limpio.csv')
+    df_ire = pd.read_csv('../../lib/data/processed/demanda/ire-limpio.csv')
     df_ire
 
     grafico_lineas = df_ire.groupby(['fecha', 'indicador'])['valor'].sum().reset_index()
