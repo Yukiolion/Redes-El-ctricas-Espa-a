@@ -304,17 +304,8 @@ def intercambio():
     st.plotly_chart(fig)
 
 
-
-# ESTA FUNCION SE PUEDE USAR COMO CONCLUSIONES O COMO COMPARACIONES PARA COMPARAR DATOS ENTRE LOS TIPOS QUE TENEMOS
-def Conclusiones():
-    st.title("Conclusiones de Datos")
-    st.write("Aquí se agregaran conclusiones sobre los datos analizados.")
-    # Aquí puedes agregar el código para mostrar las conclusiones de los datos
-    # Por ejemplo, un resumen o análisis de los datos obtenidos
-
-
 st.sidebar.title('Navegación')
-pagina = st.sidebar.radio("", ("Página de Inicio", "Balance", "Demanda", "Generación", "Intercambio", "Conclusion de Datos"))
+pagina = st.sidebar.radio("", ("Página de Inicio", "Balance", "Demanda", "Generación", "Intercambio"))
 
 
 
@@ -328,5 +319,3 @@ elif pagina == 'Generación':
     Generacion()
 elif pagina == 'Intercambio':
     intercambio()
-elif pagina == 'Conclusion de Datos':
-    Conclusiones()
