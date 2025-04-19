@@ -39,7 +39,6 @@ CREATE TABLE demanda_evolucion (
 CREATE TABLE fronteras (
     fecha DATE,
     pais VARCHAR(100),
-    region VARCHAR(100),
     valor DECIMAL(10,2),
     porcentaje DECIMAL(5,2),
     año INT,

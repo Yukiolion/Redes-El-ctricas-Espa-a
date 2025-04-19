@@ -4,6 +4,10 @@ import numpy as np
 import pandas as pd
 import requests
 
+# import pages.graficas as graficas
+
+# graficas.mostrar_graficas()  # Suponiendo que definiste una función con tus plots
+
 # PAGINA PRINCIPAL DEL PROYECTO(TITULO, IMAGEN Y DESCRIPCION)
 def main():
     st.title("Proyecto Red Eléctrica España")
