@@ -76,6 +76,3 @@ CREATE TABLE estructura_generacion (
     año INT,
     PRIMARY KEY (fecha, indicador, region, tipo)
 );
-
-
-
