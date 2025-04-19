@@ -1,84 +1,58 @@
+-- Crear base de datos y seleccionarla
 CREATE DATABASE IF NOT EXISTS redes_electricas;
-
 USE redes_electricas;
 
 -- Tabla central
 CREATE TABLE balance (
-    fecha DATE,
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    fecha DATE NOT NULL,
     tipo VARCHAR(50),
     energia VARCHAR(50),
-    region VARCHAR(100),
+    region VARCHAR(100) NOT NULL,
     valor DECIMAL(10,2),
-    PRIMARY KEY (fecha, tipo, energia, region),
-    UNIQUE (fecha, region)
+    UNIQUE KEY unique_fecha_region (fecha, region)
 );
 
-
--- Tabla de indicadores generales
+-- Indicadores generales de demanda
 CREATE TABLE demanda_ire_general (
-    fecha DATE,
-    indicador VARCHAR(100),
-    region VARCHAR(100),
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    fecha DATE NOT NULL,
+    indicador VARCHAR(100) NOT NULL,
+    region VARCHAR(100) NOT NULL,
     valor DECIMAL(10,2),
     porcentaje DECIMAL(5,2),
-    PRIMARY KEY (fecha, indicador, region),
+    UNIQUE KEY unique_fecha_indicador_region (fecha, indicador, region),
     FOREIGN KEY (fecha, region) REFERENCES balance(fecha, region)
 );
 
--- Evolución de demanda conectada a la tabla anterior
+-- Evolución de la demanda
 CREATE TABLE demanda_evolucion (
-    fecha DATE,
-    indicador VARCHAR(100),
-    region VARCHAR(100),
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    fecha DATE NOT NULL,
+    indicador VARCHAR(100) NOT NULL,
+    region VARCHAR(100) NOT NULL,
     valor DECIMAL(10,2),
-    PRIMARY KEY (fecha, indicador, region),
-    FOREIGN KEY (fecha, indicador, region) REFERENCES demanda_ire_general(fecha, indicador, region)
+    FOREIGN KEY (fecha, region) REFERENCES balance(fecha, region)
 );
 
--- Fronteras conectadas a balance por fecha y región
+-- Fronteras eléctricas
 CREATE TABLE fronteras (
-    fecha DATE,
-    pais VARCHAR(100),
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    fecha DATE NOT NULL,
+    pais VARCHAR(100) NOT NULL,
     valor DECIMAL(10,2),
     porcentaje DECIMAL(5,2),
-    año INT,
-    PRIMARY KEY (fecha, pais),
-    UNIQUE (pais)
+    FOREIGN KEY (fecha, region) REFERENCES balance(fecha, region)
 );
 
--- Enlace con Baleares conectado a fronteras por pais
-CREATE TABLE enlace_baleares (
-    fecha DATE,
-    pais VARCHAR(100),
-    valor DECIMAL(10,2),
-    porcentaje DECIMAL(5,2),
-    año INT,
-    PRIMARY KEY (fecha, pais),
-    FOREIGN KEY (pais) REFERENCES fronteras(pais)
-);
-
--- Energías renovables/no renovables conectadas a demanda_evolucion
-CREATE TABLE energia_renovable_norenovable (
-    fecha DATE,
-    indicador VARCHAR(100),
-    region VARCHAR(100),
-    tipo VARCHAR(50),
-    valor DECIMAL(10,2),
-    porcentaje DECIMAL(5,2),
-    año INT,
-    PRIMARY KEY (fecha, indicador, region, tipo),
-    FOREIGN KEY (fecha, indicador, region) REFERENCES demanda_evolucion(fecha, indicador, region)
-);
-
--- Estructura de generación conectada a energía renovable/no renovable
+-- Estructura de generación
 CREATE TABLE estructura_generacion (
-    fecha DATE,
-    indicador VARCHAR(100),
-    region VARCHAR(100),
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    fecha DATE NOT NULL,
+    indicador VARCHAR(100) NOT NULL,
+    region VARCHAR(100) NOT NULL,
     tipo VARCHAR(50),
     valor DECIMAL(10,2),
     porcentaje DECIMAL(5,2),
-    año INT,
-    PRIMARY KEY (fecha, indicador, region, tipo),
-    FOREIGN KEY (fecha, indicador, region, tipo) REFERENCES energia_renovable_norenovable(fecha, indicador, region, tipo)
+    FOREIGN KEY (fecha, region) REFERENCES balance(fecha, region)
 );
