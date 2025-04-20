@@ -2,7 +2,7 @@
 CREATE DATABASE IF NOT EXISTS redes_electricas;
 USE redes_electricas;
 
--- Tabla central
+-- Tabla central: balance
 CREATE TABLE balance (
     id INT AUTO_INCREMENT PRIMARY KEY,
     fecha DATE NOT NULL,
@@ -35,15 +35,13 @@ CREATE TABLE demanda_evolucion (
     FOREIGN KEY (fecha, region) REFERENCES balance(fecha, region)
 );
 
--- Fronteras eléctricas
+-- Fronteras eléctricas (sin foreign key)
 CREATE TABLE fronteras (
     id INT AUTO_INCREMENT PRIMARY KEY,
     fecha DATE NOT NULL,
     pais VARCHAR(100) NOT NULL,
-    region VARCHAR(100) NOT NULL,
     valor DECIMAL(10,2),
-    porcentaje DECIMAL(5,2),
-    FOREIGN KEY (fecha, region) REFERENCES balance(fecha, region)
+    porcentaje DECIMAL(5,2)
 );
 
 -- Estructura de generación
