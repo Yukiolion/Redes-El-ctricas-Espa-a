@@ -303,6 +303,16 @@ def intercambio():
                 barmode='stack')
     st.plotly_chart(fig)
 
+    # Grafico heatmap:
+    grafico_barras = df_intercambio.groupby(['año', 'pais'])['valor'].sum().reset_index()
+
+    heatmap_data = grafico_barras.pivot(index='año', columns='pais', values='valor')
+
+    fig = px.imshow(heatmap_data,
+                    title="Distribución de la exportación de energía por años (Heatmap)",
+                    labels={'x': 'Pais', 'y': 'Año', 'color': 'kWh'},
+                    color_continuous_scale='Blues')
+    st.plotly_chart(fig)
 
 
 # ESTA FUNCION SE PUEDE USAR COMO CONCLUSIONES O COMO COMPARACIONES PARA COMPARAR DATOS ENTRE LOS TIPOS QUE TENEMOS
