@@ -5,9 +5,6 @@ import numpy as np
 import pandas as pd
 import requests
 
-# import pages.graficas as graficas
-
-# graficas.mostrar_graficas()  # Suponiendo que definiste una función con tus plots
 
 # PAGINA PRINCIPAL DEL PROYECTO(TITULO, IMAGEN Y DESCRIPCION)
 def main():
@@ -84,7 +81,7 @@ def Balance():
     st.title("Balance Energético")
     st.write("En este apartado se representa la cantidad total de electricidad generada por todas las fuentes disponibles " \
              "en el sistema eléctrico Español a lo largo de los años.")
-    df_balance = pd.read_csv('../../lib/data/processed/balance/balance-electrico-limpio.csv')
+    df_balance = pd.read_csv('../lib/data/processed/balance/balance-electrico-limpio.csv')
     
     df_balance['fecha'] = pd.to_datetime(df_balance['fecha'])
     df_balance['año'] = df_balance['fecha'].dt.year
@@ -135,8 +132,8 @@ def Demanda():
             " un momento o periodo específico. Es una medida de la cantidad de energía que se necesita para satisfacer " \
             " las necesidades de los usuarios, ya sean residenciales, comerciales o industriales.")
 
-    df_demanda = pd.read_csv('../../lib/data/processed/demanda/demanda-limpio.csv')
-    df_ire = pd.read_csv('../../lib/data/processed/demanda/ire-limpio.csv')
+    df_demanda = pd.read_csv('../lib/data/processed/demanda/demanda-limpio.csv')
+    df_ire = pd.read_csv('../lib/data/processed/demanda/ire-limpio.csv')
     df_demanda['fecha'] = pd.to_datetime(df_demanda['fecha'])
     df_demanda['año'] = df_demanda['fecha'].dt.year
 
@@ -205,7 +202,7 @@ def Generacion():
     st.write("La generación eléctrica convierte energía mecánica, térmica o luminosa en electricidad " \
             "utilizable para consumo doméstico, industrial y comercial.")
 
-    df_generacion = pd.read_csv('../../lib/data/processed/generacion/estructura-generacion-limpio.csv')
+    df_generacion = pd.read_csv('../lib/data/processed/generacion/estructura-generacion-limpio.csv')
     df_generacion['fecha'] = pd.to_datetime(df_generacion['fecha'])
     df_generacion['año'] = df_generacion['fecha'].dt.year
 
@@ -264,7 +261,7 @@ def intercambio():
             "entre países. En el caso de la electricidad, se trata del flujo de energía eléctrica " \
             "que cruza las fronteras nacionales a través de interconexiones eléctricas.")
 
-    df_intercambio = pd.read_csv('../../lib/data/processed/intercambio/fronteras-limpio.csv')
+    df_intercambio = pd.read_csv('../lib/data/processed/intercambio/fronteras-limpio.csv')
     df_intercambio['fecha'] = pd.to_datetime(df_intercambio['fecha'])
     df_intercambio['año'] = df_intercambio['fecha'].dt.year
 
@@ -314,17 +311,8 @@ def intercambio():
                     color_continuous_scale='Blues')
     st.plotly_chart(fig)
 
-
-# ESTA FUNCION SE PUEDE USAR COMO CONCLUSIONES O COMO COMPARACIONES PARA COMPARAR DATOS ENTRE LOS TIPOS QUE TENEMOS
-def Conclusiones():
-    st.title("Conclusiones de Datos")
-    st.write("Aquí se agregaran conclusiones sobre los datos analizados.")
-    # Aquí puedes agregar el código para mostrar las conclusiones de los datos
-    # Por ejemplo, un resumen o análisis de los datos obtenidos
-
-
 st.sidebar.title('Navegación')
-pagina = st.sidebar.radio("", ("Página de Inicio", "Balance", "Demanda", "Generación", "Intercambio", "Conclusion de Datos"))
+pagina = st.sidebar.radio("", ("Página de Inicio", "Balance", "Demanda", "Generación", "Intercambio"))
 
 
 
@@ -338,5 +326,3 @@ elif pagina == 'Generación':
     Generacion()
 elif pagina == 'Intercambio':
     intercambio()
-elif pagina == 'Conclusion de Datos':
-    Conclusiones()
