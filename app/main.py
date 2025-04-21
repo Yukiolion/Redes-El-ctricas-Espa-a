@@ -109,7 +109,7 @@ def Balance():
                 y='valor',
                 color='energia',
                 title="Balance energético en España",
-                labels={'fecha': 'Fecha', 'valor': 'Wh', 'energia': 'Tipo de energía'})
+                labels={'fecha': 'Fecha', 'valor': 'KWh', 'energia': 'Tipo de energía'})
     fig.update_traces(line=dict(width=1))
     fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
     st.plotly_chart(fig)
@@ -183,7 +183,7 @@ def Demanda():
                 y='valor',
                 color='indicador',
                 title="Evolución de ire de demanda en la región peninsular",
-                labels={'fecha': 'Fecha', 'valor': 'Wh', 'indicador': 'Tipo de energía'})  # Arreglado también 'labels'
+                labels={'fecha': 'Fecha', 'valor': 'Wh', 'indicador': 'Tipo de energía'})
     fig.update_traces(line=dict(width=1))
     fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
     st.plotly_chart(fig)
@@ -220,15 +220,20 @@ def Demanda():
 
 ## Grafico para comparar dos años:
     st.write("**Comparación de la demanda eléctrica a lo largo de los años**")
-    bloque_años = st.radio("Seleccionar el bloque de años:", ["2019–2020", "2020–2021", "2021–2022"])
 
-    if bloque_años == "2019–2020":
-        años = [2019, 2020]
-    elif bloque_años == "2020–2021":
-        años = [2020, 2021]
-    elif bloque_años == "2021–2022":
-        años = [2021, 2022]
+    años_disponibles = list(range(2019, 2025))
 
+    st.title("Comparar dos años")
+
+    # Selección de los dos años a comparar
+    año_1 = st.selectbox("Selecciona el primer año:", años_disponibles, key="año1")
+    año_2 = st.selectbox("Selecciona el segundo año:", años_disponibles, key="año2")
+
+    # Mostrar la selección
+    st.write(f"Comparando los años: {año_1} vs {año_2}")
+
+    # Filtrar los datos para los años seleccionados
+    años = [año_1, año_2]
     df_comparar = df_demanda[df_demanda['año'].isin(años)]
 
     estadisticas_por_año = []
@@ -250,10 +255,13 @@ def Demanda():
         })
 
     df_estadisticas = pd.DataFrame(estadisticas_por_año)
-    st.write("En esta tabla podemos seleccionar los valores de media, mediana, máximo y mínimo para cada rango de años")
+
+    st.write("En esta tabla podemos seleccionar los valores de media, mediana, máximo y mínimo y comparar dichos valores entre" \
+    "años. En el grafico de debajo se muestran tanto los valores estadísticos como la gráfica de la evolución de la demanda.")
 
     st.dataframe(df_estadisticas)
 
+    # Añadir una columna combinada para el gráfico
     df_comparar['indicador_año'] = df_comparar['indicador'] + ' ' + df_comparar['año'].astype(str)
 
     fig = px.line(df_comparar,
@@ -291,14 +299,15 @@ def Demanda():
         legend_title='Indicador por año'
     )
     fig.update_traces(line=dict(width=1))
+
     st.plotly_chart(fig)
 
 
 
 def Generacion():
-    st.title("Generación Eléctrica")
-    st.write("La generación eléctrica convierte energía mecánica, térmica o luminosa en electricidad " \
-            "utilizable para consumo doméstico, industrial y comercial.")
+    st.title("Generación")
+    st.write("Definimos la generación como la producción de energía en b.a. (bornes de alternador), " \
+    "menos la consumida por los servicios auxiliares y las pérdidas en los transformadores.")
 
     df_generacion = pd.read_csv('../lib/data/processed/generacion/estructura-generacion-limpio.csv')
     df_generacion['fecha'] = pd.to_datetime(df_generacion['fecha'])
@@ -327,12 +336,14 @@ def Generacion():
                              x='fecha',
                              y='valor',
                              color='tipo',
-                             title="Evolución de energía Renovable vs No renovable en la región peninsular",
+                             title="Generación de energía Renovable vs No renovable en la región peninsular",
                              labels={'fecha': 'Fecha', 'valor': 'kWh', 'tipo': 'Tipo de energía'})
     fig_generacion.update_traces(line=dict(width=1))
     fig_generacion.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
     st.plotly_chart(fig_generacion)
 
+    st.write("Como ya hemos visto en otras gráficas, se puede ver un aumento de la generación de energía renovable. Esto es debido " \
+    "a la inversión privada tanto de empresas como de particulares incentivada por el gobierno.")
 
     grafico_barras = df_generacion.groupby(['año', 'tipo'])['valor'].sum().reset_index()
 
@@ -349,12 +360,22 @@ def Generacion():
     grafico_hist = df_generacion.groupby(['indicador', 'año'])['valor'].sum().reset_index()
 
     fig = px.bar(grafico_hist,
-                x='indicador',
+                x='año',
                 y='valor',
-                color='año',  
-                title='Distribución de generación por tipo de energía y año',
-                barmode='group')
+                color='indicador',  
+                title='Generación por tipo de energía y año',
+                barmode='group',
+                height=600)
     st.plotly_chart(fig)
+
+    st.write("En este grafico podemos ver la evolución de las diferentes fuentes de energía a lo largo de los años. Podemos" \
+    "destacar que, la energía solar fotovoltaica ha aumentado considerablemente pasando de unos 9.200kW a 44.500kW. Tambien se puede " \
+    "destacar que la energía del ciclo combiando aumentó en 2022 (que es el respaldo cuando se necesita energía inmediata)" \
+    " y si nos fijamos en el valor total de la energía gastada en 2022 es mayor. La energía hidráulica, depende mucho de la meteorología, con lo que " \
+    "de acuerdo con eso podemos ver que es muy volátil según años. La energía eólica vemos como ha subido a lo largo de los años al incentivar" \
+    "las inversiones en energías renovables. La energía derivada de la cogeneración, disminuye bruscamente a partir del 2019 por la reducción de " \
+    "la necesidad de calor debido al cambio climático asumiendo el ciclo combinado como fuente de energía sin la producción de calor. La energía derivada" \
+    "de las centrales de carbón aporta cada vez menos debido a las directrices de la Unión Europea.")
   
 def intercambio():
     st.title("Intercambio Internacional")
