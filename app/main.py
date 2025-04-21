@@ -1,6 +1,7 @@
 import streamlit as st
 
 import plotly.express as px
+import plotly.graph_objects as go
 import numpy as np
 import pandas as pd
 import requests
@@ -196,6 +197,81 @@ def Demanda():
                 title="Distribución de los tipos de ire por años",
                 labels={'valor': 'Wh', 'indicador': 'indices'})
     st.plotly_chart(fig)
+
+## Grafico para comparar dos años:
+    st.write("En los siguientes gráficos se puede comparar la demanda de los diferentes años")
+    bloque_años = st.radio("Selecciona el bloque de años:", ["2019–2020", "2020–2021", "2021–2022"])
+
+    if bloque_años == "2019–2020":
+        años = [2019, 2020]
+    elif bloque_años == "2020–2021":
+        años = [2020, 2021]
+    elif bloque_años == "2021–2022":
+        años = [2021, 2022]
+
+    df_comparar = df_demanda[df_demanda['año'].isin(años)]
+
+    estadisticas_por_año = []
+
+    for año in años:
+        valores = df_comparar[df_comparar['año'] == año]['valor']
+        stats = valores.describe()
+        media = stats['mean']
+        mediana = valores.median()
+        minimo = stats['min']
+        maximo = stats['max']
+
+        estadisticas_por_año.append({
+            'año': año,
+            'media': media,
+            'mediana': mediana,
+            'min': minimo,
+            'max': maximo,
+        })
+
+    df_estadisticas = pd.DataFrame(estadisticas_por_año)
+    st.dataframe(df_estadisticas)
+
+    df_comparar['indicador_año'] = df_comparar['indicador'] + ' ' + df_comparar['año'].astype(str)
+
+    fig = px.line(df_comparar,
+                x='fecha',
+                y='valor',
+                color='indicador_año',
+                title="Evolución de demanda en la región peninsular",
+                labels={'fecha': 'Fecha', 'valor': 'Wh', 'indicador_año': 'Indicador por año'})
+
+    fig = go.Figure(fig)
+    colors = {
+        'media': 'blue',
+        'mediana': 'green',
+        'min': 'red',
+        'max': 'orange'
+    }
+    line_styles = {
+        'media': 'solid',
+        'mediana': 'dash',
+        'min': 'dot',
+        'max': 'dashdot'
+    }
+
+    for estadisticas in estadisticas_por_año:
+        año = estadisticas['año']
+        for tipo in ['media', 'mediana', 'min', 'max']:
+            fig.add_hline(y=estadisticas[tipo],
+                        line=dict(color=colors[tipo], dash=line_styles[tipo], width=1),
+                        annotation_text=f"{tipo.capitalize()} {año}",
+                        annotation_position="top left")
+
+    fig.update_layout(
+        xaxis_title='Fecha',
+        xaxis_tickformat='%b %Y',
+        legend_title='Indicador por año'
+    )
+    fig.update_traces(line=dict(width=1))
+    st.plotly_chart(fig)
+
+
 
 def Generacion():
     st.title("Generación Eléctrica")
