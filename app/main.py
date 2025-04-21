@@ -89,43 +89,33 @@ def Balance():
 
     seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Año específico"])
 
+    # Gráfico de líneas filtrado
     if seleccion == "Últimos días":
         dias = st.selectbox("Selecciona el rango de días:", [7, 14, 30])
         fecha_max = df_balance['fecha'].max()
         fecha_min = fecha_max - pd.Timedelta(days=dias)
         df_filtrado = df_balance[df_balance['fecha'] >= fecha_min]
-
-        titulo = f"Producción de energía - Últimos {dias} días"
+        titulo = f"Evolución de balance - Últimos {dias} días"
+        tickformat = '%d %b'
     else:
         año = st.selectbox("Selecciona el año:", sorted(df_balance['año'].unique()))
         df_filtrado = df_balance[df_balance['año'] == año]
-        titulo = f"Balance energético - Año {año}"
+        titulo = f"Evolución de balance - Año {año}"
+        tickformat = '%b %Y'
 
-    # Gráfico de líneas filtrado
     grafico_lineas = df_filtrado.groupby(['fecha', 'energia'])['valor'].sum().reset_index()
     fig = px.line(grafico_lineas,
-                  x='fecha',
-                  y='valor',
-                  color='energia',
-                  title=titulo,
-                  labels={'fecha': 'Fecha', 'valor': 'kWh'})
+                x='fecha',
+                y='valor',
+                color='energia',
+                title="Balance energético en España",
+                labels={'fecha': 'Fecha', 'valor': 'Wh', 'energia': 'Tipo de energía'})
     fig.update_traces(line=dict(width=1))
-    fig.update_layout(xaxis_title='Fecha', xaxis_tickformat='%d %b')
+    fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
     st.plotly_chart(fig)
-
-    # Gráfico de barras por año (sin filtro)
-    grafico_barras = df_balance.groupby(['año', 'tipo'])['valor'].sum().reset_index()
-    fig = px.bar(grafico_barras,
-                 x='año',
-                 y='valor',
-                 color='tipo',
-                 title="Distribución de la producción de energía por años",
-                 labels={'valor': 'kWh', 'año': 'Año'},
-                 hover_data={'valor': ':.2f'},
-                 barmode='stack')
-    fig.update_layout(height=700)
-    st.plotly_chart(fig)
-
+    st.write("En esta grafica se observa que la energía almacenada es la que menos watios por hora aporta. Tambien podemos observar" \
+    "que desde el 2019 al 2024 la energía producida por las fuentes renovables va en aumento. Admemás se puede ver que hay como un " \
+    "equilibrio entre fuentes renovables y no renovables para poder hacer frente a la demanda eléctrica.")
 
 def Demanda():
     st.title("Demanda Eléctrica")
@@ -142,51 +132,80 @@ def Demanda():
     seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Año específico"])
 
     if seleccion == "Últimos días":
-        dias = st.selectbox("Selecciona el rango de días:", [7, 14, 30])
+        dias = st.selectbox("Selecciona el rango de días:", [7, 14, 30], key="select_dias")
         fecha_max = df_demanda['fecha'].max()
         fecha_min = fecha_max - pd.Timedelta(days=dias)
         df_filtrado = df_demanda[df_demanda['fecha'] >= fecha_min]
-
         titulo = f"Evolución de demanda - Últimos {dias} días"
+        tickformat = '%d %b'
     else:
-        año = st.selectbox("Selecciona el año:", sorted(df_demanda['año'].unique()))
+        año = st.selectbox("Selecciona el año:", sorted(df_demanda['año'].unique()), key="select_año")
         df_filtrado = df_demanda[df_demanda['año'] == año]
         titulo = f"Evolución de demanda - Año {año}"
+        tickformat = '%b %Y'
 
-    # Gráfico de líneas filtrado
+    
     grafico_lineas = df_filtrado.groupby(['fecha', 'indicador'])['valor'].sum().reset_index()
     fig = px.line(grafico_lineas,
-                  x='fecha',
-                  y='valor',
-                  color='indicador',
-                  title="Evolución de demanda en la región peninsular",
-                  labels={'fecha': 'Fecha', 'valor': 'Wh', 'indicador': 'Tipo de energía'})
+                x='fecha',
+                y='valor',
+                color='indicador',
+                title="Evolución de demanda en la región peninsular",
+                labels={'fecha': 'Fecha', 'valor': 'Wh', 'indicador': 'Tipo de energía'})
     fig.update_traces(line=dict(width=1))
-    fig.update_layout(xaxis_title='Fecha', xaxis_tickformat='%b %Y')
+    fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
     st.plotly_chart(fig)
-
-    st.write("*Índice de Red Eléctrica (IRE)* es el indicador eléctrico adelantado que recoge la evolución " \
-            " del consumo de energía eléctrica de las empresas que tienen un consumo de energía eléctrica " \
-            " de tamaño medio/alto (potencia contratada superior a 450 kW). ")
+    st.write("En esta grafica se observa que la demanda energética sigue unos patrones mas o menos estables a lo largo" \
+    "de los años, los meses donde más aumnenta son los de enero y los de julio, coincidiendo con las épocas mas frias y mas calurosas" \
+    "de la península.")
+    
+    st.write("**Gráficas teniendo en cuenta el Índice de Red Eléctrica (IRE)**")
     
     filtro = df_ire['indicador'].isin(['Índice general corregido', 'Índice industria corregido', 'Índice servicios corregido'])
     df_filtrado = df_ire[filtro]
 
     df_agrupado = df_filtrado.groupby(['año', 'indicador'])['valor'].sum().reset_index()
 
+     # Gráfico de líneas
+    
+    año = st.selectbox("Selecciona el año:", sorted(df_demanda['año'].unique()), key="select_año2")
+    df_filtrado = df_demanda[df_demanda['año'] == año]
+    titulo = f"Evolución de demanda - Año {año}"
+    tickformat = '%b %Y'
 
+    # 🔧 Filtramos df_ire por el año seleccionado
+    df_ire_filtrado = df_ire[df_ire['año'] == año]
 
-    grafico_lineas = df_ire.groupby(['fecha', 'indicador'])['valor'].sum().reset_index()
+    grafico_lineas = df_ire_filtrado.groupby(['fecha', 'indicador'])['valor'].sum().reset_index()
+
     fig = px.line(grafico_lineas,
                 x='fecha',
                 y='valor',
                 color='indicador',
                 title="Evolución de ire de demanda en la región peninsular",
-                labels={'fecha': 'Fecha', 'energia': 'Wh', 'tipo energia': 'Tipo de energía'})
+                labels={'fecha': 'Fecha', 'valor': 'Wh', 'indicador': 'Tipo de energía'})  # Arreglado también 'labels'
     fig.update_traces(line=dict(width=1))
-    fig.update_layout(xaxis_title='Fecha', xaxis_tickformat='%b %Y')
+    fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
     st.plotly_chart(fig)
 
+    st.write("El IRE es el indicador eléctrico adelantado que recoge la evolución " \
+            " del consumo de energía eléctrica de las empresas que tienen un consumo de energía eléctrica " \
+            " de tamaño medio/alto (potencia contratada superior a 450 kW). Al revisar los valores del IRE tenemos que tener en " \
+            "cuenta algunos conceptos clave:\n"
+            "- **Ire**: Es el índice tal cual se calcula a partir de los datos reales de consumo eléctrico, sin ningún tipo de ajuste. " \
+            " Es decir, refleja la evolución bruta de la demanda eléctrica respecto al mismo mes del año anterior y puede estar afectado por " \
+            "factores externos como el tiempo o las festividades.\n"
+            "- **Ire Corregido**: Se ajustan los valores para eliminar los efectos de las festividades (si un mes tiene mas fines de semana o feriados)" \
+            "y la temperatura para realizar comparaciones mas justas entre periodos.\n")
+    st.write("Por otra parte, tenemos tres tipos de IRE:\n" \
+        "- **Ire General**: Es el índice que representa la evolución total de la demanda eléctrica nacional (en España) para una determinada fecha o periodo," \
+        " comparado con el mismo periodo del año anterior. Incluye todos los sectores: industrial, servicios y doméstico. \n" \
+        "- **Ire Industria**: Este mide específicamente la demanda eléctrica de la industria. Es un buen indicador de la actividad industrial del país, " \
+        "ya que si las fábricas consumen más electricidad, suele ser porque están produciendo más.\n" \
+        "- **Ire Servicios**: Refleja el consumo eléctrico del sector servicios (oficinas, comercios, hoteles, hospitales, etc.). Puede estar influenciado " \
+        "por la actividad económica y también por factores estacionales como el turismo o el clima.")
+    st.write("En la grafica podemos observar que el IRE Servicios despunta en Julio haciendo aumentar el IRE General y el IRE Industria es el que más bajo está " \
+    "en agosto, cuadrando con el periodo vacacional. Además, a partir de marzo de 2020 todos los valores se desploman debido a la pandemia.")
 
     grafico_barras = df_agrupado.groupby(['año', 'indicador'])['valor'].sum().reset_index()
 
@@ -284,19 +303,22 @@ def Generacion():
 
     seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Año específico"])
 
+    
+
+    # Gráfico de energía renovable vs no renovable
     if seleccion == "Últimos días":
-        dias = st.selectbox("Selecciona el rango de días:", [7, 14, 30])
+        dias = st.selectbox("Selecciona el rango de días:", [7, 14, 30], key="select_dias")
         fecha_max = df_generacion['fecha'].max()
         fecha_min = fecha_max - pd.Timedelta(days=dias)
         df_filtrado = df_generacion[df_generacion['fecha'] >= fecha_min]
-
-        titulo = f"Evolución de generación - Últimos {dias} días"
+        titulo = f"Evolución de la generación de energía - Últimos {dias} días"
+        tickformat = '%d %b'
     else:
-        año = st.selectbox("Selecciona el año:", sorted(df_generacion['año'].unique()))
+        año = st.selectbox("Selecciona el año:", sorted(df_generacion['año'].unique()), key="select_año")
         df_filtrado = df_generacion[df_generacion['año'] == año]
-        titulo = f"Evolución de generación - Año {año}"
+        titulo = f"Evolución de la generación de energía - Año {año}"
+        tickformat = '%b %Y'
 
-    # Gráfico de energía renovable vs no renovable
     grafico_lineas_generacion = df_filtrado.groupby(['fecha', 'tipo'])['valor'].sum().reset_index()
     fig_generacion = px.line(grafico_lineas_generacion,
                              x='fecha',
@@ -305,7 +327,7 @@ def Generacion():
                              title="Evolución de energía Renovable vs No renovable en la región peninsular",
                              labels={'fecha': 'Fecha', 'valor': 'kWh', 'tipo': 'Tipo de energía'})
     fig_generacion.update_traces(line=dict(width=1))
-    fig_generacion.update_layout(xaxis_title='Fecha', xaxis_tickformat='%b %Y')
+    fig_generacion.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
     st.plotly_chart(fig_generacion)
 
 
@@ -344,13 +366,17 @@ def intercambio():
     seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Año específico"])
 
     if seleccion == "Últimos días":
-        dias = st.selectbox("Selecciona el rango de días:", [7, 14, 30])
+        dias = st.selectbox("Selecciona el rango de días:", [7, 14, 30], key="select_dias")
         fecha_max = df_intercambio['fecha'].max()
         fecha_min = fecha_max - pd.Timedelta(days=dias)
         df_filtrado = df_intercambio[df_intercambio['fecha'] >= fecha_min]
+        titulo = f"Evolución de la generación de energía - Últimos {dias} días"
+        tickformat = '%d %b'
     else:
-        año = st.selectbox("Selecciona el año:", sorted(df_intercambio['año'].unique()))
+        año = st.selectbox("Selecciona el año:", sorted(df_intercambio['año'].unique()), key="select_año")
         df_filtrado = df_intercambio[df_intercambio['año'] == año]
+        titulo = f"Evolución de la generación de energía - Año {año}"
+        tickformat = '%b %Y'
 
     # Gráfico de líneas por país
     grafico_lineas = df_filtrado.groupby(['fecha', 'pais'])['valor'].sum().reset_index()
@@ -361,7 +387,7 @@ def intercambio():
                   title="Evolución de la exportación de energía por país",
                   labels={'fecha': 'Fecha', 'valor': 'kWh', 'pais': 'País'})
     fig.update_traces(line=dict(width=1))
-    fig.update_layout(xaxis_title='Fecha', xaxis_tickformat='%b %Y')
+    fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
     st.plotly_chart(fig)
 
     grafico_barras = df_intercambio.groupby(['año', 'pais'])['valor'].sum().reset_index()
