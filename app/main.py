@@ -109,13 +109,44 @@ def Balance():
                 y='valor',
                 color='energia',
                 title="Balance energético en España",
-                labels={'fecha': 'Fecha', 'valor': 'KWh', 'energia': 'Tipo de energía'})
+                labels={'fecha': 'Fecha', 'valor': 'kWh', 'energia': 'Tipo de energía'})
     fig.update_traces(line=dict(width=1))
     fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
     st.plotly_chart(fig)
     st.write("En esta grafica se observa que la energía almacenada es la que menos watios por hora aporta. Tambien podemos observar" \
     "que desde el 2019 al 2024 la energía producida por las fuentes renovables va en aumento. Admemás se puede ver que hay como un " \
     "equilibrio entre fuentes renovables y no renovables para poder hacer frente a la demanda eléctrica.")
+
+    
+    año = st.selectbox("Selecciona el año:", sorted(df_balance['año'].unique()), key="select_año")
+    df_filtrado = df_balance[df_balance['año'] == año]
+    titulo = f"Evolución de demanda - Año {año}"
+    tickformat = '%b %Y'
+
+    q1 = df_filtrado['valor'].quantile(0.25)
+    q3 = df_filtrado['valor'].quantile(0.75)
+    iqr = q3 - q1
+    valla_inferior = q1 - 1.5 * iqr
+    valla_superior = q3 + 1.5 * iqr
+
+    fig_hist = px.histogram(df_filtrado, 
+                            x='valor',                         
+                            title="Histograma de consumo de electicidad del año {}".format(año),
+                            labels={'valor': 'Demanda diaria (kWh)'})
+
+    
+    fig_hist.add_vline(x=valla_inferior, line_dash="dash", line_color="red",
+                    annotation_text="Límite inferior", annotation_position="top left")
+    fig_hist.add_vline(x=valla_superior, line_dash="dash", line_color="red",
+                    annotation_text="Límite superior", annotation_position="top right")
+    
+    st.plotly_chart(fig_hist)
+
+    st.write("Aquí podemos ver un histograma del consumo anual de electricidad, donde se marcan los límites de la valla de Tukey. "
+         "Es importante señalar que en este caso, los límites no se utilizan únicamente para identificar valores atípicos de manera estricta  "
+         "sino para resaltar patrones recurrentes de consumo a lo largo de los años. Los valores fuera de estos límites nos ayudan a entender" \
+         " cómo se distribuye el consumo en un rango habitual, permitiéndonos detectar comportamientos cíclicos o estacionales dentro del consumo de electricidad.") 
+
 
 def Demanda():
     st.title("Demanda Eléctrica")
@@ -151,7 +182,7 @@ def Demanda():
                 y='valor',
                 color='indicador',
                 title="Evolución de demanda en la región peninsular",
-                labels={'fecha': 'Fecha', 'valor': 'Wh', 'indicador': 'Tipo de energía'})
+                labels={'fecha': 'Fecha', 'valor': 'kWh', 'indicador': 'Tipo de energía'})
     fig.update_traces(line=dict(width=1))
     fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
     st.plotly_chart(fig)
@@ -173,7 +204,6 @@ def Demanda():
     titulo = f"Evolución de demanda - Año {año}"
     tickformat = '%b %Y'
 
-    # 🔧 Filtramos df_ire por el año seleccionado
     df_ire_filtrado = df_ire[df_ire['año'] == año]
 
     grafico_lineas = df_ire_filtrado.groupby(['fecha', 'indicador'])['valor'].sum().reset_index()
@@ -183,7 +213,7 @@ def Demanda():
                 y='valor',
                 color='indicador',
                 title="Evolución de ire de demanda en la región peninsular",
-                labels={'fecha': 'Fecha', 'valor': 'Wh', 'indicador': 'Tipo de energía'})
+                labels={'fecha': 'Fecha', 'valor': 'kWh', 'indicador': 'Tipo de energía'})
     fig.update_traces(line=dict(width=1))
     fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
     st.plotly_chart(fig)
@@ -214,25 +244,22 @@ def Demanda():
                 y='valor',
                 color='indicador',
                 title="Distribución de los tipos de ire por años",
-                labels={'valor': 'Wh', 'indicador': 'indices'})
+                labels={'valor': 'kWh', 'indicador': 'indices'})
     st.plotly_chart(fig)
     st.write("Este gráfico muestra una visión general de los diferentes IRE a lo largo de los años.")
 
-## Grafico para comparar dos años:
+    ## Grafico para comparar dos años:
     st.write("**Comparación de la demanda eléctrica a lo largo de los años**")
 
     años_disponibles = list(range(2019, 2025))
 
     st.title("Comparar dos años")
 
-    # Selección de los dos años a comparar
     año_1 = st.selectbox("Selecciona el primer año:", años_disponibles, key="año1")
     año_2 = st.selectbox("Selecciona el segundo año:", años_disponibles, key="año2")
 
-    # Mostrar la selección
     st.write(f"Comparando los años: {año_1} vs {año_2}")
 
-    # Filtrar los datos para los años seleccionados
     años = [año_1, año_2]
     df_comparar = df_demanda[df_demanda['año'].isin(años)]
 
@@ -261,7 +288,6 @@ def Demanda():
 
     st.dataframe(df_estadisticas)
 
-    # Añadir una columna combinada para el gráfico
     df_comparar['indicador_año'] = df_comparar['indicador'] + ' ' + df_comparar['año'].astype(str)
 
     fig = px.line(df_comparar,
@@ -269,7 +295,7 @@ def Demanda():
                 y='valor',
                 color='indicador_año',
                 title="Evolución de demanda en la región peninsular",
-                labels={'fecha': 'Fecha', 'valor': 'Wh', 'indicador_año': 'Indicador por año'})
+                labels={'fecha': 'Fecha', 'valor': 'kWh', 'indicador_año': 'Indicador por año'})
 
     fig = go.Figure(fig)
     colors = {
@@ -301,7 +327,6 @@ def Demanda():
     fig.update_traces(line=dict(width=1))
 
     st.plotly_chart(fig)
-
 
 
 def Generacion():
@@ -352,7 +377,7 @@ def Generacion():
                 y='valor',
                 color='tipo',
                 title="Distribución de tipo de energia por años",
-                labels={'energia': 'kWh', 'tipo': 'Tipo de energía'},
+                labels={'año': 'Año', 'valor': 'kWh'},
                 hover_name='tipo',
                 barmode='stack')
     st.plotly_chart(fig)
@@ -364,6 +389,7 @@ def Generacion():
                 y='valor',
                 color='indicador',  
                 title='Generación por tipo de energía y año',
+                labels={'año': 'Año', 'valor': 'kWh'},
                 barmode='group',
                 height=600)
     st.plotly_chart(fig)
@@ -425,7 +451,7 @@ def intercambio():
                 y='valor',
                 color='pais',
                 title="Exportacion de energia por años",
-                labels={'energia': 'kWh', 'pais': 'pais'},
+                labels={'año': 'Año', 'valor': 'kWh'},
                 hover_name='pais',
                 barmode='stack')
     st.plotly_chart(fig)
@@ -441,7 +467,7 @@ def intercambio():
 
     fig = px.imshow(heatmap_data,
                     title="Exportación de energía por años (Heatmap)",
-                    labels={'x': 'Pais', 'y': 'Año', 'color': 'kWh'},
+                    labels={'x': 'Pais', 'y': 'Año', 'color': 'GWh'},
                     color_continuous_scale='Blues')
     st.plotly_chart(fig)
 
