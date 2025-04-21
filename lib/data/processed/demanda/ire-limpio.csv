@@ -119,6 +119,30 @@ fecha,valor,porcentaje,indicador,region,año
 2023-10-01,90.454,0.4436018011955321,Índice general corregido,peninsular,2023
 2023-11-01,94.639,0.4627954567417177,Índice general corregido,peninsular,2023
 2023-12-01,85.42,0.4653001592059611,Índice general corregido,peninsular,2023
+2024-01-01,108.193,0.5424295598114911,Índice general,peninsular,2024
+2024-02-01,106.003,0.5266863423165593,Índice general,peninsular,2024
+2024-03-01,109.686,0.5384498323572583,Índice general,peninsular,2024
+2024-04-01,111.294,0.5376391874592401,Índice general,peninsular,2024
+2024-05-01,115.517,0.5495706367896477,Índice general,peninsular,2024
+2024-06-01,114.797,0.5464468128656362,Índice general,peninsular,2024
+2024-07-01,120.338,0.5748749576026255,Índice general,peninsular,2024
+2024-08-01,110.306,0.5766638959029291,Índice general,peninsular,2024
+2024-09-01,114.074,0.5443059114311207,Índice general,peninsular,2024
+2024-10-01,117.737,0.5496514988118748,Índice general,peninsular,2024
+2024-11-01,104.607,0.5351015397207018,Índice general,peninsular,2024
+2024-12-01,100.663,0.537617697167791,Índice general,peninsular,2024
+2024-01-01,91.267,0.4497492704136341,Índice general corregido,peninsular,2024
+2024-02-01,95.261,0.4625790222522061,Índice general corregido,peninsular,2024
+2024-03-01,94.021,0.4551055947985081,Índice general corregido,peninsular,2024
+2024-04-01,95.711,0.4492722457848514,Índice general corregido,peninsular,2024
+2024-05-01,94.678,0.4458902617818638,Índice general corregido,peninsular,2024
+2024-06-01,95.282,0.4507375039776693,Índice general corregido,peninsular,2024
+2024-07-01,88.991,0.4205367968981586,Índice general corregido,peninsular,2024
+2024-08-01,80.977,0.4160817183069285,Índice general corregido,peninsular,2024
+2024-09-01,95.503,0.4507487602835089,Índice general corregido,peninsular,2024
+2024-10-01,96.466,0.4413402049119161,Índice general corregido,peninsular,2024
+2024-11-01,90.883,0.4562611755586058,Índice general corregido,peninsular,2024
+2024-12-01,86.576,0.4540751019916929,Índice general corregido,peninsular,2024
 2019-01-01,123.055,0.546495774322626,Índice industria,peninsular,2019
 2019-02-01,114.847,0.5247965417814761,Índice industria,peninsular,2019
 2019-03-01,126.334,0.5507845368420594,Índice industria,peninsular,2019
@@ -239,6 +263,30 @@ fecha,valor,porcentaje,indicador,region,año
 2023-10-01,84.603,0.4407901986554601,Índice industria corregido,peninsular,2023
 2023-11-01,88.234,0.4550827197503332,Índice industria corregido,peninsular,2023
 2023-12-01,75.255,0.4558527372131556,Índice industria corregido,peninsular,2023
+2024-01-01,102.456,0.5508446327379865,Índice industria,peninsular,2024
+2024-02-01,102.663,0.5344665122211522,Índice industria,peninsular,2024
+2024-03-01,105.318,0.5447013188518232,Índice industria,peninsular,2024
+2024-04-01,107.328,0.5415518755108837,Índice industria,peninsular,2024
+2024-05-01,110.079,0.5504280256815408,Índice industria,peninsular,2024
+2024-06-01,107.157,0.5422211652312955,Índice industria,peninsular,2024
+2024-07-01,106.848,0.5617872371748698,Índice industria,peninsular,2024
+2024-08-01,92.459,0.5616578988931952,Índice industria,peninsular,2024
+2024-09-01,106.566,0.5411996526278904,Índice industria,peninsular,2024
+2024-10-01,113.095,0.5521974131996152,Índice industria,peninsular,2024
+2024-11-01,100.052,0.5402813402813403,Índice industria,peninsular,2024
+2024-12-01,91.66,0.5387739747365203,Índice industria,peninsular,2024
+2024-01-01,83.542,0.4401475725662583,Índice industria corregido,peninsular,2024
+2024-02-01,89.422,0.4535813464275078,Índice industria corregido,peninsular,2024
+2024-03-01,88.032,0.4462769218575362,Índice industria corregido,peninsular,2024
+2024-04-01,90.858,0.4390202307942473,Índice industria corregido,peninsular,2024
+2024-05-01,89.909,0.4436000058353173,Índice industria corregido,peninsular,2024
+2024-06-01,90.469,0.4532985057126299,Índice industria corregido,peninsular,2024
+2024-07-01,83.345,0.4288630215111169,Índice industria corregido,peninsular,2024
+2024-08-01,72.159,0.4268228706623249,Índice industria corregido,peninsular,2024
+2024-09-01,90.341,0.4501665827079791,Índice industria corregido,peninsular,2024
+2024-10-01,91.714,0.4328330107182809,Índice industria corregido,peninsular,2024
+2024-11-01,85.133,0.4499610758114637,Índice industria corregido,peninsular,2024
+2024-12-01,78.467,0.4493653678484983,Índice industria corregido,peninsular,2024
 2019-01-01,123.361,0.530452618271571,Índice servicios,peninsular,2019
 2019-02-01,110.564,0.4976728693475932,Índice servicios,peninsular,2019
 2019-03-01,118.72,0.5173435593515774,Índice servicios,peninsular,2019
@@ -359,3 +407,27 @@ fecha,valor,porcentaje,indicador,region,año
 2023-10-01,97.33,0.4504244423594318,Índice servicios corregido,peninsular,2023
 2023-11-01,101.347,0.4818431553343738,Índice servicios corregido,peninsular,2023
 2023-12-01,101.462,0.4780130052503611,Índice servicios corregido,peninsular,2023
+2024-01-01,112.454,0.5236897743254445,Índice servicios,peninsular,2024
+2024-02-01,105.257,0.5085788280997086,Índice servicios,peninsular,2024
+2024-03-01,109.564,0.5216588106460982,Índice servicios,peninsular,2024
+2024-04-01,107.853,0.5255968538165019,Índice servicios,peninsular,2024
+2024-05-01,113.002,0.5400618431554347,Índice servicios,peninsular,2024
+2024-06-01,118.052,0.5439081476566964,Índice servicios,peninsular,2024
+2024-07-01,134.291,0.5874496937882765,Índice servicios,peninsular,2024
+2024-08-01,132.15,0.5854572680432923,Índice servicios,peninsular,2024
+2024-09-01,116.96,0.539974053914304,Índice servicios,peninsular,2024
+2024-10-01,116.502,0.5381925356517562,Índice servicios,peninsular,2024
+2024-11-01,104.592,0.5223775490328284,Índice servicios,peninsular,2024
+2024-12-01,111.55,0.5345966203717016,Índice servicios,peninsular,2024
+2024-01-01,102.28,0.4696566111522994,Índice servicios corregido,peninsular,2024
+2024-02-01,101.706,0.4825969282995018,Índice servicios corregido,peninsular,2024
+2024-03-01,100.466,0.4778917293108061,Índice servicios corregido,peninsular,2024
+2024-04-01,97.348,0.4642797672792226,Índice servicios corregido,peninsular,2024
+2024-05-01,96.237,0.4563025233634734,Índice servicios corregido,peninsular,2024
+2024-06-01,98.992,0.4523385990127913,Índice servicios corregido,peninsular,2024
+2024-07-01,94.309,0.4118088689905873,Índice servicios corregido,peninsular,2024
+2024-08-01,93.571,0.4127261306358823,Índice servicios corregido,peninsular,2024
+2024-09-01,99.643,0.4571112453526094,Índice servicios corregido,peninsular,2024
+2024-10-01,99.967,0.4610641472136402,Índice servicios corregido,peninsular,2024
+2024-11-01,95.631,0.4702823375495035,Índice servicios corregido,peninsular,2024
+2024-12-01,97.112,0.4599789374827684,Índice servicios corregido,peninsular,2024
