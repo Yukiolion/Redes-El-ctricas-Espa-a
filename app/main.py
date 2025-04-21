@@ -414,17 +414,25 @@ def intercambio():
     fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
     st.plotly_chart(fig)
 
+    st.write("Las principales interconexiones de España están con Francia, Portugal y, en menor medida, con Marruecos y Andorra. " \
+    "Estas importaciones y exportaciones se realizan principalmente a través de cables submarinos o líneas de alta tensión.")
+
+
     grafico_barras = df_intercambio.groupby(['año', 'pais'])['valor'].sum().reset_index()
 
     fig = px.bar(grafico_barras,
                 x='año',
                 y='valor',
                 color='pais',
-                title="Distribución de la exportacion de energia por años",
+                title="Exportacion de energia por años",
                 labels={'energia': 'kWh', 'pais': 'pais'},
                 hover_name='pais',
                 barmode='stack')
     st.plotly_chart(fig)
+
+    st.write("En este gráfico podemos ver La exportación de electricidad de España entre 2021 y 2022 aumentó significativamente, " \
+    "pasando de 16,5 TWh a 25,4 TWh, lo que representa un incremento del 54%. Esto fué debido a la sequía en Portugal que afectó a su " \
+    "capacidad de generación hidroeléctrica y a un parón de la energía nuclear en Francia debido a averías y problemas de mantenimiento.")
 
     # Grafico heatmap:
     grafico_barras = df_intercambio.groupby(['año', 'pais'])['valor'].sum().reset_index()
@@ -432,10 +440,15 @@ def intercambio():
     heatmap_data = grafico_barras.pivot(index='año', columns='pais', values='valor')
 
     fig = px.imshow(heatmap_data,
-                    title="Distribución de la exportación de energía por años (Heatmap)",
+                    title="Exportación de energía por años (Heatmap)",
                     labels={'x': 'Pais', 'y': 'Año', 'color': 'kWh'},
                     color_continuous_scale='Blues')
     st.plotly_chart(fig)
+
+    st.write("En la gráfica de calor, vemos que las exportaciones a Andorra son bastante estables a lo largo de los años, las de "\
+             "Marruecos aumentan poco a poco progresivamente, mientras que Portugal aumentó de manera brusca. Las exportaciones a Francia son las que " \
+             "no siguen un patrón definido.")
+
 
 st.sidebar.title('Navegación')
 pagina = st.sidebar.radio("", ("Página de Inicio", "Balance", "Demanda", "Generación", "Intercambio"))
