@@ -216,10 +216,11 @@ def Demanda():
                 title="Distribución de los tipos de ire por años",
                 labels={'valor': 'Wh', 'indicador': 'indices'})
     st.plotly_chart(fig)
+    st.write("Este gráfico muestra una visión general de los diferentes IRE a lo largo de los años.")
 
 ## Grafico para comparar dos años:
-    st.write("En los siguientes gráficos se puede comparar la demanda de los diferentes años")
-    bloque_años = st.radio("Selecciona el bloque de años:", ["2019–2020", "2020–2021", "2021–2022"])
+    st.write("**Comparación de la demanda eléctrica a lo largo de los años**")
+    bloque_años = st.radio("Seleccionar el bloque de años:", ["2019–2020", "2020–2021", "2021–2022"])
 
     if bloque_años == "2019–2020":
         años = [2019, 2020]
@@ -249,6 +250,8 @@ def Demanda():
         })
 
     df_estadisticas = pd.DataFrame(estadisticas_por_año)
+    st.write("En esta tabla podemos seleccionar los valores de media, mediana, máximo y mínimo para cada rango de años")
+
     st.dataframe(df_estadisticas)
 
     df_comparar['indicador_año'] = df_comparar['indicador'] + ' ' + df_comparar['año'].astype(str)
