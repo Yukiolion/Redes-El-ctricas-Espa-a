@@ -11,7 +11,7 @@ import requests
 def main():
     st.title("Proyecto Red Eléctrica España")
 
-    st.image("Red_Eléctrica_de_España_(logo).png", width=600)
+    st.image("images/Red_Eléctrica_de_España_(logo).png", width=600)
 
     st.write("El objetivo principal de este proyecto es extraer, procesar y visualizar datos energéticos de la web de Red Eléctrica de España (REE), " \
     "relacionados con la demanda eléctrica, el balance energético, la generación y los intercambios internacionales de energía. Esto permite visualizar " \
