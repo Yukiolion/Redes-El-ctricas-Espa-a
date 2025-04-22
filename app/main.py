@@ -23,7 +23,7 @@ def main():
     opcion = st.selectbox('Seleccionar los datos:', 
                                    ('Balance', 'Demanda', 'Generación', 'Intercambio'))
     if opcion == 'Balance':
-        st.info("🔄 El **balance energético** representa la diferencia entre la energía generada y la consumida, incluyendo pérdidas y ajustes del sistema.")
+        st.info("🔄 El **balance energético** representa la diferencia entre la energía generada y la consumida.")
     elif opcion == 'Demanda':
         st.info("⚡ La **demanda eléctrica** muestra cuánta energía están consumiendo los usuarios en un momento dado o durante un periodo.")
     elif opcion == 'Generación':
@@ -45,11 +45,9 @@ def main():
             "- Hidroeólica\n"
             "- Solar fotovoltaica\n"
             "- Solar térmica\n"
-            "- Otras renovables\n"
-            "- Residuos renovables\n"
+            "- Otras renovables (biogás, biomasa, hidráulica marina y geotérmica)\n"
             "- Generación renovable\n"
             "- Turbinación bombeo\n"
-            "- Entrega batería"
         )
     elif opcion == 'No renovables':
         st.info(
@@ -71,7 +69,6 @@ def main():
             "⚖️ **Otras categorías**\n\n"
             "Estas no son fuentes de generación directa, pero están presentes en el sistema. Incluyen:\n\n"
             "- Consumo bombeo (se usa para almacenar energía, no genera)\n"
-            "- Demanda en b.c. (baja tensión, no es fuente)\n"
             "- Saldo I. internacionales (intercambios con otros países)\n"
             "- Saldo almacenamiento (puede incluir carga y entrega de baterías)\n"
             "- Carga batería (almacenamiento, no producción directa)"
@@ -83,7 +80,8 @@ def Balance():
     st.write("En este apartado se representa la cantidad total de electricidad generada por todas las fuentes disponibles " \
              "en el sistema eléctrico Español a lo largo de los años.")
     df_balance = pd.read_csv('../lib/data/processed/balance/balance-electrico-limpio.csv')
-    
+
+    st.write("**🔄 Evolución del balance a lo largo de los años**")
     df_balance['fecha'] = pd.to_datetime(df_balance['fecha'])
     df_balance['año'] = df_balance['fecha'].dt.year
 
@@ -108,44 +106,48 @@ def Balance():
                 x='fecha',
                 y='valor',
                 color='energia',
-                title="Balance energético en España",
                 labels={'fecha': 'Fecha', 'valor': 'kWh', 'energia': 'Tipo de energía'})
     fig.update_traces(line=dict(width=1))
     fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
     st.plotly_chart(fig)
-    st.write("En esta grafica se observa que la energía almacenada es la que menos watios por hora aporta. Tambien podemos observar" \
-    "que desde el 2019 al 2024 la energía producida por las fuentes renovables va en aumento. Admemás se puede ver que hay como un " \
-    "equilibrio entre fuentes renovables y no renovables para poder hacer frente a la demanda eléctrica.")
+    st.write("En esta gráfica se observa que la energía almacenada es la que menos watios por hora aporta. Tambien podemos observar " \
+    "que desde el 2019 al 2024 la energía producida por las fuentes renovables va en aumento. Además se puede ver como se " \
+    "equilibra con fuentes no renovables para afrontar la demanda eléctrica.")
 
-    
-    año = st.selectbox("Selecciona el año:", sorted(df_balance['año'].unique()), key="select_año")
+    st.write("**🔄 Histograma del balance de electicidad**")
+   
+    df_balance['fecha'] = pd.to_datetime(df_balance['fecha'])
+    df_balance['año'] = df_balance['fecha'].dt.year
+
+    años_disponibles = sorted(df_balance['año'].unique())
+    año = st.selectbox("Selecciona el año:", años_disponibles, key="select_año")
+
     df_filtrado = df_balance[df_balance['año'] == año]
-    titulo = f"Evolución de demanda - Año {año}"
-    tickformat = '%b %Y'
-
+    
     q1 = df_filtrado['valor'].quantile(0.25)
     q3 = df_filtrado['valor'].quantile(0.75)
     iqr = q3 - q1
     valla_inferior = q1 - 1.5 * iqr
     valla_superior = q3 + 1.5 * iqr
 
+    # Histograma
     fig_hist = px.histogram(df_filtrado, 
                             x='valor',                         
-                            title="Histograma de consumo de electicidad del año {}".format(año),
                             labels={'valor': 'Demanda diaria (kWh)'})
 
-    
     fig_hist.add_vline(x=valla_inferior, line_dash="dash", line_color="red",
                     annotation_text="Límite inferior", annotation_position="top left")
     fig_hist.add_vline(x=valla_superior, line_dash="dash", line_color="red",
                     annotation_text="Límite superior", annotation_position="top right")
-    
+
     st.plotly_chart(fig_hist)
 
-    st.write("Aquí podemos ver un histograma del consumo anual de electricidad, donde se marcan los límites de la valla de Tukey. "
+    st.write("Aquí podemos ver un histograma de la generación acumulada anual de electricidad, donde se marcan los límites de la valla de Tukey. "
+         "Se puede ver que hay un grupo importante de tecnologias de generación que aportan muy poca energía al sistema durante largos periodos de tiempo. " \
+         "Además se pueden apreciar algunos que consumen energía. " \
          "Es importante señalar que en este caso, los límites no se utilizan únicamente para identificar valores atípicos de manera estricta  "
-         "sino para resaltar patrones recurrentes de consumo a lo largo de los años. Los valores fuera de estos límites nos ayudan a entender" \
-         " cómo se distribuye el consumo en un rango habitual, permitiéndonos detectar comportamientos cíclicos o estacionales dentro del consumo de electricidad.") 
+         "sino para resaltar picos recurrentes de consumo a lo largo de los años. Los valores fuera de estos límites nos ayudan a entender" \
+         " cómo se distribuye el consumo en un rango habitual, permitiéndonos detectar sobresaturaciones de la red eléctrica.") 
 
 
 def Demanda():
@@ -158,6 +160,8 @@ def Demanda():
     df_ire = pd.read_csv('../lib/data/processed/demanda/ire-limpio.csv')
     df_demanda['fecha'] = pd.to_datetime(df_demanda['fecha'])
     df_demanda['año'] = df_demanda['fecha'].dt.year
+
+    st.write("**⚡Evolución de demanda en la región peninsular**")
 
     # Selección del tipo de visualización
     seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Año específico"])
@@ -181,7 +185,6 @@ def Demanda():
                 x='fecha',
                 y='valor',
                 color='indicador',
-                title="Evolución de demanda en la región peninsular",
                 labels={'fecha': 'Fecha', 'valor': 'kWh', 'indicador': 'Tipo de energía'})
     fig.update_traces(line=dict(width=1))
     fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
@@ -190,7 +193,24 @@ def Demanda():
     "de los años, los meses donde más aumnenta son los de enero y los de julio, coincidiendo con las épocas mas frias y mas calurosas" \
     "de la península.")
     
-    st.write("**Gráficas teniendo en cuenta el Índice de Red Eléctrica (IRE)**")
+    st.write("**⚡Índice de Red Eléctrica (IRE)**")
+    
+    st.write("El IRE es el indicador eléctrico adelantado que recoge la evolución " \
+            " del consumo de energía eléctrica de las empresas que tienen un consumo de energía eléctrica " \
+            " de tamaño medio/alto (potencia contratada superior a 450 kW). Al revisar los valores del IRE tenemos que tener en " \
+            "cuenta algunos conceptos clave:\n"
+            "- **Ire**: Es el índice tal cual se calcula a partir de los datos reales de consumo eléctrico, sin ningún tipo de ajuste. " \
+            " Es decir, refleja la evolución bruta de la demanda eléctrica respecto al mismo mes del año anterior y puede estar afectado por " \
+            "factores externos como el tiempo o las festividades.\n"
+            "- **Ire Corregido**: Se ajustan los valores para eliminar los efectos de las festividades (si un mes tiene mas fines de semana o feriados)" \
+            "y la temperatura para realizar comparaciones mas justas entre periodos.\n")
+    st.write("Por otra parte, tenemos tres tipos de IRE:\n" \
+        "- **Ire General**: Es el índice que representa la evolución total de la demanda eléctrica nacional (en España) para una determinada fecha o periodo," \
+        " comparado con el mismo periodo del año anterior. Incluye todos los sectores: industrial, servicios y doméstico. \n" \
+        "- **Ire Industria**: Este mide específicamente la demanda eléctrica de la industria. Es un buen indicador de la actividad industrial del país, " \
+        "ya que si las fábricas consumen más electricidad, suele ser porque están produciendo más.\n" \
+        "- **Ire Servicios**: Refleja el consumo eléctrico del sector servicios (oficinas, comercios, hoteles, hospitales, etc.). Puede estar influenciado " \
+        "por la actividad económica y también por factores estacionales como el turismo o el clima.")
     
     filtro = df_ire['indicador'].isin(['Índice general corregido', 'Índice industria corregido', 'Índice servicios corregido'])
     df_filtrado = df_ire[filtro]
@@ -218,22 +238,6 @@ def Demanda():
     fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
     st.plotly_chart(fig)
 
-    st.write("El IRE es el indicador eléctrico adelantado que recoge la evolución " \
-            " del consumo de energía eléctrica de las empresas que tienen un consumo de energía eléctrica " \
-            " de tamaño medio/alto (potencia contratada superior a 450 kW). Al revisar los valores del IRE tenemos que tener en " \
-            "cuenta algunos conceptos clave:\n"
-            "- **Ire**: Es el índice tal cual se calcula a partir de los datos reales de consumo eléctrico, sin ningún tipo de ajuste. " \
-            " Es decir, refleja la evolución bruta de la demanda eléctrica respecto al mismo mes del año anterior y puede estar afectado por " \
-            "factores externos como el tiempo o las festividades.\n"
-            "- **Ire Corregido**: Se ajustan los valores para eliminar los efectos de las festividades (si un mes tiene mas fines de semana o feriados)" \
-            "y la temperatura para realizar comparaciones mas justas entre periodos.\n")
-    st.write("Por otra parte, tenemos tres tipos de IRE:\n" \
-        "- **Ire General**: Es el índice que representa la evolución total de la demanda eléctrica nacional (en España) para una determinada fecha o periodo," \
-        " comparado con el mismo periodo del año anterior. Incluye todos los sectores: industrial, servicios y doméstico. \n" \
-        "- **Ire Industria**: Este mide específicamente la demanda eléctrica de la industria. Es un buen indicador de la actividad industrial del país, " \
-        "ya que si las fábricas consumen más electricidad, suele ser porque están produciendo más.\n" \
-        "- **Ire Servicios**: Refleja el consumo eléctrico del sector servicios (oficinas, comercios, hoteles, hospitales, etc.). Puede estar influenciado " \
-        "por la actividad económica y también por factores estacionales como el turismo o el clima.")
     st.write("En la grafica podemos observar que el IRE Servicios despunta en Julio haciendo aumentar el IRE General y el IRE Industria es el que más bajo está " \
     "en agosto, cuadrando con el periodo vacacional. Además, a partir de marzo de 2020 todos los valores se desploman debido a la pandemia.")
 
@@ -249,11 +253,9 @@ def Demanda():
     st.write("Este gráfico muestra una visión general de los diferentes IRE a lo largo de los años.")
 
     ## Grafico para comparar dos años:
-    st.write("**Comparación de la demanda eléctrica a lo largo de los años**")
+    st.write("**⚡ Comparación de la demanda eléctrica a lo largo de los años**")
 
     años_disponibles = list(range(2019, 2025))
-
-    st.title("Comparar dos años")
 
     año_1 = st.selectbox("Selecciona el primer año:", años_disponibles, key="año1")
     año_2 = st.selectbox("Selecciona el segundo año:", años_disponibles, key="año2")
@@ -333,27 +335,24 @@ def Generacion():
     st.title("Generación")
     st.write("Definimos la generación como la producción de energía en b.a. (bornes de alternador), " \
     "menos la consumida por los servicios auxiliares y las pérdidas en los transformadores.")
-
+    
+    st.write("**⚙️ Generación de energía Renovable vs No renovable en la región peninsular**")
     df_generacion = pd.read_csv('../lib/data/processed/generacion/estructura-generacion-limpio.csv')
     df_generacion['fecha'] = pd.to_datetime(df_generacion['fecha'])
     df_generacion['año'] = df_generacion['fecha'].dt.year
 
     seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Año específico"])
 
-    
-
-    # Gráfico de energía renovable vs no renovable
+     # Gráfico de energía renovable vs no renovable
     if seleccion == "Últimos días":
         dias = st.selectbox("Selecciona el rango de días:", [7, 14, 30], key="select_dias")
         fecha_max = df_generacion['fecha'].max()
         fecha_min = fecha_max - pd.Timedelta(days=dias)
         df_filtrado = df_generacion[df_generacion['fecha'] >= fecha_min]
-        titulo = f"Evolución de la generación de energía - Últimos {dias} días"
         tickformat = '%d %b'
     else:
         año = st.selectbox("Selecciona el año:", sorted(df_generacion['año'].unique()), key="select_año")
         df_filtrado = df_generacion[df_generacion['año'] == año]
-        titulo = f"Evolución de la generación de energía - Año {año}"
         tickformat = '%b %Y'
 
     grafico_lineas_generacion = df_filtrado.groupby(['fecha', 'tipo'])['valor'].sum().reset_index()
@@ -361,7 +360,6 @@ def Generacion():
                              x='fecha',
                              y='valor',
                              color='tipo',
-                             title="Generación de energía Renovable vs No renovable en la región peninsular",
                              labels={'fecha': 'Fecha', 'valor': 'kWh', 'tipo': 'Tipo de energía'})
     fig_generacion.update_traces(line=dict(width=1))
     fig_generacion.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
@@ -369,34 +367,32 @@ def Generacion():
 
     st.write("Como ya hemos visto en otras gráficas, se puede ver un aumento de la generación de energía renovable. Esto es debido " \
     "a la inversión privada tanto de empresas como de particulares incentivada por el gobierno.")
-
+    st.write("**⚙️ Distribución de tipo de energia por años**")
     grafico_barras = df_generacion.groupby(['año', 'tipo'])['valor'].sum().reset_index()
 
     fig = px.bar(grafico_barras,
                 x='año',
                 y='valor',
                 color='tipo',
-                title="Distribución de tipo de energia por años",
                 labels={'año': 'Año', 'valor': 'kWh'},
                 hover_name='tipo',
                 barmode='stack')
     st.plotly_chart(fig)
-
+    st.write("**⚙️ Generación por tipo de energía y años**")
     grafico_hist = df_generacion.groupby(['indicador', 'año'])['valor'].sum().reset_index()
 
     fig = px.bar(grafico_hist,
                 x='año',
                 y='valor',
                 color='indicador',  
-                title='Generación por tipo de energía y año',
                 labels={'año': 'Año', 'valor': 'kWh'},
                 barmode='group',
                 height=600)
     st.plotly_chart(fig)
 
-    st.write("En este grafico podemos ver la evolución de las diferentes fuentes de energía a lo largo de los años. Podemos" \
+    st.write("En este gráfico podemos ver la evolución de las diferentes fuentes de energía a lo largo de los años. Podemos" \
     "destacar que, la energía solar fotovoltaica ha aumentado considerablemente pasando de unos 9.200kW a 44.500kW. Tambien se puede " \
-    "destacar que la energía del ciclo combiando aumentó en 2022 (que es el respaldo cuando se necesita energía inmediata)" \
+    "destacar que la energía del ciclo combiando (que es el respaldo cuando se necesita energía inmediata) aumentó en 2022 " \
     " y si nos fijamos en el valor total de la energía gastada en 2022 es mayor. La energía hidráulica, depende mucho de la meteorología, con lo que " \
     "de acuerdo con eso podemos ver que es muy volátil según años. La energía eólica vemos como ha subido a lo largo de los años al incentivar" \
     "las inversiones en energías renovables. La energía derivada de la cogeneración, disminuye bruscamente a partir del 2019 por la reducción de " \
@@ -412,7 +408,7 @@ def intercambio():
     df_intercambio = pd.read_csv('../lib/data/processed/intercambio/fronteras-limpio.csv')
     df_intercambio['fecha'] = pd.to_datetime(df_intercambio['fecha'])
     df_intercambio['año'] = df_intercambio['fecha'].dt.year
-
+    st.write("**🌍 Evolución de la exportación de energía por país**")
     seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Año específico"])
 
     if seleccion == "Últimos días":
@@ -420,12 +416,10 @@ def intercambio():
         fecha_max = df_intercambio['fecha'].max()
         fecha_min = fecha_max - pd.Timedelta(days=dias)
         df_filtrado = df_intercambio[df_intercambio['fecha'] >= fecha_min]
-        titulo = f"Evolución de la generación de energía - Últimos {dias} días"
         tickformat = '%d %b'
     else:
         año = st.selectbox("Selecciona el año:", sorted(df_intercambio['año'].unique()), key="select_año")
         df_filtrado = df_intercambio[df_intercambio['año'] == año]
-        titulo = f"Evolución de la generación de energía - Año {año}"
         tickformat = '%b %Y'
 
     # Gráfico de líneas por país
@@ -434,7 +428,6 @@ def intercambio():
                   x='fecha',
                   y='valor',
                   color='pais',
-                  title="Evolución de la exportación de energía por país",
                   labels={'fecha': 'Fecha', 'valor': 'kWh', 'pais': 'País'})
     fig.update_traces(line=dict(width=1))
     fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
@@ -443,14 +436,13 @@ def intercambio():
     st.write("Las principales interconexiones de España están con Francia, Portugal y, en menor medida, con Marruecos y Andorra. " \
     "Estas importaciones y exportaciones se realizan principalmente a través de cables submarinos o líneas de alta tensión.")
 
-
+    st.write("**🌍 Exportacion de energia por años**")
     grafico_barras = df_intercambio.groupby(['año', 'pais'])['valor'].sum().reset_index()
 
     fig = px.bar(grafico_barras,
                 x='año',
                 y='valor',
                 color='pais',
-                title="Exportacion de energia por años",
                 labels={'año': 'Año', 'valor': 'kWh'},
                 hover_name='pais',
                 barmode='stack')
@@ -462,11 +454,10 @@ def intercambio():
 
     # Grafico heatmap:
     grafico_barras = df_intercambio.groupby(['año', 'pais'])['valor'].sum().reset_index()
-
+    st.write("**🌍 Exportacion de energia por años (Heatmap)**")
     heatmap_data = grafico_barras.pivot(index='año', columns='pais', values='valor')
 
     fig = px.imshow(heatmap_data,
-                    title="Exportación de energía por años (Heatmap)",
                     labels={'x': 'Pais', 'y': 'Año', 'color': 'GWh'},
                     color_continuous_scale='Blues')
     st.plotly_chart(fig)
