@@ -387,7 +387,7 @@ def Generacion():
 
     st.write("En este gráfico podemos ver la evolución de las diferentes fuentes de energía a lo largo de los años. Podemos" \
     "destacar que, la energía solar fotovoltaica ha aumentado considerablemente pasando de unos 9.200kW a 44.500kW. Tambien se puede " \
-    "destacar que la energía del ciclo combiando (que es el respaldo cuando se necesita energía inmediata) aumentó en 2022 " \
+    "destacar que la energía del ciclo combinado (que es el respaldo cuando se necesita energía inmediata) aumentó en 2022 " \
     " y si nos fijamos en el valor total de la energía gastada en 2022 es mayor. La energía hidráulica, depende mucho de la meteorología, con lo que " \
     "de acuerdo con eso podemos ver que es muy volátil según años. La energía eólica vemos como ha subido a lo largo de los años al incentivar" \
     "las inversiones en energías renovables. La energía derivada de la cogeneración, disminuye bruscamente a partir del 2019 por la reducción de " \
