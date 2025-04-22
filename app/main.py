@@ -93,12 +93,10 @@ def Balance():
         fecha_max = df_balance['fecha'].max()
         fecha_min = fecha_max - pd.Timedelta(days=dias)
         df_filtrado = df_balance[df_balance['fecha'] >= fecha_min]
-        titulo = f"Evolución de balance - Últimos {dias} días"
         tickformat = '%d %b'
     else:
         año = st.selectbox("Selecciona el año:", sorted(df_balance['año'].unique()))
         df_filtrado = df_balance[df_balance['año'] == año]
-        titulo = f"Evolución de balance - Año {año}"
         tickformat = '%b %Y'
 
     grafico_lineas = df_filtrado.groupby(['fecha', 'energia'])['valor'].sum().reset_index()
@@ -171,12 +169,10 @@ def Demanda():
         fecha_max = df_demanda['fecha'].max()
         fecha_min = fecha_max - pd.Timedelta(days=dias)
         df_filtrado = df_demanda[df_demanda['fecha'] >= fecha_min]
-        titulo = f"Evolución de demanda - Últimos {dias} días"
         tickformat = '%d %b'
     else:
         año = st.selectbox("Selecciona el año:", sorted(df_demanda['año'].unique()), key="select_año")
         df_filtrado = df_demanda[df_demanda['año'] == año]
-        titulo = f"Evolución de demanda - Año {año}"
         tickformat = '%b %Y'
 
     
@@ -221,7 +217,6 @@ def Demanda():
     
     año = st.selectbox("Selecciona el año:", sorted(df_demanda['año'].unique()), key="select_año2")
     df_filtrado = df_demanda[df_demanda['año'] == año]
-    titulo = f"Evolución de demanda - Año {año}"
     tickformat = '%b %Y'
 
     df_ire_filtrado = df_ire[df_ire['año'] == año]
