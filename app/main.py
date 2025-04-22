@@ -460,10 +460,67 @@ def intercambio():
     st.write("En la gráfica de calor, vemos que las exportaciones a Andorra son bastante estables a lo largo de los años, las de "\
              "Marruecos aumentan poco a poco progresivamente, mientras que Portugal aumentó de manera brusca. Las exportaciones a Francia son las que " \
              "no siguen un patrón definido.")
+    
+    # Mapa coropletico con selección por año
+    st.write("**🌍 Exportación de energía por años (Mapa coropletico)**")
+
+    # Agrupar por año y país
+    exportaciones_year = df_intercambio.groupby(['año', 'pais'])['valor'].sum().reset_index()
+
+    # Selectbox para elegir el año
+    year = st.selectbox("Selecciona un año:", sorted(exportaciones_year['año'].unique()), key="mapa_año")
+
+    # Filtrar solo el año seleccionado
+    exportaciones_filtradas = exportaciones_year[exportaciones_year['año'] == year].copy()
+
+    # Reemplazar nombres por ISO
+    exportaciones_filtradas['pais'] = exportaciones_filtradas['pais'].replace({
+        'francia-frontera': 'FRA',
+        'portugal-frontera': 'PRT',
+        'marruecos-frontera': 'MAR',
+        'andorra-frontera': 'AND'
+    })
+
+    # Escalar a GWh
+    exportaciones_filtradas['valor'] = exportaciones_filtradas['valor'] / 1000
+
+    # Crear mapa
+    fig = px.choropleth(
+        exportaciones_filtradas,
+        locations='pais',
+        locationmode='ISO-3',
+        color='valor',
+        hover_name='pais',
+        color_continuous_scale='RdYlBu',
+        range_color=[0, exportaciones_year['valor'].max() / 1000],
+        labels={'valor': 'GWh'},
+        title=f'Exportación de energía por país en {year}'
+    )
+
+    fig.update_geos(
+        visible=True,
+        resolution=50,
+        projection_type="natural earth",
+        lataxis_range=[20, 60],
+        lonaxis_range=[-20, 10]
+    )
+
+    st.plotly_chart(fig)
+
+def database():
+        st.title("Estructura base de datos")
+        st.write("En esta sección se muestra la estructura de la base de datos utilizada en el proyecto.")
+        st.write("La base de datos está dividida en cuatro tablas principales:")
+        st.write("- Balance: Contiene información sobre el balance energético.")
+        st.write("- Demanda: Contiene información sobre la demanda eléctrica.")
+        st.write("- Generación: Contiene información sobre la generación eléctrica.")
+        st.write("- Intercambio: Contiene información sobre los intercambios internacionales de energía.")
+
+        st.image('../database/diagrama sql.png' , caption='Diagrama de la base de datos', use_container_width=True)
 
 
 st.sidebar.title('Navegación')
-pagina = st.sidebar.radio("", ("Página de Inicio", "Balance", "Demanda", "Generación", "Intercambio"))
+pagina = st.sidebar.radio("", ("Página de Inicio", "Balance", "Demanda", "Generación", "Intercambio", 'Estructura base de datos'))
 
 
 
@@ -477,3 +534,5 @@ elif pagina == 'Generación':
     Generacion()
 elif pagina == 'Intercambio':
     intercambio()
+elif pagina == 'Estructura base de datos':
+    database()
