@@ -74,7 +74,6 @@ def main():
             "- Carga batería (almacenamiento, no producción directa)"
         )
 
-# AÑADIR LOS DATOS DE CADA UNA DE LAS SECCIONES EN LA FUNCION CORRESPONDIENTE
 def Balance():
     st.title("Balance Energético")
     st.write("En este apartado se representa la cantidad total de electricidad generada por todas las fuentes disponibles " \
