@@ -512,7 +512,7 @@ def intercambio():
     # Grafico de energia per capita:
     st.write("**🌍 Exportación de energía anual per cápita**")
     df_energia_total = pd.read_csv('../lib/data/processed/intercambio/energia_per_capita.csv')
-    df_energia_total
+    
     fig_energia = px.line(
         df_energia_total,
         x="año",
@@ -530,14 +530,13 @@ def intercambio():
 
     st.plotly_chart(fig_energia)
 
-    st.write("*Francia* Tiende a tener altos volúmenes de energía exportada y una población grande, por lo que la " \
-    "energía per cápita exportada puede parecer moderada. \n" \
-
-    "*Andorra* Tiene una población muy baja (~77 mil habitantes), por lo que cualquier cantidad de energía exportada " \
-    "se traduce en un valor *per cápita* muy alto. Es probable que presente los valores más altos *per cápita*," \
-    " aunque el volumen total sea pequeño.\n" \
-
-    "*Portugal* y *Marruecos* Estos países tienden a mostrar valores per cápita intermedios.")
+    st.write("- Marruecos: Tiende a mostrar valores per cápita muy pequeños.\n" \
+        "- Francia: Tiende a tener altos volúmenes de energía exportada y una población grande, por lo que la "
+            "energía per cápita exportada puede parecer moderada. \n" \
+            "- Portugal: Con este país hay acuerdos de exportación en crecimiento, por eso se puede ver una subida per cápita constante.\n" \
+            "- Andorra: Tiene una población muy baja (~77 mil habitantes), por lo que cualquier cantidad de energía exportada "
+            "se traduce en un valor per cápita muy alto. Es probable que presente los valores más altos per cápita, "
+            "aunque el volumen total sea pequeño.\n")
 
 
 def database():
