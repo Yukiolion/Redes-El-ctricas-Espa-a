@@ -85,7 +85,7 @@ def Balance():
     df_balance['fecha'] = pd.to_datetime(df_balance['fecha'])
     df_balance['año'] = df_balance['fecha'].dt.year
 
-    seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Rango fechas"])
+    seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Rango fechas"], key="grafico_balance")
 
     # Gráfico de líneas filtrado
     if seleccion == "Últimos días":
@@ -201,7 +201,7 @@ def Demanda():
     st.write("**⚡Evolución de demanda en la región peninsular**")
 
     # Selección del tipo de visualización
-    seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Rango fechas"])
+    seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Rango fechas"], key="grafico_demanda")
 
     if seleccion == "Últimos días":
         dias = st.selectbox("Selecciona el rango de días:", [7, 14, 30], key="select_dias")
@@ -408,7 +408,7 @@ def Generacion():
     df_generacion['fecha'] = pd.to_datetime(df_generacion['fecha'])
     df_generacion['año'] = df_generacion['fecha'].dt.year
 
-    seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Rango fechas"])
+    seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Rango fechas"], key="grafico_generacion")
 
      # Gráfico de energía renovable vs no renovable
     if seleccion == "Últimos días":
@@ -470,7 +470,7 @@ def Generacion():
     "a la inversión privada tanto de empresas como de particulares incentivada por el gobierno.")
     st.write("**⚙️ Distribución de tipo de energia por años**")
  
-    modo_seleccion = st.radio("Modo de visualización:", options=["Todos", "Seleccionar indicadores"])
+    modo_seleccion = st.radio("Modo de visualización:", options=["Todos", "Seleccionar indicadores"], key="grafico")
 
     indicadores_disponibles = df_generacion['indicador'].unique()
 
@@ -693,21 +693,37 @@ def database():
 
         st.image('../database/diagrama sql.png' , caption='Diagrama de la base de datos', use_container_width=True)
 
-
+def Exploratory():
+    st.write("xxxx")
+def DL():
+    st.write("xxxx")
+def About():
+    st.write("xxxx")
+             
 st.sidebar.title('Navegación')
-pagina = st.sidebar.radio("", ("Página de Inicio", "Balance", "Demanda", "Generación", "Intercambio", 'Estructura base de datos'))
+pagina = st.sidebar.radio("Selecciona una página:", 
+                          ["Página principal", "Exploratory Data Analysis", "DL y Propeth", "Base de Datos", "About Us"])
 
+# Página principal con tabs
+if pagina == 'Página principal':
+    st.title("Página Principal")
+    tabs = st.tabs(["Balance", "Demanda", "Generación", "Intercambio"])
 
+    with tabs[0]:
+        Balance()
+    with tabs[1]:
+        Demanda()
+    with tabs[2]:
+        Generacion()
+    with tabs[3]:
+        intercambio()
 
-if pagina == 'Página de Inicio':
-    main()
-elif pagina == 'Balance':
-    Balance()
-elif pagina == 'Demanda':
-    Demanda()
-elif pagina == 'Generación':
-    Generacion()
-elif pagina == 'Intercambio':
-    intercambio()
-elif pagina == 'Estructura base de datos':
+# Otras páginas
+elif pagina == 'Exploratory Data Analysis':
+    Exploratory()
+elif pagina == 'DL y Propeth':
+    DL()
+elif pagina == 'Base de Datos':
     database()
+elif pagina == 'About Us':
+    About()
