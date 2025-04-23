@@ -504,8 +504,41 @@ def intercambio():
         lataxis_range=[20, 60],
         lonaxis_range=[-20, 10]
     )
-
+    fig.update_layout(
+        height=700,
+    )
     st.plotly_chart(fig)
+
+    # Grafico de energia per capita:
+    st.write("**🌍 Exportación de energía anual per cápita**")
+    df_energia_total = pd.read_csv('../lib/data/processed/intercambio/energia_per_capita.csv')
+    df_energia_total
+    fig_energia = px.line(
+        df_energia_total,
+        x="año",
+        y="energia_per_capita",
+        color="pais",
+        markers=True,
+        labels={"energia_per_capita": "MWh/persona", "año": "Año", "pais": "País"}
+    )
+
+    fig_energia.update_layout(
+        legend_title_text="País destino",
+        hovermode="x unified",
+        template="plotly_white"
+    )
+
+    st.plotly_chart(fig_energia)
+
+    st.write("*Francia* Tiende a tener altos volúmenes de energía exportada y una población grande, por lo que la " \
+    "energía per cápita exportada puede parecer moderada. \n" \
+
+    "*Andorra* Tiene una población muy baja (~77 mil habitantes), por lo que cualquier cantidad de energía exportada " \
+    "se traduce en un valor *per cápita* muy alto. Es probable que presente los valores más altos *per cápita*," \
+    " aunque el volumen total sea pequeño.\n" \
+
+    "*Portugal* y *Marruecos* Estos países tienden a mostrar valores per cápita intermedios.")
+
 
 def database():
         st.title("Estructura base de datos")
