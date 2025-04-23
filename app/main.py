@@ -469,26 +469,31 @@ def Generacion():
     st.write("Como ya hemos visto en otras gráficas, se puede ver un aumento de la generación de energía renovable. Esto es debido " \
     "a la inversión privada tanto de empresas como de particulares incentivada por el gobierno.")
     st.write("**⚙️ Distribución de tipo de energia por años**")
-    grafico_barras = df_generacion.groupby(['año', 'tipo'])['valor'].sum().reset_index()
+ 
+    modo_seleccion = st.radio("Modo de visualización:", options=["Todos", "Seleccionar indicadores"])
 
-    fig = px.bar(grafico_barras,
-                x='año',
-                y='valor',
-                color='tipo',
-                labels={'año': 'Año', 'valor': 'kWh'},
-                hover_name='tipo',
-                barmode='stack')
-    st.plotly_chart(fig)
-    st.write("**⚙️ Generación por tipo de energía y años**")
-    grafico_hist = df_generacion.groupby(['indicador', 'año'])['valor'].sum().reset_index()
+    indicadores_disponibles = df_generacion['indicador'].unique()
+
+    if modo_seleccion == "Todos":
+        df_filtrado = df_generacion
+    else:
+        indicadores_seleccionados = st.multiselect(
+            "Selecciona uno o varios indicadores:",
+            options=sorted(indicadores_disponibles),
+            default=sorted(indicadores_disponibles)[:1]
+        )
+        df_filtrado = df_generacion[df_generacion['indicador'].isin(indicadores_seleccionados)]
+
+    grafico_hist = df_filtrado.groupby(['indicador', 'año'])['valor'].sum().reset_index()
 
     fig = px.bar(grafico_hist,
                 x='año',
                 y='valor',
-                color='indicador',  
+                color='indicador',
                 labels={'año': 'Año', 'valor': 'kWh'},
                 barmode='group',
                 height=600)
+
     st.plotly_chart(fig)
 
     st.write("En este gráfico podemos ver la evolución de las diferentes fuentes de energía a lo largo de los años. Podemos" \
