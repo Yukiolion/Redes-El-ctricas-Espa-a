@@ -85,7 +85,7 @@ def Balance():
     df_balance['fecha'] = pd.to_datetime(df_balance['fecha'])
     df_balance['año'] = df_balance['fecha'].dt.year
 
-    seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Año específico"])
+    seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Rango fechas"])
 
     # Gráfico de líneas filtrado
     if seleccion == "Últimos días":
@@ -94,20 +94,59 @@ def Balance():
         fecha_min = fecha_max - pd.Timedelta(days=dias)
         df_filtrado = df_balance[df_balance['fecha'] >= fecha_min]
         tickformat = '%d %b'
-    else:
-        año = st.selectbox("Selecciona el año:", sorted(df_balance['año'].unique()))
-        df_filtrado = df_balance[df_balance['año'] == año]
-        tickformat = '%b %Y'
 
-    grafico_lineas = df_filtrado.groupby(['fecha', 'energia'])['valor'].sum().reset_index()
-    fig = px.line(grafico_lineas,
-                x='fecha',
-                y='valor',
-                color='energia',
-                labels={'fecha': 'Fecha', 'valor': 'kWh', 'energia': 'Tipo de energía'})
-    fig.update_traces(line=dict(width=1))
-    fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
-    st.plotly_chart(fig)
+        # Generar el gráfico directamente
+        grafico_lineas = df_filtrado.groupby(['fecha', 'energia'])['valor'].sum().reset_index()
+        fig = px.line(
+            grafico_lineas,
+            x='fecha',
+            y='valor',
+            color='energia',
+            labels={'fecha': 'Fecha', 'valor': 'kWh', 'energia': 'Tipo de energía'}
+        )
+        fig.update_traces(line=dict(width=1))
+        fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
+        st.plotly_chart(fig)
+
+    else:
+        fecha_min_total = df_balance['fecha'].min()
+        fecha_max_total = df_balance['fecha'].max()
+        rango_fechas = st.date_input(
+            "Selecciona el rango de fechas:",
+            value=(fecha_min_total.date(), fecha_max_total.date()),
+            min_value=fecha_min_total.date(),
+            max_value=fecha_max_total.date()
+        )
+
+        if (
+            isinstance(rango_fechas, tuple) 
+            and len(rango_fechas) == 2 
+            and rango_fechas[0] is not None 
+            and rango_fechas[1] is not None
+        ):
+            fecha_inicio = pd.to_datetime(rango_fechas[0])
+            fecha_fin = pd.to_datetime(rango_fechas[1])
+
+            if fecha_inicio <= fecha_fin:
+                df_filtrado = df_balance[
+                    (df_balance['fecha'] >= fecha_inicio) &
+                    (df_balance['fecha'] <= fecha_fin)
+                ]
+                tickformat = '%b %Y'
+
+                # Generar el gráfico solo si las fechas son válidas
+                grafico_lineas = df_filtrado.groupby(['fecha', 'energia'])['valor'].sum().reset_index()
+                fig = px.line(
+                    grafico_lineas,
+                    x='fecha',
+                    y='valor',
+                    color='energia',
+                    labels={'fecha': 'Fecha', 'valor': 'kWh', 'energia': 'Tipo de energía'}
+                )
+                fig.update_traces(line=dict(width=1))
+                fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
+                st.plotly_chart(fig)
+
     st.write("En esta gráfica se observa que la energía almacenada es la que menos watios por hora aporta. Tambien podemos observar " \
     "que desde el 2019 al 2024 la energía producida por las fuentes renovables va en aumento. Además se puede ver como se " \
     "equilibra con fuentes no renovables para afrontar la demanda eléctrica.")
@@ -162,7 +201,7 @@ def Demanda():
     st.write("**⚡Evolución de demanda en la región peninsular**")
 
     # Selección del tipo de visualización
-    seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Año específico"])
+    seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Rango fechas"])
 
     if seleccion == "Últimos días":
         dias = st.selectbox("Selecciona el rango de días:", [7, 14, 30], key="select_dias")
@@ -170,21 +209,54 @@ def Demanda():
         fecha_min = fecha_max - pd.Timedelta(days=dias)
         df_filtrado = df_demanda[df_demanda['fecha'] >= fecha_min]
         tickformat = '%d %b'
-    else:
-        año = st.selectbox("Selecciona el año:", sorted(df_demanda['año'].unique()), key="select_año")
-        df_filtrado = df_demanda[df_demanda['año'] == año]
-        tickformat = '%b %Y'
 
-    
-    grafico_lineas = df_filtrado.groupby(['fecha', 'indicador'])['valor'].sum().reset_index()
-    fig = px.line(grafico_lineas,
-                x='fecha',
-                y='valor',
-                color='indicador',
-                labels={'fecha': 'Fecha', 'valor': 'kWh', 'indicador': 'Tipo de energía'})
-    fig.update_traces(line=dict(width=1))
-    fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
-    st.plotly_chart(fig)
+        # Mostrar el gráfico directamente
+        grafico_lineas = df_filtrado.groupby(['fecha', 'indicador'])['valor'].sum().reset_index()
+        fig = px.line(grafico_lineas,
+                    x='fecha',
+                    y='valor',
+                    color='indicador',
+                    labels={'fecha': 'Fecha', 'valor': 'kWh', 'indicador': 'Tipo de energía'})
+        fig.update_traces(line=dict(width=1))
+        fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
+        st.plotly_chart(fig)
+
+    else:
+        fecha_min_total = df_demanda['fecha'].min()
+        fecha_max_total = df_demanda['fecha'].max()
+        rango_fechas = st.date_input(
+            "Selecciona el rango de fechas:",
+            value=(fecha_min_total.date(), fecha_max_total.date()),
+            min_value=fecha_min_total.date(),
+            max_value=fecha_max_total.date(),
+            key="select_rango_demanda"
+        )
+
+        if (
+            isinstance(rango_fechas, tuple)
+            and len(rango_fechas) == 2
+            and rango_fechas[0] is not None
+            and rango_fechas[1] is not None
+        ):
+            fecha_inicio = pd.to_datetime(rango_fechas[0])
+            fecha_fin = pd.to_datetime(rango_fechas[1])
+
+            if fecha_inicio <= fecha_fin:
+                df_filtrado = df_demanda[
+                    (df_demanda['fecha'] >= fecha_inicio) &
+                    (df_demanda['fecha'] <= fecha_fin)
+                ]
+                tickformat = '%b %Y'
+
+                grafico_lineas = df_filtrado.groupby(['fecha', 'indicador'])['valor'].sum().reset_index()
+                fig = px.line(grafico_lineas,
+                            x='fecha',
+                            y='valor',
+                            color='indicador',
+                            labels={'fecha': 'Fecha', 'valor': 'kWh', 'indicador': 'Tipo de energía'})
+                fig.update_traces(line=dict(width=1))
+                fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
+                st.plotly_chart(fig)
     st.write("En esta grafica se observa que la demanda energética sigue unos patrones mas o menos estables a lo largo" \
     "de los años, los meses donde más aumnenta son los de enero y los de julio, coincidiendo con las épocas mas frias y mas calurosas" \
     "de la península.")
@@ -336,29 +408,63 @@ def Generacion():
     df_generacion['fecha'] = pd.to_datetime(df_generacion['fecha'])
     df_generacion['año'] = df_generacion['fecha'].dt.year
 
-    seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Año específico"])
+    seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Rango fechas"])
 
      # Gráfico de energía renovable vs no renovable
     if seleccion == "Últimos días":
-        dias = st.selectbox("Selecciona el rango de días:", [7, 14, 30], key="select_dias")
+        dias = st.selectbox("Selecciona el rango de días:", [7, 14, 30], key="select_dias_generacion")
         fecha_max = df_generacion['fecha'].max()
         fecha_min = fecha_max - pd.Timedelta(days=dias)
         df_filtrado = df_generacion[df_generacion['fecha'] >= fecha_min]
         tickformat = '%d %b'
-    else:
-        año = st.selectbox("Selecciona el año:", sorted(df_generacion['año'].unique()), key="select_año")
-        df_filtrado = df_generacion[df_generacion['año'] == año]
-        tickformat = '%b %Y'
 
-    grafico_lineas_generacion = df_filtrado.groupby(['fecha', 'tipo'])['valor'].sum().reset_index()
-    fig_generacion = px.line(grafico_lineas_generacion,
-                             x='fecha',
-                             y='valor',
-                             color='tipo',
-                             labels={'fecha': 'Fecha', 'valor': 'kWh', 'tipo': 'Tipo de energía'})
-    fig_generacion.update_traces(line=dict(width=1))
-    fig_generacion.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
-    st.plotly_chart(fig_generacion)
+        # Mostrar el gráfico directamente
+        grafico_lineas_generacion = df_filtrado.groupby(['fecha', 'tipo'])['valor'].sum().reset_index()
+        fig_generacion = px.line(grafico_lineas_generacion,
+                                x='fecha',
+                                y='valor',
+                                color='tipo',
+                                labels={'fecha': 'Fecha', 'valor': 'kWh', 'tipo': 'Tipo de energía'})
+        fig_generacion.update_traces(line=dict(width=1))
+        fig_generacion.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
+        st.plotly_chart(fig_generacion)
+
+    else:
+        fecha_min_total = df_generacion['fecha'].min()
+        fecha_max_total = df_generacion['fecha'].max()
+        rango_fechas = st.date_input(
+            "Selecciona el rango de fechas:",
+            value=(fecha_min_total.date(), fecha_max_total.date()),
+            min_value=fecha_min_total.date(),
+            max_value=fecha_max_total.date(),
+            key="select_rango_generacion"
+        )
+
+        if (
+            isinstance(rango_fechas, tuple)
+            and len(rango_fechas) == 2
+            and rango_fechas[0] is not None
+            and rango_fechas[1] is not None
+        ):
+            fecha_inicio = pd.to_datetime(rango_fechas[0])
+            fecha_fin = pd.to_datetime(rango_fechas[1])
+
+            if fecha_inicio <= fecha_fin:
+                df_filtrado = df_generacion[
+                    (df_generacion['fecha'] >= fecha_inicio) &
+                    (df_generacion['fecha'] <= fecha_fin)
+                ]
+                tickformat = '%b %Y'
+
+                grafico_lineas_generacion = df_filtrado.groupby(['fecha', 'tipo'])['valor'].sum().reset_index()
+                fig_generacion = px.line(grafico_lineas_generacion,
+                                        x='fecha',
+                                        y='valor',
+                                        color='tipo',
+                                        labels={'fecha': 'Fecha', 'valor': 'kWh', 'tipo': 'Tipo de energía'})
+                fig_generacion.update_traces(line=dict(width=1))
+                fig_generacion.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
+                st.plotly_chart(fig_generacion)
 
     st.write("Como ya hemos visto en otras gráficas, se puede ver un aumento de la generación de energía renovable. Esto es debido " \
     "a la inversión privada tanto de empresas como de particulares incentivada por el gobierno.")
@@ -404,29 +510,62 @@ def intercambio():
     df_intercambio['fecha'] = pd.to_datetime(df_intercambio['fecha'])
     df_intercambio['año'] = df_intercambio['fecha'].dt.year
     st.write("**🌍 Evolución de la exportación de energía por país**")
-    seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Año específico"])
+    seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Rango fechas"])
 
     if seleccion == "Últimos días":
-        dias = st.selectbox("Selecciona el rango de días:", [7, 14, 30], key="select_dias")
+        dias = st.selectbox("Selecciona el rango de días:", [7, 14, 30], key="select_dias_intercambio")
         fecha_max = df_intercambio['fecha'].max()
         fecha_min = fecha_max - pd.Timedelta(days=dias)
         df_filtrado = df_intercambio[df_intercambio['fecha'] >= fecha_min]
         tickformat = '%d %b'
-    else:
-        año = st.selectbox("Selecciona el año:", sorted(df_intercambio['año'].unique()), key="select_año")
-        df_filtrado = df_intercambio[df_intercambio['año'] == año]
-        tickformat = '%b %Y'
 
-    # Gráfico de líneas por país
-    grafico_lineas = df_filtrado.groupby(['fecha', 'pais'])['valor'].sum().reset_index()
-    fig = px.line(grafico_lineas,
-                  x='fecha',
-                  y='valor',
-                  color='pais',
-                  labels={'fecha': 'Fecha', 'valor': 'kWh', 'pais': 'País'})
-    fig.update_traces(line=dict(width=1))
-    fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
-    st.plotly_chart(fig)
+        # Mostrar gráfico directamente
+        grafico_lineas = df_filtrado.groupby(['fecha', 'pais'])['valor'].sum().reset_index()
+        fig = px.line(grafico_lineas,
+                    x='fecha',
+                    y='valor',
+                    color='pais',
+                    labels={'fecha': 'Fecha', 'valor': 'kWh', 'pais': 'País'})
+        fig.update_traces(line=dict(width=1))
+        fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
+        st.plotly_chart(fig)
+
+    else:
+        fecha_min_total = df_intercambio['fecha'].min()
+        fecha_max_total = df_intercambio['fecha'].max()
+        rango_fechas = st.date_input(
+            "Selecciona el rango de fechas:",
+            value=(fecha_min_total.date(), fecha_max_total.date()),
+            min_value=fecha_min_total.date(),
+            max_value=fecha_max_total.date(),
+            key="select_rango_intercambio"
+        )
+
+        if (
+            isinstance(rango_fechas, tuple)
+            and len(rango_fechas) == 2
+            and rango_fechas[0] is not None
+            and rango_fechas[1] is not None
+        ):
+            fecha_inicio = pd.to_datetime(rango_fechas[0])
+            fecha_fin = pd.to_datetime(rango_fechas[1])
+
+            if fecha_inicio <= fecha_fin:
+                df_filtrado = df_intercambio[
+                    (df_intercambio['fecha'] >= fecha_inicio) &
+                    (df_intercambio['fecha'] <= fecha_fin)
+                ]
+                tickformat = '%b %Y'
+
+                grafico_lineas = df_filtrado.groupby(['fecha', 'pais'])['valor'].sum().reset_index()
+                fig = px.line(grafico_lineas,
+                            x='fecha',
+                            y='valor',
+                            color='pais',
+                            labels={'fecha': 'Fecha', 'valor': 'kWh', 'pais': 'País'})
+                fig.update_traces(line=dict(width=1))
+                fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
+                st.plotly_chart(fig)
 
     st.write("Las principales interconexiones de España están con Francia, Portugal y, en menor medida, con Marruecos y Andorra. " \
     "Estas importaciones y exportaciones se realizan principalmente a través de cables submarinos o líneas de alta tensión.")
@@ -494,7 +633,6 @@ def intercambio():
         color_continuous_scale='RdYlBu',
         range_color=[0, exportaciones_year['valor'].max() / 1000],
         labels={'valor': 'GWh'},
-        title=f'Exportación de energía por país en {year}'
     )
 
     fig.update_geos(
