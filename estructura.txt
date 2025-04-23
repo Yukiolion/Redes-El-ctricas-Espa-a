@@ -4,27 +4,42 @@ REDES-EL-ECTRICAS-ESPA-A/
 |   └── main.py            # Archivo para el FrontEnd con Streamlit
 │
 ├── lib/                   # Código fuente para el proyecto (BackEnd)   
-│   ├── data/                  # Datos sin procesar y procesados
-|   │    ├── sinprocesar/       # Datos originales (sin modificar) VA A SER TEMPORAL SI PASAMOS LOS DATOS EXTRAIDOS Y LIMPIADOS DIRECTAMENTE A LA BD
-|   │    └── processed/         # Datos listos para análisis/modelado
+│   ├── data/  # SERA ELIMINADA **********  # Datos sin procesar y procesados
+|   │    ├── sinprocesar/                   # Datos originales (sin modificar) VA A SER TEMPORAL SI PASAMOS LOS DATOS EXTRAIDOS Y LIMPIADOS DIRECTAMENTE A LA BD
+|   │    └── processed/                     # Datos listos para análisis/modelado
 |   |         
 |   |
-|   ├── notebooks/         # Notebooks exploratorios o explicativos (Es un ejemplo)
+|   ├── notebooks/ # SERA ELIMINADA *******  # Notebooks exploratorios o explicativos (Es un ejemplo)
 |   |    ├── 01_Extraccion.ipynb             # Extraccion de datos
 |   |    ├── 02_Preprocesado.ipynb           # Procesamiento y limpieza de datos
 |   |    ├── 03_Visualizaciones.ipynb        # Generar graficas, etc.
-|   |    └── 04_DataBase.ipynb               # Conexiones y cargas a la base de datos
-|   |      
+|   |    └── 04_DataBase.ipynb             # Conexiones y cargas a la base de datos
 |   |
-│   └── models/            # Entrenamiento, predicción y evaluación
-│        ├── train_model.ipynb
-│        └── predict_model.ipynb
+|   |
+|   ├── scripts/                      # Esta sera la nueva carpeta base de funciones
+|   |       |                         # Sustituira a la carpeta notebooks cuando todo el codigo este resuelto
+|   |       |
+|   |       ├── __init__.py                # Este archivo es unicamente para poder importar estas funciones                  
+|   |       |
+|   |       ├── extraccion.py              # Aqui se hace la extraccion de todos los datos para la base de datos
+|   |       |
+|   |       ├── limpieza.py                # Aqui se hara toda la limpieza de los datos extraidos antes de la carga.
+|   |       |
+|   |       └── carga.py                   # Aqui estaran las sentencias para subir los datos a la base de datos.
+|   |
+|   |
+|   |
+│   ├── models/           # Entrenamiento, predicción y evaluación
+│   |     ├── train_model.ipynb
+│   |     └── predict_model.ipynb
+|   |
+|   └── master.py          # Aqui ira la ejecucion de los scripts de extraccion, limpieza, carga.
+|
+|
 |
 |
 ├── models/                # Modelos entrenados (.pkl, .joblib, etc.)
 │
-├── reports/               # Reportes, visualizaciones, gráficas una vez generados
-│   └── figures/           # Imágenes y gráficos generados
 │
 ├── requirements.txt       # Librerías necesarias para el proyecto
 ├── README.md              # Descripción del proyecto -----> ESTE FALTA POR ESCRIBIRLO
