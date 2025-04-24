@@ -14,12 +14,14 @@ def Balance():
     df_balance = pd.read_csv('../lib/data/processed/balance/balance-electrico-limpio.csv')
 
     st.write("**🔄 Evolución del balance a lo largo de los años**")
+
     df_balance['fecha'] = pd.to_datetime(df_balance['fecha'])
     df_balance['año'] = df_balance['fecha'].dt.year
 
+    # Colocamos selector para elegir el tipo de visualización:
     seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Rango fechas"], key="grafico_balance")
 
-    # Gráfico de líneas filtrado
+    # Gráfico de líneas
     if seleccion == "Últimos días":
         dias = st.selectbox("Selecciona el rango de días:", [7, 14, 30])
         fecha_max = df_balance['fecha'].max()
@@ -27,15 +29,13 @@ def Balance():
         df_filtrado = df_balance[df_balance['fecha'] >= fecha_min]
         tickformat = '%d %b'
 
-        # Generar el gráfico directamente
         grafico_lineas = df_filtrado.groupby(['fecha', 'energia'])['valor'].sum().reset_index()
         fig = px.line(
             grafico_lineas,
             x='fecha',
             y='valor',
             color='energia',
-            labels={'fecha': 'Fecha', 'valor': 'kWh', 'energia': 'Tipo de energía'}
-        )
+            labels={'fecha': 'Fecha', 'valor': 'kWh', 'energia': 'Tipo de energía'})
         fig.update_traces(line=dict(width=1))
         fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
         st.plotly_chart(fig)
@@ -43,38 +43,29 @@ def Balance():
     else:
         fecha_min_total = df_balance['fecha'].min()
         fecha_max_total = df_balance['fecha'].max()
-        rango_fechas = st.date_input(
-            "Selecciona el rango de fechas:",
+        rango_fechas = st.date_input("Selecciona el rango de fechas:",
             value=(fecha_min_total.date(), fecha_max_total.date()),
             min_value=fecha_min_total.date(),
-            max_value=fecha_max_total.date()
-        )
+            max_value=fecha_max_total.date())
 
-        if (
-            isinstance(rango_fechas, tuple) 
-            and len(rango_fechas) == 2 
+        if (isinstance(rango_fechas, tuple) and len(rango_fechas) == 2 
             and rango_fechas[0] is not None 
-            and rango_fechas[1] is not None
-        ):
+            and rango_fechas[1] is not None):
             fecha_inicio = pd.to_datetime(rango_fechas[0])
             fecha_fin = pd.to_datetime(rango_fechas[1])
 
             if fecha_inicio <= fecha_fin:
-                df_filtrado = df_balance[
-                    (df_balance['fecha'] >= fecha_inicio) &
-                    (df_balance['fecha'] <= fecha_fin)
-                ]
+                df_filtrado = df_balance[(df_balance['fecha'] >= fecha_inicio) &
+                    (df_balance['fecha'] <= fecha_fin)]
                 tickformat = '%b %Y'
 
-                # Generar el gráfico solo si las fechas son válidas
                 grafico_lineas = df_filtrado.groupby(['fecha', 'energia'])['valor'].sum().reset_index()
                 fig = px.line(
-                    grafico_lineas,
-                    x='fecha',
-                    y='valor',
-                    color='energia',
-                    labels={'fecha': 'Fecha', 'valor': 'kWh', 'energia': 'Tipo de energía'}
-                )
+                        grafico_lineas,
+                        x='fecha',
+                        y='valor',
+                        color='energia',
+                        labels={'fecha': 'Fecha', 'valor': 'kWh', 'energia': 'Tipo de energía'})
                 fig.update_traces(line=dict(width=1))
                 fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
                 st.plotly_chart(fig)
@@ -83,16 +74,20 @@ def Balance():
     "que desde el 2019 al 2024 la energía producida por las fuentes renovables va en aumento. Además se puede ver como se " \
     "equilibra con fuentes no renovables para afrontar la demanda eléctrica.")
 
+
+    
     st.write("**🔄 Histograma del balance de electicidad**")
    
     df_balance['fecha'] = pd.to_datetime(df_balance['fecha'])
     df_balance['año'] = df_balance['fecha'].dt.year
-
     años_disponibles = sorted(df_balance['año'].unique())
+
+    # Selector para los años:
     año = st.selectbox("Selecciona el año:", años_disponibles, key="select_año")
 
     df_filtrado = df_balance[df_balance['año'] == año]
     
+    # Calculo quantiles:
     q1 = df_filtrado['valor'].quantile(0.25)
     q3 = df_filtrado['valor'].quantile(0.75)
     iqr = q3 - q1

@@ -15,9 +15,13 @@ def Intercambio():
     df_intercambio = pd.read_csv('../lib/data/processed/intercambio/fronteras-limpio.csv')
     df_intercambio['fecha'] = pd.to_datetime(df_intercambio['fecha'])
     df_intercambio['año'] = df_intercambio['fecha'].dt.year
+
     st.write("**🌍 Evolución de la exportación de energía por país**")
+
+    # Colocamos selector para elegir el tipo de visualización:
     seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Rango fechas"])
 
+    # Grafico de lineas
     if seleccion == "Últimos días":
         dias = st.selectbox("Selecciona el rango de días:", [7, 14, 30], key="select_dias_intercambio")
         fecha_max = df_intercambio['fecha'].max()
@@ -25,7 +29,6 @@ def Intercambio():
         df_filtrado = df_intercambio[df_intercambio['fecha'] >= fecha_min]
         tickformat = '%d %b'
 
-        # Mostrar gráfico directamente
         grafico_lineas = df_filtrado.groupby(['fecha', 'pais'])['valor'].sum().reset_index()
         fig = px.line(grafico_lineas,
                     x='fecha',
@@ -44,23 +47,19 @@ def Intercambio():
             value=(fecha_min_total.date(), fecha_max_total.date()),
             min_value=fecha_min_total.date(),
             max_value=fecha_max_total.date(),
-            key="select_rango_intercambio"
-        )
+            key="select_rango_intercambio")
 
-        if (
-            isinstance(rango_fechas, tuple)
+        if (isinstance(rango_fechas, tuple)
             and len(rango_fechas) == 2
             and rango_fechas[0] is not None
-            and rango_fechas[1] is not None
-        ):
+            and rango_fechas[1] is not None):
             fecha_inicio = pd.to_datetime(rango_fechas[0])
             fecha_fin = pd.to_datetime(rango_fechas[1])
 
             if fecha_inicio <= fecha_fin:
                 df_filtrado = df_intercambio[
                     (df_intercambio['fecha'] >= fecha_inicio) &
-                    (df_intercambio['fecha'] <= fecha_fin)
-                ]
+                    (df_intercambio['fecha'] <= fecha_fin)]
                 tickformat = '%b %Y'
 
                 grafico_lineas = df_filtrado.groupby(['fecha', 'pais'])['valor'].sum().reset_index()
@@ -76,9 +75,13 @@ def Intercambio():
     st.write("Las principales interconexiones de España están con Francia, Portugal y, en menor medida, con Marruecos y Andorra. " \
     "Estas importaciones y exportaciones se realizan principalmente a través de cables submarinos o líneas de alta tensión.")
 
-    st.write("**🌍 Exportacion de energia por años**")
-    grafico_barras = df_intercambio.groupby(['año', 'pais'])['valor'].sum().reset_index()
 
+
+
+    st.write("**🌍 Exportacion de energia por años**")
+
+    # Gráfico de barras:
+    grafico_barras = df_intercambio.groupby(['año', 'pais'])['valor'].sum().reset_index()
     fig = px.bar(grafico_barras,
                 x='año',
                 y='valor',
@@ -92,9 +95,13 @@ def Intercambio():
     "pasando de 16,5 TWh a 25,4 TWh, lo que representa un incremento del 54%. Esto fué debido a la sequía en Portugal que afectó a su " \
     "capacidad de generación hidroeléctrica y a un parón de la energía nuclear en Francia debido a averías y problemas de mantenimiento.")
 
+
+
+
+    st.write("**🌍 Exportacion de energia por años (Heatmap)**")
+
     # Grafico heatmap:
     grafico_barras = df_intercambio.groupby(['año', 'pais'])['valor'].sum().reset_index()
-    st.write("**🌍 Exportacion de energia por años (Heatmap)**")
     heatmap_data = grafico_barras.pivot(index='año', columns='pais', values='valor')
 
     fig = px.imshow(heatmap_data,
@@ -106,30 +113,30 @@ def Intercambio():
              "Marruecos aumentan poco a poco progresivamente, mientras que Portugal aumentó de manera brusca. Las exportaciones a Francia son las que " \
              "no siguen un patrón definido.")
     
-    # Mapa coropletico con selección por año
+
+   
+
     st.write("**🌍 Exportación de energía por años (Mapa coropletico)**")
 
     # Agrupar por año y país
     exportaciones_year = df_intercambio.groupby(['año', 'pais'])['valor'].sum().reset_index()
 
-    # Selectbox para elegir el año
+    # Colocamos selector para elegir el tipo de visualización:
     year = st.selectbox("Selecciona un año:", sorted(exportaciones_year['año'].unique()), key="mapa_año")
 
-    # Filtrar solo el año seleccionado
+    # Filtrar solo el año seleccionado y colocar los nombres por ISO:
     exportaciones_filtradas = exportaciones_year[exportaciones_year['año'] == year].copy()
 
-    # Reemplazar nombres por ISO
     exportaciones_filtradas['pais'] = exportaciones_filtradas['pais'].replace({
         'francia-frontera': 'FRA',
         'portugal-frontera': 'PRT',
         'marruecos-frontera': 'MAR',
-        'andorra-frontera': 'AND'
-    })
+        'andorra-frontera': 'AND'})
 
     # Escalar a GWh
     exportaciones_filtradas['valor'] = exportaciones_filtradas['valor'] / 1000
 
-    # Crear mapa
+    # Mapa coropletico con selección por año
     fig = px.choropleth(
         exportaciones_filtradas,
         locations='pais',
@@ -138,23 +145,24 @@ def Intercambio():
         hover_name='pais',
         color_continuous_scale='RdYlBu',
         range_color=[0, exportaciones_year['valor'].max() / 1000],
-        labels={'valor': 'GWh'},
-    )
+        labels={'valor': 'GWh'},)
 
     fig.update_geos(
         visible=True,
         resolution=50,
         projection_type="natural earth",
         lataxis_range=[20, 60],
-        lonaxis_range=[-20, 10]
-    )
+        lonaxis_range=[-20, 10])
     fig.update_layout(
-        height=700,
-    )
+        height=700,)
     st.plotly_chart(fig)
 
-    # Grafico de energia per capita:
+
+
+    
     st.write("**🌍 Exportación de energía anual per cápita**")
+
+    # Grafico de energia per capita:
     df_energia_total = pd.read_csv('../lib/data/processed/intercambio/energia_per_capita.csv')
     
     fig_energia = px.line(
@@ -163,14 +171,12 @@ def Intercambio():
         y="energia_per_capita",
         color="pais",
         markers=True,
-        labels={"energia_per_capita": "MWh/persona", "año": "Año", "pais": "País"}
-    )
+        labels={"energia_per_capita": "MWh/persona", "año": "Año", "pais": "País"})
 
     fig_energia.update_layout(
         legend_title_text="País destino",
         hovermode="x unified",
-        template="plotly_white"
-    )
+        template="plotly_white")
 
     st.plotly_chart(fig_energia)
 

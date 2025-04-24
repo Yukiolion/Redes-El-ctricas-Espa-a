@@ -11,11 +11,16 @@ def Generacion():
     st.write("Definimos la generación como la producción de energía en b.a. (bornes de alternador), " \
     "menos la consumida por los servicios auxiliares y las pérdidas en los transformadores.")
     
+
+    
+
     st.write("**⚙️ Generación de energía Renovable vs No renovable en la región peninsular**")
+
     df_generacion = pd.read_csv('../lib/data/processed/generacion/estructura-generacion-limpio.csv')
     df_generacion['fecha'] = pd.to_datetime(df_generacion['fecha'])
     df_generacion['año'] = df_generacion['fecha'].dt.year
 
+    # Colocamos selector para elegir el tipo de visualización:
     seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Rango fechas"], key="grafico_generacion")
 
      # Gráfico de energía renovable vs no renovable
@@ -26,7 +31,6 @@ def Generacion():
         df_filtrado = df_generacion[df_generacion['fecha'] >= fecha_min]
         tickformat = '%d %b'
 
-        # Mostrar el gráfico directamente
         grafico_lineas_generacion = df_filtrado.groupby(['fecha', 'tipo'])['valor'].sum().reset_index()
         fig_generacion = px.line(grafico_lineas_generacion,
                                 x='fecha',
@@ -45,23 +49,19 @@ def Generacion():
             value=(fecha_min_total.date(), fecha_max_total.date()),
             min_value=fecha_min_total.date(),
             max_value=fecha_max_total.date(),
-            key="select_rango_generacion"
-        )
+            key="select_rango_generacion")
 
-        if (
-            isinstance(rango_fechas, tuple)
+        if (isinstance(rango_fechas, tuple)
             and len(rango_fechas) == 2
             and rango_fechas[0] is not None
-            and rango_fechas[1] is not None
-        ):
+            and rango_fechas[1] is not None):
             fecha_inicio = pd.to_datetime(rango_fechas[0])
             fecha_fin = pd.to_datetime(rango_fechas[1])
 
             if fecha_inicio <= fecha_fin:
                 df_filtrado = df_generacion[
                     (df_generacion['fecha'] >= fecha_inicio) &
-                    (df_generacion['fecha'] <= fecha_fin)
-                ]
+                    (df_generacion['fecha'] <= fecha_fin)]
                 tickformat = '%b %Y'
 
                 grafico_lineas_generacion = df_filtrado.groupby(['fecha', 'tipo'])['valor'].sum().reset_index()
@@ -76,10 +76,14 @@ def Generacion():
 
     st.write("Como ya hemos visto en otras gráficas, se puede ver un aumento de la generación de energía renovable. Esto es debido " \
     "a la inversión privada tanto de empresas como de particulares incentivada por el gobierno.")
+   
+   
+   
+   
     st.write("**⚙️ Distribución de tipo de energia por años**")
- 
-    modo_seleccion = st.radio("Modo de visualización:", options=["Todos", "Seleccionar indicadores"], key="grafico")
 
+    # Colocamos selector para elegir las fuentes de energía:
+    modo_seleccion = st.radio("Modo de visualización:", options=["Todos", "Seleccionar fuentes energía"], key="grafico_fuentes")
     indicadores_disponibles = df_generacion['indicador'].unique()
 
     if modo_seleccion == "Todos":
@@ -88,8 +92,7 @@ def Generacion():
         indicadores_seleccionados = st.multiselect(
             "Selecciona uno o varios indicadores:",
             options=sorted(indicadores_disponibles),
-            default=sorted(indicadores_disponibles)[:1]
-        )
+            default=sorted(indicadores_disponibles)[:1])
         df_filtrado = df_generacion[df_generacion['indicador'].isin(indicadores_seleccionados)]
 
     grafico_hist = df_filtrado.groupby(['indicador', 'año'])['valor'].sum().reset_index()

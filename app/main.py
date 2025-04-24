@@ -56,8 +56,7 @@ def main():
             "- Solar térmica\n"
             "- Otras renovables (biogás, biomasa, hidráulica marina y geotérmica)\n"
             "- Generación renovable\n"
-            "- Turbinación bombeo\n"
-        )
+            "- Turbinación bombeo\n")
     elif opcion == 'No renovables':
         st.info(
             "⚙️ **Fuentes de energía no renovables**\n\n"
@@ -71,8 +70,7 @@ def main():
             "- Residuos no renovables\n"
             "- Turbina de gas\n"
             "- Turbina de vapor\n"
-            "- Generación no renovable"
-        )
+            "- Generación no renovable")
     elif opcion == 'Otras categorias':
         st.info(
             "⚖️ **Otras categorías**\n\n"
@@ -80,8 +78,7 @@ def main():
             "- Consumo bombeo (se usa para almacenar energía, no genera)\n"
             "- Saldo I. internacionales (intercambios con otros países)\n"
             "- Saldo almacenamiento (puede incluir carga y entrega de baterías)\n"
-            "- Carga batería (almacenamiento, no producción directa)"
-        )
+            "- Carga batería (almacenamiento, no producción directa)")
 
              
 st.sidebar.title('Navegación')

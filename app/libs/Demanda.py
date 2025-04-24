@@ -18,11 +18,15 @@ def Demanda():
     df_demanda['fecha'] = pd.to_datetime(df_demanda['fecha'])
     df_demanda['año'] = df_demanda['fecha'].dt.year
 
+
+
+
     st.write("**⚡Evolución de demanda en la región peninsular**")
 
-    # Selección del tipo de visualización
+    # Colocamos selector para elegir el tipo de visualización:
     seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Rango fechas"], key="grafico_demanda")
 
+    # Grafico de lineas:
     if seleccion == "Últimos días":
         dias = st.selectbox("Selecciona el rango de días:", [7, 14, 30], key="select_dias")
         fecha_max = df_demanda['fecha'].max()
@@ -30,7 +34,6 @@ def Demanda():
         df_filtrado = df_demanda[df_demanda['fecha'] >= fecha_min]
         tickformat = '%d %b'
 
-        # Mostrar el gráfico directamente
         grafico_lineas = df_filtrado.groupby(['fecha', 'indicador'])['valor'].sum().reset_index()
         fig = px.line(grafico_lineas,
                     x='fecha',
@@ -49,23 +52,17 @@ def Demanda():
             value=(fecha_min_total.date(), fecha_max_total.date()),
             min_value=fecha_min_total.date(),
             max_value=fecha_max_total.date(),
-            key="select_rango_demanda"
-        )
+            key="select_rango_demanda")
 
-        if (
-            isinstance(rango_fechas, tuple)
-            and len(rango_fechas) == 2
+        if (isinstance(rango_fechas, tuple) and len(rango_fechas) == 2
             and rango_fechas[0] is not None
-            and rango_fechas[1] is not None
-        ):
+            and rango_fechas[1] is not None):
             fecha_inicio = pd.to_datetime(rango_fechas[0])
             fecha_fin = pd.to_datetime(rango_fechas[1])
 
             if fecha_inicio <= fecha_fin:
-                df_filtrado = df_demanda[
-                    (df_demanda['fecha'] >= fecha_inicio) &
-                    (df_demanda['fecha'] <= fecha_fin)
-                ]
+                df_filtrado = df_demanda[(df_demanda['fecha'] >= fecha_inicio) &
+                    (df_demanda['fecha'] <= fecha_fin)]
                 tickformat = '%b %Y'
 
                 grafico_lineas = df_filtrado.groupby(['fecha', 'indicador'])['valor'].sum().reset_index()
@@ -77,10 +74,14 @@ def Demanda():
                 fig.update_traces(line=dict(width=1))
                 fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
                 st.plotly_chart(fig)
+
     st.write("En esta grafica se observa que la demanda energética sigue unos patrones mas o menos estables a lo largo" \
     "de los años, los meses donde más aumnenta son los de enero y los de julio, coincidiendo con las épocas mas frias y mas calurosas" \
     "de la península.")
     
+
+
+
     st.write("**⚡Índice de Red Eléctrica (IRE)**")
     
     st.write("El IRE es el indicador eléctrico adelantado que recoge la evolución " \
@@ -93,28 +94,25 @@ def Demanda():
             "- **Ire Corregido**: Se ajustan los valores para eliminar los efectos de las festividades (si un mes tiene mas fines de semana o feriados)" \
             "y la temperatura para realizar comparaciones mas justas entre periodos.\n")
     st.write("Por otra parte, tenemos tres tipos de IRE:\n" \
-        "- **Ire General**: Es el índice que representa la evolución total de la demanda eléctrica nacional (en España) para una determinada fecha o periodo," \
-        " comparado con el mismo periodo del año anterior. Incluye todos los sectores: industrial, servicios y doméstico. \n" \
-        "- **Ire Industria**: Este mide específicamente la demanda eléctrica de la industria. Es un buen indicador de la actividad industrial del país, " \
-        "ya que si las fábricas consumen más electricidad, suele ser porque están produciendo más.\n" \
-        "- **Ire Servicios**: Refleja el consumo eléctrico del sector servicios (oficinas, comercios, hoteles, hospitales, etc.). Puede estar influenciado " \
-        "por la actividad económica y también por factores estacionales como el turismo o el clima.")
+            "- **Ire General**: Es el índice que representa la evolución total de la demanda eléctrica nacional (en España) para una determinada fecha o periodo," \
+            " comparado con el mismo periodo del año anterior. Incluye todos los sectores: industrial, servicios y doméstico. \n" \
+            "- **Ire Industria**: Este mide específicamente la demanda eléctrica de la industria. Es un buen indicador de la actividad industrial del país, " \
+            "ya que si las fábricas consumen más electricidad, suele ser porque están produciendo más.\n" \
+            "- **Ire Servicios**: Refleja el consumo eléctrico del sector servicios (oficinas, comercios, hoteles, hospitales, etc.). Puede estar influenciado " \
+            "por la actividad económica y también por factores estacionales como el turismo o el clima.")
     
     filtro = df_ire['indicador'].isin(['Índice general corregido', 'Índice industria corregido', 'Índice servicios corregido'])
     df_filtrado = df_ire[filtro]
-
     df_agrupado = df_filtrado.groupby(['año', 'indicador'])['valor'].sum().reset_index()
 
-     # Gráfico de líneas
     
-    año = st.selectbox("Selecciona el año:", sorted(df_demanda['año'].unique()), key="select_año2")
-    df_filtrado = df_demanda[df_demanda['año'] == año]
+    # Selector de fechas:
+    año = st.selectbox("Selecciona el año:", sorted(df_ire['año'].unique()), key="select_año2")
     tickformat = '%b %Y'
-
     df_ire_filtrado = df_ire[df_ire['año'] == año]
 
+    # Grafico de lineas IRE Region peninsular:
     grafico_lineas = df_ire_filtrado.groupby(['fecha', 'indicador'])['valor'].sum().reset_index()
-
     fig = px.line(grafico_lineas,
                 x='fecha',
                 y='valor',
@@ -128,8 +126,9 @@ def Demanda():
     st.write("En la grafica podemos observar que el IRE Servicios despunta en Julio haciendo aumentar el IRE General y el IRE Industria es el que más bajo está " \
     "en agosto, cuadrando con el periodo vacacional. Además, a partir de marzo de 2020 todos los valores se desploman debido a la pandemia.")
 
-    grafico_barras = df_agrupado.groupby(['año', 'indicador'])['valor'].sum().reset_index()
 
+    # Grafico de barras IRE:
+    grafico_barras = df_agrupado.groupby(['año', 'indicador'])['valor'].sum().reset_index()
     fig = px.bar(grafico_barras,
                 x='año',
                 y='valor',
@@ -139,11 +138,14 @@ def Demanda():
     st.plotly_chart(fig)
     st.write("Este gráfico muestra una visión general de los diferentes IRE a lo largo de los años.")
 
+
+
+
+
     ## Grafico para comparar dos años:
     st.write("**⚡ Comparación de la demanda eléctrica a lo largo de los años**")
 
     años_disponibles = list(range(2019, 2025))
-
     año_1 = st.selectbox("Selecciona el primer año:", años_disponibles, key="año1")
     año_2 = st.selectbox("Selecciona el segundo año:", años_disponibles, key="año2")
 
@@ -175,10 +177,12 @@ def Demanda():
     st.write("En esta tabla podemos seleccionar los valores de media, mediana, máximo y mínimo y comparar dichos valores entre" \
     "años. En el grafico de debajo se muestran tanto los valores estadísticos como la gráfica de la evolución de la demanda.")
 
+    # Colocamos dataframe con las estadísticas:
     st.dataframe(df_estadisticas)
 
     df_comparar['indicador_año'] = df_comparar['indicador'] + ' ' + df_comparar['año'].astype(str)
 
+    # Grafico comparativo de los años:
     fig = px.line(df_comparar,
                 x='fecha',
                 y='valor',
@@ -191,14 +195,12 @@ def Demanda():
         'media': 'blue',
         'mediana': 'green',
         'min': 'red',
-        'max': 'orange'
-    }
+        'max': 'orange'}
     line_styles = {
         'media': 'solid',
         'mediana': 'dash',
         'min': 'dot',
-        'max': 'dashdot'
-    }
+        'max': 'dashdot'}
 
     for estadisticas in estadisticas_por_año:
         año = estadisticas['año']
