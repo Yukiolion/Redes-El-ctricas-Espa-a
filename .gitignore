@@ -1,4 +1,4 @@
 node_modules/
 .venv
 app\.venv
-__pycache__/
+lib/scripts/__pycache__/

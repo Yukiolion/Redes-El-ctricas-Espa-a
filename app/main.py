@@ -5,15 +5,15 @@ import numpy as np
 import pandas as pd
 import requests
 
-from libs.Balance import Balance
-from libs.Demanda import Demanda
-from libs.Generacion import Generacion
-from libs.Intercambio import Intercambio
+from pages.Balance import Balance
+from pages.Demanda import Demanda
+from pages.Generacion import Generacion
+from pages.Intercambio import Intercambio
 
-from libs.Database import Database
-from libs.Exploratory import Exploratory
-from libs.DL import DL
-from libs.About import About
+from pages.Database import Database
+from pages.Exploratory import Exploratory
+from pages.DL import DL
+from pages.About import About
 
 
 # PAGINA PRINCIPAL DEL PROYECTO(TITULO, IMAGEN Y DESCRIPCION)

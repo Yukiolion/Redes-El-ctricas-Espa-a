@@ -356,66 +356,6 @@ def generacion(filtro_generacion, URL, HEADERS, start_date, end_date):
             print(f"Error en la solicitud para {region_name}. Código: {response.status_code}")
 
     return df_generacion
-
-# %%
-def renov_norenov(filtro_renovable, URL, HEADERS, start_date, end_date):
-
-    filtro_renovable
-
-    endpoint = f"{URL}{filtro_renovable}"
-
-    df_renovable = pd.DataFrame()
-    ## Iterar sobre los años
-    # Iterar sobre los geo_ids y nombres de regiones
-    # para cada año y geo_id
-    for geo_id, region_name in region_ids.items():
-        TIME_TRUNC = "day"
-
-        params = {
-            "start_date": start_date.strftime("%Y-%m-%dT%H:%M"),
-            "end_date": end_date.strftime("%Y-%m-%dT%H:%M"),
-            "time_trunc": TIME_TRUNC,
-            "geo_id": geo_id
-        }
-
-        response = requests.get(endpoint, headers=HEADERS, params=params)
-
-        if response.status_code == 200:
-            try:
-                data = response.json()
-                included = data.get('included', [])
-
-                if included:
-                    registros = []
-
-                    # Iterar sobre los grupos de datos en 'included'
-                    for grupo in included:
-                        group_name = grupo['attributes'].get('title', 'Desconocido')
-                        group_type = grupo['attributes'].get('type', 'Desconocido')
-                        contenidos = grupo['attributes'].get('values', [])
-
-                        # Iterar sobre los valores de generación
-                        for punto in contenidos:
-                            registros.append({
-                                'fecha': punto.get('datetime', 'Desconocido'),
-                                'valor': punto.get('value', 0),
-                                'porcentaje': punto.get('percentage', 0),
-                                'indicador': group_name,
-                                'region': region_name,
-                                'tipo': group_type,
-                                })
-
-                    df_renovable_year = pd.DataFrame(registros)
-                    df_renovable = pd.concat([df_renovable, df_renovable_year], ignore_index=True)
-
-            except Exception as e:
-                print("Contenido de la respuesta:", response.text)
-
-        else:
-                print(f"Error en la solicitud para {region_name}. Código: {response.status_code}")
-
-    return df_renovable
-
 # %%
 def fronteras(URL, HEADERS, start_date, end_date):
 
@@ -473,8 +413,6 @@ def extraccion_update(start_date, end_date):
 
     print('Extrayendo datos actualizados de la Generación Eléctrica...')
     df_generacion = generacion(filtro_generacion, URL, HEADERS, start_date, end_date)
-    print('Extrayendo datos actualizados de la Generación Renovable y No Renovable...')
-    df_renovable = renov_norenov(filtro_renovable, URL, HEADERS, start_date, end_date)
 
     print('Extrayendo datos actualizados de los intercambios entre países...')
     df_fronteras = fronteras(URL, HEADERS, start_date, end_date)
@@ -486,6 +424,5 @@ def extraccion_update(start_date, end_date):
         "ire_industria": df_ire_industria,
         "ire_servicios": df_ire_servicios,
         "generacion": df_generacion,
-        "renovable": df_renovable,
         "fronteras": df_fronteras,
     }

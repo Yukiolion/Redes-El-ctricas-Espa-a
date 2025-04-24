@@ -5,10 +5,10 @@ import numpy as np
 import pandas as pd
 import requests
 
-from libs.Balance import Balance
-from libs.Demanda import Demanda
-from libs.Generacion import Generacion
-from libs.Intercambio import Intercambio
+from pages.Balance import Balance
+from pages.Demanda import Demanda
+from pages.Generacion import Generacion
+from pages.Intercambio import Intercambio
 
 def Exploratory():
     st.title("📊 Exploratory Data Analysis")
