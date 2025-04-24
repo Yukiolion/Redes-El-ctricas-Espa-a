@@ -1,0 +1,218 @@
+import streamlit as st
+
+import plotly.express as px
+import plotly.graph_objects as go
+import numpy as np
+import pandas as pd
+import requests
+
+
+def Demanda():
+    st.title("Demanda Eléctrica")
+    st.write("La demanda eléctrica se refiere a la cantidad de electricidad que los consumidores requieren en " \
+            " un momento o periodo específico. Es una medida de la cantidad de energía que se necesita para satisfacer " \
+            " las necesidades de los usuarios, ya sean residenciales, comerciales o industriales.")
+
+    df_demanda = pd.read_csv('../lib/data/processed/demanda/demanda-limpio.csv')
+    df_ire = pd.read_csv('../lib/data/processed/demanda/ire-limpio.csv')
+    df_demanda['fecha'] = pd.to_datetime(df_demanda['fecha'])
+    df_demanda['año'] = df_demanda['fecha'].dt.year
+
+    st.write("**⚡Evolución de demanda en la región peninsular**")
+
+    # Selección del tipo de visualización
+    seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Rango fechas"], key="grafico_demanda")
+
+    if seleccion == "Últimos días":
+        dias = st.selectbox("Selecciona el rango de días:", [7, 14, 30], key="select_dias")
+        fecha_max = df_demanda['fecha'].max()
+        fecha_min = fecha_max - pd.Timedelta(days=dias)
+        df_filtrado = df_demanda[df_demanda['fecha'] >= fecha_min]
+        tickformat = '%d %b'
+
+        # Mostrar el gráfico directamente
+        grafico_lineas = df_filtrado.groupby(['fecha', 'indicador'])['valor'].sum().reset_index()
+        fig = px.line(grafico_lineas,
+                    x='fecha',
+                    y='valor',
+                    color='indicador',
+                    labels={'fecha': 'Fecha', 'valor': 'kWh', 'indicador': 'Tipo de energía'})
+        fig.update_traces(line=dict(width=1))
+        fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
+        st.plotly_chart(fig)
+
+    else:
+        fecha_min_total = df_demanda['fecha'].min()
+        fecha_max_total = df_demanda['fecha'].max()
+        rango_fechas = st.date_input(
+            "Selecciona el rango de fechas:",
+            value=(fecha_min_total.date(), fecha_max_total.date()),
+            min_value=fecha_min_total.date(),
+            max_value=fecha_max_total.date(),
+            key="select_rango_demanda"
+        )
+
+        if (
+            isinstance(rango_fechas, tuple)
+            and len(rango_fechas) == 2
+            and rango_fechas[0] is not None
+            and rango_fechas[1] is not None
+        ):
+            fecha_inicio = pd.to_datetime(rango_fechas[0])
+            fecha_fin = pd.to_datetime(rango_fechas[1])
+
+            if fecha_inicio <= fecha_fin:
+                df_filtrado = df_demanda[
+                    (df_demanda['fecha'] >= fecha_inicio) &
+                    (df_demanda['fecha'] <= fecha_fin)
+                ]
+                tickformat = '%b %Y'
+
+                grafico_lineas = df_filtrado.groupby(['fecha', 'indicador'])['valor'].sum().reset_index()
+                fig = px.line(grafico_lineas,
+                            x='fecha',
+                            y='valor',
+                            color='indicador',
+                            labels={'fecha': 'Fecha', 'valor': 'kWh', 'indicador': 'Tipo de energía'})
+                fig.update_traces(line=dict(width=1))
+                fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
+                st.plotly_chart(fig)
+    st.write("En esta grafica se observa que la demanda energética sigue unos patrones mas o menos estables a lo largo" \
+    "de los años, los meses donde más aumnenta son los de enero y los de julio, coincidiendo con las épocas mas frias y mas calurosas" \
+    "de la península.")
+    
+    st.write("**⚡Índice de Red Eléctrica (IRE)**")
+    
+    st.write("El IRE es el indicador eléctrico adelantado que recoge la evolución " \
+            " del consumo de energía eléctrica de las empresas que tienen un consumo de energía eléctrica " \
+            " de tamaño medio/alto (potencia contratada superior a 450 kW). Al revisar los valores del IRE tenemos que tener en " \
+            "cuenta algunos conceptos clave:\n"
+            "- **Ire**: Es el índice tal cual se calcula a partir de los datos reales de consumo eléctrico, sin ningún tipo de ajuste. " \
+            " Es decir, refleja la evolución bruta de la demanda eléctrica respecto al mismo mes del año anterior y puede estar afectado por " \
+            "factores externos como el tiempo o las festividades.\n"
+            "- **Ire Corregido**: Se ajustan los valores para eliminar los efectos de las festividades (si un mes tiene mas fines de semana o feriados)" \
+            "y la temperatura para realizar comparaciones mas justas entre periodos.\n")
+    st.write("Por otra parte, tenemos tres tipos de IRE:\n" \
+        "- **Ire General**: Es el índice que representa la evolución total de la demanda eléctrica nacional (en España) para una determinada fecha o periodo," \
+        " comparado con el mismo periodo del año anterior. Incluye todos los sectores: industrial, servicios y doméstico. \n" \
+        "- **Ire Industria**: Este mide específicamente la demanda eléctrica de la industria. Es un buen indicador de la actividad industrial del país, " \
+        "ya que si las fábricas consumen más electricidad, suele ser porque están produciendo más.\n" \
+        "- **Ire Servicios**: Refleja el consumo eléctrico del sector servicios (oficinas, comercios, hoteles, hospitales, etc.). Puede estar influenciado " \
+        "por la actividad económica y también por factores estacionales como el turismo o el clima.")
+    
+    filtro = df_ire['indicador'].isin(['Índice general corregido', 'Índice industria corregido', 'Índice servicios corregido'])
+    df_filtrado = df_ire[filtro]
+
+    df_agrupado = df_filtrado.groupby(['año', 'indicador'])['valor'].sum().reset_index()
+
+     # Gráfico de líneas
+    
+    año = st.selectbox("Selecciona el año:", sorted(df_demanda['año'].unique()), key="select_año2")
+    df_filtrado = df_demanda[df_demanda['año'] == año]
+    tickformat = '%b %Y'
+
+    df_ire_filtrado = df_ire[df_ire['año'] == año]
+
+    grafico_lineas = df_ire_filtrado.groupby(['fecha', 'indicador'])['valor'].sum().reset_index()
+
+    fig = px.line(grafico_lineas,
+                x='fecha',
+                y='valor',
+                color='indicador',
+                title="Evolución de ire de demanda en la región peninsular",
+                labels={'fecha': 'Fecha', 'valor': 'kWh', 'indicador': 'Tipo de energía'})
+    fig.update_traces(line=dict(width=1))
+    fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
+    st.plotly_chart(fig)
+
+    st.write("En la grafica podemos observar que el IRE Servicios despunta en Julio haciendo aumentar el IRE General y el IRE Industria es el que más bajo está " \
+    "en agosto, cuadrando con el periodo vacacional. Además, a partir de marzo de 2020 todos los valores se desploman debido a la pandemia.")
+
+    grafico_barras = df_agrupado.groupby(['año', 'indicador'])['valor'].sum().reset_index()
+
+    fig = px.bar(grafico_barras,
+                x='año',
+                y='valor',
+                color='indicador',
+                title="Distribución de los tipos de ire por años",
+                labels={'valor': 'kWh', 'indicador': 'indices'})
+    st.plotly_chart(fig)
+    st.write("Este gráfico muestra una visión general de los diferentes IRE a lo largo de los años.")
+
+    ## Grafico para comparar dos años:
+    st.write("**⚡ Comparación de la demanda eléctrica a lo largo de los años**")
+
+    años_disponibles = list(range(2019, 2025))
+
+    año_1 = st.selectbox("Selecciona el primer año:", años_disponibles, key="año1")
+    año_2 = st.selectbox("Selecciona el segundo año:", años_disponibles, key="año2")
+
+    st.write(f"Comparando los años: {año_1} vs {año_2}")
+
+    años = [año_1, año_2]
+    df_comparar = df_demanda[df_demanda['año'].isin(años)]
+
+    estadisticas_por_año = []
+
+    for año in años:
+        valores = df_comparar[df_comparar['año'] == año]['valor']
+        stats = valores.describe()
+        media = stats['mean']
+        mediana = valores.median()
+        minimo = stats['min']
+        maximo = stats['max']
+
+        estadisticas_por_año.append({
+            'año': año,
+            'media': media,
+            'mediana': mediana,
+            'min': minimo,
+            'max': maximo,
+        })
+
+    df_estadisticas = pd.DataFrame(estadisticas_por_año)
+
+    st.write("En esta tabla podemos seleccionar los valores de media, mediana, máximo y mínimo y comparar dichos valores entre" \
+    "años. En el grafico de debajo se muestran tanto los valores estadísticos como la gráfica de la evolución de la demanda.")
+
+    st.dataframe(df_estadisticas)
+
+    df_comparar['indicador_año'] = df_comparar['indicador'] + ' ' + df_comparar['año'].astype(str)
+
+    fig = px.line(df_comparar,
+                x='fecha',
+                y='valor',
+                color='indicador_año',
+                title="Evolución de demanda en la región peninsular",
+                labels={'fecha': 'Fecha', 'valor': 'kWh', 'indicador_año': 'Indicador por año'})
+
+    fig = go.Figure(fig)
+    colors = {
+        'media': 'blue',
+        'mediana': 'green',
+        'min': 'red',
+        'max': 'orange'
+    }
+    line_styles = {
+        'media': 'solid',
+        'mediana': 'dash',
+        'min': 'dot',
+        'max': 'dashdot'
+    }
+
+    for estadisticas in estadisticas_por_año:
+        año = estadisticas['año']
+        for tipo in ['media', 'mediana', 'min', 'max']:
+            fig.add_hline(y=estadisticas[tipo],
+                        line=dict(color=colors[tipo], dash=line_styles[tipo], width=1),
+                        annotation_text=f"{tipo.capitalize()} {año}",
+                        annotation_position="top left")
+
+    fig.update_layout(
+        xaxis_title='Fecha',
+        xaxis_tickformat='%b %Y',
+        legend_title='Indicador por año'
+    )
+    fig.update_traces(line=dict(width=1))
+
+    st.plotly_chart(fig)
