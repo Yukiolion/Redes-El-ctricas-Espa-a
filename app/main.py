@@ -75,7 +75,7 @@ def main():
         )
 
 def Balance():
-    st.title("Balance Energético")
+    st.title("Balance Eléctrico")
     st.write("En este apartado se representa la cantidad total de electricidad generada por todas las fuentes disponibles " \
              "en el sistema eléctrico Español a lo largo de los años.")
     df_balance = pd.read_csv('../lib/data/processed/balance/balance-electrico-limpio.csv')
@@ -693,7 +693,17 @@ def database():
         st.image('../database/diagrama sql.png' , caption='Diagrama de la base de datos', use_container_width=True)
 
 def Exploratory():
-    st.write("xxxx")
+    st.title("📊 Exploratory Data Analysis")
+    tabs = st.tabs(["Balance", "Demanda", "Generación", "Intercambio"])
+
+    with tabs[0]:
+        Balance()
+    with tabs[1]:
+        Demanda()
+    with tabs[2]:
+        Generacion()
+    with tabs[3]:
+        intercambio()
 def DL():
     st.write("xxxx")
 def About():
@@ -705,17 +715,7 @@ pagina = st.sidebar.radio("Selecciona una página:",
 
 # Página principal con tabs
 if pagina == 'Página principal':
-    st.title("Página Principal")
-    tabs = st.tabs(["Balance", "Demanda", "Generación", "Intercambio"])
-
-    with tabs[0]:
-        Balance()
-    with tabs[1]:
-        Demanda()
-    with tabs[2]:
-        Generacion()
-    with tabs[3]:
-        intercambio()
+    main()
 
 # Otras páginas
 elif pagina == 'Exploratory Data Analysis':
