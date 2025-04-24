@@ -5,5 +5,6 @@ from scripts.extraccion import extraccion
 dataframes = extraccion()
 
 for nombre, df in dataframes.items():
-    # df_limpio = limpiar_datos(df)
     print(f"DataFrame {nombre}:\n{df.head()}")
+
+    # df_limpio = limpiar_datos(df)

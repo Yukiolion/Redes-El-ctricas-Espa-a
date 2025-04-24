@@ -180,7 +180,7 @@ def demanda_ire_general(filtro_general, URL, HEADERS):
     
     filtro_general
 
-    endpoint = f"{URL}/{filtro_demanda}"
+    endpoint = f"{URL}/{filtro_general}"
 
     # Inicializamos un DataFrame vacío
     df_ire_general = pd.DataFrame()
@@ -239,7 +239,7 @@ def demanda_ire_industria(filtro_industria, URL, HEADERS):
 
     filtro_industria
 
-    endpoint = f"{URL}/{filtro_demanda}"
+    endpoint = f"{URL}/{filtro_industria}"
 
     # Inicializamos un DataFrame vacío
     df_ire_industria = pd.DataFrame()
@@ -298,7 +298,7 @@ def demanda_ire_servicios(filtro_servicios, URL, HEADERS):
 
     filtro_servicios
 
-    endpoint = f"{URL}/{filtro_demanda}"
+    endpoint = f"{URL}/{filtro_servicios}"
 
     # Inicializamos un DataFrame vacío
     df_ire_servicios = pd.DataFrame()
@@ -426,7 +426,7 @@ def renov_norenov(filtro_renovable, URL, HEADERS):
 
     filtro_renovable
 
-    endpoint = f"{URL}{filtro_generacion}"
+    endpoint = f"{URL}{filtro_renovable}"
 
     df_renovable = pd.DataFrame()
     ## Iterar sobre los años
