@@ -1,10 +1,18 @@
 import streamlit as st
 
-import plotly.express as px
-import plotly.graph_objects as go
-import numpy as np
-import pandas as pd
-import requests
+from custom_pages.about_pages.andre import andre_info
+from custom_pages.about_pages.eduardo import eduardo_info
+from custom_pages.about_pages.luisa import lui_info
+from custom_pages.about_pages.samuel import samuel_info
 
 def About():
-    st.write("xxxx")
+    tabs = st.tabs(["Andre", "Eduardo", "Luisa", "Samuel"])
+
+    with tabs[0]:
+        andre_info()
+    with tabs[1]:
+        eduardo_info()
+    with tabs[2]:
+        lui_info()
+    with tabs[3]:
+        samuel_info()
