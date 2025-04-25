@@ -4,11 +4,11 @@ from datetime import datetime, timedelta
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from scripts.extraccion_update import extraccion_update
-from scripts.limpieza import limpieza_balance, limpieza_demanda, limpieza_generacion, limpieza_fronteras
+from functions.extraccion_update import extraccion_update
+from functions.limpieza import limpieza_balance, limpieza_demanda, limpieza_generacion, limpieza_fronteras
 # from scripts.carga import upload_data
-from scripts.db_connect import db_connect
-from scripts.last_date import get_last_date
+from functions.db_connect import db_connect
+from functions.last_date import get_last_date
 
 
 def actualizacion_general():
