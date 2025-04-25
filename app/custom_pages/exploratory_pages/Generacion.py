@@ -112,3 +112,81 @@ def Generacion(df_generacion):
     "la necesidad de calor debido al cambio climático asumiendo el ciclo combinado como fuente de energía sin la producción de calor. La energía derivada" \
     "de las centrales de carbón aporta cada vez menos debido a las directrices de la Unión Europea.")
   
+    st.write("**⚡ Comparación del Balance eléctrica a lo largo de los años**")
+
+    años_disponibles = list(range(2019, 2025))
+    año_1 = st.selectbox("Selecciona el primer año:", años_disponibles, key="año_1_generacion")
+    año_2 = st.selectbox("Selecciona el segundo año:", años_disponibles, key="año_2_generacion")
+
+    st.write(f"Comparando los años: {año_1} vs {año_2}")
+
+    años = [año_1, año_2]
+    df_comparar = df_generacion[df_generacion['año'].isin(años)]
+
+    df_comparar['valor'] = pd.to_numeric(df_comparar['valor'], errors='coerce')
+    estadisticas_por_año = []
+
+    for año in años:
+        valores = df_comparar[df_comparar['año'] == año]['valor']
+        st.dataframe(valores.describe())
+        stats = valores.describe()
+
+        media = stats['mean']
+        mediana = valores.median()
+        minimo = stats['min']
+        maximo = stats['max']
+
+        estadisticas_por_año.append({
+            'año': año,
+            'media': media,
+            'mediana': mediana,
+            'min': minimo,
+            'max': maximo,
+        })
+
+    df_estadisticas = pd.DataFrame(estadisticas_por_año)
+
+    st.write("En esta tabla podemos seleccionar los valores de media, mediana, máximo y mínimo y comparar dichos valores entre" \
+    "años. En el grafico de debajo se muestran tanto los valores estadísticos como la gráfica de la evolución de la demanda.")
+
+    # Colocamos dataframe con las estadísticas:
+    st.dataframe(df_estadisticas)
+
+    df_comparar['indicador_año'] = df_comparar['indicador'] + ' ' + df_comparar['año'].astype(str)
+
+    # Grafico comparativo de los años:
+    fig = px.line(df_comparar,
+                x='fecha',
+                y='valor',
+                color='indicador_año',
+                title="Evolución de demanda en la región peninsular",
+                labels={'fecha': 'Fecha', 'valor': 'kWh', 'indicador_año': 'Indicador por año'})
+
+    fig = go.Figure(fig)
+    colors = {
+        'media': 'blue',
+        'mediana': 'green',
+        'min': 'red',
+        'max': 'orange'}
+    line_styles = {
+        'media': 'solid',
+        'mediana': 'dash',
+        'min': 'dot',
+        'max': 'dashdot'}
+
+    for estadisticas in estadisticas_por_año:
+        año = estadisticas['año']
+        for tipo in ['media', 'mediana', 'min', 'max']:
+            fig.add_hline(y=estadisticas[tipo],
+                        line=dict(color=colors[tipo], dash=line_styles[tipo], width=1),
+                        annotation_text=f"{tipo.capitalize()} {año}",
+                        annotation_position="top left")
+
+    fig.update_layout(
+        xaxis_title='Fecha',
+        xaxis_tickformat='%b %Y',
+        legend_title='Indicador por año'
+    )
+    fig.update_traces(line=dict(width=1))
+
+    st.plotly_chart(fig)

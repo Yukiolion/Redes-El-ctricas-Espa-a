@@ -139,8 +139,8 @@ def Demanda(df_demanda, df_ire):
     st.write("**⚡ Comparación de la demanda eléctrica a lo largo de los años**")
 
     años_disponibles = list(range(2019, 2025))
-    año_1 = st.selectbox("Selecciona el primer año:", años_disponibles, key="año1")
-    año_2 = st.selectbox("Selecciona el segundo año:", años_disponibles, key="año2")
+    año_1 = st.selectbox("Selecciona el primer año:", años_disponibles, key="año_1_demanda")
+    año_2 = st.selectbox("Selecciona el segundo año:", años_disponibles, key="año_2_demanda")
 
     st.write(f"Comparando los años: {año_1} vs {año_2}")
 
