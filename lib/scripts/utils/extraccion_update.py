@@ -6,13 +6,6 @@ from pprint import pprint
 from datetime import datetime
 
 # %%
-# Versiones
-
-print(f"numpy=={np.__version__}")
-print(f"pandas=={pd.__version__}")
-print(f"requests=={requests.__version__}")
-
-# %%
 # Constantes comunes
 URL = "https://apidatos.ree.es" # URL base de la API
 HEADERS = {
@@ -160,7 +153,7 @@ def demanda_ire_general(filtro_general, URL, HEADERS, start_date, end_date):
     
     filtro_general
 
-    endpoint = f"{URL}/{filtro_demanda}"
+    endpoint = f"{URL}/{filtro_general}"
 
     # Inicializamos un DataFrame vacío
     df_ire_general = pd.DataFrame()
@@ -179,7 +172,7 @@ def demanda_ire_general(filtro_general, URL, HEADERS, start_date, end_date):
         response = requests.get(endpoint, headers=HEADERS, params=params)
 
         if response.status_code != 200:
-            print(f"Error {response.status_code} para región: {region_name} ({geo_id})")
+            print(f"Datos ya actualizados o no disponibles para región: {region_name}")
             continue
 
         data = response.json()
@@ -209,7 +202,7 @@ def demanda_ire_industria(filtro_industria, URL, HEADERS, start_date, end_date):
 
     filtro_industria
 
-    endpoint = f"{URL}/{filtro_demanda}"
+    endpoint = f"{URL}/{filtro_industria}"
 
     # Inicializamos un DataFrame vacío
     df_ire_industria = pd.DataFrame()
@@ -227,7 +220,7 @@ def demanda_ire_industria(filtro_industria, URL, HEADERS, start_date, end_date):
         response = requests.get(endpoint, headers=HEADERS, params=params)
 
         if response.status_code != 200:
-                print(f"Error {response.status_code} para región: {region_name} ({geo_id})")
+                print(f"Datos ya actualizados o no disponibles para región: {region_name}")
                 continue
 
         data = response.json()
@@ -257,7 +250,7 @@ def demanda_ire_servicios(filtro_servicios, URL, HEADERS, start_date, end_date):
 
     filtro_servicios
 
-    endpoint = f"{URL}/{filtro_demanda}"
+    endpoint = f"{URL}/{filtro_servicios}"
 
     # Inicializamos un DataFrame vacío
     df_ire_servicios = pd.DataFrame()
@@ -275,7 +268,7 @@ def demanda_ire_servicios(filtro_servicios, URL, HEADERS, start_date, end_date):
         response = requests.get(endpoint, headers=HEADERS, params=params)
 
         if response.status_code != 200:
-            print(f"Error {response.status_code} para región: {region_name} ({geo_id})")
+            print(f"Datos ya actualizados o no disponibles para región: {region_name}")
             continue
 
         data = response.json()
@@ -358,39 +351,44 @@ def generacion(filtro_generacion, URL, HEADERS, start_date, end_date):
     return df_generacion
 # %%
 def fronteras(URL, HEADERS, start_date, end_date):
-
     # Lista de países
     lista_paises = ['francia-frontera', 'portugal-frontera', 'marruecos-frontera', 'andorra-frontera']
 
     datos_intercambios = []
 
     for pais in lista_paises:
-        # Endpoint para intercambios
         filtro_intercambio = f"/es/datos/intercambios/{pais}"
         endpoint = f"{URL}{filtro_intercambio}"
         TIME_TRUNC = "day"
 
         params = {
-        "start_date": start_date.strftime("%Y-%m-%dT%H:%M"),
-        "end_date": end_date.strftime("%Y-%m-%dT%H:%M"),
-        "time_trunc": TIME_TRUNC,
+            "start_date": start_date.strftime("%Y-%m-%dT%H:%M"),
+            "end_date": end_date.strftime("%Y-%m-%dT%H:%M"),
+            "time_trunc": TIME_TRUNC,
         }
 
-        response = requests.get(endpoint, headers=HEADERS, params=params)
-
-        if response.status_code == 200:
-            data = response.json()
-            # Verificar si hay datos disponibles
-            valores = data["included"][0]["attributes"].get("values", [])
-            if valores:
-                df = pd.DataFrame(valores)
-                df["pais"] = pais
-                datos_intercambios.append(df)
+        try:
+            response = requests.get(endpoint, headers=HEADERS, params=params)
+            if response.status_code == 200:
+                data = response.json()
+                valores = data["included"][0]["attributes"].get("values", [])
+                if valores:
+                    df = pd.DataFrame(valores)
+                    df["pais"] = pais
+                    datos_intercambios.append(df)
+                else:
+                    print(f"No hay datos disponibles para {pais}.")
             else:
                 print(f"Error en la solicitud para {pais}. Código: {response.status_code}")
+        except Exception as e:
+            print(f"Error al consultar {pais}: {e}")
 
-    # Unir todos los datos en un único DataFrame
-    df_fronteras = pd.concat(datos_intercambios, ignore_index=True)
+    # Solo si hay datos válidos los concatenamos
+    if datos_intercambios:
+        df_fronteras = pd.concat(datos_intercambios, ignore_index=True)
+    else:
+        print("No se obtuvieron datos de fronteras.")
+        df_fronteras = pd.DataFrame()
 
     return df_fronteras
 

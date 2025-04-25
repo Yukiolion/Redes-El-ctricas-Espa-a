@@ -1,14 +1,14 @@
-import streamlit as st
-import plotly.express as px
-import plotly.graph_objects as go
-import numpy as np
-import pandas as pd
-import requests
 import sys
 import os
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
-#from lib.scripts.master import actualizacion_general
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
+# from lib.scripts.master import actualizacion_general
+from lib.scripts.utils.db_connect import db_connect
+from lib.scripts.utils.download import download_balance, download_demanda, download_ire, download_generacion, download_intercambio
+
+import streamlit as st
+
+
 from custom_pages.Balance import Balance
 from custom_pages.Demanda import Demanda
 from custom_pages.Generacion import Generacion
@@ -19,19 +19,30 @@ from custom_pages.Intercambio import Intercambio
 def Exploratory():
     st.title("📊 Exploratory Data Analysis")
 
-# if st.button("🔄 Actualizar base de datos"):
-#     with st.spinner("Actualizando la base de datos..."):
-#         actualizacion_general()
-#     st.success("✅ Base de datos actualizada.")
+    conn = db_connect()
 
+    df_balance = download_balance(conn)
+    df_demanda = download_demanda(conn)
+    df_ire = download_ire(conn)
+    df_generacion = download_generacion(conn)
+    df_fronteras = download_intercambio(conn)
+    conn.close()
+
+    # if st.button("🔄 Actualizar base de datos"):
+    #     with st.spinner("Actualizando la base de datos..."):
+    #         actualizacion  = actualizacion_general()
+    #         if actualizacion:
+    #             st.success("✅ Base de datos actualizada.")
+    #         else:
+    #             st.error("❌ Error al actualizar la base de datos.")
 
     tabs = st.tabs(["Balance", "Demanda", "Generación", "Intercambio"])
 
     with tabs[0]:
-        Balance()
+        Balance(df_balance)
     with tabs[1]:
-        Demanda()
+        Demanda(df_demanda, df_ire)
     with tabs[2]:
-        Generacion()
+        Generacion(df_generacion)
     with tabs[3]:
-        Intercambio()
+        Intercambio(df_fronteras)

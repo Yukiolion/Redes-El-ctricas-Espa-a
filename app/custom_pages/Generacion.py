@@ -6,17 +6,13 @@ import numpy as np
 import pandas as pd
 import requests
 
-def Generacion():
+def Generacion(df_generacion):
     st.title("Generación")
     st.write("Definimos la generación como la producción de energía en b.a. (bornes de alternador), " \
     "menos la consumida por los servicios auxiliares y las pérdidas en los transformadores.")
-    
-
-    
 
     st.write("**⚙️ Generación de energía Renovable vs No renovable en la región peninsular**")
 
-    df_generacion = pd.read_csv('../lib/data/processed/generacion/estructura-generacion-limpio.csv')
     df_generacion['fecha'] = pd.to_datetime(df_generacion['fecha'])
     df_generacion['año'] = df_generacion['fecha'].dt.year
 

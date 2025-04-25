@@ -7,7 +7,7 @@ import pandas as pd
 import requests
 
 
-def Demanda():
+def Demanda(df_demanda, df_ire):
     st.title("Demanda Eléctrica")
     st.write("La demanda eléctrica se refiere a la cantidad de electricidad que los consumidores requieren en " \
             " un momento o periodo específico. Es una medida de la cantidad de energía que se necesita para satisfacer " \

@@ -7,7 +7,7 @@ import pandas as pd
 import requests
 
 
-def Balance():
+def Balance(df_balance):
     st.title("Balance Eléctrico")
     st.write("En este apartado se representa la cantidad total de electricidad generada por todas las fuentes disponibles " \
              "en el sistema eléctrico Español a lo largo de los años.")

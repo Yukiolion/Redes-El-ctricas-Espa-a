@@ -6,13 +6,12 @@ import numpy as np
 import pandas as pd
 import requests
 
-def Intercambio():
+def Intercambio(df_intercambio):
     st.title("Intercambio Internacional")
     st.write("El intercambio internacional energético se refiere a la compra y venta de energía " \
             "entre países. En el caso de la electricidad, se trata del flujo de energía eléctrica " \
             "que cruza las fronteras nacionales a través de interconexiones eléctricas.")
 
-    df_intercambio = pd.read_csv('../lib/data/processed/intercambio/fronteras-limpio.csv')
     df_intercambio['fecha'] = pd.to_datetime(df_intercambio['fecha'])
     df_intercambio['año'] = df_intercambio['fecha'].dt.year
 

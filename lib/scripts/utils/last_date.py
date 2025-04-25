@@ -2,7 +2,7 @@ import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from scripts.db_connect import db_connect
+from utils.db_connect import db_connect
 
 def get_last_date(tablas):
     conn = db_connect()

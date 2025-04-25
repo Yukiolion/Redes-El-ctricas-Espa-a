@@ -1,6 +1,4 @@
-# %%
 import pandas as pd
-import mysql.connector
 
 # %%
 def download_balance(conn):
@@ -9,11 +7,15 @@ def download_balance(conn):
     ### BALANCE ###
     query = "SELECT * FROM balance ORDER BY fecha DESC"
     cursor.execute(query)
-    datos_balance = cursor.fetchall()
-    cursor.execute(query)
+    
+    # Obtener nombres de las columnas
+    columnas = [desc[0] for desc in cursor.description]
+
+    # Obtener los datos
     resultados = cursor.fetchall()
 
-    df = pd.DataFrame(resultados)
+    # Crear el DataFrame con los nombres de las columnas
+    df = pd.DataFrame(resultados, columns=columnas)
 
     print('Datos descargados.')
 
@@ -26,9 +28,15 @@ def download_demanda(conn):
     ### DEMANDA ###
     query = "SELECT * FROM demanda_evolucion ORDER BY fecha DESC"
     cursor.execute(query)
+    
+    # Obtener nombres de las columnas
+    columnas = [desc[0] for desc in cursor.description]
+
+    # Obtener los datos
     datos_demanda_evolucion = cursor.fetchall()
 
-    df = pd.DataFrame(datos_demanda_evolucion)
+    # Crear el DataFrame con los nombres de las columnas
+    df = pd.DataFrame(datos_demanda_evolucion, columns=columnas)
 
     print('Datos descargados.')
 
@@ -41,9 +49,15 @@ def download_ire(conn):
     ### IRE ###
     query = "SELECT * FROM demanda_ire_general ORDER BY fecha DESC"
     cursor.execute(query)
+    
+    # Obtener nombres de las columnas
+    columnas = [desc[0] for desc in cursor.description]
+
+    # Obtener los datos
     datos_ire_general = cursor.fetchall()
 
-    df = pd.DataFrame(datos_ire_general)
+    # Crear el DataFrame con los nombres de las columnas
+    df = pd.DataFrame(datos_ire_general, columns=columnas)
 
     print('Datos descargados.')
 
@@ -56,9 +70,15 @@ def download_generacion(conn):
     ### GENERACION ###
     query = "SELECT * FROM estructura_generacion ORDER BY fecha DESC"
     cursor.execute(query)
+    
+    # Obtener nombres de las columnas
+    columnas = [desc[0] for desc in cursor.description]
+
+    # Obtener los datos
     datos_estructura = cursor.fetchall()
 
-    df = pd.DataFrame(datos_estructura)
+    # Crear el DataFrame con los nombres de las columnas
+    df = pd.DataFrame(datos_estructura, columns=columnas)
 
     print('Datos descargados.')
 
@@ -67,16 +87,20 @@ def download_generacion(conn):
 # %%
 def download_intercambio(conn):
     print('Iniciando descarga...')
-    cursor = conn.Cursor()
+    cursor = conn.cursor()
     ### INTERCAMBIO ###
     query = "SELECT * FROM fronteras ORDER BY fecha DESC"
     cursor.execute(query)
+    
+    # Obtener nombres de las columnas
+    columnas = [desc[0] for desc in cursor.description]
+
+    # Obtener los datos
     datos_fronteras = cursor.fetchall()
 
-    df = pd.DataFrame(datos_fronteras)
+    # Crear el DataFrame con los nombres de las columnas
+    df = pd.DataFrame(datos_fronteras, columns=columnas)
 
     print('Datos descargados.')
 
     return df
-
-

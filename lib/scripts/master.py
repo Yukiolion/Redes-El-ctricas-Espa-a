@@ -4,11 +4,11 @@ from datetime import datetime, timedelta
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from functions.extraccion_update import extraccion_update
-from functions.limpieza import limpieza_balance, limpieza_demanda, limpieza_generacion, limpieza_fronteras
-# from scripts.carga import upload_data
-from functions.db_connect import db_connect
-from functions.last_date import get_last_date
+from utils.extraccion_update import extraccion_update
+from utils.limpieza import limpieza_balance, limpieza_demanda, limpieza_generacion, limpieza_fronteras
+from utils.carga import carga_de_datos
+from utils.db_connect import db_connect
+from utils.last_date import get_last_date
 
 
 def actualizacion_general():
@@ -63,8 +63,8 @@ def actualizacion_general():
         except Exception as e:
             print(f"Error limpiando los datos de demanda: {e}")
 
-        carga_de_datos = carga_de_datos(df_balance_limpio, df_generacion_limpio, df_fronteras_limpio, df_demanda_evolucion_limpio, df_ire_limpio)
-        if carga_de_datos:
+        new_data = carga_de_datos(df_balance_limpio, df_generacion_limpio, df_fronteras_limpio, df_demanda_evolucion_limpio, df_ire_limpio)
+        if new_data:
             print("Datos cargados correctamente.")
         else:
             print("Error al cargar los datos.")
@@ -72,7 +72,13 @@ def actualizacion_general():
     conn.close()
     print("Actualización completa.")
 
+    return {
+        'balance': df_balance_limpio,
+        'generacion': df_generacion_limpio,
+        'fronteras': df_fronteras_limpio,
+        'demanda_evolucion': df_demanda_evolucion_limpio,
+        'demanda_ire': df_ire_limpio
+    }
 
-if __name__ == "__main__":
-    actualizacion_general()
-    print("Conexión cerrada.")
+# if __name__ == "__main__":
+#     actualizacion_general()
