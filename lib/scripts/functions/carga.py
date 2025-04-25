@@ -7,7 +7,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import pandas as pd
 import mysql.connector
 import os
-from scripts.db_connect import db_connect
+from functions.db_connect import db_connect
 
 # %%
 def carga_de_datos(df_balance_limpio, df_generacion_limpio, df_fronteras_limpio, df_demanda_limpio, df_ire_limpio):
