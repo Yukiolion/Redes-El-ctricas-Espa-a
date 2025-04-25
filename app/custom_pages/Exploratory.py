@@ -14,9 +14,9 @@ from custom_pages.exploratory_pages.Demanda import Demanda
 from custom_pages.exploratory_pages.Generacion import Generacion
 from custom_pages.exploratory_pages.Intercambio import Intercambio
 
-
-
 def Exploratory():
+
+
 
     st.markdown('<a name="top"></a>', unsafe_allow_html=True)
 

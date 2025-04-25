@@ -10,9 +10,10 @@ from custom_pages.Exploratory import Exploratory
 from custom_pages.DL import DL
 from custom_pages.About import About
 
-
+st.set_page_config(page_title="Proyecto Red Eléctrica España", layout="wide")
 # PAGINA PRINCIPAL DEL PROYECTO(TITULO, IMAGEN Y DESCRIPCION)
 def main():
+
     st.title("Proyecto Red Eléctrica España")
 
     st.image("images/Red_Eléctrica_de_España_(logo).png", width=600)
