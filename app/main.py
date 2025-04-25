@@ -1,9 +1,4 @@
 import streamlit as st
-import plotly.express as px
-import plotly.graph_objects as go
-import numpy as np
-import pandas as pd
-import requests
 
 from custom_pages.exploratory_pages.Balance import Balance
 from custom_pages.exploratory_pages.Demanda import Demanda

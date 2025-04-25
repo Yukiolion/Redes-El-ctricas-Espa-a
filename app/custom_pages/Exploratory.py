@@ -3,8 +3,8 @@ import os
 
 # sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
 # from lib.scripts.master import actualizacion_general
-from scripts.utils.db_connect import db_connect
-from scripts.utils.download import download_balance, download_demanda, download_ire, download_generacion, download_intercambio
+from scripts.db_connect import db_connect
+from scripts.download import download_balance, download_demanda, download_ire, download_generacion, download_intercambio
 
 import streamlit as st
 
