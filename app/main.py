@@ -5,15 +5,15 @@ import numpy as np
 import pandas as pd
 import requests
 
-from pages.Balance import Balance
-from pages.Demanda import Demanda
-from pages.Generacion import Generacion
-from pages.Intercambio import Intercambio
+from custom_pages.Balance import Balance
+from custom_pages.Demanda import Demanda
+from custom_pages.Generacion import Generacion
+from custom_pages.Intercambio import Intercambio
 
-from pages.Database import Database
-from pages.Exploratory import Exploratory
-from pages.DL import DL
-from pages.About import About
+from custom_pages.Database import Database
+from custom_pages.Exploratory import Exploratory
+from custom_pages.DL import DL
+from custom_pages.About import About
 
 
 # PAGINA PRINCIPAL DEL PROYECTO(TITULO, IMAGEN Y DESCRIPCION)
@@ -30,7 +30,7 @@ def main():
     # Esto es un selectbox que permite seleccionar entre los diferentes tipos de datos que tenemos
     # y muestra una breve descripcion de cada uno de ellos
     opcion = st.selectbox('Seleccionar los datos:', 
-                                   ('Balance', 'Demanda', 'Generación', 'Intercambio'))
+                                    ('Balance', 'Demanda', 'Generación', 'Intercambio'))
     if opcion == 'Balance':
         st.info("🔄 El **balance energético** representa la diferencia entre la energía generada y la consumida.")
     elif opcion == 'Demanda':
@@ -44,7 +44,7 @@ def main():
     # Esto es un selectbox que permite seleccionar entre los diferentes tipos de datos que tenemos
     # y muestra una breve descripcion de cada uno de ellos
     opcion = st.selectbox('Fuentes de energía:', 
-                                   ('Renovables', 'No renovables', 'Otras categorias'))
+                                    ('Renovables', 'No renovables', 'Otras categorias'))
     if opcion == 'Renovables':
         st.info(
             "🌱 **Fuentes de energía renovables**\n\n"
@@ -80,10 +80,10 @@ def main():
             "- Saldo almacenamiento (puede incluir carga y entrega de baterías)\n"
             "- Carga batería (almacenamiento, no producción directa)")
 
-             
+
 st.sidebar.title('Navegación')
 pagina = st.sidebar.radio("Selecciona una página:", 
-                          ["Página principal", "Exploratory Data Analysis", "DL y Propeth", "Base de Datos", "About Us"])
+                        ["Página principal", "Exploratory Data Analysis", "DL y Propeth", "Base de Datos", "About Us"])
 
 # Página principal con tabs
 if pagina == 'Página principal':

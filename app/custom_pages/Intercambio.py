@@ -110,11 +110,11 @@ def Intercambio():
     st.plotly_chart(fig)
 
     st.write("En la gráfica de calor, vemos que las exportaciones a Andorra son bastante estables a lo largo de los años, las de "\
-             "Marruecos aumentan poco a poco progresivamente, mientras que Portugal aumentó de manera brusca. Las exportaciones a Francia son las que " \
-             "no siguen un patrón definido.")
+                "Marruecos aumentan poco a poco progresivamente, mientras que Portugal aumentó de manera brusca. Las exportaciones a Francia son las que " \
+                "no siguen un patrón definido.")
     
 
-   
+
 
     st.write("**🌍 Exportación de energía por años (Mapa coropletico)**")
 
@@ -163,7 +163,7 @@ def Intercambio():
     st.write("**🌍 Exportación de energía anual per cápita**")
 
     # Grafico de energia per capita:
-    df_energia_total = pd.read_csv('../lib/data/processed/intercambio/energia_per_capita.csv')
+    df_energia_total = pd.read_csv('../app/data/energia_per_capita.csv')
     
     fig_energia = px.line(
         df_energia_total,
