@@ -17,6 +17,9 @@ from custom_pages.exploratory_pages.Intercambio import Intercambio
 
 
 def Exploratory():
+
+    st.markdown('<a name="top"></a>', unsafe_allow_html=True)
+
     st.title("📊 Exploratory Data Analysis")
 
     conn = db_connect()
@@ -46,3 +49,29 @@ def Exploratory():
         Generacion(df_generacion)
     with tabs[3]:
         Intercambio(df_fronteras)
+
+    st.markdown("""
+    <style>
+    .inicio_pagina {
+        display: inline-block;
+        padding: 0.5em 1em;
+        margin-top: 1em;
+        background-color: #b01923;
+        color: white !important;
+        text-decoration: none !important;
+        border-radius: 10px;
+        font-weight: bold;
+        font-family: Verdana;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+    }
+    .inicio_pagina:hover {
+        background-color: #d11b27;
+    }
+    </style>
+
+    <div style="text-align: right;">
+        <a href="#top" class="inicio_pagina">⬆️ Volver al inicio</a>
+    </div>
+""", unsafe_allow_html=True)
