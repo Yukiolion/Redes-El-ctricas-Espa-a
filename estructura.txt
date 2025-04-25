@@ -43,4 +43,4 @@ REDES-EL-ECTRICAS-ESPA-A/
 │
 ├── requirements.txt       # Librerías necesarias para el proyecto
 ├── README.md              # Descripción del proyecto -----> ESTE FALTA POR ESCRIBIRLO
-├── .gitignore             # Archivos que no se deben subir al repositorio
+└── .gitignore             # Archivos que no se deben subir al repositorio
