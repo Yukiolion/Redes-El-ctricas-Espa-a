@@ -96,6 +96,8 @@ def Demanda(df_demanda, df_ire):
             "- **Ire Servicios**: Refleja el consumo eléctrico del sector servicios (oficinas, comercios, hoteles, hospitales, etc.). Puede estar influenciado " \
             "por la actividad económica y también por factores estacionales como el turismo o el clima.")
     
+    df_ire['fecha'] = pd.to_datetime(df_ire['fecha'])
+    df_ire['año'] = df_ire['fecha'].dt.year
     filtro = df_ire['indicador'].isin(['Índice general corregido', 'Índice industria corregido', 'Índice servicios corregido'])
     df_filtrado = df_ire[filtro]
     df_agrupado = df_filtrado.groupby(['año', 'indicador'])['valor'].sum().reset_index()
@@ -145,11 +147,14 @@ def Demanda(df_demanda, df_ire):
     años = [año_1, año_2]
     df_comparar = df_demanda[df_demanda['año'].isin(años)]
 
+    df_comparar['valor'] = pd.to_numeric(df_comparar['valor'], errors='coerce')
     estadisticas_por_año = []
 
     for año in años:
         valores = df_comparar[df_comparar['año'] == año]['valor']
+        st.dataframe(valores.describe())
         stats = valores.describe()
+
         media = stats['mean']
         mediana = valores.median()
         minimo = stats['min']
