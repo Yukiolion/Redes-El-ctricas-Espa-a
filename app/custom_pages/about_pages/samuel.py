@@ -3,7 +3,6 @@ import streamlit as st
 def samuel_info():
     st.title('Samuel')
 
-    # Estilo personalizado
     st.markdown("""
         <style>
         .title {
@@ -13,7 +12,7 @@ def samuel_info():
         }
         .subtitle {
             font-size: 24px;
-            color: #333;
+            color: #fafafa;
         }
         .section-title {
             font-size: 32px;
