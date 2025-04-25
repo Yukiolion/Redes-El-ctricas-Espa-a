@@ -19,28 +19,28 @@ def limpieza_balance(df_balance):
 
 
 # %%
-def limpieza_demanda(df_demanda, df_ire_general, df_ire_industria, df_ire_servicios):
-    # Asegurar que la columna fecha es tipo datetime
-    df_demanda['fecha'] = pd.to_datetime(df_demanda['fecha'], utc=True)
-    df_ire_general['fecha'] = pd.to_datetime(df_ire_general['fecha'], utc=True)
-    df_ire_industria['fecha'] = pd.to_datetime(df_ire_industria['fecha'], utc=True)
-    df_ire_servicios['fecha'] = pd.to_datetime(df_ire_servicios['fecha'], utc=True)
+def limpieza_demanda(df1_demanda, df2_demanda, df3_demanda, df4_demanda):
 
-    # Aquí puedes realizar más transformaciones si hace falta (ordenar, filtrar, renombrar, etc.)
-    df_demanda_limpio = df_demanda.copy()
+    df1_demanda['fecha'] = pd.to_datetime(df1_demanda['fecha'].astype(str).str.split(' ').str[0])
+    df2_demanda['fecha'] = pd.to_datetime(df2_demanda['fecha'].astype(str).str.split(' ').str[0])
+    df3_demanda['fecha'] = pd.to_datetime(df3_demanda['fecha'].astype(str).str.split(' ').str[0])
+    df4_demanda['fecha'] = pd.to_datetime(df4_demanda['fecha'].astype(str).str.split(' ').str[0])
+
+    df1_demanda['valor'] = df1_demanda['valor']/1e3
+
+    df1_demanda_sin_duplicados = df1_demanda.drop_duplicates(subset=['fecha', 'valor', 'indicador'])
+    df2_demanda_sin_duplicados = df2_demanda.drop_duplicates(subset=['fecha', 'valor', 'porcentaje', 'indicador'])
+    df3_demanda_sin_duplicados = df3_demanda.drop_duplicates(subset=['fecha', 'valor', 'porcentaje', 'indicador'])
+    df4_demanda_sin_duplicados = df4_demanda.drop_duplicates(subset=['fecha', 'valor', 'porcentaje', 'indicador'])
     
-    # Juntar IRE en uno solo
-    df_ire_limpio = pd.concat([
-        df_ire_general.assign(tipo='general'),
-        df_ire_industria.assign(tipo='industria'),
-        df_ire_servicios.assign(tipo='servicios')
-    ])
-    
+    df_ire = pd.concat([df2_demanda_sin_duplicados, df3_demanda_sin_duplicados, df4_demanda_sin_duplicados], ignore_index=True)
+
+    df_ire = df_ire[~df_ire['indicador'].isin(['Variación mensual corregida', 'Variación mensual'])]
     # Asegurar orden por fecha
-    df_demanda_limpio.sort_values('fecha', inplace=True)
-    df_ire_limpio.sort_values('fecha', inplace=True)
+    df1_demanda.sort_values('fecha', inplace=True)
+    df_ire.sort_values('fecha', inplace=True)
 
-    return df_demanda_limpio, df_ire_limpio
+    return df1_demanda, df_ire
 
 # %%
 def limpieza_generacion(df_generacion):
