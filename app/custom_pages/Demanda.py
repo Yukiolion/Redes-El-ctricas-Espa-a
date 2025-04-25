@@ -13,13 +13,8 @@ def Demanda(df_demanda, df_ire):
             " un momento o periodo específico. Es una medida de la cantidad de energía que se necesita para satisfacer " \
             " las necesidades de los usuarios, ya sean residenciales, comerciales o industriales.")
 
-    df_demanda = pd.read_csv('../lib/data/processed/demanda/demanda-limpio.csv')
-    df_ire = pd.read_csv('../lib/data/processed/demanda/ire-limpio.csv')
     df_demanda['fecha'] = pd.to_datetime(df_demanda['fecha'])
     df_demanda['año'] = df_demanda['fecha'].dt.year
-
-
-
 
     st.write("**⚡Evolución de demanda en la región peninsular**")
 
@@ -137,10 +132,6 @@ def Demanda(df_demanda, df_ire):
                 labels={'valor': 'kWh', 'indicador': 'indices'})
     st.plotly_chart(fig)
     st.write("Este gráfico muestra una visión general de los diferentes IRE a lo largo de los años.")
-
-
-
-
 
     ## Grafico para comparar dos años:
     st.write("**⚡ Comparación de la demanda eléctrica a lo largo de los años**")

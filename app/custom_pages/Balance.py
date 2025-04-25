@@ -11,7 +11,6 @@ def Balance(df_balance):
     st.title("Balance Eléctrico")
     st.write("En este apartado se representa la cantidad total de electricidad generada por todas las fuentes disponibles " \
              "en el sistema eléctrico Español a lo largo de los años.")
-    df_balance = pd.read_csv('../lib/data/processed/balance/balance-electrico-limpio.csv')
 
     st.write("**🔄 Evolución del balance a lo largo de los años**")
 
@@ -88,6 +87,7 @@ def Balance(df_balance):
     df_filtrado = df_balance[df_balance['año'] == año]
     
     # Calculo quantiles:
+    df_filtrado['valor'] = df_filtrado['valor'].astype(float)
     q1 = df_filtrado['valor'].quantile(0.25)
     q3 = df_filtrado['valor'].quantile(0.75)
     iqr = q3 - q1
