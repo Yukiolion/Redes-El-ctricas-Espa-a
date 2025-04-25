@@ -1,7 +1,7 @@
 import sys
 import os
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
+# sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
 # from lib.scripts.master import actualizacion_general
 from lib.scripts.utils.db_connect import db_connect
 from lib.scripts.utils.download import download_balance, download_demanda, download_ire, download_generacion, download_intercambio
@@ -9,10 +9,10 @@ from lib.scripts.utils.download import download_balance, download_demanda, downl
 import streamlit as st
 
 
-from custom_pages.Balance import Balance
-from custom_pages.Demanda import Demanda
-from custom_pages.Generacion import Generacion
-from custom_pages.Intercambio import Intercambio
+from app.custom_pages.exploratory_pages.Balance import Balance
+from app.custom_pages.exploratory_pages.Demanda import Demanda
+from app.custom_pages.exploratory_pages.Generacion import Generacion
+from app.custom_pages.exploratory_pages.Intercambio import Intercambio
 
 
 

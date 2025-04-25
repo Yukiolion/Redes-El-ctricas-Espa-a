@@ -1,10 +1,15 @@
 import streamlit as st
 
-import plotly.express as px
-import plotly.graph_objects as go
-import numpy as np
-import pandas as pd
-import requests
+from custom_pages.dl_pages.gru import gru
+from custom_pages.dl_pages.prophet import prophet
+from custom_pages.dl_pages.rnn import rnn
 
 def DL():
-    st.write("xxxx")
+    tabs = st.tabs(["GRU", "Prophet", "RNN"])
+
+    with tabs[0]:
+        gru()
+    with tabs[1]:
+        prophet()
+    with tabs[2]:
+        rnn()

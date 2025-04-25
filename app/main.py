@@ -5,10 +5,10 @@ import numpy as np
 import pandas as pd
 import requests
 
-from custom_pages.Balance import Balance
-from custom_pages.Demanda import Demanda
-from custom_pages.Generacion import Generacion
-from custom_pages.Intercambio import Intercambio
+from app.custom_pages.exploratory_pages.Balance import Balance
+from app.custom_pages.exploratory_pages.Demanda import Demanda
+from app.custom_pages.exploratory_pages.Generacion import Generacion
+from app.custom_pages.exploratory_pages.Intercambio import Intercambio
 
 from custom_pages.Database import Database
 from custom_pages.Exploratory import Exploratory
