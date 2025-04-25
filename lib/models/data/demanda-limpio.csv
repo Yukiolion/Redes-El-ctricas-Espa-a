@@ -1,0 +1,3769 @@
+fecha,valor,indicador,region
+2014-12-31,603.9614740000001,Demanda,peninsular
+2015-01-01,715.038679,Demanda,canarias
+2015-01-02,698.648512,Demanda,pais vasco
+2015-01-03,663.5332539999999,Demanda,la rioja
+2015-01-04,714.784323,Demanda,cantabria
+2015-01-05,640.5025899999999,Demanda,aragon
+2015-01-06,797.756388,Demanda,galicia
+2015-01-07,825.1712739999999,Demanda,baleares
+2015-01-08,814.9743249999999,Demanda,canarias
+2015-01-09,730.111554,Demanda,galicia
+2015-01-10,677.864576,Demanda,region de murcia
+2015-01-11,798.385956,Demanda,canarias
+2015-01-12,808.843601,Demanda,pais vasco
+2015-01-13,808.917954,Demanda,comunidad de navarra
+2015-01-14,805.49397,Demanda,la rioja
+2015-01-15,806.81956,Demanda,comunidad de valenciana
+2015-01-16,737.3708349999999,Demanda,peninsular
+2015-01-17,705.750634,Demanda,canarias
+2015-01-18,832.362441,Demanda,la rioja
+2015-01-19,854.993657,Demanda,ceuta
+2015-01-20,858.827193,Demanda,cataluña
+2015-01-21,852.352418,Demanda,pais vasco
+2015-01-22,840.300824,Demanda,ceuta
+2015-01-23,755.029505,Demanda,castilla la mancha
+2015-01-24,691.396043,Demanda,galicia
+2015-01-25,820.2015250000001,Demanda,comunidad de madrid
+2015-01-26,828.540004,Demanda,la rioja
+2015-01-27,822.819394,Demanda,ceuta
+2015-01-28,817.2683000000001,Demanda,galicia
+2015-01-29,800.560346,Demanda,andalucia
+2015-01-30,722.1973519999999,Demanda,la rioja
+2015-01-31,683.673435,Demanda,principado de asturias
+2015-02-01,828.262167,Demanda,cataluña
+2015-02-02,846.036506,Demanda,pais vasco
+2015-02-03,864.0741509999999,Demanda,comunidad de navarra
+2015-02-04,861.3026990000001,Demanda,cantabria
+2015-02-05,865.557073,Demanda,andalucia
+2015-02-06,788.806462,Demanda,extremadura
+2015-02-07,722.720341,Demanda,castilla y leon
+2015-02-08,848.776346,Demanda,comunidad de valenciana
+2015-02-09,855.151057,Demanda,galicia
+2015-02-10,844.145344,Demanda,castilla la mancha
+2015-02-11,837.363267,Demanda,castilla la mancha
+2015-02-12,815.588837,Demanda,comunidad de madrid
+2015-02-13,731.921206,Demanda,comunidad de valenciana
+2015-02-14,666.364522,Demanda,melilla
+2015-02-15,781.256148,Demanda,region de murcia
+2015-02-16,808.815061,Demanda,comunidad de navarra
+2015-02-17,805.298458,Demanda,ceuta
+2015-02-18,800.595235,Demanda,la rioja
+2015-02-19,800.551083,Demanda,principado de asturias
+2015-02-20,723.076713,Demanda,la rioja
+2015-02-21,667.165755,Demanda,baleares
+2015-02-22,785.9999,Demanda,ceuta
+2015-02-23,804.965856,Demanda,la rioja
+2015-02-24,799.9069599999999,Demanda,comunidad de navarra
+2015-02-25,785.077042,Demanda,comunidad de valenciana
+2015-02-26,767.747309,Demanda,ceuta
+2015-02-27,688.9253689999999,Demanda,principado de asturias
+2015-02-28,632.3986600000001,Demanda,galicia
+2015-03-01,740.93184,Demanda,ceuta
+2015-03-02,748.029863,Demanda,comunidad de madrid
+2015-03-03,759.198992,Demanda,ceuta
+2015-03-04,766.393373,Demanda,pais vasco
+2015-03-05,759.165523,Demanda,extremadura
+2015-03-06,672.167186,Demanda,canarias
+2015-03-07,620.213043,Demanda,galicia
+2015-03-08,735.652229,Demanda,canarias
+2015-03-09,746.131443,Demanda,extremadura
+2015-03-10,741.7470559999999,Demanda,comunidad de madrid
+2015-03-11,737.807726,Demanda,castilla y leon
+2015-03-12,742.0919769999999,Demanda,galicia
+2015-03-13,683.9333,Demanda,principado de asturias
+2015-03-14,639.038519,Demanda,pais vasco
+2015-03-15,756.961293,Demanda,la rioja
+2015-03-16,773.8813220000001,Demanda,cataluña
+2015-03-17,778.7746800000001,Demanda,cantabria
+2015-03-18,725.746383,Demanda,comunidad de madrid
+2015-03-19,748.690134,Demanda,cantabria
+2015-03-20,692.449444,Demanda,comunidad de valenciana
+2015-03-21,643.671461,Demanda,castilla la mancha
+2015-03-22,770.191421,Demanda,canarias
+2015-03-23,788.329454,Demanda,castilla y leon
+2015-03-24,783.474768,Demanda,melilla
+2015-03-25,774.783358,Demanda,cataluña
+2015-03-26,747.182605,Demanda,comunidad de valenciana
+2015-03-27,658.0089830000001,Demanda,cataluña
+2015-03-28,569.315019,Demanda,la rioja
+2015-03-29,688.471645,Demanda,la rioja
+2015-03-30,695.789839,Demanda,comunidad de valenciana
+2015-03-31,686.214746,Demanda,region de murcia
+2015-04-01,607.0055520000001,Demanda,andalucia
+2015-04-02,552.208451,Demanda,baleares
+2015-04-03,582.323752,Demanda,castilla la mancha
+2015-04-04,556.138649,Demanda,castilla la mancha
+2015-04-05,610.002313,Demanda,cantabria
+2015-04-06,691.830242,Demanda,cataluña
+2015-04-07,713.967196,Demanda,la rioja
+2015-04-08,721.5317879999999,Demanda,region de murcia
+2015-04-09,715.078518,Demanda,galicia
+2015-04-10,648.069159,Demanda,baleares
+2015-04-11,591.2302020000001,Demanda,castilla la mancha
+2015-04-12,687.0322090000001,Demanda,comunidad de valenciana
+2015-04-13,705.415927,Demanda,principado de asturias
+2015-04-14,715.115209,Demanda,comunidad de navarra
+2015-04-15,715.549262,Demanda,ceuta
+2015-04-16,706.7996909999999,Demanda,extremadura
+2015-04-17,634.399738,Demanda,galicia
+2015-04-18,582.136363,Demanda,cataluña
+2015-04-19,687.436748,Demanda,galicia
+2015-04-20,701.522293,Demanda,region de murcia
+2015-04-21,699.561995,Demanda,cataluña
+2015-04-22,687.646922,Demanda,aragon
+2015-04-23,692.39706,Demanda,comunidad de valenciana
+2015-04-24,634.9237469999999,Demanda,peninsular
+2015-04-25,587.983225,Demanda,aragon
+2015-04-26,692.629422,Demanda,galicia
+2015-04-27,700.042293,Demanda,castilla la mancha
+2015-04-28,703.500731,Demanda,andalucia
+2015-04-29,704.052471,Demanda,comunidad de navarra
+2015-04-30,578.718608,Demanda,canarias
+2015-05-01,600.61852,Demanda,la rioja
+2015-05-02,579.556659,Demanda,peninsular
+2015-05-03,696.814532,Demanda,la rioja
+2015-05-04,712.692424,Demanda,comunidad de valenciana
+2015-05-05,709.631066,Demanda,castilla la mancha
+2015-05-06,709.582216,Demanda,principado de asturias
+2015-05-07,713.3946609999999,Demanda,andalucia
+2015-05-08,645.3429179999999,Demanda,ceuta
+2015-05-09,592.540844,Demanda,region de murcia
+2015-05-10,708.2055720000001,Demanda,cantabria
+2015-05-11,733.578843,Demanda,andalucia
+2015-05-12,744.739728,Demanda,aragon
+2015-05-13,759.6923270000001,Demanda,castilla y leon
+2015-05-14,715.045092,Demanda,pais vasco
+2015-05-15,648.700189,Demanda,castilla y leon
+2015-05-16,596.7282879999999,Demanda,galicia
+2015-05-17,712.9105069999999,Demanda,aragon
+2015-05-18,725.028289,Demanda,ceuta
+2015-05-19,709.0207340000001,Demanda,aragon
+2015-05-20,704.1453469999999,Demanda,castilla y leon
+2015-05-21,703.305968,Demanda,extremadura
+2015-05-22,638.600423,Demanda,cataluña
+2015-05-23,580.677024,Demanda,la rioja
+2015-05-24,690.496615,Demanda,castilla la mancha
+2015-05-25,711.0598170000001,Demanda,comunidad de madrid
+2015-05-26,718.112337,Demanda,galicia
+2015-05-27,727.1697730000001,Demanda,la rioja
+2015-05-28,718.6258819999999,Demanda,comunidad de madrid
+2015-05-29,646.3739129999999,Demanda,andalucia
+2015-05-30,593.3329590000001,Demanda,extremadura
+2015-05-31,706.5871559999999,Demanda,la rioja
+2015-06-01,738.775926,Demanda,baleares
+2015-06-02,747.469967,Demanda,region de murcia
+2015-06-03,730.593034,Demanda,comunidad de valenciana
+2015-06-04,742.351461,Demanda,andalucia
+2015-06-05,678.371769,Demanda,castilla y leon
+2015-06-06,620.985501,Demanda,aragon
+2015-06-07,745.772122,Demanda,extremadura
+2015-06-08,757.9722360000001,Demanda,canarias
+2015-06-09,757.784264,Demanda,castilla y leon
+2015-06-10,743.655657,Demanda,baleares
+2015-06-11,726.7833390000001,Demanda,comunidad de navarra
+2015-06-12,649.586247,Demanda,andalucia
+2015-06-13,589.719277,Demanda,castilla la mancha
+2015-06-14,700.468742,Demanda,comunidad de navarra
+2015-06-15,708.04332,Demanda,extremadura
+2015-06-16,718.026337,Demanda,comunidad de madrid
+2015-06-17,728.234631,Demanda,la rioja
+2015-06-18,739.8704710000001,Demanda,principado de asturias
+2015-06-19,677.987663,Demanda,ceuta
+2015-06-20,623.496304,Demanda,ceuta
+2015-06-21,746.9783050000001,Demanda,la rioja
+2015-06-22,749.632438,Demanda,ceuta
+2015-06-23,709.073974,Demanda,canarias
+2015-06-24,756.207487,Demanda,extremadura
+2015-06-25,773.092054,Demanda,aragon
+2015-06-26,718.758663,Demanda,canarias
+2015-06-27,668.290933,Demanda,comunidad de valenciana
+2015-06-28,802.343029,Demanda,region de murcia
+2015-06-29,825.913225,Demanda,pais vasco
+2015-06-30,818.1658199999999,Demanda,ceuta
+2015-07-01,807.298837,Demanda,cataluña
+2015-07-02,813.047623,Demanda,comunidad de navarra
+2015-07-03,735.000465,Demanda,comunidad de valenciana
+2015-07-04,690.986862,Demanda,cataluña
+2015-07-05,833.841194,Demanda,peninsular
+2015-07-06,866.486534,Demanda,aragon
+2015-07-07,861.343857,Demanda,comunidad de valenciana
+2015-07-08,842.680316,Demanda,castilla la mancha
+2015-07-09,830.759229,Demanda,melilla
+2015-07-10,740.5086409999999,Demanda,ceuta
+2015-07-11,681.004161,Demanda,andalucia
+2015-07-12,824.91433,Demanda,pais vasco
+2015-07-13,849.611333,Demanda,peninsular
+2015-07-14,854.102621,Demanda,region de murcia
+2015-07-15,852.06323,Demanda,comunidad de madrid
+2015-07-16,849.281647,Demanda,canarias
+2015-07-17,753.322967,Demanda,pais vasco
+2015-07-18,684.999194,Demanda,melilla
+2015-07-19,841.224942,Demanda,baleares
+2015-07-20,865.146926,Demanda,pais vasco
+2015-07-21,856.068072,Demanda,region de murcia
+2015-07-22,851.9794449999999,Demanda,pais vasco
+2015-07-23,843.688292,Demanda,ceuta
+2015-07-24,730.897456,Demanda,castilla y leon
+2015-07-25,673.201906,Demanda,comunidad de valenciana
+2015-07-26,816.558257,Demanda,comunidad de madrid
+2015-07-27,833.869765,Demanda,pais vasco
+2015-07-28,844.7230010000001,Demanda,aragon
+2015-07-29,819.958886,Demanda,galicia
+2015-07-30,779.003323,Demanda,la rioja
+2015-07-31,680.361086,Demanda,andalucia
+2015-08-01,635.7962610000001,Demanda,castilla la mancha
+2015-08-02,774.254262,Demanda,aragon
+2015-08-03,786.083344,Demanda,principado de asturias
+2015-08-04,794.417385,Demanda,castilla y leon
+2015-08-05,793.6882169999999,Demanda,pais vasco
+2015-08-06,801.217924,Demanda,principado de asturias
+2015-08-07,711.36327,Demanda,galicia
+2015-08-08,636.476179,Demanda,melilla
+2015-08-09,744.3641230000001,Demanda,baleares
+2015-08-10,762.740052,Demanda,andalucia
+2015-08-11,767.7219399999999,Demanda,principado de asturias
+2015-08-12,753.532812,Demanda,comunidad de madrid
+2015-08-13,713.3190010000001,Demanda,la rioja
+2015-08-14,621.537814,Demanda,cantabria
+2015-08-15,594.5353789999999,Demanda,castilla y leon
+2015-08-16,697.936416,Demanda,region de murcia
+2015-08-17,706.652476,Demanda,castilla la mancha
+2015-08-18,709.229608,Demanda,pais vasco
+2015-08-19,731.671914,Demanda,cantabria
+2015-08-20,745.031982,Demanda,comunidad de madrid
+2015-08-21,675.418314,Demanda,baleares
+2015-08-22,614.465919,Demanda,cataluña
+2015-08-23,710.603426,Demanda,cataluña
+2015-08-24,735.562748,Demanda,andalucia
+2015-08-25,752.911303,Demanda,cantabria
+2015-08-26,764.243524,Demanda,peninsular
+2015-08-27,768.62278,Demanda,andalucia
+2015-08-28,700.909286,Demanda,castilla la mancha
+2015-08-29,653.032965,Demanda,region de murcia
+2015-08-30,782.342091,Demanda,principado de asturias
+2015-08-31,781.6004810000001,Demanda,aragon
+2015-09-01,773.1379549999999,Demanda,extremadura
+2015-09-02,755.240694,Demanda,ceuta
+2015-09-03,732.691965,Demanda,principado de asturias
+2015-09-04,645.7949980000001,Demanda,region de murcia
+2015-09-05,591.063167,Demanda,comunidad de navarra
+2015-09-06,699.849007,Demanda,galicia
+2015-09-07,702.432005,Demanda,pais vasco
+2015-09-08,722.409942,Demanda,la rioja
+2015-09-09,728.505804,Demanda,cantabria
+2015-09-10,701.6230899999999,Demanda,comunidad de valenciana
+2015-09-11,652.086767,Demanda,pais vasco
+2015-09-12,599.682057,Demanda,comunidad de valenciana
+2015-09-13,703.99829,Demanda,comunidad de navarra
+2015-09-14,721.88188,Demanda,galicia
+2015-09-15,731.46857,Demanda,aragon
+2015-09-16,716.961823,Demanda,region de murcia
+2015-09-17,709.6246189999999,Demanda,extremadura
+2015-09-18,641.7029279999999,Demanda,castilla la mancha
+2015-09-19,590.65805,Demanda,canarias
+2015-09-20,709.595849,Demanda,extremadura
+2015-09-21,729.2472439999999,Demanda,canarias
+2015-09-22,725.527873,Demanda,principado de asturias
+2015-09-23,716.0226389999999,Demanda,comunidad de madrid
+2015-09-24,713.482173,Demanda,melilla
+2015-09-25,641.495081,Demanda,comunidad de valenciana
+2015-09-26,588.066446,Demanda,andalucia
+2015-09-27,699.25072,Demanda,ceuta
+2015-09-28,712.3067120000001,Demanda,galicia
+2015-09-29,709.9382979999999,Demanda,peninsular
+2015-09-30,710.3403619999999,Demanda,region de murcia
+2015-10-01,710.143781,Demanda,ceuta
+2015-10-02,637.119214,Demanda,principado de asturias
+2015-10-03,591.918854,Demanda,canarias
+2015-10-04,714.002393,Demanda,comunidad de navarra
+2015-10-05,721.391469,Demanda,baleares
+2015-10-06,712.141884,Demanda,canarias
+2015-10-07,708.634682,Demanda,castilla la mancha
+2015-10-08,689.071367,Demanda,comunidad de navarra
+2015-10-09,624.383868,Demanda,cataluña
+2015-10-10,577.053306,Demanda,extremadura
+2015-10-11,591.151662,Demanda,galicia
+2015-10-12,693.736095,Demanda,ceuta
+2015-10-13,702.3269429999999,Demanda,castilla la mancha
+2015-10-14,701.62947,Demanda,cantabria
+2015-10-15,702.415798,Demanda,peninsular
+2015-10-16,634.734343,Demanda,comunidad de madrid
+2015-10-17,585.8550919999999,Demanda,peninsular
+2015-10-18,701.795134,Demanda,region de murcia
+2015-10-19,714.1505060000001,Demanda,aragon
+2015-10-20,708.0635100000001,Demanda,region de murcia
+2015-10-21,706.492648,Demanda,comunidad de navarra
+2015-10-22,705.365625,Demanda,comunidad de valenciana
+2015-10-23,632.451637,Demanda,baleares
+2015-10-24,606.24824,Demanda,region de murcia
+2015-10-25,698.714377,Demanda,melilla
+2015-10-26,714.045704,Demanda,castilla y leon
+2015-10-27,712.96878,Demanda,la rioja
+2015-10-28,713.79741,Demanda,cantabria
+2015-10-29,705.3474259999999,Demanda,principado de asturias
+2015-10-30,631.421414,Demanda,la rioja
+2015-10-31,577.4437780000001,Demanda,peninsular
+2015-11-01,662.810755,Demanda,comunidad de navarra
+2015-11-02,713.156063,Demanda,ceuta
+2015-11-03,717.8480470000001,Demanda,ceuta
+2015-11-04,712.96618,Demanda,comunidad de madrid
+2015-11-05,709.440852,Demanda,la rioja
+2015-11-06,631.2901139999999,Demanda,la rioja
+2015-11-07,580.7300600000001,Demanda,canarias
+2015-11-08,682.737263,Demanda,castilla la mancha
+2015-11-09,708.2844379999999,Demanda,pais vasco
+2015-11-10,712.1599229999999,Demanda,comunidad de navarra
+2015-11-11,714.7825969999999,Demanda,canarias
+2015-11-12,714.253807,Demanda,la rioja
+2015-11-13,635.005213,Demanda,cantabria
+2015-11-14,590.681619,Demanda,castilla la mancha
+2015-11-15,710.388594,Demanda,castilla la mancha
+2015-11-16,732.3219,Demanda,la rioja
+2015-11-17,734.600621,Demanda,ceuta
+2015-11-18,729.8654769999999,Demanda,pais vasco
+2015-11-19,727.648544,Demanda,principado de asturias
+2015-11-20,658.982079,Demanda,principado de asturias
+2015-11-21,621.390199,Demanda,castilla la mancha
+2015-11-22,761.047095,Demanda,comunidad de navarra
+2015-11-23,792.6671530000001,Demanda,castilla la mancha
+2015-11-24,786.283895,Demanda,peninsular
+2015-11-25,777.027662,Demanda,castilla y leon
+2015-11-26,765.60174,Demanda,la rioja
+2015-11-27,688.310998,Demanda,baleares
+2015-11-28,640.782551,Demanda,comunidad de valenciana
+2015-11-29,771.6096289999999,Demanda,extremadura
+2015-11-30,790.099773,Demanda,castilla y leon
+2015-12-01,791.699766,Demanda,castilla la mancha
+2015-12-02,783.002667,Demanda,melilla
+2015-12-03,771.917122,Demanda,peninsular
+2015-12-04,695.778905,Demanda,region de murcia
+2015-12-05,640.414626,Demanda,ceuta
+2015-12-06,677.337078,Demanda,comunidad de valenciana
+2015-12-07,648.1868320000001,Demanda,ceuta
+2015-12-08,756.864691,Demanda,castilla y leon
+2015-12-09,773.3000400000001,Demanda,la rioja
+2015-12-10,773.033866,Demanda,la rioja
+2015-12-11,701.968104,Demanda,castilla y leon
+2015-12-12,657.0193760000001,Demanda,cataluña
+2015-12-13,776.425684,Demanda,aragon
+2015-12-14,780.96344,Demanda,peninsular
+2015-12-15,772.292239,Demanda,principado de asturias
+2015-12-16,770.585858,Demanda,cataluña
+2015-12-17,755.42725,Demanda,aragon
+2015-12-18,688.717004,Demanda,principado de asturias
+2015-12-19,640.402405,Demanda,castilla y leon
+2015-12-20,744.705501,Demanda,comunidad de navarra
+2015-12-21,753.394497,Demanda,melilla
+2015-12-22,737.1457240000001,Demanda,principado de asturias
+2015-12-23,649.6219470000001,Demanda,andalucia
+2015-12-24,552.928567,Demanda,cantabria
+2015-12-25,609.6713739999999,Demanda,castilla la mancha
+2015-12-26,607.4234939999999,Demanda,la rioja
+2015-12-27,691.856429,Demanda,comunidad de madrid
+2015-12-28,688.847584,Demanda,castilla y leon
+2015-12-29,686.4696670000001,Demanda,region de murcia
+2015-12-30,635.2323170000001,Demanda,castilla la mancha
+2015-12-31,549.334251,Demanda,galicia
+2016-01-01,614.370924,Demanda,galicia
+2016-01-02,619.728026,Demanda,region de murcia
+2016-01-03,704.966605,Demanda,galicia
+2016-01-04,701.386909,Demanda,region de murcia
+2016-01-05,619.9940740000001,Demanda,baleares
+2016-01-06,749.294848,Demanda,pais vasco
+2016-01-07,750.1602780000001,Demanda,galicia
+2016-01-08,685.1003370000001,Demanda,melilla
+2016-01-09,648.714619,Demanda,principado de asturias
+2016-01-10,761.50475,Demanda,comunidad de navarra
+2016-01-11,778.891307,Demanda,cataluña
+2016-01-12,795.087713,Demanda,extremadura
+2016-01-13,802.4273959999999,Demanda,la rioja
+2016-01-14,796.8462099999999,Demanda,baleares
+2016-01-15,726.14103,Demanda,pais vasco
+2016-01-16,690.103083,Demanda,canarias
+2016-01-17,809.652278,Demanda,comunidad de valenciana
+2016-01-18,817.453121,Demanda,aragon
+2016-01-19,812.592743,Demanda,la rioja
+2016-01-20,810.913591,Demanda,aragon
+2016-01-21,797.248912,Demanda,peninsular
+2016-01-22,704.7744449999999,Demanda,comunidad de navarra
+2016-01-23,649.539394,Demanda,castilla la mancha
+2016-01-24,764.5308190000001,Demanda,principado de asturias
+2016-01-25,783.129126,Demanda,galicia
+2016-01-26,782.454402,Demanda,castilla la mancha
+2016-01-27,781.220285,Demanda,region de murcia
+2016-01-28,776.149051,Demanda,andalucia
+2016-01-29,701.070736,Demanda,comunidad de valenciana
+2016-01-30,648.243321,Demanda,peninsular
+2016-01-31,755.604833,Demanda,castilla y leon
+2016-02-01,771.162157,Demanda,region de murcia
+2016-02-02,774.920755,Demanda,comunidad de navarra
+2016-02-03,779.6363349999999,Demanda,andalucia
+2016-02-04,778.4404000000001,Demanda,aragon
+2016-02-05,708.475865,Demanda,principado de asturias
+2016-02-06,654.892273,Demanda,comunidad de navarra
+2016-02-07,764.576899,Demanda,baleares
+2016-02-08,776.2964000000001,Demanda,principado de asturias
+2016-02-09,779.057216,Demanda,melilla
+2016-02-10,770.145265,Demanda,extremadura
+2016-02-11,772.155474,Demanda,castilla y leon
+2016-02-12,694.719829,Demanda,andalucia
+2016-02-13,648.9842610000001,Demanda,melilla
+2016-02-14,783.87449,Demanda,comunidad de navarra
+2016-02-15,804.822875,Demanda,galicia
+2016-02-16,819.6177809999999,Demanda,comunidad de madrid
+2016-02-17,823.8913220000001,Demanda,aragon
+2016-02-18,809.709545,Demanda,la rioja
+2016-02-19,719.8905820000001,Demanda,melilla
+2016-02-20,661.9953909999999,Demanda,comunidad de navarra
+2016-02-21,769.23613,Demanda,cantabria
+2016-02-22,775.844287,Demanda,comunidad de valenciana
+2016-02-23,782.909849,Demanda,peninsular
+2016-02-24,773.022654,Demanda,comunidad de madrid
+2016-02-25,787.433867,Demanda,comunidad de madrid
+2016-02-26,730.65205,Demanda,comunidad de navarra
+2016-02-27,671.872845,Demanda,melilla
+2016-02-28,766.5647879999999,Demanda,la rioja
+2016-02-29,782.435271,Demanda,cantabria
+2016-03-01,780.440745,Demanda,aragon
+2016-03-02,776.053071,Demanda,canarias
+2016-03-03,776.287283,Demanda,extremadura
+2016-03-04,701.814836,Demanda,aragon
+2016-03-05,657.322151,Demanda,pais vasco
+2016-03-06,797.057198,Demanda,andalucia
+2016-03-07,800.6209640000001,Demanda,pais vasco
+2016-03-08,813.456131,Demanda,aragon
+2016-03-09,806.943774,Demanda,comunidad de navarra
+2016-03-10,790.478931,Demanda,comunidad de valenciana
+2016-03-11,707.083567,Demanda,pais vasco
+2016-03-12,655.003476,Demanda,principado de asturias
+2016-03-13,780.217235,Demanda,aragon
+2016-03-14,792.7561019999999,Demanda,pais vasco
+2016-03-15,788.1276770000001,Demanda,castilla la mancha
+2016-03-16,785.9519200000001,Demanda,comunidad de valenciana
+2016-03-17,776.984922,Demanda,canarias
+2016-03-18,695.0029949999999,Demanda,andalucia
+2016-03-19,644.667695,Demanda,region de murcia
+2016-03-20,758.215411,Demanda,la rioja
+2016-03-21,758.874659,Demanda,canarias
+2016-03-22,742.133988,Demanda,galicia
+2016-03-23,645.171744,Demanda,comunidad de navarra
+2016-03-24,601.008215,Demanda,aragon
+2016-03-25,622.0664840000001,Demanda,comunidad de navarra
+2016-03-26,563.666749,Demanda,ceuta
+2016-03-27,652.080331,Demanda,melilla
+2016-03-28,717.4093519999999,Demanda,castilla y leon
+2016-03-29,722.449298,Demanda,andalucia
+2016-03-30,737.9271729999999,Demanda,castilla la mancha
+2016-03-31,741.45889,Demanda,comunidad de madrid
+2016-04-01,672.6552399999999,Demanda,castilla la mancha
+2016-04-02,629.0694,Demanda,castilla la mancha
+2016-04-03,744.085306,Demanda,comunidad de navarra
+2016-04-04,760.497377,Demanda,galicia
+2016-04-05,745.920411,Demanda,aragon
+2016-04-06,738.810264,Demanda,andalucia
+2016-04-07,741.0918469999999,Demanda,baleares
+2016-04-08,663.840188,Demanda,comunidad de madrid
+2016-04-09,618.58905,Demanda,ceuta
+2016-04-10,733.820471,Demanda,extremadura
+2016-04-11,749.723748,Demanda,canarias
+2016-04-12,737.981093,Demanda,comunidad de navarra
+2016-04-13,734.6560400000001,Demanda,melilla
+2016-04-14,725.628052,Demanda,pais vasco
+2016-04-15,656.666187,Demanda,andalucia
+2016-04-16,600.865508,Demanda,comunidad de madrid
+2016-04-17,708.7286439999999,Demanda,canarias
+2016-04-18,730.8796169999999,Demanda,pais vasco
+2016-04-19,734.992037,Demanda,andalucia
+2016-04-20,725.975418,Demanda,ceuta
+2016-04-21,718.425772,Demanda,ceuta
+2016-04-22,639.355867,Demanda,la rioja
+2016-04-23,588.25841,Demanda,melilla
+2016-04-24,696.704796,Demanda,la rioja
+2016-04-25,710.8696580000001,Demanda,region de murcia
+2016-04-26,717.645536,Demanda,canarias
+2016-04-27,717.950891,Demanda,galicia
+2016-04-28,713.568969,Demanda,ceuta
+2016-04-29,637.483106,Demanda,aragon
+2016-04-30,563.400989,Demanda,aragon
+2016-05-01,643.269665,Demanda,comunidad de madrid
+2016-05-02,700.908897,Demanda,comunidad de navarra
+2016-05-03,706.336716,Demanda,peninsular
+2016-05-04,709.504363,Demanda,region de murcia
+2016-05-05,710.2290849999999,Demanda,cataluña
+2016-05-06,639.2343549999999,Demanda,ceuta
+2016-05-07,593.675127,Demanda,pais vasco
+2016-05-08,705.1323199999999,Demanda,comunidad de valenciana
+2016-05-09,720.107983,Demanda,la rioja
+2016-05-10,718.238093,Demanda,castilla y leon
+2016-05-11,717.601264,Demanda,comunidad de madrid
+2016-05-12,711.5520919999999,Demanda,galicia
+2016-05-13,635.3503639999999,Demanda,aragon
+2016-05-14,579.221135,Demanda,melilla
+2016-05-15,650.838585,Demanda,la rioja
+2016-05-16,692.297232,Demanda,cantabria
+2016-05-17,707.38595,Demanda,comunidad de valenciana
+2016-05-18,706.5834080000001,Demanda,canarias
+2016-05-19,707.601689,Demanda,castilla la mancha
+2016-05-20,641.3447140000001,Demanda,comunidad de navarra
+2016-05-21,589.691238,Demanda,melilla
+2016-05-22,688.90512,Demanda,comunidad de navarra
+2016-05-23,706.6043090000001,Demanda,baleares
+2016-05-24,712.517096,Demanda,galicia
+2016-05-25,709.833502,Demanda,canarias
+2016-05-26,709.426086,Demanda,principado de asturias
+2016-05-27,641.484124,Demanda,cantabria
+2016-05-28,584.0349209999999,Demanda,comunidad de madrid
+2016-05-29,687.161189,Demanda,cantabria
+2016-05-30,704.587279,Demanda,baleares
+2016-05-31,709.821213,Demanda,galicia
+2016-06-01,714.2238199999999,Demanda,galicia
+2016-06-02,716.319971,Demanda,pais vasco
+2016-06-03,646.944397,Demanda,pais vasco
+2016-06-04,597.0533,Demanda,comunidad de madrid
+2016-06-05,713.229237,Demanda,andalucia
+2016-06-06,742.877039,Demanda,peninsular
+2016-06-07,757.700186,Demanda,comunidad de valenciana
+2016-06-08,768.283205,Demanda,canarias
+2016-06-09,757.204213,Demanda,comunidad de valenciana
+2016-06-10,673.474394,Demanda,melilla
+2016-06-11,618.100688,Demanda,comunidad de madrid
+2016-06-12,757.302953,Demanda,pais vasco
+2016-06-13,769.25656,Demanda,castilla la mancha
+2016-06-14,756.149223,Demanda,region de murcia
+2016-06-15,719.361642,Demanda,baleares
+2016-06-16,713.638415,Demanda,comunidad de navarra
+2016-06-17,653.385417,Demanda,region de murcia
+2016-06-18,601.7057070000001,Demanda,cataluña
+2016-06-19,717.719773,Demanda,ceuta
+2016-06-20,748.6390359999999,Demanda,cantabria
+2016-06-21,758.119967,Demanda,baleares
+2016-06-22,754.4543120000001,Demanda,aragon
+2016-06-23,718.6492290000001,Demanda,region de murcia
+2016-06-24,685.908782,Demanda,region de murcia
+2016-06-25,625.08091,Demanda,comunidad de navarra
+2016-06-26,751.3537120000001,Demanda,extremadura
+2016-06-27,778.861467,Demanda,cataluña
+2016-06-28,780.388228,Demanda,la rioja
+2016-06-29,785.07865,Demanda,galicia
+2016-06-30,780.8376380000001,Demanda,andalucia
+2016-07-01,706.129917,Demanda,melilla
+2016-07-02,656.564101,Demanda,castilla y leon
+2016-07-03,773.366894,Demanda,pais vasco
+2016-07-04,799.50567,Demanda,principado de asturias
+2016-07-05,804.016097,Demanda,la rioja
+2016-07-06,791.60863,Demanda,melilla
+2016-07-07,800.680755,Demanda,principado de asturias
+2016-07-08,732.130485,Demanda,comunidad de valenciana
+2016-07-09,681.645652,Demanda,melilla
+2016-07-10,819.6841850000001,Demanda,la rioja
+2016-07-11,820.24674,Demanda,comunidad de madrid
+2016-07-12,791.222123,Demanda,andalucia
+2016-07-13,775.029946,Demanda,principado de asturias
+2016-07-14,764.830789,Demanda,canarias
+2016-07-15,693.162532,Demanda,aragon
+2016-07-16,641.482386,Demanda,aragon
+2016-07-17,779.960407,Demanda,peninsular
+2016-07-18,806.888322,Demanda,cataluña
+2016-07-19,822.375658,Demanda,cataluña
+2016-07-20,823.543175,Demanda,cataluña
+2016-07-21,800.629932,Demanda,galicia
+2016-07-22,704.385142,Demanda,peninsular
+2016-07-23,647.5200550000001,Demanda,cantabria
+2016-07-24,752.032203,Demanda,galicia
+2016-07-25,818.352397,Demanda,comunidad de valenciana
+2016-07-26,822.44975,Demanda,la rioja
+2016-07-27,820.121774,Demanda,andalucia
+2016-07-28,815.377908,Demanda,galicia
+2016-07-29,732.7183,Demanda,extremadura
+2016-07-30,664.77094,Demanda,la rioja
+2016-07-31,777.384598,Demanda,principado de asturias
+2016-08-01,795.3944329999999,Demanda,canarias
+2016-08-02,803.662631,Demanda,aragon
+2016-08-03,804.104371,Demanda,peninsular
+2016-08-04,784.604624,Demanda,aragon
+2016-08-05,697.9861999999999,Demanda,pais vasco
+2016-08-06,643.890722,Demanda,peninsular
+2016-08-07,751.791103,Demanda,cantabria
+2016-08-08,762.030919,Demanda,cantabria
+2016-08-09,733.011752,Demanda,melilla
+2016-08-10,727.538224,Demanda,cataluña
+2016-08-11,730.090998,Demanda,canarias
+2016-08-12,669.4867830000001,Demanda,baleares
+2016-08-13,618.083966,Demanda,ceuta
+2016-08-14,634.293631,Demanda,castilla la mancha
+2016-08-15,725.863746,Demanda,castilla y leon
+2016-08-16,742.2688499999999,Demanda,comunidad de madrid
+2016-08-17,753.826937,Demanda,la rioja
+2016-08-18,759.782417,Demanda,comunidad de madrid
+2016-08-19,703.791583,Demanda,baleares
+2016-08-20,641.309798,Demanda,peninsular
+2016-08-21,762.760617,Demanda,region de murcia
+2016-08-22,783.001233,Demanda,pais vasco
+2016-08-23,780.686398,Demanda,extremadura
+2016-08-24,773.7092210000001,Demanda,region de murcia
+2016-08-25,773.725147,Demanda,andalucia
+2016-08-26,707.641549,Demanda,cantabria
+2016-08-27,667.416359,Demanda,ceuta
+2016-08-28,796.215291,Demanda,comunidad de navarra
+2016-08-29,800.5025579999999,Demanda,cataluña
+2016-08-30,801.02291,Demanda,castilla y leon
+2016-08-31,803.389649,Demanda,canarias
+2016-09-01,809.913744,Demanda,pais vasco
+2016-09-02,736.925654,Demanda,cataluña
+2016-09-03,694.79532,Demanda,la rioja
+2016-09-04,842.84651,Demanda,comunidad de madrid
+2016-09-05,866.776887,Demanda,cantabria
+2016-09-06,858.1460139999999,Demanda,pais vasco
+2016-09-07,807.7347659999999,Demanda,region de murcia
+2016-09-08,799.280135,Demanda,ceuta
+2016-09-09,715.18671,Demanda,andalucia
+2016-09-10,661.045075,Demanda,aragon
+2016-09-11,791.1915280000001,Demanda,cataluña
+2016-09-12,783.754966,Demanda,baleares
+2016-09-13,738.149671,Demanda,andalucia
+2016-09-14,723.97041,Demanda,region de murcia
+2016-09-15,720.649983,Demanda,principado de asturias
+2016-09-16,654.478968,Demanda,andalucia
+2016-09-17,604.760487,Demanda,pais vasco
+2016-09-18,711.885025,Demanda,castilla y leon
+2016-09-19,733.659067,Demanda,extremadura
+2016-09-20,732.473375,Demanda,extremadura
+2016-09-21,738.113746,Demanda,la rioja
+2016-09-22,731.463797,Demanda,extremadura
+2016-09-23,649.254897,Demanda,comunidad de madrid
+2016-09-24,597.556409,Demanda,la rioja
+2016-09-25,716.854246,Demanda,aragon
+2016-09-26,738.751337,Demanda,cantabria
+2016-09-27,739.398371,Demanda,extremadura
+2016-09-28,732.205833,Demanda,castilla y leon
+2016-09-29,728.2447070000001,Demanda,extremadura
+2016-09-30,651.121153,Demanda,aragon
+2016-10-01,599.3575330000001,Demanda,baleares
+2016-10-02,713.722319,Demanda,principado de asturias
+2016-10-03,736.5632049999999,Demanda,comunidad de navarra
+2016-10-04,739.209623,Demanda,pais vasco
+2016-10-05,734.532619,Demanda,peninsular
+2016-10-06,714.6612389999999,Demanda,baleares
+2016-10-07,645.857154,Demanda,cataluña
+2016-10-08,595.4502759999999,Demanda,peninsular
+2016-10-09,702.192053,Demanda,comunidad de valenciana
+2016-10-10,708.551978,Demanda,extremadura
+2016-10-11,614.952398,Demanda,ceuta
+2016-10-12,698.269323,Demanda,cataluña
+2016-10-13,700.7255,Demanda,andalucia
+2016-10-14,630.819619,Demanda,cataluña
+2016-10-15,587.220739,Demanda,comunidad de madrid
+2016-10-16,707.1236779999999,Demanda,pais vasco
+2016-10-17,725.283946,Demanda,melilla
+2016-10-18,723.8329620000001,Demanda,aragon
+2016-10-19,722.614729,Demanda,extremadura
+2016-10-20,716.440745,Demanda,cataluña
+2016-10-21,648.315218,Demanda,castilla la mancha
+2016-10-22,602.822429,Demanda,aragon
+2016-10-23,711.4989250000001,Demanda,andalucia
+2016-10-24,725.03913,Demanda,region de murcia
+2016-10-25,722.8458639999999,Demanda,ceuta
+2016-10-26,720.29362,Demanda,melilla
+2016-10-27,715.101758,Demanda,galicia
+2016-10-28,634.7606310000001,Demanda,peninsular
+2016-10-29,601.7604660000001,Demanda,baleares
+2016-10-30,641.17328,Demanda,castilla y leon
+2016-10-31,592.7009499999999,Demanda,baleares
+2016-11-01,700.034861,Demanda,cantabria
+2016-11-02,714.618903,Demanda,pais vasco
+2016-11-03,725.239796,Demanda,galicia
+2016-11-04,654.135048,Demanda,ceuta
+2016-11-05,599.7810479999999,Demanda,galicia
+2016-11-06,726.988501,Demanda,comunidad de valenciana
+2016-11-07,759.834872,Demanda,galicia
+2016-11-08,758.837182,Demanda,cataluña
+2016-11-09,760.570145,Demanda,comunidad de valenciana
+2016-11-10,754.886367,Demanda,region de murcia
+2016-11-11,676.028351,Demanda,principado de asturias
+2016-11-12,624.556818,Demanda,galicia
+2016-11-13,745.517292,Demanda,comunidad de valenciana
+2016-11-14,768.8767120000001,Demanda,cataluña
+2016-11-15,764.875128,Demanda,extremadura
+2016-11-16,763.284774,Demanda,aragon
+2016-11-17,758.921427,Demanda,comunidad de valenciana
+2016-11-18,678.258742,Demanda,region de murcia
+2016-11-19,637.187678,Demanda,melilla
+2016-11-20,753.839724,Demanda,ceuta
+2016-11-21,773.927367,Demanda,castilla y leon
+2016-11-22,780.114325,Demanda,extremadura
+2016-11-23,783.884245,Demanda,extremadura
+2016-11-24,789.820774,Demanda,andalucia
+2016-11-25,713.319307,Demanda,extremadura
+2016-11-26,658.685061,Demanda,melilla
+2016-11-27,771.003798,Demanda,castilla y leon
+2016-11-28,790.5724449999999,Demanda,extremadura
+2016-11-29,788.671898,Demanda,andalucia
+2016-11-30,785.876617,Demanda,region de murcia
+2016-12-01,777.112039,Demanda,extremadura
+2016-12-02,706.542519,Demanda,castilla la mancha
+2016-12-03,655.254736,Demanda,castilla la mancha
+2016-12-04,732.588135,Demanda,andalucia
+2016-12-05,677.3580209999999,Demanda,region de murcia
+2016-12-06,737.830564,Demanda,cantabria
+2016-12-07,666.087206,Demanda,melilla
+2016-12-08,715.348606,Demanda,melilla
+2016-12-09,675.9502,Demanda,comunidad de valenciana
+2016-12-10,645.628368,Demanda,extremadura
+2016-12-11,769.010839,Demanda,cataluña
+2016-12-12,795.442136,Demanda,castilla y leon
+2016-12-13,802.70025,Demanda,comunidad de valenciana
+2016-12-14,806.79024,Demanda,castilla y leon
+2016-12-15,801.2414399999999,Demanda,melilla
+2016-12-16,714.042418,Demanda,baleares
+2016-12-17,676.3083399999999,Demanda,peninsular
+2016-12-18,806.323246,Demanda,cataluña
+2016-12-19,810.406693,Demanda,canarias
+2016-12-20,802.393776,Demanda,galicia
+2016-12-21,789.108615,Demanda,region de murcia
+2016-12-22,750.541415,Demanda,comunidad de valenciana
+2016-12-23,648.853885,Demanda,principado de asturias
+2016-12-24,567.295699,Demanda,comunidad de madrid
+2016-12-25,623.100605,Demanda,canarias
+2016-12-26,716.94953,Demanda,pais vasco
+2016-12-27,725.000592,Demanda,comunidad de madrid
+2016-12-28,725.5991580000001,Demanda,cataluña
+2016-12-29,724.5216770000001,Demanda,region de murcia
+2016-12-30,667.164602,Demanda,ceuta
+2016-12-31,598.777485,Demanda,canarias
+2017-01-01,737.399953,Demanda,comunidad de madrid
+2017-01-02,790.1819760000001,Demanda,la rioja
+2017-01-03,787.4000209999999,Demanda,baleares
+2017-01-04,755.093902,Demanda,region de murcia
+2017-01-05,647.77164,Demanda,canarias
+2017-01-06,705.200674,Demanda,cantabria
+2017-01-07,694.0802630000001,Demanda,cantabria
+2017-01-08,821.9103299999999,Demanda,comunidad de navarra
+2017-01-09,846.224728,Demanda,pais vasco
+2017-01-10,824.245639,Demanda,comunidad de madrid
+2017-01-11,815.386868,Demanda,cataluña
+2017-01-12,811.110239,Demanda,region de murcia
+2017-01-13,747.715593,Demanda,canarias
+2017-01-14,703.889662,Demanda,andalucia
+2017-01-15,824.373113,Demanda,canarias
+2017-01-16,847.79777,Demanda,cantabria
+2017-01-17,884.98452,Demanda,castilla la mancha
+2017-01-18,888.001932,Demanda,extremadura
+2017-01-19,866.315684,Demanda,castilla la mancha
+2017-01-20,770.045766,Demanda,cantabria
+2017-01-21,712.918725,Demanda,canarias
+2017-01-22,836.8125620000001,Demanda,peninsular
+2017-01-23,843.533481,Demanda,melilla
+2017-01-24,848.770002,Demanda,principado de asturias
+2017-01-25,856.403657,Demanda,canarias
+2017-01-26,842.428081,Demanda,principado de asturias
+2017-01-27,743.67398,Demanda,pais vasco
+2017-01-28,689.5876509999999,Demanda,cantabria
+2017-01-29,798.149713,Demanda,comunidad de madrid
+2017-01-30,798.037782,Demanda,cantabria
+2017-01-31,796.445506,Demanda,principado de asturias
+2017-02-01,800.036205,Demanda,comunidad de valenciana
+2017-02-02,789.355647,Demanda,pais vasco
+2017-02-03,706.1021189999999,Demanda,baleares
+2017-02-04,659.565875,Demanda,cantabria
+2017-02-05,777.1536239999999,Demanda,canarias
+2017-02-06,783.937826,Demanda,la rioja
+2017-02-07,793.0186040000001,Demanda,principado de asturias
+2017-02-08,801.5438780000001,Demanda,castilla la mancha
+2017-02-09,810.352774,Demanda,ceuta
+2017-02-10,736.084836,Demanda,cataluña
+2017-02-11,678.862766,Demanda,comunidad de navarra
+2017-02-12,785.841799,Demanda,ceuta
+2017-02-13,788.796954,Demanda,la rioja
+2017-02-14,775.997157,Demanda,pais vasco
+2017-02-15,778.586428,Demanda,comunidad de madrid
+2017-02-16,772.1980159999999,Demanda,canarias
+2017-02-17,701.068722,Demanda,principado de asturias
+2017-02-18,650.002868,Demanda,comunidad de valenciana
+2017-02-19,763.104063,Demanda,peninsular
+2017-02-20,773.555684,Demanda,ceuta
+2017-02-21,769.927659,Demanda,baleares
+2017-02-22,774.783049,Demanda,comunidad de madrid
+2017-02-23,768.733485,Demanda,extremadura
+2017-02-24,689.257508,Demanda,melilla
+2017-02-25,639.5558179999999,Demanda,melilla
+2017-02-26,741.53072,Demanda,castilla y leon
+2017-02-27,746.0535649999999,Demanda,peninsular
+2017-02-28,759.946768,Demanda,castilla y leon
+2017-03-01,763.5698980000001,Demanda,comunidad de navarra
+2017-03-02,774.329746,Demanda,region de murcia
+2017-03-03,706.427594,Demanda,melilla
+2017-03-04,650.806971,Demanda,baleares
+2017-03-05,742.278676,Demanda,pais vasco
+2017-03-06,750.4549030000001,Demanda,aragon
+2017-03-07,738.763446,Demanda,la rioja
+2017-03-08,733.773192,Demanda,galicia
+2017-03-09,722.0613440000001,Demanda,principado de asturias
+2017-03-10,646.815723,Demanda,region de murcia
+2017-03-11,603.914043,Demanda,principado de asturias
+2017-03-12,738.362394,Demanda,ceuta
+2017-03-13,751.881092,Demanda,galicia
+2017-03-14,737.0020770000001,Demanda,cantabria
+2017-03-15,733.165208,Demanda,extremadura
+2017-03-16,725.396333,Demanda,pais vasco
+2017-03-17,647.495696,Demanda,melilla
+2017-03-18,596.769468,Demanda,castilla y leon
+2017-03-19,696.202895,Demanda,baleares
+2017-03-20,735.184495,Demanda,castilla la mancha
+2017-03-21,752.4987689999999,Demanda,comunidad de navarra
+2017-03-22,765.141794,Demanda,principado de asturias
+2017-03-23,777.112401,Demanda,castilla y leon
+2017-03-24,702.109452,Demanda,galicia
+2017-03-25,615.279047,Demanda,aragon
+2017-03-26,752.452857,Demanda,region de murcia
+2017-03-27,749.19056,Demanda,comunidad de madrid
+2017-03-28,740.4801550000001,Demanda,region de murcia
+2017-03-29,730.169661,Demanda,pais vasco
+2017-03-30,726.136892,Demanda,cantabria
+2017-03-31,660.366042,Demanda,cantabria
+2017-04-01,612.97034,Demanda,comunidad de madrid
+2017-04-02,717.88698,Demanda,comunidad de valenciana
+2017-04-03,731.511346,Demanda,cataluña
+2017-04-04,729.48328,Demanda,ceuta
+2017-04-05,726.582898,Demanda,cantabria
+2017-04-06,720.0998079999999,Demanda,la rioja
+2017-04-07,651.7386339999999,Demanda,cataluña
+2017-04-08,597.656302,Demanda,andalucia
+2017-04-09,695.538758,Demanda,comunidad de madrid
+2017-04-10,707.219894,Demanda,canarias
+2017-04-11,694.46717,Demanda,cataluña
+2017-04-12,605.880528,Demanda,castilla y leon
+2017-04-13,559.752619,Demanda,cataluña
+2017-04-14,590.162907,Demanda,ceuta
+2017-04-15,559.525843,Demanda,peninsular
+2017-04-16,616.37308,Demanda,cantabria
+2017-04-17,696.1900479999999,Demanda,galicia
+2017-04-18,716.827223,Demanda,castilla y leon
+2017-04-19,715.778602,Demanda,castilla y leon
+2017-04-20,713.856583,Demanda,castilla y leon
+2017-04-21,648.300654,Demanda,principado de asturias
+2017-04-22,593.4411829999999,Demanda,melilla
+2017-04-23,679.7099179999999,Demanda,cataluña
+2017-04-24,718.206582,Demanda,principado de asturias
+2017-04-25,727.071917,Demanda,comunidad de valenciana
+2017-04-26,736.488013,Demanda,castilla la mancha
+2017-04-27,731.294805,Demanda,comunidad de navarra
+2017-04-28,657.607178,Demanda,castilla y leon
+2017-04-29,601.945005,Demanda,castilla y leon
+2017-04-30,576.647958,Demanda,pais vasco
+2017-05-01,684.555249,Demanda,canarias
+2017-05-02,716.650525,Demanda,region de murcia
+2017-05-03,720.216639,Demanda,peninsular
+2017-05-04,717.8879440000001,Demanda,cantabria
+2017-05-05,645.258772,Demanda,ceuta
+2017-05-06,591.2912140000001,Demanda,galicia
+2017-05-07,701.8385139999999,Demanda,cataluña
+2017-05-08,719.220916,Demanda,canarias
+2017-05-09,722.3579980000001,Demanda,peninsular
+2017-05-10,720.31177,Demanda,comunidad de valenciana
+2017-05-11,713.437711,Demanda,ceuta
+2017-05-12,641.735646,Demanda,castilla y leon
+2017-05-13,588.756865,Demanda,castilla y leon
+2017-05-14,689.107047,Demanda,principado de asturias
+2017-05-15,727.065784,Demanda,ceuta
+2017-05-16,726.8688070000001,Demanda,comunidad de navarra
+2017-05-17,725.2027360000001,Demanda,aragon
+2017-05-18,710.9272149999999,Demanda,cantabria
+2017-05-19,642.947328,Demanda,melilla
+2017-05-20,595.14419,Demanda,region de murcia
+2017-05-21,707.215908,Demanda,aragon
+2017-05-22,735.713079,Demanda,canarias
+2017-05-23,744.762226,Demanda,region de murcia
+2017-05-24,753.708067,Demanda,galicia
+2017-05-25,751.8024849999999,Demanda,castilla y leon
+2017-05-26,676.432459,Demanda,principado de asturias
+2017-05-27,614.285606,Demanda,extremadura
+2017-05-28,720.3179590000001,Demanda,region de murcia
+2017-05-29,730.950193,Demanda,castilla la mancha
+2017-05-30,736.466626,Demanda,comunidad de madrid
+2017-05-31,747.51887,Demanda,principado de asturias
+2017-06-01,753.609124,Demanda,comunidad de valenciana
+2017-06-02,679.4266729999999,Demanda,aragon
+2017-06-03,611.001936,Demanda,andalucia
+2017-06-04,703.309683,Demanda,baleares
+2017-06-05,740.130509,Demanda,andalucia
+2017-06-06,749.355998,Demanda,peninsular
+2017-06-07,761.8669229999999,Demanda,principado de asturias
+2017-06-08,759.329608,Demanda,extremadura
+2017-06-09,694.435316,Demanda,la rioja
+2017-06-10,650.1920620000001,Demanda,principado de asturias
+2017-06-11,788.982005,Demanda,pais vasco
+2017-06-12,817.9848199999999,Demanda,la rioja
+2017-06-13,833.791039,Demanda,castilla la mancha
+2017-06-14,840.938662,Demanda,peninsular
+2017-06-15,843.222117,Demanda,castilla la mancha
+2017-06-16,775.071419,Demanda,comunidad de navarra
+2017-06-17,714.249156,Demanda,canarias
+2017-06-18,838.636414,Demanda,comunidad de navarra
+2017-06-19,851.662309,Demanda,galicia
+2017-06-20,854.59514,Demanda,canarias
+2017-06-21,855.949555,Demanda,castilla y leon
+2017-06-22,835.3527349999999,Demanda,cantabria
+2017-06-23,748.1477389999999,Demanda,baleares
+2017-06-24,690.609154,Demanda,pais vasco
+2017-06-25,805.4390189999999,Demanda,galicia
+2017-06-26,810.662661,Demanda,extremadura
+2017-06-27,785.930599,Demanda,cataluña
+2017-06-28,749.639349,Demanda,region de murcia
+2017-06-29,732.881027,Demanda,la rioja
+2017-06-30,665.287066,Demanda,comunidad de valenciana
+2017-07-01,621.685663,Demanda,castilla y leon
+2017-07-02,746.866343,Demanda,region de murcia
+2017-07-03,783.170813,Demanda,comunidad de valenciana
+2017-07-04,793.9643619999999,Demanda,comunidad de navarra
+2017-07-05,784.389237,Demanda,comunidad de valenciana
+2017-07-06,774.032849,Demanda,cantabria
+2017-07-07,695.0573959999999,Demanda,peninsular
+2017-07-08,644.49583,Demanda,region de murcia
+2017-07-09,780.556382,Demanda,extremadura
+2017-07-10,811.274869,Demanda,cataluña
+2017-07-11,841.963111,Demanda,la rioja
+2017-07-12,864.108624,Demanda,baleares
+2017-07-13,858.5712689999999,Demanda,cataluña
+2017-07-14,764.624451,Demanda,castilla y leon
+2017-07-15,696.7160600000001,Demanda,canarias
+2017-07-16,829.407742,Demanda,la rioja
+2017-07-17,853.1823009999999,Demanda,principado de asturias
+2017-07-18,843.294513,Demanda,la rioja
+2017-07-19,823.5135110000001,Demanda,comunidad de valenciana
+2017-07-20,803.7775790000001,Demanda,la rioja
+2017-07-21,722.2327489999999,Demanda,pais vasco
+2017-07-22,662.966167,Demanda,region de murcia
+2017-07-23,781.909147,Demanda,galicia
+2017-07-24,775.633496,Demanda,melilla
+2017-07-25,794.953654,Demanda,comunidad de valenciana
+2017-07-26,821.649128,Demanda,melilla
+2017-07-27,825.860618,Demanda,galicia
+2017-07-28,752.2962249999999,Demanda,principado de asturias
+2017-07-29,694.030592,Demanda,extremadura
+2017-07-30,786.533772,Demanda,canarias
+2017-07-31,809.48341,Demanda,comunidad de navarra
+2017-08-01,815.805124,Demanda,baleares
+2017-08-02,830.50329,Demanda,region de murcia
+2017-08-03,844.8633930000001,Demanda,extremadura
+2017-08-04,766.691996,Demanda,extremadura
+2017-08-05,696.275799,Demanda,canarias
+2017-08-06,800.407779,Demanda,baleares
+2017-08-07,790.770479,Demanda,galicia
+2017-08-08,756.459917,Demanda,aragon
+2017-08-09,722.882422,Demanda,peninsular
+2017-08-10,722.9370749999999,Demanda,comunidad de navarra
+2017-08-11,667.7345969999999,Demanda,galicia
+2017-08-12,624.358656,Demanda,castilla la mancha
+2017-08-13,705.119924,Demanda,peninsular
+2017-08-14,667.476848,Demanda,galicia
+2017-08-15,750.783924,Demanda,pais vasco
+2017-08-16,769.223326,Demanda,comunidad de navarra
+2017-08-17,781.714003,Demanda,principado de asturias
+2017-08-18,712.994524,Demanda,andalucia
+2017-08-19,663.334377,Demanda,region de murcia
+2017-08-20,781.801298,Demanda,ceuta
+2017-08-21,803.185833,Demanda,ceuta
+2017-08-22,805.156019,Demanda,region de murcia
+2017-08-23,801.839414,Demanda,pais vasco
+2017-08-24,794.6564860000001,Demanda,principado de asturias
+2017-08-25,722.123643,Demanda,comunidad de madrid
+2017-08-26,660.169139,Demanda,region de murcia
+2017-08-27,769.3381380000001,Demanda,pais vasco
+2017-08-28,769.062605,Demanda,baleares
+2017-08-29,756.948043,Demanda,melilla
+2017-08-30,758.1675550000001,Demanda,extremadura
+2017-08-31,745.637679,Demanda,castilla la mancha
+2017-09-01,670.569574,Demanda,comunidad de madrid
+2017-09-02,625.267091,Demanda,aragon
+2017-09-03,751.839982,Demanda,pais vasco
+2017-09-04,789.34076,Demanda,galicia
+2017-09-05,795.949088,Demanda,galicia
+2017-09-06,787.398911,Demanda,baleares
+2017-09-07,757.985149,Demanda,castilla y leon
+2017-09-08,674.3506160000001,Demanda,aragon
+2017-09-09,609.041459,Demanda,ceuta
+2017-09-10,709.0902619999999,Demanda,region de murcia
+2017-09-11,751.786559,Demanda,melilla
+2017-09-12,764.65317,Demanda,pais vasco
+2017-09-13,768.171308,Demanda,principado de asturias
+2017-09-14,734.7168810000001,Demanda,comunidad de valenciana
+2017-09-15,650.104944,Demanda,extremadura
+2017-09-16,599.30406,Demanda,pais vasco
+2017-09-17,712.364514,Demanda,castilla y leon
+2017-09-18,734.767262,Demanda,comunidad de navarra
+2017-09-19,735.501297,Demanda,cantabria
+2017-09-20,737.581238,Demanda,canarias
+2017-09-21,737.9871019999999,Demanda,region de murcia
+2017-09-22,661.606811,Demanda,extremadura
+2017-09-23,611.7716949999999,Demanda,canarias
+2017-09-24,726.40386,Demanda,castilla la mancha
+2017-09-25,742.539212,Demanda,pais vasco
+2017-09-26,743.3728070000001,Demanda,melilla
+2017-09-27,742.938183,Demanda,comunidad de valenciana
+2017-09-28,740.245271,Demanda,galicia
+2017-09-29,663.77014,Demanda,galicia
+2017-09-30,608.89777,Demanda,region de murcia
+2017-10-01,729.7744250000001,Demanda,castilla y leon
+2017-10-02,734.087171,Demanda,region de murcia
+2017-10-03,751.8731779999999,Demanda,aragon
+2017-10-04,754.7396269999999,Demanda,baleares
+2017-10-05,751.31087,Demanda,la rioja
+2017-10-06,659.217858,Demanda,andalucia
+2017-10-07,605.654988,Demanda,canarias
+2017-10-08,706.351406,Demanda,melilla
+2017-10-09,732.202404,Demanda,comunidad de valenciana
+2017-10-10,730.08989,Demanda,melilla
+2017-10-11,628.211176,Demanda,pais vasco
+2017-10-12,675.209676,Demanda,ceuta
+2017-10-13,643.437968,Demanda,comunidad de madrid
+2017-10-14,601.044997,Demanda,castilla la mancha
+2017-10-15,718.351947,Demanda,canarias
+2017-10-16,731.6431269999999,Demanda,aragon
+2017-10-17,730.292911,Demanda,comunidad de madrid
+2017-10-18,719.5576729999999,Demanda,melilla
+2017-10-19,719.103852,Demanda,cataluña
+2017-10-20,646.738804,Demanda,canarias
+2017-10-21,591.488872,Demanda,la rioja
+2017-10-22,705.183881,Demanda,ceuta
+2017-10-23,725.529056,Demanda,pais vasco
+2017-10-24,729.923941,Demanda,castilla la mancha
+2017-10-25,724.883635,Demanda,extremadura
+2017-10-26,722.316144,Demanda,principado de asturias
+2017-10-27,642.175793,Demanda,principado de asturias
+2017-10-28,614.270002,Demanda,baleares
+2017-10-29,707.167017,Demanda,andalucia
+2017-10-30,718.185313,Demanda,cantabria
+2017-10-31,615.921655,Demanda,la rioja
+2017-11-01,707.921111,Demanda,comunidad de navarra
+2017-11-02,719.459192,Demanda,galicia
+2017-11-03,645.817412,Demanda,pais vasco
+2017-11-04,597.6866289999999,Demanda,melilla
+2017-11-05,716.9725990000001,Demanda,la rioja
+2017-11-06,744.822203,Demanda,la rioja
+2017-11-07,759.905745,Demanda,comunidad de madrid
+2017-11-08,759.861963,Demanda,galicia
+2017-11-09,764.532188,Demanda,galicia
+2017-11-10,683.015399,Demanda,ceuta
+2017-11-11,630.568913,Demanda,ceuta
+2017-11-12,754.680556,Demanda,comunidad de valenciana
+2017-11-13,783.837983,Demanda,comunidad de valenciana
+2017-11-14,789.164992,Demanda,baleares
+2017-11-15,787.289911,Demanda,cataluña
+2017-11-16,779.087427,Demanda,ceuta
+2017-11-17,698.082147,Demanda,castilla y leon
+2017-11-18,645.3714,Demanda,aragon
+2017-11-19,768.722248,Demanda,castilla la mancha
+2017-11-20,788.658495,Demanda,ceuta
+2017-11-21,794.65202,Demanda,baleares
+2017-11-22,782.339118,Demanda,la rioja
+2017-11-23,772.0361800000001,Demanda,comunidad de navarra
+2017-11-24,699.83474,Demanda,castilla la mancha
+2017-11-25,651.682382,Demanda,la rioja
+2017-11-26,785.800132,Demanda,la rioja
+2017-11-27,809.6875379999999,Demanda,comunidad de valenciana
+2017-11-28,815.675267,Demanda,aragon
+2017-11-29,820.643977,Demanda,castilla y leon
+2017-11-30,831.437788,Demanda,cantabria
+2017-12-01,764.719224,Demanda,comunidad de navarra
+2017-12-02,715.9395529999999,Demanda,melilla
+2017-12-03,838.1326779999999,Demanda,castilla y leon
+2017-12-04,848.1622950000001,Demanda,ceuta
+2017-12-05,756.360395,Demanda,cataluña
+2017-12-06,782.686007,Demanda,melilla
+2017-12-07,719.4969229999999,Demanda,peninsular
+2017-12-08,717.690506,Demanda,region de murcia
+2017-12-09,684.898749,Demanda,galicia
+2017-12-10,802.343752,Demanda,cataluña
+2017-12-11,825.186982,Demanda,cantabria
+2017-12-12,839.0314229999999,Demanda,comunidad de navarra
+2017-12-13,829.2274259999999,Demanda,castilla y leon
+2017-12-14,803.1184030000001,Demanda,canarias
+2017-12-15,727.264645,Demanda,baleares
+2017-12-16,694.705763,Demanda,galicia
+2017-12-17,829.576999,Demanda,castilla la mancha
+2017-12-18,832.816687,Demanda,cantabria
+2017-12-19,834.7619599999999,Demanda,region de murcia
+2017-12-20,819.406557,Demanda,principado de asturias
+2017-12-21,792.960353,Demanda,cantabria
+2017-12-22,702.851367,Demanda,comunidad de madrid
+2017-12-23,642.9100629999999,Demanda,extremadura
+2017-12-24,595.60077,Demanda,ceuta
+2017-12-25,701.4357190000001,Demanda,comunidad de navarra
+2017-12-26,741.6290250000001,Demanda,melilla
+2017-12-27,736.357873,Demanda,castilla la mancha
+2017-12-28,715.140213,Demanda,canarias
+2017-12-29,652.290283,Demanda,region de murcia
+2017-12-30,618.2602730000001,Demanda,principado de asturias
+2017-12-31,574.637329,Demanda,canarias
+2018-01-01,724.549044,Demanda,comunidad de madrid
+2018-01-02,753.204111,Demanda,melilla
+2018-01-03,752.386801,Demanda,comunidad de madrid
+2018-01-04,724.096688,Demanda,extremadura
+2018-01-05,639.705663,Demanda,canarias
+2018-01-06,672.06465,Demanda,aragon
+2018-01-07,817.299975,Demanda,region de murcia
+2018-01-08,854.74517,Demanda,comunidad de navarra
+2018-01-09,837.8049560000001,Demanda,region de murcia
+2018-01-10,834.7097140000001,Demanda,castilla la mancha
+2018-01-11,831.785061,Demanda,comunidad de navarra
+2018-01-12,760.6385230000001,Demanda,extremadura
+2018-01-13,708.6216189999999,Demanda,comunidad de navarra
+2018-01-14,835.1041160000001,Demanda,comunidad de valenciana
+2018-01-15,833.3891580000001,Demanda,cantabria
+2018-01-16,817.515175,Demanda,comunidad de navarra
+2018-01-17,817.603332,Demanda,comunidad de valenciana
+2018-01-18,812.5524340000001,Demanda,castilla y leon
+2018-01-19,725.927312,Demanda,ceuta
+2018-01-20,665.342898,Demanda,region de murcia
+2018-01-21,776.9343610000001,Demanda,castilla la mancha
+2018-01-22,792.2156620000001,Demanda,galicia
+2018-01-23,795.267689,Demanda,cantabria
+2018-01-24,808.307013,Demanda,baleares
+2018-01-25,820.23928,Demanda,la rioja
+2018-01-26,737.558974,Demanda,galicia
+2018-01-27,684.397914,Demanda,galicia
+2018-01-28,793.986634,Demanda,cantabria
+2018-01-29,811.803938,Demanda,cantabria
+2018-01-30,809.9021899999999,Demanda,comunidad de valenciana
+2018-01-31,828.9938689999999,Demanda,cantabria
+2018-02-01,836.71501,Demanda,ceuta
+2018-02-02,755.6095600000001,Demanda,melilla
+2018-02-03,719.5312439999999,Demanda,comunidad de navarra
+2018-02-04,852.3779420000001,Demanda,andalucia
+2018-02-05,864.736056,Demanda,andalucia
+2018-02-06,873.750902,Demanda,pais vasco
+2018-02-07,880.070875,Demanda,pais vasco
+2018-02-08,873.284436,Demanda,la rioja
+2018-02-09,774.761864,Demanda,cataluña
+2018-02-10,706.770018,Demanda,region de murcia
+2018-02-11,833.3322659999999,Demanda,la rioja
+2018-02-12,852.668027,Demanda,melilla
+2018-02-13,845.115172,Demanda,ceuta
+2018-02-14,818.9899889999999,Demanda,cantabria
+2018-02-15,799.33113,Demanda,cantabria
+2018-02-16,713.847709,Demanda,galicia
+2018-02-17,670.06944,Demanda,region de murcia
+2018-02-18,788.77486,Demanda,ceuta
+2018-02-19,796.9932120000001,Demanda,cantabria
+2018-02-20,802.817854,Demanda,canarias
+2018-02-21,816.409034,Demanda,cataluña
+2018-02-22,822.010418,Demanda,castilla y leon
+2018-02-23,738.315463,Demanda,pais vasco
+2018-02-24,682.057541,Demanda,andalucia
+2018-02-25,809.18641,Demanda,cataluña
+2018-02-26,854.244166,Demanda,cataluña
+2018-02-27,838.1637539999999,Demanda,andalucia
+2018-02-28,828.808564,Demanda,galicia
+2018-03-01,828.4222460000001,Demanda,melilla
+2018-03-02,718.198115,Demanda,castilla la mancha
+2018-03-03,661.6924309999999,Demanda,peninsular
+2018-03-04,792.15792,Demanda,baleares
+2018-03-05,808.969759,Demanda,la rioja
+2018-03-06,802.365201,Demanda,galicia
+2018-03-07,795.959464,Demanda,canarias
+2018-03-08,786.754305,Demanda,comunidad de valenciana
+2018-03-09,695.131877,Demanda,comunidad de valenciana
+2018-03-10,650.662602,Demanda,la rioja
+2018-03-11,768.123415,Demanda,cantabria
+2018-03-12,783.569196,Demanda,extremadura
+2018-03-13,792.974586,Demanda,aragon
+2018-03-14,786.821055,Demanda,melilla
+2018-03-15,779.1433000000001,Demanda,melilla
+2018-03-16,712.2984799999999,Demanda,region de murcia
+2018-03-17,660.909128,Demanda,cataluña
+2018-03-18,780.044318,Demanda,galicia
+2018-03-19,830.948036,Demanda,cantabria
+2018-03-20,828.243998,Demanda,cantabria
+2018-03-21,816.8010370000001,Demanda,region de murcia
+2018-03-22,814.750421,Demanda,andalucia
+2018-03-23,737.438894,Demanda,cantabria
+2018-03-24,647.1496999999999,Demanda,melilla
+2018-03-25,775.540539,Demanda,peninsular
+2018-03-26,765.7652099999999,Demanda,peninsular
+2018-03-27,739.889331,Demanda,peninsular
+2018-03-28,657.9091119999999,Demanda,cantabria
+2018-03-29,617.090812,Demanda,cantabria
+2018-03-30,637.005171,Demanda,peninsular
+2018-03-31,602.215316,Demanda,comunidad de madrid
+2018-04-01,663.779182,Demanda,ceuta
+2018-04-02,738.282352,Demanda,extremadura
+2018-04-03,750.8071180000001,Demanda,castilla y leon
+2018-04-04,737.613924,Demanda,aragon
+2018-04-05,742.671803,Demanda,region de murcia
+2018-04-06,680.41586,Demanda,castilla y leon
+2018-04-07,627.282051,Demanda,la rioja
+2018-04-08,744.284834,Demanda,extremadura
+2018-04-09,787.841799,Demanda,castilla y leon
+2018-04-10,792.550109,Demanda,cataluña
+2018-04-11,782.939381,Demanda,castilla la mancha
+2018-04-12,777.829895,Demanda,region de murcia
+2018-04-13,684.5097659999999,Demanda,galicia
+2018-04-14,629.483731,Demanda,ceuta
+2018-04-15,739.318027,Demanda,cantabria
+2018-04-16,739.507766,Demanda,comunidad de madrid
+2018-04-17,729.297495,Demanda,baleares
+2018-04-18,720.948439,Demanda,comunidad de madrid
+2018-04-19,716.005351,Demanda,baleares
+2018-04-20,646.179568,Demanda,comunidad de valenciana
+2018-04-21,595.0702560000001,Demanda,comunidad de valenciana
+2018-04-22,691.1494080000001,Demanda,ceuta
+2018-04-23,717.381862,Demanda,cantabria
+2018-04-24,724.5573149999999,Demanda,andalucia
+2018-04-25,720.400383,Demanda,galicia
+2018-04-26,715.24892,Demanda,pais vasco
+2018-04-27,640.8171639999999,Demanda,baleares
+2018-04-28,592.217889,Demanda,comunidad de madrid
+2018-04-29,657.472785,Demanda,andalucia
+2018-04-30,595.259428,Demanda,andalucia
+2018-05-01,696.770116,Demanda,pais vasco
+2018-05-02,726.9834549999999,Demanda,principado de asturias
+2018-05-03,727.900647,Demanda,comunidad de madrid
+2018-05-04,652.250936,Demanda,principado de asturias
+2018-05-05,594.583971,Demanda,andalucia
+2018-05-06,705.703787,Demanda,canarias
+2018-05-07,722.71901,Demanda,ceuta
+2018-05-08,721.928421,Demanda,comunidad de madrid
+2018-05-09,721.917234,Demanda,aragon
+2018-05-10,717.3994009999999,Demanda,la rioja
+2018-05-11,646.620272,Demanda,castilla la mancha
+2018-05-12,596.053825,Demanda,comunidad de navarra
+2018-05-13,702.2878079999999,Demanda,cantabria
+2018-05-14,712.356306,Demanda,comunidad de valenciana
+2018-05-15,723.164325,Demanda,extremadura
+2018-05-16,719.349822,Demanda,castilla la mancha
+2018-05-17,716.4614200000001,Demanda,comunidad de madrid
+2018-05-18,645.615139,Demanda,pais vasco
+2018-05-19,592.73499,Demanda,comunidad de navarra
+2018-05-20,689.203833,Demanda,peninsular
+2018-05-21,717.857076,Demanda,baleares
+2018-05-22,727.970062,Demanda,castilla la mancha
+2018-05-23,728.576654,Demanda,region de murcia
+2018-05-24,722.23963,Demanda,la rioja
+2018-05-25,644.83027,Demanda,baleares
+2018-05-26,591.7430159999999,Demanda,principado de asturias
+2018-05-27,702.764869,Demanda,la rioja
+2018-05-28,719.285425,Demanda,melilla
+2018-05-29,714.527196,Demanda,cataluña
+2018-05-30,711.26198,Demanda,cataluña
+2018-05-31,709.5311899999999,Demanda,la rioja
+2018-06-01,639.5453669999999,Demanda,cataluña
+2018-06-02,585.011121,Demanda,andalucia
+2018-06-03,700.225761,Demanda,cantabria
+2018-06-04,720.4205919999999,Demanda,la rioja
+2018-06-05,718.51512,Demanda,cataluña
+2018-06-06,717.194956,Demanda,castilla y leon
+2018-06-07,718.521762,Demanda,castilla y leon
+2018-06-08,645.0045600000001,Demanda,castilla la mancha
+2018-06-09,594.316025,Demanda,castilla y leon
+2018-06-10,708.892089,Demanda,cantabria
+2018-06-11,730.8282399999999,Demanda,aragon
+2018-06-12,737.6362190000001,Demanda,aragon
+2018-06-13,738.226291,Demanda,galicia
+2018-06-14,737.410634,Demanda,comunidad de madrid
+2018-06-15,672.51237,Demanda,baleares
+2018-06-16,623.6488860000001,Demanda,comunidad de navarra
+2018-06-17,744.574912,Demanda,melilla
+2018-06-18,768.735621,Demanda,region de murcia
+2018-06-19,781.677864,Demanda,peninsular
+2018-06-20,790.763917,Demanda,galicia
+2018-06-21,792.862116,Demanda,cataluña
+2018-06-22,714.070971,Demanda,castilla y leon
+2018-06-23,656.341812,Demanda,cataluña
+2018-06-24,782.993168,Demanda,comunidad de valenciana
+2018-06-25,803.4005629999999,Demanda,andalucia
+2018-06-26,802.356746,Demanda,extremadura
+2018-06-27,793.182687,Demanda,comunidad de madrid
+2018-06-28,778.647068,Demanda,comunidad de madrid
+2018-06-29,706.0777889999999,Demanda,galicia
+2018-06-30,647.045444,Demanda,principado de asturias
+2018-07-01,762.83405,Demanda,aragon
+2018-07-02,793.136627,Demanda,cantabria
+2018-07-03,788.164606,Demanda,baleares
+2018-07-04,784.1709599999999,Demanda,cantabria
+2018-07-05,781.89296,Demanda,castilla y leon
+2018-07-06,708.618684,Demanda,peninsular
+2018-07-07,655.055667,Demanda,comunidad de navarra
+2018-07-08,800.602771,Demanda,pais vasco
+2018-07-09,822.681663,Demanda,region de murcia
+2018-07-10,816.712461,Demanda,la rioja
+2018-07-11,808.184004,Demanda,principado de asturias
+2018-07-12,801.059532,Demanda,extremadura
+2018-07-13,717.2721750000001,Demanda,galicia
+2018-07-14,652.824574,Demanda,comunidad de madrid
+2018-07-15,770.5330110000001,Demanda,region de murcia
+2018-07-16,800.3507410000001,Demanda,baleares
+2018-07-17,809.583593,Demanda,principado de asturias
+2018-07-18,811.532012,Demanda,comunidad de navarra
+2018-07-19,801.5516160000001,Demanda,castilla y leon
+2018-07-20,705.939811,Demanda,canarias
+2018-07-21,642.2336879999999,Demanda,baleares
+2018-07-22,783.084655,Demanda,castilla y leon
+2018-07-23,809.659769,Demanda,comunidad de navarra
+2018-07-24,800.7983889999999,Demanda,extremadura
+2018-07-25,809.234407,Demanda,comunidad de valenciana
+2018-07-26,805.06429,Demanda,cantabria
+2018-07-27,723.725986,Demanda,comunidad de navarra
+2018-07-28,662.1134050000001,Demanda,andalucia
+2018-07-29,782.765406,Demanda,aragon
+2018-07-30,803.371281,Demanda,ceuta
+2018-07-31,829.902512,Demanda,melilla
+2018-08-01,849.473769,Demanda,cataluña
+2018-08-02,858.593632,Demanda,castilla la mancha
+2018-08-03,768.551915,Demanda,comunidad de navarra
+2018-08-04,710.960473,Demanda,ceuta
+2018-08-05,832.313622,Demanda,peninsular
+2018-08-06,836.089347,Demanda,extremadura
+2018-08-07,815.8369250000001,Demanda,melilla
+2018-08-08,791.0670230000001,Demanda,ceuta
+2018-08-09,767.1963129999999,Demanda,comunidad de navarra
+2018-08-10,709.368422,Demanda,melilla
+2018-08-11,667.332016,Demanda,cataluña
+2018-08-12,748.0509930000001,Demanda,region de murcia
+2018-08-13,747.596502,Demanda,andalucia
+2018-08-14,668.157849,Demanda,castilla y leon
+2018-08-15,729.296235,Demanda,extremadura
+2018-08-16,718.847708,Demanda,canarias
+2018-08-17,659.0319790000001,Demanda,ceuta
+2018-08-18,624.7640230000001,Demanda,aragon
+2018-08-19,739.5072610000001,Demanda,galicia
+2018-08-20,768.25701,Demanda,melilla
+2018-08-21,778.103399,Demanda,pais vasco
+2018-08-22,777.965294,Demanda,region de murcia
+2018-08-23,773.349415,Demanda,la rioja
+2018-08-24,697.1448,Demanda,pais vasco
+2018-08-25,643.379539,Demanda,comunidad de madrid
+2018-08-26,782.7188000000001,Demanda,la rioja
+2018-08-27,810.448212,Demanda,cantabria
+2018-08-28,806.2943710000001,Demanda,comunidad de madrid
+2018-08-29,803.963921,Demanda,baleares
+2018-08-30,796.365517,Demanda,andalucia
+2018-08-31,715.322145,Demanda,region de murcia
+2018-09-01,670.590343,Demanda,andalucia
+2018-09-02,790.769944,Demanda,region de murcia
+2018-09-03,800.273143,Demanda,region de murcia
+2018-09-04,793.541365,Demanda,aragon
+2018-09-05,778.6132439999999,Demanda,la rioja
+2018-09-06,763.965091,Demanda,cataluña
+2018-09-07,669.149755,Demanda,castilla y leon
+2018-09-08,619.852256,Demanda,aragon
+2018-09-09,725.662617,Demanda,extremadura
+2018-09-10,734.621067,Demanda,castilla la mancha
+2018-09-11,778.1778320000001,Demanda,andalucia
+2018-09-12,784.509329,Demanda,comunidad de valenciana
+2018-09-13,778.201265,Demanda,andalucia
+2018-09-14,684.200136,Demanda,la rioja
+2018-09-15,632.403926,Demanda,comunidad de valenciana
+2018-09-16,759.809502,Demanda,cantabria
+2018-09-17,777.704848,Demanda,comunidad de valenciana
+2018-09-18,784.4614799999999,Demanda,baleares
+2018-09-19,790.7516909999999,Demanda,cataluña
+2018-09-20,784.51284,Demanda,castilla y leon
+2018-09-21,705.950057,Demanda,castilla la mancha
+2018-09-22,654.5383860000001,Demanda,galicia
+2018-09-23,776.098777,Demanda,comunidad de madrid
+2018-09-24,783.307403,Demanda,cantabria
+2018-09-25,776.59329,Demanda,pais vasco
+2018-09-26,765.194306,Demanda,castilla y leon
+2018-09-27,755.478782,Demanda,principado de asturias
+2018-09-28,670.903495,Demanda,cataluña
+2018-09-29,617.464211,Demanda,principado de asturias
+2018-09-30,733.629113,Demanda,andalucia
+2018-10-01,736.946907,Demanda,galicia
+2018-10-02,740.193367,Demanda,comunidad de navarra
+2018-10-03,742.064884,Demanda,cataluña
+2018-10-04,731.108037,Demanda,region de murcia
+2018-10-05,656.265341,Demanda,canarias
+2018-10-06,603.979963,Demanda,comunidad de madrid
+2018-10-07,700.5628,Demanda,cataluña
+2018-10-08,706.803991,Demanda,region de murcia
+2018-10-09,721.067357,Demanda,comunidad de madrid
+2018-10-10,720.238147,Demanda,baleares
+2018-10-11,620.4354109999999,Demanda,canarias
+2018-10-12,622.5628419999999,Demanda,principado de asturias
+2018-10-13,596.303089,Demanda,extremadura
+2018-10-14,696.5587780000001,Demanda,aragon
+2018-10-15,716.388299,Demanda,canarias
+2018-10-16,723.752124,Demanda,principado de asturias
+2018-10-17,724.44485,Demanda,galicia
+2018-10-18,715.107265,Demanda,peninsular
+2018-10-19,639.515312,Demanda,castilla la mancha
+2018-10-20,593.179455,Demanda,castilla y leon
+2018-10-21,701.055332,Demanda,aragon
+2018-10-22,717.889261,Demanda,principado de asturias
+2018-10-23,717.2827090000001,Demanda,comunidad de valenciana
+2018-10-24,715.267861,Demanda,cataluña
+2018-10-25,716.585374,Demanda,peninsular
+2018-10-26,646.6048880000001,Demanda,comunidad de navarra
+2018-10-27,630.999672,Demanda,principado de asturias
+2018-10-28,744.335779,Demanda,castilla y leon
+2018-10-29,776.331825,Demanda,pais vasco
+2018-10-30,772.179197,Demanda,cantabria
+2018-10-31,657.040183,Demanda,region de murcia
+2018-11-01,698.895934,Demanda,castilla y leon
+2018-11-02,661.353336,Demanda,castilla la mancha
+2018-11-03,629.521381,Demanda,comunidad de madrid
+2018-11-04,755.6152079999999,Demanda,melilla
+2018-11-05,776.755251,Demanda,aragon
+2018-11-06,775.7565139999999,Demanda,principado de asturias
+2018-11-07,777.488075,Demanda,baleares
+2018-11-08,764.5518950000001,Demanda,baleares
+2018-11-09,685.48765,Demanda,extremadura
+2018-11-10,628.671308,Demanda,la rioja
+2018-11-11,743.600436,Demanda,andalucia
+2018-11-12,753.421129,Demanda,galicia
+2018-11-13,752.414487,Demanda,pais vasco
+2018-11-14,750.390626,Demanda,comunidad de valenciana
+2018-11-15,745.386462,Demanda,galicia
+2018-11-16,667.009484,Demanda,comunidad de valenciana
+2018-11-17,631.308683,Demanda,cantabria
+2018-11-18,750.865393,Demanda,castilla y leon
+2018-11-19,776.247365,Demanda,aragon
+2018-11-20,781.660504,Demanda,canarias
+2018-11-21,787.440373,Demanda,la rioja
+2018-11-22,781.396692,Demanda,principado de asturias
+2018-11-23,703.454736,Demanda,galicia
+2018-11-24,656.2927659999999,Demanda,la rioja
+2018-11-25,779.6214279999999,Demanda,comunidad de navarra
+2018-11-26,796.219383,Demanda,andalucia
+2018-11-27,797.68488,Demanda,andalucia
+2018-11-28,800.2779250000001,Demanda,andalucia
+2018-11-29,788.560916,Demanda,castilla la mancha
+2018-11-30,709.867704,Demanda,comunidad de navarra
+2018-12-01,658.914812,Demanda,canarias
+2018-12-02,767.96928,Demanda,peninsular
+2018-12-03,774.493273,Demanda,ceuta
+2018-12-04,770.700385,Demanda,cantabria
+2018-12-05,676.3668299999999,Demanda,comunidad de madrid
+2018-12-06,707.3268780000001,Demanda,aragon
+2018-12-07,660.856189,Demanda,cataluña
+2018-12-08,642.487243,Demanda,canarias
+2018-12-09,767.366141,Demanda,cantabria
+2018-12-10,792.4636840000001,Demanda,melilla
+2018-12-11,800.931996,Demanda,cantabria
+2018-12-12,811.190674,Demanda,melilla
+2018-12-13,800.807102,Demanda,peninsular
+2018-12-14,720.2964529999999,Demanda,pais vasco
+2018-12-15,675.981479,Demanda,canarias
+2018-12-16,798.875276,Demanda,castilla y leon
+2018-12-17,822.742049,Demanda,castilla y leon
+2018-12-18,806.392973,Demanda,aragon
+2018-12-19,796.7380860000001,Demanda,peninsular
+2018-12-20,772.837898,Demanda,comunidad de madrid
+2018-12-21,689.265354,Demanda,andalucia
+2018-12-22,648.5059669999999,Demanda,baleares
+2018-12-23,647.899273,Demanda,cantabria
+2018-12-24,567.423103,Demanda,comunidad de madrid
+2018-12-25,672.883725,Demanda,comunidad de navarra
+2018-12-26,721.456089,Demanda,ceuta
+2018-12-27,722.3566069999999,Demanda,cantabria
+2018-12-28,674.033359,Demanda,la rioja
+2018-12-29,638.506177,Demanda,comunidad de madrid
+2018-12-30,655.1752369999999,Demanda,region de murcia
+2018-12-31,582.949806,Demanda,extremadura
+2019-01-01,742.199407,Demanda,aragon
+2019-01-02,787.764963,Demanda,comunidad de madrid
+2019-01-03,796.010035,Demanda,baleares
+2019-01-04,721.029651,Demanda,ceuta
+2019-01-05,661.772168,Demanda,galicia
+2019-01-06,764.920771,Demanda,cantabria
+2019-01-07,844.559085,Demanda,andalucia
+2019-01-08,846.151453,Demanda,baleares
+2019-01-09,857.323124,Demanda,region de murcia
+2019-01-10,867.1818860000001,Demanda,extremadura
+2019-01-11,775.1707120000001,Demanda,galicia
+2019-01-12,722.271171,Demanda,cataluña
+2019-01-13,835.75236,Demanda,ceuta
+2019-01-14,846.245527,Demanda,peninsular
+2019-01-15,847.9118179999999,Demanda,melilla
+2019-01-16,849.875833,Demanda,principado de asturias
+2019-01-17,848.7819420000001,Demanda,extremadura
+2019-01-18,766.5377199999999,Demanda,peninsular
+2019-01-19,705.583355,Demanda,pais vasco
+2019-01-20,828.406838,Demanda,castilla la mancha
+2019-01-21,864.8553029999999,Demanda,comunidad de valenciana
+2019-01-22,854.462174,Demanda,andalucia
+2019-01-23,837.075708,Demanda,castilla y leon
+2019-01-24,815.349834,Demanda,cantabria
+2019-01-25,724.205323,Demanda,cantabria
+2019-01-26,678.249362,Demanda,castilla la mancha
+2019-01-27,807.644379,Demanda,ceuta
+2019-01-28,832.6166119999999,Demanda,andalucia
+2019-01-29,829.785386,Demanda,principado de asturias
+2019-01-30,823.510841,Demanda,comunidad de navarra
+2019-01-31,811.4083569999999,Demanda,canarias
+2019-02-01,739.149442,Demanda,andalucia
+2019-02-02,696.029792,Demanda,ceuta
+2019-02-03,827.865952,Demanda,aragon
+2019-02-04,826.264446,Demanda,melilla
+2019-02-05,813.527159,Demanda,castilla y leon
+2019-02-06,805.445154,Demanda,region de murcia
+2019-02-07,799.019676,Demanda,melilla
+2019-02-08,719.4038390000001,Demanda,castilla y leon
+2019-02-09,672.445604,Demanda,ceuta
+2019-02-10,781.692422,Demanda,la rioja
+2019-02-11,799.138409,Demanda,castilla la mancha
+2019-02-12,797.8390459999999,Demanda,principado de asturias
+2019-02-13,794.2991380000001,Demanda,la rioja
+2019-02-14,790.637803,Demanda,canarias
+2019-02-15,706.4874159999999,Demanda,peninsular
+2019-02-16,656.688443,Demanda,region de murcia
+2019-02-17,779.646845,Demanda,aragon
+2019-02-18,789.997493,Demanda,region de murcia
+2019-02-19,785.6312680000001,Demanda,la rioja
+2019-02-20,781.135556,Demanda,castilla la mancha
+2019-02-21,771.083106,Demanda,comunidad de madrid
+2019-02-22,689.1758199999999,Demanda,castilla la mancha
+2019-02-23,637.4526040000001,Demanda,castilla y leon
+2019-02-24,750.831906,Demanda,canarias
+2019-02-25,759.6974749999999,Demanda,comunidad de valenciana
+2019-02-26,756.32491,Demanda,cantabria
+2019-02-27,742.210124,Demanda,canarias
+2019-02-28,747.742259,Demanda,melilla
+2019-03-01,670.2429960000001,Demanda,la rioja
+2019-03-02,621.4451949999999,Demanda,region de murcia
+2019-03-03,729.81428,Demanda,comunidad de valenciana
+2019-03-04,745.1641099999999,Demanda,cantabria
+2019-03-05,767.457592,Demanda,andalucia
+2019-03-06,758.1783029999999,Demanda,comunidad de navarra
+2019-03-07,748.5687909999999,Demanda,cantabria
+2019-03-08,671.315341,Demanda,peninsular
+2019-03-09,617.758559,Demanda,melilla
+2019-03-10,726.4542879999999,Demanda,baleares
+2019-03-11,743.155047,Demanda,pais vasco
+2019-03-12,753.372783,Demanda,comunidad de navarra
+2019-03-13,753.975948,Demanda,la rioja
+2019-03-14,738.753829,Demanda,galicia
+2019-03-15,660.072282,Demanda,region de murcia
+2019-03-16,610.229793,Demanda,ceuta
+2019-03-17,708.1163889999999,Demanda,andalucia
+2019-03-18,707.250357,Demanda,la rioja
+2019-03-19,755.634542,Demanda,peninsular
+2019-03-20,758.9317219999999,Demanda,comunidad de madrid
+2019-03-21,749.138108,Demanda,pais vasco
+2019-03-22,669.633017,Demanda,comunidad de madrid
+2019-03-23,611.819827,Demanda,castilla la mancha
+2019-03-24,717.0738190000001,Demanda,comunidad de valenciana
+2019-03-25,732.3950450000001,Demanda,peninsular
+2019-03-26,735.3143419999999,Demanda,baleares
+2019-03-27,736.120156,Demanda,comunidad de madrid
+2019-03-28,733.687593,Demanda,castilla y leon
+2019-03-29,661.273331,Demanda,pais vasco
+2019-03-30,595.4559919999999,Demanda,andalucia
+2019-03-31,728.854039,Demanda,melilla
+2019-04-01,740.720312,Demanda,comunidad de madrid
+2019-04-02,743.726231,Demanda,baleares
+2019-04-03,746.5321319999999,Demanda,la rioja
+2019-04-04,758.884449,Demanda,canarias
+2019-04-05,683.345822,Demanda,ceuta
+2019-04-06,635.7432580000001,Demanda,galicia
+2019-04-07,745.947421,Demanda,principado de asturias
+2019-04-08,762.514952,Demanda,castilla la mancha
+2019-04-09,759.373018,Demanda,melilla
+2019-04-10,754.5935770000001,Demanda,peninsular
+2019-04-11,737.503833,Demanda,galicia
+2019-04-12,658.751444,Demanda,cataluña
+2019-04-13,606.7151709999999,Demanda,castilla y leon
+2019-04-14,705.6519440000001,Demanda,canarias
+2019-04-15,712.912968,Demanda,peninsular
+2019-04-16,706.8961820000001,Demanda,melilla
+2019-04-17,633.6451629999999,Demanda,comunidad de valenciana
+2019-04-18,584.9293100000001,Demanda,region de murcia
+2019-04-19,598.281137,Demanda,ceuta
+2019-04-20,575.850979,Demanda,cantabria
+2019-04-21,622.892917,Demanda,castilla y leon
+2019-04-22,691.440392,Demanda,comunidad de valenciana
+2019-04-23,737.862824,Demanda,aragon
+2019-04-24,739.9479660000001,Demanda,comunidad de navarra
+2019-04-25,722.3515749999999,Demanda,canarias
+2019-04-26,641.47676,Demanda,melilla
+2019-04-27,580.03458,Demanda,aragon
+2019-04-28,681.641153,Demanda,castilla y leon
+2019-04-29,693.18814,Demanda,la rioja
+2019-04-30,588.783574,Demanda,galicia
+2019-05-01,674.320005,Demanda,principado de asturias
+2019-05-02,696.474728,Demanda,baleares
+2019-05-03,634.76562,Demanda,comunidad de valenciana
+2019-05-04,585.505022,Demanda,region de murcia
+2019-05-05,691.903437,Demanda,aragon
+2019-05-06,715.282519,Demanda,cantabria
+2019-05-07,720.383459,Demanda,aragon
+2019-05-08,719.680488,Demanda,region de murcia
+2019-05-09,714.705845,Demanda,ceuta
+2019-05-10,642.893955,Demanda,aragon
+2019-05-11,589.0662070000001,Demanda,canarias
+2019-05-12,693.1943419999999,Demanda,region de murcia
+2019-05-13,716.08591,Demanda,comunidad de navarra
+2019-05-14,714.403802,Demanda,la rioja
+2019-05-15,723.608482,Demanda,pais vasco
+2019-05-16,708.065687,Demanda,galicia
+2019-05-17,633.5816629999999,Demanda,comunidad de valenciana
+2019-05-18,588.760853,Demanda,comunidad de navarra
+2019-05-19,693.2661509999999,Demanda,castilla la mancha
+2019-05-20,712.267526,Demanda,comunidad de madrid
+2019-05-21,720.423021,Demanda,aragon
+2019-05-22,721.032652,Demanda,region de murcia
+2019-05-23,717.6893419999999,Demanda,castilla y leon
+2019-05-24,641.7133699999999,Demanda,principado de asturias
+2019-05-25,586.295917,Demanda,cataluña
+2019-05-26,703.430222,Demanda,la rioja
+2019-05-27,723.7896139999999,Demanda,peninsular
+2019-05-28,722.528761,Demanda,la rioja
+2019-05-29,719.643509,Demanda,extremadura
+2019-05-30,720.746446,Demanda,comunidad de valenciana
+2019-05-31,657.113804,Demanda,melilla
+2019-06-01,610.135227,Demanda,comunidad de madrid
+2019-06-02,727.199819,Demanda,pais vasco
+2019-06-03,743.803929,Demanda,principado de asturias
+2019-06-04,728.013427,Demanda,andalucia
+2019-06-05,718.987495,Demanda,canarias
+2019-06-06,716.146113,Demanda,aragon
+2019-06-07,649.114105,Demanda,andalucia
+2019-06-08,598.266091,Demanda,cataluña
+2019-06-09,692.985625,Demanda,peninsular
+2019-06-10,717.613036,Demanda,andalucia
+2019-06-11,721.685017,Demanda,aragon
+2019-06-12,725.1397099999999,Demanda,baleares
+2019-06-13,720.6987389999999,Demanda,baleares
+2019-06-14,649.826641,Demanda,cantabria
+2019-06-15,600.853162,Demanda,pais vasco
+2019-06-16,714.625455,Demanda,ceuta
+2019-06-17,736.896725,Demanda,region de murcia
+2019-06-18,741.912133,Demanda,cantabria
+2019-06-19,735.4882709999999,Demanda,comunidad de madrid
+2019-06-20,732.798844,Demanda,andalucia
+2019-06-21,672.993652,Demanda,galicia
+2019-06-22,623.379646,Demanda,cataluña
+2019-06-23,688.002526,Demanda,baleares
+2019-06-24,765.220281,Demanda,andalucia
+2019-06-25,792.83245,Demanda,pais vasco
+2019-06-26,807.8750110000001,Demanda,extremadura
+2019-06-27,821.1525429999999,Demanda,peninsular
+2019-06-28,751.7245350000001,Demanda,extremadura
+2019-06-29,696.474637,Demanda,andalucia
+2019-06-30,805.062314,Demanda,ceuta
+2019-07-01,817.750686,Demanda,canarias
+2019-07-02,814.766368,Demanda,peninsular
+2019-07-03,813.934525,Demanda,cantabria
+2019-07-04,816.024974,Demanda,aragon
+2019-07-05,738.401275,Demanda,cataluña
+2019-07-06,686.379684,Demanda,comunidad de valenciana
+2019-07-07,783.297789,Demanda,la rioja
+2019-07-08,782.095233,Demanda,castilla y leon
+2019-07-09,792.718173,Demanda,cataluña
+2019-07-10,821.250349,Demanda,canarias
+2019-07-11,828.8768249999999,Demanda,comunidad de madrid
+2019-07-12,739.0652249999999,Demanda,aragon
+2019-07-13,667.289338,Demanda,ceuta
+2019-07-14,796.026561,Demanda,comunidad de valenciana
+2019-07-15,810.2570770000001,Demanda,la rioja
+2019-07-16,805.414836,Demanda,principado de asturias
+2019-07-17,808.118682,Demanda,galicia
+2019-07-18,818.254951,Demanda,comunidad de navarra
+2019-07-19,744.167851,Demanda,baleares
+2019-07-20,691.903017,Demanda,comunidad de navarra
+2019-07-21,836.08036,Demanda,cataluña
+2019-07-22,857.696956,Demanda,cataluña
+2019-07-23,860.19127,Demanda,cataluña
+2019-07-24,835.226076,Demanda,aragon
+2019-07-25,809.646945,Demanda,peninsular
+2019-07-26,705.760649,Demanda,ceuta
+2019-07-27,639.0524129999999,Demanda,ceuta
+2019-07-28,759.984776,Demanda,cantabria
+2019-07-29,773.820297,Demanda,principado de asturias
+2019-07-30,765.475695,Demanda,andalucia
+2019-07-31,789.3342739999999,Demanda,extremadura
+2019-08-01,784.3893889999999,Demanda,peninsular
+2019-08-02,706.0687839999999,Demanda,comunidad de valenciana
+2019-08-03,659.3744620000001,Demanda,comunidad de navarra
+2019-08-04,772.3475,Demanda,melilla
+2019-08-05,793.04482,Demanda,ceuta
+2019-08-06,787.712421,Demanda,baleares
+2019-08-07,795.6389869999999,Demanda,cataluña
+2019-08-08,795.454697,Demanda,galicia
+2019-08-09,716.321021,Demanda,principado de asturias
+2019-08-10,651.8926260000001,Demanda,castilla y leon
+2019-08-11,712.385398,Demanda,cantabria
+2019-08-12,713.398323,Demanda,extremadura
+2019-08-13,722.738208,Demanda,melilla
+2019-08-14,661.417317,Demanda,comunidad de valenciana
+2019-08-15,715.896427,Demanda,galicia
+2019-08-16,692.63836,Demanda,baleares
+2019-08-17,652.155441,Demanda,comunidad de madrid
+2019-08-18,750.065106,Demanda,cataluña
+2019-08-19,750.474293,Demanda,castilla la mancha
+2019-08-20,743.508569,Demanda,melilla
+2019-08-21,746.785396,Demanda,region de murcia
+2019-08-22,746.320647,Demanda,castilla y leon
+2019-08-23,685.6859669999999,Demanda,ceuta
+2019-08-24,640.3826,Demanda,comunidad de navarra
+2019-08-25,753.0021800000001,Demanda,galicia
+2019-08-26,748.334103,Demanda,melilla
+2019-08-27,759.403981,Demanda,andalucia
+2019-08-28,778.170266,Demanda,castilla la mancha
+2019-08-29,782.463034,Demanda,principado de asturias
+2019-08-30,704.124582,Demanda,extremadura
+2019-08-31,658.2754649999999,Demanda,aragon
+2019-09-01,772.035659,Demanda,comunidad de navarra
+2019-09-02,796.4925039999999,Demanda,cantabria
+2019-09-03,802.739777,Demanda,galicia
+2019-09-04,785.233792,Demanda,pais vasco
+2019-09-05,759.835407,Demanda,comunidad de madrid
+2019-09-06,677.23725,Demanda,region de murcia
+2019-09-07,625.559392,Demanda,la rioja
+2019-09-08,725.543137,Demanda,comunidad de valenciana
+2019-09-09,731.011426,Demanda,cataluña
+2019-09-10,699.252213,Demanda,la rioja
+2019-09-11,720.175206,Demanda,comunidad de valenciana
+2019-09-12,710.999404,Demanda,cantabria
+2019-09-13,639.59483,Demanda,peninsular
+2019-09-14,600.8046509999999,Demanda,castilla y leon
+2019-09-15,722.110774,Demanda,principado de asturias
+2019-09-16,745.327536,Demanda,cataluña
+2019-09-17,749.4393100000001,Demanda,principado de asturias
+2019-09-18,750.409372,Demanda,cataluña
+2019-09-19,742.546066,Demanda,castilla y leon
+2019-09-20,662.31373,Demanda,castilla la mancha
+2019-09-21,606.999498,Demanda,galicia
+2019-09-22,708.014904,Demanda,principado de asturias
+2019-09-23,727.7302530000001,Demanda,extremadura
+2019-09-24,738.028712,Demanda,cantabria
+2019-09-25,739.145522,Demanda,comunidad de navarra
+2019-09-26,734.426657,Demanda,region de murcia
+2019-09-27,653.6734939999999,Demanda,la rioja
+2019-09-28,597.6436339999999,Demanda,baleares
+2019-09-29,715.11243,Demanda,pais vasco
+2019-09-30,741.441646,Demanda,cantabria
+2019-10-01,733.752221,Demanda,pais vasco
+2019-10-02,722.404634,Demanda,principado de asturias
+2019-10-03,719.06066,Demanda,castilla la mancha
+2019-10-04,639.96626,Demanda,ceuta
+2019-10-05,595.82223,Demanda,comunidad de madrid
+2019-10-06,706.81127,Demanda,la rioja
+2019-10-07,729.654451,Demanda,melilla
+2019-10-08,718.306304,Demanda,castilla y leon
+2019-10-09,725.766274,Demanda,galicia
+2019-10-10,717.3422240000001,Demanda,comunidad de madrid
+2019-10-11,624.559893,Demanda,comunidad de madrid
+2019-10-12,591.908756,Demanda,comunidad de valenciana
+2019-10-13,708.9723909999999,Demanda,castilla la mancha
+2019-10-14,707.9474690000001,Demanda,baleares
+2019-10-15,711.483129,Demanda,la rioja
+2019-10-16,712.870909,Demanda,pais vasco
+2019-10-17,702.013343,Demanda,cantabria
+2019-10-18,638.521461,Demanda,baleares
+2019-10-19,590.245061,Demanda,canarias
+2019-10-20,698.011851,Demanda,pais vasco
+2019-10-21,728.673757,Demanda,castilla la mancha
+2019-10-22,731.4623290000001,Demanda,canarias
+2019-10-23,729.548927,Demanda,region de murcia
+2019-10-24,721.0047149999999,Demanda,cataluña
+2019-10-25,639.527818,Demanda,comunidad de navarra
+2019-10-26,617.8978510000001,Demanda,la rioja
+2019-10-27,705.517424,Demanda,comunidad de navarra
+2019-10-28,720.759167,Demanda,comunidad de valenciana
+2019-10-29,716.813201,Demanda,la rioja
+2019-10-30,706.779544,Demanda,extremadura
+2019-10-31,610.338583,Demanda,pais vasco
+2019-11-01,613.091302,Demanda,ceuta
+2019-11-02,585.745923,Demanda,comunidad de madrid
+2019-11-03,701.349067,Demanda,cantabria
+2019-11-04,723.9212249999999,Demanda,cataluña
+2019-11-05,726.803046,Demanda,cataluña
+2019-11-06,738.90463,Demanda,comunidad de madrid
+2019-11-07,747.0951,Demanda,comunidad de navarra
+2019-11-08,674.799054,Demanda,ceuta
+2019-11-09,628.624931,Demanda,comunidad de navarra
+2019-11-10,757.559515,Demanda,comunidad de valenciana
+2019-11-11,773.524257,Demanda,la rioja
+2019-11-12,776.833483,Demanda,comunidad de navarra
+2019-11-13,794.537245,Demanda,galicia
+2019-11-14,794.400091,Demanda,castilla y leon
+2019-11-15,712.515929,Demanda,region de murcia
+2019-11-16,673.2166110000001,Demanda,andalucia
+2019-11-17,784.186573,Demanda,castilla la mancha
+2019-11-18,810.1541060000001,Demanda,canarias
+2019-11-19,821.5763029999999,Demanda,comunidad de navarra
+2019-11-20,815.715186,Demanda,cataluña
+2019-11-21,812.859646,Demanda,comunidad de navarra
+2019-11-22,706.596572,Demanda,canarias
+2019-11-23,657.967591,Demanda,canarias
+2019-11-24,774.027534,Demanda,galicia
+2019-11-25,785.754366,Demanda,castilla y leon
+2019-11-26,774.548693,Demanda,comunidad de madrid
+2019-11-27,776.056195,Demanda,baleares
+2019-11-28,758.247169,Demanda,peninsular
+2019-11-29,686.811005,Demanda,aragon
+2019-11-30,649.0308190000001,Demanda,la rioja
+2019-12-01,776.1569529999999,Demanda,extremadura
+2019-12-02,794.0714429999999,Demanda,comunidad de madrid
+2019-12-03,802.721404,Demanda,castilla y leon
+2019-12-04,797.187595,Demanda,comunidad de valenciana
+2019-12-05,687.010235,Demanda,region de murcia
+2019-12-06,677.7451060000001,Demanda,aragon
+2019-12-07,653.010122,Demanda,extremadura
+2019-12-08,731.497032,Demanda,ceuta
+2019-12-09,794.421564,Demanda,comunidad de valenciana
+2019-12-10,810.110768,Demanda,la rioja
+2019-12-11,825.12176,Demanda,principado de asturias
+2019-12-12,793.677004,Demanda,castilla la mancha
+2019-12-13,703.955843,Demanda,castilla y leon
+2019-12-14,660.219604,Demanda,region de murcia
+2019-12-15,780.2950699999999,Demanda,baleares
+2019-12-16,786.9450870000001,Demanda,castilla y leon
+2019-12-17,792.257443,Demanda,castilla la mancha
+2019-12-18,793.7284790000001,Demanda,region de murcia
+2019-12-19,757.48361,Demanda,ceuta
+2019-12-20,666.815843,Demanda,comunidad de valenciana
+2019-12-21,621.188286,Demanda,principado de asturias
+2019-12-22,675.581844,Demanda,comunidad de valenciana
+2019-12-23,622.14762,Demanda,castilla y leon
+2019-12-24,541.452518,Demanda,castilla la mancha
+2019-12-25,632.220615,Demanda,andalucia
+2019-12-26,674.1504719999999,Demanda,principado de asturias
+2019-12-27,646.963129,Demanda,comunidad de valenciana
+2019-12-28,617.2651920000001,Demanda,castilla y leon
+2019-12-29,689.973969,Demanda,ceuta
+2019-12-30,656.5143029999999,Demanda,region de murcia
+2019-12-31,574.77672,Demanda,galicia
+2020-01-01,723.522375,Demanda,baleares
+2020-01-02,754.6453419999999,Demanda,pais vasco
+2020-01-03,702.390878,Demanda,region de murcia
+2020-01-04,651.967486,Demanda,peninsular
+2020-01-05,630.259532,Demanda,galicia
+2020-01-06,789.0316210000001,Demanda,peninsular
+2020-01-07,820.1436779999999,Demanda,cataluña
+2020-01-08,820.7696139999999,Demanda,cataluña
+2020-01-09,814.7598270000001,Demanda,canarias
+2020-01-10,732.5317249999999,Demanda,andalucia
+2020-01-11,693.449101,Demanda,melilla
+2020-01-12,829.1579059999999,Demanda,canarias
+2020-01-13,844.4160790000001,Demanda,comunidad de valenciana
+2020-01-14,832.9102929999999,Demanda,galicia
+2020-01-15,822.827255,Demanda,comunidad de madrid
+2020-01-16,807.653787,Demanda,andalucia
+2020-01-17,729.6730239999999,Demanda,castilla y leon
+2020-01-18,689.8208860000001,Demanda,canarias
+2020-01-19,846.106888,Demanda,castilla y leon
+2020-01-20,862.132604,Demanda,castilla y leon
+2020-01-21,841.706187,Demanda,comunidad de madrid
+2020-01-22,829.427103,Demanda,comunidad de navarra
+2020-01-23,821.136183,Demanda,galicia
+2020-01-24,734.265345,Demanda,canarias
+2020-01-25,676.3692619999999,Demanda,castilla la mancha
+2020-01-26,807.615701,Demanda,principado de asturias
+2020-01-27,807.001677,Demanda,baleares
+2020-01-28,792.162501,Demanda,extremadura
+2020-01-29,778.203546,Demanda,castilla la mancha
+2020-01-30,765.448598,Demanda,region de murcia
+2020-01-31,681.471943,Demanda,andalucia
+2020-02-01,625.016468,Demanda,galicia
+2020-02-02,729.3290820000001,Demanda,cantabria
+2020-02-03,747.892827,Demanda,pais vasco
+2020-02-04,758.9877879999999,Demanda,la rioja
+2020-02-05,769.754643,Demanda,comunidad de navarra
+2020-02-06,772.488589,Demanda,baleares
+2020-02-07,698.19959,Demanda,aragon
+2020-02-08,646.787156,Demanda,comunidad de madrid
+2020-02-09,749.504414,Demanda,canarias
+2020-02-10,761.008347,Demanda,comunidad de valenciana
+2020-02-11,766.558356,Demanda,cantabria
+2020-02-12,759.532177,Demanda,comunidad de valenciana
+2020-02-13,753.9541409999999,Demanda,principado de asturias
+2020-02-14,675.832097,Demanda,aragon
+2020-02-15,625.453407,Demanda,melilla
+2020-02-16,739.797699,Demanda,comunidad de navarra
+2020-02-17,766.371869,Demanda,castilla la mancha
+2020-02-18,764.941248,Demanda,principado de asturias
+2020-02-19,763.651659,Demanda,region de murcia
+2020-02-20,753.7447340000001,Demanda,ceuta
+2020-02-21,672.07247,Demanda,principado de asturias
+2020-02-22,620.87208,Demanda,ceuta
+2020-02-23,730.827761,Demanda,principado de asturias
+2020-02-24,743.8207530000001,Demanda,ceuta
+2020-02-25,753.405313,Demanda,canarias
+2020-02-26,751.137432,Demanda,castilla y leon
+2020-02-27,728.292593,Demanda,andalucia
+2020-02-28,670.263321,Demanda,comunidad de madrid
+2020-02-29,626.873694,Demanda,andalucia
+2020-03-01,741.296331,Demanda,comunidad de madrid
+2020-03-02,769.321188,Demanda,cantabria
+2020-03-03,759.058244,Demanda,andalucia
+2020-03-04,754.3651639999999,Demanda,cantabria
+2020-03-05,757.995483,Demanda,region de murcia
+2020-03-06,683.5324390000001,Demanda,region de murcia
+2020-03-07,630.442877,Demanda,comunidad de madrid
+2020-03-08,740.417533,Demanda,extremadura
+2020-03-09,747.566521,Demanda,pais vasco
+2020-03-10,742.561392,Demanda,comunidad de valenciana
+2020-03-11,738.0889070000001,Demanda,peninsular
+2020-03-12,729.774542,Demanda,cantabria
+2020-03-13,646.497547,Demanda,melilla
+2020-03-14,600.435811,Demanda,peninsular
+2020-03-15,704.1242639999999,Demanda,andalucia
+2020-03-16,706.050583,Demanda,castilla la mancha
+2020-03-17,684.7990699999999,Demanda,andalucia
+2020-03-18,641.992028,Demanda,peninsular
+2020-03-19,647.058248,Demanda,comunidad de navarra
+2020-03-20,612.492101,Demanda,castilla y leon
+2020-03-21,583.510909,Demanda,melilla
+2020-03-22,653.558582,Demanda,canarias
+2020-03-23,663.819764,Demanda,canarias
+2020-03-24,664.643791,Demanda,castilla y leon
+2020-03-25,661.3383240000001,Demanda,principado de asturias
+2020-03-26,667.335755,Demanda,galicia
+2020-03-27,605.617221,Demanda,comunidad de navarra
+2020-03-28,540.51504,Demanda,comunidad de valenciana
+2020-03-29,610.9960749999999,Demanda,peninsular
+2020-03-30,610.653934,Demanda,andalucia
+2020-03-31,599.875958,Demanda,la rioja
+2020-04-01,599.323162,Demanda,castilla y leon
+2020-04-02,584.6836940000001,Demanda,pais vasco
+2020-04-03,542.996041,Demanda,extremadura
+2020-04-04,519.594376,Demanda,andalucia
+2020-04-05,568.14384,Demanda,cantabria
+2020-04-06,567.082621,Demanda,peninsular
+2020-04-07,555.027089,Demanda,galicia
+2020-04-08,529.824736,Demanda,ceuta
+2020-04-09,510.43549,Demanda,la rioja
+2020-04-10,518.229908,Demanda,aragon
+2020-04-11,501.61548,Demanda,la rioja
+2020-04-12,537.818991,Demanda,extremadura
+2020-04-13,584.017243,Demanda,comunidad de navarra
+2020-04-14,604.3471850000001,Demanda,comunidad de valenciana
+2020-04-15,604.521525,Demanda,la rioja
+2020-04-16,598.6975679999999,Demanda,cantabria
+2020-04-17,552.914776,Demanda,castilla la mancha
+2020-04-18,520.1232679999999,Demanda,extremadura
+2020-04-19,585.331059,Demanda,pais vasco
+2020-04-20,608.8807049999999,Demanda,galicia
+2020-04-21,608.023375,Demanda,aragon
+2020-04-22,599.598011,Demanda,castilla la mancha
+2020-04-23,594.6619840000001,Demanda,comunidad de valenciana
+2020-04-24,556.038735,Demanda,comunidad de valenciana
+2020-04-25,522.374953,Demanda,galicia
+2020-04-26,590.579965,Demanda,region de murcia
+2020-04-27,601.2031049999999,Demanda,la rioja
+2020-04-28,600.23468,Demanda,aragon
+2020-04-29,594.712471,Demanda,galicia
+2020-04-30,525.344189,Demanda,castilla la mancha
+2020-05-01,529.331136,Demanda,principado de asturias
+2020-05-02,509.365967,Demanda,castilla la mancha
+2020-05-03,585.884404,Demanda,baleares
+2020-05-04,607.115027,Demanda,galicia
+2020-05-05,610.19936,Demanda,ceuta
+2020-05-06,604.624142,Demanda,comunidad de valenciana
+2020-05-07,597.1797879999999,Demanda,cantabria
+2020-05-08,547.084706,Demanda,aragon
+2020-05-09,513.399456,Demanda,pais vasco
+2020-05-10,591.350652,Demanda,comunidad de navarra
+2020-05-11,617.479021,Demanda,comunidad de valenciana
+2020-05-12,617.401116,Demanda,comunidad de navarra
+2020-05-13,620.5579009999999,Demanda,region de murcia
+2020-05-14,608.95225,Demanda,extremadura
+2020-05-15,555.670934,Demanda,comunidad de madrid
+2020-05-16,519.597946,Demanda,galicia
+2020-05-17,596.670207,Demanda,baleares
+2020-05-18,615.0526040000001,Demanda,ceuta
+2020-05-19,622.450073,Demanda,baleares
+2020-05-20,630.168002,Demanda,principado de asturias
+2020-05-21,634.3552639999999,Demanda,comunidad de madrid
+2020-05-22,582.895641,Demanda,canarias
+2020-05-23,542.1706409999999,Demanda,comunidad de madrid
+2020-05-24,627.4661110000001,Demanda,ceuta
+2020-05-25,642.990536,Demanda,region de murcia
+2020-05-26,644.707726,Demanda,extremadura
+2020-05-27,642.005868,Demanda,aragon
+2020-05-28,641.5703100000001,Demanda,baleares
+2020-05-29,583.3804329999999,Demanda,cantabria
+2020-05-30,541.662429,Demanda,cataluña
+2020-05-31,627.334741,Demanda,castilla la mancha
+2020-06-01,653.3965,Demanda,pais vasco
+2020-06-02,662.452407,Demanda,comunidad de valenciana
+2020-06-03,651.301681,Demanda,andalucia
+2020-06-04,640.912088,Demanda,canarias
+2020-06-05,582.674188,Demanda,castilla la mancha
+2020-06-06,540.393818,Demanda,aragon
+2020-06-07,625.763383,Demanda,ceuta
+2020-06-08,643.604721,Demanda,principado de asturias
+2020-06-09,653.728489,Demanda,comunidad de valenciana
+2020-06-10,653.624408,Demanda,comunidad de valenciana
+2020-06-11,645.918049,Demanda,region de murcia
+2020-06-12,581.088713,Demanda,galicia
+2020-06-13,543.304621,Demanda,peninsular
+2020-06-14,644.001077,Demanda,cataluña
+2020-06-15,656.823463,Demanda,comunidad de madrid
+2020-06-16,661.145578,Demanda,galicia
+2020-06-17,662.011432,Demanda,la rioja
+2020-06-18,657.6761829999999,Demanda,melilla
+2020-06-19,608.254976,Demanda,cantabria
+2020-06-20,572.807006,Demanda,comunidad de navarra
+2020-06-21,682.9632909999999,Demanda,aragon
+2020-06-22,706.61383,Demanda,comunidad de madrid
+2020-06-23,668.203326,Demanda,castilla y leon
+2020-06-24,711.838827,Demanda,la rioja
+2020-06-25,702.221428,Demanda,cantabria
+2020-06-26,638.125491,Demanda,galicia
+2020-06-27,604.1445640000001,Demanda,comunidad de navarra
+2020-06-28,723.951102,Demanda,la rioja
+2020-06-29,752.302735,Demanda,la rioja
+2020-06-30,763.359011,Demanda,baleares
+2020-07-01,765.7901019999999,Demanda,castilla la mancha
+2020-07-02,735.357247,Demanda,castilla y leon
+2020-07-03,660.713186,Demanda,melilla
+2020-07-04,626.327165,Demanda,baleares
+2020-07-05,757.299096,Demanda,canarias
+2020-07-06,780.525085,Demanda,extremadura
+2020-07-07,784.56699,Demanda,region de murcia
+2020-07-08,771.1258909999999,Demanda,cataluña
+2020-07-09,758.878105,Demanda,pais vasco
+2020-07-10,690.6977340000001,Demanda,comunidad de valenciana
+2020-07-11,633.135072,Demanda,cantabria
+2020-07-12,752.649491,Demanda,comunidad de madrid
+2020-07-13,760.459038,Demanda,ceuta
+2020-07-14,756.753738,Demanda,galicia
+2020-07-15,763.067312,Demanda,aragon
+2020-07-16,760.177205,Demanda,ceuta
+2020-07-17,688.716516,Demanda,galicia
+2020-07-18,644.522223,Demanda,andalucia
+2020-07-19,769.33038,Demanda,comunidad de madrid
+2020-07-20,785.563684,Demanda,cantabria
+2020-07-21,776.667953,Demanda,region de murcia
+2020-07-22,789.63451,Demanda,comunidad de madrid
+2020-07-23,789.08965,Demanda,extremadura
+2020-07-24,704.273245,Demanda,comunidad de valenciana
+2020-07-25,664.179618,Demanda,castilla y leon
+2020-07-26,794.291764,Demanda,principado de asturias
+2020-07-27,814.337543,Demanda,pais vasco
+2020-07-28,817.4875470000001,Demanda,comunidad de valenciana
+2020-07-29,825.275946,Demanda,castilla la mancha
+2020-07-30,810.169058,Demanda,aragon
+2020-07-31,738.2691530000001,Demanda,extremadura
+2020-08-01,673.895707,Demanda,cantabria
+2020-08-02,747.511864,Demanda,peninsular
+2020-08-03,751.1237600000001,Demanda,andalucia
+2020-08-04,764.126717,Demanda,baleares
+2020-08-05,776.466924,Demanda,comunidad de valenciana
+2020-08-06,775.393905,Demanda,pais vasco
+2020-08-07,700.782169,Demanda,galicia
+2020-08-08,657.269503,Demanda,cataluña
+2020-08-09,738.0689610000001,Demanda,extremadura
+2020-08-10,734.50001,Demanda,ceuta
+2020-08-11,712.418386,Demanda,andalucia
+2020-08-12,716.219241,Demanda,pais vasco
+2020-08-13,710.586003,Demanda,castilla la mancha
+2020-08-14,631.2936169999999,Demanda,canarias
+2020-08-15,591.6626,Demanda,principado de asturias
+2020-08-16,683.923907,Demanda,extremadura
+2020-08-17,708.888916,Demanda,principado de asturias
+2020-08-18,725.675863,Demanda,region de murcia
+2020-08-19,729.676986,Demanda,comunidad de valenciana
+2020-08-20,739.0805740000001,Demanda,baleares
+2020-08-21,676.812548,Demanda,baleares
+2020-08-22,625.384861,Demanda,castilla y leon
+2020-08-23,733.320649,Demanda,melilla
+2020-08-24,772.384724,Demanda,baleares
+2020-08-25,791.658289,Demanda,andalucia
+2020-08-26,797.8907539999999,Demanda,andalucia
+2020-08-27,773.438841,Demanda,canarias
+2020-08-28,635.866109,Demanda,andalucia
+2020-08-29,572.3108980000001,Demanda,galicia
+2020-08-30,679.208909,Demanda,comunidad de madrid
+2020-08-31,700.209044,Demanda,comunidad de valenciana
+2020-09-01,711.095786,Demanda,cataluña
+2020-09-02,719.00512,Demanda,melilla
+2020-09-03,724.580748,Demanda,comunidad de valenciana
+2020-09-04,653.584402,Demanda,castilla y leon
+2020-09-05,604.081335,Demanda,comunidad de navarra
+2020-09-06,696.258312,Demanda,pais vasco
+2020-09-07,698.100318,Demanda,comunidad de navarra
+2020-09-08,718.0849350000001,Demanda,baleares
+2020-09-09,721.372797,Demanda,extremadura
+2020-09-10,698.312958,Demanda,ceuta
+2020-09-11,649.1655509999999,Demanda,baleares
+2020-09-12,605.4915579999999,Demanda,peninsular
+2020-09-13,718.980488,Demanda,principado de asturias
+2020-09-14,740.288273,Demanda,la rioja
+2020-09-15,751.5567169999999,Demanda,comunidad de madrid
+2020-09-16,740.7607830000001,Demanda,principado de asturias
+2020-09-17,713.829456,Demanda,peninsular
+2020-09-18,627.3284080000001,Demanda,cantabria
+2020-09-19,574.171087,Demanda,castilla la mancha
+2020-09-20,683.416711,Demanda,pais vasco
+2020-09-21,703.840984,Demanda,castilla y leon
+2020-09-22,712.811873,Demanda,melilla
+2020-09-23,712.997199,Demanda,comunidad de madrid
+2020-09-24,691.7896890000001,Demanda,andalucia
+2020-09-25,614.3099719999999,Demanda,comunidad de madrid
+2020-09-26,568.7665649999999,Demanda,pais vasco
+2020-09-27,666.55906,Demanda,melilla
+2020-09-28,686.7970429999999,Demanda,baleares
+2020-09-29,690.962671,Demanda,castilla la mancha
+2020-09-30,700.9167319999999,Demanda,castilla la mancha
+2020-10-01,698.403756,Demanda,extremadura
+2020-10-02,612.1690500000001,Demanda,la rioja
+2020-10-03,571.636922,Demanda,castilla y leon
+2020-10-04,673.48222,Demanda,canarias
+2020-10-05,690.8948959999999,Demanda,region de murcia
+2020-10-06,699.613798,Demanda,canarias
+2020-10-07,699.215554,Demanda,castilla y leon
+2020-10-08,679.813517,Demanda,canarias
+2020-10-09,614.3319620000001,Demanda,melilla
+2020-10-10,563.490862,Demanda,peninsular
+2020-10-11,570.701026,Demanda,galicia
+2020-10-12,673.7846870000001,Demanda,la rioja
+2020-10-13,703.005757,Demanda,castilla la mancha
+2020-10-14,709.578141,Demanda,castilla y leon
+2020-10-15,704.019681,Demanda,andalucia
+2020-10-16,631.928375,Demanda,aragon
+2020-10-17,583.351177,Demanda,baleares
+2020-10-18,687.1524129999999,Demanda,comunidad de valenciana
+2020-10-19,711.7149000000001,Demanda,comunidad de valenciana
+2020-10-20,707.162568,Demanda,andalucia
+2020-10-21,710.357203,Demanda,comunidad de madrid
+2020-10-22,696.843426,Demanda,comunidad de madrid
+2020-10-23,625.382417,Demanda,la rioja
+2020-10-24,606.3079690000001,Demanda,cantabria
+2020-10-25,689.553095,Demanda,melilla
+2020-10-26,714.662582,Demanda,region de murcia
+2020-10-27,715.705336,Demanda,castilla y leon
+2020-10-28,715.28416,Demanda,melilla
+2020-10-29,704.726127,Demanda,canarias
+2020-10-30,628.294896,Demanda,castilla y leon
+2020-10-31,575.0750280000001,Demanda,canarias
+2020-11-01,647.094468,Demanda,galicia
+2020-11-02,706.154584,Demanda,melilla
+2020-11-03,728.814878,Demanda,cantabria
+2020-11-04,724.7667560000001,Demanda,ceuta
+2020-11-05,710.624719,Demanda,pais vasco
+2020-11-06,635.069873,Demanda,comunidad de navarra
+2020-11-07,585.653269,Demanda,comunidad de navarra
+2020-11-08,688.061521,Demanda,andalucia
+2020-11-09,711.586135,Demanda,pais vasco
+2020-11-10,718.1732939999999,Demanda,canarias
+2020-11-11,717.8806310000001,Demanda,peninsular
+2020-11-12,713.2649690000001,Demanda,comunidad de madrid
+2020-11-13,641.465596,Demanda,galicia
+2020-11-14,585.947032,Demanda,ceuta
+2020-11-15,693.2366800000001,Demanda,la rioja
+2020-11-16,712.86251,Demanda,region de murcia
+2020-11-17,718.214566,Demanda,galicia
+2020-11-18,718.299945,Demanda,comunidad de valenciana
+2020-11-19,716.666871,Demanda,castilla la mancha
+2020-11-20,645.094568,Demanda,galicia
+2020-11-21,605.990942,Demanda,extremadura
+2020-11-22,728.1889520000001,Demanda,galicia
+2020-11-23,757.498853,Demanda,comunidad de navarra
+2020-11-24,765.26818,Demanda,canarias
+2020-11-25,766.690677,Demanda,cantabria
+2020-11-26,751.4898199999999,Demanda,baleares
+2020-11-27,667.6277210000001,Demanda,cataluña
+2020-11-28,624.7317730000001,Demanda,extremadura
+2020-11-29,737.071712,Demanda,region de murcia
+2020-11-30,753.620849,Demanda,galicia
+2020-12-01,768.634956,Demanda,baleares
+2020-12-02,784.315168,Demanda,pais vasco
+2020-12-03,790.382104,Demanda,ceuta
+2020-12-04,723.62758,Demanda,galicia
+2020-12-05,676.303,Demanda,comunidad de valenciana
+2020-12-06,712.6566019999999,Demanda,la rioja
+2020-12-07,693.4332929999999,Demanda,principado de asturias
+2020-12-08,804.0188059999999,Demanda,galicia
+2020-12-09,807.7716949999999,Demanda,principado de asturias
+2020-12-10,783.7662929999999,Demanda,pais vasco
+2020-12-11,686.5101609999999,Demanda,comunidad de valenciana
+2020-12-12,644.286586,Demanda,cantabria
+2020-12-13,759.517717,Demanda,comunidad de navarra
+2020-12-14,766.794634,Demanda,castilla y leon
+2020-12-15,780.348751,Demanda,castilla y leon
+2020-12-16,778.470844,Demanda,principado de asturias
+2020-12-17,776.174524,Demanda,cataluña
+2020-12-18,697.9458079999999,Demanda,melilla
+2020-12-19,646.840581,Demanda,la rioja
+2020-12-20,750.4068199999999,Demanda,comunidad de navarra
+2020-12-21,750.081066,Demanda,castilla la mancha
+2020-12-22,727.7066239999999,Demanda,melilla
+2020-12-23,643.648623,Demanda,comunidad de madrid
+2020-12-24,570.771924,Demanda,principado de asturias
+2020-12-25,635.755792,Demanda,comunidad de madrid
+2020-12-26,646.6995459999999,Demanda,comunidad de valenciana
+2020-12-27,724.357078,Demanda,principado de asturias
+2020-12-28,732.115459,Demanda,region de murcia
+2020-12-29,734.2831239999999,Demanda,peninsular
+2020-12-30,687.715588,Demanda,region de murcia
+2020-12-31,608.715931,Demanda,la rioja
+2021-01-01,680.432407,Demanda,comunidad de valenciana
+2021-01-02,684.489215,Demanda,principado de asturias
+2021-01-03,793.625993,Demanda,andalucia
+2021-01-04,806.5881559999999,Demanda,region de murcia
+2021-01-05,700.1445640000001,Demanda,galicia
+2021-01-06,854.323166,Demanda,peninsular
+2021-01-07,872.357353,Demanda,region de murcia
+2021-01-08,773.2969790000001,Demanda,cantabria
+2021-01-09,735.647962,Demanda,canarias
+2021-01-10,851.740825,Demanda,canarias
+2021-01-11,875.118684,Demanda,melilla
+2021-01-12,874.914272,Demanda,comunidad de navarra
+2021-01-13,873.57723,Demanda,principado de asturias
+2021-01-14,859.3557950000001,Demanda,ceuta
+2021-01-15,765.002342,Demanda,principado de asturias
+2021-01-16,708.974301,Demanda,canarias
+2021-01-17,827.619581,Demanda,peninsular
+2021-01-18,846.116609,Demanda,andalucia
+2021-01-19,850.299079,Demanda,castilla y leon
+2021-01-20,817.647661,Demanda,andalucia
+2021-01-21,794.514658,Demanda,galicia
+2021-01-22,719.5108290000001,Demanda,principado de asturias
+2021-01-23,655.028547,Demanda,comunidad de navarra
+2021-01-24,775.155263,Demanda,melilla
+2021-01-25,770.7961019999999,Demanda,castilla la mancha
+2021-01-26,753.3216199999999,Demanda,castilla y leon
+2021-01-27,744.101186,Demanda,extremadura
+2021-01-28,733.183947,Demanda,cataluña
+2021-01-29,672.206563,Demanda,baleares
+2021-01-30,631.678074,Demanda,comunidad de valenciana
+2021-01-31,725.30841,Demanda,andalucia
+2021-02-01,742.016165,Demanda,galicia
+2021-02-02,744.032692,Demanda,la rioja
+2021-02-03,742.410917,Demanda,principado de asturias
+2021-02-04,742.180511,Demanda,region de murcia
+2021-02-05,673.2028889999999,Demanda,cataluña
+2021-02-06,635.1844279999999,Demanda,pais vasco
+2021-02-07,757.811118,Demanda,comunidad de valenciana
+2021-02-08,789.35766,Demanda,galicia
+2021-02-09,767.889956,Demanda,cantabria
+2021-02-10,757.9492240000001,Demanda,principado de asturias
+2021-02-11,744.94486,Demanda,pais vasco
+2021-02-12,664.031439,Demanda,galicia
+2021-02-13,627.37764,Demanda,la rioja
+2021-02-14,743.811335,Demanda,andalucia
+2021-02-15,751.44691,Demanda,cantabria
+2021-02-16,752.695056,Demanda,region de murcia
+2021-02-17,754.962027,Demanda,comunidad de navarra
+2021-02-18,749.031191,Demanda,aragon
+2021-02-19,667.7854,Demanda,cantabria
+2021-02-20,636.8204020000001,Demanda,peninsular
+2021-02-21,743.3179620000001,Demanda,melilla
+2021-02-22,750.925914,Demanda,principado de asturias
+2021-02-23,747.390312,Demanda,la rioja
+2021-02-24,744.8102719999999,Demanda,ceuta
+2021-02-25,740.0174790000001,Demanda,ceuta
+2021-02-26,664.2755649999999,Demanda,cantabria
+2021-02-27,621.167542,Demanda,la rioja
+2021-02-28,730.802101,Demanda,cantabria
+2021-03-01,749.835836,Demanda,ceuta
+2021-03-02,744.167225,Demanda,aragon
+2021-03-03,740.268037,Demanda,la rioja
+2021-03-04,735.72458,Demanda,castilla y leon
+2021-03-05,658.451851,Demanda,la rioja
+2021-03-06,622.68566,Demanda,cataluña
+2021-03-07,742.93638,Demanda,principado de asturias
+2021-03-08,758.3525189999999,Demanda,melilla
+2021-03-09,750.796647,Demanda,peninsular
+2021-03-10,739.481269,Demanda,cataluña
+2021-03-11,729.092448,Demanda,extremadura
+2021-03-12,646.3014969999999,Demanda,comunidad de navarra
+2021-03-13,606.5404120000001,Demanda,cantabria
+2021-03-14,719.293522,Demanda,comunidad de madrid
+2021-03-15,732.0050259999999,Demanda,baleares
+2021-03-16,729.775728,Demanda,castilla la mancha
+2021-03-17,741.473221,Demanda,extremadura
+2021-03-18,706.043651,Demanda,comunidad de madrid
+2021-03-19,670.4976409999999,Demanda,principado de asturias
+2021-03-20,630.102703,Demanda,canarias
+2021-03-21,735.080366,Demanda,cantabria
+2021-03-22,739.4374250000001,Demanda,galicia
+2021-03-23,731.621692,Demanda,region de murcia
+2021-03-24,726.346417,Demanda,pais vasco
+2021-03-25,719.331777,Demanda,andalucia
+2021-03-26,648.466535,Demanda,andalucia
+2021-03-27,571.635074,Demanda,peninsular
+2021-03-28,691.559272,Demanda,galicia
+2021-03-29,695.256722,Demanda,region de murcia
+2021-03-30,679.6876530000001,Demanda,cataluña
+2021-03-31,603.780936,Demanda,ceuta
+2021-04-01,558.137662,Demanda,cataluña
+2021-04-02,577.877662,Demanda,comunidad de madrid
+2021-04-03,551.346366,Demanda,peninsular
+2021-04-04,604.0439250000001,Demanda,castilla la mancha
+2021-04-05,678.9370620000001,Demanda,canarias
+2021-04-06,706.832348,Demanda,melilla
+2021-04-07,711.274992,Demanda,extremadura
+2021-04-08,713.789777,Demanda,pais vasco
+2021-04-09,641.31352,Demanda,peninsular
+2021-04-10,594.071686,Demanda,comunidad de valenciana
+2021-04-11,692.941728,Demanda,pais vasco
+2021-04-12,717.396928,Demanda,region de murcia
+2021-04-13,716.6541850000001,Demanda,castilla y leon
+2021-04-14,722.2387090000001,Demanda,region de murcia
+2021-04-15,713.5832730000001,Demanda,pais vasco
+2021-04-16,642.86534,Demanda,cantabria
+2021-04-17,593.2931169999999,Demanda,cantabria
+2021-04-18,697.833818,Demanda,pais vasco
+2021-04-19,709.788735,Demanda,castilla la mancha
+2021-04-20,710.848815,Demanda,andalucia
+2021-04-21,713.242666,Demanda,comunidad de navarra
+2021-04-22,685.3986779999999,Demanda,region de murcia
+2021-04-23,620.321236,Demanda,castilla y leon
+2021-04-24,584.849257,Demanda,comunidad de navarra
+2021-04-25,689.249537,Demanda,cantabria
+2021-04-26,703.09256,Demanda,ceuta
+2021-04-27,698.342061,Demanda,cantabria
+2021-04-28,697.91872,Demanda,melilla
+2021-04-29,688.9565259999999,Demanda,andalucia
+2021-04-30,577.472256,Demanda,la rioja
+2021-05-01,559.173805,Demanda,melilla
+2021-05-02,667.365198,Demanda,canarias
+2021-05-03,689.998019,Demanda,comunidad de madrid
+2021-05-04,690.6510999999999,Demanda,ceuta
+2021-05-05,689.028329,Demanda,region de murcia
+2021-05-06,681.3994270000001,Demanda,cataluña
+2021-05-07,612.800041,Demanda,galicia
+2021-05-08,573.950672,Demanda,extremadura
+2021-05-09,672.5174860000001,Demanda,castilla la mancha
+2021-05-10,690.260839,Demanda,castilla la mancha
+2021-05-11,696.396062,Demanda,ceuta
+2021-05-12,695.282254,Demanda,aragon
+2021-05-13,688.397416,Demanda,canarias
+2021-05-14,622.8635969999999,Demanda,extremadura
+2021-05-15,580.57779,Demanda,region de murcia
+2021-05-16,668.87806,Demanda,extremadura
+2021-05-17,696.787021,Demanda,castilla y leon
+2021-05-18,698.169314,Demanda,region de murcia
+2021-05-19,697.758698,Demanda,region de murcia
+2021-05-20,691.966356,Demanda,la rioja
+2021-05-21,621.6332020000001,Demanda,canarias
+2021-05-22,574.18028,Demanda,castilla y leon
+2021-05-23,659.025584,Demanda,cataluña
+2021-05-24,687.45259,Demanda,region de murcia
+2021-05-25,692.3381430000001,Demanda,la rioja
+2021-05-26,694.593137,Demanda,comunidad de navarra
+2021-05-27,687.21766,Demanda,region de murcia
+2021-05-28,625.581869,Demanda,aragon
+2021-05-29,579.605519,Demanda,andalucia
+2021-05-30,683.32724,Demanda,comunidad de navarra
+2021-05-31,696.048627,Demanda,baleares
+2021-06-01,700.505017,Demanda,pais vasco
+2021-06-02,698.600649,Demanda,baleares
+2021-06-03,692.965661,Demanda,ceuta
+2021-06-04,622.988965,Demanda,extremadura
+2021-06-05,576.7397129999999,Demanda,la rioja
+2021-06-06,687.687127,Demanda,castilla y leon
+2021-06-07,719.311181,Demanda,la rioja
+2021-06-08,727.9984790000001,Demanda,pais vasco
+2021-06-09,739.161249,Demanda,castilla la mancha
+2021-06-10,732.773334,Demanda,canarias
+2021-06-11,663.407333,Demanda,cantabria
+2021-06-12,616.20506,Demanda,region de murcia
+2021-06-13,737.903439,Demanda,la rioja
+2021-06-14,759.440415,Demanda,baleares
+2021-06-15,755.302693,Demanda,peninsular
+2021-06-16,732.968196,Demanda,principado de asturias
+2021-06-17,720.62028,Demanda,castilla y leon
+2021-06-18,646.908276,Demanda,extremadura
+2021-06-19,594.4443299999999,Demanda,galicia
+2021-06-20,695.3108100000001,Demanda,peninsular
+2021-06-21,710.3957419999999,Demanda,comunidad de valenciana
+2021-06-22,701.339201,Demanda,canarias
+2021-06-23,667.378472,Demanda,region de murcia
+2021-06-24,694.493443,Demanda,principado de asturias
+2021-06-25,651.12108,Demanda,canarias
+2021-06-26,606.935474,Demanda,la rioja
+2021-06-27,706.509225,Demanda,comunidad de valenciana
+2021-06-28,727.913028,Demanda,melilla
+2021-06-29,744.980042,Demanda,ceuta
+2021-06-30,745.6468229999999,Demanda,galicia
+2021-07-01,751.0719399999999,Demanda,cataluña
+2021-07-02,686.746086,Demanda,cantabria
+2021-07-03,645.1977870000001,Demanda,melilla
+2021-07-04,756.482667,Demanda,comunidad de navarra
+2021-07-05,765.5216069999999,Demanda,comunidad de navarra
+2021-07-06,749.498243,Demanda,ceuta
+2021-07-07,743.139951,Demanda,cataluña
+2021-07-08,749.3615159999999,Demanda,cantabria
+2021-07-09,698.499464,Demanda,galicia
+2021-07-10,662.579088,Demanda,region de murcia
+2021-07-11,763.113617,Demanda,comunidad de madrid
+2021-07-12,739.886353,Demanda,galicia
+2021-07-13,742.631422,Demanda,comunidad de navarra
+2021-07-14,749.381936,Demanda,peninsular
+2021-07-15,755.7868020000001,Demanda,castilla y leon
+2021-07-16,703.58958,Demanda,melilla
+2021-07-17,657.129066,Demanda,castilla la mancha
+2021-07-18,770.181187,Demanda,andalucia
+2021-07-19,786.064039,Demanda,cantabria
+2021-07-20,796.392983,Demanda,andalucia
+2021-07-21,807.661031,Demanda,cantabria
+2021-07-22,801.290966,Demanda,castilla la mancha
+2021-07-23,708.875188,Demanda,comunidad de navarra
+2021-07-24,647.414033,Demanda,castilla la mancha
+2021-07-25,741.7888519999999,Demanda,comunidad de madrid
+2021-07-26,764.664988,Demanda,galicia
+2021-07-27,777.471567,Demanda,melilla
+2021-07-28,786.049111,Demanda,ceuta
+2021-07-29,780.535725,Demanda,comunidad de valenciana
+2021-07-30,688.6021430000001,Demanda,castilla y leon
+2021-07-31,610.030071,Demanda,la rioja
+2021-08-01,692.2965389999999,Demanda,castilla y leon
+2021-08-02,716.478894,Demanda,galicia
+2021-08-03,726.92959,Demanda,melilla
+2021-08-04,737.222091,Demanda,cataluña
+2021-08-05,733.401456,Demanda,peninsular
+2021-08-06,676.412684,Demanda,aragon
+2021-08-07,615.00122,Demanda,comunidad de madrid
+2021-08-08,688.277519,Demanda,ceuta
+2021-08-09,712.411101,Demanda,peninsular
+2021-08-10,735.9656650000001,Demanda,canarias
+2021-08-11,755.611095,Demanda,region de murcia
+2021-08-12,762.760446,Demanda,comunidad de madrid
+2021-08-13,734.160936,Demanda,pais vasco
+2021-08-14,692.7508780000001,Demanda,castilla la mancha
+2021-08-15,734.676191,Demanda,principado de asturias
+2021-08-16,734.157383,Demanda,castilla y leon
+2021-08-17,729.6624889999999,Demanda,comunidad de valenciana
+2021-08-18,723.091039,Demanda,comunidad de madrid
+2021-08-19,723.16805,Demanda,canarias
+2021-08-20,680.1778850000001,Demanda,castilla la mancha
+2021-08-21,642.5478860000001,Demanda,castilla la mancha
+2021-08-22,740.216309,Demanda,ceuta
+2021-08-23,749.61014,Demanda,pais vasco
+2021-08-24,738.207487,Demanda,ceuta
+2021-08-25,746.460103,Demanda,principado de asturias
+2021-08-26,752.000087,Demanda,canarias
+2021-08-27,680.131728,Demanda,castilla la mancha
+2021-08-28,625.714882,Demanda,region de murcia
+2021-08-29,722.450384,Demanda,comunidad de madrid
+2021-08-30,747.811051,Demanda,cantabria
+2021-08-31,746.405192,Demanda,aragon
+2021-09-01,733.2948279999999,Demanda,comunidad de madrid
+2021-09-02,731.068102,Demanda,galicia
+2021-09-03,661.105572,Demanda,baleares
+2021-09-04,625.9475060000001,Demanda,melilla
+2021-09-05,750.941319,Demanda,castilla y leon
+2021-09-06,778.331589,Demanda,la rioja
+2021-09-07,758.832979,Demanda,cataluña
+2021-09-08,759.765067,Demanda,galicia
+2021-09-09,743.10971,Demanda,canarias
+2021-09-10,664.0345189999999,Demanda,la rioja
+2021-09-11,624.4711729999999,Demanda,comunidad de valenciana
+2021-09-12,730.599845,Demanda,pais vasco
+2021-09-13,744.88997,Demanda,region de murcia
+2021-09-14,740.6555960000001,Demanda,andalucia
+2021-09-15,726.396632,Demanda,ceuta
+2021-09-16,714.163921,Demanda,castilla la mancha
+2021-09-17,639.4929000000001,Demanda,baleares
+2021-09-18,588.0682780000001,Demanda,castilla la mancha
+2021-09-19,692.113328,Demanda,castilla la mancha
+2021-09-20,696.7757369999999,Demanda,andalucia
+2021-09-21,701.743975,Demanda,principado de asturias
+2021-09-22,704.5458140000001,Demanda,peninsular
+2021-09-23,697.179551,Demanda,castilla la mancha
+2021-09-24,631.054818,Demanda,comunidad de madrid
+2021-09-25,582.860409,Demanda,peninsular
+2021-09-26,686.152044,Demanda,castilla y leon
+2021-09-27,706.3054549999999,Demanda,aragon
+2021-09-28,710.1123980000001,Demanda,comunidad de navarra
+2021-09-29,702.537831,Demanda,comunidad de madrid
+2021-09-30,692.944543,Demanda,castilla la mancha
+2021-10-01,630.287998,Demanda,castilla y leon
+2021-10-02,585.69262,Demanda,melilla
+2021-10-03,665.592111,Demanda,pais vasco
+2021-10-04,681.2847539999999,Demanda,castilla y leon
+2021-10-05,695.359374,Demanda,cataluña
+2021-10-06,689.344379,Demanda,galicia
+2021-10-07,685.1098129999999,Demanda,region de murcia
+2021-10-08,612.730729,Demanda,melilla
+2021-10-09,568.730598,Demanda,pais vasco
+2021-10-10,615.6411850000001,Demanda,aragon
+2021-10-11,577.417811,Demanda,canarias
+2021-10-12,668.727443,Demanda,cataluña
+2021-10-13,682.5967589999999,Demanda,castilla la mancha
+2021-10-14,681.763233,Demanda,comunidad de valenciana
+2021-10-15,616.067047,Demanda,cataluña
+2021-10-16,573.616151,Demanda,principado de asturias
+2021-10-17,675.467776,Demanda,extremadura
+2021-10-18,692.280722,Demanda,aragon
+2021-10-19,693.103655,Demanda,castilla la mancha
+2021-10-20,688.4803149999999,Demanda,galicia
+2021-10-21,682.264745,Demanda,la rioja
+2021-10-22,612.0187090000001,Demanda,extremadura
+2021-10-23,571.138872,Demanda,aragon
+2021-10-24,670.783825,Demanda,extremadura
+2021-10-25,692.31942,Demanda,ceuta
+2021-10-26,689.359293,Demanda,cataluña
+2021-10-27,691.1472650000001,Demanda,la rioja
+2021-10-28,692.264935,Demanda,canarias
+2021-10-29,626.694705,Demanda,comunidad de madrid
+2021-10-30,597.2471859999999,Demanda,cantabria
+2021-10-31,576.3677439999999,Demanda,principado de asturias
+2021-11-01,674.854716,Demanda,galicia
+2021-11-02,695.2352659999999,Demanda,comunidad de madrid
+2021-11-03,705.890141,Demanda,baleares
+2021-11-04,717.19316,Demanda,canarias
+2021-11-05,655.441422,Demanda,comunidad de navarra
+2021-11-06,616.104014,Demanda,baleares
+2021-11-07,716.917625,Demanda,peninsular
+2021-11-08,728.0031339999999,Demanda,ceuta
+2021-11-09,737.414445,Demanda,castilla la mancha
+2021-11-10,738.439482,Demanda,pais vasco
+2021-11-11,731.746944,Demanda,comunidad de valenciana
+2021-11-12,652.720566,Demanda,canarias
+2021-11-13,612.965856,Demanda,galicia
+2021-11-14,725.7026800000001,Demanda,comunidad de valenciana
+2021-11-15,748.837812,Demanda,castilla y leon
+2021-11-16,753.6891069999999,Demanda,aragon
+2021-11-17,755.571919,Demanda,cataluña
+2021-11-18,746.4489120000001,Demanda,melilla
+2021-11-19,674.480947,Demanda,comunidad de navarra
+2021-11-20,622.5045670000001,Demanda,comunidad de valenciana
+2021-11-21,744.436995,Demanda,castilla la mancha
+2021-11-22,774.690327,Demanda,ceuta
+2021-11-23,786.755043,Demanda,cantabria
+2021-11-24,787.163875,Demanda,principado de asturias
+2021-11-25,781.000985,Demanda,peninsular
+2021-11-26,716.586063,Demanda,baleares
+2021-11-27,685.695321,Demanda,baleares
+2021-11-28,782.1279549999999,Demanda,comunidad de navarra
+2021-11-29,788.505669,Demanda,peninsular
+2021-11-30,797.141836,Demanda,comunidad de madrid
+2021-12-01,800.1944350000001,Demanda,peninsular
+2021-12-02,790.8114969999999,Demanda,andalucia
+2021-12-03,711.448518,Demanda,cantabria
+2021-12-04,660.5806650000001,Demanda,canarias
+2021-12-05,667.1958460000001,Demanda,galicia
+2021-12-06,710.588895,Demanda,peninsular
+2021-12-07,684.008281,Demanda,canarias
+2021-12-08,782.066188,Demanda,baleares
+2021-12-09,776.257295,Demanda,la rioja
+2021-12-10,692.242959,Demanda,comunidad de valenciana
+2021-12-11,644.6789640000001,Demanda,region de murcia
+2021-12-12,758.492556,Demanda,aragon
+2021-12-13,783.3417360000001,Demanda,castilla y leon
+2021-12-14,787.1938739999999,Demanda,pais vasco
+2021-12-15,792.100159,Demanda,peninsular
+2021-12-16,783.162446,Demanda,region de murcia
+2021-12-17,706.20551,Demanda,comunidad de navarra
+2021-12-18,660.6288619999999,Demanda,castilla la mancha
+2021-12-19,771.478461,Demanda,baleares
+2021-12-20,772.523695,Demanda,region de murcia
+2021-12-21,757.320524,Demanda,castilla y leon
+2021-12-22,729.0895019999999,Demanda,canarias
+2021-12-23,637.631538,Demanda,region de murcia
+2021-12-24,547.513015,Demanda,cataluña
+2021-12-25,582.595459,Demanda,cantabria
+2021-12-26,657.559283,Demanda,principado de asturias
+2021-12-27,663.701614,Demanda,pais vasco
+2021-12-28,657.200732,Demanda,canarias
+2021-12-29,653.6023730000001,Demanda,cantabria
+2021-12-30,611.387919,Demanda,comunidad de madrid
+2021-12-31,535.144786,Demanda,aragon
+2022-01-01,578.855186,Demanda,la rioja
+2022-01-02,691.970774,Demanda,extremadura
+2022-01-03,718.047874,Demanda,comunidad de navarra
+2022-01-04,715.070234,Demanda,andalucia
+2022-01-05,617.9363510000001,Demanda,baleares
+2022-01-06,703.00457,Demanda,andalucia
+2022-01-07,686.615314,Demanda,region de murcia
+2022-01-08,657.0999039999999,Demanda,galicia
+2022-01-09,756.621212,Demanda,cataluña
+2022-01-10,771.7110779999999,Demanda,extremadura
+2022-01-11,777.310213,Demanda,aragon
+2022-01-12,788.5722830000001,Demanda,peninsular
+2022-01-13,796.150956,Demanda,andalucia
+2022-01-14,717.1641430000001,Demanda,comunidad de madrid
+2022-01-15,672.3810679999999,Demanda,baleares
+2022-01-16,790.794183,Demanda,cataluña
+2022-01-17,809.453033,Demanda,cantabria
+2022-01-18,813.885767,Demanda,region de murcia
+2022-01-19,813.8411040000001,Demanda,comunidad de valenciana
+2022-01-20,812.933383,Demanda,extremadura
+2022-01-21,728.5318860000001,Demanda,region de murcia
+2022-01-22,681.487178,Demanda,ceuta
+2022-01-23,800.222601,Demanda,galicia
+2022-01-24,803.957158,Demanda,andalucia
+2022-01-25,800.205701,Demanda,cantabria
+2022-01-26,794.878473,Demanda,cataluña
+2022-01-27,786.143822,Demanda,comunidad de madrid
+2022-01-28,698.9690159999999,Demanda,peninsular
+2022-01-29,648.503898,Demanda,ceuta
+2022-01-30,761.8327830000001,Demanda,extremadura
+2022-01-31,774.260763,Demanda,comunidad de navarra
+2022-02-01,762.494554,Demanda,canarias
+2022-02-02,760.780897,Demanda,pais vasco
+2022-02-03,756.8966409999999,Demanda,peninsular
+2022-02-04,682.674839,Demanda,cantabria
+2022-02-05,635.24708,Demanda,comunidad de madrid
+2022-02-06,746.724421,Demanda,principado de asturias
+2022-02-07,756.6787240000001,Demanda,comunidad de madrid
+2022-02-08,755.748252,Demanda,galicia
+2022-02-09,762.082393,Demanda,castilla la mancha
+2022-02-10,754.633793,Demanda,aragon
+2022-02-11,679.947691,Demanda,pais vasco
+2022-02-12,635.7765280000001,Demanda,canarias
+2022-02-13,741.71903,Demanda,region de murcia
+2022-02-14,759.124039,Demanda,galicia
+2022-02-15,758.26598,Demanda,castilla la mancha
+2022-02-16,744.05002,Demanda,baleares
+2022-02-17,735.4270479999999,Demanda,cataluña
+2022-02-18,677.9925579999999,Demanda,extremadura
+2022-02-19,628.491111,Demanda,region de murcia
+2022-02-20,726.59717,Demanda,region de murcia
+2022-02-21,734.120281,Demanda,region de murcia
+2022-02-22,732.237567,Demanda,extremadura
+2022-02-23,736.907737,Demanda,cataluña
+2022-02-24,742.820885,Demanda,melilla
+2022-02-25,670.693047,Demanda,baleares
+2022-02-26,618.013898,Demanda,la rioja
+2022-02-27,697.748424,Demanda,canarias
+2022-02-28,722.629686,Demanda,canarias
+2022-03-01,735.689298,Demanda,andalucia
+2022-03-02,742.779369,Demanda,baleares
+2022-03-03,743.386909,Demanda,comunidad de valenciana
+2022-03-04,660.787324,Demanda,galicia
+2022-03-05,620.2514719999999,Demanda,andalucia
+2022-03-06,732.4931330000001,Demanda,extremadura
+2022-03-07,735.113962,Demanda,comunidad de valenciana
+2022-03-08,726.757341,Demanda,pais vasco
+2022-03-09,722.215252,Demanda,aragon
+2022-03-10,731.329705,Demanda,melilla
+2022-03-11,642.182296,Demanda,castilla y leon
+2022-03-12,593.322595,Demanda,comunidad de valenciana
+2022-03-13,726.3644429999999,Demanda,pais vasco
+2022-03-14,727.2516459999999,Demanda,castilla y leon
+2022-03-15,728.889512,Demanda,melilla
+2022-03-16,726.4253050000001,Demanda,pais vasco
+2022-03-17,704.8330119999999,Demanda,region de murcia
+2022-03-18,624.061488,Demanda,la rioja
+2022-03-19,591.749465,Demanda,castilla y leon
+2022-03-20,698.5503050000001,Demanda,baleares
+2022-03-21,717.641,Demanda,cataluña
+2022-03-22,719.548211,Demanda,la rioja
+2022-03-23,725.071963,Demanda,canarias
+2022-03-24,706.7664520000001,Demanda,baleares
+2022-03-25,631.663488,Demanda,region de murcia
+2022-03-26,554.0561580000001,Demanda,castilla y leon
+2022-03-27,677.673545,Demanda,comunidad de navarra
+2022-03-28,692.972303,Demanda,principado de asturias
+2022-03-29,707.690926,Demanda,castilla y leon
+2022-03-30,705.601198,Demanda,andalucia
+2022-03-31,710.892602,Demanda,andalucia
+2022-04-01,645.549332,Demanda,ceuta
+2022-04-02,613.758289,Demanda,comunidad de madrid
+2022-04-03,744.1001530000001,Demanda,melilla
+2022-04-04,762.7291389999999,Demanda,canarias
+2022-04-05,744.533256,Demanda,cantabria
+2022-04-06,722.876934,Demanda,extremadura
+2022-04-07,707.077849,Demanda,cataluña
+2022-04-08,621.527143,Demanda,cantabria
+2022-04-09,574.8097560000001,Demanda,comunidad de madrid
+2022-04-10,667.783117,Demanda,ceuta
+2022-04-11,687.2516189999999,Demanda,melilla
+2022-04-12,685.3631790000001,Demanda,principado de asturias
+2022-04-13,585.21051,Demanda,galicia
+2022-04-14,536.448535,Demanda,castilla y leon
+2022-04-15,551.086712,Demanda,comunidad de valenciana
+2022-04-16,527.2578490000001,Demanda,comunidad de valenciana
+2022-04-17,580.33576,Demanda,extremadura
+2022-04-18,657.8258149999999,Demanda,comunidad de madrid
+2022-04-19,698.469112,Demanda,comunidad de madrid
+2022-04-20,697.710847,Demanda,canarias
+2022-04-21,695.63789,Demanda,la rioja
+2022-04-22,628.779932,Demanda,aragon
+2022-04-23,571.994039,Demanda,principado de asturias
+2022-04-24,654.7144549999999,Demanda,canarias
+2022-04-25,677.540715,Demanda,castilla y leon
+2022-04-26,687.613611,Demanda,comunidad de madrid
+2022-04-27,688.510063,Demanda,peninsular
+2022-04-28,669.0223669999999,Demanda,extremadura
+2022-04-29,592.600643,Demanda,comunidad de valenciana
+2022-04-30,528.390929,Demanda,principado de asturias
+2022-05-01,614.138744,Demanda,canarias
+2022-05-02,677.3924989999999,Demanda,region de murcia
+2022-05-03,687.3154350000001,Demanda,canarias
+2022-05-04,680.762673,Demanda,comunidad de navarra
+2022-05-05,668.5976380000001,Demanda,andalucia
+2022-05-06,596.496276,Demanda,aragon
+2022-05-07,550.457934,Demanda,melilla
+2022-05-08,650.598557,Demanda,comunidad de navarra
+2022-05-09,673.774152,Demanda,cantabria
+2022-05-10,678.560086,Demanda,galicia
+2022-05-11,683.9813029999999,Demanda,region de murcia
+2022-05-12,678.906624,Demanda,cantabria
+2022-05-13,613.4713449999999,Demanda,baleares
+2022-05-14,565.340711,Demanda,pais vasco
+2022-05-15,658.6062340000001,Demanda,canarias
+2022-05-16,689.1595679999999,Demanda,region de murcia
+2022-05-17,701.7015799999999,Demanda,pais vasco
+2022-05-18,716.668676,Demanda,principado de asturias
+2022-05-19,714.896579,Demanda,comunidad de madrid
+2022-05-20,645.687218,Demanda,aragon
+2022-05-21,591.016568,Demanda,comunidad de madrid
+2022-05-22,692.293672,Demanda,castilla la mancha
+2022-05-23,699.490143,Demanda,andalucia
+2022-05-24,683.2039139999999,Demanda,baleares
+2022-05-25,688.9245990000001,Demanda,baleares
+2022-05-26,691.1676580000001,Demanda,castilla la mancha
+2022-05-27,628.739734,Demanda,cantabria
+2022-05-28,579.5047079999999,Demanda,aragon
+2022-05-29,672.096948,Demanda,ceuta
+2022-05-30,699.889965,Demanda,peninsular
+2022-05-31,709.6606489999999,Demanda,baleares
+2022-06-01,714.0961110000001,Demanda,galicia
+2022-06-02,711.4604989999999,Demanda,region de murcia
+2022-06-03,632.752836,Demanda,aragon
+2022-06-04,583.681514,Demanda,pais vasco
+2022-06-05,671.690704,Demanda,melilla
+2022-06-06,720.8173519999999,Demanda,andalucia
+2022-06-07,734.652173,Demanda,aragon
+2022-06-08,740.426075,Demanda,galicia
+2022-06-09,740.712627,Demanda,castilla la mancha
+2022-06-10,678.773887,Demanda,principado de asturias
+2022-06-11,633.281978,Demanda,pais vasco
+2022-06-12,758.638075,Demanda,castilla la mancha
+2022-06-13,798.691052,Demanda,castilla la mancha
+2022-06-14,816.499073,Demanda,castilla y leon
+2022-06-15,810.3748830000001,Demanda,baleares
+2022-06-16,807.731237,Demanda,pais vasco
+2022-06-17,721.87437,Demanda,comunidad de navarra
+2022-06-18,639.567443,Demanda,cataluña
+2022-06-19,746.482216,Demanda,comunidad de navarra
+2022-06-20,754.336941,Demanda,canarias
+2022-06-21,735.366573,Demanda,castilla y leon
+2022-06-22,712.2445180000001,Demanda,castilla y leon
+2022-06-23,658.1052709999999,Demanda,comunidad de navarra
+2022-06-24,634.796661,Demanda,melilla
+2022-06-25,597.1201110000001,Demanda,principado de asturias
+2022-06-26,697.550971,Demanda,andalucia
+2022-06-27,717.423769,Demanda,galicia
+2022-06-28,727.046257,Demanda,canarias
+2022-06-29,724.4907830000001,Demanda,extremadura
+2022-06-30,714.296439,Demanda,la rioja
+2022-07-01,664.621873,Demanda,andalucia
+2022-07-02,628.386931,Demanda,ceuta
+2022-07-03,734.811021,Demanda,comunidad de madrid
+2022-07-04,766.576117,Demanda,comunidad de valenciana
+2022-07-05,763.81516,Demanda,canarias
+2022-07-06,756.0286990000001,Demanda,andalucia
+2022-07-07,760.229022,Demanda,comunidad de valenciana
+2022-07-08,692.3903220000001,Demanda,principado de asturias
+2022-07-09,652.462732,Demanda,castilla y leon
+2022-07-10,781.3235540000001,Demanda,comunidad de navarra
+2022-07-11,811.270388,Demanda,aragon
+2022-07-12,827.8702149999999,Demanda,comunidad de navarra
+2022-07-13,836.258259,Demanda,aragon
+2022-07-14,831.8563710000001,Demanda,cantabria
+2022-07-15,748.6792610000001,Demanda,comunidad de valenciana
+2022-07-16,698.6660509999999,Demanda,peninsular
+2022-07-17,822.023508,Demanda,aragon
+2022-07-18,823.558586,Demanda,region de murcia
+2022-07-19,823.283426,Demanda,andalucia
+2022-07-20,836.7279030000001,Demanda,comunidad de navarra
+2022-07-21,831.424411,Demanda,galicia
+2022-07-22,735.091226,Demanda,comunidad de navarra
+2022-07-23,687.821417,Demanda,principado de asturias
+2022-07-24,787.876394,Demanda,extremadura
+2022-07-25,824.187447,Demanda,comunidad de madrid
+2022-07-26,806.232992,Demanda,pais vasco
+2022-07-27,800.376722,Demanda,canarias
+2022-07-28,793.9922349999999,Demanda,la rioja
+2022-07-29,718.385467,Demanda,principado de asturias
+2022-07-30,675.415017,Demanda,principado de asturias
+2022-07-31,782.866189,Demanda,la rioja
+2022-08-01,800.0308279999999,Demanda,comunidad de madrid
+2022-08-02,795.863729,Demanda,la rioja
+2022-08-03,789.564733,Demanda,andalucia
+2022-08-04,772.886414,Demanda,comunidad de navarra
+2022-08-05,699.119098,Demanda,comunidad de madrid
+2022-08-06,647.889366,Demanda,cataluña
+2022-08-07,727.811301,Demanda,comunidad de valenciana
+2022-08-08,745.979959,Demanda,comunidad de valenciana
+2022-08-09,754.636552,Demanda,castilla la mancha
+2022-08-10,750.8439420000001,Demanda,castilla y leon
+2022-08-11,750.786746,Demanda,cataluña
+2022-08-12,698.246392,Demanda,cantabria
+2022-08-13,629.884456,Demanda,baleares
+2022-08-14,622.6600159999999,Demanda,pais vasco
+2022-08-15,680.755938,Demanda,comunidad de navarra
+2022-08-16,677.139664,Demanda,cataluña
+2022-08-17,659.3302610000001,Demanda,castilla la mancha
+2022-08-18,661.916618,Demanda,pais vasco
+2022-08-19,633.6992190000001,Demanda,la rioja
+2022-08-20,602.791839,Demanda,region de murcia
+2022-08-21,703.153961,Demanda,comunidad de navarra
+2022-08-22,730.634865,Demanda,cataluña
+2022-08-23,738.5584590000001,Demanda,aragon
+2022-08-24,736.603211,Demanda,comunidad de valenciana
+2022-08-25,725.562063,Demanda,comunidad de navarra
+2022-08-26,656.630131,Demanda,castilla y leon
+2022-08-27,615.465721,Demanda,extremadura
+2022-08-28,727.200545,Demanda,galicia
+2022-08-29,750.9244669999999,Demanda,comunidad de madrid
+2022-08-30,740.231753,Demanda,aragon
+2022-08-31,731.641339,Demanda,comunidad de madrid
+2022-09-01,732.22767,Demanda,la rioja
+2022-09-02,642.23601,Demanda,canarias
+2022-09-03,596.575601,Demanda,castilla y leon
+2022-09-04,711.057502,Demanda,cataluña
+2022-09-05,727.5270849999999,Demanda,comunidad de madrid
+2022-09-06,731.678,Demanda,andalucia
+2022-09-07,715.619573,Demanda,la rioja
+2022-09-08,721.661277,Demanda,melilla
+2022-09-09,653.8048120000001,Demanda,la rioja
+2022-09-10,619.8220570000001,Demanda,melilla
+2022-09-11,743.105948,Demanda,ceuta
+2022-09-12,746.41615,Demanda,la rioja
+2022-09-13,722.541723,Demanda,baleares
+2022-09-14,713.473613,Demanda,ceuta
+2022-09-15,708.799082,Demanda,region de murcia
+2022-09-16,619.334834,Demanda,comunidad de valenciana
+2022-09-17,574.254188,Demanda,canarias
+2022-09-18,685.476662,Demanda,castilla la mancha
+2022-09-19,704.300231,Demanda,pais vasco
+2022-09-20,700.07002,Demanda,melilla
+2022-09-21,695.597389,Demanda,canarias
+2022-09-22,689.9885230000001,Demanda,peninsular
+2022-09-23,602.468746,Demanda,extremadura
+2022-09-24,547.492934,Demanda,cataluña
+2022-09-25,638.740351,Demanda,comunidad de navarra
+2022-09-26,659.456712,Demanda,melilla
+2022-09-27,663.780704,Demanda,pais vasco
+2022-09-28,663.7858560000001,Demanda,principado de asturias
+2022-09-29,649.024388,Demanda,cataluña
+2022-09-30,576.530486,Demanda,comunidad de valenciana
+2022-10-01,536.105027,Demanda,la rioja
+2022-10-02,644.976653,Demanda,principado de asturias
+2022-10-03,667.812384,Demanda,peninsular
+2022-10-04,669.204132,Demanda,ceuta
+2022-10-05,675.127531,Demanda,principado de asturias
+2022-10-06,666.351834,Demanda,castilla la mancha
+2022-10-07,589.542598,Demanda,andalucia
+2022-10-08,540.7964499999999,Demanda,comunidad de valenciana
+2022-10-09,644.622826,Demanda,principado de asturias
+2022-10-10,654.510421,Demanda,andalucia
+2022-10-11,557.942649,Demanda,la rioja
+2022-10-12,641.378909,Demanda,region de murcia
+2022-10-13,654.335366,Demanda,comunidad de madrid
+2022-10-14,579.414681,Demanda,la rioja
+2022-10-15,540.243248,Demanda,extremadura
+2022-10-16,645.458789,Demanda,canarias
+2022-10-17,666.698644,Demanda,comunidad de valenciana
+2022-10-18,678.7781239999999,Demanda,castilla la mancha
+2022-10-19,683.996794,Demanda,region de murcia
+2022-10-20,672.847573,Demanda,comunidad de navarra
+2022-10-21,586.790797,Demanda,cantabria
+2022-10-22,551.003213,Demanda,ceuta
+2022-10-23,646.2872070000001,Demanda,peninsular
+2022-10-24,663.966837,Demanda,pais vasco
+2022-10-25,669.5719620000001,Demanda,comunidad de navarra
+2022-10-26,664.27672,Demanda,canarias
+2022-10-27,653.085719,Demanda,andalucia
+2022-10-28,573.082907,Demanda,canarias
+2022-10-29,547.874045,Demanda,peninsular
+2022-10-30,587.498589,Demanda,cantabria
+2022-10-31,538.630845,Demanda,comunidad de madrid
+2022-11-01,634.187151,Demanda,pais vasco
+2022-11-02,656.532768,Demanda,extremadura
+2022-11-03,653.078471,Demanda,canarias
+2022-11-04,571.841348,Demanda,la rioja
+2022-11-05,532.238943,Demanda,cantabria
+2022-11-06,612.953806,Demanda,cataluña
+2022-11-07,666.701201,Demanda,castilla la mancha
+2022-11-08,661.163333,Demanda,castilla la mancha
+2022-11-09,664.4499420000001,Demanda,galicia
+2022-11-10,664.653882,Demanda,melilla
+2022-11-11,588.358835,Demanda,comunidad de madrid
+2022-11-12,542.933157,Demanda,la rioja
+2022-11-13,652.74112,Demanda,castilla y leon
+2022-11-14,651.544301,Demanda,principado de asturias
+2022-11-15,681.393885,Demanda,comunidad de valenciana
+2022-11-16,679.641411,Demanda,andalucia
+2022-11-17,675.6360870000001,Demanda,galicia
+2022-11-18,603.9002839999999,Demanda,galicia
+2022-11-19,560.680142,Demanda,region de murcia
+2022-11-20,686.937943,Demanda,cantabria
+2022-11-21,715.617289,Demanda,melilla
+2022-11-22,701.571613,Demanda,cantabria
+2022-11-23,698.309438,Demanda,cataluña
+2022-11-24,682.256747,Demanda,melilla
+2022-11-25,614.7417750000001,Demanda,castilla y leon
+2022-11-26,582.620008,Demanda,baleares
+2022-11-27,688.9074740000001,Demanda,castilla la mancha
+2022-11-28,712.802199,Demanda,region de murcia
+2022-11-29,724.74032,Demanda,castilla y leon
+2022-11-30,730.613079,Demanda,la rioja
+2022-12-01,731.618823,Demanda,baleares
+2022-12-02,659.861394,Demanda,melilla
+2022-12-03,616.327939,Demanda,aragon
+2022-12-04,707.473451,Demanda,region de murcia
+2022-12-05,645.078436,Demanda,principado de asturias
+2022-12-06,693.711869,Demanda,pais vasco
+2022-12-07,632.319537,Demanda,comunidad de navarra
+2022-12-08,671.091448,Demanda,pais vasco
+2022-12-09,623.146186,Demanda,melilla
+2022-12-10,606.8213639999999,Demanda,ceuta
+2022-12-11,728.1804599999999,Demanda,baleares
+2022-12-12,732.934204,Demanda,andalucia
+2022-12-13,717.540301,Demanda,canarias
+2022-12-14,712.548603,Demanda,castilla la mancha
+2022-12-15,713.514912,Demanda,castilla la mancha
+2022-12-16,629.7031750000001,Demanda,comunidad de valenciana
+2022-12-17,591.3869109999999,Demanda,extremadura
+2022-12-18,708.990929,Demanda,pais vasco
+2022-12-19,724.156043,Demanda,cantabria
+2022-12-20,711.189579,Demanda,comunidad de navarra
+2022-12-21,694.814032,Demanda,canarias
+2022-12-22,657.9960450000001,Demanda,comunidad de navarra
+2022-12-23,562.091314,Demanda,baleares
+2022-12-24,489.067621,Demanda,peninsular
+2022-12-25,532.343828,Demanda,galicia
+2022-12-26,612.141492,Demanda,baleares
+2022-12-27,629.989307,Demanda,aragon
+2022-12-28,637.1849840000001,Demanda,galicia
+2022-12-29,624.064594,Demanda,galicia
+2022-12-30,559.7548519999999,Demanda,la rioja
+2022-12-31,506.425906,Demanda,comunidad de valenciana
+2023-01-01,621.6458240000001,Demanda,comunidad de navarra
+2023-01-02,677.052137,Demanda,castilla la mancha
+2023-01-03,689.16095,Demanda,la rioja
+2023-01-04,671.291045,Demanda,andalucia
+2023-01-05,580.299936,Demanda,cataluña
+2023-01-06,626.064221,Demanda,extremadura
+2023-01-07,614.482321,Demanda,extremadura
+2023-01-08,702.001315,Demanda,ceuta
+2023-01-09,731.66144,Demanda,comunidad de navarra
+2023-01-10,738.957782,Demanda,region de murcia
+2023-01-11,743.0917870000001,Demanda,baleares
+2023-01-12,737.961141,Demanda,melilla
+2023-01-13,663.062596,Demanda,comunidad de navarra
+2023-01-14,615.888197,Demanda,peninsular
+2023-01-15,755.509285,Demanda,cantabria
+2023-01-16,758.739977,Demanda,castilla la mancha
+2023-01-17,780.321606,Demanda,ceuta
+2023-01-18,790.062795,Demanda,comunidad de navarra
+2023-01-19,757.426586,Demanda,peninsular
+2023-01-20,676.924309,Demanda,peninsular
+2023-01-21,649.293321,Demanda,la rioja
+2023-01-22,787.526211,Demanda,galicia
+2023-01-23,825.630213,Demanda,peninsular
+2023-01-24,816.153242,Demanda,principado de asturias
+2023-01-25,817.260311,Demanda,andalucia
+2023-01-26,806.4308689999999,Demanda,region de murcia
+2023-01-27,718.692953,Demanda,cataluña
+2023-01-28,675.983757,Demanda,castilla la mancha
+2023-01-29,795.325338,Demanda,region de murcia
+2023-01-30,803.69892,Demanda,baleares
+2023-01-31,801.6623320000001,Demanda,cantabria
+2023-02-01,790.9755670000001,Demanda,baleares
+2023-02-02,775.6323689999999,Demanda,cantabria
+2023-02-03,684.167496,Demanda,galicia
+2023-02-04,638.690856,Demanda,cantabria
+2023-02-05,775.39985,Demanda,aragon
+2023-02-06,808.0314579999999,Demanda,aragon
+2023-02-07,805.4269320000001,Demanda,extremadura
+2023-02-08,795.32555,Demanda,baleares
+2023-02-09,791.8338719999999,Demanda,castilla y leon
+2023-02-10,696.7167539999999,Demanda,region de murcia
+2023-02-11,648.805368,Demanda,canarias
+2023-02-12,763.9418919999999,Demanda,comunidad de valenciana
+2023-02-13,776.3497580000001,Demanda,cataluña
+2023-02-14,765.234644,Demanda,peninsular
+2023-02-15,756.1847730000001,Demanda,cantabria
+2023-02-16,745.841242,Demanda,canarias
+2023-02-17,656.9587290000001,Demanda,melilla
+2023-02-18,604.243142,Demanda,comunidad de valenciana
+2023-02-19,703.843757,Demanda,pais vasco
+2023-02-20,718.54225,Demanda,melilla
+2023-02-21,723.179886,Demanda,principado de asturias
+2023-02-22,744.746598,Demanda,comunidad de navarra
+2023-02-23,741.153705,Demanda,melilla
+2023-02-24,670.49514,Demanda,ceuta
+2023-02-25,633.054625,Demanda,galicia
+2023-02-26,769.247838,Demanda,canarias
+2023-02-27,774.548797,Demanda,pais vasco
+2023-02-28,790.626199,Demanda,castilla y leon
+2023-03-01,796.20401,Demanda,comunidad de madrid
+2023-03-02,772.9374009999999,Demanda,principado de asturias
+2023-03-03,674.0177389999999,Demanda,principado de asturias
+2023-03-04,635.805655,Demanda,cantabria
+2023-03-05,739.4409,Demanda,castilla la mancha
+2023-03-06,736.668395,Demanda,galicia
+2023-03-07,726.3656850000001,Demanda,comunidad de navarra
+2023-03-08,716.452857,Demanda,extremadura
+2023-03-09,689.27337,Demanda,ceuta
+2023-03-10,608.584638,Demanda,comunidad de madrid
+2023-03-11,557.4399540000001,Demanda,galicia
+2023-03-12,658.9060770000001,Demanda,cataluña
+2023-03-13,669.720805,Demanda,melilla
+2023-03-14,669.6869,Demanda,comunidad de valenciana
+2023-03-15,671.404492,Demanda,pais vasco
+2023-03-16,669.89872,Demanda,baleares
+2023-03-17,603.23337,Demanda,castilla la mancha
+2023-03-18,551.700834,Demanda,ceuta
+2023-03-19,641.384343,Demanda,cataluña
+2023-03-20,667.437684,Demanda,comunidad de valenciana
+2023-03-21,665.415519,Demanda,canarias
+2023-03-22,664.773196,Demanda,ceuta
+2023-03-23,664.920294,Demanda,andalucia
+2023-03-24,595.900869,Demanda,galicia
+2023-03-25,525.9332830000001,Demanda,comunidad de navarra
+2023-03-26,642.067363,Demanda,andalucia
+2023-03-27,655.2299320000001,Demanda,extremadura
+2023-03-28,657.287875,Demanda,aragon
+2023-03-29,660.755927,Demanda,cataluña
+2023-03-30,660.236946,Demanda,ceuta
+2023-03-31,592.046555,Demanda,galicia
+2023-04-01,548.874924,Demanda,canarias
+2023-04-02,639.072811,Demanda,comunidad de madrid
+2023-04-03,652.016035,Demanda,la rioja
+2023-04-04,639.631827,Demanda,la rioja
+2023-04-05,564.889452,Demanda,comunidad de madrid
+2023-04-06,518.549539,Demanda,castilla y leon
+2023-04-07,531.339729,Demanda,galicia
+2023-04-08,508.94786,Demanda,cantabria
+2023-04-09,562.915862,Demanda,peninsular
+2023-04-10,631.802137,Demanda,canarias
+2023-04-11,660.1152,Demanda,melilla
+2023-04-12,658.532314,Demanda,galicia
+2023-04-13,664.022635,Demanda,andalucia
+2023-04-14,592.441566,Demanda,galicia
+2023-04-15,547.231264,Demanda,ceuta
+2023-04-16,634.831145,Demanda,aragon
+2023-04-17,654.865618,Demanda,andalucia
+2023-04-18,654.950573,Demanda,peninsular
+2023-04-19,656.6535180000001,Demanda,baleares
+2023-04-20,650.9803199999999,Demanda,peninsular
+2023-04-21,590.4958,Demanda,comunidad de navarra
+2023-04-22,544.376883,Demanda,region de murcia
+2023-04-23,633.779346,Demanda,comunidad de valenciana
+2023-04-24,659.05916,Demanda,la rioja
+2023-04-25,661.852956,Demanda,ceuta
+2023-04-26,666.8293120000001,Demanda,comunidad de valenciana
+2023-04-27,661.354264,Demanda,cantabria
+2023-04-28,592.081712,Demanda,peninsular
+2023-04-29,542.193983,Demanda,aragon
+2023-04-30,523.889313,Demanda,peninsular
+2023-05-01,622.4347349999999,Demanda,baleares
+2023-05-02,660.714847,Demanda,andalucia
+2023-05-03,665.2909080000001,Demanda,ceuta
+2023-05-04,659.6169229999999,Demanda,region de murcia
+2023-05-05,590.485791,Demanda,comunidad de madrid
+2023-05-06,548.502085,Demanda,castilla y leon
+2023-05-07,642.369829,Demanda,cataluña
+2023-05-08,668.097149,Demanda,comunidad de valenciana
+2023-05-09,663.5311139999999,Demanda,aragon
+2023-05-10,657.13564,Demanda,comunidad de madrid
+2023-05-11,656.184255,Demanda,comunidad de valenciana
+2023-05-12,585.306083,Demanda,melilla
+2023-05-13,542.358512,Demanda,cataluña
+2023-05-14,631.619964,Demanda,canarias
+2023-05-15,651.749949,Demanda,galicia
+2023-05-16,643.132606,Demanda,canarias
+2023-05-17,651.1378100000001,Demanda,peninsular
+2023-05-18,646.5342410000001,Demanda,canarias
+2023-05-19,576.238824,Demanda,castilla la mancha
+2023-05-20,535.4669819999999,Demanda,ceuta
+2023-05-21,639.4224810000001,Demanda,pais vasco
+2023-05-22,654.198935,Demanda,melilla
+2023-05-23,650.279581,Demanda,region de murcia
+2023-05-24,651.7247120000001,Demanda,region de murcia
+2023-05-25,638.2496219999999,Demanda,canarias
+2023-05-26,566.5485080000001,Demanda,cantabria
+2023-05-27,521.285615,Demanda,baleares
+2023-05-28,621.366375,Demanda,cataluña
+2023-05-29,638.434329,Demanda,galicia
+2023-05-30,640.059655,Demanda,aragon
+2023-05-31,649.942676,Demanda,galicia
+2023-06-01,642.678488,Demanda,region de murcia
+2023-06-02,571.7647410000001,Demanda,extremadura
+2023-06-03,529.995247,Demanda,extremadura
+2023-06-04,632.165698,Demanda,andalucia
+2023-06-05,660.6496679999999,Demanda,galicia
+2023-06-06,675.239156,Demanda,pais vasco
+2023-06-07,666.873185,Demanda,baleares
+2023-06-08,657.4319429999999,Demanda,ceuta
+2023-06-09,585.434217,Demanda,ceuta
+2023-06-10,546.386353,Demanda,galicia
+2023-06-11,654.286647,Demanda,cantabria
+2023-06-12,671.548429,Demanda,aragon
+2023-06-13,675.0317249999999,Demanda,aragon
+2023-06-14,685.681558,Demanda,baleares
+2023-06-15,695.921152,Demanda,andalucia
+2023-06-16,627.665321,Demanda,castilla la mancha
+2023-06-17,577.9543719999999,Demanda,extremadura
+2023-06-18,684.896351,Demanda,pais vasco
+2023-06-19,704.7033710000001,Demanda,ceuta
+2023-06-20,714.975961,Demanda,comunidad de valenciana
+2023-06-21,709.4220829999999,Demanda,canarias
+2023-06-22,705.413541,Demanda,galicia
+2023-06-23,628.176282,Demanda,ceuta
+2023-06-24,616.012038,Demanda,castilla y leon
+2023-06-25,753.0181530000001,Demanda,peninsular
+2023-06-26,772.286006,Demanda,pais vasco
+2023-06-27,777.596436,Demanda,melilla
+2023-06-28,771.072346,Demanda,castilla la mancha
+2023-06-29,729.1571319999999,Demanda,galicia
+2023-06-30,646.254981,Demanda,baleares
+2023-07-01,615.130595,Demanda,principado de asturias
+2023-07-02,741.756166,Demanda,galicia
+2023-07-03,754.07466,Demanda,baleares
+2023-07-04,756.329156,Demanda,pais vasco
+2023-07-05,760.166347,Demanda,melilla
+2023-07-06,752.018825,Demanda,cantabria
+2023-07-07,665.130797,Demanda,galicia
+2023-07-08,628.912612,Demanda,peninsular
+2023-07-09,778.80077,Demanda,pais vasco
+2023-07-10,820.2434860000001,Demanda,cantabria
+2023-07-11,813.329123,Demanda,comunidad de valenciana
+2023-07-12,799.787648,Demanda,cantabria
+2023-07-13,800.5273930000001,Demanda,comunidad de navarra
+2023-07-14,698.753666,Demanda,castilla la mancha
+2023-07-15,639.8801189999999,Demanda,comunidad de navarra
+2023-07-16,781.3954960000001,Demanda,comunidad de valenciana
+2023-07-17,824.598568,Demanda,ceuta
+2023-07-18,837.501706,Demanda,canarias
+2023-07-19,818.438549,Demanda,baleares
+2023-07-20,780.090042,Demanda,cantabria
+2023-07-21,681.9435609999999,Demanda,comunidad de navarra
+2023-07-22,646.041839,Demanda,melilla
+2023-07-23,752.1054340000001,Demanda,melilla
+2023-07-24,721.372938,Demanda,comunidad de madrid
+2023-07-25,733.046018,Demanda,region de murcia
+2023-07-26,748.428535,Demanda,castilla la mancha
+2023-07-27,740.713259,Demanda,pais vasco
+2023-07-28,680.8510500000001,Demanda,peninsular
+2023-07-29,645.350877,Demanda,canarias
+2023-07-30,736.624838,Demanda,comunidad de navarra
+2023-07-31,754.106067,Demanda,castilla la mancha
+2023-08-01,767.572867,Demanda,baleares
+2023-08-02,743.787712,Demanda,canarias
+2023-08-03,689.6788170000001,Demanda,peninsular
+2023-08-04,616.7049030000001,Demanda,cataluña
+2023-08-05,594.272852,Demanda,melilla
+2023-08-06,677.200493,Demanda,la rioja
+2023-08-07,710.098443,Demanda,aragon
+2023-08-08,730.621532,Demanda,comunidad de valenciana
+2023-08-09,746.766603,Demanda,comunidad de madrid
+2023-08-10,739.1058889999999,Demanda,peninsular
+2023-08-11,680.130564,Demanda,cataluña
+2023-08-12,633.561647,Demanda,comunidad de madrid
+2023-08-13,679.049268,Demanda,comunidad de valenciana
+2023-08-14,632.371277,Demanda,galicia
+2023-08-15,697.609563,Demanda,comunidad de madrid
+2023-08-16,705.886436,Demanda,extremadura
+2023-08-17,708.620632,Demanda,pais vasco
+2023-08-18,669.852416,Demanda,baleares
+2023-08-19,650.595656,Demanda,cataluña
+2023-08-20,769.909688,Demanda,castilla y leon
+2023-08-21,791.9087959999999,Demanda,region de murcia
+2023-08-22,805.114493,Demanda,castilla la mancha
+2023-08-23,806.257924,Demanda,andalucia
+2023-08-24,795.7774969999999,Demanda,aragon
+2023-08-25,704.096731,Demanda,melilla
+2023-08-26,589.812346,Demanda,peninsular
+2023-08-27,666.2517439999999,Demanda,galicia
+2023-08-28,684.519165,Demanda,castilla y leon
+2023-08-29,691.6906759999999,Demanda,galicia
+2023-08-30,696.6332560000001,Demanda,comunidad de madrid
+2023-08-31,707.897142,Demanda,baleares
+2023-09-01,617.334231,Demanda,castilla y leon
+2023-09-02,567.635528,Demanda,galicia
+2023-09-03,680.749198,Demanda,ceuta
+2023-09-04,702.074366,Demanda,cataluña
+2023-09-05,713.455091,Demanda,castilla y leon
+2023-09-06,718.709335,Demanda,canarias
+2023-09-07,696.8071580000001,Demanda,baleares
+2023-09-08,623.8140649999999,Demanda,aragon
+2023-09-09,582.350336,Demanda,baleares
+2023-09-10,670.861718,Demanda,region de murcia
+2023-09-11,705.037939,Demanda,canarias
+2023-09-12,705.471848,Demanda,region de murcia
+2023-09-13,712.650088,Demanda,baleares
+2023-09-14,704.741902,Demanda,comunidad de valenciana
+2023-09-15,610.152639,Demanda,galicia
+2023-09-16,573.6426260000001,Demanda,principado de asturias
+2023-09-17,665.8580820000001,Demanda,castilla la mancha
+2023-09-18,683.286703,Demanda,comunidad de madrid
+2023-09-19,680.36313,Demanda,principado de asturias
+2023-09-20,682.301958,Demanda,peninsular
+2023-09-21,657.786885,Demanda,ceuta
+2023-09-22,577.3866419999999,Demanda,peninsular
+2023-09-23,541.155475,Demanda,extremadura
+2023-09-24,644.344176,Demanda,aragon
+2023-09-25,673.007777,Demanda,la rioja
+2023-09-26,684.381179,Demanda,cantabria
+2023-09-27,688.482194,Demanda,andalucia
+2023-09-28,682.620495,Demanda,canarias
+2023-09-29,608.394984,Demanda,principado de asturias
+2023-09-30,568.5924100000001,Demanda,extremadura
+2023-10-01,677.907782,Demanda,comunidad de navarra
+2023-10-02,694.129802,Demanda,cantabria
+2023-10-03,697.359162,Demanda,andalucia
+2023-10-04,698.683251,Demanda,castilla y leon
+2023-10-05,699.421954,Demanda,andalucia
+2023-10-06,618.380502,Demanda,cataluña
+2023-10-07,572.2030649999999,Demanda,castilla la mancha
+2023-10-08,661.444716,Demanda,aragon
+2023-10-09,682.328873,Demanda,castilla y leon
+2023-10-10,676.631446,Demanda,galicia
+2023-10-11,575.5049449999999,Demanda,extremadura
+2023-10-12,615.3947929999999,Demanda,galicia
+2023-10-13,578.5790969999999,Demanda,cataluña
+2023-10-14,541.8763299999999,Demanda,andalucia
+2023-10-15,656.5823780000001,Demanda,baleares
+2023-10-16,685.735457,Demanda,andalucia
+2023-10-17,691.544263,Demanda,castilla y leon
+2023-10-18,695.58862,Demanda,extremadura
+2023-10-19,670.024187,Demanda,pais vasco
+2023-10-20,578.655968,Demanda,ceuta
+2023-10-21,547.584426,Demanda,andalucia
+2023-10-22,652.39601,Demanda,principado de asturias
+2023-10-23,668.310627,Demanda,region de murcia
+2023-10-24,680.986583,Demanda,pais vasco
+2023-10-25,695.519318,Demanda,baleares
+2023-10-26,681.696979,Demanda,melilla
+2023-10-27,600.928081,Demanda,pais vasco
+2023-10-28,584.792106,Demanda,canarias
+2023-10-29,663.807745,Demanda,extremadura
+2023-10-30,677.491268,Demanda,la rioja
+2023-10-31,595.4473939999999,Demanda,castilla y leon
+2023-11-01,681.524046,Demanda,cataluña
+2023-11-02,688.9100520000001,Demanda,castilla y leon
+2023-11-03,621.381226,Demanda,castilla la mancha
+2023-11-04,573.8013199999999,Demanda,andalucia
+2023-11-05,677.205414,Demanda,comunidad de madrid
+2023-11-06,699.2910400000001,Demanda,ceuta
+2023-11-07,713.708037,Demanda,aragon
+2023-11-08,703.9932689999999,Demanda,peninsular
+2023-11-09,703.5133020000001,Demanda,canarias
+2023-11-10,628.50413,Demanda,extremadura
+2023-11-11,573.478299,Demanda,comunidad de madrid
+2023-11-12,672.700842,Demanda,cataluña
+2023-11-13,682.941124,Demanda,melilla
+2023-11-14,690.21789,Demanda,andalucia
+2023-11-15,694.39937,Demanda,baleares
+2023-11-16,681.9798440000001,Demanda,pais vasco
+2023-11-17,604.200644,Demanda,castilla la mancha
+2023-11-18,560.129864,Demanda,melilla
+2023-11-19,674.0971629999999,Demanda,pais vasco
+2023-11-20,697.706662,Demanda,castilla y leon
+2023-11-21,709.139885,Demanda,la rioja
+2023-11-22,713.8637070000001,Demanda,andalucia
+2023-11-23,715.11411,Demanda,melilla
+2023-11-24,635.313081,Demanda,andalucia
+2023-11-25,602.3809679999999,Demanda,melilla
+2023-11-26,720.961771,Demanda,extremadura
+2023-11-27,737.0050180000001,Demanda,comunidad de navarra
+2023-11-28,735.891426,Demanda,peninsular
+2023-11-29,724.390897,Demanda,ceuta
+2023-11-30,721.843711,Demanda,aragon
+2023-12-01,646.5200060000001,Demanda,baleares
+2023-12-02,624.482267,Demanda,comunidad de navarra
+2023-12-03,743.449538,Demanda,extremadura
+2023-12-04,751.52263,Demanda,principado de asturias
+2023-12-05,674.816633,Demanda,comunidad de valenciana
+2023-12-06,701.438509,Demanda,baleares
+2023-12-07,638.30487,Demanda,andalucia
+2023-12-08,633.89778,Demanda,canarias
+2023-12-09,604.532257,Demanda,la rioja
+2023-12-10,712.662101,Demanda,pais vasco
+2023-12-11,734.744889,Demanda,la rioja
+2023-12-12,741.549886,Demanda,ceuta
+2023-12-13,745.172248,Demanda,comunidad de navarra
+2023-12-14,739.184562,Demanda,comunidad de valenciana
+2023-12-15,662.260256,Demanda,baleares
+2023-12-16,636.365322,Demanda,peninsular
+2023-12-17,758.212531,Demanda,la rioja
+2023-12-18,774.315347,Demanda,peninsular
+2023-12-19,781.4421189999999,Demanda,castilla y leon
+2023-12-20,758.82216,Demanda,peninsular
+2023-12-21,721.4132510000001,Demanda,la rioja
+2023-12-22,640.883947,Demanda,castilla y leon
+2023-12-23,596.118636,Demanda,peninsular
+2023-12-24,553.617338,Demanda,baleares
+2023-12-25,654.679567,Demanda,cantabria
+2023-12-26,703.161901,Demanda,galicia
+2023-12-27,710.999762,Demanda,baleares
+2023-12-28,698.783477,Demanda,pais vasco
+2023-12-29,630.400595,Demanda,region de murcia
+2023-12-30,606.791929,Demanda,castilla y leon
+2023-12-31,555.244867,Demanda,la rioja
+2024-01-01,703.0152879999999,Demanda,galicia
+2024-01-02,721.6471650000001,Demanda,andalucia
+2024-01-03,726.021564,Demanda,melilla
+2024-01-04,697.927044,Demanda,baleares
+2024-01-05,614.433071,Demanda,andalucia
+2024-01-06,637.873153,Demanda,comunidad de navarra
+2024-01-07,784.3443050000001,Demanda,aragon
+2024-01-08,811.334555,Demanda,aragon
+2024-01-09,818.55439,Demanda,pais vasco
+2024-01-10,808.748333,Demanda,region de murcia
+2024-01-11,805.039453,Demanda,comunidad de madrid
+2024-01-12,717.2995960000001,Demanda,castilla y leon
+2024-01-13,660.4676469999999,Demanda,melilla
+2024-01-14,770.26823,Demanda,la rioja
+2024-01-15,770.3864719999999,Demanda,andalucia
+2024-01-16,759.854347,Demanda,baleares
+2024-01-17,742.783492,Demanda,peninsular
+2024-01-18,776.526605,Demanda,castilla y leon
+2024-01-19,683.0339329999999,Demanda,canarias
+2024-01-20,640.605651,Demanda,comunidad de navarra
+2024-01-21,756.819433,Demanda,region de murcia
+2024-01-22,753.1386090000001,Demanda,ceuta
+2024-01-23,740.425099,Demanda,la rioja
+2024-01-24,731.835908,Demanda,extremadura
+2024-01-25,723.523058,Demanda,baleares
+2024-01-26,637.219431,Demanda,castilla la mancha
+2024-01-27,600.5421090000001,Demanda,cantabria
+2024-01-28,722.022961,Demanda,cataluña
+2024-01-29,739.056741,Demanda,la rioja
+2024-01-30,743.5792240000001,Demanda,peninsular
+2024-01-31,742.360015,Demanda,aragon
+2024-02-01,732.1377560000001,Demanda,comunidad de madrid
+2024-02-02,645.6837780000001,Demanda,extremadura
+2024-02-03,603.124588,Demanda,canarias
+2024-02-04,723.7510940000001,Demanda,aragon
+2024-02-05,737.643259,Demanda,region de murcia
+2024-02-06,749.239087,Demanda,la rioja
+2024-02-07,753.771808,Demanda,cataluña
+2024-02-08,755.078183,Demanda,aragon
+2024-02-09,663.286901,Demanda,aragon
+2024-02-10,637.388013,Demanda,peninsular
+2024-02-11,714.8052929999999,Demanda,baleares
+2024-02-12,711.774274,Demanda,region de murcia
+2024-02-13,720.159286,Demanda,castilla la mancha
+2024-02-14,729.110689,Demanda,extremadura
+2024-02-15,717.79965,Demanda,baleares
+2024-02-16,624.221905,Demanda,castilla y leon
+2024-02-17,584.974522,Demanda,principado de asturias
+2024-02-18,689.633162,Demanda,canarias
+2024-02-19,701.8832639999999,Demanda,region de murcia
+2024-02-20,717.4591929999999,Demanda,region de murcia
+2024-02-21,727.08155,Demanda,la rioja
+2024-02-22,724.628099,Demanda,extremadura
+2024-02-23,657.800038,Demanda,extremadura
+2024-02-24,626.143633,Demanda,ceuta
+2024-02-25,730.57386,Demanda,baleares
+2024-02-26,746.1429039999999,Demanda,principado de asturias
+2024-02-27,732.016128,Demanda,principado de asturias
+2024-02-28,735.852499,Demanda,galicia
+2024-02-29,729.467223,Demanda,ceuta
+2024-03-01,666.467109,Demanda,peninsular
+2024-03-02,621.709846,Demanda,cantabria
+2024-03-03,737.435932,Demanda,castilla la mancha
+2024-03-04,723.424215,Demanda,region de murcia
+2024-03-05,729.789252,Demanda,comunidad de valenciana
+2024-03-06,746.093475,Demanda,castilla la mancha
+2024-03-07,749.031934,Demanda,aragon
+2024-03-08,692.4198710000001,Demanda,comunidad de navarra
+2024-03-09,627.3037290000001,Demanda,castilla y leon
+2024-03-10,717.4392610000001,Demanda,andalucia
+2024-03-11,716.317541,Demanda,peninsular
+2024-03-12,716.865216,Demanda,comunidad de navarra
+2024-03-13,717.4875159999999,Demanda,extremadura
+2024-03-14,698.375264,Demanda,cataluña
+2024-03-15,619.190554,Demanda,melilla
+2024-03-16,571.959711,Demanda,aragon
+2024-03-17,656.466182,Demanda,castilla y leon
+2024-03-18,650.9429399999999,Demanda,extremadura
+2024-03-19,677.7158760000001,Demanda,andalucia
+2024-03-20,684.131084,Demanda,la rioja
+2024-03-21,675.156316,Demanda,principado de asturias
+2024-03-22,603.767889,Demanda,galicia
+2024-03-23,563.702618,Demanda,principado de asturias
+2024-03-24,685.192419,Demanda,ceuta
+2024-03-25,699.802428,Demanda,extremadura
+2024-03-26,695.4085200000001,Demanda,pais vasco
+2024-03-27,617.996902,Demanda,extremadura
+2024-03-28,573.029121,Demanda,pais vasco
+2024-03-29,588.708264,Demanda,cantabria
+2024-03-30,561.84785,Demanda,aragon
+2024-03-31,623.159014,Demanda,comunidad de madrid
+2024-04-01,694.598716,Demanda,region de murcia
+2024-04-02,688.4226679999999,Demanda,canarias
+2024-04-03,677.36667,Demanda,cantabria
+2024-04-04,671.5692290000001,Demanda,peninsular
+2024-04-05,604.386349,Demanda,extremadura
+2024-04-06,561.706221,Demanda,extremadura
+2024-04-07,657.4157680000001,Demanda,canarias
+2024-04-08,668.2434599999999,Demanda,canarias
+2024-04-09,668.185703,Demanda,canarias
+2024-04-10,665.960955,Demanda,comunidad de navarra
+2024-04-11,664.48273,Demanda,peninsular
+2024-04-12,585.55707,Demanda,melilla
+2024-04-13,543.7323590000001,Demanda,aragon
+2024-04-14,648.366439,Demanda,cataluña
+2024-04-15,666.008843,Demanda,melilla
+2024-04-16,661.785091,Demanda,region de murcia
+2024-04-17,666.169717,Demanda,andalucia
+2024-04-18,662.964357,Demanda,andalucia
+2024-04-19,589.399188,Demanda,region de murcia
+2024-04-20,545.848896,Demanda,ceuta
+2024-04-21,651.2132929999999,Demanda,aragon
+2024-04-22,667.3905209999999,Demanda,andalucia
+2024-04-23,675.42956,Demanda,cataluña
+2024-04-24,691.271251,Demanda,comunidad de valenciana
+2024-04-25,675.233565,Demanda,andalucia
+2024-04-26,611.6887489999999,Demanda,cantabria
+2024-04-27,568.40917,Demanda,principado de asturias
+2024-04-28,671.906278,Demanda,galicia
+2024-04-29,664.6924740000001,Demanda,comunidad de valenciana
+2024-04-30,568.1437639999999,Demanda,comunidad de valenciana
+2024-05-01,634.190233,Demanda,principado de asturias
+2024-05-02,650.6778410000001,Demanda,peninsular
+2024-05-03,593.204436,Demanda,peninsular
+2024-05-04,555.526424,Demanda,comunidad de navarra
+2024-05-05,647.877753,Demanda,cataluña
+2024-05-06,652.180957,Demanda,comunidad de valenciana
+2024-05-07,658.4353560000001,Demanda,extremadura
+2024-05-08,655.493122,Demanda,ceuta
+2024-05-09,645.263544,Demanda,principado de asturias
+2024-05-10,579.612662,Demanda,baleares
+2024-05-11,540.6009329999999,Demanda,canarias
+2024-05-12,645.5964250000001,Demanda,aragon
+2024-05-13,665.16677,Demanda,comunidad de navarra
+2024-05-14,654.959017,Demanda,principado de asturias
+2024-05-15,661.0638590000001,Demanda,region de murcia
+2024-05-16,651.4094379999999,Demanda,pais vasco
+2024-05-17,582.4473710000001,Demanda,aragon
+2024-05-18,543.3719520000001,Demanda,cantabria
+2024-05-19,631.105671,Demanda,baleares
+2024-05-20,655.7772560000001,Demanda,ceuta
+2024-05-21,658.699309,Demanda,baleares
+2024-05-22,657.621397,Demanda,principado de asturias
+2024-05-23,652.231337,Demanda,andalucia
+2024-05-24,584.03315,Demanda,andalucia
+2024-05-25,543.369333,Demanda,region de murcia
+2024-05-26,655.9852920000001,Demanda,peninsular
+2024-05-27,665.17917,Demanda,comunidad de navarra
+2024-05-28,678.6376809999999,Demanda,galicia
+2024-05-29,683.989206,Demanda,comunidad de valenciana
+2024-05-30,671.767295,Demanda,comunidad de madrid
+2024-05-31,605.542822,Demanda,aragon
+2024-06-01,560.5158909999999,Demanda,baleares
+2024-06-02,663.821957,Demanda,comunidad de navarra
+2024-06-03,675.941591,Demanda,cataluña
+2024-06-04,690.393226,Demanda,la rioja
+2024-06-05,709.2041820000001,Demanda,galicia
+2024-06-06,708.7399059999999,Demanda,cantabria
+2024-06-07,624.762856,Demanda,principado de asturias
+2024-06-08,564.530037,Demanda,baleares
+2024-06-09,666.992174,Demanda,ceuta
+2024-06-10,674.799772,Demanda,peninsular
+2024-06-11,669.191467,Demanda,pais vasco
+2024-06-12,656.576867,Demanda,cataluña
+2024-06-13,673.934595,Demanda,galicia
+2024-06-14,600.745331,Demanda,melilla
+2024-06-15,561.342609,Demanda,comunidad de madrid
+2024-06-16,681.235224,Demanda,region de murcia
+2024-06-17,699.160715,Demanda,peninsular
+2024-06-18,690.7132929999999,Demanda,region de murcia
+2024-06-19,684.173247,Demanda,comunidad de navarra
+2024-06-20,669.403923,Demanda,canarias
+2024-06-21,608.3391409999999,Demanda,comunidad de navarra
+2024-06-22,568.9342260000001,Demanda,comunidad de valenciana
+2024-06-23,649.043546,Demanda,pais vasco
+2024-06-24,712.709606,Demanda,canarias
+2024-06-25,717.413906,Demanda,cantabria
+2024-06-26,720.489798,Demanda,region de murcia
+2024-06-27,715.247888,Demanda,peninsular
+2024-06-28,629.9332360000001,Demanda,pais vasco
+2024-06-29,584.246025,Demanda,region de murcia
+2024-06-30,681.1712739999999,Demanda,comunidad de madrid
+2024-07-01,703.183823,Demanda,peninsular
+2024-07-02,720.852271,Demanda,andalucia
+2024-07-03,741.7244350000001,Demanda,galicia
+2024-07-04,743.671853,Demanda,cataluña
+2024-07-05,654.8970459999999,Demanda,cataluña
+2024-07-06,592.489353,Demanda,pais vasco
+2024-07-07,704.148503,Demanda,ceuta
+2024-07-08,734.077976,Demanda,principado de asturias
+2024-07-09,755.5853050000001,Demanda,canarias
+2024-07-10,783.2798959999999,Demanda,pais vasco
+2024-07-11,773.7540309999999,Demanda,ceuta
+2024-07-12,669.387642,Demanda,comunidad de navarra
+2024-07-13,619.52157,Demanda,cantabria
+2024-07-14,746.4003329999999,Demanda,comunidad de navarra
+2024-07-15,761.015912,Demanda,canarias
+2024-07-16,769.025803,Demanda,region de murcia
+2024-07-17,787.780696,Demanda,aragon
+2024-07-18,797.94402,Demanda,andalucia
+2024-07-19,712.350009,Demanda,baleares
+2024-07-20,641.448028,Demanda,extremadura
+2024-07-21,741.939142,Demanda,peninsular
+2024-07-22,783.227764,Demanda,extremadura
+2024-07-23,805.969199,Demanda,principado de asturias
+2024-07-24,773.240144,Demanda,andalucia
+2024-07-25,772.842862,Demanda,ceuta
+2024-07-26,703.2210200000001,Demanda,galicia
+2024-07-27,668.8898320000001,Demanda,peninsular
+2024-07-28,794.9655300000001,Demanda,extremadura
+2024-07-29,813.911428,Demanda,la rioja
+2024-07-30,807.797021,Demanda,la rioja
+2024-07-31,821.705604,Demanda,comunidad de navarra
+2024-08-01,796.03971,Demanda,pais vasco
+2024-08-02,699.5531119999999,Demanda,la rioja
+2024-08-03,663.933226,Demanda,region de murcia
+2024-08-04,758.488615,Demanda,comunidad de navarra
+2024-08-05,770.713921,Demanda,cataluña
+2024-08-06,771.062242,Demanda,peninsular
+2024-08-07,770.870794,Demanda,castilla y leon
+2024-08-08,771.573388,Demanda,andalucia
+2024-08-09,712.708939,Demanda,cataluña
+2024-08-10,670.960108,Demanda,comunidad de navarra
+2024-08-11,748.8332730000001,Demanda,cantabria
+2024-08-12,736.799593,Demanda,region de murcia
+2024-08-13,701.719304,Demanda,principado de asturias
+2024-08-14,616.522032,Demanda,extremadura
+2024-08-15,654.005427,Demanda,andalucia
+2024-08-16,647.166718,Demanda,galicia
+2024-08-17,627.564473,Demanda,cataluña
+2024-08-18,710.865976,Demanda,melilla
+2024-08-19,731.680976,Demanda,cantabria
+2024-08-20,741.95426,Demanda,galicia
+2024-08-21,748.093223,Demanda,canarias
+2024-08-22,742.297767,Demanda,region de murcia
+2024-08-23,687.80313,Demanda,cataluña
+2024-08-24,646.765276,Demanda,cantabria
+2024-08-25,737.69902,Demanda,principado de asturias
+2024-08-26,765.042708,Demanda,la rioja
+2024-08-27,776.676529,Demanda,canarias
+2024-08-28,766.358169,Demanda,ceuta
+2024-08-29,753.83378,Demanda,pais vasco
+2024-08-30,678.4752110000001,Demanda,canarias
+2024-08-31,633.514936,Demanda,canarias
+2024-09-01,745.77515,Demanda,galicia
+2024-09-02,748.247902,Demanda,castilla y leon
+2024-09-03,723.56225,Demanda,melilla
+2024-09-04,709.964583,Demanda,galicia
+2024-09-05,712.058421,Demanda,comunidad de madrid
+2024-09-06,627.006402,Demanda,pais vasco
+2024-09-07,585.476382,Demanda,la rioja
+2024-09-08,677.6479320000001,Demanda,pais vasco
+2024-09-09,701.465809,Demanda,cataluña
+2024-09-10,689.1813050000001,Demanda,melilla
+2024-09-11,711.068276,Demanda,andalucia
+2024-09-12,683.07065,Demanda,canarias
+2024-09-13,602.2488569999999,Demanda,aragon
+2024-09-14,565.012663,Demanda,pais vasco
+2024-09-15,676.2795169999999,Demanda,aragon
+2024-09-16,692.5100870000001,Demanda,castilla la mancha
+2024-09-17,695.897882,Demanda,ceuta
+2024-09-18,693.736597,Demanda,galicia
+2024-09-19,684.936062,Demanda,pais vasco
+2024-09-20,611.245804,Demanda,andalucia
+2024-09-21,562.21356,Demanda,la rioja
+2024-09-22,656.6293830000001,Demanda,peninsular
+2024-09-23,664.601503,Demanda,melilla
+2024-09-24,688.538072,Demanda,andalucia
+2024-09-25,707.7556870000001,Demanda,comunidad de madrid
+2024-09-26,679.866998,Demanda,region de murcia
+2024-09-27,584.952256,Demanda,region de murcia
+2024-09-28,545.596216,Demanda,canarias
+2024-09-29,650.201774,Demanda,castilla y leon
+2024-09-30,683.128995,Demanda,baleares
+2024-10-01,702.8927020000001,Demanda,cantabria
+2024-10-02,692.625446,Demanda,la rioja
+2024-10-03,674.8979989999999,Demanda,la rioja
+2024-10-04,605.6291409999999,Demanda,galicia
+2024-10-05,576.214488,Demanda,peninsular
+2024-10-06,689.7274329999999,Demanda,pais vasco
+2024-10-07,690.4268059999999,Demanda,comunidad de valenciana
+2024-10-08,688.130695,Demanda,pais vasco
+2024-10-09,674.021806,Demanda,peninsular
+2024-10-10,664.0059399999999,Demanda,cataluña
+2024-10-11,588.95241,Demanda,aragon
+2024-10-12,548.826505,Demanda,andalucia
+2024-10-13,666.8498390000001,Demanda,andalucia
+2024-10-14,693.242661,Demanda,principado de asturias
+2024-10-15,696.231261,Demanda,peninsular
+2024-10-16,689.0096040000001,Demanda,castilla la mancha
+2024-10-17,671.704517,Demanda,galicia
+2024-10-18,591.859452,Demanda,baleares
+2024-10-19,555.6756949999999,Demanda,canarias
+2024-10-20,652.117615,Demanda,ceuta
+2024-10-21,676.8037850000001,Demanda,baleares
+2024-10-22,674.397085,Demanda,andalucia
+2024-10-23,675.229453,Demanda,extremadura
+2024-10-24,680.3834350000001,Demanda,castilla la mancha
+2024-10-25,599.928637,Demanda,galicia
+2024-10-26,592.5975870000001,Demanda,galicia
+2024-10-27,674.526803,Demanda,andalucia
+2024-10-28,700.06993,Demanda,ceuta
+2024-10-29,687.166545,Demanda,region de murcia
+2024-10-30,666.1372739999999,Demanda,castilla y leon
+2024-10-31,576.534551,Demanda,comunidad de navarra
+2024-11-01,573.2988320000001,Demanda,ceuta
+2024-11-02,553.976341,Demanda,cataluña
+2024-11-03,651.09473,Demanda,castilla la mancha
+2024-11-04,669.991573,Demanda,castilla la mancha
+2024-11-05,673.959617,Demanda,melilla
+2024-11-06,674.761211,Demanda,galicia
+2024-11-07,681.665097,Demanda,pais vasco
+2024-11-08,603.203183,Demanda,la rioja
+2024-11-09,564.130898,Demanda,comunidad de madrid
+2024-11-10,666.5968449999999,Demanda,region de murcia
+2024-11-11,698.52144,Demanda,galicia
+2024-11-12,728.922053,Demanda,cataluña
+2024-11-13,712.443251,Demanda,comunidad de valenciana
+2024-11-14,704.110571,Demanda,pais vasco
+2024-11-15,622.393684,Demanda,galicia
+2024-11-16,577.966251,Demanda,ceuta
+2024-11-17,681.832297,Demanda,principado de asturias
+2024-11-18,697.693449,Demanda,andalucia
+2024-11-19,706.208524,Demanda,castilla la mancha
+2024-11-20,722.533454,Demanda,castilla la mancha
+2024-11-21,707.9183959999999,Demanda,la rioja
+2024-11-22,625.9790459999999,Demanda,aragon
+2024-11-23,587.395251,Demanda,cataluña
+2024-11-24,697.32413,Demanda,canarias
+2024-11-25,718.873883,Demanda,galicia
+2024-11-26,723.195331,Demanda,ceuta
+2024-11-27,730.113368,Demanda,galicia
+2024-11-28,717.475978,Demanda,region de murcia
+2024-11-29,634.742168,Demanda,castilla la mancha
+2024-11-30,602.188918,Demanda,comunidad de madrid
+2024-12-01,705.768789,Demanda,region de murcia
+2024-12-02,723.118115,Demanda,castilla la mancha
+2024-12-03,733.483852,Demanda,cataluña
+2024-12-04,727.64102,Demanda,pais vasco
+2024-12-05,634.227615,Demanda,baleares
+2024-12-06,625.5979050000001,Demanda,castilla y leon
+2024-12-07,617.3938569999999,Demanda,baleares
+2024-12-08,726.458561,Demanda,principado de asturias
+2024-12-09,780.636944,Demanda,galicia
+2024-12-10,808.82287,Demanda,cataluña
+2024-12-11,804.005786,Demanda,pais vasco
+2024-12-12,784.415541,Demanda,melilla
+2024-12-13,703.652067,Demanda,comunidad de valenciana
+2024-12-14,671.632401,Demanda,castilla y leon
+2024-12-15,781.626122,Demanda,la rioja
+2024-12-16,795.0943179999999,Demanda,andalucia
+2024-12-17,780.665534,Demanda,aragon
+2024-12-18,769.1963149999999,Demanda,extremadura
+2024-12-19,743.7880990000001,Demanda,comunidad de madrid
+2024-12-20,673.3912190000001,Demanda,ceuta
+2024-12-21,641.611845,Demanda,andalucia
+2024-12-22,689.997753,Demanda,pais vasco
+2024-12-23,642.2774880000001,Demanda,aragon
+2024-12-24,546.544627,Demanda,principado de asturias
+2024-12-25,641.9113120000001,Demanda,castilla y leon
+2024-12-26,675.212456,Demanda,comunidad de madrid
+2024-12-27,641.243762,Demanda,comunidad de madrid
+2024-12-28,618.610074,Demanda,comunidad de navarra
+2024-12-29,690.745398,Demanda,region de murcia
+2024-12-30,665.712737,Demanda,castilla la mancha
+2024-12-31,585.6778569999999,Demanda,cataluña
+2025-01-01,714.3228340000001,Demanda,canarias
+2025-01-02,742.750154,Demanda,baleares
+2025-01-03,672.3785969999999,Demanda,peninsular
+2025-01-04,637.1902580000001,Demanda,comunidad de valenciana
+2025-01-05,612.126809,Demanda,cantabria
+2025-01-06,761.3665189999999,Demanda,comunidad de navarra
+2025-01-07,785.28549,Demanda,region de murcia
+2025-01-08,766.6233619999999,Demanda,cantabria
+2025-01-09,757.7864059999999,Demanda,region de murcia
+2025-01-10,670.10196,Demanda,baleares
+2025-01-11,627.913976,Demanda,comunidad de madrid
+2025-01-12,770.984654,Demanda,andalucia
+2025-01-13,811.092831,Demanda,la rioja
+2025-01-14,824.889152,Demanda,extremadura
+2025-01-15,837.0194570000001,Demanda,peninsular
+2025-01-16,822.2568689999999,Demanda,pais vasco
+2025-01-17,720.9000940000001,Demanda,ceuta
+2025-01-18,685.586998,Demanda,cataluña
+2025-01-19,814.368877,Demanda,cantabria
+2025-01-20,815.7392090000001,Demanda,peninsular
+2025-01-21,785.779184,Demanda,andalucia
+2025-01-22,763.028775,Demanda,comunidad de madrid
+2025-01-23,753.851523,Demanda,cataluña
+2025-01-24,677.013172,Demanda,ceuta
+2025-01-25,639.369846,Demanda,cataluña
+2025-01-26,744.816501,Demanda,canarias
+2025-01-27,775.584015,Demanda,aragon
+2025-01-28,796.868005,Demanda,region de murcia
+2025-01-29,783.123432,Demanda,region de murcia
+2025-01-30,772.152083,Demanda,castilla la mancha
+2025-01-31,695.262656,Demanda,melilla
+2025-02-01,658.655932,Demanda,andalucia
+2025-02-02,768.698699,Demanda,principado de asturias
+2025-02-03,782.39711,Demanda,peninsular
+2025-02-04,782.127238,Demanda,peninsular
+2025-02-05,786.178969,Demanda,extremadura
+2025-02-06,795.918808,Demanda,canarias
+2025-02-07,689.437674,Demanda,comunidad de madrid
+2025-02-08,646.896284,Demanda,la rioja
+2025-02-09,757.6968889999999,Demanda,pais vasco
+2025-02-10,765.148359,Demanda,castilla la mancha
+2025-02-11,773.487645,Demanda,comunidad de valenciana
+2025-02-12,756.989411,Demanda,cataluña
+2025-02-13,735.35907,Demanda,comunidad de valenciana
+2025-02-14,663.364785,Demanda,cataluña
+2025-02-15,611.670711,Demanda,castilla la mancha
+2025-02-16,714.7727460000001,Demanda,region de murcia
+2025-02-17,741.284583,Demanda,peninsular
+2025-02-18,729.215551,Demanda,la rioja
+2025-02-19,730.614179,Demanda,peninsular
+2025-02-20,739.439617,Demanda,peninsular
+2025-02-21,654.215973,Demanda,principado de asturias
+2025-02-22,607.374035,Demanda,galicia
+2025-02-23,721.4614300000001,Demanda,principado de asturias
+2025-02-24,746.5908079999999,Demanda,principado de asturias
+2025-02-25,729.7353270000001,Demanda,baleares
+2025-02-26,743.8828440000001,Demanda,pais vasco
+2025-02-27,728.318084,Demanda,castilla la mancha
+2025-02-28,674.0268540000001,Demanda,baleares
+2025-03-01,649.566146,Demanda,region de murcia
+2025-03-02,754.505596,Demanda,principado de asturias
+2025-03-03,743.695926,Demanda,region de murcia
+2025-03-04,751.443051,Demanda,andalucia
+2025-03-05,749.608686,Demanda,galicia
+2025-03-06,753.027113,Demanda,comunidad de valenciana
+2025-03-07,671.08023,Demanda,comunidad de madrid
+2025-03-08,620.309891,Demanda,galicia
+2025-03-09,734.213203,Demanda,castilla y leon
+2025-03-10,746.099921,Demanda,la rioja
+2025-03-11,739.293271,Demanda,baleares
+2025-03-12,763.245816,Demanda,peninsular
+2025-03-13,768.974668,Demanda,principado de asturias
+2025-03-14,670.034201,Demanda,ceuta
+2025-03-15,639.527034,Demanda,peninsular
+2025-03-16,762.269105,Demanda,region de murcia
+2025-03-17,770.388825,Demanda,comunidad de madrid
+2025-03-18,732.9536909999999,Demanda,andalucia
+2025-03-19,751.543291,Demanda,comunidad de madrid
+2025-03-20,740.3188909999999,Demanda,pais vasco
+2025-03-21,654.282066,Demanda,extremadura
+2025-03-22,623.592762,Demanda,principado de asturias
+2025-03-23,731.73365,Demanda,cantabria
+2025-03-24,732.2498410000001,Demanda,principado de asturias
+2025-03-25,716.4509549999999,Demanda,comunidad de navarra
+2025-03-26,706.4909449999999,Demanda,canarias
+2025-03-27,688.207308,Demanda,castilla la mancha
+2025-03-28,608.745607,Demanda,cantabria
+2025-03-29,541.322463,Demanda,melilla
+2025-03-30,657.34075,Demanda,galicia
+2025-03-31,662.8872,Demanda,andalucia
+2025-04-01,695.293514,Demanda,peninsular
+2025-04-02,707.238445,Demanda,peninsular
+2025-04-03,696.4876409999999,Demanda,castilla la mancha
+2025-04-04,602.803042,Demanda,cantabria
+2025-04-05,553.746718,Demanda,extremadura
+2025-04-06,647.542389,Demanda,region de murcia
+2025-04-07,655.716206,Demanda,la rioja
+2025-04-08,658.7321360000001,Demanda,pais vasco
+2025-04-09,658.6626160000001,Demanda,cataluña
+2025-04-10,674.183169,Demanda,castilla la mancha
+2025-04-11,611.567883,Demanda,canarias
+2025-04-12,562.9635940000001,Demanda,region de murcia
+2025-04-13,646.180432,Demanda,region de murcia
+2025-04-14,664.929448,Demanda,ceuta
+2025-04-15,653.026501,Demanda,ceuta
+2025-04-16,577.776691,Demanda,comunidad de valenciana
+2025-04-17,536.959993,Demanda,extremadura
+2025-04-18,548.29413,Demanda,la rioja
+2025-04-19,537.763459,Demanda,comunidad de valenciana
+2025-04-20,586.636561,Demanda,region de murcia
+2025-04-21,658.548194,Demanda,castilla la mancha
+2025-04-22,635.7319100000001,Demanda,aragon
+2025-04-23,638.813354,Demanda,baleares
+2025-04-24,539.895307,Demanda,cantabria
