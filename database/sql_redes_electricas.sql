@@ -55,3 +55,5 @@ CREATE TABLE estructura_generacion (
     porcentaje DECIMAL(5,2),
     FOREIGN KEY (fecha, region) REFERENCES balance(fecha, region)
 );
+
+SET GLOBAL innodb_lock_wait_timeout = 500;

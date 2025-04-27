@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-def rnn():
+def rnn(df):
 
     st.title("RNN (Recurrent Neural Network)")
 

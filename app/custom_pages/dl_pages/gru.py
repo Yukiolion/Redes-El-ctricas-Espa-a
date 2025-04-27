@@ -1,6 +1,6 @@
 import streamlit as st
 
-def gru():
+def gru(df):
 
     st.title("GRU (Gated Recurrent Unit)")
 
