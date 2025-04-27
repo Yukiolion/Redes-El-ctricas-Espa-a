@@ -5,3 +5,5 @@ matplotlib
 seaborn
 plotly
 requests
+python-dotenv
+mysql-connector-python
