@@ -20,7 +20,7 @@ def samuel_info():
             margin-top: 2em;
             color: #b01923;
         }
-        .card {
+        .project {
             border: 1px solid #ddd;
             border-radius: 10px;
             padding: 1em;
@@ -44,21 +44,21 @@ def samuel_info():
     # cols = st.columns(3)
 
     # with cols[0]:
-    #     st.markdown('<div class="card">', unsafe_allow_html=True)
+    #     st.markdown('<div class="project">', unsafe_allow_html=True)
     #     st.subheader("📊 Proyecto 1")
     #     st.write("Descripción breve del proyecto.")
     #     st.link_button("Ver más", "https://github.com/tuusuario/proyecto1")
     #     st.markdown('</div>', unsafe_allow_html=True)
 
     # with cols[1]:
-    #     st.markdown('<div class="card">', unsafe_allow_html=True)
+    #     st.markdown('<div class="project">', unsafe_allow_html=True)
     #     st.subheader("🤖 Proyecto 2")
     #     st.write("Otro proyecto que te representa.")
     #     st.link_button("Ver más", "https://github.com/tuusuario/proyecto2")
     #     st.markdown('</div>', unsafe_allow_html=True)
 
     # with cols[2]:
-    #     st.markdown('<div class="card">', unsafe_allow_html=True)
+    #     st.markdown('<div class="project">', unsafe_allow_html=True)
     #     st.subheader("📱 Proyecto 3")
     #     st.write("Aplicación móvil o frontend.")
     #     st.link_button("Ver más", "https://github.com/tuusuario/proyecto3")

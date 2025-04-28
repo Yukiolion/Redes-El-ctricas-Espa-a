@@ -14,7 +14,7 @@ def DL():
 
     conn.close()
 
-    st.title('Modelos de prediccion')
+    st.title('🖥️ Modelos de prediccion')
 
     tabs = st.tabs(["GRU", "Prophet", "RNN"])
 
