@@ -26,10 +26,10 @@ def Demanda(df_demanda, df_ire):
         dias = st.selectbox("Selecciona el rango de días:", [7, 14, 30], key="select_dias")
         fecha_max = df_demanda['fecha'].max()
         fecha_min = fecha_max - pd.Timedelta(days=dias)
-        df_filtrado = df_demanda[df_demanda['fecha'] >= fecha_min]
+        df_filtrado_dem = df_demanda[df_demanda['fecha'] >= fecha_min]
         tickformat = '%d %b'
 
-        grafico_lineas = df_filtrado.groupby(['fecha', 'indicador'])['valor'].sum().reset_index()
+        grafico_lineas = df_filtrado_dem.groupby(['fecha', 'indicador'])['valor'].sum().reset_index()
         fig = px.line(grafico_lineas,
                     x='fecha',
                     y='valor',
@@ -56,11 +56,11 @@ def Demanda(df_demanda, df_ire):
             fecha_fin = pd.to_datetime(rango_fechas[1])
 
             if fecha_inicio <= fecha_fin:
-                df_filtrado = df_demanda[(df_demanda['fecha'] >= fecha_inicio) &
+                df_filtrado_dem = df_demanda[(df_demanda['fecha'] >= fecha_inicio) &
                     (df_demanda['fecha'] <= fecha_fin)]
                 tickformat = '%b %Y'
 
-                grafico_lineas = df_filtrado.groupby(['fecha', 'indicador'])['valor'].sum().reset_index()
+                grafico_lineas = df_filtrado_dem.groupby(['fecha', 'indicador'])['valor'].sum().reset_index()
                 fig = px.line(grafico_lineas,
                             x='fecha',
                             y='valor',
@@ -98,10 +98,10 @@ def Demanda(df_demanda, df_ire):
     
     df_ire['fecha'] = pd.to_datetime(df_ire['fecha'])
     df_ire['año'] = df_ire['fecha'].dt.year
-    filtro = df_ire['indicador'].isin(['Índice general corregido', 'Índice industria corregido', 'Índice servicios corregido'])
-    df_filtrado = df_ire[filtro]
-    df_agrupado = df_filtrado.groupby(['año', 'indicador'])['valor'].sum().reset_index()
 
+    filtro = df_ire['indicador'].isin(['Índice general corregido', 'Índice industria corregido', 'Índice servicios corregido'])
+    df_ire_reducido = df_ire[filtro]
+    
     
     # Selector de fechas:
     año = st.selectbox("Selecciona el año:", sorted(df_ire['año'].unique()), key="select_año2")
@@ -125,24 +125,29 @@ def Demanda(df_demanda, df_ire):
 
 
     # Grafico de barras IRE:
-    grafico_barras = df_agrupado.groupby(['año', 'indicador'])['valor'].sum().reset_index()
-    fig = px.bar(grafico_barras,
+    df_ire['año'] = df_ire['fecha'].dt.year.astype(str)
+    df_ire_reducido = df_ire[filtro]
+    df_agrupado = df_ire_reducido.groupby(['año', 'indicador'])['valor'].sum().reset_index()
+    
+    fig = px.bar(df_agrupado,
                 x='año',
                 y='valor',
                 color='indicador',
                 title="Distribución de los tipos de ire por años",
                 labels={'valor': 'kWh', 'indicador': 'indices'})
+    fig.update_layout(xaxis_title='Año', xaxis_tickformat='%Y')
     st.plotly_chart(fig)
     st.write("Este gráfico muestra una visión general de los diferentes IRE a lo largo de los años.")
+
 
     ## Grafico para comparar dos años:
     st.write("**⚡ Comparación de la demanda eléctrica a lo largo de los años**")
 
-    años_disponibles = list(range(2019, 2025))
+    años_disponibles = list(range(2015, 2025))
     año_1 = st.selectbox("Selecciona el primer año:", años_disponibles, key="año_1_demanda")
     año_2 = st.selectbox("Selecciona el segundo año:", años_disponibles, key="año_2_demanda")
 
-    st.write(f"Comparando los años: {año_1} vs {año_2}")
+    #st.write(f"Comparando los años: {año_1} vs {año_2}")
 
     años = [año_1, año_2]
     df_comparar = df_demanda[df_demanda['año'].isin(años)]
@@ -152,7 +157,7 @@ def Demanda(df_demanda, df_ire):
 
     for año in años:
         valores = df_comparar[df_comparar['año'] == año]['valor']
-        st.dataframe(valores.describe())
+        #st.dataframe(valores.describe())
         stats = valores.describe()
 
         media = stats['mean']
@@ -171,7 +176,7 @@ def Demanda(df_demanda, df_ire):
     df_estadisticas = pd.DataFrame(estadisticas_por_año)
 
     st.write("En esta tabla podemos seleccionar los valores de media, mediana, máximo y mínimo y comparar dichos valores entre" \
-    "años. En el grafico de debajo se muestran tanto los valores estadísticos como la gráfica de la evolución de la demanda.")
+    " años. En el grafico de debajo se muestran tanto los valores estadísticos como la gráfica de la evolución de la demanda.")
 
     # Colocamos dataframe con las estadísticas:
     st.dataframe(df_estadisticas)
@@ -183,7 +188,7 @@ def Demanda(df_demanda, df_ire):
                 x='fecha',
                 y='valor',
                 color='indicador_año',
-                title="Evolución de demanda en la región peninsular",
+
                 labels={'fecha': 'Fecha', 'valor': 'kWh', 'indicador_año': 'Indicador por año'})
 
     fig = go.Figure(fig)

@@ -13,7 +13,7 @@ def Intercambio(df_intercambio):
             "que cruza las fronteras nacionales a través de interconexiones eléctricas.")
 
     df_intercambio['fecha'] = pd.to_datetime(df_intercambio['fecha'])
-    df_intercambio['año'] = df_intercambio['fecha'].dt.year
+    df_intercambio['año'] = df_intercambio['fecha'].dt.year.astype(str)
 
     st.write("**🌍 Evolución de la exportación de energía por país**")
 
@@ -100,6 +100,7 @@ def Intercambio(df_intercambio):
     st.write("**🌍 Exportacion de energia por años (Heatmap)**")
 
     # Grafico heatmap:
+    
     grafico_barras = df_intercambio.groupby(['año', 'pais'])['valor'].sum().reset_index()
     heatmap_data = grafico_barras.pivot(index='año', columns='pais', values='valor')
 
@@ -187,13 +188,14 @@ def Intercambio(df_intercambio):
             "se traduce en un valor per cápita muy alto. Es probable que presente los valores más altos per cápita, "
             "aunque el volumen total sea pequeño.\n")
     
-    st.write("**⚡ Comparación del Balance eléctrica a lo largo de los años**")
+    st.write("**🌍 Comparación de la exportación eléctrica a lo largo de los años**")
 
-    años_disponibles = list(range(2019, 2025))
+    df_intercambio['año'] = df_intercambio['fecha'].dt.year
+    años_disponibles = list(range(2015, 2025))
     año_1 = st.selectbox("Selecciona el primer año:", años_disponibles, key="año_1_intercambio")
     año_2 = st.selectbox("Selecciona el segundo año:", años_disponibles, key="año_2_intercambio")
 
-    st.write(f"Comparando los años: {año_1} vs {año_2}")
+    #st.write(f"Comparando los años: {año_1} vs {año_2}")
 
     años = [año_1, año_2]
     df_comparar = df_intercambio[df_intercambio['año'].isin(años)]
@@ -203,7 +205,7 @@ def Intercambio(df_intercambio):
 
     for año in años:
         valores = df_comparar[df_comparar['año'] == año]['valor']
-        st.dataframe(valores.describe())
+        #st.dataframe(valores.describe())
         stats = valores.describe()
 
         media = stats['mean']
@@ -240,7 +242,6 @@ def Intercambio(df_intercambio):
                 x='fecha',
                 y='valor',
                 color='indicador_año',
-                title="Evolución de demanda en la región peninsular",
                 labels={'fecha': 'Fecha', 'valor': 'kWh', 'indicador_año': 'Indicador por año'})
 
     fig = go.Figure(fig)

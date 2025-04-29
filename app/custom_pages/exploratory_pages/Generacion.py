@@ -14,12 +14,12 @@ def Generacion(df_generacion):
     st.write("**⚙️ Generación de energía Renovable vs No renovable en la región peninsular**")
 
     df_generacion['fecha'] = pd.to_datetime(df_generacion['fecha'])
-    df_generacion['año'] = df_generacion['fecha'].dt.year
+    df_generacion['año'] = df_generacion['fecha'].dt.year.astype(str)
 
     # Colocamos selector para elegir el tipo de visualización:
     seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Rango fechas"], key="grafico_generacion")
 
-     # Gráfico de energía renovable vs no renovable
+    # Gráfico de energía renovable vs no renovable
     if seleccion == "Últimos días":
         dias = st.selectbox("Selecciona el rango de días:", [7, 14, 30], key="select_dias_generacion")
         fecha_max = df_generacion['fecha'].max()
@@ -72,10 +72,10 @@ def Generacion(df_generacion):
 
     st.write("Como ya hemos visto en otras gráficas, se puede ver un aumento de la generación de energía renovable. Esto es debido " \
     "a la inversión privada tanto de empresas como de particulares incentivada por el gobierno.")
-   
-   
-   
-   
+
+
+
+
     st.write("**⚙️ Distribución de tipo de energia por años**")
 
     # Colocamos selector para elegir las fuentes de energía:
@@ -83,15 +83,15 @@ def Generacion(df_generacion):
     indicadores_disponibles = df_generacion['indicador'].unique()
 
     if modo_seleccion == "Todos":
-        df_filtrado = df_generacion
+        df_filtrado1 = df_generacion
     else:
         indicadores_seleccionados = st.multiselect(
             "Selecciona uno o varios indicadores:",
             options=sorted(indicadores_disponibles),
             default=sorted(indicadores_disponibles)[:1])
-        df_filtrado = df_generacion[df_generacion['indicador'].isin(indicadores_seleccionados)]
+        df_filtrado1 = df_generacion[df_generacion['indicador'].isin(indicadores_seleccionados)]
 
-    grafico_hist = df_filtrado.groupby(['indicador', 'año'])['valor'].sum().reset_index()
+    grafico_hist = df_filtrado1.groupby(['indicador', 'año'])['valor'].sum().reset_index()
 
     fig = px.bar(grafico_hist,
                 x='año',
@@ -111,14 +111,15 @@ def Generacion(df_generacion):
     "las inversiones en energías renovables. La energía derivada de la cogeneración, disminuye bruscamente a partir del 2019 por la reducción de " \
     "la necesidad de calor debido al cambio climático asumiendo el ciclo combinado como fuente de energía sin la producción de calor. La energía derivada" \
     "de las centrales de carbón aporta cada vez menos debido a las directrices de la Unión Europea.")
-  
-    st.write("**⚡ Comparación del Balance eléctrica a lo largo de los años**")
 
-    años_disponibles = list(range(2019, 2025))
+    st.write("**⚙️ Comparación de las fuentes de energía a lo largo de los años**")
+    
+    df_generacion['año'] = df_generacion['fecha'].dt.year
+    años_disponibles = list(range(2015, 2025))
     año_1 = st.selectbox("Selecciona el primer año:", años_disponibles, key="año_1_generacion")
     año_2 = st.selectbox("Selecciona el segundo año:", años_disponibles, key="año_2_generacion")
 
-    st.write(f"Comparando los años: {año_1} vs {año_2}")
+    #st.write(f"Comparando los años: {año_1} vs {año_2}")
 
     años = [año_1, año_2]
     df_comparar = df_generacion[df_generacion['año'].isin(años)]
@@ -128,7 +129,7 @@ def Generacion(df_generacion):
 
     for año in años:
         valores = df_comparar[df_comparar['año'] == año]['valor']
-        st.dataframe(valores.describe())
+        #st.dataframe(valores.describe())
         stats = valores.describe()
 
         media = stats['mean']
@@ -159,7 +160,6 @@ def Generacion(df_generacion):
                 x='fecha',
                 y='valor',
                 color='indicador_año',
-                title="Evolución de demanda en la región peninsular",
                 labels={'fecha': 'Fecha', 'valor': 'kWh', 'indicador_año': 'Indicador por año'})
 
     fig = go.Figure(fig)
