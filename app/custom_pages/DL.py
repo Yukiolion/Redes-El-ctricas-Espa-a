@@ -14,7 +14,7 @@ def DL():
     df_demanda = download_demanda(conn)
 
     conn.close()
-
+    st.markdown('<a name="top"></a>', unsafe_allow_html=True)
     st.title('🖥️ Modelos de prediccion')
 
     tabs = st.tabs(["GRU", "Prophet", "RNN", "LSTM"])
@@ -27,3 +27,29 @@ def DL():
         rnn(df_demanda)
     with tabs[3]:
         lstm(df_demanda)
+
+    st.markdown("""
+        <style>
+        .inicio_pagina {
+            display: inline-block;
+            padding: 0.5em 1em;
+            margin-top: 1em;
+            background-color: #1c188c;
+            color: white !important;
+            text-decoration: none !important;
+            border-radius: 10px;
+            font-weight: bold;
+            font-family: Verdana;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+        }
+        .inicio_pagina:hover {
+            background-color: #2c25db;
+        }
+        </style>
+
+        <div style="text-align: right;">
+            <a href="#top" class="inicio_pagina">⬆️ Volver al inicio</a>
+        </div>
+    """, unsafe_allow_html=True)
