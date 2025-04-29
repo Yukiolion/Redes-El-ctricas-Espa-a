@@ -7,4 +7,7 @@ plotly
 requests
 python-dotenv
 mysql-connector-python
-calendar
+tensorflow
+prophet
+joblib
+scikit-learn
