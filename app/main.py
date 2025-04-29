@@ -79,7 +79,7 @@ def main():
 
 st.sidebar.title('Navegación')
 pagina = st.sidebar.radio("Selecciona una página:", 
-                        ["Página principal", "Exploratory Data Analysis", "DL y Propeth", "Base de Datos", "About Us"])
+                        ["Página principal", "Exploratory Data Analysis", "Modelos de Prediccion", "Base de Datos", "About Us"])
 
 # Página principal con tabs
 if pagina == 'Página principal':
@@ -87,7 +87,7 @@ if pagina == 'Página principal':
 # Otras páginas
 elif pagina == 'Exploratory Data Analysis':
     Exploratory()
-elif pagina == 'DL y Propeth':
+elif pagina == 'Modelos de Prediccion':
     DL()
 elif pagina == 'Base de Datos':
     Database()

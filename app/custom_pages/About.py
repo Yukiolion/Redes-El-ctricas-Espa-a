@@ -6,6 +6,11 @@ from custom_pages.about_pages.luisa import lui_info
 from custom_pages.about_pages.samuel import samuel_info
 
 def About():
+    
+    st.title('About Us:')
+    st.subheader('Conocenos un poco más!!')
+
+
     tabs = st.tabs(["Andre", "Eduardo", "Luisa", "Samuel"])
 
     with tabs[0]:

@@ -1,56 +1,97 @@
 import pickle
 import streamlit as st
 from prophet.plot import plot_plotly, plot_components_plotly
-import plotly.express as px
-
-from scripts.prophet_model import prophet_model
+from prophet import Prophet
+from datetime import timedelta
 
 def prophet(df):
-    # Título de la aplicación
+    st.markdown('<a name="top"></a>', unsafe_allow_html=True)
     st.title("Meta Prophet")
-    st.write('Aquí se mostrarán las métricas del modelo.')
-
-    # Selección de la región
-    region = st.selectbox("Selecciona la región", df['region'].unique())
+    st.write('Aquí se mostrarán las predicciones del modelo Prophet para la región Peninsular.')
 
     # Selección del rango de días
-    rango = st.radio(
+    rango = st.selectbox(
         "Selecciona un rango:",
         options=[1, 7, 14, 24],
-        index=3  # 24 días como valor por defecto
+        index=3
     )
 
-    def predecir_region(region, rango):
-        with open(f"../models/prophet_models/modelo_prophet_{region}.pkl", "rb") as f:
-            modelo = pickle.load(f)
-        future = modelo.make_future_dataframe(periods=rango, freq='D')
-        forecast = modelo.predict(future)
-        return forecast, modelo
+    # Cargar el modelo
+    with open("../models/prophet_models/modelo_prophet_peninsular.pkl", "rb") as f:
+        modelo = pickle.load(f)
 
-    # Llamada a la función para predecir
-    forecast, modelo = predecir_region(region, rango)
+    # Crear el futuro
+    future = modelo.make_future_dataframe(periods=rango, freq='D')
+    forecast = modelo.predict(future)
 
-    # Preparar el DataFrame futuro
+    # Solo los datos futuros
     df_futuro = forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']].tail(rango)
-    
-    # Mostrar predicciones en tabla
+
+    # Mostrar la tabla
     st.dataframe(df_futuro)
 
-    # Gráficas
+    # Crear la figura usando plot_plotly
     fig1 = plot_plotly(modelo, forecast)
+
+    # Obtener fechas para ajustar el rango
+    start_date = df_futuro['ds'].min()
+    end_date = df_futuro['ds'].max()
+
+    # Ajustar el layout del gráfico
     fig1.update_layout(
-        title=f'Predicción de demanda para {region} usando Prophet',
+        title=f'Predicción de demanda para Peninsular usando Prophet',
         xaxis_title='Fecha',
-        yaxis_title='Demanda'
+        yaxis_title='Demanda',
+        xaxis=dict(
+            range=[start_date, end_date],  # Limitar zoom inicial
+            rangeselector=dict(visible=False),  # Quitar botones de selección rápida
+            rangeslider=dict(
+                visible=True,
+                range=[start_date, end_date]  # También limitar el rango del slider
+            ),
+            type="date"
+        ),
+        template='plotly_dark'
     )
 
+    # Componentes del modelo
     fig2 = plot_components_plotly(modelo, forecast)
     fig2.update_layout(
-        title=f'Componentes de la predicción de demanda para {region}',
+        title=f'Componentes de la predicción de demanda para Peninsular',
         xaxis_title='Fecha',
-        yaxis_title='Demanda'
+        yaxis_title='Demanda',
+        template='plotly_dark'
     )
 
-    # Mostrar los gráficos interactivos
+    # Mostrar gráficos
     st.plotly_chart(fig1)
     st.plotly_chart(fig2)
+
+    st.write('En la gráfica diaria observamos una curva plana; esto es debido a que Prophet, al no detectar'\
+             ' una estacionalidad diaria significativa en los datos, genera predicciones sin mucha variación.')
+    
+    st.markdown("""
+        <style>
+        .inicio_pagina {
+            display: inline-block;
+            padding: 0.5em 1em;
+            margin-top: 1em;
+            background-color: #1c188c;
+            color: white !important;
+            text-decoration: none !important;
+            border-radius: 10px;
+            font-weight: bold;
+            font-family: Verdana;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+        }
+        .inicio_pagina:hover {
+            background-color: #2c25db;
+        }
+        </style>
+
+        <div style="text-align: right;">
+            <a href="#top" class="inicio_pagina">⬆️ Volver al inicio</a>
+        </div>
+    """, unsafe_allow_html=True)
