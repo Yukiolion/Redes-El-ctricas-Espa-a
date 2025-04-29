@@ -7,15 +7,16 @@ import plotly.graph_objects as go
 import os
 from scripts.db_connect import db_connect
 
-def rnn(_):
-    st.title("RNN (Recurrent Neural Network)")
+### Red LSTM:
+def lstm(_):
+    st.title("LSTM")
 
     # Definir rutas
     BASE_DIR = os.path.dirname(__file__)
     MODEL_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "..", "..", "models", "RNN_models"))
-    MODEL_PATH = os.path.join(MODEL_DIR, "modelo_rnn.keras")
-    SCALER_PATH = os.path.join(MODEL_DIR, "scaler.pkl")
-    HISTORY_PATH = os.path.join(MODEL_DIR, "historial_entrenamiento.pkl")
+    MODEL_PATH = os.path.join(MODEL_DIR, "modelo_lstm.keras")
+    SCALER_PATH = os.path.join(MODEL_DIR, "scaler_lstm.pkl")
+    HISTORY_PATH = os.path.join(MODEL_DIR, "historial_entrenamiento_lstm.pkl")
 
     # Cargar modelo y scaler
     model = load_model(MODEL_PATH)
@@ -80,8 +81,10 @@ def rnn(_):
     rango = st.selectbox(
         "Selecciona un rango (días a predecir):",
         options=[1, 7, 14, 24],
-        index=3
+        index=3,
+        key="multistep"
     )
+
 
     def predecir_multiple_pasos(modelo, secuencia_inicial, pasos, scaler):
         predicciones = []
@@ -117,9 +120,4 @@ def rnn(_):
         "Demanda predicha": predicciones_futuras
     })
     st.dataframe(df_pred)
-
-
-
-
-
 
