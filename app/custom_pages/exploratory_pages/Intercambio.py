@@ -74,9 +74,6 @@ def Intercambio(df_intercambio):
     st.write("Las principales interconexiones de España están con Francia, Portugal y, en menor medida, con Marruecos y Andorra. " \
     "Estas importaciones y exportaciones se realizan principalmente a través de cables submarinos o líneas de alta tensión.")
 
-
-
-
     st.write("**🌍 Exportacion de energia por años**")
 
     # Gráfico de barras:
@@ -93,9 +90,6 @@ def Intercambio(df_intercambio):
     st.write("En este gráfico podemos ver La exportación de electricidad de España entre 2021 y 2022 aumentó significativamente, " \
     "pasando de 16,5 TWh a 25,4 TWh, lo que representa un incremento del 54%. Esto fué debido a la sequía en Portugal que afectó a su " \
     "capacidad de generación hidroeléctrica y a un parón de la energía nuclear en Francia debido a averías y problemas de mantenimiento.")
-
-
-
 
     st.write("**🌍 Exportacion de energia por años (Heatmap)**")
 
@@ -163,7 +157,7 @@ def Intercambio(df_intercambio):
     st.write("**🌍 Exportación de energía anual per cápita**")
 
     # Grafico de energia per capita:
-    df_energia_total = pd.read_csv('app/data/energia_per_capita.csv')
+    df_energia_total = pd.read_csv('data/energia_per_capita.csv')
     
     fig_energia = px.line(
         df_energia_total,
