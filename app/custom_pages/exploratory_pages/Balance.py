@@ -254,25 +254,17 @@ def Balance(df_balance):
         })
 
     if mostrar_estadisticas:
-        colors = {
-            'media': 'blue',
-            'mediana': 'green',
-            'min': 'red',
-            'max': 'orange'
-        }
-        line_styles = {
-            'media': 'solid',
-            'mediana': 'dash',
-            'min': 'dot',
-            'max': 'dashdot'
-        }
+        colors = {'media': 'blue', 'mediana': 'green', 'min': 'red', 'max': 'orange'}
+        line_styles = {'media': 'solid', 'mediana': 'dash', 'min': 'dot', 'max': 'dashdot'}
 
-        for est in estadisticas_mes:
+        for est in estadisticas_filtradas:
             año = est['año']
             for tipo in ['media', 'mediana', 'min', 'max']:
-                fig.add_hline(y=est[tipo],
-                            line=dict(color=colors[tipo], dash=line_styles[tipo], width=1),
-                            annotation_text=f"{tipo.capitalize()} {año}",
-                            annotation_position="top left")
+                fig.add_hline(
+                    y=est[tipo],
+                    line=dict(color=colors[tipo], dash=line_styles[tipo], width=1),
+                    annotation_text=f"{tipo.capitalize()} {año}",
+                    annotation_position="top left"
+                )
 
     st.plotly_chart(fig)

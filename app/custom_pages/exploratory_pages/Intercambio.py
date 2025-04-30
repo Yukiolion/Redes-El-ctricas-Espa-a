@@ -196,9 +196,11 @@ def Intercambio(df_intercambio):
 
     años = [año_1, año_2]
 
+    años = [año_1, año_2]
+
+
     df_intercambio['año'] = df_intercambio['fecha'].dt.year
     df_comparar = df_intercambio[df_intercambio['año'].isin(años)]
-
     df_comparar['valor'] = pd.to_numeric(df_comparar['valor'], errors='coerce')
 
     estadisticas_por_año = []
