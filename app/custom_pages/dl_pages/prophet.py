@@ -16,7 +16,8 @@ def prophet(df):
         index=3
     )
 
-    with open("../models/prophet_models/modelo_prophet_peninsular.pkl", "rb") as f:
+    # Cargar el modelo
+    with open(r'models\prophet_models\modelo_prophet_peninsular.pkl', "rb") as f:
         modelo = pickle.load(f)
 
     df.rename(columns={'fecha': 'ds', 'valor': 'y'}, inplace=True)
