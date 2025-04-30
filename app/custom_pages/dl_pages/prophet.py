@@ -66,7 +66,7 @@ def prophet(df):
     st.plotly_chart(fig1)
     st.plotly_chart(fig2)
 
-    st.info(
+    st.write(
         'En la gráfica diaria observamos una curva plana; esto es debido a que Prophet, '
         'al no detectar una estacionalidad diaria significativa en los datos, genera predicciones sin mucha variación.'
     )

@@ -122,7 +122,7 @@ def Generacion(df_generacion):
     #st.write(f"Comparando los años: {año_1} vs {año_2}")
 
     años = [año_1, año_2]
-    df_comparar = df_generacion[df_generacion['año'].isin(años)]
+    df_comparar = df_generacion[df_generacion['año'].isin(años)].copy()
 
     df_comparar['valor'] = pd.to_numeric(df_comparar['valor'], errors='coerce')
     estadisticas_por_año = []

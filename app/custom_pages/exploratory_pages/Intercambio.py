@@ -157,7 +157,7 @@ def Intercambio(df_intercambio):
     st.write("**🌍 Exportación de energía anual per cápita**")
 
     # Grafico de energia per capita:
-    df_energia_total = pd.read_csv('data/energia_per_capita.csv')
+    df_energia_total = pd.read_csv('app/data/energia_per_capita.csv')
     
     fig_energia = px.line(
         df_energia_total,
@@ -189,17 +189,16 @@ def Intercambio(df_intercambio):
     año_1 = st.selectbox("Selecciona el primer año:", años_disponibles, key="año_1_intercambio")
     año_2 = st.selectbox("Selecciona el segundo año:", años_disponibles, key="año_2_intercambio")
 
-    #st.write(f"Comparando los años: {año_1} vs {año_2}")
+    st.write(f"Comparando los años: {año_1} vs {año_2}")
 
     años = [año_1, año_2]
-    df_comparar = df_intercambio[df_intercambio['año'].isin(años)]
+    df_comparar = df_intercambio[df_intercambio['año'].isin(años)].copy()
 
     df_comparar['valor'] = pd.to_numeric(df_comparar['valor'], errors='coerce')
     estadisticas_por_año = []
 
     for año in años:
         valores = df_comparar[df_comparar['año'] == año]['valor']
-        #st.dataframe(valores.describe())
         stats = valores.describe()
 
         media = stats['mean']

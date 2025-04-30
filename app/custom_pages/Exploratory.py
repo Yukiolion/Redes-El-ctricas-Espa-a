@@ -1,13 +1,11 @@
 import sys
 import os
 
-# sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
-# from lib.scripts.master import actualizacion_general
+from scripts.update import update
 from scripts.db_connect import db_connect
 from scripts.download import download_balance, download_demanda, download_ire, download_generacion, download_intercambio
 
 import streamlit as st
-
 
 from custom_pages.exploratory_pages.Balance import Balance
 from custom_pages.exploratory_pages.Demanda import Demanda
@@ -16,29 +14,33 @@ from custom_pages.exploratory_pages.Intercambio import Intercambio
 
 def Exploratory():
 
-
-
     st.markdown('<a name="top"></a>', unsafe_allow_html=True)
 
     st.title("📊 Exploratory Data Analysis")
 
+    # Conexión a la base de datos
     conn = db_connect()
 
+    # Descarga de datos
     df_balance = download_balance(conn)
     df_demanda = download_demanda(conn)
     df_ire = download_ire(conn)
     df_generacion = download_generacion(conn)
     df_fronteras = download_intercambio(conn)
+
+    # Cerrar conexión
     conn.close()
 
-    # if st.button("🔄 Actualizar base de datos"):
-    #     with st.spinner("Actualizando la base de datos..."):
-    #         actualizacion  = actualizacion_general()
-    #         if actualizacion:
-    #             st.success("✅ Base de datos actualizada.")
-    #         else:
-    #             st.error("❌ Error al actualizar la base de datos.")
+    # Botón para actualizar la base de datos
+    if st.button("🔄 Actualizar base de datos"):
+        with st.spinner("Actualizando la base de datos..."):
+            actualizacion = update()
+            if actualizacion:
+                st.success("✅ Base de datos actualizada.")
+            else:
+                st.error("❌ Error al actualizar la base de datos.")
 
+    # Crear pestañas
     tabs = st.tabs(["Balance", "Demanda", "Generación", "Intercambio"])
 
     with tabs[0]:
@@ -50,6 +52,7 @@ def Exploratory():
     with tabs[3]:
         Intercambio(df_fronteras)
 
+    # Volver al inicio (enlace)
     st.markdown("""
     <style>
     .inicio_pagina {

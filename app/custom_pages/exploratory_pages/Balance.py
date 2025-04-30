@@ -88,6 +88,7 @@ def Balance(df_balance):
     df_filtrado_hist = df_balance[df_balance['año'] == año]
     
     # Calculo quantiles:
+    df_filtrado_hist = df_filtrado_hist.copy()
     df_filtrado_hist['valor'] = df_filtrado_hist['valor'].astype(float)
     q1 = df_filtrado_hist['valor'].quantile(0.25)
     q3 = df_filtrado_hist['valor'].quantile(0.75)
@@ -123,7 +124,7 @@ def Balance(df_balance):
     #st.write(f"Comparando los años: {año_1} vs {año_2}")
 
     años = [año_1, año_2]
-    df_comparar = df_balance[df_balance['año'].isin(años)]
+    df_comparar = df_balance[df_balance['año'].isin(años)].copy()
 
     df_comparar['valor'] = pd.to_numeric(df_comparar['valor'], errors='coerce')
     estadisticas_por_año = []
@@ -157,7 +158,7 @@ def Balance(df_balance):
     # Corregir la creación de la columna 'indicador_año', en lugar de 'indicador' usa algún criterio:
     # Aquí puedes usar una columna existente o asignar un valor fijo si no tienes una columna 'indicador'
     # Ejemplo: Si quieres que todos los valores tengan el mismo "indicador", puedes asignar un texto fijo.
-    df_comparar['indicador_año'] = 'Indicador ' + df_comparar['año'].astype(str)
+    df_comparar['indicador_año'] = 'Año ' + df_comparar['año'].astype(str)
 
     st.write("Con este gráfico podemos comparar el valor del balance mes a mes a lo largo de los años. También podemos " \
         "seleccionar los valores de media, mediana, máximo y mínimo mensuales para su comparación.")
@@ -228,19 +229,25 @@ def Balance(df_balance):
             'min': 'red',
             'max': 'orange'
         }
-        line_styles = {
-            'media': 'solid',
-            'mediana': 'dash',
-            'min': 'dot',
-            'max': 'dashdot'
-        }
 
-        for est in estadisticas_mes:
-            año = est['año']
-            for tipo in ['media', 'mediana', 'min', 'max']:
-                fig.add_hline(y=est[tipo],
-                            line=dict(color=colors[tipo], dash=line_styles[tipo], width=1),
-                            annotation_text=f"{tipo.capitalize()} {año}",
-                            annotation_position="top left")
+        # Agregar las líneas de media, mediana, min, max
+        for stat, color in colors.items():
+            if stat == 'media':
+                stat_values = [estadisticas['media'] for estadisticas in estadisticas_mes]
+            elif stat == 'mediana':
+                stat_values = [estadisticas['mediana'] for estadisticas in estadisticas_mes]
+            elif stat == 'min':
+                stat_values = [estadisticas['min'] for estadisticas in estadisticas_mes]
+            elif stat == 'max':
+                stat_values = [estadisticas['max'] for estadisticas in estadisticas_mes]
+
+            for i, año in enumerate(años):
+                fig.add_hline(
+                    y=stat_values[i],
+                    line_dash="dot",
+                    line_color=color,
+                    annotation_text=f"{stat.capitalize()} {año}",
+                    annotation_position="top left"
+                )
 
     st.plotly_chart(fig)

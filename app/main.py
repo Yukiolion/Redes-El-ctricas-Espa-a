@@ -24,7 +24,7 @@ def main():
     # Primera fila: logo + descripción
     col1, col2 = st.columns([1, 2])
     with col1:
-        st.image("images/Red_Eléctrica_de_España_(logo).png", width=400)
+        st.image("app/images/Red_Eléctrica_de_España_(logo).png", width=400)
 
     with col2:
         texto = """
@@ -60,7 +60,7 @@ def main():
             st.info("🌍 Los **intercambios internacionales** reflejan la energía que España importa o exporta a países vecinos a través de las interconexiones.")
 
     with col2:
-        st.image("images/Demanda-Generacion.png", caption="Demanda-Generacion", width=350)
+        st.image("app/images/Demanda-Generacion.png", caption="Demanda-Generacion", width=350)
 
     st.markdown('### Clasificación de las fuentes de energía')
     # Esto es un selectbox que permite seleccionar entre los diferentes tipos de datos que tenemos
@@ -73,7 +73,7 @@ def main():
     with col1:
         
         if opcion == 'Renovables':
-            st.image("images/renovables.png", caption="Fuentes Renovables",  use_container_width=True)
+            st.image("app/images/renovables.png", caption="Fuentes Renovables",  use_container_width=True)
 
         elif opcion == 'No renovables':
             st.image("images/no_renovables.png", caption="Fuentes Renovables",  use_container_width=True)

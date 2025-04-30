@@ -150,7 +150,7 @@ def Demanda(df_demanda, df_ire):
     #st.write(f"Comparando los años: {año_1} vs {año_2}")
 
     años = [año_1, año_2]
-    df_comparar = df_demanda[df_demanda['año'].isin(años)]
+    df_comparar = df_demanda[df_demanda['año'].isin(años)].copy()
 
     df_comparar['valor'] = pd.to_numeric(df_comparar['valor'], errors='coerce')
     estadisticas_por_año = []
