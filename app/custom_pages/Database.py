@@ -15,4 +15,4 @@ def Database():
         st.write("- Generación: Contiene información sobre la generación eléctrica.")
         st.write("- Intercambio: Contiene información sobre los intercambios internacionales de energía.")
 
-        st.image('../database/diagrama sql.png' , caption='Diagrama de la base de datos', use_container_width=True)
+        st.image('C:/Users/luisa/GitHub/Redes-El-ctricas-Espa-a/database/diagrama sql.png' , caption='Diagrama de la base de datos', use_container_width=True)
