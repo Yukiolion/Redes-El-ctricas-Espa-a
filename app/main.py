@@ -76,9 +76,9 @@ def main():
             st.image("app/images/renovables.png", caption="Fuentes Renovables",  use_container_width=True)
 
         elif opcion == 'No renovables':
-            st.image("images/no_renovables.png", caption="Fuentes Renovables",  use_container_width=True)
+            st.image("app/images/no_renovables.png", caption="Fuentes Renovables",  use_container_width=True)
         elif opcion == 'Otras categorias':
-            st.image("images/otras_categorias.png", caption="Otras Categorías", use_container_width=True)
+            st.image("app/images/otras_categorias.png", caption="Otras Categorías", use_container_width=True)
 
     with col2:
         
