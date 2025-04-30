@@ -157,7 +157,7 @@ def Intercambio(df_intercambio):
     st.write("**🌍 Exportación de energía anual per cápita**")
 
     # Grafico de energia per capita:
-    df_energia_total = pd.read_csv('data/energia_per_capita.csv')
+    df_energia_total = pd.read_csv('app/data/energia_per_capita.csv')
     
     fig_energia = px.line(
         df_energia_total,
