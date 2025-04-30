@@ -115,7 +115,7 @@ def Balance(df_balance):
         "sino para resaltar picos recurrentes de consumo a lo largo de los años. Los valores fuera de estos límites nos ayudan a entender" \
         " cómo se distribuye el consumo en un rango habitual, permitiéndonos detectar sobresaturaciones de la red eléctrica.") 
 
-    st.write("**🔄 Comparación del Balance eléctrico a lo largo de los años**")
+    st.write("**🔄 Comparación del Balance Eléctrico a lo largo de los años**")
 
     años_disponibles = list(range(2015, 2025))
     año_1 = st.selectbox("Selecciona el primer año:", años_disponibles, key="año_1_balance")
@@ -158,69 +158,100 @@ def Balance(df_balance):
     # Corregir la creación de la columna 'indicador_año', en lugar de 'indicador' usa algún criterio:
     # Aquí puedes usar una columna existente o asignar un valor fijo si no tienes una columna 'indicador'
     # Ejemplo: Si quieres que todos los valores tengan el mismo "indicador", puedes asignar un texto fijo.
-    df_comparar['indicador_año'] = 'Año ' + df_comparar['año'].astype(str)
 
-    st.write("Con este gráfico podemos comparar el valor del balance mes a mes a lo largo de los años. También podemos " \
-        "seleccionar los valores de media, mediana, máximo y mínimo mensuales para su comparación.")
+    df_comparar['indicador_año'] = 'Indicador ' + df_comparar['año'].astype(str)
 
-    # Grafico comparativo con los meses:
     meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 
             'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
-
+    
     df_comparar['mes'] = df_comparar['fecha'].dt.month
     df_comparar['dia'] = df_comparar['fecha'].dt.day
     df_comparar['nombre_mes'] = df_comparar['mes'].apply(lambda x: meses[x-1])
 
-    # Ordenar los meses disponibles de enero a diciembre
-    # (aunque falten meses, respetamos el orden clásico)
-    meses_unicos_en_datos = df_comparar['nombre_mes'].unique().tolist()
+    st.write("Con este gráfico podemos comparar el valor del balance mes a mes o el año completo para cada uno de los años seleccionados.")
 
-    # Reordenamos según meses_es
-    meses_disponibles = [mes for mes in meses if mes in meses_unicos_en_datos]
+    ver_año_entero = st.checkbox("Comparar el año completo", key="año_balance")
 
-    # Seleccionar "Enero" como default
-    if 'Enero' in meses_disponibles:
-        index_default = meses_disponibles.index('Enero')
+    if not ver_año_entero:
+        # Selección de mes solo si no se selecciona el año entero
+        meses_unicos = df_comparar['nombre_mes'].unique().tolist()
+        meses_disponibles = [mes for mes in meses if mes in meses_unicos]
+        index_default = meses_disponibles.index('Enero') if 'Enero' in meses_disponibles else 0
+
+        mes_seleccionado = st.selectbox(
+            "Selecciona el mes a comparar:",
+            meses_disponibles,
+            index=index_default
+        )
+        df_filtrado = df_comparar[df_comparar['nombre_mes'] == mes_seleccionado]
     else:
-        index_default = 0  # Si no está Enero, selecciona el primero disponible
+        # Si se selecciona el año completo, se usan todos los datos de ambos años
+        df_filtrado = df_comparar.copy()
 
-    # Selectbox
-    mes_seleccionado = st.selectbox(
-        "Selecciona el mes a comparar:", 
-        meses_disponibles, 
-        index=index_default
-    )
-    mostrar_estadisticas = st.checkbox("Mostrar líneas de media, mediana, máximo y mínimo")
-    df_mes = df_comparar[df_comparar['nombre_mes'] == mes_seleccionado]
-    # Cálculo de estadísticas por año en el mes seleccionado
-    estadisticas_mes = []
+    mostrar_estadisticas = st.checkbox("Mostrar líneas de media, mediana, máximo y mínimo", key="estadisticas_balance")
+
+    # Crear columna para eje X: día-mes
+    df_filtrado['dia_mes'] = df_filtrado['fecha'].dt.strftime('%d-%b')
+
+    if ver_año_entero:
+    
+        df_filtrado['mes'] = df_filtrado['fecha'].dt.month
+        df_filtrado['dia_del_año'] = df_filtrado['fecha'].dt.dayofyear
+        df_filtrado['indicador_año'] = 'Balance ' + df_filtrado['año'].astype(str)
+
+        mes_ticks = df_filtrado.groupby('mes')['dia_del_año'].min().sort_index()
+
+        fig = px.line(
+            df_filtrado,
+            x='dia_del_año',
+            y='valor',
+            color='indicador_año',
+            labels={'dia_del_año': 'Mes', 'valor': 'kWh', 'indicador_año': 'Año'}
+        )
+
+        fig.update_layout(
+            xaxis=dict(
+                tickmode='array',
+                tickvals=mes_ticks.values,
+                ticktext=meses[:len(mes_ticks)]
+            ),
+            xaxis_title='Mes',
+            yaxis_title='Demanda (kWh)',
+            legend_title='Año'
+        )
+    else:
+        df_filtrado = df_filtrado[df_filtrado['nombre_mes'] == mes_seleccionado]
+        df_filtrado['indicador_año'] = 'Balance ' + df_filtrado['año'].astype(str)
+
+        fig = px.line(
+            df_filtrado,
+            x='dia',
+            y='valor',
+            color='indicador_año',
+            labels={'dia': 'Días', 'valor': 'kWh', 'indicador_año': 'Año'}
+        )
+
+        fig.update_layout(
+            xaxis=dict(dtick=1),
+            xaxis_title='Día del mes',
+            yaxis_title='Demanda (kWh)',
+            legend_title='Año'
+        )
+
+    fig.update_traces(line=dict(width=2))
+
+    estadisticas_filtradas = []
     for año in años:
-        valores = df_mes[df_mes['año'] == año]['valor']
+        valores = df_filtrado[df_filtrado['año'] == año]['valor']
         stats = valores.describe()
 
-        estadisticas_mes.append({
+        estadisticas_filtradas.append({
             'año': año,
             'media': stats['mean'],
             'mediana': valores.median(),
             'min': stats['min'],
             'max': stats['max']
         })
-
-
-    # Ahora graficamos por día
-    fig = px.line(df_mes,
-                x='dia',
-                y='valor',
-                color='indicador_año',
-                labels={'dia': 'Día del mes', 'valor': 'kWh', 'indicador_año': 'Indicador por año'})
-
-    fig.update_layout(
-        xaxis=dict(dtick=1),
-        xaxis_title='Día del mes',
-        yaxis_title='Demanda (kWh)',
-        legend_title='Año'
-    )
-    fig.update_traces(line=dict(width=2))
 
     if mostrar_estadisticas:
         colors = {
@@ -229,25 +260,19 @@ def Balance(df_balance):
             'min': 'red',
             'max': 'orange'
         }
+        line_styles = {
+            'media': 'solid',
+            'mediana': 'dash',
+            'min': 'dot',
+            'max': 'dashdot'
+        }
 
-        # Agregar las líneas de media, mediana, min, max
-        for stat, color in colors.items():
-            if stat == 'media':
-                stat_values = [estadisticas['media'] for estadisticas in estadisticas_mes]
-            elif stat == 'mediana':
-                stat_values = [estadisticas['mediana'] for estadisticas in estadisticas_mes]
-            elif stat == 'min':
-                stat_values = [estadisticas['min'] for estadisticas in estadisticas_mes]
-            elif stat == 'max':
-                stat_values = [estadisticas['max'] for estadisticas in estadisticas_mes]
-
-            for i, año in enumerate(años):
-                fig.add_hline(
-                    y=stat_values[i],
-                    line_dash="dot",
-                    line_color=color,
-                    annotation_text=f"{stat.capitalize()} {año}",
-                    annotation_position="top left"
-                )
+        for est in estadisticas_mes:
+            año = est['año']
+            for tipo in ['media', 'mediana', 'min', 'max']:
+                fig.add_hline(y=est[tipo],
+                            line=dict(color=colors[tipo], dash=line_styles[tipo], width=1),
+                            annotation_text=f"{tipo.capitalize()} {año}",
+                            annotation_position="top left")
 
     st.plotly_chart(fig)
