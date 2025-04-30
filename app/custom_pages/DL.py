@@ -1,5 +1,6 @@
 import streamlit as st
 
+from scripts.update import update
 from scripts.db_connect import db_connect
 from scripts.download import download_demanda
 from custom_pages.dl_pages.gru import gru
@@ -16,6 +17,15 @@ def DL():
     conn.close()
     st.markdown('<a name="top"></a>', unsafe_allow_html=True)
     st.title('🖥️ Modelos de prediccion')
+
+    # Botón para actualizar la base de datos
+    if st.button("🔄 Actualizar base de datos"):
+        with st.spinner("Actualizando la base de datos..."):
+            actualizacion = update()
+            if actualizacion:
+                st.success("✅ Base de datos actualizada.")
+            else:
+                st.error("❌ Error al actualizar la base de datos.")
 
     tabs = st.tabs(["GRU", "Prophet", "RNN", "LSTM"])
 

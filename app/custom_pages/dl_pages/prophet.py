@@ -11,7 +11,7 @@ def prophet(df):
     st.write('Aquí se mostrarán las predicciones del modelo Prophet para la región Peninsular.')
 
     # Cargar el modelo entrenado
-    with open(r'C:/Users/luisa/GitHub/Redes-El-ctricas-Espa-a/models/prophet_models/modelo_prophet_peninsular.pkl', "rb") as f:
+    with open('models/prophet_models/modelo_prophet_peninsular.pkl', "rb") as f:
         modelo = pickle.load(f)
 
     # Preparar datos
