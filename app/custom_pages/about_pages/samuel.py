@@ -29,7 +29,7 @@ def samuel_info():
         }
         </style>
     """, unsafe_allow_html=True)
-
+    # Presentacion
     st.markdown('<p class="title">Hola, soy Samuel 👋</p>', unsafe_allow_html=True)
     st.markdown('<p class="subtitle">Desarrollador de software Full-Stack | Ciencia de Datos | IA</p>', unsafe_allow_html=True)
 
