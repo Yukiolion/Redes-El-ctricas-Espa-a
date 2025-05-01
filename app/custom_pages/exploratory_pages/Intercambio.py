@@ -151,8 +151,6 @@ def Intercambio(df_intercambio):
         height=700,)
     st.plotly_chart(fig)
 
-    st.dataframe(df_intercambio)
-
     
     st.write("**🌍 Exportación de energía anual per cápita**")
 
@@ -179,90 +177,132 @@ def Intercambio(df_intercambio):
             "energía per cápita exportada puede parecer moderada. \n" \
             "- Portugal: Con este país hay acuerdos de exportación en crecimiento, por eso se puede ver una subida per cápita constante.\n" \
             "- Andorra: Tiene una población muy baja (~77 mil habitantes), por lo que cualquier cantidad de energía exportada "
-            "se traduce en un valor per cápita muy alto. Es probable que presente los valores más altos per cápita, "
-            "aunque el volumen total sea pequeño.\n")
+            "se traduce en un valor per cápita muy alto.\n")
     
     st.write("**🌍 Comparación de la exportación eléctrica a lo largo de los años**")
 
+
     df_intercambio['año'] = df_intercambio['fecha'].dt.year
+
     años_disponibles = list(range(2015, 2025))
     año_1 = st.selectbox("Selecciona el primer año:", años_disponibles, key="año_1_intercambio")
     año_2 = st.selectbox("Selecciona el segundo año:", años_disponibles, key="año_2_intercambio")
-
-    #st.write(f"Comparando los años: {año_1} vs {año_2}")
-
     años = [año_1, año_2]
-    df_comparar = df_intercambio[df_intercambio['año'].isin(años)]
 
+    df_comparar = df_intercambio[df_intercambio['año'].isin(años)].copy()
     df_comparar['valor'] = pd.to_numeric(df_comparar['valor'], errors='coerce')
-    estadisticas_por_año = []
+    df_comparar['pais_año'] = df_comparar['pais'] + ' ' + df_comparar['año'].astype(str)
 
+    estadisticas_por_año = []
     for año in años:
         valores = df_comparar[df_comparar['año'] == año]['valor']
-        #st.dataframe(valores.describe())
         stats = valores.describe()
-
-        media = stats['mean']
-        mediana = valores.median()
-        minimo = stats['min']
-        maximo = stats['max']
 
         estadisticas_por_año.append({
             'año': año,
-            'media': media,
-            'mediana': mediana,
-            'min': minimo,
-            'max': maximo,
+            'media': stats['mean'],
+            'mediana': valores.median(),
+            'min': stats['min'],
+            'max': stats['max']
         })
 
     df_estadisticas = pd.DataFrame(estadisticas_por_año)
-
-    st.write("En esta tabla podemos seleccionar los valores de media, mediana, máximo y mínimo y comparar dichos valores entre" \
-    "años. En el gráfico de debajo se muestran tanto los valores estadísticos como la gráfica de la evolución de la demanda.")
-
-    # Colocamos dataframe con las estadísticas:
+    st.write("Estadísticas generales por año:")
     st.dataframe(df_estadisticas)
 
-    # Corregir la creación de la columna 'indicador_año', en lugar de 'indicador' usa algún criterio:
-    # Aquí puedes usar una columna existente o asignar un valor fijo si no tienes una columna 'indicador'
-    # Ejemplo: Si quieres que todos los valores tengan el mismo "indicador", puedes asignar un texto fijo.
-    df_comparar['indicador_año'] = 'Indicador ' + df_comparar['año'].astype(str)
+    df_comparar['mes'] = df_comparar['fecha'].dt.month
+    df_comparar['dia'] = df_comparar['fecha'].dt.day
+    meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 
+            'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
+    df_comparar['nombre_mes'] = df_comparar['mes'].apply(lambda x: meses[x - 1])
 
-    # Si quieres usar alguna columna existente como 'tipo' o cualquier otra, puedes hacerlo:
-    # df_comparar['indicador_año'] = df_comparar['tipo'] + ' ' + df_comparar['año'].astype(str)
+    st.write("Comparación del intercambio eléctrico por país entre los años seleccionados.")
+    ver_año_entero = st.checkbox("Comparar el año completo", key="ver_año_intercambio")
 
-    # Grafico comparativo de los años:
-    fig = px.line(df_comparar,
-                x='fecha',
-                y='valor',
-                color='indicador_año',
-                labels={'fecha': 'Fecha', 'valor': 'kWh', 'indicador_año': 'Indicador por año'})
+    if not ver_año_entero:
+        meses_unicos = df_comparar['nombre_mes'].unique().tolist()
+        meses_disponibles = [mes for mes in meses if mes in meses_unicos]
+        index_default = meses_disponibles.index('Enero') if 'Enero' in meses_disponibles else 0
 
-    fig = go.Figure(fig)
-    colors = {
-        'media': 'blue',
-        'mediana': 'green',
-        'min': 'red',
-        'max': 'orange'}
-    line_styles = {
-        'media': 'solid',
-        'mediana': 'dash',
-        'min': 'dot',
-        'max': 'dashdot'}
+        mes_seleccionado = st.selectbox(
+            "Selecciona el mes a comparar:",
+            meses_disponibles,
+            index=index_default,
+            key="mes_intercambio"
+        )
 
-    for estadisticas in estadisticas_por_año:
-        año = estadisticas['año']
-        for tipo in ['media', 'mediana', 'min', 'max']:
-            fig.add_hline(y=estadisticas[tipo],
-                        line=dict(color=colors[tipo], dash=line_styles[tipo], width=1),
-                        annotation_text=f"{tipo.capitalize()} {año}",
-                        annotation_position="top left")
+        df_filtrado = df_comparar[df_comparar['nombre_mes'] == mes_seleccionado].copy()
+    else:
+        df_filtrado = df_comparar.copy()
 
-    fig.update_layout(
-        xaxis_title='Fecha',
-        xaxis_tickformat='%b %Y',
-        legend_title='Indicador por año'
-    )
-    fig.update_traces(line=dict(width=1))
+    df_filtrado['dia_mes'] = df_filtrado['fecha'].dt.strftime('%d-%b')
+
+    mostrar_estadisticas = st.checkbox("Mostrar líneas de media, mediana, máximo y mínimo", key="estadisticas_intercambio")
+
+    if ver_año_entero:
+        df_filtrado['dia_del_año'] = df_filtrado['fecha'].dt.dayofyear
+        mes_ticks = df_filtrado.groupby('mes')['dia_del_año'].min().sort_index()
+
+        fig = px.line(
+            df_filtrado,
+            x='dia_del_año',
+            y='valor',
+            color='pais_año',
+            labels={'dia_del_año': 'Mes', 'valor': 'kWh', 'pais_año': 'País y Año'}
+        )
+
+        fig.update_layout(
+            xaxis=dict(
+                tickmode='array',
+                tickvals=mes_ticks.values,
+                ticktext=meses[:len(mes_ticks)]
+            ),
+            xaxis_title='Mes',
+            yaxis_title='Intercambio (kWh)',
+            legend_title='País y Año'
+        )
+    else:
+        fig = px.line(
+            df_filtrado,
+            x='dia',
+            y='valor',
+            color='pais_año',
+            labels={'dia': 'Día', 'valor': 'kWh', 'pais_año': 'País y Año'}
+        )
+
+        fig.update_layout(
+            xaxis=dict(dtick=1),
+            xaxis_title='Día del mes',
+            yaxis_title='Intercambio (kWh)',
+            legend_title='País y Año'
+        )
+
+    fig.update_traces(line=dict(width=2))
+
+    if mostrar_estadisticas:
+        estadisticas_filtradas = []
+        for año in años:
+            valores = df_filtrado[df_filtrado['año'] == año]['valor']
+            stats = valores.describe()
+            estadisticas_filtradas.append({
+                'año': año,
+                'media': stats['mean'],
+                'mediana': valores.median(),
+                'min': stats['min'],
+                'max': stats['max']
+            })
+
+        colors = {'media': 'blue', 'mediana': 'green', 'min': 'red', 'max': 'orange'}
+        line_styles = {'media': 'solid', 'mediana': 'dash', 'min': 'dot', 'max': 'dashdot'}
+
+        for est in estadisticas_filtradas:
+            año = est['año']
+            for tipo in ['media', 'mediana', 'min', 'max']:
+                fig.add_hline(
+                    y=est[tipo],
+                    line=dict(color=colors[tipo], dash=line_styles[tipo], width=1),
+                    annotation_text=f"{tipo.capitalize()} {año}",
+                    annotation_position="top left"
+                )
 
     st.plotly_chart(fig)
