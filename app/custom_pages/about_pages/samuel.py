@@ -37,3 +37,12 @@ def samuel_info():
     st.markdown('<p class="section-title">Contacto</p>', unsafe_allow_html=True)
     st.write("📧 Email: samueljsanchez24@email.com")
     st.write("💼 LinkedIn: www.linkedin.com/in/samuel-sanchez-robles-ba2a5425a")
+
+    with open("app/custom_pages/about_pages/CV/CV_Samuel_Sanchez.pdf", "rb") as pdf_file:
+        PDFbyte = pdf_file.read()
+        st.download_button(
+            label="📄 Descargar CV",
+            data=PDFbyte,
+            file_name="CV_Samuel_Sanchez.pdf",
+            mime="application/pdf"
+        )
