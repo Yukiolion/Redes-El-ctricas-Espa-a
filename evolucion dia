@@ -1,0 +1,144 @@
+evolucion 2019/dia/codigo: 
+
+import pandas as pd
+
+# Cargar el archivo CSV
+df = pd.read_csv('demanda_evolucion_2019_limpio.csv')
+
+# Ver las primeras filas para entender el contenido
+print(df.head())
+
+# Eliminar filas completamente vacías
+df.dropna(how='all', inplace=True)
+
+# Eliminar columnas completamente vacías
+df.dropna(axis=1, how='all', inplace=True)
+
+# Eliminar filas duplicadas
+df.drop_duplicates(inplace=True)
+
+# Convertir columnas de fecha (ajusta el nombre si es distinto)
+if 'fecha' in df.columns:
+    df['fecha'] = pd.to_datetime(df['fecha'], errors='coerce')
+
+# Rellenar valores nulos con 0 (opcional, depende del caso)
+df.fillna(0, inplace=True)
+
+# Renombrar columnas para que no tengan espacios ni mayúsculas
+df.columns = [col.strip().lower().replace(' ', '_') for col in df.columns]
+
+# Guardar el archivo limpio
+df.to_csv('demanda_evolucion_2019_limpio_procesado.csv', index=False)
+
+print("Limpieza completada. Archivo guardado como 'demanda_evolucion_2019_limpio_procesado.csv'")
+
+evolucion 2020/dia/codigo: 
+
+import pandas as pd
+
+# Cargar archivo
+df = pd.read_csv('demanda_evolucion_2020_limpio.csv')
+
+# Eliminar filas y columnas vacías
+df.dropna(how='all', inplace=True)
+df.dropna(axis=1, how='all', inplace=True)
+
+# Eliminar duplicados
+df.drop_duplicates(inplace=True)
+
+# Limpiar nombres de columnas
+df.columns = [col.strip().lower().replace(' ', '_') for col in df.columns]
+
+# Convertir columnas de fecha
+for col in df.columns:
+    if 'fecha' in col or 'date' in col:
+        df[col] = pd.to_datetime(df[col], errors='coerce')
+
+# Rellenar valores nulos con 0
+df.fillna(0, inplace=True)
+
+# Guardar archivo limpio
+df.to_csv('demanda_evolucion_2020_limpio_procesado.csv', index=False)
+
+evolucion 2021/dia/codigo: 
+
+import pandas as pd
+
+# Cargar archivo CSV
+df = pd.read_csv('demanda_evolucion_2021_limpio.csv')
+
+# Eliminar filas y columnas completamente vacías
+df.dropna(how='all', inplace=True)
+df.dropna(axis=1, how='all', inplace=True)
+
+# Eliminar duplicados
+df.drop_duplicates(inplace=True)
+
+# Normalizar nombres de columnas
+df.columns = [col.strip().lower().replace(' ', '_') for col in df.columns]
+
+# Convertir columnas de fecha (si contienen 'fecha' en el nombre)
+for col in df.columns:
+    if 'fecha' in col or 'date' in col:
+        df[col] = pd.to_datetime(df[col], errors='coerce')
+
+# Rellenar valores nulos con 0
+df.fillna(0, inplace=True)
+
+# Guardar archivo limpio
+df.to_csv('demanda_evolucion_2021_limpio_procesado.csv', index=False)
+
+evolucion 2022/dia/codigo: 
+import pandas as pd
+
+# Cargar archivo
+df = pd.read_csv('demanda_evolucion_2022_limpio.csv')
+
+# Limpieza general
+df.dropna(how='all', inplace=True) # Eliminar filas vacías
+df.dropna(axis=1, how='all', inplace=True) # Eliminar columnas vacías
+df.drop_duplicates(inplace=True) # Eliminar duplicados
+
+# Normalizar nombres de columnas
+df.columns = [col.strip().lower().replace(' ', '_') for col in df.columns]
+
+# Convertir columnas con fechas
+for col in df.columns:
+    if 'fecha' in col or 'date' in col:
+        df[col] = pd.to_datetime(df[col], errors='coerce')
+
+# Rellenar valores nulos con 0
+df.fillna(0, inplace=True)
+
+evolucion 2023/dia/codigo: 
+
+import pandas as pd
+
+# Cargar archivo CSV
+df = pd.read_csv('demanda_evolucion_2023_limpio.csv')
+
+# Eliminar filas y columnas completamente vacías
+df.dropna(how='all', inplace=True)
+df.dropna(axis=1, how='all', inplace=True)
+
+# Eliminar duplicados
+df.drop_duplicates(inplace=True)
+
+# Normalizar nombres de columnas
+df.columns = [col.strip().lower().replace(' ', '_') for col in df.columns]
+
+# Convertir columnas de fecha
+for col in df.columns:
+    if 'fecha' in col or 'date' in col:
+        df[col] = pd.to_datetime(df[col], errors='coerce')
+
+# Rellenar valores nulos con 0
+df.fillna(0, inplace=True)
+
+# Guardar archivo limpio
+df.to_csv('demanda_evolucion_2023_limpio_procesado.csv', index=False)
+
+# Guardar archivo limpio
+df.to_csv('demanda_evolucion_2022_limpio_procesado.csv', index=False)
+
+
