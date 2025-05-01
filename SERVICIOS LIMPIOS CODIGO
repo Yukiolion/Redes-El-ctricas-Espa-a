@@ -1,0 +1,110 @@
+servicios 2019/codigo: 
+
+# Convertir la columna 'fecha' a formato datetime
+df['fecha'] = pd.to_datetime(df['fecha'])
+
+# Eliminar duplicados si los hubiera
+df = df.drop_duplicates()
+
+# Eliminar espacios en blanco al inicio/final de strings
+df['indicator'] = df['indicator'].str.strip()
+df['region'] = df['region'].str.strip()
+
+# Revisar y eliminar posibles valores nulos
+df = df.dropna()
+
+# Verificar tipos de datos
+print(df.dtypes)
+
+servicios 2020/codigo: 
+
+import pandas as pd
+
+# Cargar los datos
+df = pd.read_csv("ruta_del_archivo.csv")
+
+# Convertir 'fecha' a datetime
+df['fecha'] = pd.to_datetime(df['fecha'])
+
+# Eliminar duplicados
+df = df.drop_duplicates()
+
+# Eliminar espacios extra en texto
+df['indicator'] = df['indicator'].str.strip()
+df['region'] = df['region'].str.strip()
+
+# Eliminar filas con valores nulos
+df = df.dropna()
+
+# Ver tipos de datos y estadísticas básicas
+print(df.info())
+print(df.describe())
+
+servicios 2021/codigo: 
+
+import pandas as pd
+
+# Cargar el archivo CSV
+df = pd.read_csv("ruta/del/archivo.csv")
+
+# Limpieza
+df['fecha'] = pd.to_datetime(df['fecha']) # Convertir a fecha
+df = df.drop_duplicates() # Eliminar duplicados
+df = df.dropna() # Eliminar valores nulos
+df['indicator'] = df['indicator'].str.strip() # Limpiar espacios
+df['region'] = df['region'].str.strip()
+
+# Verificar
+print(df.info())
+print(df.head())
+
+# Guardar limpio
+df.to_csv("ruta/del/archivo_limpio.csv", index=False)
+
+servicios 2022/codigo: 
+
+import pandas as pd
+
+# Cargar el archivo CSV
+df = pd.read_csv("ruta/del/archivo.csv")
+
+# Convertir fechas
+df['fecha'] = pd.to_datetime(df['fecha'], errors='coerce')
+
+# Eliminar filas con fechas no válidas o nulos
+df = df.dropna(subset=['fecha'])
+
+# Eliminar duplicados
+df = df.drop_duplicates()
+
+# Limpiar espacios en columnas de texto
+df['indicator'] = df['indicator'].astype(str).str.strip()
+df['region'] = df['region'].astype(str).str.strip()
+
+# Eliminar cualquier otra fila con valores nulos
+df = df.dropna()
+
+servicios 2023/codigo: 
+
+import pandas as pd
+
+# Cargar archivos CSV
+archivos = [
+    "/mnt/data/demanda_ire_servicios_2019_limpio.csv",
+    "/mnt/data/demanda_ire_servicios_2020_limpio.csv",
+    "/mnt/data/demanda_ire_servicios_2021_limpio.csv",
+    "/mnt/data/demanda_ire_servicios_2023_limpio.csv"
+]
+
+# Leer y combinar todos los archivos
+df_total = pd.concat([pd.read_csv(archivo) for archivo in archivos], ignore_index=True)
+
+# Limpieza general
+df_total['fecha'] = pd.to_datetime(df_total['fecha'])        # Convertir fecha
+df_total = df_total.drop_duplicates()                        # Eliminar duplicados
+df_total = df_total.dropna()                                 # Eliminar nulos
+df_total['indicator'] = df_total['indicator'].str.strip()    # Limpiar textos
+df_total['region'] = df_total['region'].str.strip()
+
+# Guardar archivo limpio
+df_total.to_csv("/mnt/data/demanda_ire_servicios_limpio_total.csv", index=False)
