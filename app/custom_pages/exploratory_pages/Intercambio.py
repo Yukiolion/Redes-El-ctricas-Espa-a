@@ -151,7 +151,7 @@ def Intercambio(df_intercambio):
         height=700,)
     st.plotly_chart(fig)
 
-
+    st.dataframe(df_intercambio)
 
     
     st.write("**🌍 Exportación de energía anual per cápita**")
