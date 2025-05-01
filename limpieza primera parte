@@ -1,0 +1,117 @@
+Generacion estructura limpio/codigo: 
+
+import pandas as pd
+
+# Cargar el archivo CSV
+df = pd.read_csv('/mnt/data/estructura_generacion_limpio.csv')
+
+# Ver primeras filas para inspección
+print(df.head())
+
+# Verificar información general del DataFrame
+print(df.info())
+
+# Eliminar columnas innecesarias (ajusta según lo que veas en df.head())
+# df.drop(['columna1', 'columna2'], axis=1, inplace=True)
+
+# Renombrar columnas para facilitar el análisis
+# df.rename(columns={'Nombre Original': 'nombre_nuevo'}, inplace=True)
+
+# Convertir fechas si hay columnas con fechas
+# df['fecha'] = pd.to_datetime(df['fecha'], errors='coerce')
+
+# Eliminar filas con todos los valores nulos
+df.dropna(how='all', inplace=True)
+
+# Eliminar filas con valores nulos en columnas importantes
+# df.dropna(subset=['columna_importante'], inplace=True)
+
+# Reemplazar valores específicos (por ejemplo, strings vacíos o símbolos raros)
+df.replace(['-', 'N/A', '', ' '], pd.NA, inplace=True)
+
+# Rellenar nulos si es necesario
+# df.fillna(valor, inplace=True)
+
+# Eliminar duplicados
+df.drop_duplicates(inplace=True)
+
+# Ver datos limpios
+print(df.head())
+
+# Guardar el DataFrame limpio (opcional)
+# df.to_csv('/mnt/data/estructura_generacion_limpio_limpio.csv', index=False)
+
+Evolucion renovable limpio/ codigo : 
+
+import pandas as pd
+
+# Cargar el archivo
+df = pd.read_csv("/mnt/data/evolucion_renovable_norenovable_limpio (1).csv")
+
+# Convertir la columna 'datetime' a formato datetime de pandas
+df['datetime'] = pd.to_datetime(df['datetime'], errors='coerce')
+
+# Normalizar texto: eliminar espacios y poner en minúsculas si es necesario
+df['indicator'] = df['indicator'].str.strip().str.lower()
+df['region'] = df['region'].str.strip().str.lower()
+df['type'] = df['type'].str.strip().str.lower()
+
+# Eliminar posibles duplicados
+df.drop_duplicates(inplace=True)
+
+# Verificar datos limpios
+print(df.info())
+print(df.head())
+
+# (Opcional) Guardar el DataFrame limpio
+# df.to_csv("/mnt/data/evolucion_renovable_norenovable_limpio_clean.csv", index=False)
+
+Intercambio/enlace de baleares limpio/codigo:
+
+import pandas as pd
+
+# Cargar el archivo
+df = pd.read_csv("/mnt/data/enlace_baleares_limpio.csv")
+
+# Convertir 'datetime' a formato datetime de pandas
+df['datetime'] = pd.to_datetime(df['datetime'], errors='coerce')
+
+# Normalizar texto en la columna 'pais'
+df['pais'] = df['pais'].str.strip().str.lower()
+
+# Eliminar duplicados si existen
+df.drop_duplicates(inplace=True)
+
+# Verificación final
+print(df.info())
+print(df.head())
+
+# (Opcional) Guardar el archivo limpio
+# df.to_csv("/mnt/data/enlace_baleares_limpio_clean.csv", index=False)
+
+Intercambio/ fronteras limpio/codigo: 
+import pandas as pd
+
+# Cargar datos
+df = pd.read_csv("fronteras_limpio.csv")
+
+# Convertir 'datetime' a tipo datetime
+df['datetime'] = pd.to_datetime(df['datetime'])
+
+# Renombrar columnas para uniformidad
+df = df.rename(columns={
+    'value': 'valor',
+    'percentage': 'porcentaje',
+    'datetime': 'fecha',
+    'pais': 'pais_frontera',
+    'año': 'anio'
+})
+
+# Limpiar nombre de país (eliminar sufijo "-frontera")
+df['pais_frontera'] = df['pais_frontera'].str.replace('-frontera', '', regex=False)
+
+# Verificar valores nulos
+print(df.isnull().sum())
+
+# Resultado limpio
+print(df.head())
