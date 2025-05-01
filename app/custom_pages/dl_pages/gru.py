@@ -47,37 +47,38 @@ def gru(_):
     X, y = create_sequences(df_scaled, window_size)
     X_train, X_test, y_train, y_test = train_test_split(X, y, shuffle=False, test_size=0.2)
 
-    # Graficar la función de pérdida (si tienes historial de entrenamiento)
-    st.subheader("Pérdida durante el entrenamiento")
-    history = joblib.load(HISTORY_PATH)
-    fig_loss = go.Figure()
-    fig_loss.add_trace(go.Scatter(x=np.arange(len(history['loss'])), y=history['loss'], mode='lines', name='Train Loss'))
-    fig_loss.add_trace(go.Scatter(x=np.arange(len(history['val_loss'])), y=history['val_loss'], mode='lines', name='Val Loss'))
-    fig_loss.update_layout(
-        title='Función de pérdida durante el entrenamiento',
-        xaxis_title='Epoch',
-        yaxis_title='Loss',
-        template='plotly_dark'
-    )
-    st.plotly_chart(fig_loss)
-
     # Predicción one-step
     one_step_preds = one_step_prediction(model, X_test, scaler)
     valor_scaler = MinMaxScaler()
     valor_scaler.min_, valor_scaler.scale_ = scaler.min_[0], scaler.scale_[0]
     y_test_invert = valor_scaler.inverse_transform(y_test.reshape(-1, 1))
 
-    st.subheader("Predicciones One-Step vs Valores Reales")
     fig_one_step = go.Figure()
-    fig_one_step.add_trace(go.Scatter(x=np.arange(len(y_test_invert)), y=y_test_invert.flatten(), mode='lines', name='Real'))
-    fig_one_step.add_trace(go.Scatter(x=np.arange(len(one_step_preds)), y=one_step_preds.flatten(), mode='lines', name='Predicción One-Step'))
+    fig_one_step.add_trace(go.Scatter(x=np.arange(len(y_test_invert)), y=y_test_invert.flatten(),  mode='lines', name='Valor Real', line=dict(color='blue', width=1)))
+    fig_one_step.add_trace(go.Scatter(x=np.arange(len(one_step_preds)), y=one_step_preds.flatten(), mode='lines', name='Predicción', line=dict(color='red', width=1)))
     fig_one_step.update_layout(
-        title='Predicción One-Step vs Valores Reales',
+        title='Predicción de la demanda vs. real',
         xaxis_title='Índice de muestra',
         yaxis_title='Demanda',
         template='plotly_dark'
     )
     st.plotly_chart(fig_one_step)
+
+
+    # Graficar la función de pérdida (si tienes historial de entrenamiento)
+
+    history = joblib.load(HISTORY_PATH)
+    fig_loss = go.Figure()
+    fig_loss.add_trace(go.Scatter(x=np.arange(len(history['loss'])), y=history['loss'], mode='lines', name='Train Loss'))
+    fig_loss.add_trace(go.Scatter(x=np.arange(len(history['val_loss'])), y=history['val_loss'], mode='lines', name='Val Loss'))
+    fig_loss.update_layout(
+        title='Función de pérdida (MSE)',
+        xaxis_title='Epoch',
+        yaxis_title='Pérdida',
+        template='plotly_dark'
+    )
+    st.plotly_chart(fig_loss)
+
 
     # Predicciones de múltiples pasos
     future_steps = 24
@@ -92,19 +93,18 @@ def gru(_):
         'demanda_predicha': predicciones_futuras.flatten()
     })
 
-    st.subheader("Predicciones Futuras")
-    st.write(df_futuro)
-
     # Graficar las predicciones futuras
     fig_future = go.Figure()
     fig_future.add_trace(go.Scatter(x=df_futuro['fecha'], y=df_futuro['demanda_predicha'], mode='lines+markers', name='Predicción Futuro'))
     fig_future.update_layout(
-        title='Predicción múltiple hacia el futuro',
+        title='Predicción Multi-Step (24 días)',
         xaxis_title='Fecha',
         yaxis_title='Demanda predicha',
         template='plotly_dark'
     )
     st.plotly_chart(fig_future)
+
+    st.write(df_futuro)
 
 # Función para crear secuencias de datos
 def create_sequences(data, window_size):
@@ -140,3 +140,4 @@ def multiple_step_prediction(model, input_seq, steps, scaler):
     valor_scaler = MinMaxScaler()
     valor_scaler.min_, valor_scaler.scale_ = scaler.min_[0], scaler.scale_[0]
     return valor_scaler.inverse_transform(np.array(preds).reshape(-1, 1))
+
