@@ -124,8 +124,8 @@ def Generacion(df_generacion):
     
     df_generacion['año'] = df_generacion['fecha'].dt.year
     años_disponibles = list(range(2015, 2025))
-    año_1 = st.selectbox("Selecciona el primer año:", años_disponibles, key="año_1.1_generacion")
-    año_2 = st.selectbox("Selecciona el segundo año:", años_disponibles, key="año_2.1_generacion")
+    año_1 = st.selectbox("Selecciona el primer año:", años_disponibles, key="año_1_generacion")
+    año_2 = st.selectbox("Selecciona el segundo año:", años_disponibles, key="año_2_generacion")
 
     años = [año_1, año_2]
     df_comparar = df_generacion[df_generacion['año'].isin(años)].copy()
@@ -147,13 +147,21 @@ def Generacion(df_generacion):
 
     df_estadisticas = pd.DataFrame(estadisticas_por_año)
 
-    st.write("En esta tabla podemos seleccionar los valores de media, mediana, máximo y mínimo y comparar dichos valores entre años.")
+    st.write("En esta tabla podemos seleccionar los valores de media, mediana, máximo y mínimo y comparar dichos valores entre" \
+    "años. En el grafico de debajo se muestran tanto los valores estadísticos como la gráfica de la evolución de la demanda.")
+
     st.dataframe(df_estadisticas)
 
     df_comparar['indicador_año'] = df_comparar['indicador'] + ' ' + df_comparar['año'].astype(str)
 
     meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 
             'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
+
+    fig = px.line(df_comparar,
+                x='fecha',
+                y='valor',
+                color='indicador_año',
+                labels={'fecha': 'Fecha', 'valor': 'kWh', 'indicador_año': 'Indicador por año'})
 
     df_comparar['mes'] = df_comparar['fecha'].dt.month
     df_comparar['dia'] = df_comparar['fecha'].dt.day

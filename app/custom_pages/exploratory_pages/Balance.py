@@ -121,8 +121,6 @@ def Balance(df_balance):
     año_1 = st.selectbox("Selecciona el primer año:", años_disponibles, key="año_1_balance")
     año_2 = st.selectbox("Selecciona el segundo año:", años_disponibles, key="año_2_balance")
 
-    #st.write(f"Comparando los años: {año_1} vs {año_2}")
-
     años = [año_1, año_2]
     df_comparar = df_balance[df_balance['año'].isin(años)].copy()
 
@@ -131,7 +129,6 @@ def Balance(df_balance):
 
     for año in años:
         valores = df_comparar[df_comparar['año'] == año]['valor']
-        #st.dataframe(valores.describe())
         stats = valores.describe()
 
         media = stats['mean']
