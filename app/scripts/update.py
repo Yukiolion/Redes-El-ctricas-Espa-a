@@ -668,6 +668,11 @@ def limpieza_fronteras(df_fronteras):
         'datetime': 'fecha',
         'value': 'valor',
         'percentage': 'porcentaje'}, inplace=True)
+    
+    #Quitamos duplicados:
+    df_fronteras = df_fronteras.drop_duplicates(
+        subset=['fecha', 'pais' 'valor', 'porcentaje', 'año']
+    )
 
     return df_fronteras
 
