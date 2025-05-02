@@ -182,7 +182,10 @@ def Intercambio(df_intercambio):
 
     df_intercambio['año'] = df_intercambio['fecha'].dt.year
 
-    años_disponibles = list(range(2015, 2025))
+    start_year = df_intercambio['fecha'].dt.year.min()
+    end_year = df_intercambio['fecha'].dt.year.max()
+
+    años_disponibles = list(range(start_year, end_year + 1))
     año_1 = st.selectbox("Selecciona el primer año:", años_disponibles, key="año_1_intercambio")
     año_2 = st.selectbox("Selecciona el segundo año:", años_disponibles, key="año_2_intercambio")
     años = [año_1, año_2]

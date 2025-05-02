@@ -123,7 +123,11 @@ def Generacion(df_generacion):
     st.write("**⚙️ Comparación de las fuentes de energía a lo largo de los años**")
     
     df_generacion['año'] = df_generacion['fecha'].dt.year
-    años_disponibles = list(range(2015, 2025))
+    
+    start_year = df_generacion['fecha'].dt.year.min()
+    end_year = df_generacion['fecha'].dt.year.max()
+
+    años_disponibles = list(range(start_year, end_year + 1))
     año_1 = st.selectbox("Selecciona el primer año:", años_disponibles, key="año_1_generacion")
     año_2 = st.selectbox("Selecciona el segundo año:", años_disponibles, key="año_2_generacion")
 
