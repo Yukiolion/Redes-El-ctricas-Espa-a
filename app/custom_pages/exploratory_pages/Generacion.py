@@ -119,8 +119,6 @@ def Generacion(df_generacion):
     año_1 = st.selectbox("Selecciona el primer año:", años_disponibles, key="año_1_generacion")
     año_2 = st.selectbox("Selecciona el segundo año:", años_disponibles, key="año_2_generacion")
 
-    #st.write(f"Comparando los años: {año_1} vs {año_2}")
-
     años = [año_1, año_2]
     df_comparar = df_generacion[df_generacion['año'].isin(años)]
 
@@ -129,7 +127,6 @@ def Generacion(df_generacion):
 
     for año in años:
         valores = df_comparar[df_comparar['año'] == año]['valor']
-        #st.dataframe(valores.describe())
         stats = valores.describe()
 
         media = stats['mean']
@@ -150,12 +147,10 @@ def Generacion(df_generacion):
     st.write("En esta tabla podemos seleccionar los valores de media, mediana, máximo y mínimo y comparar dichos valores entre" \
     "años. En el grafico de debajo se muestran tanto los valores estadísticos como la gráfica de la evolución de la demanda.")
 
-    # Colocamos dataframe con las estadísticas:
     st.dataframe(df_estadisticas)
 
     df_comparar['indicador_año'] = df_comparar['indicador'] + ' ' + df_comparar['año'].astype(str)
 
-    # Grafico comparativo de los años:
     fig = px.line(df_comparar,
                 x='fecha',
                 y='valor',

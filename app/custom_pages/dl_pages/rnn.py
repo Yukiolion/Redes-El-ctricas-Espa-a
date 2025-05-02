@@ -37,7 +37,6 @@ def rnn(_):
     valores = df['valor'].values.reshape(-1, 1)
     valores_scaled = scaler.transform(valores)
 
-    # Crear secuencias
     def crear_secuencias(data, window_size):
         X = []
         for i in range(len(data) - window_size):

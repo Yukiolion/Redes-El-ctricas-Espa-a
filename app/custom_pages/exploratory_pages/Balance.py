@@ -120,8 +120,6 @@ def Balance(df_balance):
     año_1 = st.selectbox("Selecciona el primer año:", años_disponibles, key="año_1_balance")
     año_2 = st.selectbox("Selecciona el segundo año:", años_disponibles, key="año_2_balance")
 
-    #st.write(f"Comparando los años: {año_1} vs {año_2}")
-
     años = [año_1, año_2]
     df_comparar = df_balance[df_balance['año'].isin(años)]
 
@@ -130,7 +128,6 @@ def Balance(df_balance):
 
     for año in años:
         valores = df_comparar[df_comparar['año'] == año]['valor']
-        #st.dataframe(valores.describe())
         stats = valores.describe()
 
         media = stats['mean']
@@ -170,18 +167,15 @@ def Balance(df_balance):
     df_comparar['dia'] = df_comparar['fecha'].dt.day
     df_comparar['nombre_mes'] = df_comparar['mes'].apply(lambda x: meses[x-1])
 
-    # Ordenar los meses disponibles de enero a diciembre
-    # (aunque falten meses, respetamos el orden clásico)
     meses_unicos_en_datos = df_comparar['nombre_mes'].unique().tolist()
 
-    # Reordenamos según meses_es
     meses_disponibles = [mes for mes in meses if mes in meses_unicos_en_datos]
 
     # Seleccionar "Enero" como default
     if 'Enero' in meses_disponibles:
         index_default = meses_disponibles.index('Enero')
     else:
-        index_default = 0  # Si no está Enero, selecciona el primero disponible
+        index_default = 0  
 
     # Selectbox
     mes_seleccionado = st.selectbox(
@@ -191,6 +185,7 @@ def Balance(df_balance):
     )
     mostrar_estadisticas = st.checkbox("Mostrar líneas de media, mediana, máximo y mínimo")
     df_mes = df_comparar[df_comparar['nombre_mes'] == mes_seleccionado]
+
     # Cálculo de estadísticas por año en el mes seleccionado
     estadisticas_mes = []
     for año in años:
@@ -205,8 +200,6 @@ def Balance(df_balance):
             'max': stats['max']
         })
 
-
-    # Ahora graficamos por día
     fig = px.line(df_mes,
                 x='dia',
                 y='valor',
