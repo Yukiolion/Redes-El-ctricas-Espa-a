@@ -117,7 +117,10 @@ def Balance(df_balance):
 
     st.write("**🔄 Comparación del Balance Eléctrico a lo largo de los años**")
 
-    años_disponibles = list(range(2015, 2025))
+    start_year = df_balance['fecha'].dt.year.min()
+    end_year = df_balance['fecha'].dt.year.max()
+
+    años_disponibles = list(range(start_year, end_year + 1))
     año_1 = st.selectbox("Selecciona el primer año:", años_disponibles, key="año_1_balance")
     año_2 = st.selectbox("Selecciona el segundo año:", años_disponibles, key="año_2_balance")
 
