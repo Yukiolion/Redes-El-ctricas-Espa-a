@@ -7,6 +7,7 @@ from custom_pages.dl_pages.gru import gru
 from custom_pages.dl_pages.prophet import prophet
 from custom_pages.dl_pages.rnn import rnn
 from custom_pages.dl_pages.lstm import lstm
+from custom_pages.dl_pages.resumen import resumen
 
 def DL():
 
@@ -27,7 +28,7 @@ def DL():
             else:
                 st.error("❌ Error al actualizar la base de datos.")
 
-    tabs = st.tabs(["Prophet", "GRU", "RNN", "LSTM"])
+    tabs = st.tabs(["Prophet", "GRU", "RNN", "LSTM", "RESUMEN"])
 
     with tabs[0]:
         prophet(df_demanda)
@@ -37,6 +38,8 @@ def DL():
         rnn(df_demanda)
     with tabs[3]:
         lstm(df_demanda)
+    with tabs[4]:
+        resumen(df_demanda)
 
     st.markdown("""
         <style>

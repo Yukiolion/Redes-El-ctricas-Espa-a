@@ -47,9 +47,10 @@ def prophet(df):
     # Realizar las predicciones para la frecuencia seleccionada
     modelo = modelos[frecuencia]
     forecast = modelo.predict(future)
-    df_futuro = forecast[['ds', 'yhat']].rename(
-        columns={"ds": "fecha", "yhat": "Demanda predicha (kWh)"}
+    df_futuro = forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']].rename(
+        columns={"ds": "fecha", "yhat": "Demanda Predicha (kWh)", "yhat_lower": "mínimo", "yhat_upper": "máximo"}
     )
+
 
     st.markdown("###### Predicciones futuras")
     df_futuro['fecha'] = df_futuro['fecha'].dt.strftime('%d/%m/%Y')
@@ -93,8 +94,9 @@ def prophet(df):
 
     # Mostrar todas las métricas
     metricas_df = pd.DataFrame(metricas)
+    st.session_state["metricas_df"] = metricas_df
 
-    st.markdown("###### Métricas de todos los modelos sobre datos históricos")
+    st.markdown("###### Métricas de las diferentes frecuencias")
     col1, col2 = st.columns([1, 2])
     with col1:
         st.dataframe(metricas_df)

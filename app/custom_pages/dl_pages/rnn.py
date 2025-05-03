@@ -80,14 +80,15 @@ def rnn(_):
     r2 = r2_score(y_real, y_pred)
 
     st.markdown('###### Rendimiento del modelo:')
-    df_metricas = pd.DataFrame([{
+    df_metricas1 = pd.DataFrame([{
         "MAE": mae,
         "RMSE": rmse,
         "R²": r2
     }])
+    st.session_state["df_metricas1"] = df_metricas1
     col, _ = st.columns([1, 2])
     with col:
-        st.dataframe(df_metricas.style.format({
+        st.dataframe(df_metricas1.style.format({
             "MAE": "{:.2f}",
             "RMSE": "{:.2f}",
             "R²": "{:.4f}"
@@ -156,12 +157,12 @@ def rnn(_):
     "aumentan los días a predecir el modelo empeora que es lo esperado en modelos de series temporales, ya que las predicciones a largo plazo son más inciertas.")
 
 
-    df_pred = pd.DataFrame({
+    df_pred1 = pd.DataFrame({
         "Fecha": fechas_futuras.strftime('%d/%m/%Y'),
         "Demanda predicha (kWh)": predicciones_futuras
     })
 
     col, _ = st.columns([1, 2])
     with col:
-        st.dataframe(df_pred)
+        st.dataframe(df_pred1)
 

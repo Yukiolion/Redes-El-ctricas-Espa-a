@@ -191,7 +191,7 @@ def lstm(_):
         "Fecha": fechas_futuras.strftime('%d/%m/%Y'),
         "Demanda predicha (kWh)": predicciones_futuras
     })
-
+    st.session_state["df_metricas"] = df_metricas
     col, _ = st.columns([1, 2])
     with col:
         st.dataframe(df_pred)

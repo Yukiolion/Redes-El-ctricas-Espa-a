@@ -104,6 +104,7 @@ def gru(_):
     )
     st.plotly_chart(fig_future)
 
+    st.session_state["df_futuro"] = df_futuro
     st.write(df_futuro)
 
 # Función para crear secuencias de datos
