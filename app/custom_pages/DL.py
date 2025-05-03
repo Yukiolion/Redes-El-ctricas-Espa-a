@@ -19,6 +19,7 @@ def DL():
     st.title('🖥️ Modelos de prediccion')
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     # Botón para actualizar la base de datos
     if st.button("🔄 Actualizar base de datos"):
         with st.spinner("Actualizando la base de datos..."):
@@ -30,6 +31,9 @@ def DL():
 
     tabs = st.tabs(["Prophet", "GRU", "RNN", "LSTM"])
 
+=======
+    tabs = st.tabs(["Prophet", "GRU", "RNN", "LSTM"])
+>>>>>>> Stashed changes
 =======
     tabs = st.tabs(["Prophet", "GRU", "RNN", "LSTM"])
 >>>>>>> Stashed changes
