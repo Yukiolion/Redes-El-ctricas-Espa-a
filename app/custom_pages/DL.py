@@ -18,6 +18,7 @@ def DL():
     st.markdown('<a name="top"></a>', unsafe_allow_html=True)
     st.title('🖥️ Modelos de prediccion')
 
+<<<<<<< Updated upstream
     # Botón para actualizar la base de datos
     if st.button("🔄 Actualizar base de datos"):
         with st.spinner("Actualizando la base de datos..."):
@@ -29,6 +30,9 @@ def DL():
 
     tabs = st.tabs(["Prophet", "GRU", "RNN", "LSTM"])
 
+=======
+    tabs = st.tabs(["Prophet", "GRU", "RNN", "LSTM"])
+>>>>>>> Stashed changes
 
     with tabs[0]:
         prophet(df_demanda)
