@@ -62,16 +62,17 @@ def prophet(df):
     fig1.update_layout(
         title=f'Predicción de demanda ({frecuencia})',
         xaxis_title='Fecha',
-        yaxis_title='Demanda (kWh)',
+        yaxis_title='Demanda',
         template='plotly_dark'
     )
 
+    # Para hacer que se vea como en tu ejemplo, lo cual es un plot simple, usas st.plotly_chart
     st.plotly_chart(fig1)
 
-    #fig2 = plot_components_plotly(modelo, forecast)
-    #fig2.update_layout(template='plotly_dark')
+    fig2 = plot_components_plotly(modelo, forecast)
+    fig2.update_layout(template='plotly_dark')
 
-    #st.plotly_chart(fig2)
+    st.plotly_chart(fig2)
 
     # Calcular métricas históricas para todos los modelos
     metricas = []

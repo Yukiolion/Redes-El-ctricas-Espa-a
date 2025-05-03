@@ -5,6 +5,7 @@ import plotly.graph_objects as go
 import numpy as np
 import pandas as pd
 import requests
+from PIL import Image
 
 def Database():
         st.title("Estructura base de datos")
@@ -15,4 +16,6 @@ def Database():
         st.write("- Generación: Contiene información sobre la generación eléctrica.")
         st.write("- Intercambio: Contiene información sobre los intercambios internacionales de energía.")
 
-        st.image('app/images/diagrama sql.png' , caption='Diagrama de la base de datos', use_container_width=True)
+        img = Image.open("app/images/diagrama sql.png")
+        img = img.resize((950, 950))
+        st.image(img, caption='Diagrama de la base de datos')
