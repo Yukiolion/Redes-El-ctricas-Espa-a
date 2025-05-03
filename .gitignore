@@ -1,5 +1,8 @@
 node_modules/
 .venv
 app\.venv
-**/__pycache__/
-implementaciones/
+app/scripts/__pycache__
+app/custom_pages/__pycache__
+app/custom_pages/about_pages/__pycache__
+app/custom_pages/dl_pages/__pycache__
+app/custom_pages/exploratory_pages/__pycache__
