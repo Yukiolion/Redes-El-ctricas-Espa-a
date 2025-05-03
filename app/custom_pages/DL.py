@@ -17,12 +17,8 @@ def DL():
     st.markdown('<a name="top"></a>', unsafe_allow_html=True)
     st.title('🖥️ Modelos de prediccion')
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     tabs = st.tabs(["GRU", "Prophet", "RNN", "LSTM"])
-=======
-=======
->>>>>>> Stashed changes
+
     # Botón para actualizar la base de datos
     if st.button("🔄 Actualizar base de datos"):
         with st.spinner("Actualizando la base de datos..."):
