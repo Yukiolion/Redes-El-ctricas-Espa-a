@@ -4,42 +4,47 @@ import pandas as pd
 from sklearn.metrics import mean_absolute_error, r2_score
 from sklearn.metrics import mean_squared_error as mse
 import streamlit as st
+from prophet import Prophet
 from prophet.plot import plot_plotly, plot_components_plotly
 
 def prophet(df):
     st.title("Meta Prophet")
     st.write('Aquí se mostrarán las predicciones del modelo Prophet para la región Peninsular.')
 
-    # Cargar el modelo entrenado
-    with open('models/prophet_models/modelo_prophet_peninsular.pkl', "rb") as f:
-        modelo = pickle.load(f)
-
     # Preparar datos
     df = df.copy()
     df.rename(columns={'fecha': 'ds', 'valor': 'y'}, inplace=True)
     df['ds'] = pd.to_datetime(df['ds'])
+    df = df.sort_values("ds")
 
+    # Separar datos en entrenamiento y prueba
+    test_size = 20
+    train_df = df.iloc[:-test_size]
+    test_df = df.iloc[-test_size:]
+
+    # Entrenar Prophet
+    modelo = Prophet()
+    modelo.fit(train_df)
+
+    # Rango de días para predecir
     rango = st.selectbox(
         "Selecciona un rango de días para predecir:",
         options=[1, 7, 14, 24],
         index=3
     )
 
-    # Crear fechas futuras manualmente desde la última fecha en el DataFrame
+    # Crear fechas futuras
     ultima_fecha = df['ds'].max()
     fechas_futuras = pd.date_range(start=ultima_fecha + pd.Timedelta(days=1), periods=rango, freq='D')
     future = pd.DataFrame({'ds': fechas_futuras})
 
-    # Predecir
+    # Predecir hacia el futuro
     forecast = modelo.predict(future)
 
-    # Mostrar predicciones
+    # Mostrar predicciones futuras
     df_futuro = forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']]
     st.markdown("### Predicciones futuras")
-
-    metricas = df_futuro.copy()
-
-    metricas = metricas.rename(columns={"ds": "fecha", "yhat": "predicción", "yhat_lower": "mínimo", "yhat_upper": "máximo"})
+    metricas = df_futuro.rename(columns={"ds": "fecha", "yhat": "predicción", "yhat_lower": "mínimo", "yhat_upper": "máximo"})
     st.dataframe(metricas)
 
     # Gráficos
@@ -51,7 +56,7 @@ def prophet(df):
         xaxis=dict(
             range=[df_futuro['ds'].min(), df_futuro['ds'].max()],
             rangeselector=dict(visible=False),
-            rangeslider=dict(visible=True, range=[df_futuro['ds'].min(), df_futuro['ds'].max()]),
+            rangeslider=dict(visible=True),
             type="date"
         ),
         template='plotly_dark'
@@ -71,18 +76,15 @@ def prophet(df):
         'al no detectar una estacionalidad diaria significativa en los datos, genera predicciones sin mucha variación.'
     )
 
-    forecast_hist = modelo.predict(df[['ds']])
+    # Evaluar en test_df
+    forecast_test = modelo.predict(test_df[['ds']])
+    eval_df = test_df.merge(forecast_test[['ds', 'yhat']], on='ds')
 
-    # Unir valores reales con predicción
-    df_hist_eval = df.copy()
-    df_hist_eval = df_hist_eval.merge(forecast_hist[['ds', 'yhat']], on='ds')
+    mae = mean_absolute_error(eval_df['y'], eval_df['yhat'])
+    rmse = np.sqrt(mse(eval_df['y'], eval_df['yhat']))
+    r2 = r2_score(eval_df['y'], eval_df['yhat'])
 
-    # Calcular métricas de entrenamiento
-    mae = mean_absolute_error(df_hist_eval['y'], df_hist_eval['yhat'])
-    rmse = np.sqrt(mse(df_hist_eval['y'], df_hist_eval['yhat']))
-    r2 = r2_score(df_hist_eval['y'], df_hist_eval['yhat'])
-
-    st.markdown("### Métricas del modelo sobre datos históricos")
+    st.markdown("### Métricas del modelo sobre datos de prueba")
     st.markdown(f"- **MAE**: {mae:.2f}")
     st.markdown(f"- **RMSE**: {rmse:.2f}")
     st.markdown(f"- **R²**: {r2:.2f}")
