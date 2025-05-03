@@ -73,9 +73,6 @@ def Generacion(df_generacion):
     st.write("Como ya hemos visto en otras gráficas, se puede ver un aumento de la generación de energía renovable. Esto es debido " \
     "a la inversión privada tanto de empresas como de particulares incentivada por el gobierno.")
 
-
-
-
     st.write("**⚙️ Distribución de tipo de energia por años**")
 
     # Colocamos selector para elegir las fuentes de energía:
