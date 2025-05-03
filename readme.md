@@ -2,6 +2,8 @@ Bienvenido, este es el proyecto final sobre las Redes Electricas de España, un 
 estraer, procesar y visualizar los datos de las redes electricas de españa para su visualizacion y tambien prediccion
 para fechas futuras.
 
+Podras ver mejor la estructura del proyecto en el archivo "estructura.txt".
+
 Miembros: Andre, Eduardo, Luisa, Samuel.
 
 Instrucciones:
