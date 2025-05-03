@@ -2,10 +2,11 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
-from tensorflow.keras.models import load_model
+import tensorflow as tf
 import plotly.graph_objects as go
 import os
 from scripts.db_connect import db_connect
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 def rnn(_):
     st.title("RNN (Recurrent Neural Network)")
@@ -14,14 +15,18 @@ def rnn(_):
     BASE_DIR = os.path.dirname(__file__)
     MODEL_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "..", "..", "models", "RNN_models"))
     MODEL_PATH = os.path.join(MODEL_DIR, "modelo_rnn.keras")
-    SCALER_PATH = os.path.join(MODEL_DIR, "scaler.pkl")
-    HISTORY_PATH = os.path.join(MODEL_DIR, "historial_entrenamiento.pkl")
+    SCALER_PATH = os.path.join(MODEL_DIR, "scaler_rnn.pkl")
+    HISTORY_PATH = os.path.join(MODEL_DIR, "historial_entrenamiento_rnn.pkl")
+    XTEST_PATH = os.path.join(MODEL_DIR, "X_test_rnn.pkl")
+    YTEST_PATH = os.path.join(MODEL_DIR, "y_test_rnn.pkl")
 
-    # Cargar modelo y scaler
-    model = load_model(MODEL_PATH)
+    # Cargar modelo, scaler y conjunto de test
+    model = tf.keras.models.load_model(MODEL_PATH)
     scaler = joblib.load(SCALER_PATH)
+    X_test = joblib.load(XTEST_PATH)
+    y_test = joblib.load(YTEST_PATH)
 
-    # Cargar datos desde la base de datos
+
     @st.cache_data
     def cargar_datos():
         conn = db_connect()
@@ -32,8 +37,6 @@ def rnn(_):
         return df.sort_values('fecha')
 
     df = cargar_datos()
-
-    # Preprocesar datos
     valores = df['valor'].values.reshape(-1, 1)
     valores_scaled = scaler.transform(valores)
 
@@ -44,56 +47,77 @@ def rnn(_):
         return np.array(X)
 
     window_size = 30
-    X = crear_secuencias(valores_scaled, window_size)
-
-    # Predicción One-Step
-    y_pred_scaled = model.predict(X)
-    y_pred = scaler.inverse_transform(y_pred_scaled)
-    y_real = valores[window_size:]
-
+    X_full = crear_secuencias(valores_scaled, window_size)
+    y_pred_full_scaled = model.predict(X_full)
+    y_pred_full = scaler.inverse_transform(y_pred_full_scaled)
+    y_real_full = valores[window_size:]
     fechas = df['fecha'].iloc[window_size:].values
 
+    # Gráfica de comparación real vs. predicho
+    st.markdown('###### Predicción de la demanda vs. real (toda la serie):')
     fig = go.Figure()
-    fig.add_trace(go.Scatter(
-        x=fechas, y=y_real.flatten(),
-        mode='lines',
-        name='Valor Real',
-        line=dict(width=1)
-    ))
-    fig.add_trace(go.Scatter(
-        x=fechas, y=y_pred.flatten(),
-        mode='lines',
-        name='Predicción',
-        line=dict(width=1)
-    ))
+    fig.add_trace(go.Scatter(x=fechas, y=y_real_full.flatten(), mode='lines', name='Valor Real', line=dict(width=1)))
+    fig.add_trace(go.Scatter(x=fechas, y=y_pred_full.flatten(), mode='lines', name='Predicción', line=dict(width=1)))
     fig.update_layout(
-        title='Predicción de la demanda vs. real',
         xaxis_title='Fecha',
-        yaxis_title='Demanda',
+        yaxis_title='Demanda (kWh)',
         template='plotly_white',
         xaxis=dict(type='date')
     )
     st.plotly_chart(fig, use_container_width=True)
 
+    st.write("En esta gráfica podemos ver los datos de la demanda en azul frente a los datos predichos en rojo. " \
+        "Al analizar las métricas de evaluación, podemos ver que tiene casi un 72% de precisión. Aunque la precision no se " \
+        "acerque a la ideal, es un perfecto indicador de la tendencia y da claridad para la interpretacion de los datos.")
 
-    # Gráfico de pérdida
+    y_pred_scaled = model.predict(X_test)
+    y_pred = scaler.inverse_transform(y_pred_scaled)
+    y_real = scaler.inverse_transform(y_test)
+
+    mae = mean_absolute_error(y_real, y_pred)
+    mse = mean_squared_error(y_real, y_pred)
+    rmse = np.sqrt(mse)
+    r2 = r2_score(y_real, y_pred)
+
+    st.markdown('###### Rendimiento del modelo:')
+    df_metricas = pd.DataFrame([{
+        "MAE": mae,
+        "RMSE": rmse,
+        "R²": r2
+    }])
+    col, _ = st.columns([1, 2])
+    with col:
+        st.dataframe(df_metricas.style.format({
+            "MAE": "{:.2f}",
+            "RMSE": "{:.2f}",
+            "R²": "{:.4f}"
+        }), use_container_width=True)
+
+    # Espacio
+    st.markdown("<div style='height:40px;'></div>", unsafe_allow_html=True)
+
+
+    # Función de pérdida
+    st.markdown('###### Función de pérdida (MSE):')
     history = joblib.load(HISTORY_PATH)
     fig_loss = go.Figure()
     fig_loss.add_trace(go.Scatter(y=history['loss'], mode='lines', name='Train Loss'))
     fig_loss.add_trace(go.Scatter(y=history['val_loss'], mode='lines', name='Val Loss'))
-    fig_loss.update_layout(title='Función de pérdida (MSE)',
-                        xaxis_title='Epoch',
-                        yaxis_title='Pérdida',
-                        template='plotly_white')
+    fig_loss.update_layout(
+        xaxis_title='Epoch',
+        yaxis_title='Pérdida',
+        template='plotly_white'
+    )
     st.plotly_chart(fig_loss, use_container_width=True)
 
+    st.write("Esta gráfica muestra la evolución de la pérdida durante el entrenamiento. Se puede observar que en cada epoch la pérdida disminuye, lo que indica" \
+    "que el modelo está aprendiendo. También se puede ver que el modelo empieza a sobreajustar a partir de la época 17.")
+
+    st.markdown("<div style='height:50px;'></div>", unsafe_allow_html=True)
 
     # Predicción Multi-Step
-    rango = st.selectbox(
-        "Selecciona un rango (días a predecir):",
-        options=[1, 7, 14, 24],
-        index=1
-    )
+    st.markdown('###### Predicción Multi-Step:')
+    rango = st.selectbox("Selecciona un rango (días a predecir):", options=[1, 7, 14, 24], index=1, key='multistep_rnn')
 
     def predecir_multiple_pasos(modelo, secuencia_inicial, pasos, scaler):
         predicciones = []
@@ -112,43 +136,32 @@ def rnn(_):
     # Gráfico multi-step
     last_date = df['fecha'].max()
     fecha_inicio = last_date - pd.DateOffset(months=6)
-
     df_ultimos_meses = df[df['fecha'] >= fecha_inicio]
     valores_historicos = df_ultimos_meses['valor'].values
     fechas_historicas = df_ultimos_meses['fecha'].values
-
     fechas_futuras = pd.date_range(start=last_date + pd.Timedelta(days=1), periods=rango)
 
     fig_multi = go.Figure()
-
-    fig_multi.add_trace(go.Scatter(
-        x=fechas_historicas,
-        y=valores_historicos,
-        mode='lines',
-        name='Últimos 6 meses',
-        line=dict(color='blue', width=1)
-    ))
-
-    fig_multi.add_trace(go.Scatter(
-        x=fechas_futuras,
-        y=predicciones_futuras,
-        mode='lines',
-        name='Predicción futura',
-        line=dict(color='red', width=1)
-    ))
-
+    fig_multi.add_trace(go.Scatter(x=fechas_historicas, y=valores_historicos, mode='lines', name='Últimos 6 meses', line=dict(color='blue', width=1)))
+    fig_multi.add_trace(go.Scatter(x=fechas_futuras, y=predicciones_futuras, mode='lines', name='Predicción futura', line=dict(color='red', width=1)))
     fig_multi.update_layout(
-        title=f'Predicción Multi-Step ({rango} días)',
         xaxis_title='Fecha',
-        yaxis_title='Demanda',
+        yaxis_title='Demanda (kWh)',
         template='plotly_white',
         xaxis=dict(type='date')
     )
-
     st.plotly_chart(fig_multi, use_container_width=True)
+
+    st.write("Esta gráfica muestra la evolución de la demanda de los últimos 6 meses y la predicción a 1, 7, 14 y 24 días. Se puede ver que conforme " \
+    "aumentan los días a predecir el modelo empeora que es lo esperado en modelos de series temporales, ya que las predicciones a largo plazo son más inciertas.")
+
 
     df_pred = pd.DataFrame({
         "Fecha": fechas_futuras.strftime('%d/%m/%Y'),
-        "Demanda predicha": predicciones_futuras})
+        "Demanda predicha (kWh)": predicciones_futuras
+    })
 
-    st.dataframe(df_pred)
+    col, _ = st.columns([1, 2])
+    with col:
+        st.dataframe(df_pred)
+
