@@ -52,6 +52,8 @@ def Exploratory():
     with tabs[3]:
         Intercambio(df_fronteras)
 
+    st.dataframe(df_fronteras)
+
     # Volver al inicio (enlace)
     st.markdown("""
     <style>

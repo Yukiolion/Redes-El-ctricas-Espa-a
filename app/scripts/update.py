@@ -671,7 +671,7 @@ def limpieza_fronteras(df_fronteras):
     
     #Quitamos duplicados:
     df_fronteras = df_fronteras.drop_duplicates(
-        subset=['fecha', 'pais' 'valor', 'porcentaje', 'año']
+        subset=['fecha', 'pais', 'valor', 'porcentaje']
     )
 
     return df_fronteras
