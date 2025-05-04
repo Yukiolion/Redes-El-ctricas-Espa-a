@@ -1,3 +1,5 @@
+# REESCRIBIR PARA NO DETECTAR IA
+
 import streamlit as st
 
 import plotly.express as px
