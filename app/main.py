@@ -11,12 +11,14 @@ from custom_pages.DL import DL
 from custom_pages.About import About
 
 # Configuración de la página
-st.set_page_config(page_title="Proyecto Red Eléctrica España", layout="wide")
+st.set_page_config(page_title="Proyecto Red Eléctrica de España", layout="wide")
+
 
 # Página principal
 def main():
     # Título centrado
-    st.markdown("<h1 style='text-align: center;'>Proyecto Red Eléctrica España</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>Proyecto Red Eléctrica de España</h1>", unsafe_allow_html=True)
+    st.markdown("<div style='height:30px;'></div>", unsafe_allow_html=True)
 
     # Espacio entre título y columnas
     st.markdown("<div style='height:30px;'></div>", unsafe_allow_html=True)

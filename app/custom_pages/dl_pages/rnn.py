@@ -85,6 +85,7 @@ def rnn(_):
         "RMSE": rmse,
         "R²": r2
     }])
+
     st.session_state["df_metricas1"] = df_metricas1
     col, _ = st.columns([1, 2])
     with col:

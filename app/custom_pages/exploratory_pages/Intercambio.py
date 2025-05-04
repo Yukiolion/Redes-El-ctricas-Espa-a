@@ -14,7 +14,8 @@ def Intercambio(df_intercambio):
 
     df_intercambio['fecha'] = pd.to_datetime(df_intercambio['fecha'])
     df_intercambio['año'] = df_intercambio['fecha'].dt.year.astype(str)
-
+    
+    st.markdown("<div style='height:30px;'></div>", unsafe_allow_html=True)
     st.write("**🌍 Evolución de la exportación de energía por país**")
 
     # Colocamos selector para elegir el tipo de visualización:
@@ -74,6 +75,8 @@ def Intercambio(df_intercambio):
     st.write("Las principales interconexiones de España están con Francia, Portugal y, en menor medida, con Marruecos y Andorra. " \
     "Estas importaciones y exportaciones se realizan principalmente a través de cables submarinos o líneas de alta tensión.")
 
+    st.markdown("<div style='height:30px;'></div>", unsafe_allow_html=True)
+
     st.write("**🌍 Exportacion de energia por años**")
 
     # Gráfico de barras:
@@ -91,6 +94,7 @@ def Intercambio(df_intercambio):
     "pasando de 16,5 TWh a 25,4 TWh, lo que representa un incremento del 54%. Esto fué debido a la sequía en Portugal que afectó a su " \
     "capacidad de generación hidroeléctrica y a un parón de la energía nuclear en Francia debido a averías y problemas de mantenimiento.")
 
+    st.markdown("<div style='height:30px;'></div>", unsafe_allow_html=True)
     st.write("**🌍 Exportacion de energia por años (Heatmap)**")
 
     # Grafico heatmap:
@@ -107,9 +111,7 @@ def Intercambio(df_intercambio):
                 "Marruecos aumentan poco a poco progresivamente, mientras que Portugal aumentó de manera brusca. Las exportaciones a Francia son las que " \
                 "no siguen un patrón definido.")
     
-    st.dataframe(df_intercambio)
-
-
+    st.markdown("<div style='height:30px;'></div>", unsafe_allow_html=True)
     st.write("**🌍 Exportación de energía por años (Mapa coropletico)**")
 
     # Agrupar por año y país
@@ -178,6 +180,7 @@ def Intercambio(df_intercambio):
             "- Andorra: Tiene una población muy baja (~77 mil habitantes), por lo que cualquier cantidad de energía exportada "
             "se traduce en un valor per cápita muy alto.\n")
     
+    st.markdown("<div style='height:30px;'></div>", unsafe_allow_html=True)
     st.write("**🌍 Comparación de la exportación eléctrica a lo largo de los años**")
 
     df_intercambio['año'] = df_intercambio['fecha'].dt.year
