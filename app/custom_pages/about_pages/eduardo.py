@@ -22,7 +22,7 @@ def eduardo_info():
         Si te ha parecido interesante o quieres saber más, no dudes en contactarme:
         """)
         st.markdown('<p class="section-title">Contacto</p>', unsafe_allow_html=True)
-        st.markdown("📧 **Email:** [eduar.romero.villegas@gmail.com, ](mailto:eduar.romero.villegas@gmail.com, )")
+        st.markdown("📧 **Email:** [eduar.romero.villegas@gmail.com ](mailto:eduar.romero.villegas@gmail.com )")
 
     st.markdown("---")
 

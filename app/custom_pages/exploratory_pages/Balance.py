@@ -12,7 +12,8 @@ def Balance(df_balance):
     st.title("Balance Eléctrico")
     st.write("En este apartado se representa la cantidad total de electricidad generada por todas las fuentes disponibles " \
             "en el sistema eléctrico Español a lo largo de los años.")
-
+    
+    st.markdown("<div style='height:30px;'></div>", unsafe_allow_html=True)
     st.write("**🔄 Evolución del balance a lo largo de los años**")
 
     df_balance['fecha'] = pd.to_datetime(df_balance['fecha'])
@@ -75,7 +76,7 @@ def Balance(df_balance):
     "equilibra con fuentes no renovables para afrontar la demanda eléctrica.")
 
 
-    
+    st.markdown("<div style='height:30px;'></div>", unsafe_allow_html=True)
     st.write("**🔄 Histograma del balance de electicidad**")
 
     df_balance['fecha'] = pd.to_datetime(df_balance['fecha'])
@@ -114,7 +115,8 @@ def Balance(df_balance):
         "Es importante señalar que en este caso, los límites no se utilizan únicamente para identificar valores atípicos de manera estricta  "
         "sino para resaltar picos recurrentes de consumo a lo largo de los años. Los valores fuera de estos límites nos ayudan a entender" \
         " cómo se distribuye el consumo en un rango habitual, permitiéndonos detectar sobresaturaciones de la red eléctrica.") 
-
+    
+    st.markdown("<div style='height:30px;'></div>", unsafe_allow_html=True)
     st.write("**🔄 Comparación del Balance Eléctrico a lo largo de los años**")
 
     start_year = df_balance['fecha'].dt.year.min()

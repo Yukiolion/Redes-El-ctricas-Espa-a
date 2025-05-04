@@ -765,7 +765,7 @@ def carga_ire(df_ire_limpio):
             VALUES (%s, %s, %s, %s, %s)
         """, (row['fecha'], row['indicador'], row['region'], row['valor'], row['porcentaje']))
 
-    conn.commit()
+        conn.commit()
 
     cursor.close()
     conn.close()
@@ -823,7 +823,7 @@ def carga_fronteras(df_fronteras_limpio):
             VALUES (%s, %s, %s, %s)
         """, (row['fecha'], row['pais'], row['valor'], row['porcentaje']))
 
-    conn.commit()
+        conn.commit()
     cursor.close()
     conn.close()
 
@@ -845,7 +845,7 @@ def carga_generacion(df_generacion_limpio):
             VALUES (%s, %s, %s, %s, %s, %s)
         """, (row['fecha'], row['indicador'], row['region'], row['tipo'], row['valor'], row['porcentaje']))
 
-    conn.commit()
+        conn.commit()
 
     cursor.close()
     conn.close()
@@ -919,9 +919,3 @@ def update():
         print("Carga de datos fallida.")
 
     return True
-
-
-# if __name__ == "__main__":
-#     # Este código solo se ejecutará si el archivo se ejecuta directamente
-#     print("Ejecutando directamente el archivo")
-#     update()
