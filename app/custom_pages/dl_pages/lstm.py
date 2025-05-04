@@ -24,7 +24,7 @@ def lstm(_):
     scaler = joblib.load(SCALER_PATH)
 
     # Cargar datos desde la base de datos
-    #@st.cache_data
+    @st.cache_data
     def cargar_datos():
         conn = db_connect()
         query = "SELECT fecha, indicador, valor FROM demanda_evolucion WHERE indicador = 'Demanda'"

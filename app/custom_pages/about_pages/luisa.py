@@ -1,4 +1,5 @@
 import streamlit as st
+from PIL import Image
 
 def lui_info():
     st.markdown("""
@@ -13,7 +14,9 @@ def lui_info():
     col1, col2 = st.columns([1, 4])  # Columna pequeña para la foto, grande para el texto
 
     with col1:
-        st.image("app/custom_pages/about_pages/img/luisa.jpg", width=100)  # Ajusta el path y tamaño
+        img = Image.open("app/custom_pages/about_pages/img/luisa.jpg")
+        img = img.resize((200, 200))
+        st.image(img)
 
     with col2:
         st.markdown("""

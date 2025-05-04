@@ -1,46 +1,68 @@
+# Los archivos __init__.py sirven para convertir los directorios en modulos para poder importar las funciones
+
 REDES-EL-ECTRICAS-ESPA-A/
-|
-├──app/                    # Ruta para el FrontEnd
-|   └── main.py            # Archivo para el FrontEnd con Streamlit
 │
-├── lib/                   # Código fuente para el proyecto (BackEnd)   
-│   ├── data/  # SERA ELIMINADA **********  # Datos sin procesar y procesados
-|   │    ├── sinprocesar/                   # Datos originales (sin modificar) VA A SER TEMPORAL SI PASAMOS LOS DATOS EXTRAIDOS Y LIMPIADOS DIRECTAMENTE A LA BD
-|   │    └── processed/                     # Datos listos para análisis/modelado
+├── app/   # Código para el FrontEnd del proyecto   
+│   ├── data/      # Otros datos para visualizar
+|   │    └──  energia_per_capita.csv                  
 |   |         
 |   |
-|   ├── notebooks/ # SERA ELIMINADA *******  # Notebooks exploratorios o explicativos (Es un ejemplo)
-|   |    ├── 01_Extraccion.ipynb             # Extraccion de datos
-|   |    ├── 02_Preprocesado.ipynb           # Procesamiento y limpieza de datos
-|   |    ├── 03_Visualizaciones.ipynb        # Generar graficas, etc.
-|   |    └── 04_DataBase.ipynb             # Conexiones y cargas a la base de datos
+|   ├── custom_pages/           # Pantallas de la pagina web
+|   |    ├── __init__.py 
+|   |    ├── About.py             # Esta es la base de la pantalla About Us
+|   |    ├── Database.py          # Aqui se muestra el diagrama de la BD e informacion sobre las tablas
+|   |    ├── DL.py                # Esta es la base de la pantalla de los Modelos de prediccion
+|   |    ├── Exploratory.py       # Esta es la base de la pantalla del EDA y las graficas
+|   |    ├── about_pages/         # Aqui estan las vistas de About Us (nombre.py es una pequeña presentacion de cada uno)
+|   |    |          ├── CV/         # Aqui estan los curriculums de los miembros del equipo
+|   |    |          ├── img/        # Aqui estan las imagenes de los miembros del equipo
+|   |    |          ├── __init__.py
+|   |    |          ├── andre.py
+|   |    |          ├── eduardo.py
+|   |    |          ├── luisa.py
+|   |    |          └── samuel.py
+|   |    ├── dl_pages/            # Aqui estan las vistas de Modelos de prediccion
+|   |    |          ├── __init__.py
+|   |    |          ├── gru.py      # Predicciones con el modelo GRU
+|   |    |          ├── lstm.py     # Predicciones con el modelo LSTM
+|   |    |          ├── prophet.py  # Predicciones con el modelo Prophet
+|   |    |          └── rnn.py      # Predicciones con el modelo RNN
+|   |    └── exploratory_pages/   # Aqui estan las vistas del EDA
+|   |               ├── __init__.py
+|   |               ├── Balance.py     # Aqui se muestran las graficas del balance
+|   |               ├── Demanda.py     # Aqui se muestran las graficas de la demanda
+|   |               ├── Generacion.py  # Aqui se muestran las graficas de la generacion
+|   |               └── intercambio.py # Aqui se muestran las grafias del intercambio
+|   |
+|   ├── images/   # Imagenes para la pagina web
+|   ├── scripts/  # Aqui se encuentran scripts para ejecutar a traves de botones en la web         
+|   |       ├── __init__.py                 
+|   |       ├── db_connect.py              # Aqui se hace la conexion con la base de datos
+|   |       ├── download.py                # Aqui se descargan los datos de la base de datos para visualizarlos en la web
+|   |       └── update.py                  # Aqui se realiza una actualizacion de datos a la fecha actual
 |   |
 |   |
-|   ├── scripts/                      # Esta sera la nueva carpeta base de funciones
-|   |       |                         # Sustituira a la carpeta notebooks cuando todo el codigo este resuelto
-|   |       |
-|   |       ├── __init__.py                # Este archivo es unicamente para poder importar estas funciones                  
-|   |       |
-|   |       ├── extraccion.py              # Aqui se hace la extraccion de todos los datos para la base de datos
-|   |       |
-|   |       ├── limpieza.py                # Aqui se hara toda la limpieza de los datos extraidos antes de la carga.
-|   |       |
-|   |       └── carga.py                   # Aqui estaran las sentencias para subir los datos a la base de datos.
-|   |
-|   |
-|   |
-│   ├── models/           # Entrenamiento, predicción y evaluación
-│   |     ├── train_model.ipynb
-│   |     └── predict_model.ipynb
-|   |
-|   └── master.py          # Aqui ira la ejecucion de los scripts de extraccion, limpieza, carga.
+|   └── main.py  # Archivo principal de la aplicacion, desde aqui se ejecutara toda la web
+|   
+├── database/
+|       ├── notebook/      # Carpeta en la que se encuentra el constructor de la base de datos.
+|       |        └── db_builder.ipynb # Codigo constructor de los datos de las tablas de la base de datos
+|       └── sql_redes_electricas.sql  # Codigo sql para construir la base de datos
 |
 |
-|
-|
-├── models/                # Modelos entrenados (.pkl, .joblib, etc.)
+├── models/               # Modelos de prediccion (.pkl, .joblib, etc.)
+|       ├── data            # Aqui esta el csv usado para el entrenamiento de los modelos
+|       ├── GRU_models/     # Aqui estan los archivos del modelo GRU entrenado
+|       ├── LSTM_models/    # Aqui estan los archivos del modelo LSTM entrenado
+|       ├── notebooks/      # Aqui se encuentran los notebooks de entrenamiento de cada modelo
+|       ├── prophet_models/ # Aqui esta el modelo entrenado de Meta Prophet
+|       ├── RNN_models/     # Aqui estan los archivos del modelo RNN entrenado
+|       └── Escalado_de_datos.ipynb
 │
 │
 ├── requirements.txt       # Librerías necesarias para el proyecto
-├── README.md              # Descripción del proyecto -----> ESTE FALTA POR ESCRIBIRLO
+├── README.md              # Descripción del proyecto
+├── estructura.txt         # Archivo en el que puedes visualizar la estructura de carpetas del proyecto.
+├── database.zip           # Archivo .zip con los datos de las tablas de la base de datos para importarlo
+├── .env                   # Archivo donde se guardan los parametros de acceso a al BD
 └── .gitignore             # Archivos que no se deben subir al repositorio

@@ -11,6 +11,7 @@ def Generacion(df_generacion):
     st.write("Definimos la generación como la producción de energía en b.a. (bornes de alternador), " \
     "menos la consumida por los servicios auxiliares y las pérdidas en los transformadores.")
 
+    st.markdown("<div style='height:30px;'></div>", unsafe_allow_html=True)
     st.write("**⚙️ Generación de energía Renovable vs No renovable en la región peninsular**")
 
     df_generacion['fecha'] = pd.to_datetime(df_generacion['fecha'])
@@ -75,7 +76,7 @@ def Generacion(df_generacion):
 
 
 
-
+    st.markdown("<div style='height:30px;'></div>", unsafe_allow_html=True)
     st.write("**⚙️ Distribución de tipo de energia por años**")
 
     modo_seleccion = st.radio(
@@ -120,6 +121,7 @@ def Generacion(df_generacion):
     "la necesidad de calor debido al cambio climático asumiendo el ciclo combinado como fuente de energía sin la producción de calor. La energía derivada" \
     "de las centrales de carbón aporta cada vez menos debido a las directrices de la Unión Europea.")
 
+    st.markdown("<div style='height:30px;'></div>", unsafe_allow_html=True)
     st.write("**⚙️ Comparación de las fuentes de energía a lo largo de los años**")
     
     df_generacion['año'] = df_generacion['fecha'].dt.year
