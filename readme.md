@@ -23,3 +23,5 @@ Instrucciones:
     El siguiente paso es ejecutar el codigo de la pagina web para poder visualizarlo, para ello desde la terminal de visual studio, situado en la raiz del proyecto ejecutaremos el siguiente codigo que nos abrira directamente en el navegador nuestra pagina web donde podremos visualizar los datos de nuestro proyecto "streamlit run app/main.py".
 
     Con esto nuestro programa estaria listo para usarse.
+
+Esperamos que os guste :)
