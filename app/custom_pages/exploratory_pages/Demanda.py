@@ -16,6 +16,7 @@ def Demanda(df_demanda, df_ire):
     df_demanda['fecha'] = pd.to_datetime(df_demanda['fecha'])
     df_demanda['año'] = df_demanda['fecha'].dt.year
 
+    st.markdown("<div style='height:30px;'></div>", unsafe_allow_html=True)
     st.write("**⚡Evolución de demanda en la región peninsular**")
 
     # Colocamos selector para elegir el tipo de visualización:
@@ -76,7 +77,7 @@ def Demanda(df_demanda, df_ire):
     
 
 
-
+    st.markdown("<div style='height:30px;'></div>", unsafe_allow_html=True)
     st.write("**⚡Índice de Red Eléctrica (IRE)**")
     
     st.write("El IRE es el indicador eléctrico adelantado que recoge la evolución " \
@@ -141,6 +142,7 @@ def Demanda(df_demanda, df_ire):
 
 
     ## Grafico para comparar dos años:
+    st.markdown("<div style='height:30px;'></div>", unsafe_allow_html=True)
     st.write("**⚡ Comparación de la Demanda Eléctrica a lo largo de los años**")
     
     start_year = df_demanda['fecha'].dt.year.min()

@@ -94,6 +94,7 @@ def prophet(df):
 
     # Mostrar todas las métricas
     metricas_df = pd.DataFrame(metricas)
+    
     st.session_state["metricas_df"] = metricas_df
 
     st.markdown("###### Métricas de las diferentes frecuencias")
