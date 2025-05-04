@@ -18,7 +18,7 @@ def Database():
         st.write("- **Demanda**: Contiene información sobre la demanda eléctrica.")
         st.write("- **Generación**: Contiene información sobre la generación eléctrica.")
         st.write("- **Intercambio**: Contiene información sobre los intercambios internacionales de energía.")
-
+        # Con esto redimensionamos la imagen para que no salga gigante
         img = Image.open("app/images/diagrama sql.png")
         img = img.resize((950, 950))
         st.image(img, caption='Diagrama de la base de datos')
