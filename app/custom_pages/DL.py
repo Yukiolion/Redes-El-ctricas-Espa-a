@@ -7,7 +7,7 @@ from custom_pages.dl_pages.gru import gru
 from custom_pages.dl_pages.prophet import prophet
 from custom_pages.dl_pages.rnn import rnn
 from custom_pages.dl_pages.lstm import lstm
-from custom_pages.dl_pages.resumen import conclusiones
+from custom_pages.dl_pages.conclusiones import conclusiones
 
 def DL():
 
@@ -17,7 +17,7 @@ def DL():
 
     conn.close()
     st.markdown('<a name="top"></a>', unsafe_allow_html=True)
-    st.title('🖥️ Modelos de prediccion')
+    st.title('🖥️ Modelos de predicción')
 
     # Botón para actualizar la base de datos
     if st.button("🔄 Actualizar base de datos"):

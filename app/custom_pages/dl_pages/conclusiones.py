@@ -20,7 +20,7 @@ def conclusiones(df):
         st.dataframe(df.set_index("Modelo"))
 
     with col2:
-        st.markdown("###### Métricas de Modelos Prophet")
+        st.markdown("###### Métricas modelos Prophet")
 
         metricas_df = st.session_state["metricas_df"]
         st.dataframe(metricas_df)
@@ -36,7 +36,7 @@ def conclusiones(df):
     - A **frecuencias bajas (trimestral, semestral, anual)**, Prophet muestra métricas casi perfectas, pero esto se debe a que **no detecta adecuadamente estacionalidades a esa resolución**, y simplemente ajusta una línea casi plana (riesgo de sobreajuste aparente).
     - A **frecuencias más altas (diaria, semanal)**, el rendimiento de Prophet es comparable al de LSTM y GRU, aunque tiende a no capturar bien dinámicas no lineales complejas.
 
-    ###### Conclusión
+    ###### Conclusiones:
     - Para series temporales con patrones complejos y resolución diaria/semanal, **GRU es el modelo más robusto**.
     - Prophet es útil en contextos donde la frecuencia es baja y se prioriza interpretabilidad o velocidad de entrenamiento, pero sus resultados pueden ser engañosamente buenos si la estacionalidad no está presente.
     """)
