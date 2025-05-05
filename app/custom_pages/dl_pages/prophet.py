@@ -67,7 +67,6 @@ def prophet(df):
         template='plotly_dark'
     )
 
-    # Para hacer que se vea como en tu ejemplo, lo cual es un plot simple, usas st.plotly_chart
     st.plotly_chart(fig1)
 
     fig2 = plot_components_plotly(modelo, forecast)
