@@ -62,7 +62,7 @@ def Balance_electrico(filtro_balance, URL, HEADERS, today, last_db_date):
 
     if last_db_date >= today.date():
         print("Los datos ya están actualizados.")
-        return pd.DataFrame()  # O puedes retornar None o df vacío si prefieres
+        return pd.DataFrame()
 
     print("Actualizando datos desde base de datos hasta hoy...")
 
@@ -134,7 +134,7 @@ def demanda_evolucion(filtro_demanda, URL, HEADERS, today, last_db_date):
 
     if last_db_date >= today.date():
         print("Los datos ya están actualizados.")
-        return pd.DataFrame()  # O puedes retornar None o df vacío si prefieres
+        return pd.DataFrame()
 
     print("Actualizando datos desde base de datos hasta hoy...")
 
@@ -200,7 +200,7 @@ def demanda_ire_general(filtro_general, URL, HEADERS, today, last_db_date):
 
     if last_db_date >= today.date():
         print("Los datos ya están actualizados.")
-        return pd.DataFrame()  # O puedes retornar None o df vacío si prefieres
+        return pd.DataFrame()
 
     print("Actualizando datos desde base de datos hasta hoy...")
 
@@ -270,7 +270,7 @@ def demanda_ire_industria(filtro_industria, URL, HEADERS, today, last_db_date):
 
     if last_db_date >= today.date():
         print("Los datos ya están actualizados.")
-        return pd.DataFrame()  # O puedes retornar None o df vacío si prefieres
+        return pd.DataFrame()
 
     print("Actualizando datos desde base de datos hasta hoy...")
 
@@ -339,7 +339,7 @@ def demanda_ire_servicios(filtro_servicios, URL, HEADERS, today, last_db_date):
 
     if last_db_date >= today.date():
         print("Los datos ya están actualizados.")
-        return pd.DataFrame()  # O puedes retornar None o df vacío si prefieres
+        return pd.DataFrame()
 
     print("Actualizando datos desde base de datos hasta hoy...")
 
@@ -408,7 +408,7 @@ def generacion(filtro_generacion, URL, HEADERS, today, last_db_date):
 
     if last_db_date >= today.date():
         print("Los datos ya están actualizados.")
-        return pd.DataFrame()  # O puedes retornar None o df vacío si prefieres
+        return pd.DataFrame()
 
     print("Actualizando datos desde base de datos hasta hoy...")
 
@@ -598,11 +598,11 @@ def extraccion():
 # ** LIMPIEZA DE DATOS **
 
 # %%
-def limpieza_balance(df_balance):
+def limpieza_balance(df):
+    df_balance = df.copy()
     # Cambiamos el formato de fecha y en valor, trabajamos con MWh ya que se ven mejor
-
-    df_balance['fecha'] = pd.to_datetime(df_balance['fecha'].str.split('T').str[0])
-    df_balance['valor'] = df_balance['valor']/1e3
+    df_balance['fecha'] = pd.to_datetime(df_balance['fecha'].astype(str).str.split('T').str[0])
+    df_balance['valor'] = df_balance['valor']/1000
 
     # La columna de las regiones parece que está repitiendo los datos, con lo que eliminamos los duplicados que haya en 
     # el resto de columnas sin tener en cuenta esa
@@ -613,34 +613,37 @@ def limpieza_balance(df_balance):
 
 # %%
 def limpieza_demanda(df1_demanda, df2_demanda, df3_demanda, df4_demanda):
+    # Limpieza segura de fechas y columnas, solo si los DataFrames no están vacíos
+    if not df1_demanda.empty and 'fecha' in df1_demanda.columns:
+        df1_demanda['fecha'] = pd.to_datetime(df1_demanda['fecha'].astype(str).str.split('T').str[0])
+        df1_demanda['valor'] = df1_demanda['valor'] / 1e3
+        df1_demanda_sin_duplicados = df1_demanda.drop_duplicates(subset=['fecha', 'valor', 'indicador'])
+        df1_demanda = df1_demanda_sin_duplicados.sort_values('fecha')
+    else:
+        df1_demanda = pd.DataFrame()
 
-    df1_demanda['fecha'] = pd.to_datetime(df1_demanda['fecha'].astype(str).str.split('T').str[0])
-    df2_demanda['fecha'] = pd.to_datetime(df2_demanda['fecha'].astype(str).str.split('T').str[0])
-    df3_demanda['fecha'] = pd.to_datetime(df3_demanda['fecha'].astype(str).str.split('T').str[0])
-    df4_demanda['fecha'] = pd.to_datetime(df4_demanda['fecha'].astype(str).str.split('T').str[0])
+    ire_dfs = []
+    for df in [df2_demanda, df3_demanda, df4_demanda]:
+        if not df.empty and 'fecha' in df.columns:
+            df['fecha'] = pd.to_datetime(df['fecha'].astype(str).str.split('T').str[0])
+            df = df.drop_duplicates(subset=['fecha', 'valor', 'porcentaje', 'indicador'])
+            ire_dfs.append(df)
 
-    print(df1_demanda.info())
-
-    df1_demanda['valor'] = df1_demanda['valor']/1e3
-
-    df1_demanda_sin_duplicados = df1_demanda.drop_duplicates(subset=['fecha', 'valor', 'indicador'])
-    df2_demanda_sin_duplicados = df2_demanda.drop_duplicates(subset=['fecha', 'valor', 'porcentaje', 'indicador'])
-    df3_demanda_sin_duplicados = df3_demanda.drop_duplicates(subset=['fecha', 'valor', 'porcentaje', 'indicador'])
-    df4_demanda_sin_duplicados = df4_demanda.drop_duplicates(subset=['fecha', 'valor', 'porcentaje', 'indicador'])
-    
-    df_ire = pd.concat([df2_demanda_sin_duplicados, df3_demanda_sin_duplicados, df4_demanda_sin_duplicados], ignore_index=True)
-
-    df_ire = df_ire[~df_ire['indicador'].isin(['Variación mensual corregida', 'Variación mensual'])]
-    # Asegurar orden por fecha
-    df1_demanda.sort_values('fecha', inplace=True)
-    df_ire.sort_values('fecha', inplace=True)
+    if ire_dfs:
+        df_ire = pd.concat(ire_dfs, ignore_index=True)
+        df_ire = df_ire[~df_ire['indicador'].isin(['Variación mensual corregida', 'Variación mensual'])]
+        df_ire = df_ire.sort_values('fecha')
+    else:
+        df_ire = pd.DataFrame()
 
     return df1_demanda, df_ire
 
 # %%
-def limpieza_generacion(df_generacion):
+def limpieza_generacion(df):
+
+    df_generacion = df.copy()
     # Cambiamos el formato de fecha (nos quedamos con YYYY-MM-DD)
-    df_generacion['fecha'] = pd.to_datetime(df_generacion['fecha'].str.split('T').str[0])
+    df_generacion['fecha'] = pd.to_datetime(df_generacion['fecha'].astype(str).str.split('T').str[0])
 
     # Convertimos Wh a MWh
     df_generacion['valor'] = df_generacion['valor'] / 1e3
@@ -656,8 +659,10 @@ def limpieza_generacion(df_generacion):
     return df_generacion_sin_duplicados
 
 # %%
-def limpieza_fronteras(df_fronteras):
+def limpieza_fronteras(df):
     # Cambiamos el formato de fecha y en valor, trabajamos con kWh ya que se ven mejor
+
+    df_fronteras = df.copy()
 
     df_fronteras['datetime'] = pd.to_datetime(df_fronteras['datetime'].str.split('T').str[0])
     df_fronteras['value'] = df_fronteras['value']/1e3
@@ -668,13 +673,13 @@ def limpieza_fronteras(df_fronteras):
         'datetime': 'fecha',
         'value': 'valor',
         'percentage': 'porcentaje'}, inplace=True)
-    
+
     #Quitamos duplicados:
-    df_fronteras = df_fronteras.drop_duplicates(
+    df_fronteras_limpio = df_fronteras.drop_duplicates(
         subset=['fecha', 'pais', 'valor', 'porcentaje']
     )
 
-    return df_fronteras
+    return df_fronteras_limpio
 
 # %%
 def limpieza(df_balance, df_demanda, df_ire_general, df_ire_industria, df_ire_servicios, df_generacion, df_fronteras):
@@ -719,30 +724,28 @@ def db_connect():
 
 # %%
 def carga_balance(df_balance_limpio):
-    print("Cargando datos en la base de datos...")
+    print("Cargando datos...")
+    # Creamos la conexion a la base de datos a traves del script
+    # db_connect() que establece la conexion con dicha BD
     conn = db_connect()
     cursor = conn.cursor()
-
+    # Ordenamos el df para que las columnas tengan el mismo orden
+    # que en la base de datos
     nuevo_balance = ['fecha', 'tipo', 'energia', 'region', 'valor']
     df_balance_limpio = df_balance_limpio[nuevo_balance]
 
-    # Dividir el dataframe en lotes
-    batch_size = 2000
-    num_batches = len(df_balance_limpio) // batch_size + 1
-
-    for i in range(num_batches):
-        batch = df_balance_limpio.iloc[i * batch_size: (i + 1) * batch_size]
-
-        # Crear los datos para el lote
-        data_batch = [tuple(row) for row in batch.to_numpy()]
-
-        cursor.executemany("""
-            INSERT IGNORE INTO balance (fecha, tipo, energia, region, valor)
+    # Insertar los datos en la tabla balance
+    for i, row in df_balance_limpio.iterrows():
+        cursor.execute("""
+            INSERT INTO balance (fecha, tipo, energia, region, valor)
             VALUES (%s, %s, %s, %s, %s)
-        """, data_batch)
+            ON DUPLICATE KEY UPDATE valor = VALUES(valor)
+        """, (row['fecha'], row['tipo'], row['energia'], row['region'], row['valor']))
+    
+    # Confirmamos la carga
+    conn.commit()
 
-        conn.commit()
-
+    # Cerramos el cursor y la conexión
     cursor.close()
     conn.close()
 
@@ -750,23 +753,26 @@ def carga_balance(df_balance_limpio):
 
 # %%
 def carga_ire(df_ire_limpio):
-    print("Cargando datos en la base de datos...")
+    print("Cargando datos...")
+    # Creamos la conexion a la base de datos a traves del script
+    # db_connect() que establece la conexion con dicha BD
     conn = db_connect()
     cursor = conn.cursor()
-
+    # Ordenamos el df para que las columnas tengan el mismo orden
+    # que en la base de datos
     nuevo_ire = ['fecha', 'indicador', 'region', 'valor', 'porcentaje']
     df_ire_limpio = df_ire_limpio[nuevo_ire]
 
-    df_ire_limpio.head()
-
+    # Aqui cargamos los datos fila por fila a diferencia del archivo anterior
+    # debido a que hay una cantidad menor de datos que subir a la base de datos
     for _, row in df_ire_limpio.iterrows():
         cursor.execute("""
             INSERT IGNORE INTO demanda_ire_general (fecha, indicador, region, valor, porcentaje)
             VALUES (%s, %s, %s, %s, %s)
         """, (row['fecha'], row['indicador'], row['region'], row['valor'], row['porcentaje']))
-
-        conn.commit()
-
+    # Confirmamos la sentencia
+    conn.commit()
+    # Cerramos el cursor y la conexion con la base de datos
     cursor.close()
     conn.close()
 
@@ -774,56 +780,61 @@ def carga_ire(df_ire_limpio):
 
 # %%
 def carga_demanda(df_demanda_limpio):
-    print("Cargando datos en la base de datos...")
+    print("Cargando datos...")
+    # Creamos la conexion a la base de datos a traves del script
+    # db_connect() que establece la conexion con dicha BD
     conn = db_connect()
     cursor = conn.cursor()
-
+    # Ordenamos el df para que las columnas tengan el mismo orden
+    # que en la base de datos
     nuevo_demanda = ['fecha', 'indicador', 'region', 'valor']
     df_demanda_limpio = df_demanda_limpio[nuevo_demanda]
     
-    # Dividir el DataFrame en lotes
-    batch_size = 1000  # Puedes ajustar este tamaño según lo que sea más eficiente para tu base de datos
+    # Dividir el dataframe en lotes para que se suba a la base de datos
+    # con mayor facilidad
+    batch_size = 1000
     num_batches = len(df_demanda_limpio) // batch_size + 1
 
     for i in range(num_batches):
-        # Extraer un lote de datos
         batch = df_demanda_limpio.iloc[i * batch_size: (i + 1) * batch_size]
-        
-        # Crear los datos para el batch
         data_batch = [tuple(row) for row in batch.to_numpy()]
-
-        # Usar executemany() para insertar el lote de datos
+        # Ejecutamos la sentencia SQL con executemany para cargar los lotes de datos
         cursor.executemany("""
             INSERT IGNORE INTO demanda_evolucion (fecha, indicador, region, valor)
             VALUES (%s, %s, %s, %s)
         """, data_batch)
-
-        # Confirmar la inserción del lote
-        conn.commit()
-
+    # Confirmar la sentencia
+    conn.commit()
+    # Cerramos el curson y la conexion a la BD
     cursor.close()
     conn.close()
-
-    print("Carga de datos completada.")
+    
     return True
 
 # %%
 def carga_fronteras(df_fronteras_limpio):
-    print("Cargando datos en la base de datos...")
+    print("Cargando datos...")
+    # Creamos la conexion a la base de datos a traves del script
+    # db_connect() que establece la conexion con dicha BD
     conn = db_connect()
     cursor = conn.cursor()
-
+    # Ordenamos el df para que las columnas tengan el mismo orden
+    # que en la base de datos
     nuevo_fronteras = ['fecha', 'pais', 'valor', 'porcentaje']
     df_fronteras_limpio = df_fronteras_limpio[nuevo_fronteras]
     df_fronteras_limpio.head()
 
+    # Aqui cargamos los datos fila por fila debido a que hay 
+    # una cantidad menor de datos que subir a la base de datos
     for _, row in df_fronteras_limpio.iterrows():
+        # Ejecutamos la sentencia
         cursor.execute("""
             INSERT IGNORE INTO fronteras (fecha, pais, valor, porcentaje)
             VALUES (%s, %s, %s, %s)
         """, (row['fecha'], row['pais'], row['valor'], row['porcentaje']))
-
-        conn.commit()
+    # Confirmamos la carga
+    conn.commit()
+    # Cerramos el cursor y la conexion con la BD
     cursor.close()
     conn.close()
 
@@ -831,22 +842,26 @@ def carga_fronteras(df_fronteras_limpio):
 
 # %%
 def carga_generacion(df_generacion_limpio):
-    print("Cargando datos en la base de datos...")
+    print("Cargando datos...")
+    # Creamos la conexion a la base de datos a traves del script
+    # db_connect() que establece la conexion con dicha BD
     conn = db_connect()
     cursor = conn.cursor()
-
+    # Ordenamos el df para que las columnas tengan el mismo orden
+    # que en la base de datos
     nuevo_estructura = ['fecha', 'indicador', 'region', 'tipo', 'valor', 'porcentaje']
     df_generacion_limpio = df_generacion_limpio[nuevo_estructura]
-    df_generacion_limpio.head()
-
+    # Aqui cargamos los datos fila por fila debido a que hay 
+    # una cantidad menor de datos que subir a la base de datos
     for _, row in df_generacion_limpio.iterrows():
+        # Ejecutamos la sentencia
         cursor.execute("""
             INSERT IGNORE INTO estructura_generacion (fecha, indicador, region, tipo, valor, porcentaje)
             VALUES (%s, %s, %s, %s, %s, %s)
         """, (row['fecha'], row['indicador'], row['region'], row['tipo'], row['valor'], row['porcentaje']))
-
-        conn.commit()
-
+    # Confirmamos la carga
+    conn.commit()
+    # Cerramos el cursor y la conexion con la BD
     cursor.close()
     conn.close()
 
@@ -854,68 +869,85 @@ def carga_generacion(df_generacion_limpio):
 
 # %%
 def update():
+    # EXTRACCIÓN
+    dataframes = extraccion()
 
-    # EXTRACCION
-    dataframes = extraccion()  # Tarda aprox 17 minutos en hacer toda la extraccion de todos los datos
+    # Copias individuales
+    df_balance = dataframes['balance'].copy()
+    df_demanda = dataframes['demanda'].copy()
+    df_ire_general = dataframes['ire_general'].copy()
+    df_ire_industria = dataframes['ire_industria'].copy()
+    df_ire_servicios = dataframes['ire_servicios'].copy()
+    df_generacion = dataframes['generacion'].copy()
+    df_fronteras = dataframes['fronteras'].copy()
+
+    print("Columnas de df_balance:", df_balance.columns)
 
     # LIMPIEZA
-    df_balance = dataframes['balance']
+    dataframes_clean = {}
 
-    df_demanda = dataframes['demanda']
-    df_ire_general = dataframes['ire_general']
-    df_ire_industria = dataframes['ire_industria']
-    df_ire_servicios = dataframes['ire_servicios']
-
-    df_generacion = dataframes['generacion']
-
-    df_fronteras = dataframes['fronteras']
-
-
-    dataframes_clean = limpieza(df_balance, df_demanda, df_ire_general, df_ire_industria, df_ire_servicios, df_generacion, df_fronteras)
-
-    df_balance_limpio = dataframes_clean['balance']
-
-    df_demanda_limpio = dataframes_clean['demanda']
-    df_ire_limpio = dataframes_clean['ire_general']
-
-
-    df_generacion_limpio = dataframes_clean['generacion']
-
-    df_fronteras_limpio = dataframes_clean['fronteras']
-
-    balance_new_data = carga_balance(df_balance_limpio)
-    if balance_new_data == True:
-        print("Carga de datos completada.")
+    if not df_balance.empty:
+        dataframes_clean['balance'] = limpieza_balance(df_balance)
     else:
-        print("Error en la carga de datos.")
-        print("Carga de datos fallida.")
+        print("df_balance está vacío, se omite limpieza.")
+        dataframes_clean['balance'] = df_balance
 
-    ire_new_data = carga_ire(df_ire_limpio)
-    if ire_new_data == True:
-        print("Carga de datos completada.")
+    if not (df_demanda.empty and df_ire_general.empty and df_ire_industria.empty and df_ire_servicios.empty):
+        df_demanda_limpio, df_ire_limpio = limpieza_demanda(df_demanda, df_ire_general, df_ire_industria, df_ire_servicios)
+        dataframes_clean['demanda'] = df_demanda_limpio
+        dataframes_clean['ire_general'] = df_ire_limpio
     else:
-        print("Error en la carga de datos.")
-        print("Carga de datos fallida.")
+        print("Todos los DataFrames de demanda e IRE están vacíos, se omite limpieza.")
+        dataframes_clean['demanda'] = pd.DataFrame()
+        dataframes_clean['ire_general'] = pd.DataFrame()
+        
 
-    demanda_new_data = carga_demanda(df_demanda_limpio)
-    if demanda_new_data == True:
-        print("Carga de datos completada.")
+    if not df_generacion.empty:
+        dataframes_clean['generacion'] = limpieza_generacion(df_generacion)
     else:
-        print("Error en la carga de datos.")
-        print("Carga de datos fallida.")
+        print("df_generacion está vacío, se omite limpieza.")
+        dataframes_clean['generacion'] = df_generacion
 
-    fronteras_new_data = carga_fronteras(df_fronteras_limpio)
-    if fronteras_new_data == True:
-        print("Carga de datos completada.")
+    if not df_fronteras.empty:
+        dataframes_clean['fronteras'] = limpieza_fronteras(df_fronteras)
     else:
-        print("Error en la carga de datos.")
-        print("Carga de datos fallida.")
+        print("df_fronteras está vacío, se omite limpieza.")
+        dataframes_clean['fronteras'] = df_fronteras
 
-    generacion_new_data = carga_generacion(df_generacion_limpio)
-    if generacion_new_data == True:
-        print("Carga de datos completada.")
+    # CARGA
+    if not dataframes_clean['balance'].empty and carga_balance(dataframes_clean['balance']):
+        print("Carga de balance completada.")
+    elif dataframes_clean['balance'].empty:
+        print("Balance ya actualizado.")
     else:
-        print("Error en la carga de datos.")
-        print("Carga de datos fallida.")
+        print("Error en la carga de balance.")
+
+    if not dataframes_clean['ire_general'].empty and carga_ire(dataframes_clean['ire_general']):
+        print("Carga de IRE completada.")
+    elif dataframes_clean['ire_general'].empty:
+        print("IRE ya actualizado.")
+    else:
+        print("Error en la carga de IRE.")
+
+    if not dataframes_clean['demanda'].empty and carga_demanda(dataframes_clean['demanda']):
+        print("Carga de demanda completada.")
+    elif dataframes_clean['demanda'].empty:
+        print("Demanda ya actualizada.")
+    else:
+        print("Error en la carga de demanda.")
+
+    if not dataframes_clean['fronteras'].empty and carga_fronteras(dataframes_clean['fronteras']):
+        print("Carga de fronteras completada.")
+    elif dataframes_clean['fronteras'].empty:
+        print("Fronteras ya actualizadas.")
+    else:
+        print("Error en la carga de fronteras.")
+
+    if not dataframes_clean['generacion'].empty and carga_generacion(dataframes_clean['generacion']):
+        print("Carga de generación completada.")
+    elif dataframes_clean['generacion'].empty:
+        print("Generación ya actualizada.")
+    else:
+        print("Error en la carga de generación.")
 
     return True
