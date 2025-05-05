@@ -1,12 +1,6 @@
 node_modules/
 .venv
-app\.venv
-app/scripts/__pycache__
-app/custom_pages/__pycache__
-app/custom_pages/about_pages/__pycache__
-app/custom_pages/dl_pages/__pycache__
-app/custom_pages/exploratory_pages/__pycache__
-/app/custom_pages/dl_pages
-/app/custom_pages/exploratory_pages
-/app/custom_pages/exploratory_pages
-/app/custom_pages/exploratory_pages
+
+# EVITAR EL CACHE
+**/app/__pycache__/
+*.pyc
