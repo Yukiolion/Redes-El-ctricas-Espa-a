@@ -16,8 +16,6 @@ def Balance(df_balance):
     st.markdown("<div style='height:30px;'></div>", unsafe_allow_html=True)
     st.write("**🔄 Evolución del balance a lo largo de los años**")
 
-    st.markdown(df_balance.columns)
-
     df_balance['fecha'] = pd.to_datetime(df_balance['fecha'])
     df_balance['año'] = df_balance['fecha'].dt.year
 
