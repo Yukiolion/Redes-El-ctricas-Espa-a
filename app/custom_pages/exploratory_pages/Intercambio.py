@@ -150,7 +150,8 @@ def Intercambio(df_intercambio):
         lataxis_range=[20, 60],
         lonaxis_range=[-20, 10])
     fig.update_layout(
-        height=700,)
+        height=300,
+        width=600)
     st.plotly_chart(fig)
     
     st.write("**🌍 Exportación de energía anual per cápita**")

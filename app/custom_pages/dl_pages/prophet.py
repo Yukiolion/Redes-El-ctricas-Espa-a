@@ -60,6 +60,8 @@ def prophet(df):
 
     # Gráficas
     fig1 = plot_plotly(modelo, forecast)
+    fig1.update_traces(mode='lines')
+    fig1.data[0].update(line=dict(color='red'))
     fig1.update_layout(
         title=f'Predicción de demanda ({frecuencia})',
         xaxis_title='Fecha',
