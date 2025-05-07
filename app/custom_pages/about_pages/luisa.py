@@ -11,21 +11,15 @@ def lui_info():
             color: #b01923;
         }
     """, unsafe_allow_html=True)
-    col1, col2 = st.columns([1, 4])  # Columna pequeña para la foto, grande para el texto
 
-    with col1:
-        img = Image.open("app/custom_pages/about_pages/img/luisa.jpg")
-        img = img.resize((200, 200))
-        st.image(img)
-
-    with col2:
-        st.markdown("""
-        ¡Hola! Soy **Luisa** y junto a mis compañeros hemos desarrollado este proyecto enfocado en la predicción y análisis de redes eléctricas.  
-        Si te ha parecido interesante o quieres saber más, no dudes en contactarme:
-        """)
-        st.markdown('<p class="section-title">Contacto</p>', unsafe_allow_html=True)
-        st.markdown("📧 **Email:** [luisagarciatorres@gmail.com](mailto:luisagarciatorres@gmail.com)")
-        st.markdown("💼 **LinkedIn:** [linkedin.com/in/luisa-garcia-torres](https://www.linkedin.com/in/luisa-garcia-torres/)")
+    st.markdown("""
+    ¡Hola! Soy **Luisa** y junto a mis compañeros hemos desarrollado este proyecto enfocado en la predicción y análisis de redes eléctricas.  
+    Si te ha parecido interesante o quieres saber más, no dudes en contactarme:
+    """)
+    st.markdown('<p class="section-title">Contacto</p>', unsafe_allow_html=True)
+    st.markdown("📧 **Email:** [luisagarciatorres@gmail.com](mailto:luisagarciatorres@gmail.com)")
+    st.markdown("💼 **LinkedIn:** [linkedin.com/in/luisa-garcia-torres](https://www.linkedin.com/in/luisa-garcia-torres/)")
+    st.markdown("🌐 **GitHub:**")
 
     st.markdown("---")
 

@@ -11,18 +11,15 @@ def eduardo_info():
         }
     """, unsafe_allow_html=True)
     # Presentacion
-    col1, col2 = st.columns([1, 4])  # Columna pequeña para la foto, grande para el texto
+    st.markdown("""
+    ¡Hola! Soy **Eduardo** y junto a mis compañeros hemos desarrollado este proyecto enfocado en la predicción y análisis de redes eléctricas.  
+    Si te ha parecido interesante o quieres saber más, no dudes en contactarme:
+    """)
+    st.markdown('<p class="section-title">Contacto</p>', unsafe_allow_html=True)
+    st.markdown("📧 **Email:** [eduar.romero.villegas@gmail.com ](mailto:eduar.romero.villegas@gmail.com )")
+    st.markdown("💼 **LinkedIn:**")
+    st.markdown("🌐 **GitHub:**")
 
-    with col1:
-        st.markdown('')
-
-    with col2:
-        st.markdown("""
-        ¡Hola! Soy **Eduardo** y junto a mis compañeros hemos desarrollado este proyecto enfocado en la predicción y análisis de redes eléctricas.  
-        Si te ha parecido interesante o quieres saber más, no dudes en contactarme:
-        """)
-        st.markdown('<p class="section-title">Contacto</p>', unsafe_allow_html=True)
-        st.markdown("📧 **Email:** [eduar.romero.villegas@gmail.com ](mailto:eduar.romero.villegas@gmail.com )")
 
     st.markdown("---")
 

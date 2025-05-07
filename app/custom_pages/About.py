@@ -1,4 +1,5 @@
 import streamlit as st
+from PIL import Image
 
 from custom_pages.about_pages.andre import andre_info
 from custom_pages.about_pages.eduardo import eduardo_info
@@ -11,13 +12,28 @@ def About():
     st.subheader('Conocenos un poco más!!')
 
 
-    tabs = st.tabs(["Andre", "Eduardo", "Luisa", "Samuel"])
+    andre, eduardo, luisa, samuel = st.columns(4, vertical_alignment="center")
 
-    with tabs[0]:
+    with andre:
+        img = Image.open("app/custom_pages/about_pages/img/andre.jpg")
+        img = img.resize((200, 200))
+        st.image(img)
         andre_info()
-    with tabs[1]:
+
+    with eduardo:
+        img = Image.open("app/custom_pages/about_pages/img/usuario.png")
+        img = img.resize((200, 200))
+        st.image(img)
         eduardo_info()
-    with tabs[2]:
+
+    with luisa:
+        img = Image.open("app/custom_pages/about_pages/img/luisa.jpg")
+        img = img.resize((200, 200))
+        st.image(img)
         lui_info()
-    with tabs[3]:
+
+    with samuel:
+        img = Image.open("app/custom_pages/about_pages/img/samuel.png")
+        img = img.resize((200, 200))
+        st.image(img)
         samuel_info()
