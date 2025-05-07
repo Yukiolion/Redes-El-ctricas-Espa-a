@@ -27,6 +27,7 @@ def samuel_info():
         st.markdown('<p class="section-title">Contacto</p>', unsafe_allow_html=True)
         st.markdown("📧 **Email:** [samueljsanchez24@email.com](mailto:samueljsanchez24@email.com)")
         st.markdown("💼 **LinkedIn:** [linkedin.com/in/samuel-sanchez-robles](https://www.linkedin.com/in/samuel-sanchez-robles/)")
+        st.markdown("🌐 **GitHub:** [github.com/Samu-Sr00](https://github.com/Samu-Sr00)")
 
     st.markdown("---")
 
