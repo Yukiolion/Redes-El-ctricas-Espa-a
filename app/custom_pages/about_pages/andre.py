@@ -27,6 +27,7 @@ def andre_info():
         st.markdown('<p class="section-title">Contacto</p>', unsafe_allow_html=True)
         st.markdown("📧 **Email:** [a.ravn1052@gmail.com](mailto:a.ravn1052@gmail.com)")
         st.markdown("💼 **LinkedIn:** [linkedin.com/in/andré-raven-villa](https://www.linkedin.com/in/andré-raven-villa)")
+        st.markdown("🌐 **GitHub:** [github.com/Yukiolion](https://github.com/Yukiolion)")
 
     st.markdown("---")
 
