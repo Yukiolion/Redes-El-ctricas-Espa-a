@@ -9,7 +9,7 @@ from scripts.db_connect import db_connect
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 def lstm(_):
-    st.title("LSTM")
+    st.title("LSTM (Long Short-Term Memory)")
 
     # Definir rutas
     BASE_DIR = os.path.dirname(__file__)

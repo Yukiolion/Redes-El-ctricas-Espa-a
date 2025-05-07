@@ -14,7 +14,7 @@ from scripts.db_connect import db_connect
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 def gru(_):
-    st.title("GRU")
+    st.title("GRU (Gated Recurrent Units)")
 
     BASE_DIR = os.path.dirname(__file__)
     MODEL_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "..", "..", "models", "GRU_models"))
