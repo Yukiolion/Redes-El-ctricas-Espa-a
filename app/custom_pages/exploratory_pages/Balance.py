@@ -131,10 +131,6 @@ def Balance(df_balance):
     año_1 = st.selectbox("Selecciona el primer año:", años_disponibles, key="año_1_balance")
     año_2 = st.selectbox("Selecciona el segundo año:", años_disponibles, key="año_2_balance")
 
-    if año_1 == año_2:
-        st.warning("Selecciona dos años diferentes para comparar.")
-        st.stop()
-
     años = [año_1, año_2]
 
     df_comparar = df_balance[df_balance['año'].isin(años)].copy()
