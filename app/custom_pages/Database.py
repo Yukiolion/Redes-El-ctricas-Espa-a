@@ -18,5 +18,5 @@ def Database():
         st.write("- **Intercambio**: Contiene información sobre los intercambios internacionales de energía, es decir, la energía que España importa o exporta a países vecinos a través de las interconexiones..")
         # Con esto redimensionamos la imagen para que no salga gigante
         img = Image.open("app/images/diagrama sql.png")
-        img = img.resize((950, 950))
+        img = img.resize((650, 650))
         st.image(img, caption='Diagrama de la base de datos')
