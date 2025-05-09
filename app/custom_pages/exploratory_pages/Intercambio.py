@@ -141,7 +141,9 @@ def Intercambio(df_intercambio):
         hover_name='pais',
         color_continuous_scale='RdYlBu',
         range_color=[0, exportaciones_year['valor'].max() / 1000],
-        labels={'valor': 'GWh'},)
+        labels={'valor': 'GWh'},
+        width=1200,
+        height=600)
 
     fig.update_geos(
         visible=True,
@@ -149,10 +151,16 @@ def Intercambio(df_intercambio):
         projection_type="natural earth",
         lataxis_range=[20, 60],
         lonaxis_range=[-20, 10])
-    fig.update_layout(
-        height=300,
-        width=600)
-    st.plotly_chart(fig)
+    
+    grafica, explicacion = st.columns(2, vertical_alignment='center')
+
+    with grafica:
+        st.plotly_chart(fig, use_container_width=True)
+    with explicacion:
+        st.markdown('El mapa coroplético presentado muestra la exportación de energía eléctrica'\
+                    'desde España hacia países vecinos (Portugal, Marruecos y Francia) para el año seleccionado (2015).'\
+                    'En este mapa, cada país está coloreado de acuerdo con el balance de exportación de energía (medido en GWh),'\
+                    'lo que permite una interpretación visual clara de los flujos de energía entre estos países.')
     
     st.write("**🌍 Exportación de energía anual per cápita**")
 
