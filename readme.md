@@ -25,3 +25,5 @@ Instrucciones:
     Con esto nuestro programa estaria listo para usarse.
 
 Esperamos que os guste :)
+
+PD: En el directorio "app/data/" podemos encontrar una presentación creada por nuestro compañero Eduardo.

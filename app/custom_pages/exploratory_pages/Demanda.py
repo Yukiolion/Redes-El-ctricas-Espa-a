@@ -71,7 +71,6 @@ def Demanda(df_demanda, df_ire):
     "de la península.")
     
 
-
     st.markdown("<div style='height:30px;'></div>", unsafe_allow_html=True)
     st.write("**⚡Índice de Red Eléctrica (IRE)**")
     st.write("El IRE es el indicador eléctrico adelantado que recoge la evolución " \
@@ -90,13 +89,14 @@ def Demanda(df_demanda, df_ire):
             "ya que si las fábricas consumen más electricidad, suele ser porque están produciendo más.\n" \
             "- **Ire Servicios**: Refleja el consumo eléctrico del sector servicios (oficinas, comercios, hoteles, hospitales, etc.). Puede estar influenciado " \
             "por la actividad económica y también por factores estacionales como el turismo o el clima.")
-
+    # Creamos un filtro para los datos de IRE
     df_ire['fecha'] = pd.to_datetime(df_ire['fecha'])
     df_ire['año'] = df_ire['fecha'].dt.year
     filtro = df_ire['indicador'].isin(['Índice general corregido', 'Índice industria corregido', 'Índice servicios corregido'])
     df_ire_reducido = df_ire[filtro]
     
-
+    # Hacemos un selectbox para elegir el año
+    # y luego mostrar el gráfico
     año = st.selectbox("Selecciona el año:", sorted(df_ire['año'].unique()), key="select_año2")
     tickformat = '%b %Y'
     df_ire_filtrado = df_ire[df_ire['año'] == año]
@@ -116,8 +116,6 @@ def Demanda(df_demanda, df_ire):
 
     st.write("En la grafica podemos observar que el IRE Servicios despunta en Julio haciendo aumentar el IRE General y el IRE Industria es el que más bajo está " \
     "en agosto, cuadrando con el periodo vacacional. Además, a partir de marzo de 2020 todos los valores se desploman debido a la pandemia.")
-
-
 
     df_ire['año'] = df_ire['fecha'].dt.year.astype(str)
     df_ire_reducido = df_ire[filtro]
@@ -163,15 +161,12 @@ def Demanda(df_demanda, df_ire):
     " años.")
     st.dataframe(df_estadisticas)
 
-
-
     df_comparar['indicador_año'] = 'Indicador ' + df_comparar['año'].astype(str)
     meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
     df_comparar['mes'] = df_comparar['fecha'].dt.month
     df_comparar['dia'] = df_comparar['fecha'].dt.day
     df_comparar['nombre_mes'] = df_comparar['mes'].apply(lambda x: meses[x-1])
     st.write("Con este gráfico podemos comparar el valor del balance mes a mes o el año completo para cada uno de los años seleccionados.")
-
 
     ver_año_entero = st.checkbox("Comparar el año completo", key="año_demanda")
 
