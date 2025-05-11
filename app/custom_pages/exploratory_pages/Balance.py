@@ -27,10 +27,10 @@ def Balance(df_balance):
         dias = st.selectbox("Selecciona el rango de días:", [7, 14, 30])
         fecha_max = df_balance['fecha'].max()
         fecha_min = fecha_max - pd.Timedelta(days=dias)
-        df_filtrado_evol = df_balance[df_balance['fecha'] >= fecha_min]
+        df_filtrado_balance = df_balance[df_balance['fecha'] >= fecha_min]
         tickformat = '%d %b'
 
-        grafico_lineas = df_filtrado_evol.groupby(['fecha', 'energia'])['valor'].sum().reset_index()
+        grafico_lineas = df_filtrado_balance.groupby(['fecha', 'energia'])['valor'].sum().reset_index()
         fig = px.line(
             grafico_lineas,
             x='fecha',
@@ -56,11 +56,10 @@ def Balance(df_balance):
             fecha_fin = pd.to_datetime(rango_fechas[1])
 
             if fecha_inicio <= fecha_fin:
-                df_filtrado_evol = df_balance[(df_balance['fecha'] >= fecha_inicio) &
-                    (df_balance['fecha'] <= fecha_fin)]
+                df_filtrado_balance = df_balance[(df_balance['fecha'] >= fecha_inicio) & (df_balance['fecha'] <= fecha_fin)]
                 tickformat = '%b %Y'
 
-                grafico_lineas = df_filtrado_evol.groupby(['fecha', 'energia'])['valor'].sum().reset_index()
+                grafico_lineas = df_filtrado_balance.groupby(['fecha', 'energia'])['valor'].sum().reset_index()
                 fig = px.line(
                         grafico_lineas,
                         x='fecha',
@@ -79,8 +78,6 @@ def Balance(df_balance):
     st.markdown("<div style='height:30px;'></div>", unsafe_allow_html=True)
     st.write("**🔄 Histograma del balance de electicidad**")
 
-    df_balance['fecha'] = pd.to_datetime(df_balance['fecha'])
-    df_balance['año'] = df_balance['fecha'].dt.year
     años_disponibles = sorted(df_balance['año'].unique())
 
     # Selector para los años:
@@ -98,9 +95,7 @@ def Balance(df_balance):
     valla_superior = q3 + 1.5 * iqr
 
     # Histograma
-    fig_hist = px.histogram(df_filtrado_hist, 
-                            x='valor',                         
-                            labels={'valor': 'Demanda diaria (kWh)'})
+    fig_hist = px.histogram(df_filtrado_hist, x='valor', labels={'valor': 'Demanda diaria (kWh)'})
 
     fig_hist.add_vline(x=valla_inferior, line_dash="dash", line_color="red",
                     annotation_text="Límite inferior", annotation_position="top left")
@@ -119,15 +114,14 @@ def Balance(df_balance):
     st.markdown("<div style='height:30px;'></div>", unsafe_allow_html=True)
     st.write("**🔄 Comparación del Balance Eléctrico a lo largo de los años**")
 
-
     df_balance = df_balance.groupby(['energia', 'fecha'], as_index=False)['valor'].sum()
 
     df_balance['año'] = df_balance['fecha'].dt.year
 
-    start_year = df_balance['fecha'].dt.year.min()
-    end_year = df_balance['fecha'].dt.year.max()
+    año_inicio = df_balance['fecha'].dt.year.min()
+    año_fin = df_balance['fecha'].dt.year.max()
 
-    años_disponibles = list(range(start_year, end_year + 1))
+    años_disponibles = list(range(año_inicio, año_fin + 1))
     año_1 = st.selectbox("Selecciona el primer año:", años_disponibles, key="año_1_balance")
     año_2 = st.selectbox("Selecciona el segundo año:", años_disponibles, key="año_2_balance")
 
@@ -155,8 +149,7 @@ def Balance(df_balance):
 
     df_comparar['mes'] = df_comparar['fecha'].dt.month
     df_comparar['dia'] = df_comparar['fecha'].dt.day
-    meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 
-            'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
+    meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
     df_comparar['nombre_mes'] = df_comparar['mes'].apply(lambda x: meses[x - 1])
 
     st.write("Comparación del intercambio eléctrico por país entre los años seleccionados.")
@@ -186,8 +179,7 @@ def Balance(df_balance):
         df_filtrado['dia_del_año'] = df_filtrado['fecha'].dt.dayofyear
         mes_ticks = df_filtrado.groupby(['energia','mes'])['dia_del_año'].min().sort_index()
 
-        fig = px.line(
-            df_filtrado,
+        fig = px.line(df_filtrado,
             x='dia_del_año',
             y='valor',
             color='energia_año',

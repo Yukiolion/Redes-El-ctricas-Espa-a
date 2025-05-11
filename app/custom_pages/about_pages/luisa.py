@@ -19,7 +19,7 @@ def lui_info():
     st.markdown('<p class="section-title">Contacto</p>', unsafe_allow_html=True)
     st.markdown("📧 **Email:** [luisagarciatorres@gmail.com](mailto:luisagarciatorres@gmail.com)")
     st.markdown("💼 **LinkedIn:** [linkedin.com/in/luisa-garcia-torres](https://www.linkedin.com/in/luisa-garcia-torres/)")
-    st.markdown("🌐 **GitHub:**")
+    st.markdown("🌐 **GitHub:** [github.com/Lui360](https://github.com/Lui360)")
 
     st.markdown("---")
 

@@ -23,7 +23,8 @@ def lstm(_):
     model = tf.keras.models.load_model(MODEL_PATH)
     scaler = joblib.load(SCALER_PATH)
 
-    # Cargar datos desde la base de datos
+    # Cargar datos desde la base de datos. Almacenamos los datos en cache para 
+    # que tarde menos en cargar
     @st.cache_data
     def cargar_datos():
         conn = db_connect()
@@ -35,7 +36,7 @@ def lstm(_):
 
     df = cargar_datos()
 
-    # Preprocesar datos
+    # Preprocesar los datos y creamos las secuencias
     valores = df['valor'].values.reshape(-1, 1)
     valores_scaled = scaler.transform(valores)
 
@@ -82,7 +83,7 @@ def lstm(_):
         "lo que indica que tiene un buen nivel de ajuste.")
 
 
-    # Métricas
+    # Calculamos las metricas, MAE, RMSE y R2
     data_test = np.load(TEST_PATH)
     X_test = data_test["X_test"]
     y_test = data_test["y_test"]
