@@ -18,8 +18,10 @@ def Demanda(df_demanda, df_ire):
     st.markdown("<div style='height:30px;'></div>", unsafe_allow_html=True)
     st.write("**⚡Evolución de demanda en la región peninsular**")
 
+    # Colocamos selector para elegir el tipo de visualización:
     seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Rango fechas"], key="grafico_demanda")
 
+    # Gráfico de líneas para la opción de últimos días:
     if seleccion == "Últimos días":
         dias = st.selectbox("Selecciona el rango de días:", [7, 14, 30], key="select_dias")
         fecha_max = df_demanda['fecha'].max()
@@ -36,6 +38,8 @@ def Demanda(df_demanda, df_ire):
         fig.update_traces(line=dict(width=1))
         fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
         st.plotly_chart(fig)
+
+    # Gráfico de líneas para la opción de rango de fechas:
     else:
         fecha_min_total = df_demanda['fecha'].min()
         fecha_max_total = df_demanda['fecha'].max()
@@ -101,8 +105,6 @@ def Demanda(df_demanda, df_ire):
     tickformat = '%b %Y'
     df_ire_filtrado = df_ire[df_ire['año'] == año]
 
-
-
     grafico_lineas = df_ire_filtrado.groupby(['fecha', 'indicador'])['valor'].sum().reset_index()
     fig = px.line(grafico_lineas,
                 x='fecha',
@@ -132,15 +134,21 @@ def Demanda(df_demanda, df_ire):
 
     st.markdown("<div style='height:30px;'></div>", unsafe_allow_html=True)
     st.write("**⚡ Comparación de la Demanda Eléctrica a lo largo de los años**")
-    
+
     inicio_año = df_demanda['fecha'].dt.year.min()
     final_año = df_demanda['fecha'].dt.year.max()
+    
+    # Filtramos por años:
     años_disponibles = list(range(inicio_año, final_año + 1))
     año_1 = st.selectbox("Selecciona el primer año:", años_disponibles, key="año_1.1_balance")
     año_2 = st.selectbox("Selecciona el segundo año:", años_disponibles, key="año_2.1_balance")
+    
     años = [año_1, año_2]
+    
     df_comparar = df_demanda[df_demanda['año'].isin(años)].copy()
     df_comparar['valor'] = pd.to_numeric(df_comparar['valor'], errors='coerce')
+    
+    # Hacemos la tabla de estadísticas:
     estadisticas_por_año = []
     for año in años:
         valores = df_comparar[df_comparar['año'] == año]['valor']
@@ -157,8 +165,7 @@ def Demanda(df_demanda, df_ire):
             'max': maximo,})
 
     df_estadisticas = pd.DataFrame(estadisticas_por_año)
-    st.write("En esta tabla podemos seleccionar los valores de media, mediana, máximo y mínimo y comparar dichos valores entre" \
-    " años.")
+    st.write("En esta tabla podemos seleccionar los valores de media, mediana, máximo y mínimo y comparar dichos valores entre años.")
     st.dataframe(df_estadisticas)
 
     df_comparar['indicador_año'] = 'Indicador ' + df_comparar['año'].astype(str)
@@ -170,6 +177,7 @@ def Demanda(df_demanda, df_ire):
 
     ver_año_entero = st.checkbox("Comparar el año completo", key="año_demanda")
 
+    # Comparamos por meses:
     if not ver_año_entero:
         meses_unicos = df_comparar['nombre_mes'].unique().tolist()
         meses_disponibles = [mes for mes in meses if mes in meses_unicos]
@@ -185,6 +193,7 @@ def Demanda(df_demanda, df_ire):
 
     df_filtrado['dia_mes'] = df_filtrado['fecha'].dt.strftime('%d-%b')
 
+    # Comparamos por años completos
     if ver_año_entero:
         df_filtrado['mes'] = df_filtrado['fecha'].dt.month
         df_filtrado['dia_del_año'] = df_filtrado['fecha'].dt.dayofyear
@@ -224,6 +233,7 @@ def Demanda(df_demanda, df_ire):
 
     fig.update_traces(line=dict(width=2))
 
+    # Lineas estadísticas:
     estadisticas_filtradas = []
     for año in años:
         valores = df_filtrado[df_filtrado['año'] == año]['valor']

@@ -20,7 +20,7 @@ def Generacion(df_generacion):
     # Colocamos selector para elegir el tipo de visualización:
     seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Rango fechas"], key="grafico_generacion")
 
-    # Gráfico de energía renovable vs no renovable
+    # Gráfico de líneas para la opción de últimos días:
     if seleccion == "Últimos días":
         dias = st.selectbox("Selecciona el rango de días:", [7, 14, 30], key="select_dias_generacion")
         fecha_max = df_generacion['fecha'].max()
@@ -38,6 +38,7 @@ def Generacion(df_generacion):
         fig_generacion.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
         st.plotly_chart(fig_generacion)
 
+    # Gráfico de líneas para la opción de rango de fechas:
     else:
         fecha_min_total = df_generacion['fecha'].min()
         fecha_max_total = df_generacion['fecha'].max()
@@ -79,11 +80,9 @@ def Generacion(df_generacion):
     st.markdown("<div style='height:30px;'></div>", unsafe_allow_html=True)
     st.write("**⚙️ Distribución de tipo de energia por años**")
 
-    modo_seleccion = st.radio(
-        "Modo de visualización:",
-        options=["Todos", "Las más importantes"],
-        key="grafico_fuentes"
-    )
+    # Seleccionamos por todas o las mas importantes:
+    modo_seleccion = st.radio("Modo de visualización:", options=["Todos", "Las más importantes"], key="grafico_fuentes")
+    
     indicadores_importantes = [
         "Solar fotovoltaica",
         "Carbón",
@@ -93,8 +92,11 @@ def Generacion(df_generacion):
         "Cogeneración"
     ]
 
+    # Seleccionamos todas:
     if modo_seleccion == "Todos":
         df_filtrado1 = df_generacion
+
+    # Seleccionamos las mas importantes:
     else:
         df_filtrado1 = df_generacion[df_generacion['indicador'].isin(indicadores_importantes)]
 
@@ -137,8 +139,9 @@ def Generacion(df_generacion):
     df_comparar = df_generacion[df_generacion['año'].isin(años)].copy()
 
     df_comparar['valor'] = pd.to_numeric(df_comparar['valor'], errors='coerce')
+    
+    # Hacemos la tabla de estadísticas:
     estadisticas_por_año = []
-
     for año in años:
         valores = df_comparar[df_comparar['año'] == año]['valor']
         stats = valores.describe()
@@ -177,6 +180,7 @@ def Generacion(df_generacion):
 
     ver_año_entero = st.checkbox("Comparar el año completo", key="ver_año_entero_generacion")
 
+    # Comparamos por meses:
     if not ver_año_entero:
         meses_unicos = df_comparar['nombre_mes'].unique().tolist()
         meses_disponibles = [mes for mes in meses if mes in meses_unicos]
@@ -191,6 +195,7 @@ def Generacion(df_generacion):
 
     df_filtrado['dia_mes'] = df_filtrado['fecha'].dt.strftime('%d-%b')
 
+    # Comparamos por años completos
     if ver_año_entero:
         df_filtrado['mes'] = df_filtrado['fecha'].dt.month
         df_filtrado['dia_del_año'] = df_filtrado['fecha'].dt.dayofyear
@@ -236,6 +241,7 @@ def Generacion(df_generacion):
 
     fig.update_traces(line=dict(width=2))
 
+    # Lineas estadísticas:
     estadisticas_filtradas = []
     for año in años:
         valores = df_filtrado[df_filtrado['año'] == año]['valor']

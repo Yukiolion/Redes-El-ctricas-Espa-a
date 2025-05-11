@@ -22,7 +22,7 @@ def Balance(df_balance):
     # Colocamos selector para elegir el tipo de visualización:
     seleccion = st.radio("Elegir tipo de grafico", ["Últimos días", "Rango fechas"], key="grafico_balance")
 
-    # Gráfico de líneas
+    # Gráfico de líneas para la opción de últimos días:
     if seleccion == "Últimos días":
         dias = st.selectbox("Selecciona el rango de días:", [7, 14, 30])
         fecha_max = df_balance['fecha'].max()
@@ -41,6 +41,7 @@ def Balance(df_balance):
         fig.update_layout(xaxis_title='Fecha', xaxis_tickformat=tickformat)
         st.plotly_chart(fig)
 
+    # Gráfico de líneas para la opción de rango de fechas:
     else:
         fecha_min_total = df_balance['fecha'].min()
         fecha_max_total = df_balance['fecha'].max()
@@ -114,13 +115,14 @@ def Balance(df_balance):
     st.markdown("<div style='height:30px;'></div>", unsafe_allow_html=True)
     st.write("**🔄 Comparación del Balance Eléctrico a lo largo de los años**")
 
+    # Agrupamos por energía y fecha
     df_balance = df_balance.groupby(['energia', 'fecha'], as_index=False)['valor'].sum()
-
     df_balance['año'] = df_balance['fecha'].dt.year
 
     año_inicio = df_balance['fecha'].dt.year.min()
     año_fin = df_balance['fecha'].dt.year.max()
 
+    # Filtramos por años:
     años_disponibles = list(range(año_inicio, año_fin + 1))
     año_1 = st.selectbox("Selecciona el primer año:", años_disponibles, key="año_1_balance")
     año_2 = st.selectbox("Selecciona el segundo año:", años_disponibles, key="año_2_balance")
@@ -131,6 +133,7 @@ def Balance(df_balance):
     df_comparar['valor'] = pd.to_numeric(df_comparar['valor'], errors='coerce')
     df_comparar['energia_año'] = df_comparar['energia'] + ' ' + df_comparar['año'].astype(str)
 
+    # Hacemos la tabla de estadísticas:
     estadisticas_por_año = []
     for año in años:
         valores = df_comparar[df_comparar['año'] == año]['valor'].dropna()
@@ -155,6 +158,7 @@ def Balance(df_balance):
     st.write("Comparación del intercambio eléctrico por país entre los años seleccionados.")
     ver_año_entero = st.checkbox("Comparar el año completo", key="ver_año_intercambio_balance")
 
+    # Comparamos por meses:
     if not ver_año_entero:
         meses_unicos = df_comparar['nombre_mes'].unique().tolist()
         meses_disponibles = [mes for mes in meses if mes in meses_unicos]
@@ -175,6 +179,7 @@ def Balance(df_balance):
 
     mostrar_estadisticas = st.checkbox("Mostrar líneas de media, mediana, máximo y mínimo", key="estadisticas_intercambio_balance")
 
+    # Comparamos por años completos
     if ver_año_entero:
         df_filtrado['dia_del_año'] = df_filtrado['fecha'].dt.dayofyear
         mes_ticks = df_filtrado.groupby(['energia','mes'])['dia_del_año'].min().sort_index()
@@ -214,6 +219,7 @@ def Balance(df_balance):
 
     fig.update_traces(line=dict(width=1))
 
+    # Lineas estadísticas:
     if mostrar_estadisticas:
         estadisticas_filtradas = []
         for año in años:

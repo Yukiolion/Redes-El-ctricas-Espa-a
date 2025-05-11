@@ -206,6 +206,7 @@ def Intercambio(df_intercambio):
     df_comparar['valor'] = pd.to_numeric(df_comparar['valor'], errors='coerce')
     df_comparar['pais_año'] = df_comparar['pais'] + ' ' + df_comparar['año'].astype(str)
 
+    # Hacemos la tabla de estadísticas:
     estadisticas_por_año = []
     for año in años:
         valores = df_comparar[df_comparar['año'] == año]['valor']
@@ -233,6 +234,7 @@ def Intercambio(df_intercambio):
     st.write("Comparación del intercambio eléctrico por país entre los años seleccionados.")
     ver_año_entero = st.checkbox("Comparar el año completo", key="ver_año_intercambio")
 
+    # Comparamos por meses:
     if not ver_año_entero:
         meses_unicos = df_comparar['nombre_mes'].unique().tolist()
         meses_disponibles = [mes for mes in meses if mes in meses_unicos]
@@ -253,6 +255,7 @@ def Intercambio(df_intercambio):
 
     mostrar_estadisticas = st.checkbox("Mostrar líneas de media, mediana, máximo y mínimo", key="estadisticas_intercambio")
 
+    # Comparamos por años completos
     if ver_año_entero:
         df_filtrado['dia_del_año'] = df_filtrado['fecha'].dt.dayofyear
 
@@ -295,6 +298,7 @@ def Intercambio(df_intercambio):
 
     fig.update_traces(line=dict(width=2))
 
+    # Lineas estadísticas:
     if mostrar_estadisticas:
         estadisticas_filtradas = []
         for año in años:
