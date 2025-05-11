@@ -2,6 +2,8 @@ from dotenv import load_dotenv
 import mysql.connector
 import os
 
+# Con esta funcion cargamos las variables de entorno
+# para poder conectarnos a la base de datos
 load_dotenv()
 
 db_host = os.getenv("DATABASE_HOST")

@@ -52,6 +52,9 @@ filtro_servicios = '/es/datos/demanda/ire-servicios'
 filtro_generacion = "/es/datos/generacion/estructura-generacion"
 filtro_renovable = "/es/datos/generacion/evolucion-renovable-no-renovable"
 
+
+#%%
+# Creamos Funciones para descargar los datos de la API de REE
 # %%
 def Balance_electrico(filtro_balance, URL, HEADERS, today, last_db_date):
     # Verificación de tipo de fechas
@@ -545,6 +548,9 @@ def fronteras(URL, HEADERS, today, last_db_date):
     return df_fronteras
 
 # %%
+# Creamos una funcion general que ejecute todas las funciones de extraccion
+# obteninedo la ultima fecha de la base de datos y la fecha actual para decidir si se
+# realiza la extraccion o los datos ya estan actualizados
 def extraccion():
 
     conn = db_connect()
@@ -868,6 +874,8 @@ def carga_generacion(df_generacion_limpio):
     return True
 
 # %%
+# Esta seria la funcion final, que ejecuta la funcion maestra de extraccion, las funciones de limpieza y finalmente
+# las funciones de carga a la base de datos
 def update():
     # EXTRACCIÓN
     dataframes = extraccion()

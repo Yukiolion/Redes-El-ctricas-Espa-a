@@ -11,7 +11,7 @@ def About():
     st.title('About Us:')
     st.subheader('Conocenos un poco más!!')
 
-
+    # Se crean las columnas para cada miembro del equipo
     andre, eduardo, luisa, samuel = st.columns(4, vertical_alignment="center")
 
     with andre:
